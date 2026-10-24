@@ -136,6 +136,7 @@ export default function Inicio() {
           </View>
         );
       })}
+      <Botao tipo="secundario" titulo="📏 Já sei um pouco: teste de nivelamento" onPress={() => router.push('/nivelamento')} />
       <Botao tipo="texto" titulo="Trocar de perfil" onPress={() => router.replace('/')} />
     </Tela>
   );

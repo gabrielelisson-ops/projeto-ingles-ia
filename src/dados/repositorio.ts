@@ -215,3 +215,8 @@ export async function contarPalavras(db: Banco, perfilId: number): Promise<numbe
 export async function listarAulasFeitas(db: Banco, perfilId: number): Promise<{ aula_id: string; acertos: number }[]> {
   return db.getAllAsync('SELECT aula_id, acertos FROM aulas_concluidas WHERE perfil_id = ?', [perfilId]);
 }
+
+export async function definirNivelInicial(db: Banco, perfilId: number, nivel: string): Promise<void> {
+  if (!['A1', 'A2', 'B1', 'B2', 'C1'].includes(nivel)) throw new Error('Nível inválido.');
+  await db.runAsync('UPDATE perfis SET nivel_inicial = ? WHERE id = ?', [nivel, perfilId]);
+}

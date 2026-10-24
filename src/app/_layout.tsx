@@ -39,6 +39,8 @@ export default function Layout() {
             <Stack.Screen name="revisao" options={{ title: 'Revisão do dia' }} />
             <Stack.Screen name="pronuncia" options={{ title: 'Pronúncia' }} />
             <Stack.Screen name="conversa/[id]" options={{ title: 'Conversa' }} />
+            <Stack.Screen name="nivelamento" options={{ title: 'Nivelamento' }} />
+            <Stack.Screen name="juntos" options={{ title: 'Estudar juntos' }} />
             <Stack.Screen name="configuracoes" options={{ title: 'Configurações' }} />
           </Stack>
         </AppProvider>

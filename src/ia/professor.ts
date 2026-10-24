@@ -5,7 +5,16 @@
 import { z } from 'zod';
 import { notaDaTarefa } from '../logica/notas';
 import { MODELO_AVALIACAO_PADRAO, MODELO_CONVERSA_PADRAO, pedirJSON, type Mensagem } from './gemini';
-import { promptAvaliador, promptProfessor, type ContextoAvaliador, type ContextoProfessor } from './prompts';
+import {
+  promptAvaliador,
+  promptDupla,
+  promptNivelamento,
+  promptProfessor,
+  type ContextoAvaliador,
+  type ContextoDupla,
+  type ContextoProfessor,
+} from './prompts';
+import { NIVEIS } from '../conteudo/schema';
 
 const txt = (max: number) => z.string().transform((s) => s.trim().slice(0, max));
 
@@ -136,4 +145,76 @@ export function transcricaoEntrevista(falas: Mensagem[]): string {
     .map((f) => `${f.papel === 'aluno' ? 'ALUNO' : 'EXAMINADOR'}: ${f.texto.replace(/\s+/g, ' ').trim().slice(0, 400)}`)
     .join('\n')
     .slice(0, 6000);
+}
+
+export const NivelFalaSchema = z.object({
+  nivel: z.enum(NIVEIS),
+  justificativa_pt: txt(400).catch(''),
+});
+export type NivelFala = z.infer<typeof NivelFalaSchema>;
+
+/** Nivelamento: estima o nível da fala. Fala vazia ou curtíssima = A1, sem gastar chamada. */
+export async function estimarNivelFala(chave: string, modelos: ModelosIA, transcricao: string, fetchFn?: typeof fetch): Promise<NivelFala> {
+  const texto = transcricao.trim().slice(0, 2000);
+  if (texto.split(/\s+/).length < 5) return { nivel: 'A1', justificativa_pt: 'A fala foi muito curta para avaliar.' };
+  return pedirJSON({
+    chave,
+    modelos: [modelos.avaliacao, modelos.conversa],
+    sistema: promptNivelamento(),
+    mensagens: [{ papel: 'aluno', texto: `Transcrição:\n"""\n${texto}\n"""` }],
+    schema: NivelFalaSchema,
+    temperatura: 0.2,
+    fetchFn,
+  });
+}
+
+// ---------- Estudar juntos ----------
+
+export type FalaDupla = { quem: string | null; texto: string };
+
+export const RespostaDuplaSchema = z.object({
+  resposta: txt(1200).refine((s) => s.length > 0),
+  traducao_pt: txt(1200).catch(''),
+  correcoes: z
+    .array(CorrecaoSchema.extend({ aluno: txt(30).catch('') }))
+    .catch([]),
+  proximo: txt(30).catch(''),
+  dica: txt(300).catch(''),
+});
+export type RespostaDupla = Omit<z.infer<typeof RespostaDuplaSchema>, 'proximo'> & { proximo: string };
+
+/**
+ * Conversa com dois alunos. As correções só valem para os dois nomes da dupla
+ * (no máximo uma por aluno) e "proximo" é sempre um dos dois.
+ */
+export async function falarComDupla(
+  chave: string,
+  modelos: ModelosIA,
+  ctx: ContextoDupla,
+  historico: FalaDupla[],
+  fetchFn?: typeof fetch,
+): Promise<RespostaDupla> {
+  const msgs: Mensagem[] = historico.map((f) =>
+    f.quem ? { papel: 'aluno', texto: `[${f.quem}]: ${f.texto.slice(0, MAX_FALA_ALUNO)}` } : { papel: 'professor', texto: f.texto },
+  );
+  const abertura = msgs[0]?.papel === 'professor' ? msgs[0].texto : '';
+  const r = await pedirJSON({
+    chave,
+    modelos: [modelos.conversa, modelos.avaliacao],
+    sistema: promptDupla(ctx) + (abertura ? `\n\nVocê abriu a conversa dizendo: "${abertura.slice(0, 300)}"` : ''),
+    mensagens: prepararHistorico(msgs),
+    schema: RespostaDuplaSchema,
+    temperatura: 0.8,
+    fetchFn,
+  });
+  const [a, b] = ctx.nomes;
+  const ultimo = [...historico].reverse().find((f) => f.quem)?.quem;
+  const vistos = new Set<string>();
+  const correcoes = r.correcoes.filter((c) => {
+    if ((c.aluno !== a && c.aluno !== b) || !c.errado || !c.certo || vistos.has(c.aluno)) return false;
+    vistos.add(c.aluno);
+    return true;
+  });
+  const proximo = r.proximo === a || r.proximo === b ? r.proximo : ultimo === a ? b : a;
+  return { ...r, correcoes, proximo };
 }

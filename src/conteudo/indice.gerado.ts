@@ -94,4 +94,6 @@ export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown 
 
 export const FINAIS_BRUTAS: unknown[] = [require('../../conteudo/a1/final.json')];
 
+export const NIVELAMENTO_BRUTO: unknown = require('../../conteudo/nivelamento.json');
+
 export const ROLEPLAYS_BRUTOS: unknown = require('../../conteudo/roleplays.json');

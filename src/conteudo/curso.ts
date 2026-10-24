@@ -5,11 +5,12 @@
  * aparece em Configurações › "Conteúdo", para você corrigir o JSON.
  */
 import type { EstruturaNivel } from '../logica/desbloqueio';
-import { CURRICULO_BRUTO, FINAIS_BRUTAS, ROLEPLAYS_BRUTOS, UNIDADES_BRUTAS } from './indice.gerado';
+import { CURRICULO_BRUTO, FINAIS_BRUTAS, NIVELAMENTO_BRUTO, ROLEPLAYS_BRUTOS, UNIDADES_BRUTAS } from './indice.gerado';
 import {
   CurriculoSchema,
   descreverErros,
   NIVEIS,
+  NivelamentoSchema,
   ProvaSchema,
   RoleplaysSchema,
   UnidadeMetaSchema,
@@ -17,6 +18,7 @@ import {
   type Aula,
   type Curriculo,
   type Nivel,
+  type Nivelamento,
   type Prova,
   type Roleplay,
   type Unidade,
@@ -28,6 +30,8 @@ export type Curso = {
   /** Provas finais por nível (Fase 2). */
   finais: Partial<Record<Nivel, Prova>>;
   roleplays: Roleplay[];
+  juntos: Roleplay[];
+  nivelamento: Nivelamento | null;
   erros: string[];
 };
 
@@ -36,6 +40,7 @@ export function montarCurso(
   unidadesBrutas: readonly { meta: unknown; aulas: unknown[]; prova: unknown }[],
   finaisBrutas: readonly unknown[] = [],
   roleplaysBrutos: unknown = { roleplays: [] },
+  nivelamentoBruto: unknown = null,
 ): Curso {
   const erros: string[] = [];
   const curr = CurriculoSchema.safeParse(curriculoBruto);
@@ -58,12 +63,18 @@ export function montarCurso(
   }
   const rp = RoleplaysSchema.safeParse(roleplaysBrutos);
   if (!rp.success) erros.push(...descreverErros(rp.error).map((e) => `roleplays.json: ${e}`));
-  return { curriculo: curr.data, unidades, finais, roleplays: rp.success ? rp.data.roleplays : [], erros };
+  let nivelamento: Nivelamento | null = null;
+  if (nivelamentoBruto != null) {
+    const nv = NivelamentoSchema.safeParse(nivelamentoBruto);
+    if (nv.success) nivelamento = nv.data;
+    else erros.push(...descreverErros(nv.error).map((e) => `nivelamento.json: ${e}`));
+  }
+  return { curriculo: curr.data, unidades, finais, roleplays: rp.success ? rp.data.roleplays : [], juntos: rp.success ? rp.data.juntos : [], nivelamento, erros };
 }
 
 let cache: Curso | null = null;
 export function curso(): Curso {
-  if (!cache) cache = montarCurso(CURRICULO_BRUTO, UNIDADES_BRUTAS, FINAIS_BRUTAS, ROLEPLAYS_BRUTOS);
+  if (!cache) cache = montarCurso(CURRICULO_BRUTO, UNIDADES_BRUTAS, FINAIS_BRUTAS, ROLEPLAYS_BRUTOS, NIVELAMENTO_BRUTO);
   return cache;
 }
 

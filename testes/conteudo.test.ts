@@ -104,6 +104,7 @@ describe('conteúdo do curso', () => {
     expect(c.roleplays.map((r) => r.id)).toEqual([
       'entrevista-emprego', 'reuniao-trabalho', 'restaurante', 'aeroporto', 'hotel', 'medico', 'ligacao', 'negociacao-fornecedor',
     ]);
+    expect(c.juntos.length).toBeGreaterThanOrEqual(4);
   });
 
   test('o A1 está completo: 8 unidades e prova final', () => {
