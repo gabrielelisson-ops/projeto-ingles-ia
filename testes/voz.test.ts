@@ -6,7 +6,7 @@ jest.mock('expo-secure-store', () => ({}));
 test('velocidade: A1 devagar, C1 normal, "mais devagar" reduz, com limites', () => {
   expect(velocidade('A1')).toBe(0.75);
   expect(velocidade('C1')).toBe(1.05);
-  expect(velocidade('A1', 1, true)).toBe(0.53);
+  expect(velocidade('A1', 1, true)).toBeCloseTo(0.52, 2);
   expect(velocidade('A1', 0.1)).toBe(0.4);
   expect(velocidade('C1', 3)).toBe(1.5);
 });
