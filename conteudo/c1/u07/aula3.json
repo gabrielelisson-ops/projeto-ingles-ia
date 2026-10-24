@@ -1,0 +1,360 @@
+{
+  "id": "c1-u07-l3",
+  "nivel": "C1",
+  "unidade": 7,
+  "numero": 3,
+  "titulo": "MRP and scheduling",
+  "objetivo_pt": "Explicar MRP, lista de materiais e programação de produção; lidar com mudanças de última hora.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como funciona o planejamento de materiais e a programação na sua empresa. Depois, ele traz uma mudança urgente de programação.",
+    "papel_professor": "Pergunte sobre MRP, BOM, lot size, MPS, frozen period. Depois traga uma mudança urgente (A customer moved their order forward by a week). O aluno avalia impacto e reprograma. Corrija.",
+    "abertura": "How do you plan materials at your company? Do you use an MRP system?",
+    "abertura_pt": "Como vocês planejam materiais na sua empresa? Usam um sistema MRP?"
+  },
+  "vocabulario": [
+    {
+      "id": "mrp",
+      "en": "MRP (material requirements planning)",
+      "pt": "MRP (planejamento de necessidades de materiais)",
+      "emoji": "🧮",
+      "exemplo_en": "The MRP calculates what we need to buy.",
+      "exemplo_pt": "O MRP calcula o que precisamos comprar."
+    },
+    {
+      "id": "bom",
+      "en": "BOM (bill of materials)",
+      "pt": "lista de materiais",
+      "emoji": "🧾",
+      "exemplo_en": "The BOM lists every component.",
+      "exemplo_pt": "A lista de materiais traz cada componente."
+    },
+    {
+      "id": "mps",
+      "en": "master production schedule (MPS)",
+      "pt": "plano mestre de produção",
+      "emoji": "📅",
+      "exemplo_en": "The MPS is updated every week.",
+      "exemplo_pt": "O plano mestre é atualizado toda semana."
+    },
+    {
+      "id": "lot-size",
+      "en": "lot size / batch size",
+      "pt": "tamanho de lote",
+      "emoji": "📦",
+      "exemplo_en": "Larger lot sizes reduce changeovers.",
+      "exemplo_pt": "Lotes maiores reduzem as trocas."
+    },
+    {
+      "id": "frozen",
+      "en": "frozen period / frozen zone",
+      "pt": "período congelado",
+      "emoji": "🧊",
+      "exemplo_en": "The first two weeks of the schedule are frozen.",
+      "exemplo_pt": "As duas primeiras semanas da programação são congeladas."
+    },
+    {
+      "id": "reschedule",
+      "en": "reschedule / bring forward / push back",
+      "pt": "reprogramar / antecipar / adiar",
+      "emoji": "🔁",
+      "exemplo_en": "The customer brought the order forward.",
+      "exemplo_pt": "O cliente antecipou o pedido."
+    },
+    {
+      "id": "changeover-l3",
+      "en": "changeover / setup time",
+      "pt": "troca / tempo de setup",
+      "emoji": "🔧",
+      "exemplo_en": "Each changeover takes 45 minutes.",
+      "exemplo_pt": "Cada troca leva 45 minutos."
+    },
+    {
+      "id": "sequence",
+      "en": "sequence (production)",
+      "pt": "sequenciar (produção)",
+      "emoji": "🔢",
+      "exemplo_en": "We need to resequence the orders.",
+      "exemplo_pt": "Precisamos resequenciar os pedidos."
+    },
+    {
+      "id": "knock-on",
+      "en": "knock-on effect",
+      "pt": "efeito cascata",
+      "emoji": "🎳",
+      "exemplo_en": "This change will have a knock-on effect on other orders.",
+      "exemplo_pt": "Esta mudança terá efeito cascata em outros pedidos."
+    },
+    {
+      "id": "feasible",
+      "en": "feasible / not feasible",
+      "pt": "viável / inviável",
+      "emoji": "✔️",
+      "exemplo_en": "It's feasible, but it will be tight.",
+      "exemplo_pt": "É viável, mas vai ficar apertado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Explicando sistemas e avaliando mudanças",
+    "explicacao_pt": "Explicar como funciona (presente simples + passiva): The MRP takes the MPS and the BOM and calculates… / Orders are released… / The schedule is frozen for two weeks. Avaliar uma mudança: If we bring this order forward, we will have to push back… / This is bound to have a knock-on effect on… / It's feasible, provided that… / It's not feasible unless… Para mudanças, use phrasal verbs de agenda: bring forward (antecipar), push back / put back (adiar), fit in (encaixar), move up. Probabilidade: The delay is likely to affect…",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Explicar",
+          "The MRP takes… and calculates…",
+          "The MRP takes the BOM and calculates what to buy."
+        ],
+        [
+          "Antecipar",
+          "bring forward",
+          "The customer brought the order forward by a week."
+        ],
+        [
+          "Adiar",
+          "push back",
+          "We will have to push back two orders."
+        ],
+        [
+          "Efeito",
+          "knock-on effect",
+          "This will have a knock-on effect on line 2."
+        ],
+        [
+          "Viabilidade",
+          "It's feasible, provided that…",
+          "It's feasible, provided that the parts arrive Monday."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The MRP takes the master schedule and the bill of materials and calculates exactly what we need to buy and when.",
+        "pt": "O MRP pega o plano mestre e a lista de materiais e calcula exatamente o que precisamos comprar e quando."
+      },
+      {
+        "en": "The first two weeks of the schedule are frozen, so changes are only accepted in exceptional cases.",
+        "pt": "As duas primeiras semanas da programação são congeladas, então mudanças só são aceitas em casos excepcionais."
+      },
+      {
+        "en": "If we bring this order forward, we'll have to push back two others, which is bound to have a knock-on effect.",
+        "pt": "Se antecipamos este pedido, teremos que adiar outros dois, o que com certeza terá efeito cascata."
+      },
+      {
+        "en": "It's feasible, provided that the supplier can deliver the components by Monday.",
+        "pt": "É viável, desde que o fornecedor entregue os componentes até segunda."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A last-minute change",
+    "falas": [
+      {
+        "personagem": "Sales",
+        "voz": "a",
+        "en": "Bad news. Our biggest customer wants to bring their order forward by one week.",
+        "pt": "Má notícia. Nosso maior cliente quer antecipar o pedido em uma semana."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "One week? That's inside our frozen period. Let me check what's feasible.",
+        "pt": "Uma semana? Está dentro do nosso período congelado. Deixe-me ver o que é viável."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "If we bring it forward, we'll have to push back two smaller orders. And we'll need an extra changeover on line 1, which takes about 45 minutes.",
+        "pt": "Se antecipamos, teremos que adiar dois pedidos menores. E vamos precisar de uma troca extra na linha 1, que leva uns 45 minutos."
+      },
+      {
+        "personagem": "Sales",
+        "voz": "a",
+        "en": "Do we have the materials?",
+        "pt": "Temos os materiais?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "According to the MRP, we're short of one component — the plastic housing. It's feasible, provided that the supplier can deliver by Thursday.",
+        "pt": "Segundo o MRP, falta um componente — a carcaça plástica. É viável, desde que o fornecedor entregue até quinta."
+      },
+      {
+        "personagem": "Sales",
+        "voz": "a",
+        "en": "And the two customers whose orders would be pushed back?",
+        "pt": "E os dois clientes cujos pedidos seriam adiados?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "They're unlikely to complain — their delivery dates are flexible. But I'd call them first, just in case.",
+        "pt": "É improvável que reclamem — as datas de entrega deles são flexíveis. Mas eu ligaria para eles antes, por precaução."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the customer want?",
+        "opcoes": [
+          "To bring the order forward by one week",
+          "To cancel the order",
+          "To double the order"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What will happen to two smaller orders?",
+        "opcoes": [
+          "They'll be pushed back.",
+          "They'll be canceled.",
+          "Nothing."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Which component is missing?",
+        "opcoes": [
+          "The plastic housing",
+          "The motor",
+          "The label"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l3-e4",
+        "tipo": "multipla",
+        "enunciado": "Are the other two customers likely to complain?",
+        "opcoes": [
+          "Yes, very likely",
+          "No, unlikely"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u07l3-p1",
+      "tipo": "completar",
+      "frase": "The ___ lists every component. (lista de materiais)",
+      "respostas": [
+        "BOM"
+      ]
+    },
+    {
+      "id": "c1u07l3-p2",
+      "tipo": "completar",
+      "frase": "The customer brought the order ___. (antecipou)",
+      "respostas": [
+        "forward"
+      ]
+    },
+    {
+      "id": "c1u07l3-p3",
+      "tipo": "completar",
+      "frase": "It's ___, but it will be tight. (viável)",
+      "respostas": [
+        "feasible"
+      ]
+    },
+    {
+      "id": "c1u07l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Vamos ter que adiar dois pedidos\":",
+      "opcoes": [
+        "We'll have to push back two orders.",
+        "We'll have to push two orders forward.",
+        "We'll have to back push two orders."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Terá efeito cascata\":",
+      "opcoes": [
+        "It will have a knock-on effect.",
+        "It will have a domino affect.",
+        "It will knock the effect on."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l3-p6",
+      "tipo": "ordenar",
+      "frase": "The MPS is updated every week",
+      "traducao_pt": "O plano mestre é atualizado toda semana"
+    },
+    {
+      "id": "c1u07l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The first two weeks of the schedule are frozen."
+    },
+    {
+      "id": "c1u07l3-p8",
+      "tipo": "traduzir",
+      "pt": "Cada troca leva 45 minutos.",
+      "respostas": [
+        "Each changeover takes 45 minutes.",
+        "Each changeover takes forty-five minutes.",
+        "Every changeover takes 45 minutes."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor como funciona o planejamento de materiais e a programação na sua empresa. Depois ele trará 2 mudanças de última hora; avalie a viabilidade, o efeito cascata e proponha a solução.",
+    "papel_professor": "Peça a explicação do sistema. Depois traga 2 mudanças (rush order; supplier delay). O aluno avalia (feasible provided that…, knock-on effect, push back). Corrija.",
+    "abertura": "First, explain how materials and schedules are planned in your company. Then I'll give you a problem.",
+    "abertura_pt": "Primeiro, explique como materiais e programação são planejados na sua empresa. Depois te dou um problema."
+  },
+  "teste": [
+    {
+      "id": "c1u07l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Viabilidade com condição:",
+      "opcoes": [
+        "It's feasible, provided that the parts arrive Monday.",
+        "It's feasible if maybe parts come.",
+        "Feasible is if parts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l3-t2",
+      "tipo": "completar",
+      "frase": "Larger lot ___ reduce changeovers.",
+      "respostas": [
+        "sizes"
+      ]
+    },
+    {
+      "id": "c1u07l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The MRP calculates what we need to buy."
+    },
+    {
+      "id": "c1u07l3-t4",
+      "tipo": "traduzir",
+      "pt": "Precisamos resequenciar os pedidos.",
+      "respostas": [
+        "We need to resequence the orders.",
+        "We need to re-sequence the orders."
+      ]
+    },
+    {
+      "id": "c1u07l3-t5",
+      "tipo": "ordenar",
+      "frase": "This change will have a knock-on effect",
+      "traducao_pt": "Esta mudança terá efeito cascata"
+    }
+  ]
+}

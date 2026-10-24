@@ -1,0 +1,367 @@
+{
+  "id": "c1-u08-l5",
+  "nivel": "C1",
+  "unidade": 8,
+  "numero": 5,
+  "titulo": "The diplomat",
+  "objetivo_pt": "Lidar com conflito e pressão mantendo o tom diplomático; revisão de todo o C1.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: pense numa situação em que alguém conseguiu resolver um conflito difícil com muita habilidade. O que essa pessoa fez?",
+    "papel_professor": "Peça o exemplo. Ensine técnicas de desescalada (acknowledge, reframe, find common ground, propose). Conecte com toda a linguagem do C1 (cleft, hedging, concessão, registro).",
+    "abertura": "Think of someone you know who is very good at handling conflict. What do they do?",
+    "abertura_pt": "Pense em alguém que você conhece que lida muito bem com conflitos. O que essa pessoa faz?"
+  },
+  "vocabulario": [
+    {
+      "id": "acknowledge",
+      "en": "acknowledge",
+      "pt": "reconhecer",
+      "emoji": "🙏",
+      "exemplo_en": "I acknowledge that we made a mistake.",
+      "exemplo_pt": "Reconheço que cometemos um erro."
+    },
+    {
+      "id": "common-ground",
+      "en": "find common ground",
+      "pt": "encontrar pontos em comum",
+      "emoji": "🤝",
+      "exemplo_en": "Let's try to find some common ground.",
+      "exemplo_pt": "Vamos tentar encontrar pontos em comum."
+    },
+    {
+      "id": "reframe",
+      "en": "reframe",
+      "pt": "reformular (a questão)",
+      "emoji": "🖼️",
+      "exemplo_en": "Let me reframe the question.",
+      "exemplo_pt": "Deixe-me reformular a questão."
+    },
+    {
+      "id": "de-escalate",
+      "en": "de-escalate",
+      "pt": "acalmar (uma situação)",
+      "emoji": "🧯",
+      "exemplo_en": "She managed to de-escalate the situation.",
+      "exemplo_pt": "Ela conseguiu acalmar a situação."
+    },
+    {
+      "id": "where-coming-from",
+      "en": "I can see where you're coming from",
+      "pt": "Entendo seu ponto de vista",
+      "emoji": "👁️",
+      "exemplo_en": "I can see where you're coming from.",
+      "exemplo_pt": "Entendo de onde vem sua posição."
+    },
+    {
+      "id": "both-want",
+      "en": "What we both want is…",
+      "pt": "O que nós dois queremos é…",
+      "emoji": "🎯",
+      "exemplo_en": "What we both want is a reliable supply.",
+      "exemplo_pt": "O que nós dois queremos é um fornecimento confiável."
+    },
+    {
+      "id": "move-forward-l5",
+      "en": "How can we move forward?",
+      "pt": "Como podemos seguir em frente?",
+      "emoji": "➡️",
+      "exemplo_en": "So, how can we move forward from here?",
+      "exemplo_pt": "Então, como podemos seguir em frente a partir daqui?"
+    },
+    {
+      "id": "heated",
+      "en": "heated / tense",
+      "pt": "acalorado / tenso",
+      "emoji": "🔥",
+      "exemplo_en": "The discussion got a bit heated.",
+      "exemplo_pt": "A discussão ficou um pouco acalorada."
+    },
+    {
+      "id": "take-step-back",
+      "en": "Let's take a step back",
+      "pt": "Vamos dar um passo atrás",
+      "emoji": "🔙",
+      "exemplo_en": "Let's take a step back and look at the facts.",
+      "exemplo_pt": "Vamos dar um passo atrás e olhar os fatos."
+    },
+    {
+      "id": "win-win-l5",
+      "en": "a win-win solution",
+      "pt": "uma solução ganha-ganha",
+      "emoji": "🏆",
+      "exemplo_en": "I'm sure we can find a win-win solution.",
+      "exemplo_pt": "Tenho certeza de que podemos achar uma solução ganha-ganha."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão do C1: a linguagem do diplomata",
+    "explicacao_pt": "Num conflito, combine tudo o que você aprendeu: 1) RECONHECER (do enfático + empatia): I do understand your frustration. / I can see where you're coming from. 2) ACALMAR: Let's take a step back. 3) CLEFT para focar no essencial: What we both want is… / What matters now is… 4) CONCESSÃO: Admittedly, we should have warned you earlier. However, … 5) HEDGING: Would you consider…? / It might be worth… 6) REGISTRO adequado ao interlocutor. 7) LER NAS ENTRELINHAS e confirmar: Just to make sure I understand… 8) PROPOR: How can we move forward? / What if we…? 9) FECHAR: So, just to confirm what we've agreed…",
+    "tabela": {
+      "colunas": [
+        "Técnica",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Reconhecer",
+          "I do understand…",
+          "I do understand why you're upset."
+        ],
+        [
+          "Acalmar",
+          "Let's take a step back.",
+          "Let's take a step back and look at the facts."
+        ],
+        [
+          "Foco (cleft)",
+          "What we both want is…",
+          "What we both want is a long-term partnership."
+        ],
+        [
+          "Concessão",
+          "Admittedly, …, but…",
+          "Admittedly, we were late, but the quality was perfect."
+        ],
+        [
+          "Avançar",
+          "How can we move forward?",
+          "How can we move forward from here?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I do understand your frustration, and I can see where you're coming from.",
+        "pt": "Eu entendo sim sua frustração, e consigo ver de onde vem sua posição."
+      },
+      {
+        "en": "Let's take a step back. What we both want is a reliable, long-term partnership.",
+        "pt": "Vamos dar um passo atrás. O que nós dois queremos é uma parceria confiável e de longo prazo."
+      },
+      {
+        "en": "Admittedly, we should have informed you earlier. That said, the new process will prevent this in the future.",
+        "pt": "É verdade que deveríamos ter informado antes. Dito isso, o novo processo vai evitar isso no futuro."
+      },
+      {
+        "en": "So, how can we move forward? Would you consider a three-month trial with weekly reviews?",
+        "pt": "Então, como podemos seguir em frente? Vocês considerariam um teste de três meses com revisões semanais?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "De-escalating a conflict",
+    "falas": [
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "This is the third time this year! Frankly, we're thinking of changing suppliers.",
+        "pt": "É a terceira vez este ano! Francamente, estamos pensando em trocar de fornecedor."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "I do understand your frustration, and I won't make excuses. Admittedly, we should have warned you as soon as we knew about the problem.",
+        "pt": "Eu entendo sim sua frustração, e não vou dar desculpas. É verdade que deveríamos ter avisado assim que soubemos do problema."
+      },
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "Exactly. We found out from our own warehouse.",
+        "pt": "Exatamente. Ficamos sabendo pelo nosso próprio armazém."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Let's take a step back for a moment. We've worked together for eight years, and what we both want is a reliable supply.",
+        "pt": "Vamos dar um passo atrás por um momento. Trabalhamos juntos há oito anos, e o que nós dois queremos é um fornecimento confiável."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "What I'd like to propose is a dedicated account manager and a weekly status report. If anything changes, you'll know within 24 hours.",
+        "pt": "O que eu gostaria de propor é um gerente de conta dedicado e um relatório semanal de status. Se algo mudar, vocês saberão em 24 horas."
+      },
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "That would certainly help.",
+        "pt": "Isso certamente ajudaria."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Would you consider giving us three months to prove it? We'll review the results together at the end.",
+        "pt": "Vocês considerariam nos dar três meses para provar? Revisaremos os resultados juntos no final."
+      },
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "All right. Three months. But this is your last chance.",
+        "pt": "Está bem. Três meses. Mas esta é a última chance de vocês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many times has the problem happened this year?",
+        "opcoes": [
+          "Twice",
+          "Three times",
+          "Five times"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u08l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How did the client find out about the problem?",
+        "opcoes": [
+          "From their own warehouse",
+          "From an e-mail",
+          "From the director"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How long have they worked together?",
+        "opcoes": [
+          "Three years",
+          "Eight years",
+          "Twelve years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u08l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the director propose?",
+        "opcoes": [
+          "A dedicated account manager and a weekly status report",
+          "A 20% discount",
+          "Free products"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u08l5-p1",
+      "tipo": "completar",
+      "frase": "I can see where you're coming ___.",
+      "respostas": [
+        "from"
+      ]
+    },
+    {
+      "id": "c1u08l5-p2",
+      "tipo": "completar",
+      "frase": "Let's take a step ___.",
+      "respostas": [
+        "back"
+      ]
+    },
+    {
+      "id": "c1u08l5-p3",
+      "tipo": "completar",
+      "frase": "Let's try to find some common ___.",
+      "respostas": [
+        "ground"
+      ]
+    },
+    {
+      "id": "c1u08l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Foco no objetivo comum:",
+      "opcoes": [
+        "What we both want is a reliable supply.",
+        "What you want is not my problem.",
+        "We both want, what is supply."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Como podemos seguir em frente?\":",
+      "opcoes": [
+        "How can we move forward?",
+        "How can we go front?",
+        "How we can move on forward?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l5-p6",
+      "tipo": "ordenar",
+      "frase": "She managed to de-escalate the situation",
+      "traducao_pt": "Ela conseguiu acalmar a situação"
+    },
+    {
+      "id": "c1u08l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The discussion got a bit heated."
+    },
+    {
+      "id": "c1u08l5-p8",
+      "tipo": "traduzir",
+      "pt": "Tenho certeza de que podemos achar uma solução ganha-ganha.",
+      "respostas": [
+        "I'm sure we can find a win-win solution.",
+        "I am sure we can find a win-win solution."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final do C1: o professor é um cliente (ou diretor) muito irritado com um problema grave causado pela sua área. Conduza a conversa como um diplomata: reconheça, acalme, faça concessões, foque no objetivo comum, proponha uma solução, leia nas entrelinhas e feche com um acordo claro.",
+    "papel_professor": "Seja um interlocutor muito irritado no início, que se acalma se o aluno usar boas técnicas. Use algumas frases indiretas (That's not ideal… I'll bear it in mind…). No fim, dê um retorno completo sobre tom, registro, estruturas do C1 e eficácia.",
+    "abertura": "I'll be honest with you: I'm extremely disappointed. We had a full line stop yesterday because of your parts. What's going on over there?",
+    "abertura_pt": "Vou ser honesto: estou extremamente decepcionado. Tivemos uma parada total de linha ontem por causa das suas peças. O que está acontecendo aí?"
+  },
+  "teste": [
+    {
+      "id": "c1u08l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Reconhecer com ênfase:",
+      "opcoes": [
+        "I do understand your frustration.",
+        "I understand do your frustration.",
+        "Your frustration is understood by nobody."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l5-t2",
+      "tipo": "completar",
+      "frase": "Let me ___ the question. (reformular)",
+      "respostas": [
+        "reframe"
+      ]
+    },
+    {
+      "id": "c1u08l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I acknowledge that we made a mistake."
+    },
+    {
+      "id": "c1u08l5-t4",
+      "tipo": "traduzir",
+      "pt": "Entendo de onde vem sua posição.",
+      "respostas": [
+        "I can see where you're coming from.",
+        "I can see where you are coming from.",
+        "I understand where you're coming from."
+      ]
+    },
+    {
+      "id": "c1u08l5-t5",
+      "tipo": "ordenar",
+      "frase": "Let's take a step back and look at the facts",
+      "traducao_pt": "Vamos dar um passo atrás e olhar os fatos"
+    }
+  ]
+}

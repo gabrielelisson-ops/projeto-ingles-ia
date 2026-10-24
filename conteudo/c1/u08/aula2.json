@@ -1,0 +1,357 @@
+{
+  "id": "c1-u08-l2",
+  "nivel": "C1",
+  "unidade": 8,
+  "numero": 2,
+  "titulo": "Softening criticism",
+  "objetivo_pt": "Dar feedback crítico e discordar de forma diplomática, suavizando a mensagem sem perder a clareza.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer críticas diretas demais. Reformule-as de forma diplomática, como faria com um colega ou subordinado.",
+    "papel_professor": "Dê críticas diretas (Your report is bad. You're always late. This idea is wrong.) e peça versões suaves (softeners: slightly, a bit, perhaps, I'm not sure… / could / might / it seems). Mostre o 'sandwich' e o foco no comportamento. Corrija.",
+    "abertura": "Make this feedback more diplomatic: 'Your report is bad. There are too many mistakes.'",
+    "abertura_pt": "Deixe este feedback mais diplomático: \"Seu relatório está ruim. Tem erros demais.\""
+  },
+  "vocabulario": [
+    {
+      "id": "softener",
+      "en": "softeners: a bit, slightly, rather",
+      "pt": "suavizadores: um pouco, levemente",
+      "emoji": "🪶",
+      "exemplo_en": "The report is a bit long.",
+      "exemplo_pt": "O relatório está um pouco longo."
+    },
+    {
+      "id": "not-entirely",
+      "en": "not entirely / not quite",
+      "pt": "não totalmente / não exatamente",
+      "emoji": "🤏",
+      "exemplo_en": "I'm not entirely convinced.",
+      "exemplo_pt": "Não estou totalmente convencido."
+    },
+    {
+      "id": "wonder-if-l2",
+      "en": "I wonder if… / I was wondering whether…",
+      "pt": "Fico pensando se… / Será que…",
+      "emoji": "🤔",
+      "exemplo_en": "I wonder if we could look at it again.",
+      "exemplo_pt": "Será que poderíamos revisar?"
+    },
+    {
+      "id": "might-be-worth",
+      "en": "It might be worth + -ing",
+      "pt": "Talvez valha a pena…",
+      "emoji": "💡",
+      "exemplo_en": "It might be worth checking the figures again.",
+      "exemplo_pt": "Talvez valha a pena conferir os números de novo."
+    },
+    {
+      "id": "seems",
+      "en": "It seems / appears that…",
+      "pt": "Parece que…",
+      "emoji": "👀",
+      "exemplo_en": "It seems that some data is missing.",
+      "exemplo_pt": "Parece que faltam alguns dados."
+    },
+    {
+      "id": "room-improvement",
+      "en": "room for improvement",
+      "pt": "espaço para melhoria",
+      "emoji": "📈",
+      "exemplo_en": "There's some room for improvement.",
+      "exemplo_pt": "Há algum espaço para melhoria."
+    },
+    {
+      "id": "constructive",
+      "en": "constructive feedback",
+      "pt": "feedback construtivo",
+      "emoji": "🧱",
+      "exemplo_en": "Thank you for the constructive feedback.",
+      "exemplo_pt": "Obrigado pelo feedback construtivo."
+    },
+    {
+      "id": "focus-behaviour",
+      "en": "focus on the behaviour, not the person",
+      "pt": "foque no comportamento, não na pessoa",
+      "emoji": "🎯",
+      "exemplo_en": "Focus on the behaviour, not the person.",
+      "exemplo_pt": "Foque no comportamento, não na pessoa."
+    },
+    {
+      "id": "not-sure-l2",
+      "en": "I'm not sure that's the best approach",
+      "pt": "Não sei se essa é a melhor abordagem",
+      "emoji": "🧭",
+      "exemplo_en": "I'm not sure that's the best approach.",
+      "exemplo_pt": "Não sei se essa é a melhor abordagem."
+    },
+    {
+      "id": "perhaps",
+      "en": "perhaps / possibly",
+      "pt": "talvez / possivelmente",
+      "emoji": "🤷",
+      "exemplo_en": "Perhaps we could try another option.",
+      "exemplo_pt": "Talvez pudéssemos tentar outra opção."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Suavizando críticas",
+    "explicacao_pt": "Técnicas: 1) QUALIFICADORES: a bit, slightly, rather, somewhat (The report is a bit long). 2) NEGATIVA DE ADJETIVO POSITIVO: not very clear (em vez de unclear), not entirely accurate (em vez de wrong). 3) MODAIS e condicional: could, might, would (Could you perhaps…? It might be worth…). 4) CONTÍNUO de polidez: I was wondering whether… 5) PARECER: It seems / appears that… 6) 'WE' em vez de 'YOU': Maybe we could… (divide a responsabilidade). 7) SANDUÍCHE: positivo → ponto de melhoria → positivo/encorajamento. 8) FOCO NO COMPORTAMENTO: 'The last three reports arrived late' em vez de 'You're always late'. Atenção: suavizar não é esconder — a mensagem deve continuar clara.",
+    "tabela": {
+      "colunas": [
+        "Direto (evite)",
+        "Diplomático",
+        "Técnica"
+      ],
+      "linhas": [
+        [
+          "Your report is bad.",
+          "The report has some good points, but it's not quite ready yet.",
+          "sanduíche + not quite"
+        ],
+        [
+          "You're always late.",
+          "I noticed the last three reports arrived after the deadline.",
+          "foco no fato"
+        ],
+        [
+          "This idea is wrong.",
+          "I'm not sure that's the best approach.",
+          "dúvida"
+        ],
+        [
+          "Check the numbers!",
+          "It might be worth checking the numbers again.",
+          "might be worth"
+        ],
+        [
+          "You did it wrong.",
+          "It seems that a step may have been missed.",
+          "impessoal + seems"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Overall, the presentation was very clear. It might be worth adding a slide on costs, though.",
+        "pt": "No geral, a apresentação foi muito clara. Talvez valha a pena acrescentar um slide sobre custos."
+      },
+      {
+        "en": "I noticed that the last two reports arrived after the deadline. Is there anything I can do to help?",
+        "pt": "Notei que os dois últimos relatórios chegaram depois do prazo. Há algo que eu possa fazer para ajudar?"
+      },
+      {
+        "en": "I'm not entirely convinced that this is the best approach. Perhaps we could look at other options?",
+        "pt": "Não estou totalmente convencido de que essa seja a melhor abordagem. Talvez pudéssemos ver outras opções?"
+      },
+      {
+        "en": "It seems that some of the figures on page 4 aren't quite accurate.",
+        "pt": "Parece que alguns números da página 4 não estão muito precisos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A feedback conversation",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Thanks for the report, Diego. Overall, it's very well structured, and the analysis of the scrap data is excellent.",
+        "pt": "Obrigado pelo relatório, Diego. No geral, está muito bem estruturado, e a análise dos dados de refugo está excelente."
+      },
+      {
+        "personagem": "Diego",
+        "voz": "b",
+        "en": "Thank you.",
+        "pt": "Obrigado."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "There are a couple of things that I think could be improved. The executive summary is a bit long — the board might not read three pages.",
+        "pt": "Há algumas coisas que acho que poderiam melhorar. O resumo executivo está um pouco longo — a diretoria talvez não leia três páginas."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Also, it seems that some figures in table 2 don't quite match the data in the appendix. It might be worth checking them again.",
+        "pt": "Além disso, parece que alguns números da tabela 2 não batem muito com os dados do anexo. Talvez valha a pena conferir de novo."
+      },
+      {
+        "personagem": "Diego",
+        "voz": "b",
+        "en": "You're right, I'll check them today.",
+        "pt": "Você tem razão, vou conferir hoje."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Great. With those small changes, I think it's going to be one of the best reports we've sent to the board.",
+        "pt": "Ótimo. Com essas pequenas mudanças, acho que vai ser um dos melhores relatórios que já mandamos à diretoria."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the manager praise first?",
+        "opcoes": [
+          "The structure and the analysis",
+          "The length",
+          "The design"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the executive summary?",
+        "opcoes": [
+          "It's a bit long.",
+          "It's missing.",
+          "It's in Portuguese."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What seems to be wrong in table 2?",
+        "opcoes": [
+          "Some figures don't match the appendix.",
+          "It has no title.",
+          "It is too small."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l2-e4",
+        "tipo": "multipla",
+        "enunciado": "How does the manager end?",
+        "opcoes": [
+          "With encouragement",
+          "With a warning",
+          "With a joke"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u08l2-p1",
+      "tipo": "completar",
+      "frase": "I'm not ___ convinced. (totalmente)",
+      "respostas": [
+        "entirely"
+      ]
+    },
+    {
+      "id": "c1u08l2-p2",
+      "tipo": "completar",
+      "frase": "It might be ___ checking the figures again. (valer a pena)",
+      "respostas": [
+        "worth"
+      ]
+    },
+    {
+      "id": "c1u08l2-p3",
+      "tipo": "completar",
+      "frase": "There's some ___ for improvement. (espaço)",
+      "respostas": [
+        "room"
+      ]
+    },
+    {
+      "id": "c1u08l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Feedback focado no fato:",
+      "opcoes": [
+        "I noticed the last three reports arrived after the deadline.",
+        "You're always late and lazy."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Mais diplomático que \"This idea is wrong\":",
+      "opcoes": [
+        "I'm not sure that's the best approach.",
+        "This is a stupid idea.",
+        "Wrong idea, next."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l2-p6",
+      "tipo": "ordenar",
+      "frase": "Focus on the behaviour not the person",
+      "traducao_pt": "Foque no comportamento, não na pessoa"
+    },
+    {
+      "id": "c1u08l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It seems that some data is missing."
+    },
+    {
+      "id": "c1u08l2-p8",
+      "tipo": "traduzir",
+      "pt": "Talvez pudéssemos tentar outra opção.",
+      "respostas": [
+        "Perhaps we could try another option.",
+        "Maybe we could try another option."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você é o líder. O professor faz o papel de um funcionário cujo trabalho tem problemas (atrasos, erros, falta de cuidado com segurança). Dê feedback claro mas diplomático, com o sanduíche e foco em fatos, e combinem uma ação.",
+    "papel_professor": "Faça o papel de funcionário um pouco defensivo. O aluno dá feedback. Reaja de forma realista. Avalie: clareza, diplomacia, foco no fato, plano de ação. Corrija suavizadores.",
+    "abertura": "You wanted to see me? Is everything OK?",
+    "abertura_pt": "Você queria falar comigo? Está tudo bem?"
+  },
+  "teste": [
+    {
+      "id": "c1u08l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Suavizador:",
+      "opcoes": [
+        "The report is a bit long.",
+        "The report is extremely terrible.",
+        "The report is long. Fix."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l2-t2",
+      "tipo": "completar",
+      "frase": "Thank you for the ___ feedback. (construtivo)",
+      "respostas": [
+        "constructive"
+      ]
+    },
+    {
+      "id": "c1u08l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm not sure that's the best approach.",
+      "aceitas": [
+        "I am not sure that is the best approach."
+      ]
+    },
+    {
+      "id": "c1u08l2-t4",
+      "tipo": "traduzir",
+      "pt": "Parece que faltam alguns dados.",
+      "respostas": [
+        "It seems that some data is missing.",
+        "It seems some data is missing.",
+        "It appears that some data is missing."
+      ]
+    },
+    {
+      "id": "c1u08l2-t5",
+      "tipo": "ordenar",
+      "frase": "I wonder if we could look at it again",
+      "traducao_pt": "Será que poderíamos revisar?"
+    }
+  ]
+}

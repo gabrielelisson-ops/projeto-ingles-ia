@@ -1,0 +1,361 @@
+{
+  "id": "c1-u08-l3",
+  "nivel": "C1",
+  "unidade": 8,
+  "numero": 3,
+  "titulo": "Reading between the lines",
+  "objetivo_pt": "Entender o que está implícito: ironia, understatement, recusas indiretas e o \"não\" educado.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer frases educadas que, na verdade, significam outra coisa. Interprete o que a pessoa realmente quis dizer.",
+    "papel_professor": "Diga frases típicas (That's an interesting idea… / I'll bear it in mind. / With the greatest respect… / Not bad at all. / We'll see.) e peça o sentido real. Ensine understatement, recusas indiretas e diferenças culturais (britânico × americano × brasileiro).",
+    "abertura": "Your boss says: 'That's a very brave proposal.' What do you think she really means?",
+    "abertura_pt": "Sua chefe diz: \"Essa é uma proposta muito corajosa.\" O que você acha que ela quer dizer de verdade?"
+  },
+  "vocabulario": [
+    {
+      "id": "brave",
+      "en": "That's very brave",
+      "pt": "Isso é muito corajoso (= arriscado/ruim)",
+      "emoji": "🦁",
+      "exemplo_en": "That's a very brave proposal.",
+      "exemplo_pt": "É uma proposta muito corajosa (= arriscada demais)."
+    },
+    {
+      "id": "bear-in-mind",
+      "en": "I'll bear it in mind",
+      "pt": "Vou levar em consideração (= provavelmente não)",
+      "emoji": "🧠",
+      "exemplo_en": "Thanks, I'll bear it in mind.",
+      "exemplo_pt": "Obrigado, vou levar em consideração."
+    },
+    {
+      "id": "interesting-l3",
+      "en": "That's interesting…",
+      "pt": "Interessante… (= duvido / não gostei)",
+      "emoji": "🤨",
+      "exemplo_en": "Hmm, that's interesting.",
+      "exemplo_pt": "Hmm, interessante."
+    },
+    {
+      "id": "not-bad",
+      "en": "not bad / not too bad",
+      "pt": "nada mal (= bom, às vezes muito bom)",
+      "emoji": "👍",
+      "exemplo_en": "Not bad at all!",
+      "exemplo_pt": "Nada mal mesmo!"
+    },
+    {
+      "id": "understatement",
+      "en": "understatement",
+      "pt": "eufemismo / atenuação",
+      "emoji": "🪶",
+      "exemplo_en": "\"A bit of a problem\" can be a huge understatement.",
+      "exemplo_pt": "\"Um probleminha\" pode ser um enorme eufemismo."
+    },
+    {
+      "id": "quite-good",
+      "en": "quite good (UK)",
+      "pt": "razoável (britânico) / muito bom (americano)",
+      "emoji": "🇬🇧",
+      "exemplo_en": "In British English, \"quite good\" can mean just OK.",
+      "exemplo_pt": "No inglês britânico, \"quite good\" pode significar só razoável."
+    },
+    {
+      "id": "could-consider",
+      "en": "You could consider…",
+      "pt": "Você poderia considerar… (= faça isso)",
+      "emoji": "👉",
+      "exemplo_en": "You could consider updating the slides.",
+      "exemplo_pt": "Você poderia considerar atualizar os slides."
+    },
+    {
+      "id": "well-see",
+      "en": "We'll see",
+      "pt": "Veremos (= provavelmente não)",
+      "emoji": "🌫️",
+      "exemplo_en": "We'll see. Let's talk next month.",
+      "exemplo_pt": "Veremos. Falamos mês que vem."
+    },
+    {
+      "id": "implied",
+      "en": "implied / implicit",
+      "pt": "implícito",
+      "emoji": "🕵️",
+      "exemplo_en": "The criticism was implicit.",
+      "exemplo_pt": "A crítica estava implícita."
+    },
+    {
+      "id": "read-between",
+      "en": "read between the lines",
+      "pt": "ler nas entrelinhas",
+      "emoji": "📖",
+      "exemplo_en": "You need to read between the lines.",
+      "exemplo_pt": "Você precisa ler nas entrelinhas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "O que está implícito",
+    "explicacao_pt": "Em contextos profissionais, especialmente com britânicos, muita coisa é dita indiretamente. UNDERSTATEMENT (dizer menos do que é): 'a bit of a problem' = um grande problema; 'not ideal' = ruim. RECUSAS INDIRETAS: I'll bear it in mind / We'll see / That's an interesting idea / It's not really a priority right now = provavelmente NÃO. CRÍTICA VELADA: That's very brave = arriscado demais; With the greatest respect = discordo totalmente; I hear what you're saying = não concordo. SUGESTÃO QUE É ORDEM: You might want to… / You could consider… = faça isso. Elogio britânico: 'not bad' pode ser muito bom. Observe o tom e o contexto; na dúvida, pergunte de forma educada: Just to make sure I understand — are you saying that…?",
+    "tabela": {
+      "colunas": [
+        "Frase",
+        "Parece significar",
+        "Geralmente significa"
+      ],
+      "linhas": [
+        [
+          "That's a very brave proposal.",
+          "Que corajoso!",
+          "É arriscado / não vai funcionar."
+        ],
+        [
+          "I'll bear it in mind.",
+          "Vou considerar.",
+          "Provavelmente não vou fazer."
+        ],
+        [
+          "You might want to check that.",
+          "É opcional.",
+          "Verifique isso (está errado)."
+        ],
+        [
+          "It's not ideal.",
+          "Não é perfeito.",
+          "É um problema sério."
+        ],
+        [
+          "With the greatest respect…",
+          "Tenho muito respeito.",
+          "Discordo fortemente."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "When the director said our plan was 'very ambitious', she meant she didn't think it was realistic.",
+        "pt": "Quando a diretora disse que nosso plano era \"muito ambicioso\", quis dizer que não o achava realista."
+      },
+      {
+        "en": "'You might want to double-check the figures' usually means 'there's a mistake in the figures'.",
+        "pt": "\"Talvez você queira conferir os números\" geralmente significa \"há um erro nos números\"."
+      },
+      {
+        "en": "A delay of three weeks is not ideal — in other words, it's a serious problem.",
+        "pt": "Um atraso de três semanas não é o ideal — em outras palavras, é um problema sério."
+      },
+      {
+        "en": "Just to make sure I understand — are you saying that the proposal won't be approved?",
+        "pt": "Só para ter certeza de que entendi — você está dizendo que a proposta não será aprovada?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What did she really mean?",
+    "falas": [
+      {
+        "personagem": "Marcos",
+        "voz": "a",
+        "en": "How did the meeting with the British client go?",
+        "pt": "Como foi a reunião com o cliente britânico?"
+      },
+      {
+        "personagem": "Carol",
+        "voz": "b",
+        "en": "I'm not sure. When I presented the new price, he said, 'Hmm, that's interesting.'",
+        "pt": "Não sei bem. Quando apresentei o novo preço, ele disse: \"Hmm, interessante.\""
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "a",
+        "en": "Oh. That's probably not a good sign.",
+        "pt": "Ah. Provavelmente não é um bom sinal."
+      },
+      {
+        "personagem": "Carol",
+        "voz": "b",
+        "en": "Then he said the delivery time was 'not ideal' and that he'd 'bear our proposal in mind'.",
+        "pt": "Depois disse que o prazo de entrega \"não era o ideal\" e que iria \"levar nossa proposta em consideração\"."
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "a",
+        "en": "I'm afraid that means he's not happy. 'Not ideal' is a polite way of saying it's a real problem.",
+        "pt": "Receio que isso signifique que ele não está satisfeito. \"Não é o ideal\" é um jeito educado de dizer que é um problema real."
+      },
+      {
+        "personagem": "Carol",
+        "voz": "b",
+        "en": "So what should I do?",
+        "pt": "Então o que devo fazer?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "a",
+        "en": "Call him and ask directly but politely: 'Just to make sure I understood — is the delivery time the main concern?'",
+        "pt": "Ligue para ele e pergunte direto mas educadamente: \"Só para ter certeza de que entendi — o prazo de entrega é a principal preocupação?\""
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What did the client say about the price?",
+        "opcoes": [
+          "That's interesting.",
+          "It's perfect.",
+          "It's too high."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How did he describe the delivery time?",
+        "opcoes": [
+          "Not ideal",
+          "Excellent",
+          "Fast"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What does 'not ideal' really mean here?",
+        "opcoes": [
+          "It's a real problem.",
+          "It's almost perfect.",
+          "He doesn't care."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What does Marcos advise Carol to do?",
+        "opcoes": [
+          "Call and ask directly but politely",
+          "Wait for an e-mail",
+          "Lower the price immediately"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u08l3-p1",
+      "tipo": "completar",
+      "frase": "Thanks, I'll ___ it in mind. (levar em consideração)",
+      "respostas": [
+        "bear"
+      ]
+    },
+    {
+      "id": "c1u08l3-p2",
+      "tipo": "completar",
+      "frase": "You need to read between the ___.",
+      "respostas": [
+        "lines"
+      ]
+    },
+    {
+      "id": "c1u08l3-p3",
+      "tipo": "completar",
+      "frase": "It's not ___. (o ideal = um problema)",
+      "respostas": [
+        "ideal"
+      ]
+    },
+    {
+      "id": "c1u08l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"You might want to check that\" geralmente significa:",
+      "opcoes": [
+        "Verifique isso, provavelmente há um erro.",
+        "Se quiser, sem importância."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Pedir esclarecimento educadamente:",
+      "opcoes": [
+        "Just to make sure I understand — are you saying that…?",
+        "What do you mean? Speak clearly!",
+        "I don't understand you."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l3-p6",
+      "tipo": "ordenar",
+      "frase": "That's a very brave proposal",
+      "traducao_pt": "É uma proposta muito corajosa"
+    },
+    {
+      "id": "c1u08l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The criticism was implicit."
+    },
+    {
+      "id": "c1u08l3-p8",
+      "tipo": "traduzir",
+      "pt": "Veremos. Falamos mês que vem.",
+      "respostas": [
+        "We'll see. Let's talk next month.",
+        "We will see. Let's talk next month."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai interpretar o papel de um gestor britânico que fala de forma muito indireta sobre um projeto seu. Identifique as mensagens implícitas e peça esclarecimentos com educação para ter certeza.",
+    "papel_professor": "Fale com muito understatement e recusas indiretas sobre o projeto do aluno (It's a very interesting approach… The timeline is quite ambitious… I'll certainly bear it in mind…). O aluno interpreta e confirma (Just to make sure I understand…). Avalie e corrija.",
+    "abertura": "Well, I've had a look at your project plan. It's certainly a very interesting approach. The timeline is, shall we say, quite ambitious.",
+    "abertura_pt": "Bom, dei uma olhada no seu plano de projeto. Certamente é uma abordagem muito interessante. O cronograma é, digamos, bastante ambicioso."
+  },
+  "teste": [
+    {
+      "id": "c1u08l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"With the greatest respect…\" geralmente indica:",
+      "opcoes": [
+        "forte discordância",
+        "grande admiração",
+        "concordância total"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l3-t2",
+      "tipo": "completar",
+      "frase": "\"A bit of a problem\" can be a huge ___. (eufemismo)",
+      "respostas": [
+        "understatement"
+      ]
+    },
+    {
+      "id": "c1u08l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In British English, quite good can mean just OK.",
+      "aceitas": [
+        "In British English, \"quite good\" can mean just OK."
+      ]
+    },
+    {
+      "id": "c1u08l3-t4",
+      "tipo": "traduzir",
+      "pt": "Você poderia considerar atualizar os slides.",
+      "respostas": [
+        "You could consider updating the slides."
+      ]
+    },
+    {
+      "id": "c1u08l3-t5",
+      "tipo": "ordenar",
+      "frase": "Just to make sure I understand",
+      "traducao_pt": "Só para ter certeza de que entendi"
+    }
+  ]
+}

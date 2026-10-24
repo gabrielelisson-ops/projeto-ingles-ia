@@ -1,0 +1,259 @@
+{
+  "id": "c1-u07-prova",
+  "nivel": "C1",
+  "unidade": 7,
+  "titulo": "Prova da Unidade 7 (C1) — Production planning",
+  "leitura": {
+    "texto": "WHY S&OP FAILS — AND HOW TO FIX IT\nAlmost every large manufacturer claims to run a sales and operations planning (S&OP) process. Yet surveys suggest that fewer than one in three companies are satisfied with the results. Why?\nThe most common problem is that each department keeps its own numbers. Sales presents an optimistic forecast, operations plans for what it can produce, and finance builds the budget on a third figure. 'If everyone works with a different number, the meeting is bound to turn into a negotiation rather than a plan,' says consultant Tânia Moreira.\nThe second problem is that assumptions are rarely made explicit. A forecast of 60,000 units may assume that a new contract will be signed, that a competitor will lose market share and that prices will remain stable. If any of these assumptions turns out to be wrong, the plan is likely to fail. 'Write your assumptions down,' Moreira insists. 'Then you know exactly what to watch.'\nThe third problem is the lack of scenarios. Most companies present a single number, as if the future were certain. Leading companies, by contrast, prepare a base case, an upside and a downside, each with clear trigger points. 'If orders fall below a certain level by mid-month, everyone already knows what to do. There's no need for an emergency meeting.'\nFinally, S&OP must have executive support. 'When the CEO attends, decisions get made,' says Moreira. 'When nobody senior is present, problems are simply pushed back to next month.'",
+    "perguntas": [
+      {
+        "id": "c1u07pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many companies are satisfied with S&OP results?",
+        "opcoes": [
+          "Fewer than one in three",
+          "About half",
+          "Most of them"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What is the most common problem?",
+        "opcoes": [
+          "Each department keeps its own numbers.",
+          "The meetings are too long.",
+          "There is no software."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What is the meeting bound to become if everyone has a different number?",
+        "opcoes": [
+          "A negotiation rather than a plan",
+          "A celebration",
+          "A training session"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What is the second problem?",
+        "opcoes": [
+          "Assumptions are rarely made explicit.",
+          "Forecasts are too low.",
+          "There are too many scenarios."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What happens if an assumption turns out to be wrong?",
+        "opcoes": [
+          "The plan is likely to fail.",
+          "Nothing changes.",
+          "Sales increase."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What do leading companies prepare?",
+        "opcoes": [
+          "A base case, an upside and a downside",
+          "A single number",
+          "No plan at all"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What is the advantage of trigger points?",
+        "opcoes": [
+          "Everyone already knows what to do.",
+          "They reduce costs.",
+          "They replace the CEO."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What happens when nobody senior is present?",
+        "opcoes": [
+          "Problems are pushed back to next month.",
+          "Decisions are made faster.",
+          "The meeting is canceled."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Here's the capacity check for November. Demand is 48,000 units and our capacity is 44,000, so there's a shortfall of 4,000.",
+        "pt": "Aqui está a verificação de capacidade de novembro. A demanda é de 48.000 unidades e nossa capacidade é de 44.000, então há um déficit de 4.000."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "How sure are we about the demand?",
+        "pt": "Quão certos estamos sobre a demanda?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Fairly sure. November is bound to be strong — it's our seasonal peak. Forecast accuracy for this period has been above 90%.",
+        "pt": "Bastante. Novembro com certeza vai ser forte — é nosso pico sazonal. A acurácia para este período tem ficado acima de 90%."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Options?",
+        "pt": "Opções?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Line 3 is idle about 20% of the time in October, so we could build ahead. That would cover around 3,000 units.",
+        "pt": "A linha 3 fica ociosa uns 20% do tempo em outubro, então poderíamos produzir antecipado. Isso cobriria umas 3.000 unidades."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "And the rest?",
+        "pt": "E o resto?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "We could bring forward some orders from December, but that's unlikely to be popular with sales. Overtime is probably the safest bet.",
+        "pt": "Poderíamos antecipar alguns pedidos de dezembro, mas é improvável que vendas goste. Hora extra é provavelmente a aposta mais segura."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Agreed. Let's build ahead in October and plan two Saturday shifts. Finance won't love the extra stock, but it's feasible.",
+        "pt": "Concordo. Vamos produzir antecipado em outubro e planejar dois turnos aos sábados. Finanças não vai adorar o estoque extra, mas é viável."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the demand for November?",
+        "opcoes": [
+          "44,000 units",
+          "48,000 units",
+          "52,000 units"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How big is the shortfall?",
+        "opcoes": [
+          "3,000 units",
+          "4,000 units",
+          "8,000 units"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Why is November bound to be strong?",
+        "opcoes": [
+          "It's the seasonal peak.",
+          "A new customer",
+          "A promotion"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How often is line 3 idle in October?",
+        "opcoes": [
+          "About 10% of the time",
+          "About 20% of the time",
+          "About 50% of the time"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How many units would building ahead cover?",
+        "opcoes": [
+          "About 2,000",
+          "About 3,000",
+          "About 4,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What do they decide?",
+        "opcoes": [
+          "Build ahead in October and plan two Saturday shifts",
+          "Subcontract everything",
+          "Cancel some orders"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "November is bound to be strong."
+      },
+      {
+        "id": "c1u07pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "That's unlikely to be popular with sales.",
+        "aceitas": [
+          "That is unlikely to be popular with sales."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u07pv-w1",
+      "instrucao_pt": "Escreva uma previsão de demanda para os próximos 6 meses da sua área, com três cenários, premissas-chave e linguagem de probabilidade variada.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u07pv-w2",
+      "instrucao_pt": "A demanda do próximo mês excede a capacidade em 12%. Escreva uma análise com o déficit, a restrição, três opções comparadas e sua recomendação.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u07pv-s1",
+      "pergunta_en": "Present your area's plan for next quarter at an S&OP meeting, including assumptions and risks.",
+      "instrucao_pt": "Fale em voz alta como representante de operações."
+    },
+    {
+      "id": "c1u07pv-s2",
+      "pergunta_en": "A customer wants to bring a big order forward by two weeks. Assess the impact and decide.",
+      "instrucao_pt": "Use bring forward, push back, knock-on effect, feasible provided that."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Linguagem de probabilidade (be bound to, be likely/unlikely to, the chances are that, in all likelihood, a slim chance), previsão de demanda (forecast accuracy, seasonality, volatile), capacidade (utilization, shortfall, constraint, idle, subcontract, build ahead), MRP e programação (BOM, MPS, frozen period, bring forward, push back, knock-on effect, feasible provided that), S&OP (consensus plan, working capital, service level, upside/downside), cenários e gatilhos."
+}
