@@ -22,7 +22,7 @@ type Fala = Mensagem & {
   correcoes?: repo.Correcao[];
 };
 
-export type FimConversa = { segundosFala: number; correcoes: repo.Correcao[]; turnos: number };
+export type FimConversa = { segundosFala: number; correcoes: repo.Correcao[]; turnos: number; falas: Mensagem[] };
 
 export function ConversaProfessor({
   conversa,
@@ -32,6 +32,7 @@ export function ConversaProfessor({
   vocabulario,
   gramatica,
   minTurnos,
+  entrevistaMin,
   onConcluir,
 }: {
   conversa: Conversa;
@@ -41,6 +42,8 @@ export function ConversaProfessor({
   vocabulario: string[];
   gramatica: string;
   minTurnos: number;
+  /** Entrevista da prova final: mostra o cronômetro e não deixa pular. */
+  entrevistaMin?: number;
   onConcluir: (r: FimConversa) => void;
 }) {
   const { db, perfil, chave, prefs } = useApp();
@@ -51,10 +54,28 @@ export function ConversaProfessor({
   const segundos = useRef(0);
   const correcoes = useRef<repo.Correcao[]>([]);
   const ultimoTexto = useRef<string | null>(null);
+  const inicio = useRef(Date.now());
+  const [agora, setAgora] = useState(Date.now());
+
+  useEffect(() => {
+    if (!entrevistaMin) return;
+    const t = setInterval(() => setAgora(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, [entrevistaMin]);
 
   const opcoes = { nivel, sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade };
   const turnos = falas.filter((f) => f.papel === 'aluno').length;
   const ultimaDoProfessor = [...falas].reverse().find((f) => f.papel === 'professor');
+  const segundosPassados = Math.floor((agora - inicio.current) / 1000);
+  const tempoOk = !entrevistaMin || segundosPassados >= entrevistaMin * 60 || turnos >= 10;
+  const podeConcluir = turnos >= minTurnos && tempoOk;
+  const fim = (): FimConversa => ({
+    segundosFala: segundos.current,
+    correcoes: correcoes.current,
+    turnos,
+    falas: falas.map(({ papel, texto }) => ({ papel, texto })),
+  });
+  const mmss = (t: number) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
 
   useEffect(() => {
     void falar(conversa.abertura, opcoes);
@@ -104,12 +125,17 @@ export function ConversaProfessor({
   return (
     <View style={{ gap: espaco.m }}>
       <Aviso tipo="info" texto={conversa.situacao_pt} />
+      {!!entrevistaMin && (
+        <Paragrafo suave>
+          ⏱️ {mmss(segundosPassados)} de {entrevistaMin}:00 · {turnos} resposta(s)
+        </Paragrafo>
+      )}
       {!chave && (
         <Cartao>
           <Aviso tipo="aviso" texto="Para conversar com o professor de IA, cadastre a chave da IA em Configurações." />
           <Linha>
             <Botao titulo="Abrir Configurações" onPress={() => router.push('/configuracoes')} />
-            <Botao tipo="texto" titulo="Pular esta etapa" onPress={() => onConcluir({ segundosFala: 0, correcoes: [], turnos: 0 })} />
+            {!entrevistaMin && <Botao tipo="texto" titulo="Pular esta etapa" onPress={() => onConcluir(fim())} />}
           </Linha>
         </Cartao>
       )}
@@ -134,7 +160,7 @@ export function ConversaProfessor({
           <Aviso tipo="erro" texto={erro} />
           <Linha>
             {ultimoTexto.current && <Botao titulo="Tentar de novo" onPress={tentarDeNovo} />}
-            <Botao tipo="texto" titulo="Pular esta etapa" onPress={() => onConcluir({ segundosFala: segundos.current, correcoes: correcoes.current, turnos })} />
+            {!entrevistaMin && <Botao tipo="texto" titulo="Pular esta etapa" onPress={() => onConcluir(fim())} />}
           </Linha>
         </Cartao>
       )}
@@ -150,7 +176,7 @@ export function ConversaProfessor({
               if (ultimaDoProfessor.traducao) void falarPortugues(ultimaDoProfessor.traducao);
             }}
           />
-          {!!ultimaDoProfessor.dica && <Botao tipo="secundario" titulo="💡 Me dá uma dica" onPress={() => setMostrar('dica')} />}
+          {!!ultimaDoProfessor.dica && !entrevistaMin && <Botao tipo="secundario" titulo="💡 Me dá uma dica" onPress={() => setMostrar('dica')} />}
         </Linha>
       )}
       {mostrar === 'traducao' && <Aviso tipo="info" texto={`Em português: ${ultimaDoProfessor?.traducao || 'tradução indisponível'}`} />}
@@ -159,12 +185,20 @@ export function ConversaProfessor({
       {!!chave && <BotaoFalar onTexto={(t, s) => void enviar(t, s)} desativado={carregando} />}
 
       <Botao
-        tipo={turnos >= minTurnos ? 'primario' : 'texto'}
-        titulo={turnos >= minTurnos ? 'Concluir conversa ✓' : `Fale pelo menos ${minTurnos - turnos} vez(es) para concluir`}
-        desativado={turnos < minTurnos || carregando}
+        tipo={podeConcluir ? 'primario' : 'texto'}
+        titulo={
+          podeConcluir
+            ? entrevistaMin
+              ? 'Encerrar entrevista ✓'
+              : 'Concluir conversa ✓'
+            : turnos < minTurnos
+              ? `Fale pelo menos ${minTurnos - turnos} vez(es) para concluir`
+              : `Continue conversando até ${entrevistaMin} minutos`
+        }
+        desativado={!podeConcluir || carregando}
         onPress={() => {
           pararFala();
-          onConcluir({ segundosFala: segundos.current, correcoes: correcoes.current, turnos });
+          onConcluir(fim());
         }}
       />
     </View>

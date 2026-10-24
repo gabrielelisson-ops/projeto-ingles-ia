@@ -1,7 +1,7 @@
 /**
  * Painel do perfil: nível, % concluído, sequência de dias, minutos falados,
  * palavras aprendidas, notas das provas e pontos fracos.
- * (O painel completo de pontos fracos e o histórico de certificados vêm na Fase 3.)
+ * Também lista os certificados de nível e gera o PDF de cada um.
  */
 import { useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
@@ -12,7 +12,8 @@ import { useApp } from '../estado/AppContext';
 import { percentualDoNivel } from '../logica/desbloqueio';
 import { diaLocal, sequenciaDeDias } from '../logica/estatisticas';
 import { NOMES_PARTES, type Parte } from '../logica/notas';
-import { Cartao, Paragrafo, Subtitulo, Tela, Titulo } from '../ui/base';
+import { Aviso, Botao, Cartao, Paragrafo, Subtitulo, Tela, Titulo } from '../ui/base';
+import { compartilharCertificado } from '../ui/certificado';
 import { dataCurta } from '../ui/formato';
 import { cores, espaco } from '../ui/tema';
 
@@ -29,6 +30,7 @@ type Dados = {
 export default function Painel() {
   const { db, perfil, progresso, estrutura, nivel, curso } = useApp();
   const [d, setD] = useState<Dados | null>(null);
+  const [msgPdf, setMsgPdf] = useState<string | null>(null);
 
   useFocusEffect(
     useCallback(() => {
@@ -59,6 +61,13 @@ export default function Painel() {
     if (Array.isArray(pf)) for (const p of pf) if (p in NOMES_PARTES) contagem[p as Parte] = (contagem[p as Parte] ?? 0) + 1;
   }
   const fracos = (Object.keys(contagem) as Parte[]).sort((a, b) => contagem[b]! - contagem[a]!);
+
+  // Certificados: a primeira aprovação em cada prova final (a lista vem da mais nova para a mais antiga).
+  const certificados = new Map<string, repo.TentativaSalva>();
+  for (const t of d.tentativas) {
+    const p = acharProva(curso, t.prova_id);
+    if (t.aprovado && p?.final) certificados.set(p.prova.nivel, t);
+  }
 
   return (
     <Tela>
@@ -97,6 +106,28 @@ export default function Painel() {
             <Text style={{ color: cores.sucesso, fontWeight: '700' }}>{e.certo}</Text>
           </Paragrafo>
         ))}
+      </Cartao>
+
+      <Cartao>
+        <Subtitulo>🎓 Certificados</Subtitulo>
+        {certificados.size === 0 && <Paragrafo suave>Passe na prova final de um nível para ganhar o certificado.</Paragrafo>}
+        {[...certificados.entries()].map(([nv, t]) => (
+          <Botao
+            key={nv}
+            tipo="secundario"
+            titulo={`📄 ${nv} — nota ${t.nota} (${dataCurta(t.data)})`}
+            onPress={async () => {
+              setMsgPdf(null);
+              try {
+                const nomeNivel = curso.curriculo.niveis.find((n) => n.nivel === nv)?.nome_pt ?? nv;
+                await compartilharCertificado({ nome: perfil.nome, nivel: nv as typeof nivel, nomeNivel, nota: t.nota, data: t.data });
+              } catch (e) {
+                setMsgPdf((e as Error).message || 'Não foi possível gerar o PDF.');
+              }
+            }}
+          />
+        ))}
+        {msgPdf && <Aviso tipo="erro" texto={msgPdf} />}
       </Cartao>
 
       <Cartao>

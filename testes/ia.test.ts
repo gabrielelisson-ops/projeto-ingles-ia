@@ -3,7 +3,7 @@
  * (sem internet, sem chave real).
  */
 import { ErroIA, extrairJSON } from '../src/ia/gemini';
-import { avaliarResposta, falarComProfessor, MODELOS_PADRAO, prepararHistorico } from '../src/ia/professor';
+import { avaliarResposta, falarComProfessor, MODELOS_PADRAO, prepararHistorico, testarChave, transcricaoEntrevista } from '../src/ia/professor';
 import { promptAvaliador, promptProfessor } from '../src/ia/prompts';
 
 const CHAVE = 'AIzaTESTE_chave_falsa_1234567890abcdef';
@@ -146,4 +146,26 @@ test('histórico: corta mensagens antigas e longas', () => {
 
 test('extrairJSON aceita bloco de código', () => {
   expect(extrairJSON('```json\n{"a":1}\n```')).toEqual({ a: 1 });
+});
+
+test('entrevista: transcrição marca quem falou e tem limite de tamanho', () => {
+  const t = transcricaoEntrevista([
+    { papel: 'professor', texto: "What's your name?" },
+    { papel: 'aluno', texto: 'My   name is\nGabriel.' },
+  ]);
+  expect(t).toBe("EXAMINADOR: What's your name?\nALUNO: My name is Gabriel.");
+  const longa = transcricaoEntrevista(Array.from({ length: 50 }, () => ({ papel: 'aluno' as const, texto: 'x'.repeat(1000) })));
+  expect(longa.length).toBeLessThanOrEqual(6000);
+});
+
+test('testar chave: confere os dois modelos', async () => {
+  const { fn, chamadas } = fakeFetch([gemini({ ok: true }), gemini({ ok: true })]);
+  expect(await testarChave(CHAVE, MODELOS_PADRAO, fn)).toBe(`${MODELOS_PADRAO.conversa} e ${MODELOS_PADRAO.avaliacao}`);
+  expect(chamadas).toHaveLength(2);
+});
+
+test('avaliador aceita texto longo da entrevista quando o limite é maior', async () => {
+  const { fn, chamadas } = fakeFetch([gemini({ gramatica: 6, vocabulario: 6, fluencia: 6, pronuncia: 6, feedback_pt: 'ok', erros: [] })]);
+  await avaliarResposta(CHAVE, MODELOS_PADRAO, { nivel: 'A1', parte: 'fala', foco: '', tarefa: 'entrevista' }, 'a'.repeat(5000), fn, 6000);
+  expect(chamadas[0]!.body.contents[0].parts[0].text.length).toBeGreaterThan(5000);
 });

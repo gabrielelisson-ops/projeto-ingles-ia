@@ -7,7 +7,7 @@ import path from 'path';
 import { montarCurso, estruturaDoCurso } from '../src/conteudo/curso';
 import { AulaSchema, ProvaSchema, descreverErros } from '../src/conteudo/schema';
 import { corrigir, palavrasParaOrdenar } from '../src/logica/respostas';
-import { statusCurso } from '../src/logica/desbloqueio';
+import { nivelAtual, proximoItem, statusCurso } from '../src/logica/desbloqueio';
 import { exerciciosInconsistentes } from '../src/gerador/gerador';
 
 const RAIZ = path.join(__dirname, '..', 'conteudo');
@@ -113,6 +113,32 @@ describe('conteúdo do curso', () => {
     expect(c.erros).toEqual([]);
     const s = statusCurso(estruturaDoCurso(c), { aulasConcluidas: new Set(), provas: {} }, Date.now());
     expect(s.get('a1-u01-l1')?.estado).toBe('disponivel');
+  });
+
+  test('percorrendo o A1 inteiro: a prova final só libera depois das 8 provas de unidade', () => {
+    const c = montarCurso(
+      ler(path.join(RAIZ, 'curriculo.json')),
+      unidadesBrutas.map(({ meta, aulas, prova }) => ({ meta, aulas, prova })),
+      finais.map((f) => f.prova),
+    );
+    const est = estruturaDoCurso(c);
+    const aulas = new Set<string>();
+    const provas: Record<string, { nota: number; aprovado: boolean; data: number }[]> = {};
+    const ok = [{ nota: 80, aprovado: true, data: 1 }];
+    const a1 = est.find((n) => n.nivel === 'A1')!;
+    for (const u of a1.unidades) {
+      for (const a of u.aulas) {
+        expect(proximoItem(est, statusCurso(est, { aulasConcluidas: aulas, provas }, 2))?.id).toBe(a);
+        aulas.add(a);
+      }
+      expect(statusCurso(est, { aulasConcluidas: aulas, provas }, 2).get('a1-final')?.estado).toBe('bloqueada');
+      provas[u.prova!] = ok;
+    }
+    const s = statusCurso(est, { aulasConcluidas: aulas, provas }, 2);
+    expect(s.get('a1-final')?.estado).toBe('disponivel');
+    expect(nivelAtual(est, { aulasConcluidas: aulas, provas })).toBe('A1');
+    provas['a1-final'] = ok;
+    expect(nivelAtual(est, { aulasConcluidas: aulas, provas })).toBe('A2');
   });
 
   test('um JSON com erro vira mensagem legível e não derruba o curso', () => {

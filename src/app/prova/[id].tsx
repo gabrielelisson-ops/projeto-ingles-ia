@@ -1,6 +1,8 @@
 /**
- * Prova da unidade (e, na Fase 2, prova final): leitura, escuta, escrita e fala.
- * Escrita e fala são corrigidas pelo avaliador de IA. Aprova com 70.
+ * Prova da unidade e prova final do nível: leitura, escuta, escrita e fala.
+ * A prova final tem ainda uma entrevista oral com o professor de IA.
+ * Escrita, fala e entrevista são corrigidas pelo avaliador de IA. Aprova com 70.
+ * Aprovado na prova final: libera o próximo nível e gera o certificado em PDF.
  * Se sair no meio, nada é salvo (não conta como tentativa).
  */
 import { router, Stack, useLocalSearchParams } from 'expo-router';
@@ -11,18 +13,20 @@ import type { TarefaEscrita } from '../../conteudo/schema';
 import * as repo from '../../dados/repositorio';
 import { useApp } from '../../estado/AppContext';
 import { ErroIA, MENSAGENS_ERRO } from '../../ia/gemini';
-import { avaliarResposta, type ResultadoAvaliacao } from '../../ia/professor';
+import { avaliarResposta, transcricaoEntrevista, type ResultadoAvaliacao } from '../../ia/professor';
 import { estadoDe, ESPERA_REPROVACAO_MS } from '../../logica/desbloqueio';
 import { calcularProva, contarFrases, NOMES_PARTES, type ResultadoProva } from '../../logica/notas';
 import { falar, pararFala } from '../../voz/falar';
 import { Aviso, Botao, Cartao, Linha, Paragrafo, Subtitulo, Tela, Titulo } from '../../ui/base';
 import { BotaoFalar } from '../../ui/BotaoFalar';
+import { compartilharCertificado } from '../../ui/certificado';
+import { ConversaProfessor } from '../../ui/ConversaProfessor';
 import { Dialogo } from '../../ui/Dialogo';
 import { SequenciaExercicios, type ResultadoExercicio } from '../../ui/Exercicio';
 import { quando } from '../../ui/formato';
 import { cores, espaco, raio } from '../../ui/tema';
 
-type Etapa = 'intro' | 'leitura' | 'escuta' | 'escrita' | 'fala' | 'resultado';
+type Etapa = 'intro' | 'leitura' | 'escuta' | 'escrita' | 'fala' | 'entrevista' | 'resultado';
 
 export default function TelaProva() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -34,6 +38,11 @@ export default function TelaProva() {
   const [escrita, setEscrita] = useState<ResultadoAvaliacao[]>([]);
   const [fala, setFala] = useState<ResultadoAvaliacao[]>([]);
   const [resultado, setResultado] = useState<ResultadoProva | null>(null);
+  const [entrevista, setEntrevista] = useState<ResultadoAvaliacao | null>(null);
+  const [avaliandoEntrevista, setAvaliandoEntrevista] = useState(false);
+  const [erroEntrevista, setErroEntrevista] = useState<string | null>(null);
+  const [transcricao, setTranscricao] = useState('');
+  const [msgCertificado, setMsgCertificado] = useState<string | null>(null);
   const segundosFala = useRef(0);
   const inicio = useRef(Date.now());
 
@@ -46,7 +55,7 @@ export default function TelaProva() {
       </Tela>
     );
   }
-  const { prova } = achado;
+  const { prova, final } = achado;
   const nivel = prova.nivel;
   const s = estadoDe(status, prova.id);
 
@@ -55,20 +64,27 @@ export default function TelaProva() {
       <Tela>
         <Aviso
           tipo="aviso"
-          texto={s.estado === 'aguardando' ? `⏳ Nova tentativa liberada em ${quando(s.liberaEm!)}.` : '🔒 Conclua todas as aulas da unidade para liberar a prova.'}
+          texto={
+            s.estado === 'aguardando'
+              ? `⏳ Nova tentativa liberada em ${quando(s.liberaEm!)}.`
+              : achado.final
+                ? '🔒 Passe nas provas das 8 unidades para liberar a prova final.'
+                : '🔒 Conclua todas as aulas da unidade para liberar a prova.'
+          }
         />
         <Botao titulo="Voltar" onPress={() => router.back()} />
       </Tela>
     );
   }
 
-  async function finalizar(falaFinal: ResultadoAvaliacao[]) {
+  async function finalizar(falaFinal: ResultadoAvaliacao[], ent: ResultadoAvaliacao | null = null) {
     if (!perfil || !achado) return;
     const r = calcularProva({
       leitura: { acertos: leitura.filter((x) => x.acertou).length, total: leitura.length },
       escuta: { acertos: escuta.filter((x) => x.acertou).length, total: escuta.length },
       escrita: escrita.map((e) => e.nota),
       fala: falaFinal.map((e) => e.nota),
+      entrevista: ent?.nota,
     });
     setResultado(r);
     setEtapa('resultado');
@@ -76,8 +92,10 @@ export default function TelaProva() {
       partes: r.partes,
       pontosFracos: r.pontosFracos,
       feedback: [...escrita, ...falaFinal].map((e) => e.feedback_pt),
+      entrevista: ent ? { nota: ent.nota, feedback: ent.feedback_pt } : undefined,
+      final,
     });
-    const erros = [...escrita, ...falaFinal].flatMap((e) => e.erros);
+    const erros = [...escrita, ...falaFinal, ...(ent ? [ent] : [])].flatMap((e) => e.erros);
     await repo.registrarErros(db, perfil.id, erros);
     await repo.adicionarRevisao(
       db,
@@ -89,6 +107,43 @@ export default function TelaProva() {
   }
 
   const totalQuestoes = prova.leitura.perguntas.length + prova.escuta.perguntas.length + prova.escrita.length + prova.fala.length;
+  const nomeNivel = curso.curriculo.niveis.find((n) => n.nivel === nivel)?.nome_pt ?? nivel;
+
+  async function avaliarEntrevista(texto: string) {
+    setAvaliandoEntrevista(true);
+    setErroEntrevista(null);
+    try {
+      const av = await avaliarResposta(
+        chave,
+        prefs.modelos,
+        {
+          nivel,
+          parte: 'fala',
+          foco: prova.foco_avaliacao,
+          tarefa: `Entrevista oral de ${prova.entrevista?.minutos ?? 5} minutos. Avalie SOMENTE as falas marcadas como ALUNO; as do EXAMINADOR são contexto.`,
+        },
+        texto,
+        undefined,
+        6000,
+      );
+      setEntrevista(av);
+      await finalizar(fala, av);
+    } catch (e) {
+      setErroEntrevista(e instanceof ErroIA ? e.message : MENSAGENS_ERRO.rede);
+    } finally {
+      setAvaliandoEntrevista(false);
+    }
+  }
+
+  async function gerarCertificado() {
+    if (!perfil || !resultado) return;
+    setMsgCertificado(null);
+    try {
+      await compartilharCertificado({ nome: perfil.nome, nivel, nomeNivel, nota: resultado.nota, data: Date.now() });
+    } catch (e) {
+      setMsgCertificado((e as Error).message || 'Não foi possível gerar o PDF.');
+    }
+  }
 
   return (
     <Tela>
@@ -101,6 +156,11 @@ export default function TelaProva() {
             <Paragrafo>
               {totalQuestoes} questões em 4 partes: 📖 leitura, 🎧 escuta, ✍️ escrita e 🗣️ fala. Cada parte vale 25% da nota.
             </Paragrafo>
+            {prova.entrevista && (
+              <Paragrafo>
+                🎤 No fim há uma entrevista oral de {prova.entrevista.minutos} minutos com o professor. Ela vale metade da nota de fala.
+              </Paragrafo>
+            )}
             <Paragrafo>Para passar: 70 ou mais. Se não passar, você vê o que revisar e pode tentar de novo em 24 horas.</Paragrafo>
             <Paragrafo suave>Na prova não aparece se você acertou cada questão: o resultado vem no fim. Se sair no meio, a tentativa não conta.</Paragrafo>
           </Cartao>
@@ -183,14 +243,55 @@ export default function TelaProva() {
           onPronto={(av) => {
             const todas = [...fala, av];
             setFala(todas);
-            if (todas.length >= prova.fala.length) void finalizar(todas);
+            if (todas.length < prova.fala.length) return;
+            if (prova.entrevista) setEtapa('entrevista');
+            else void finalizar(todas);
           }}
         />
       )}
 
+      {etapa === 'entrevista' && prova.entrevista && (
+        <>
+          <Subtitulo>🎤 Parte 5 — Entrevista oral</Subtitulo>
+          {!transcricao ? (
+            <ConversaProfessor
+              conversa={{
+                situacao_pt: `Converse com o examinador por cerca de ${prova.entrevista.minutos} minutos. Responda com frases completas. Ele não corrige durante a entrevista.`,
+                papel_professor: prova.entrevista.papel_professor,
+                abertura: prova.entrevista.abertura,
+                abertura_pt: prova.entrevista.abertura_pt,
+              }}
+              nivel={nivel}
+              atividade="entrevista oral da prova final (não corrigir, só conversar)"
+              tema={`revisão do nível ${nivel}`}
+              vocabulario={[]}
+              gramatica={prova.foco_avaliacao.slice(0, 280)}
+              minTurnos={5}
+              entrevistaMin={prova.entrevista.minutos}
+              onConcluir={(r) => {
+                // O tempo falado na entrevista já é registrado pela própria conversa.
+                const t = transcricaoEntrevista(r.falas);
+                setTranscricao(t);
+                void avaliarEntrevista(t);
+              }}
+            />
+          ) : (
+            <Cartao>
+              {avaliandoEntrevista && <Paragrafo>O avaliador está analisando a entrevista…</Paragrafo>}
+              {erroEntrevista && (
+                <>
+                  <Aviso tipo="erro" texto={erroEntrevista} />
+                  <Botao titulo="Tentar avaliar de novo" onPress={() => avaliarEntrevista(transcricao)} carregando={avaliandoEntrevista} />
+                </>
+              )}
+            </Cartao>
+          )}
+        </>
+      )}
+
       {etapa === 'resultado' && resultado && (
         <>
-          <Titulo>{resultado.aprovado ? '🎉 Aprovado!' : 'Quase lá!'}</Titulo>
+          <Titulo>{resultado.aprovado ? (final ? `🎓 Nível ${nivel} concluído!` : '🎉 Aprovado!') : 'Quase lá!'}</Titulo>
           <Cartao style={{ alignItems: 'center' }}>
             <Text style={[st.nota, { color: resultado.aprovado ? cores.sucesso : cores.erro }]}>{resultado.nota}</Text>
             <Paragrafo suave>nota de 0 a 100 (mínimo 70)</Paragrafo>
@@ -210,8 +311,21 @@ export default function TelaProva() {
                 {i < escrita.length ? '✍️' : '🗣️'} ({e.nota.toFixed(1)}/10) {e.feedback_pt}
               </Paragrafo>
             ))}
+            {entrevista && (
+              <Paragrafo>
+                🎤 Entrevista ({entrevista.nota.toFixed(1)}/10) {entrevista.feedback_pt}
+              </Paragrafo>
+            )}
             {fala.length > 0 && <Paragrafo suave>A nota de pronúncia é aproximada: ela se baseia no que o reconhecimento de voz entendeu.</Paragrafo>}
           </Cartao>
+          {resultado.aprovado && final && (
+            <Cartao>
+              <Paragrafo>Parabéns, {perfil.nome}! O próximo nível já está liberado na trilha.</Paragrafo>
+              <Botao titulo="📄 Gerar certificado em PDF" onPress={gerarCertificado} />
+              {msgCertificado && <Aviso tipo="erro" texto={msgCertificado} />}
+              <Paragrafo suave>Você também encontra seus certificados em "Meu progresso".</Paragrafo>
+            </Cartao>
+          )}
           {!resultado.aprovado && (
             <Cartao>
               <Subtitulo>O que revisar</Subtitulo>

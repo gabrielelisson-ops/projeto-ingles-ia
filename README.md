@@ -2,7 +2,15 @@
 
 Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um app Android de uso pessoal (Gabriel e esposa): não vai para a Play Store e não tem assinatura.
 
-## O que já funciona (Fase 1)
+## O que já funciona
+
+### Fase 2
+- **Nível A1 completo**: 8 unidades (40 aulas + 8 provas), conteúdo original, com bastante situação de trabalho na indústria.
+- **Prova final do A1**: 40 questões (leitura, escuta, escrita e fala) + **entrevista oral de 5 minutos** com o professor de IA (vale metade da nota de fala). Aprovação com 70 libera o próximo nível.
+- **Certificado em PDF** com nome, nível, nota e data (no fim da prova final e em "Meu progresso"), pronto para salvar ou mandar por WhatsApp.
+- **Gerador de conteúdo com IA** (`npm run gerar`) para criar os próximos níveis, com validação automática.
+
+### Fase 1
 
 - **Perfis** "Gabriel" e "Esposa" (nomes editáveis), sem login, cada um com seu progresso.
 - **Trilha do curso**: a próxima aula só abre quando a anterior é concluída.
@@ -32,6 +40,22 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 1. Edite os arquivos em `conteudo/`. O formato está documentado em `src/conteudo/schema.ts`.
 2. Se criou uma unidade nova (pasta `conteudo/a1/u02/` com `unidade.json`, `aula1.json`…`aula5.json` e `prova.json`), rode `npm run conteudo:indice`.
 3. Rode `npm test`: o teste `conteudo.test.ts` aponta qualquer erro de formato e confere se toda resposta registrada é aceita pela correção.
+
+### Gerar uma unidade nova com IA (no computador)
+
+O gerador cria as 5 aulas e a prova de uma unidade a partir do `curriculo.json`. Tudo passa pelo formato oficial; se a IA errar, ela recebe a lista de erros e corrige sozinha (até 3 vezes).
+
+No PowerShell, dentro da pasta do projeto:
+
+```
+$env:GEMINI_API_KEY = "cole-sua-chave-aqui"
+npm run gerar -- A2 1
+```
+
+- A chave fica só naquela janela do PowerShell; não é salva em arquivo.
+- O resultado vai para `conteudo-gerado/a2/u01/`, uma pasta que não vai para o GitHub.
+- **Revise os textos** (diálogos, respostas, traduções). Quando estiver bom, mova a pasta para `conteudo/a2/u01/` e rode `npm run conteudo:indice` e `npm test`.
+- Cada unidade usa cerca de 7 a 15 pedidos à IA. Se o limite grátis do dia acabar, continue no dia seguinte.
 
 ## Testes
 
