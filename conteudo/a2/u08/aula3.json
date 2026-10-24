@@ -1,0 +1,343 @@
+{
+  "id": "a2-u08-l3",
+  "nivel": "A2",
+  "unidade": 8,
+  "numero": 3,
+  "titulo": "You must wear a helmet",
+  "objetivo_pt": "Falar de regras e obrigações com must, have to e mustn't.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar as regras de segurança da sua empresa. Use \"We must…\" e \"We have to…\".",
+    "papel_professor": "Pergunte as regras de segurança da empresa do aluno (What do you have to wear? What mustn't you do?). Ensine must/have to/mustn't/don't have to e EPIs.",
+    "abertura": "What safety rules do you have at your workplace?",
+    "abertura_pt": "Que regras de segurança vocês têm no seu trabalho?"
+  },
+  "vocabulario": [
+    {
+      "id": "must",
+      "en": "must",
+      "pt": "dever (obrigação forte)",
+      "emoji": "❗",
+      "exemplo_en": "You must wear a helmet here.",
+      "exemplo_pt": "Você deve usar capacete aqui."
+    },
+    {
+      "id": "have-to",
+      "en": "have to / has to",
+      "pt": "ter que",
+      "emoji": "📋",
+      "exemplo_en": "We have to clock in at seven.",
+      "exemplo_pt": "Temos que bater o ponto às sete."
+    },
+    {
+      "id": "mustnt",
+      "en": "mustn't",
+      "pt": "não pode (proibido)",
+      "emoji": "🚫",
+      "exemplo_en": "You mustn't smoke in the factory.",
+      "exemplo_pt": "É proibido fumar na fábrica."
+    },
+    {
+      "id": "dont-have-to",
+      "en": "don't have to",
+      "pt": "não precisa",
+      "emoji": "🆓",
+      "exemplo_en": "You don't have to wear a tie.",
+      "exemplo_pt": "Você não precisa usar gravata."
+    },
+    {
+      "id": "helmet",
+      "en": "helmet / hard hat",
+      "pt": "capacete",
+      "emoji": "⛑️",
+      "exemplo_en": "Put on your helmet.",
+      "exemplo_pt": "Coloque o capacete."
+    },
+    {
+      "id": "gloves",
+      "en": "gloves",
+      "pt": "luvas",
+      "emoji": "🧤",
+      "exemplo_en": "Wear gloves to touch the parts.",
+      "exemplo_pt": "Use luvas para tocar nas peças."
+    },
+    {
+      "id": "safety-boots",
+      "en": "safety boots",
+      "pt": "botas de segurança",
+      "emoji": "🥾",
+      "exemplo_en": "Safety boots are mandatory.",
+      "exemplo_pt": "Botas de segurança são obrigatórias."
+    },
+    {
+      "id": "ear-plugs",
+      "en": "ear plugs",
+      "pt": "protetor auricular",
+      "emoji": "🦻",
+      "exemplo_en": "Wear ear plugs near the presses.",
+      "exemplo_pt": "Use protetor auricular perto das prensas."
+    },
+    {
+      "id": "ppe",
+      "en": "PPE (personal protective equipment)",
+      "pt": "EPI (equipamento de proteção individual)",
+      "emoji": "🦺",
+      "exemplo_en": "Check your PPE every day.",
+      "exemplo_pt": "Verifique seu EPI todo dia."
+    },
+    {
+      "id": "mandatory",
+      "en": "mandatory / allowed / forbidden",
+      "pt": "obrigatório / permitido / proibido",
+      "emoji": "⚠️",
+      "exemplo_en": "Phones are forbidden on the line.",
+      "exemplo_pt": "Celulares são proibidos na linha."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Must, have to, mustn't, don't have to",
+    "explicacao_pt": "MUST + verbo e HAVE TO + verbo = obrigação (You must / have to wear a helmet). 'Must' soa como regra ou placa; 'have to' é o mais comum na fala (com he/she: has to). MUSTN'T = proibição (You mustn't smoke = é proibido). DON'T HAVE TO = não é necessário (You don't have to come = você não precisa vir). Cuidado: mustn't e don't have to têm sentidos MUITO diferentes! Passado: had to (I had to work on Saturday).",
+    "tabela": {
+      "colunas": [
+        "Forma",
+        "Sentido",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "must",
+          "obrigação (regra)",
+          "You must wear safety boots."
+        ],
+        [
+          "have to / has to",
+          "obrigação (comum)",
+          "She has to start at six."
+        ],
+        [
+          "mustn't",
+          "proibido",
+          "You mustn't use your phone here."
+        ],
+        [
+          "don't have to",
+          "não é necessário",
+          "You don't have to wear a uniform on Fridays."
+        ],
+        [
+          "had to",
+          "obrigação no passado",
+          "We had to stop the line."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "All visitors must wear a helmet and safety glasses.",
+        "pt": "Todos os visitantes devem usar capacete e óculos de segurança."
+      },
+      {
+        "en": "You mustn't touch the machine when it is running.",
+        "pt": "É proibido tocar na máquina quando ela está funcionando."
+      },
+      {
+        "en": "Operators have to check their PPE at the start of every shift.",
+        "pt": "Os operadores têm que verificar o EPI no início de cada turno."
+      },
+      {
+        "en": "You don't have to bring lunch. There's a cafeteria.",
+        "pt": "Você não precisa trazer almoço. Tem refeitório."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Safety induction",
+    "falas": [
+      {
+        "personagem": "Instructor",
+        "voz": "a",
+        "en": "Welcome to the plant. First, the safety rules.",
+        "pt": "Bem-vindos à fábrica. Primeiro, as regras de segurança."
+      },
+      {
+        "personagem": "Instructor",
+        "voz": "a",
+        "en": "You must wear a helmet, safety glasses and safety boots on the production floor.",
+        "pt": "Vocês devem usar capacete, óculos e botas de segurança na área de produção."
+      },
+      {
+        "personagem": "New worker",
+        "voz": "b",
+        "en": "Do we have to wear gloves all the time?",
+        "pt": "Temos que usar luvas o tempo todo?"
+      },
+      {
+        "personagem": "Instructor",
+        "voz": "a",
+        "en": "No, you don't have to. Only when you touch metal parts.",
+        "pt": "Não, não precisam. Só quando tocarem em peças de metal."
+      },
+      {
+        "personagem": "New worker",
+        "voz": "b",
+        "en": "Can we use our phones?",
+        "pt": "Podemos usar o celular?"
+      },
+      {
+        "personagem": "Instructor",
+        "voz": "a",
+        "en": "No. You mustn't use phones on the production floor. Only in the break room.",
+        "pt": "Não. É proibido usar celular na área de produção. Só na sala de descanso."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What must they wear on the production floor?",
+        "opcoes": [
+          "Helmet, safety glasses and safety boots",
+          "Only gloves",
+          "A uniform and a tie"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08l3-e2",
+        "tipo": "multipla",
+        "enunciado": "When do they have to wear gloves?",
+        "opcoes": [
+          "All the time",
+          "Only when they touch metal parts",
+          "Never"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Where can they use phones?",
+        "opcoes": [
+          "On the production floor",
+          "In the break room",
+          "Nowhere"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u08l3-p1",
+      "tipo": "completar",
+      "frase": "You ___ wear a helmet here. (deve)",
+      "respostas": [
+        "must"
+      ]
+    },
+    {
+      "id": "a2u08l3-p2",
+      "tipo": "completar",
+      "frase": "She ___ to start at six. (tem que)",
+      "respostas": [
+        "has"
+      ]
+    },
+    {
+      "id": "a2u08l3-p3",
+      "tipo": "completar",
+      "frase": "You ___ smoke in the factory. (proibido)",
+      "respostas": [
+        "mustn't",
+        "must not"
+      ]
+    },
+    {
+      "id": "a2u08l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Você não precisa vir amanhã\":",
+      "opcoes": [
+        "You mustn't come tomorrow.",
+        "You don't have to come tomorrow."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Mustn't = proibido; don't have to = não precisa."
+    },
+    {
+      "id": "a2u08l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Tivemos que parar a linha\":",
+      "opcoes": [
+        "We had to stop the line.",
+        "We must stopped the line.",
+        "We have to stopped the line."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l3-p6",
+      "tipo": "ordenar",
+      "frase": "Check your PPE every day",
+      "traducao_pt": "Verifique seu EPI todo dia"
+    },
+    {
+      "id": "a2u08l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Wear ear plugs near the presses."
+    },
+    {
+      "id": "a2u08l3-p8",
+      "tipo": "traduzir",
+      "pt": "Botas de segurança são obrigatórias.",
+      "respostas": [
+        "Safety boots are mandatory."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você vai explicar as regras de segurança da sua empresa para um visitante (o professor). Diga o que é obrigatório, proibido e o que não é necessário.",
+    "papel_professor": "Faça o papel de visitante estrangeiro numa fábrica. Pergunte sobre EPIs e regras (Do I have to wear…? Can I take photos? Can I use my phone?). Corrija must/have to/mustn't/don't have to.",
+    "abertura": "Hi! I'm visiting the plant today. Is there anything I must know about safety?",
+    "abertura_pt": "Oi! Vou visitar a fábrica hoje. Tem algo que eu preciso saber sobre segurança?"
+  },
+  "teste": [
+    {
+      "id": "a2u08l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Proibição:",
+      "opcoes": [
+        "You mustn't run here.",
+        "You don't have to run here."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l3-t2",
+      "tipo": "completar",
+      "frase": "We ___ to clock in at seven. (temos que)",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "a2u08l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Phones are forbidden on the line."
+    },
+    {
+      "id": "a2u08l3-t4",
+      "tipo": "traduzir",
+      "pt": "Coloque o capacete.",
+      "respostas": [
+        "Put on your helmet.",
+        "Put your helmet on.",
+        "Put on your hard hat."
+      ]
+    },
+    {
+      "id": "a2u08l3-t5",
+      "tipo": "ordenar",
+      "frase": "You don't have to wear a tie",
+      "traducao_pt": "Você não precisa usar gravata"
+    }
+  ]
+}

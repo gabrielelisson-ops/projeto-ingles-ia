@@ -1,0 +1,356 @@
+{
+  "id": "a2-u07-l5",
+  "nivel": "A2",
+  "unidade": 7,
+  "numero": 5,
+  "titulo": "A business trip",
+  "objetivo_pt": "Organizar e contar uma viagem de trabalho: transportes, horários e imprevistos.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga como você prefere viajar (avião, ônibus, carro) e por quê.",
+    "papel_professor": "Pergunte ao aluno qual meio de transporte ele prefere e por quê (comparativos). Pergunte da última viagem de trabalho ou de férias.",
+    "abertura": "How do you prefer to travel: by plane, by bus, or by car? Why?",
+    "abertura_pt": "Como você prefere viajar: de avião, de ônibus ou de carro? Por quê?"
+  },
+  "vocabulario": [
+    {
+      "id": "by-plane",
+      "en": "by plane / by bus / by car",
+      "pt": "de avião / de ônibus / de carro",
+      "emoji": "🚗",
+      "exemplo_en": "I usually travel by bus.",
+      "exemplo_pt": "Geralmente viajo de ônibus."
+    },
+    {
+      "id": "on-foot",
+      "en": "on foot",
+      "pt": "a pé",
+      "emoji": "🚶",
+      "exemplo_en": "The hotel is ten minutes on foot.",
+      "exemplo_pt": "O hotel fica a dez minutos a pé."
+    },
+    {
+      "id": "rent-car",
+      "en": "rent a car",
+      "pt": "alugar um carro",
+      "emoji": "🚙",
+      "exemplo_en": "We rented a car at the airport.",
+      "exemplo_pt": "Alugamos um carro no aeroporto."
+    },
+    {
+      "id": "connection",
+      "en": "connection / layover",
+      "pt": "conexão / escala",
+      "emoji": "🔁",
+      "exemplo_en": "I have a connection in São Paulo.",
+      "exemplo_pt": "Tenho uma conexão em São Paulo."
+    },
+    {
+      "id": "miss-flight",
+      "en": "miss a flight",
+      "pt": "perder um voo",
+      "emoji": "😱",
+      "exemplo_en": "I almost missed my flight.",
+      "exemplo_pt": "Quase perdi meu voo."
+    },
+    {
+      "id": "itinerary",
+      "en": "itinerary",
+      "pt": "roteiro / itinerário",
+      "emoji": "🗺️",
+      "exemplo_en": "Here is your itinerary.",
+      "exemplo_pt": "Aqui está seu itinerário."
+    },
+    {
+      "id": "expenses",
+      "en": "travel expenses",
+      "pt": "despesas de viagem",
+      "emoji": "🧾",
+      "exemplo_en": "Keep all the receipts for your expenses.",
+      "exemplo_pt": "Guarde todos os recibos das despesas."
+    },
+    {
+      "id": "visit-plant",
+      "en": "visit the plant",
+      "pt": "visitar a fábrica",
+      "emoji": "🏭",
+      "exemplo_en": "I'm visiting the supplier's plant.",
+      "exemplo_pt": "Vou visitar a fábrica do fornecedor."
+    },
+    {
+      "id": "jet-lag",
+      "en": "jet lag / tired",
+      "pt": "fuso horário / cansado",
+      "emoji": "😴",
+      "exemplo_en": "I had jet lag for two days.",
+      "exemplo_pt": "Fiquei com jet lag por dois dias."
+    },
+    {
+      "id": "return",
+      "en": "return flight",
+      "pt": "voo de volta",
+      "emoji": "🔙",
+      "exemplo_en": "My return flight is on Friday.",
+      "exemplo_pt": "Meu voo de volta é na sexta."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: viagens",
+    "explicacao_pt": "Junte tudo da unidade: imperativo para instruções (Take a taxi, keep the receipts), preposições de movimento (through security, across the city), meios de transporte (BY plane/car/bus, mas ON foot), frases de aeroporto e hotel, e o passado para contar como foi (My flight was delayed, I took a taxi). Para planejar: going to / present continuous (I'm flying on Monday).",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Planejar",
+          "I'm flying to Manaus on Monday.",
+          "Vou voar para Manaus na segunda."
+        ],
+        [
+          "Instruções",
+          "Take a taxi from the airport.",
+          "Pegue um táxi do aeroporto."
+        ],
+        [
+          "Transporte",
+          "by plane / on foot",
+          "de avião / a pé"
+        ],
+        [
+          "Problema",
+          "My flight was delayed.",
+          "Meu voo atrasou."
+        ],
+        [
+          "Despesas",
+          "Keep the receipts.",
+          "Guarde os recibos."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Next week I'm visiting a supplier in Joinville. I'm going by car.",
+        "pt": "Semana que vem vou visitar um fornecedor em Joinville. Vou de carro."
+      },
+      {
+        "en": "My flight was delayed, so I missed my connection.",
+        "pt": "Meu voo atrasou, então perdi minha conexão."
+      },
+      {
+        "en": "Take a taxi to the hotel and keep the receipt.",
+        "pt": "Pegue um táxi até o hotel e guarde o recibo."
+      },
+      {
+        "en": "The plant is twenty minutes from the hotel by car.",
+        "pt": "A fábrica fica a vinte minutos do hotel de carro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A difficult trip",
+    "falas": [
+      {
+        "personagem": "Boss",
+        "voz": "a",
+        "en": "Welcome back, Lia! How was the trip to Manaus?",
+        "pt": "Bem-vinda de volta, Lia! Como foi a viagem a Manaus?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "The visit was great, but the trip was difficult!",
+        "pt": "A visita foi ótima, mas a viagem foi difícil!"
+      },
+      {
+        "personagem": "Boss",
+        "voz": "a",
+        "en": "What happened?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "My first flight was delayed, so I missed my connection in Brasília.",
+        "pt": "Meu primeiro voo atrasou, então perdi a conexão em Brasília."
+      },
+      {
+        "personagem": "Boss",
+        "voz": "a",
+        "en": "Oh no! What did you do?",
+        "pt": "Ah não! O que você fez?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "The airline put me on the next flight. I arrived at midnight and took a taxi to the hotel.",
+        "pt": "A companhia me colocou no próximo voo. Cheguei à meia-noite e peguei um táxi até o hotel."
+      },
+      {
+        "personagem": "Boss",
+        "voz": "a",
+        "en": "Did you keep the receipts?",
+        "pt": "Você guardou os recibos?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Yes, all of them.",
+        "pt": "Sim, todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where did Lia go?",
+        "opcoes": [
+          "Brasília",
+          "Manaus",
+          "São Paulo"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Why did she miss her connection?",
+        "opcoes": [
+          "She was late.",
+          "Her first flight was delayed.",
+          "She lost her passport."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l5-e3",
+        "tipo": "multipla",
+        "enunciado": "When did she arrive?",
+        "opcoes": [
+          "At midnight",
+          "In the morning",
+          "At noon"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u07l5-p1",
+      "tipo": "completar",
+      "frase": "I usually travel ___ bus.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "a2u07l5-p2",
+      "tipo": "completar",
+      "frase": "The hotel is ten minutes ___ foot.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a2u07l5-p3",
+      "tipo": "completar",
+      "frase": "I have a ___ in São Paulo. (conexão)",
+      "respostas": [
+        "connection"
+      ]
+    },
+    {
+      "id": "a2u07l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Quase perdi meu voo\":",
+      "opcoes": [
+        "I almost missed my flight.",
+        "I almost lost my flight.",
+        "I almost miss my fly."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Guarde os recibos\":",
+      "opcoes": [
+        "Keep the receipts.",
+        "Save the recipes.",
+        "Guard the receipts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l5-p6",
+      "tipo": "ordenar",
+      "frase": "My return flight is on Friday",
+      "traducao_pt": "Meu voo de volta é na sexta"
+    },
+    {
+      "id": "a2u07l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We rented a car at the airport."
+    },
+    {
+      "id": "a2u07l5-p8",
+      "tipo": "traduzir",
+      "pt": "Meu voo atrasou.",
+      "respostas": [
+        "My flight was delayed."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: conte ao professor (seu chefe) como foi uma viagem de trabalho (real ou inventada): transporte, hotel, visita e um imprevisto.",
+    "papel_professor": "Faça o papel de chefe recebendo o relato de uma viagem de trabalho. Pergunte sobre voo, hotel, visita ao cliente/fornecedor, problemas e despesas. Corrija passado e preposições.",
+    "abertura": "Welcome back! Tell me everything about your business trip.",
+    "abertura_pt": "Bem-vindo de volta! Me conte tudo sobre sua viagem de trabalho."
+  },
+  "teste": [
+    {
+      "id": "a2u07l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"De avião\":",
+      "opcoes": [
+        "by plane",
+        "in plane",
+        "on the plane by"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l5-t2",
+      "tipo": "completar",
+      "frase": "Here is your ___. (itinerário)",
+      "respostas": [
+        "itinerary"
+      ]
+    },
+    {
+      "id": "a2u07l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm visiting the supplier's plant.",
+      "aceitas": [
+        "I am visiting the supplier's plant."
+      ]
+    },
+    {
+      "id": "a2u07l5-t4",
+      "tipo": "traduzir",
+      "pt": "Perdi minha conexão.",
+      "respostas": [
+        "I missed my connection."
+      ]
+    },
+    {
+      "id": "a2u07l5-t5",
+      "tipo": "ordenar",
+      "frase": "I had jet lag for two days",
+      "traducao_pt": "Fiquei com jet lag por dois dias"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "a2-u08-l2",
+  "nivel": "A2",
+  "unidade": 8,
+  "numero": 2,
+  "titulo": "You should see a doctor",
+  "objetivo_pt": "Dar e pedir conselhos com should e shouldn't.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar alguns problemas de saúde. Dê conselhos com \"You should…\" e \"You shouldn't…\".",
+    "papel_professor": "Conte problemas (I can't sleep. I have a backache. I'm always tired.). O aluno dá conselhos com should/shouldn't. Corrija 'You should to' → 'You should'.",
+    "abertura": "I have a terrible backache. What should I do?",
+    "abertura_pt": "Estou com uma dor nas costas terrível. O que devo fazer?"
+  },
+  "vocabulario": [
+    {
+      "id": "should",
+      "en": "should",
+      "pt": "deveria",
+      "emoji": "👉",
+      "exemplo_en": "You should rest.",
+      "exemplo_pt": "Você deveria descansar."
+    },
+    {
+      "id": "shouldnt",
+      "en": "shouldn't",
+      "pt": "não deveria",
+      "emoji": "🙅",
+      "exemplo_en": "You shouldn't lift heavy boxes.",
+      "exemplo_pt": "Você não deveria levantar caixas pesadas."
+    },
+    {
+      "id": "see-doctor",
+      "en": "see a doctor",
+      "pt": "ir ao médico",
+      "emoji": "🩺",
+      "exemplo_en": "You should see a doctor.",
+      "exemplo_pt": "Você deveria ir ao médico."
+    },
+    {
+      "id": "rest",
+      "en": "rest",
+      "pt": "descansar",
+      "emoji": "🛌",
+      "exemplo_en": "Rest for a few days.",
+      "exemplo_pt": "Descanse por alguns dias."
+    },
+    {
+      "id": "medicine",
+      "en": "take medicine",
+      "pt": "tomar remédio",
+      "emoji": "💊",
+      "exemplo_en": "Take this medicine twice a day.",
+      "exemplo_pt": "Tome este remédio duas vezes por dia."
+    },
+    {
+      "id": "drink-water",
+      "en": "drink water",
+      "pt": "beber água",
+      "emoji": "💧",
+      "exemplo_en": "You should drink more water.",
+      "exemplo_pt": "Você deveria beber mais água."
+    },
+    {
+      "id": "stretch",
+      "en": "stretch",
+      "pt": "alongar",
+      "emoji": "🧘",
+      "exemplo_en": "Stretch before work.",
+      "exemplo_pt": "Alongue-se antes do trabalho."
+    },
+    {
+      "id": "sleep-more",
+      "en": "sleep more",
+      "pt": "dormir mais",
+      "emoji": "😴",
+      "exemplo_en": "You should sleep more.",
+      "exemplo_pt": "Você deveria dormir mais."
+    },
+    {
+      "id": "advice",
+      "en": "advice",
+      "pt": "conselho",
+      "emoji": "💡",
+      "exemplo_en": "Can I give you some advice?",
+      "exemplo_pt": "Posso te dar um conselho?"
+    },
+    {
+      "id": "healthy",
+      "en": "healthy / unhealthy",
+      "pt": "saudável / não saudável",
+      "emoji": "🥗",
+      "exemplo_en": "Eat healthy food.",
+      "exemplo_pt": "Coma comida saudável."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Should para conselhos",
+    "explicacao_pt": "SHOULD + verbo (sem 'to') = deveria: You should rest. SHOULDN'T = não deveria: You shouldn't work today. Pergunta: Should I see a doctor? What should I do? É igual para todas as pessoas (he should, they should). Formas mais suaves: Maybe you should… / I think you should… Atenção: 'advice' (conselho) é incontável: some advice, a piece of advice (nunca 'an advice').",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Afirmativa",
+          "should + verbo",
+          "You should rest."
+        ],
+        [
+          "Negativa",
+          "shouldn't + verbo",
+          "You shouldn't drive."
+        ],
+        [
+          "Pergunta",
+          "Should + sujeito + verbo?",
+          "Should I go home?"
+        ],
+        [
+          "Suave",
+          "I think you should…",
+          "I think you should see a doctor."
+        ],
+        [
+          "Pedir conselho",
+          "What should I do?",
+          "O que devo fazer?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "You look tired. You should go home and rest.",
+        "pt": "Você parece cansado. Deveria ir para casa descansar."
+      },
+      {
+        "en": "You shouldn't lift that box alone. Ask for help.",
+        "pt": "Você não deveria levantar essa caixa sozinho. Peça ajuda."
+      },
+      {
+        "en": "I think you should drink more water at work.",
+        "pt": "Acho que você deveria beber mais água no trabalho."
+      },
+      {
+        "en": "Should I take this medicine before or after meals?",
+        "pt": "Devo tomar este remédio antes ou depois das refeições?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "At the doctor",
+    "falas": [
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "So, what's the problem?",
+        "pt": "Então, qual é o problema?"
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "My back hurts a lot. I work in a warehouse and I lift heavy boxes every day.",
+        "pt": "Minhas costas doem muito. Trabalho num armazém e levanto caixas pesadas todo dia."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "I see. You should stretch before work and use a lifting belt.",
+        "pt": "Entendo. Você deveria alongar antes do trabalho e usar uma cinta."
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Should I stop working?",
+        "pt": "Devo parar de trabalhar?"
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "No, but you shouldn't lift more than twenty kilos alone. Take this medicine for five days.",
+        "pt": "Não, mas não deveria levantar mais de vinte quilos sozinho. Tome este remédio por cinco dias."
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Thank you, doctor.",
+        "pt": "Obrigado, doutor."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Where does the patient work?",
+        "opcoes": [
+          "In an office",
+          "In a warehouse",
+          "In a hospital"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What should he do before work?",
+        "opcoes": [
+          "Stretch",
+          "Run",
+          "Sleep"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How many kilos shouldn't he lift alone?",
+        "opcoes": [
+          "Ten",
+          "More than twenty",
+          "Fifty"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u08l2-p1",
+      "tipo": "completar",
+      "frase": "You ___ see a doctor. (deveria)",
+      "respostas": [
+        "should"
+      ]
+    },
+    {
+      "id": "a2u08l2-p2",
+      "tipo": "completar",
+      "frase": "You ___ lift heavy boxes. (não deveria)",
+      "respostas": [
+        "shouldn't",
+        "should not"
+      ]
+    },
+    {
+      "id": "a2u08l2-p3",
+      "tipo": "completar",
+      "frase": "What ___ I do?",
+      "respostas": [
+        "should"
+      ]
+    },
+    {
+      "id": "a2u08l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "You should to rest.",
+        "You should rest.",
+        "You should resting."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u08l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Um conselho\":",
+      "opcoes": [
+        "an advice",
+        "some advice",
+        "a advice"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u08l2-p6",
+      "tipo": "ordenar",
+      "frase": "You should drink more water",
+      "traducao_pt": "Você deveria beber mais água"
+    },
+    {
+      "id": "a2u08l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Take this medicine twice a day."
+    },
+    {
+      "id": "a2u08l2-p8",
+      "tipo": "traduzir",
+      "pt": "Você deveria dormir mais.",
+      "respostas": [
+        "You should sleep more."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor é um colega com vários problemas (cansaço, dor nas costas, estresse). Dê pelo menos 4 conselhos.",
+    "papel_professor": "Faça o papel de colega com problemas: sleeps badly, back pain from the line, too much coffee, stressed about a deadline. Peça conselhos (What should I do?). Corrija should/shouldn't.",
+    "abertura": "I'm so tired these days. I sleep only five hours. What should I do?",
+    "abertura_pt": "Ando tão cansado. Durmo só cinco horas. O que devo fazer?"
+  },
+  "teste": [
+    {
+      "id": "a2u08l2-t1",
+      "tipo": "completar",
+      "frase": "I think you ___ rest.",
+      "respostas": [
+        "should"
+      ]
+    },
+    {
+      "id": "a2u08l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Should I go home?",
+        "Do I should go home?",
+        "I should go home?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "You shouldn't drive today.",
+      "aceitas": [
+        "You should not drive today."
+      ]
+    },
+    {
+      "id": "a2u08l2-t4",
+      "tipo": "traduzir",
+      "pt": "Você deveria ir ao médico.",
+      "respostas": [
+        "You should see a doctor.",
+        "You should go to the doctor."
+      ]
+    },
+    {
+      "id": "a2u08l2-t5",
+      "tipo": "ordenar",
+      "frase": "Stretch before work",
+      "traducao_pt": "Alongue-se antes do trabalho"
+    }
+  ]
+}

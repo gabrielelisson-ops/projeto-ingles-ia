@@ -1,0 +1,348 @@
+{
+  "id": "a2-u08-l5",
+  "nivel": "A2",
+  "unidade": 8,
+  "numero": 5,
+  "titulo": "Safety first",
+  "objetivo_pt": "Explicar procedimentos de segurança e relatar um incidente, juntando tudo do A2.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga 2 regras de segurança (must/mustn't) e 1 conselho de saúde (should) para quem trabalha na indústria.",
+    "papel_professor": "Peça 2 regras e 1 conselho. Corrija must/mustn't/should. Pergunte se já aconteceu algum incidente no trabalho do aluno.",
+    "abertura": "Give me two safety rules and one health tip for factory workers.",
+    "abertura_pt": "Me dê duas regras de segurança e uma dica de saúde para quem trabalha em fábrica."
+  },
+  "vocabulario": [
+    {
+      "id": "incident",
+      "en": "incident / accident",
+      "pt": "incidente / acidente",
+      "emoji": "⚠️",
+      "exemplo_en": "We had an incident last week.",
+      "exemplo_pt": "Tivemos um incidente semana passada."
+    },
+    {
+      "id": "report-i",
+      "en": "report",
+      "pt": "relatar / relatório",
+      "emoji": "📝",
+      "exemplo_en": "You must report every accident.",
+      "exemplo_pt": "Você deve relatar todo acidente."
+    },
+    {
+      "id": "slip",
+      "en": "slip / trip / fall",
+      "pt": "escorregar / tropeçar / cair",
+      "emoji": "🫨",
+      "exemplo_en": "He slipped on the wet floor.",
+      "exemplo_pt": "Ele escorregou no chão molhado."
+    },
+    {
+      "id": "injure",
+      "en": "injure / injury",
+      "pt": "ferir / ferimento",
+      "emoji": "🩹",
+      "exemplo_en": "Nobody was injured.",
+      "exemplo_pt": "Ninguém se feriu."
+    },
+    {
+      "id": "procedure",
+      "en": "procedure",
+      "pt": "procedimento",
+      "emoji": "📋",
+      "exemplo_en": "Follow the safety procedure.",
+      "exemplo_pt": "Siga o procedimento de segurança."
+    },
+    {
+      "id": "turn-off",
+      "en": "turn off / lock out",
+      "pt": "desligar / bloquear (máquina)",
+      "emoji": "🔒",
+      "exemplo_en": "Turn off and lock out the machine before cleaning.",
+      "exemplo_pt": "Desligue e bloqueie a máquina antes de limpar."
+    },
+    {
+      "id": "sign",
+      "en": "sign",
+      "pt": "placa / sinal",
+      "emoji": "🪧",
+      "exemplo_en": "Read the warning signs.",
+      "exemplo_pt": "Leia as placas de aviso."
+    },
+    {
+      "id": "careful-s",
+      "en": "be careful",
+      "pt": "tomar cuidado",
+      "emoji": "⚠️",
+      "exemplo_en": "Be careful with the forklifts.",
+      "exemplo_pt": "Tome cuidado com as empilhadeiras."
+    },
+    {
+      "id": "prevent",
+      "en": "prevent",
+      "pt": "prevenir",
+      "emoji": "🛡️",
+      "exemplo_en": "How can we prevent accidents?",
+      "exemplo_pt": "Como podemos prevenir acidentes?"
+    },
+    {
+      "id": "near-miss",
+      "en": "near miss",
+      "pt": "quase acidente",
+      "emoji": "😮",
+      "exemplo_en": "Report near misses too.",
+      "exemplo_pt": "Relate os quase acidentes também."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: segurança e saúde",
+    "explicacao_pt": "Junte tudo: MUST/HAVE TO (obrigação), MUSTN'T (proibido), DON'T HAVE TO (não precisa), SHOULD (conselho), CAN/COULD (habilidade, permissão, pedido), imperativo (Turn off the machine), e passado para relatar (He slipped. Nobody was injured. We had to stop the line). Um relato de incidente tem: o que aconteceu, quando, onde, a causa e o que fazer para prevenir.",
+    "tabela": {
+      "colunas": [
+        "Parte do relato",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "O que / quando",
+          "A worker slipped on Monday at 10 a.m.",
+          "Um funcionário escorregou na segunda às 10h."
+        ],
+        [
+          "Onde",
+          "It happened near line 2.",
+          "Aconteceu perto da linha 2."
+        ],
+        [
+          "Causa",
+          "There was oil on the floor.",
+          "Havia óleo no chão."
+        ],
+        [
+          "Resultado",
+          "Nobody was injured, but we had to stop.",
+          "Ninguém se feriu, mas tivemos que parar."
+        ],
+        [
+          "Prevenção",
+          "We should clean leaks immediately.",
+          "Devemos limpar vazamentos na hora."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Before cleaning, you must turn off and lock out the machine.",
+        "pt": "Antes de limpar, você deve desligar e bloquear a máquina."
+      },
+      {
+        "en": "Yesterday a worker tripped over a cable. Luckily, nobody was injured.",
+        "pt": "Ontem um funcionário tropeçou num cabo. Felizmente, ninguém se feriu."
+      },
+      {
+        "en": "We should keep the floor clean and dry.",
+        "pt": "Devemos manter o chão limpo e seco."
+      },
+      {
+        "en": "You don't have to wait. Report near misses immediately.",
+        "pt": "Você não precisa esperar. Relate quase acidentes imediatamente."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A near miss",
+    "falas": [
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Thanks for reporting the near miss, Carla. What happened?",
+        "pt": "Obrigado por relatar o quase acidente, Carla. O que aconteceu?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "Yesterday at three, a forklift came out of the warehouse very fast. A visitor was walking there.",
+        "pt": "Ontem às três, uma empilhadeira saiu do armazém muito rápido. Um visitante estava andando ali."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Was anybody injured?",
+        "pt": "Alguém se feriu?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "No, the driver stopped in time. But the visitor wasn't in the walking area.",
+        "pt": "Não, o motorista parou a tempo. Mas o visitante não estava na faixa de pedestres."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "OK. Visitors must stay in the walking area, and drivers have to slow down at the door.",
+        "pt": "OK. Visitantes devem ficar na faixa de pedestres e os motoristas têm que reduzir na porta."
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "I think we should put a mirror and a sign there.",
+        "pt": "Acho que deveríamos colocar um espelho e uma placa ali."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Great idea. I'll order them today.",
+        "pt": "Ótima ideia. Vou pedir hoje."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08l5-e1",
+        "tipo": "multipla",
+        "enunciado": "When did it happen?",
+        "opcoes": [
+          "Yesterday at three",
+          "Today at three",
+          "Last week"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Was anybody injured?",
+        "opcoes": [
+          "Yes, the visitor.",
+          "No, nobody."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Carla suggest?",
+        "opcoes": [
+          "A mirror and a sign",
+          "A new forklift",
+          "No visitors"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u08l5-p1",
+      "tipo": "completar",
+      "frase": "You must ___ every accident. (relatar)",
+      "respostas": [
+        "report"
+      ]
+    },
+    {
+      "id": "a2u08l5-p2",
+      "tipo": "completar",
+      "frase": "He ___ on the wet floor. (escorregou)",
+      "respostas": [
+        "slipped"
+      ]
+    },
+    {
+      "id": "a2u08l5-p3",
+      "tipo": "completar",
+      "frase": "Nobody was ___. (ferido)",
+      "respostas": [
+        "injured"
+      ]
+    },
+    {
+      "id": "a2u08l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Quase acidente\":",
+      "opcoes": [
+        "near miss",
+        "almost accident",
+        "close crash"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Antes de limpar a máquina:",
+      "opcoes": [
+        "Turn off and lock out the machine.",
+        "Turn on the machine.",
+        "Clean it running."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l5-p6",
+      "tipo": "ordenar",
+      "frase": "Be careful with the forklifts",
+      "traducao_pt": "Tome cuidado com as empilhadeiras"
+    },
+    {
+      "id": "a2u08l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Follow the safety procedure."
+    },
+    {
+      "id": "a2u08l5-p8",
+      "tipo": "traduzir",
+      "pt": "Como podemos prevenir acidentes?",
+      "respostas": [
+        "How can we prevent accidents?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final do A2: relate ao professor (o técnico de segurança) um incidente ou quase acidente (real ou inventado): o que, quando, onde, a causa e o que vocês devem fazer para prevenir.",
+    "papel_professor": "Faça o papel de técnico de segurança recebendo o relato. Pergunte What happened? When? Where? Was anybody injured? Why? What should we do? Corrija passado, must/should.",
+    "abertura": "Hello. I'm from the safety department. I heard there was an incident. Can you tell me what happened?",
+    "abertura_pt": "Olá. Sou do departamento de segurança. Soube que houve um incidente. Pode me contar o que aconteceu?"
+  },
+  "teste": [
+    {
+      "id": "a2u08l5-t1",
+      "tipo": "completar",
+      "frase": "We ___ keep the floor clean. (deveríamos)",
+      "respostas": [
+        "should"
+      ]
+    },
+    {
+      "id": "a2u08l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Leia as placas de aviso\":",
+      "opcoes": [
+        "Read the warning signs.",
+        "Read the warning signals of.",
+        "Reading the signs warning."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We had an incident last week."
+    },
+    {
+      "id": "a2u08l5-t4",
+      "tipo": "traduzir",
+      "pt": "Ninguém se feriu.",
+      "respostas": [
+        "Nobody was injured.",
+        "No one was injured.",
+        "Nobody got hurt."
+      ]
+    },
+    {
+      "id": "a2u08l5-t5",
+      "tipo": "ordenar",
+      "frase": "Report near misses too",
+      "traducao_pt": "Relate os quase acidentes também"
+    }
+  ]
+}

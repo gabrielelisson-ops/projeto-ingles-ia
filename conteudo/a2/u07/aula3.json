@@ -1,0 +1,348 @@
+{
+  "id": "a2-u07-l3",
+  "nivel": "A2",
+  "unidade": 7,
+  "numero": 3,
+  "titulo": "At the airport",
+  "objetivo_pt": "Fazer check-in, passar pela segurança e encontrar o portão no aeroporto.",
+  "aquecimento": {
+    "situacao_pt": "Você está no aeroporto. O professor é o atendente do check-in. Responda às perguntas.",
+    "papel_professor": "Faça o papel de atendente de check-in. Peça passaporte, destino, bagagem, preferência de assento. Informe portão e horário de embarque.",
+    "abertura": "Good morning. Can I see your passport and ticket, please?",
+    "abertura_pt": "Bom dia. Posso ver seu passaporte e passagem, por favor?"
+  },
+  "vocabulario": [
+    {
+      "id": "check-in",
+      "en": "check in",
+      "pt": "fazer check-in",
+      "emoji": "🛂",
+      "exemplo_en": "I need to check in two hours before.",
+      "exemplo_pt": "Preciso fazer check-in duas horas antes."
+    },
+    {
+      "id": "passport",
+      "en": "passport",
+      "pt": "passaporte",
+      "emoji": "🛂",
+      "exemplo_en": "Here is my passport.",
+      "exemplo_pt": "Aqui está meu passaporte."
+    },
+    {
+      "id": "boarding-pass",
+      "en": "boarding pass",
+      "pt": "cartão de embarque",
+      "emoji": "🎫",
+      "exemplo_en": "Here is your boarding pass.",
+      "exemplo_pt": "Aqui está seu cartão de embarque."
+    },
+    {
+      "id": "gate",
+      "en": "gate",
+      "pt": "portão de embarque",
+      "emoji": "🚪",
+      "exemplo_en": "Your flight leaves from gate 12.",
+      "exemplo_pt": "Seu voo sai do portão 12."
+    },
+    {
+      "id": "luggage",
+      "en": "luggage / bag",
+      "pt": "bagagem / mala",
+      "emoji": "🧳",
+      "exemplo_en": "How many bags are you checking?",
+      "exemplo_pt": "Quantas malas você vai despachar?"
+    },
+    {
+      "id": "carry-on",
+      "en": "carry-on bag",
+      "pt": "bagagem de mão",
+      "emoji": "🎒",
+      "exemplo_en": "You can take one carry-on bag.",
+      "exemplo_pt": "Você pode levar uma bagagem de mão."
+    },
+    {
+      "id": "aisle-window",
+      "en": "aisle seat / window seat",
+      "pt": "assento no corredor / janela",
+      "emoji": "💺",
+      "exemplo_en": "Can I have a window seat?",
+      "exemplo_pt": "Posso ter um assento na janela?"
+    },
+    {
+      "id": "boarding",
+      "en": "boarding",
+      "pt": "embarque",
+      "emoji": "🛫",
+      "exemplo_en": "Boarding starts at 9:40.",
+      "exemplo_pt": "O embarque começa às 9h40."
+    },
+    {
+      "id": "delayed",
+      "en": "delayed / on time",
+      "pt": "atrasado / no horário",
+      "emoji": "⏱️",
+      "exemplo_en": "The flight is delayed.",
+      "exemplo_pt": "O voo está atrasado."
+    },
+    {
+      "id": "security",
+      "en": "security check",
+      "pt": "controle de segurança",
+      "emoji": "🛃",
+      "exemplo_en": "Go through security.",
+      "exemplo_pt": "Passe pela segurança."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Frases do aeroporto",
+    "explicacao_pt": "No aeroporto, o atendente usa muitas perguntas curtas e imperativos: Can I see your passport? How many bags are you checking? Put your bag on the scale. Go through security. Você pode pedir com 'Can I have…?' (Can I have a window seat?) e perguntar 'Is the flight on time?' / 'Where is gate 12?'. Horários: Boarding starts at 9:40. The flight leaves at 10:20.",
+    "tabela": {
+      "colunas": [
+        "Momento",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Check-in",
+          "Are you checking any bags?",
+          "Vai despachar alguma mala?"
+        ],
+        [
+          "Assento",
+          "Window or aisle?",
+          "Janela ou corredor?"
+        ],
+        [
+          "Embarque",
+          "Boarding starts at 9:40.",
+          "O embarque começa às 9h40."
+        ],
+        [
+          "Portão",
+          "Your gate is B12.",
+          "Seu portão é o B12."
+        ],
+        [
+          "Problema",
+          "The flight is delayed by one hour.",
+          "O voo está atrasado uma hora."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'd like a window seat, please.",
+        "pt": "Gostaria de um assento na janela, por favor."
+      },
+      {
+        "en": "Put your bag on the scale, please.",
+        "pt": "Coloque sua mala na balança, por favor."
+      },
+      {
+        "en": "Excuse me, where is gate B12? — Go straight and turn left after the café.",
+        "pt": "Com licença, onde fica o portão B12? — Siga em frente e vire à esquerda depois do café."
+      },
+      {
+        "en": "Is the flight on time? — No, it's delayed by forty minutes.",
+        "pt": "O voo está no horário? — Não, está atrasado quarenta minutos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Checking in",
+    "falas": [
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Good morning. Where are you flying today?",
+        "pt": "Bom dia. Para onde você vai voar hoje?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "To Lisbon. Here is my passport.",
+        "pt": "Para Lisboa. Aqui está meu passaporte."
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Thank you. Are you checking any bags?",
+        "pt": "Obrigado. Vai despachar alguma mala?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Yes, one bag. And I have one carry-on.",
+        "pt": "Sim, uma mala. E tenho uma bagagem de mão."
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Window or aisle?",
+        "pt": "Janela ou corredor?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Aisle, please.",
+        "pt": "Corredor, por favor."
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Here is your boarding pass. Gate 15. Boarding starts at 10:30.",
+        "pt": "Aqui está seu cartão de embarque. Portão 15. O embarque começa às 10h30."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is Rui flying?",
+        "opcoes": [
+          "To Lisbon",
+          "To London",
+          "To Madrid"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What seat does he want?",
+        "opcoes": [
+          "Window",
+          "Aisle",
+          "Middle"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What time does boarding start?",
+        "opcoes": [
+          "10:00",
+          "10:30",
+          "11:30"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u07l3-p1",
+      "tipo": "completar",
+      "frase": "Here is your ___ pass. (embarque)",
+      "respostas": [
+        "boarding"
+      ]
+    },
+    {
+      "id": "a2u07l3-p2",
+      "tipo": "completar",
+      "frase": "Your flight leaves from ___ 12. (portão)",
+      "respostas": [
+        "gate"
+      ]
+    },
+    {
+      "id": "a2u07l3-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Bagagem de mão\":",
+      "opcoes": [
+        "carry-on bag",
+        "hand luggage only",
+        "small suitcase room"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O voo está atrasado\":",
+      "opcoes": [
+        "The flight is delayed.",
+        "The flight is late time.",
+        "The flight delays."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l3-p5",
+      "tipo": "completar",
+      "frase": "Can I have a ___ seat? (janela)",
+      "respostas": [
+        "window"
+      ]
+    },
+    {
+      "id": "a2u07l3-p6",
+      "tipo": "ordenar",
+      "frase": "Boarding starts at 9:40",
+      "traducao_pt": "O embarque começa às 9h40"
+    },
+    {
+      "id": "a2u07l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "How many bags are you checking?"
+    },
+    {
+      "id": "a2u07l3-p8",
+      "tipo": "traduzir",
+      "pt": "Aqui está meu passaporte.",
+      "respostas": [
+        "Here is my passport.",
+        "Here's my passport."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça o check-in para uma viagem de trabalho aos Estados Unidos e depois pergunte a um funcionário onde fica o portão e se o voo está no horário.",
+    "papel_professor": "Primeiro, seja atendente de check-in (passaporte, destino, malas, assento, portão B8, embarque 14:15). Depois, seja um funcionário no saguão: diga que o voo está atrasado 30 minutos e explique o caminho até o portão.",
+    "abertura": "Hello! Welcome to SkyAir. Where are you flying today?",
+    "abertura_pt": "Olá! Bem-vindo à SkyAir. Para onde você vai voar hoje?"
+  },
+  "teste": [
+    {
+      "id": "a2u07l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Janela ou corredor?\"",
+      "opcoes": [
+        "Window or aisle?",
+        "Window or corridor?",
+        "Glass or aisle?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l3-t2",
+      "tipo": "completar",
+      "frase": "Go through ___. (segurança)",
+      "respostas": [
+        "security"
+      ]
+    },
+    {
+      "id": "a2u07l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The flight is delayed."
+    },
+    {
+      "id": "a2u07l3-t4",
+      "tipo": "traduzir",
+      "pt": "O voo está no horário?",
+      "respostas": [
+        "Is the flight on time?"
+      ]
+    },
+    {
+      "id": "a2u07l3-t5",
+      "tipo": "ordenar",
+      "frase": "I'd like a window seat please",
+      "traducao_pt": "Gostaria de um assento na janela, por favor"
+    }
+  ]
+}

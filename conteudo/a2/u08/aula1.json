@@ -1,0 +1,341 @@
+{
+  "id": "a2-u08-l1",
+  "nivel": "A2",
+  "unidade": 8,
+  "numero": 1,
+  "titulo": "My back hurts",
+  "objetivo_pt": "Nomear partes do corpo e dizer o que está doendo.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como você está se sentindo. Diga o que dói: \"My back hurts\" ou \"I have a headache\".",
+    "papel_professor": "Pergunte como o aluno está e se algo dói. Ensine partes do corpo, 'My … hurts' e 'I have a …ache'. Corrija 'I have pain in my back' → 'My back hurts'.",
+    "abertura": "Hi! You look tired. Are you feeling OK?",
+    "abertura_pt": "Oi! Você parece cansado. Está se sentindo bem?"
+  },
+  "vocabulario": [
+    {
+      "id": "head",
+      "en": "head / headache",
+      "pt": "cabeça / dor de cabeça",
+      "emoji": "🤕",
+      "exemplo_en": "I have a headache.",
+      "exemplo_pt": "Estou com dor de cabeça."
+    },
+    {
+      "id": "back",
+      "en": "back / backache",
+      "pt": "costas / dor nas costas",
+      "emoji": "🧍",
+      "exemplo_en": "My back hurts.",
+      "exemplo_pt": "Minhas costas doem."
+    },
+    {
+      "id": "stomach",
+      "en": "stomach / stomachache",
+      "pt": "estômago / dor de estômago",
+      "emoji": "🤢",
+      "exemplo_en": "I have a stomachache.",
+      "exemplo_pt": "Estou com dor de estômago."
+    },
+    {
+      "id": "throat",
+      "en": "sore throat",
+      "pt": "dor de garganta",
+      "emoji": "🗣️",
+      "exemplo_en": "I have a sore throat.",
+      "exemplo_pt": "Estou com dor de garganta."
+    },
+    {
+      "id": "hand-arm",
+      "en": "hand / arm",
+      "pt": "mão / braço",
+      "emoji": "💪",
+      "exemplo_en": "I hurt my arm.",
+      "exemplo_pt": "Machuquei meu braço."
+    },
+    {
+      "id": "leg-foot",
+      "en": "leg / foot (feet)",
+      "pt": "perna / pé (pés)",
+      "emoji": "🦵",
+      "exemplo_en": "My feet hurt after work.",
+      "exemplo_pt": "Meus pés doem depois do trabalho."
+    },
+    {
+      "id": "eyes-ears",
+      "en": "eyes / ears",
+      "pt": "olhos / ouvidos",
+      "emoji": "👀",
+      "exemplo_en": "My eyes are tired.",
+      "exemplo_pt": "Meus olhos estão cansados."
+    },
+    {
+      "id": "hurt",
+      "en": "hurt",
+      "pt": "doer / machucar",
+      "emoji": "🩹",
+      "exemplo_en": "Where does it hurt?",
+      "exemplo_pt": "Onde dói?"
+    },
+    {
+      "id": "fever",
+      "en": "fever / cold / flu",
+      "pt": "febre / resfriado / gripe",
+      "emoji": "🤒",
+      "exemplo_en": "I think I have the flu.",
+      "exemplo_pt": "Acho que estou gripado."
+    },
+    {
+      "id": "feel",
+      "en": "feel sick / feel better",
+      "pt": "sentir-se mal / sentir-se melhor",
+      "emoji": "🙂",
+      "exemplo_en": "I feel better today.",
+      "exemplo_pt": "Me sinto melhor hoje."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Dizer o que dói",
+    "explicacao_pt": "Há três formas comuns: 1) MY + parte do corpo + HURTS/HURT: My back hurts. My feet hurt. 2) I HAVE A + -ACHE (algumas partes): headache, stomachache, backache, toothache, earache. 3) I HAVE A SORE + parte: sore throat, sore eyes. Para doenças: I have a cold / the flu / a fever. Para machucar: I hurt my hand (passado de hurt também é hurt). Em inglês o possessivo é obrigatório: 'My head hurts', não 'The head hurts'.",
+    "tabela": {
+      "colunas": [
+        "Forma",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "My … hurts",
+          "My knee hurts.",
+          "Meu joelho dói."
+        ],
+        [
+          "I have a …ache",
+          "I have a headache.",
+          "Estou com dor de cabeça."
+        ],
+        [
+          "I have a sore …",
+          "I have a sore throat.",
+          "Estou com dor de garganta."
+        ],
+        [
+          "Doença",
+          "I have a fever.",
+          "Estou com febre."
+        ],
+        [
+          "Machucar",
+          "I hurt my hand.",
+          "Machuquei a mão."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I can't work today. I have a fever and a sore throat.",
+        "pt": "Não posso trabalhar hoje. Estou com febre e dor de garganta."
+      },
+      {
+        "en": "My back hurts because I lifted heavy boxes.",
+        "pt": "Minhas costas doem porque levantei caixas pesadas."
+      },
+      {
+        "en": "Where does it hurt? — Here, in my shoulder.",
+        "pt": "Onde dói? — Aqui, no ombro."
+      },
+      {
+        "en": "I feel much better today, thanks.",
+        "pt": "Me sinto muito melhor hoje, obrigado."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Calling in sick",
+    "falas": [
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Hello, Marcos. Are you coming to work today?",
+        "pt": "Alô, Marcos. Você vem trabalhar hoje?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "Sorry, I can't. I feel sick. I have a fever and a headache.",
+        "pt": "Desculpe, não posso. Estou me sentindo mal. Estou com febre e dor de cabeça."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Oh, I'm sorry. Do you have a sore throat too?",
+        "pt": "Ah, sinto muito. Está com dor de garganta também?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "Yes, a little. I think it's the flu.",
+        "pt": "Sim, um pouco. Acho que é gripe."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "OK. Rest and go to the doctor. Send me the medical certificate.",
+        "pt": "OK. Descanse e vá ao médico. Me mande o atestado."
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "Thank you. I hope I'll feel better tomorrow.",
+        "pt": "Obrigado. Espero me sentir melhor amanhã."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Why can't Marcos go to work?",
+        "opcoes": [
+          "He hurt his leg.",
+          "He feels sick.",
+          "His car broke."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What does he think he has?",
+        "opcoes": [
+          "A cold",
+          "The flu",
+          "A stomachache"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the supervisor ask him to send?",
+        "opcoes": [
+          "A photo",
+          "The medical certificate",
+          "An email"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u08l1-p1",
+      "tipo": "completar",
+      "frase": "I have a ___. (dor de cabeça)",
+      "respostas": [
+        "headache"
+      ]
+    },
+    {
+      "id": "a2u08l1-p2",
+      "tipo": "completar",
+      "frase": "My back ___. (dói)",
+      "respostas": [
+        "hurts"
+      ]
+    },
+    {
+      "id": "a2u08l1-p3",
+      "tipo": "completar",
+      "frase": "I have a ___ throat. (dor de garganta)",
+      "respostas": [
+        "sore"
+      ]
+    },
+    {
+      "id": "a2u08l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Meus pés doem\":",
+      "opcoes": [
+        "My feet hurt.",
+        "My foots hurt.",
+        "My feet hurts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Machuquei meu braço\":",
+      "opcoes": [
+        "I hurt my arm.",
+        "I hurted my arm.",
+        "I hurt the arm of me."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l1-p6",
+      "tipo": "ordenar",
+      "frase": "Where does it hurt?",
+      "traducao_pt": "Onde dói?"
+    },
+    {
+      "id": "a2u08l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I think I have the flu."
+    },
+    {
+      "id": "a2u08l1-p8",
+      "tipo": "traduzir",
+      "pt": "Me sinto melhor hoje.",
+      "respostas": [
+        "I feel better today."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você não está bem e liga para o seu supervisor (o professor) avisando que não vai trabalhar. Explique os sintomas.",
+    "papel_professor": "Faça o papel de supervisor recebendo a ligação. Pergunte os sintomas, desde quando, se vai ao médico e quando volta. Use partes do corpo e hurt/ache.",
+    "abertura": "Hello, production. Oh, hi! Is everything OK?",
+    "abertura_pt": "Alô, produção. Ah, oi! Está tudo bem?"
+  },
+  "teste": [
+    {
+      "id": "a2u08l1-t1",
+      "tipo": "completar",
+      "frase": "I have a ___. (febre)",
+      "respostas": [
+        "fever"
+      ]
+    },
+    {
+      "id": "a2u08l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Estou com dor de estômago\":",
+      "opcoes": [
+        "I have a stomachache.",
+        "I have stomach pain of me.",
+        "My stomach have ache."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My eyes are tired."
+    },
+    {
+      "id": "a2u08l1-t4",
+      "tipo": "traduzir",
+      "pt": "Onde dói?",
+      "respostas": [
+        "Where does it hurt?"
+      ]
+    },
+    {
+      "id": "a2u08l1-t5",
+      "tipo": "ordenar",
+      "frase": "My feet hurt after work",
+      "traducao_pt": "Meus pés doem depois do trabalho"
+    }
+  ]
+}
