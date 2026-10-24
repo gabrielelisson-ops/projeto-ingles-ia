@@ -1,0 +1,353 @@
+{
+  "id": "a1-u08-l4",
+  "nivel": "A1",
+  "unidade": 8,
+  "numero": 4,
+  "titulo": "Can I try it on?",
+  "objetivo_pt": "Pedir coisas numa loja com Can I…? e perguntar quantidades com How many…?",
+  "aquecimento": {
+    "situacao_pt": "O professor é vendedor de uma loja de roupas. Peça para experimentar algo e pergunte tamanhos com \"Can I…?\".",
+    "papel_professor": "Faça o papel de vendedor. Responda a pedidos com Can I…? (try it on, pay by card, have a bag). Pergunte o tamanho (small, medium, large) e quantas peças o aluno quer (How many?).",
+    "abertura": "Hello! Can I help you?",
+    "abertura_pt": "Olá! Posso ajudar?"
+  },
+  "vocabulario": [
+    {
+      "id": "try-on",
+      "en": "try on",
+      "pt": "experimentar (roupa)",
+      "emoji": "🪞",
+      "exemplo_en": "Can I try it on?",
+      "exemplo_pt": "Posso experimentar?"
+    },
+    {
+      "id": "fitting-room",
+      "en": "fitting room",
+      "pt": "provador",
+      "emoji": "🚪",
+      "exemplo_en": "The fitting room is over there.",
+      "exemplo_pt": "O provador fica ali."
+    },
+    {
+      "id": "size",
+      "en": "size",
+      "pt": "tamanho",
+      "emoji": "📏",
+      "exemplo_en": "What size are you? — Medium.",
+      "exemplo_pt": "Qual é seu tamanho? — Médio."
+    },
+    {
+      "id": "too-big",
+      "en": "too big / too small",
+      "pt": "grande demais / pequeno demais",
+      "emoji": "↕️",
+      "exemplo_en": "It's too small. Do you have a large?",
+      "exemplo_pt": "Está pequeno demais. Tem G?"
+    },
+    {
+      "id": "how-many",
+      "en": "How many…?",
+      "pt": "Quantos…?",
+      "emoji": "🔢",
+      "exemplo_en": "How many shirts do you want?",
+      "exemplo_pt": "Quantas camisas você quer?"
+    },
+    {
+      "id": "can-i",
+      "en": "Can I…?",
+      "pt": "Posso…?",
+      "emoji": "🙋",
+      "exemplo_en": "Can I pay in cash?",
+      "exemplo_pt": "Posso pagar em dinheiro?"
+    },
+    {
+      "id": "cash-card",
+      "en": "cash / card",
+      "pt": "dinheiro / cartão",
+      "emoji": "💳",
+      "exemplo_en": "Cash or card?",
+      "exemplo_pt": "Dinheiro ou cartão?"
+    },
+    {
+      "id": "bag-s",
+      "en": "bag",
+      "pt": "sacola",
+      "emoji": "🛍️",
+      "exemplo_en": "Can I have a bag, please?",
+      "exemplo_pt": "Pode me dar uma sacola?"
+    },
+    {
+      "id": "look-for",
+      "en": "I'm looking for…",
+      "pt": "Estou procurando…",
+      "emoji": "🔎",
+      "exemplo_en": "I'm looking for a jacket.",
+      "exemplo_pt": "Estou procurando uma jaqueta."
+    },
+    {
+      "id": "take-it",
+      "en": "I'll take it.",
+      "pt": "Vou levar.",
+      "emoji": "✅",
+      "exemplo_en": "It's perfect. I'll take it.",
+      "exemplo_pt": "Está perfeito. Vou levar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Can I…? e How many / How much",
+    "explicacao_pt": "CAN I…? serve para pedir permissão ou fazer um pedido educado: Can I try it on? Can I pay by card? Can I have a bag? Respostas: Sure. / Of course. / Sorry, no. Para quantidade: HOW MANY + contáveis no plural (How many shirts?) e HOW MUCH + incontáveis ou preço (How much water? How much is it?). Tamanhos: small (P), medium (M), large (G), extra large (GG).",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Uso",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Can I…?",
+          "pedir permissão",
+          "Can I try it on?"
+        ],
+        [
+          "How many…?",
+          "quantidade (contável)",
+          "How many T-shirts?"
+        ],
+        [
+          "How much…?",
+          "quantidade (incontável) ou preço",
+          "How much milk? / How much is it?"
+        ],
+        [
+          "What size…?",
+          "tamanho",
+          "What size are you?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm looking for black jeans. Can I try these on?",
+        "pt": "Estou procurando calça jeans preta. Posso experimentar esta?"
+      },
+      {
+        "en": "They're too big. Do you have a smaller size?",
+        "pt": "Está grande demais. Tem um tamanho menor?"
+      },
+      {
+        "en": "How many do you want? — Two, please.",
+        "pt": "Quantas você quer? — Duas, por favor."
+      },
+      {
+        "en": "Can I pay in cash? — Of course.",
+        "pt": "Posso pagar em dinheiro? — Claro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Buying work boots",
+    "falas": [
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Good afternoon. Can I help you?",
+        "pt": "Boa tarde. Posso ajudar?"
+      },
+      {
+        "personagem": "Edu",
+        "voz": "b",
+        "en": "Yes, I'm looking for safety boots for work.",
+        "pt": "Sim, estou procurando botas de segurança para o trabalho."
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "What size are you?",
+        "pt": "Que número você calça?"
+      },
+      {
+        "personagem": "Edu",
+        "voz": "b",
+        "en": "Forty-two in Brazil. Can I try these on?",
+        "pt": "Quarenta e dois no Brasil. Posso experimentar estas?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Sure. How are they?",
+        "pt": "Claro. Como ficaram?"
+      },
+      {
+        "personagem": "Edu",
+        "voz": "b",
+        "en": "They're too small. Do you have a bigger size?",
+        "pt": "Estão pequenas demais. Tem um número maior?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Yes, here. How many pairs do you need?",
+        "pt": "Sim, aqui. Quantos pares você precisa?"
+      },
+      {
+        "personagem": "Edu",
+        "voz": "b",
+        "en": "Two pairs, please. Can I pay by card?",
+        "pt": "Dois pares, por favor. Posso pagar com cartão?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u08l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Edu looking for?",
+        "opcoes": [
+          "Sneakers",
+          "Safety boots",
+          "Socks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the first boots?",
+        "opcoes": [
+          "Too big",
+          "Too small",
+          "Too expensive"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How many pairs does he need?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u08l4-p1",
+      "tipo": "completar",
+      "frase": "Can I try it ___?",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u08l4-p2",
+      "tipo": "completar",
+      "frase": "How ___ shirts do you want?",
+      "respostas": [
+        "many"
+      ]
+    },
+    {
+      "id": "a1u08l4-p3",
+      "tipo": "completar",
+      "frase": "I'm looking ___ a jacket.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "a1u08l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Provador\":",
+      "opcoes": [
+        "fitting room",
+        "try room",
+        "proof room"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l4-p5",
+      "tipo": "multipla",
+      "enunciado": "How much ou How many: \"___ water do you drink?\"",
+      "opcoes": [
+        "How many",
+        "How much"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Water é incontável."
+    },
+    {
+      "id": "a1u08l4-p6",
+      "tipo": "ordenar",
+      "frase": "It's too small",
+      "traducao_pt": "Está pequeno demais"
+    },
+    {
+      "id": "a1u08l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Can I pay in cash?"
+    },
+    {
+      "id": "a1u08l4-p8",
+      "tipo": "traduzir",
+      "pt": "Vou levar.",
+      "respostas": [
+        "I'll take it.",
+        "I will take it."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você quer comprar um tênis numa loja nos EUA. Diga o que procura, peça para experimentar, resolva o problema do tamanho e pague.",
+    "papel_professor": "Faça o papel de vendedor de uma loja de calçados nos EUA. Pergunte o que o aluno procura, o tamanho, ofereça para experimentar, diga que o primeiro ficou apertado e ofereça outro. No fim pergunte 'Cash or card?' e 'Would you like a bag?'.",
+    "abertura": "Welcome to Fast Feet! What are you looking for today?",
+    "abertura_pt": "Bem-vindo à Fast Feet! O que você procura hoje?"
+  },
+  "teste": [
+    {
+      "id": "a1u08l4-t1",
+      "tipo": "completar",
+      "frase": "Can I ___ a bag, please?",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "a1u08l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Grande demais\":",
+      "opcoes": [
+        "too big",
+        "very big",
+        "so big"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm looking for a jacket.",
+      "aceitas": [
+        "I am looking for a jacket."
+      ]
+    },
+    {
+      "id": "a1u08l4-t4",
+      "tipo": "traduzir",
+      "pt": "Posso experimentar?",
+      "respostas": [
+        "Can I try it on?",
+        "Can I try this on?"
+      ]
+    },
+    {
+      "id": "a1u08l4-t5",
+      "tipo": "ordenar",
+      "frase": "How many do you want?",
+      "traducao_pt": "Quantos você quer?"
+    }
+  ]
+}

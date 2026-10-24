@@ -1,0 +1,360 @@
+{
+  "id": "a1-u08-l3",
+  "nivel": "A1",
+  "unidade": 8,
+  "numero": 3,
+  "titulo": "How much is it?",
+  "objetivo_pt": "Perguntar e dizer preços com How much is it? / How much are they?",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer preços de produtos. Repita os valores e pergunte preços com \"How much…?\".",
+    "papel_professor": "Faça o aluno perguntar preços de coisas (How much is a coffee in your city? How much are sneakers?). Pratique números grandes e reais/dólares. Corrija 'How much is these'.",
+    "abertura": "How much is a cup of coffee in your city?",
+    "abertura_pt": "Quanto custa uma xícara de café na sua cidade?"
+  },
+  "vocabulario": [
+    {
+      "id": "how-much",
+      "en": "How much…?",
+      "pt": "Quanto custa…?",
+      "emoji": "💲",
+      "exemplo_en": "How much is this T-shirt?",
+      "exemplo_pt": "Quanto custa esta camiseta?"
+    },
+    {
+      "id": "cost",
+      "en": "cost",
+      "pt": "custar",
+      "emoji": "🏷️",
+      "exemplo_en": "How much does it cost?",
+      "exemplo_pt": "Quanto custa?"
+    },
+    {
+      "id": "price",
+      "en": "price",
+      "pt": "preço",
+      "emoji": "💵",
+      "exemplo_en": "What's the price?",
+      "exemplo_pt": "Qual é o preço?"
+    },
+    {
+      "id": "dollars",
+      "en": "dollars / cents",
+      "pt": "dólares / centavos",
+      "emoji": "💲",
+      "exemplo_en": "It's ten dollars and fifty cents.",
+      "exemplo_pt": "São dez dólares e cinquenta centavos."
+    },
+    {
+      "id": "reais",
+      "en": "reais",
+      "pt": "reais",
+      "emoji": "🇧🇷",
+      "exemplo_en": "It's eighty reais.",
+      "exemplo_pt": "São oitenta reais."
+    },
+    {
+      "id": "hundred-q",
+      "en": "two hundred",
+      "pt": "duzentos",
+      "emoji": "💯",
+      "exemplo_en": "These shoes are two hundred reais.",
+      "exemplo_pt": "Estes sapatos custam duzentos reais."
+    },
+    {
+      "id": "sale",
+      "en": "on sale / discount",
+      "pt": "em promoção / desconto",
+      "emoji": "🏷️",
+      "exemplo_en": "These jackets are on sale.",
+      "exemplo_pt": "Estas jaquetas estão em promoção."
+    },
+    {
+      "id": "total",
+      "en": "total",
+      "pt": "total",
+      "emoji": "🧾",
+      "exemplo_en": "The total is ninety-five reais.",
+      "exemplo_pt": "O total é noventa e cinco reais."
+    },
+    {
+      "id": "change",
+      "en": "change",
+      "pt": "troco",
+      "emoji": "🪙",
+      "exemplo_en": "Here's your change.",
+      "exemplo_pt": "Aqui está seu troco."
+    },
+    {
+      "id": "receipt",
+      "en": "receipt",
+      "pt": "recibo / nota fiscal",
+      "emoji": "🧾",
+      "exemplo_en": "Can I have the receipt, please?",
+      "exemplo_pt": "Pode me dar o recibo, por favor?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Preços: How much is it? / How much are they?",
+    "explicacao_pt": "Para perguntar preço: How much IS + singular? (How much is this jacket?) e How much ARE + plural? (How much are these shoes?). Também: How much does it cost? Resposta: It's / They're + valor. Dinheiro: $12.50 = twelve dollars and fifty cents (ou 'twelve fifty'). R$ 89,90 = eighty-nine reais and ninety cents. Atenção: em inglês o separador decimal é o PONTO: 12.50.",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Valor"
+      ],
+      "linhas": [
+        [
+          "How much is this shirt?",
+          "It's thirty dollars.",
+          "$30"
+        ],
+        [
+          "How much are these socks?",
+          "They're five dollars.",
+          "$5"
+        ],
+        [
+          "How much does it cost?",
+          "It's twelve fifty.",
+          "$12.50"
+        ],
+        [
+          "What's the total?",
+          "It's ninety-nine reais.",
+          "R$ 99"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Excuse me, how much is this jacket? — It's one hundred and twenty reais.",
+        "pt": "Com licença, quanto custa esta jaqueta? — Cento e vinte reais."
+      },
+      {
+        "en": "How much are those sunglasses? — They're on sale: forty dollars.",
+        "pt": "Quanto custam aqueles óculos? — Estão em promoção: quarenta dólares."
+      },
+      {
+        "en": "The total is fifteen dollars. Here's your change.",
+        "pt": "O total é quinze dólares. Aqui está seu troco."
+      },
+      {
+        "en": "That's expensive! Is there a discount?",
+        "pt": "Que caro! Tem desconto?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "At the market",
+    "falas": [
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Excuse me, how much are these mangoes?",
+        "pt": "Com licença, quanto custam estas mangas?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "b",
+        "en": "They're three for ten reais.",
+        "pt": "São três por dez reais."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "And how much is that pineapple?",
+        "pt": "E quanto custa aquele abacaxi?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "b",
+        "en": "It's eight reais.",
+        "pt": "Custa oito reais."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "OK. Three mangoes and one pineapple, please. How much is it?",
+        "pt": "OK. Três mangas e um abacaxi, por favor. Quanto dá?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "b",
+        "en": "The total is eighteen reais.",
+        "pt": "O total é dezoito reais."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Here's twenty.",
+        "pt": "Aqui estão vinte."
+      },
+      {
+        "personagem": "Seller",
+        "voz": "b",
+        "en": "Thank you. Here's your change, two reais.",
+        "pt": "Obrigado. Aqui está seu troco, dois reais."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u08l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How much are the mangoes?",
+        "opcoes": [
+          "Three for ten reais",
+          "Ten reais each",
+          "Eight reais"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How much is the pineapple?",
+        "opcoes": [
+          "Eight reais",
+          "Eighteen reais",
+          "Two reais"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How much is the change?",
+        "opcoes": [
+          "Eight reais",
+          "Two reais",
+          "Ten reais"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u08l3-p1",
+      "tipo": "completar",
+      "frase": "How much ___ this jacket?",
+      "respostas": [
+        "is"
+      ]
+    },
+    {
+      "id": "a1u08l3-p2",
+      "tipo": "completar",
+      "frase": "How much ___ these shoes?",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u08l3-p3",
+      "tipo": "multipla",
+      "enunciado": "Qual preço você ouve?",
+      "audio": "fifteen dollars and fifty cents",
+      "opcoes": [
+        "$15.50",
+        "$50.15",
+        "$5.15"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Troco\":",
+      "opcoes": [
+        "change",
+        "rest",
+        "money back"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l3-p5",
+      "tipo": "completar",
+      "frase": "These jackets are ___ sale.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u08l3-p6",
+      "tipo": "ordenar",
+      "frase": "How much does it cost?",
+      "traducao_pt": "Quanto custa?"
+    },
+    {
+      "id": "a1u08l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The total is ninety-five reais.",
+      "aceitas": [
+        "The total is 95 reais."
+      ]
+    },
+    {
+      "id": "a1u08l3-p8",
+      "tipo": "traduzir",
+      "pt": "Pode me dar o recibo, por favor?",
+      "respostas": [
+        "Can I have the receipt, please?",
+        "Can I have the receipt please?",
+        "Could I have the receipt, please?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está numa feira nos Estados Unidos. Pergunte os preços de 3 coisas ao vendedor, peça desconto e pague.",
+    "papel_professor": "Faça o papel de vendedor de uma feira (frutas, souvenirs, camisetas). Responda preços em dólares, ofereça um pequeno desconto se o aluno pedir e calcule o total e o troco.",
+    "abertura": "Hi there! Fresh fruit and nice T-shirts! What would you like?",
+    "abertura_pt": "Olá! Frutas frescas e camisetas bonitas! O que você gostaria?"
+  },
+  "teste": [
+    {
+      "id": "a1u08l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "How much is these socks?",
+        "How much are these socks?",
+        "How many are these socks?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u08l3-t2",
+      "tipo": "completar",
+      "frase": "What's the ___? (preço)",
+      "respostas": [
+        "price"
+      ]
+    },
+    {
+      "id": "a1u08l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Here's your change.",
+      "aceitas": [
+        "Here is your change."
+      ]
+    },
+    {
+      "id": "a1u08l3-t4",
+      "tipo": "traduzir",
+      "pt": "Quanto custa esta camiseta?",
+      "respostas": [
+        "How much is this T-shirt?",
+        "How much is this t-shirt?",
+        "How much does this T-shirt cost?",
+        "How much is this shirt?"
+      ]
+    },
+    {
+      "id": "a1u08l3-t5",
+      "tipo": "ordenar",
+      "frase": "These jackets are on sale",
+      "traducao_pt": "Estas jaquetas estão em promoção"
+    }
+  ]
+}
