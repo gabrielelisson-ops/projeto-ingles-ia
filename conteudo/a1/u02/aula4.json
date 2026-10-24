@@ -1,0 +1,370 @@
+{
+  "id": "a1-u02-l4",
+  "nivel": "A1",
+  "unidade": 2,
+  "numero": 4,
+  "titulo": "Questions and answers",
+  "objetivo_pt": "Fazer perguntas com to be (Are they…? Is it…?) e com what, where, how old.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai responder às suas perguntas. Tente perguntar o nome, a cidade e a idade dele.",
+    "papel_professor": "Responda às perguntas do aluno sobre você (você é um professor de 40 anos de Toronto). Se ele não perguntar, sugira: \"Ask me: Where are you from?\". Corrija a ordem da pergunta.",
+    "abertura": "Today you ask the questions! Ask me about my name, my city or my age.",
+    "abertura_pt": "Hoje você faz as perguntas! Pergunte meu nome, minha cidade ou minha idade."
+  },
+  "vocabulario": [
+    {
+      "id": "what",
+      "en": "what",
+      "pt": "o que / qual",
+      "emoji": "❔",
+      "exemplo_en": "What's your email?",
+      "exemplo_pt": "Qual é seu e-mail?"
+    },
+    {
+      "id": "where",
+      "en": "where",
+      "pt": "onde",
+      "emoji": "📍",
+      "exemplo_en": "Where are they from?",
+      "exemplo_pt": "De onde eles são?"
+    },
+    {
+      "id": "who",
+      "en": "who",
+      "pt": "quem",
+      "emoji": "🧑",
+      "exemplo_en": "Who's your manager?",
+      "exemplo_pt": "Quem é seu gerente?"
+    },
+    {
+      "id": "address",
+      "en": "address",
+      "pt": "endereço",
+      "emoji": "🏠",
+      "exemplo_en": "What's the company address?",
+      "exemplo_pt": "Qual é o endereço da empresa?"
+    },
+    {
+      "id": "email-q",
+      "en": "email",
+      "pt": "e-mail",
+      "emoji": "📧",
+      "exemplo_en": "What's your work email?",
+      "exemplo_pt": "Qual é seu e-mail do trabalho?"
+    },
+    {
+      "id": "right",
+      "en": "right",
+      "pt": "certo / correto",
+      "emoji": "✅",
+      "exemplo_en": "Is that right?",
+      "exemplo_pt": "Está certo?"
+    },
+    {
+      "id": "wrong",
+      "en": "wrong",
+      "pt": "errado",
+      "emoji": "❌",
+      "exemplo_en": "Sorry, that's wrong.",
+      "exemplo_pt": "Desculpe, está errado."
+    },
+    {
+      "id": "yes",
+      "en": "yes",
+      "pt": "sim",
+      "emoji": "👍",
+      "exemplo_en": "Yes, they are.",
+      "exemplo_pt": "Sim, eles são."
+    },
+    {
+      "id": "no",
+      "en": "no",
+      "pt": "não",
+      "emoji": "👎",
+      "exemplo_en": "No, it isn't.",
+      "exemplo_pt": "Não, não é."
+    },
+    {
+      "id": "please",
+      "en": "please",
+      "pt": "por favor",
+      "emoji": "🙏",
+      "exemplo_en": "Your name, please.",
+      "exemplo_pt": "Seu nome, por favor."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Perguntas com to be",
+    "explicacao_pt": "Para perguntar com to be, o verbo vem ANTES da pessoa: They are engineers → Are they engineers? Responda com respostas curtas: Yes, they are. / No, they aren't. Com palavras de pergunta (what, where, who, how old), a ordem é: palavra + verbo + pessoa. Where are you from? What is your name? Who is she? How old is he? Na fala: What's = What is, Who's = Who is, Where's = Where is.",
+    "tabela": {
+      "colunas": [
+        "Palavra",
+        "Pergunta",
+        "Resposta"
+      ],
+      "linhas": [
+        [
+          "—",
+          "Are they Brazilian?",
+          "Yes, they are."
+        ],
+        [
+          "—",
+          "Is it your bag?",
+          "No, it isn't."
+        ],
+        [
+          "What",
+          "What's your email?",
+          "It's ana@mail.com."
+        ],
+        [
+          "Where",
+          "Where are you from?",
+          "I'm from Natal."
+        ],
+        [
+          "Who",
+          "Who's he?",
+          "He's my boss."
+        ],
+        [
+          "How old",
+          "How old are they?",
+          "They're ten and twelve."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where's the manager? — She's in the office.",
+        "pt": "Onde está a gerente? — Está no escritório."
+      },
+      {
+        "en": "Are you and Paula colleagues? — Yes, we are.",
+        "pt": "Você e a Paula são colegas? — Sim, somos."
+      },
+      {
+        "en": "Who are they? — They're new technicians.",
+        "pt": "Quem são eles? — São técnicos novos."
+      },
+      {
+        "en": "What's the address? — It's 25 Park Street.",
+        "pt": "Qual é o endereço? — É Rua Park, 25."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A form at the gym",
+    "falas": [
+      {
+        "personagem": "Kate",
+        "voz": "a",
+        "en": "Hi! What's your name, please?",
+        "pt": "Oi! Qual é o seu nome, por favor?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "Igor Santos.",
+        "pt": "Igor Santos."
+      },
+      {
+        "personagem": "Kate",
+        "voz": "a",
+        "en": "How old are you, Igor?",
+        "pt": "Quantos anos você tem, Igor?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "I'm thirty-seven.",
+        "pt": "Tenho trinta e sete."
+      },
+      {
+        "personagem": "Kate",
+        "voz": "a",
+        "en": "And what's your email address?",
+        "pt": "E qual é o seu e-mail?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "It's igor at fastmail dot com.",
+        "pt": "É igor arroba fastmail ponto com."
+      },
+      {
+        "personagem": "Kate",
+        "voz": "a",
+        "en": "Great. Are you married?",
+        "pt": "Ótimo. Você é casado?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "Yes, I am. Is that important?",
+        "pt": "Sim, sou. Isso é importante?"
+      },
+      {
+        "personagem": "Kate",
+        "voz": "a",
+        "en": "Yes! Couples have a discount here.",
+        "pt": "Sim! Casais têm desconto aqui."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u02l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How old is Igor?",
+        "opcoes": [
+          "27",
+          "37",
+          "47"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What's his email?",
+        "opcoes": [
+          "igor@fastmail.com",
+          "santos@fastmail.com",
+          "igor@mail.com"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Why is \"married\" important?",
+        "opcoes": [
+          "For the class time",
+          "Couples have a discount",
+          "For the email"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u02l4-p1",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Where you are from?",
+        "Where are you from?",
+        "You are where from?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u02l4-p2",
+      "tipo": "completar",
+      "frase": "___ old is your daughter?",
+      "respostas": [
+        "How"
+      ]
+    },
+    {
+      "id": "a1u02l4-p3",
+      "tipo": "completar",
+      "frase": "___ is your manager? — Mr. Lima.",
+      "respostas": [
+        "Who"
+      ]
+    },
+    {
+      "id": "a1u02l4-p4",
+      "tipo": "completar",
+      "frase": "Are they engineers? — Yes, they ___.",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u02l4-p5",
+      "tipo": "ordenar",
+      "frase": "What's the company address?",
+      "traducao_pt": "Qual é o endereço da empresa?"
+    },
+    {
+      "id": "a1u02l4-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "Is that right?"
+    },
+    {
+      "id": "a1u02l4-p7",
+      "tipo": "traduzir",
+      "pt": "Eles são brasileiros?",
+      "respostas": [
+        "Are they Brazilian?"
+      ]
+    },
+    {
+      "id": "a1u02l4-p8",
+      "tipo": "multipla",
+      "enunciado": "\"Is it your bag?\" — resposta negativa:",
+      "opcoes": [
+        "No, it isn't.",
+        "No, it's not bag.",
+        "No, I isn't."
+      ],
+      "correta": 0
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está se inscrevendo num curso. O atendente faz perguntas; depois, faça você 2 perguntas para ele (horário, endereço ou nome do professor).",
+    "papel_professor": "Faça o papel de atendente de um curso. Pergunte nome, idade, e-mail e cidade. Depois convide o aluno a fazer perguntas (Where is the school? Who is the teacher?) e responda.",
+    "abertura": "Welcome to Bright School! First question: what's your name?",
+    "abertura_pt": "Bem-vindo à Bright School! Primeira pergunta: qual é o seu nome?"
+  },
+  "teste": [
+    {
+      "id": "a1u02l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Is she your wife?",
+        "She is your wife?",
+        "Is your wife she?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u02l4-t2",
+      "tipo": "completar",
+      "frase": "___ are you from?",
+      "respostas": [
+        "Where"
+      ]
+    },
+    {
+      "id": "a1u02l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Who's your manager?",
+      "aceitas": [
+        "Who is your manager?"
+      ]
+    },
+    {
+      "id": "a1u02l4-t4",
+      "tipo": "traduzir",
+      "pt": "Qual é o seu e-mail?",
+      "respostas": [
+        "What's your email?",
+        "What is your email?",
+        "What's your email address?",
+        "What is your email address?"
+      ]
+    },
+    {
+      "id": "a1u02l4-t5",
+      "tipo": "ordenar",
+      "frase": "How old are they?",
+      "traducao_pt": "Quantos anos eles têm?"
+    }
+  ]
+}

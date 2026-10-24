@@ -41,7 +41,8 @@
             "com.google.android.googlequicksearchbox"
           ]
         }
-      ]
+      ],
+      "expo-sharing"
     ],
     "scheme": "inglesia"
   }

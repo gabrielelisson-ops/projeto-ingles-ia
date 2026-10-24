@@ -90,8 +90,9 @@ export async function avaliarResposta(
   contexto: ContextoAvaliador,
   respostaAluno: string,
   fetchFn?: typeof fetch,
+  limite = 1500,
 ): Promise<ResultadoAvaliacao> {
-  const texto = respostaAluno.trim().slice(0, 1500);
+  const texto = respostaAluno.trim().slice(0, limite);
   if (!texto) {
     return { gramatica: 0, vocabulario: 0, fluencia: 0, pronuncia: 0, feedback_pt: 'Nenhuma resposta foi dada.', erros: [], nota: 0 };
   }
@@ -127,4 +128,12 @@ export async function testarChave(chave: string, modelos: ModelosIA, fetchFn?: t
     resultado.push(m);
   }
   return resultado.join(' e ');
+}
+
+/** Monta a transcrição da entrevista (perguntas do professor e respostas do aluno) para o avaliador. */
+export function transcricaoEntrevista(falas: Mensagem[]): string {
+  return falas
+    .map((f) => `${f.papel === 'aluno' ? 'ALUNO' : 'EXAMINADOR'}: ${f.texto.replace(/\s+/g, ' ').trim().slice(0, 400)}`)
+    .join('\n')
+    .slice(0, 6000);
 }

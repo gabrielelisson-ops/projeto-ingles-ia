@@ -1,0 +1,360 @@
+{
+  "id": "a1-u08-l5",
+  "nivel": "A1",
+  "unidade": 8,
+  "numero": 5,
+  "titulo": "Shopping for a gift",
+  "objetivo_pt": "Fazer uma compra completa: procurar, comparar, perguntar preço, decidir e pagar.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: descreva a roupa que você está usando agora (peças e cores) e diga quanto custou uma delas.",
+    "papel_professor": "Peça ao aluno para descrever a roupa que está usando (I'm wearing…) e o preço de uma peça. Corrija ordem adjetivo + nome e preços.",
+    "abertura": "Describe your clothes today. What are you wearing?",
+    "abertura_pt": "Descreva sua roupa hoje. O que você está usando?"
+  },
+  "vocabulario": [
+    {
+      "id": "gift",
+      "en": "gift / present",
+      "pt": "presente",
+      "emoji": "🎁",
+      "exemplo_en": "I'm looking for a gift for my wife.",
+      "exemplo_pt": "Estou procurando um presente para minha esposa."
+    },
+    {
+      "id": "birthday",
+      "en": "birthday",
+      "pt": "aniversário",
+      "emoji": "🎂",
+      "exemplo_en": "It's my husband's birthday on Sunday.",
+      "exemplo_pt": "É o aniversário do meu marido no domingo."
+    },
+    {
+      "id": "perfume",
+      "en": "perfume",
+      "pt": "perfume",
+      "emoji": "🌸",
+      "exemplo_en": "This perfume is very popular.",
+      "exemplo_pt": "Este perfume é muito procurado."
+    },
+    {
+      "id": "watch",
+      "en": "watch",
+      "pt": "relógio de pulso",
+      "emoji": "⌚",
+      "exemplo_en": "He likes big watches.",
+      "exemplo_pt": "Ele gosta de relógios grandes."
+    },
+    {
+      "id": "wallet",
+      "en": "wallet",
+      "pt": "carteira",
+      "emoji": "👛",
+      "exemplo_en": "A brown leather wallet, please.",
+      "exemplo_pt": "Uma carteira de couro marrom, por favor."
+    },
+    {
+      "id": "scarf",
+      "en": "scarf",
+      "pt": "cachecol / lenço",
+      "emoji": "🧣",
+      "exemplo_en": "This scarf is soft.",
+      "exemplo_pt": "Este cachecol é macio."
+    },
+    {
+      "id": "gift-wrap",
+      "en": "gift wrap",
+      "pt": "embrulho para presente",
+      "emoji": "🎀",
+      "exemplo_en": "Can you gift wrap it?",
+      "exemplo_pt": "Você pode embrulhar para presente?"
+    },
+    {
+      "id": "exchange",
+      "en": "exchange",
+      "pt": "trocar",
+      "emoji": "🔄",
+      "exemplo_en": "Can I exchange it?",
+      "exemplo_pt": "Posso trocar?"
+    },
+    {
+      "id": "perfect",
+      "en": "perfect",
+      "pt": "perfeito",
+      "emoji": "💯",
+      "exemplo_en": "It's perfect!",
+      "exemplo_pt": "Está perfeito!"
+    },
+    {
+      "id": "mall",
+      "en": "mall / store",
+      "pt": "shopping / loja",
+      "emoji": "🏬",
+      "exemplo_en": "The mall opens at ten.",
+      "exemplo_pt": "O shopping abre às dez."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: fazendo compras",
+    "explicacao_pt": "Junte tudo: procurar (I'm looking for a gift), descrever (a brown wallet, black ones), apontar (this one, those), preço (How much is it? How much are they?), pedir (Can I…? I'd like…), decidir (I'll take it). Frase útil para presentes: It's for my wife. Can you gift wrap it? E para trocas: Can I exchange it?",
+    "tabela": {
+      "colunas": [
+        "Momento",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Procurar",
+          "I'm looking for a gift for my wife.",
+          "Procuro um presente para minha esposa."
+        ],
+        [
+          "Comparar",
+          "This one or that one?",
+          "Este ou aquele?"
+        ],
+        [
+          "Preço",
+          "How much are those scarves?",
+          "Quanto custam aqueles cachecóis?"
+        ],
+        [
+          "Decidir",
+          "I'll take the blue one.",
+          "Vou levar o azul."
+        ],
+        [
+          "Presente",
+          "Can you gift wrap it?",
+          "Pode embrulhar para presente?"
+        ],
+        [
+          "Troca",
+          "Can she exchange it?",
+          "Ela pode trocar?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm looking for a watch for my husband. It's his birthday.",
+        "pt": "Procuro um relógio para meu marido. É aniversário dele."
+      },
+      {
+        "en": "This one is nice, but how much is it?",
+        "pt": "Este é bonito, mas quanto custa?"
+      },
+      {
+        "en": "I'll take the brown wallet. Can you gift wrap it?",
+        "pt": "Vou levar a carteira marrom. Pode embrulhar?"
+      },
+      {
+        "en": "Can he exchange it? — Yes, in thirty days.",
+        "pt": "Ele pode trocar? — Sim, em trinta dias."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A birthday present",
+    "falas": [
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Hi! Can I help you?",
+        "pt": "Oi! Posso ajudar?"
+      },
+      {
+        "personagem": "Gabi",
+        "voz": "b",
+        "en": "Yes, I'm looking for a gift for my husband. It's his birthday on Saturday.",
+        "pt": "Sim, procuro um presente para meu marido. É o aniversário dele no sábado."
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "What about a watch? These watches are on sale.",
+        "pt": "Que tal um relógio? Estes relógios estão em promoção."
+      },
+      {
+        "personagem": "Gabi",
+        "voz": "b",
+        "en": "Hmm, he has three watches! How much are those wallets?",
+        "pt": "Hmm, ele tem três relógios! Quanto custam aquelas carteiras?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "The brown one is ninety reais and the black one is seventy.",
+        "pt": "A marrom custa noventa reais e a preta, setenta."
+      },
+      {
+        "personagem": "Gabi",
+        "voz": "b",
+        "en": "I'll take the brown one. Can you gift wrap it?",
+        "pt": "Vou levar a marrom. Pode embrulhar para presente?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Of course. And he can exchange it in thirty days.",
+        "pt": "Claro. E ele pode trocar em trinta dias."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u08l5-e1",
+        "tipo": "multipla",
+        "enunciado": "When is her husband's birthday?",
+        "opcoes": [
+          "On Friday",
+          "On Saturday",
+          "On Sunday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Why doesn't she buy a watch?",
+        "opcoes": [
+          "It is expensive.",
+          "He has three watches.",
+          "There are no watches."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How much is the brown wallet?",
+        "opcoes": [
+          "70 reais",
+          "90 reais",
+          "30 reais"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u08l5-p1",
+      "tipo": "completar",
+      "frase": "I'm looking for a ___ for my wife. (presente)",
+      "respostas": [
+        "gift",
+        "present"
+      ]
+    },
+    {
+      "id": "a1u08l5-p2",
+      "tipo": "completar",
+      "frase": "I'll take the brown ___.",
+      "respostas": [
+        "one"
+      ]
+    },
+    {
+      "id": "a1u08l5-p3",
+      "tipo": "completar",
+      "frase": "How much ___ those wallets?",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u08l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Pode embrulhar para presente?\"",
+      "opcoes": [
+        "Can you gift wrap it?",
+        "Can you paper it?",
+        "Can you present it?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Posso trocar?\"",
+      "opcoes": [
+        "Can I change it?",
+        "Can I exchange it?",
+        "Can I return money?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u08l5-p6",
+      "tipo": "ordenar",
+      "frase": "It's my husband's birthday on Sunday",
+      "traducao_pt": "É o aniversário do meu marido no domingo"
+    },
+    {
+      "id": "a1u08l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "This scarf is soft."
+    },
+    {
+      "id": "a1u08l5-p8",
+      "tipo": "traduzir",
+      "pt": "O shopping abre às dez.",
+      "respostas": [
+        "The mall opens at ten.",
+        "The mall opens at ten o'clock."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: compre um presente para sua esposa ou marido numa loja. Diga o que procura, compare dois produtos (cor e preço), decida, peça embrulho e pergunte sobre troca.",
+    "papel_professor": "Faça o papel de vendedor de uma loja de presentes. Ofereça produtos (watches, wallets, scarves, perfume) com cores e preços. Use this/that/these/those, How much…?, Can I…? e responda sobre embrulho e troca.",
+    "abertura": "Good morning! Welcome to Gift World. Is it a gift for someone special?",
+    "abertura_pt": "Bom dia! Bem-vindo à Gift World. É um presente para alguém especial?"
+  },
+  "teste": [
+    {
+      "id": "a1u08l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Presente\" (para alguém):",
+      "opcoes": [
+        "gift",
+        "present",
+        "as duas"
+      ],
+      "correta": 2
+    },
+    {
+      "id": "a1u08l5-t2",
+      "tipo": "completar",
+      "frase": "Can I ___ it? (trocar)",
+      "respostas": [
+        "exchange"
+      ]
+    },
+    {
+      "id": "a1u08l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'll take the blue one.",
+      "aceitas": [
+        "I will take the blue one."
+      ]
+    },
+    {
+      "id": "a1u08l5-t4",
+      "tipo": "traduzir",
+      "pt": "Procuro um presente para meu marido.",
+      "respostas": [
+        "I'm looking for a gift for my husband.",
+        "I am looking for a gift for my husband.",
+        "I'm looking for a present for my husband.",
+        "I am looking for a present for my husband."
+      ]
+    },
+    {
+      "id": "a1u08l5-t5",
+      "tipo": "ordenar",
+      "frase": "Can you gift wrap it?",
+      "traducao_pt": "Pode embrulhar para presente?"
+    }
+  ]
+}

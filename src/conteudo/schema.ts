@@ -162,26 +162,42 @@ export const TarefaFalaSchema = z.object({
 });
 export type TarefaFala = z.infer<typeof TarefaFalaSchema>;
 
+/** Entrevista oral da prova final: conversa livre com o professor, avaliada no fim. */
+export const EntrevistaSchema = z.object({
+  minutos: z.number().int().min(1).max(10),
+  papel_professor: texto(600),
+  abertura: texto(300),
+  abertura_pt: texto(300),
+});
+export type Entrevista = z.infer<typeof EntrevistaSchema>;
+
 export const ProvaSchema = z
   .object({
     id,
     nivel: z.enum(NIVEIS),
-    unidade: z.number().int().min(1).max(8),
+    /** Número da unidade; 0 = prova final do nível. */
+    unidade: z.number().int().min(0).max(8),
     titulo: texto(80),
     leitura: z.object({
-      texto: texto(2000),
+      texto: texto(3000),
       perguntas: z.array(ExercicioSchema).min(3).max(20),
     }),
     escuta: z.object({
-      falas: z.array(FalaSchema).min(4).max(20),
+      falas: z.array(FalaSchema).min(4).max(24),
       perguntas: z.array(ExercicioSchema).min(3).max(20),
     }),
-    escrita: z.array(TarefaEscritaSchema).min(1).max(4),
-    fala: z.array(TarefaFalaSchema).min(1).max(4),
+    escrita: z.array(TarefaEscritaSchema).min(1).max(5),
+    fala: z.array(TarefaFalaSchema).min(1).max(5),
     /** Tema e gramática que o avaliador deve considerar. */
-    foco_avaliacao: texto(400),
+    foco_avaliacao: texto(600),
+    /** Só na prova final. */
+    entrevista: EntrevistaSchema.optional(),
   })
-  .superRefine((p, ctx) => idsUnicos(p, ctx));
+  .superRefine((p, ctx) => {
+    idsUnicos(p, ctx);
+    if (p.unidade === 0 && !p.entrevista) ctx.addIssue({ code: 'custom', path: ['entrevista'], message: 'a prova final precisa da entrevista oral' });
+    if (p.unidade !== 0 && p.entrevista) ctx.addIssue({ code: 'custom', path: ['entrevista'], message: 'só a prova final tem entrevista' });
+  });
 
 export type Prova = z.infer<typeof ProvaSchema>;
 

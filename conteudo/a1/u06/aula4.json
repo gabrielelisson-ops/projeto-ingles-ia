@@ -1,0 +1,337 @@
+{
+  "id": "a1-u06-l4",
+  "nivel": "A1",
+  "unidade": 6,
+  "numero": 4,
+  "titulo": "Is there a pharmacy near here?",
+  "objetivo_pt": "Perguntar e falar sobre lugares na cidade.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre o seu bairro. Diga o que há perto da sua casa.",
+    "papel_professor": "Pergunte o que há no bairro do aluno (Is there a supermarket near your house? Are there any parks?). Use places in the city e preposições.",
+    "abertura": "What is there near your house? Is there a supermarket?",
+    "abertura_pt": "O que há perto da sua casa? Há um supermercado?"
+  },
+  "vocabulario": [
+    {
+      "id": "supermarket",
+      "en": "supermarket",
+      "pt": "supermercado",
+      "emoji": "🛒",
+      "exemplo_en": "There is a supermarket near my house.",
+      "exemplo_pt": "Há um supermercado perto da minha casa."
+    },
+    {
+      "id": "pharmacy",
+      "en": "pharmacy / drugstore",
+      "pt": "farmácia",
+      "emoji": "💊",
+      "exemplo_en": "Is there a pharmacy near here?",
+      "exemplo_pt": "Há uma farmácia perto daqui?"
+    },
+    {
+      "id": "bank",
+      "en": "bank",
+      "pt": "banco",
+      "emoji": "🏦",
+      "exemplo_en": "The bank opens at ten.",
+      "exemplo_pt": "O banco abre às dez."
+    },
+    {
+      "id": "bakery",
+      "en": "bakery",
+      "pt": "padaria",
+      "emoji": "🥐",
+      "exemplo_en": "The bakery is next to the bank.",
+      "exemplo_pt": "A padaria fica ao lado do banco."
+    },
+    {
+      "id": "bus-stop",
+      "en": "bus stop",
+      "pt": "ponto de ônibus",
+      "emoji": "🚏",
+      "exemplo_en": "The bus stop is in front of the bakery.",
+      "exemplo_pt": "O ponto fica em frente à padaria."
+    },
+    {
+      "id": "park",
+      "en": "park",
+      "pt": "parque",
+      "emoji": "🌳",
+      "exemplo_en": "There are two parks in my neighborhood.",
+      "exemplo_pt": "Há dois parques no meu bairro."
+    },
+    {
+      "id": "gas-station",
+      "en": "gas station",
+      "pt": "posto de gasolina",
+      "emoji": "⛽",
+      "exemplo_en": "There is a gas station on the corner.",
+      "exemplo_pt": "Há um posto na esquina."
+    },
+    {
+      "id": "restaurant",
+      "en": "restaurant",
+      "pt": "restaurante",
+      "emoji": "🍝",
+      "exemplo_en": "There are many restaurants downtown.",
+      "exemplo_pt": "Há muitos restaurantes no centro."
+    },
+    {
+      "id": "neighborhood",
+      "en": "neighborhood",
+      "pt": "bairro",
+      "emoji": "🏘️",
+      "exemplo_en": "My neighborhood is quiet.",
+      "exemplo_pt": "Meu bairro é tranquilo."
+    },
+    {
+      "id": "street-corner",
+      "en": "street / corner",
+      "pt": "rua / esquina",
+      "emoji": "🛣️",
+      "exemplo_en": "It is on Rose Street, on the corner.",
+      "exemplo_pt": "Fica na Rua Rose, na esquina."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Lugares na cidade: there is/are + near / on",
+    "explicacao_pt": "Para perguntar se há um lugar por perto: Is there a bank near here? Resposta: Yes, there's one on Main Street. Para ruas, usamos ON: on Rose Street. Para esquina: on the corner. NEAR = perto de, FAR FROM = longe de. Para responder 'há um', diga 'there's one' (one substitui o nome repetido).",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Is there a bank near here?",
+          "Yes, there's one on Main Street.",
+          "Sim, há um na Rua Main."
+        ],
+        [
+          "Are there any restaurants?",
+          "Yes, there are some downtown.",
+          "Sim, há alguns no centro."
+        ],
+        [
+          "Where is the pharmacy?",
+          "It's next to the bank.",
+          "Fica ao lado do banco."
+        ],
+        [
+          "Is it far?",
+          "No, it's near here.",
+          "Não, é perto daqui."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Excuse me, is there a gas station near here?",
+        "pt": "Com licença, há um posto perto daqui?"
+      },
+      {
+        "en": "There's a bakery on the corner.",
+        "pt": "Há uma padaria na esquina."
+      },
+      {
+        "en": "The bank is on Paulista Avenue.",
+        "pt": "O banco fica na Avenida Paulista."
+      },
+      {
+        "en": "There aren't any parks in my neighborhood.",
+        "pt": "Não há parques no meu bairro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Asking a local",
+    "falas": [
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Excuse me. Is there a pharmacy near here?",
+        "pt": "Com licença. Há uma farmácia perto daqui?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "Yes, there's one on Flower Street.",
+        "pt": "Sim, há uma na Rua Flower."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Is it far?",
+        "pt": "É longe?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "No, it's five minutes from here. It's next to the bank.",
+        "pt": "Não, fica a cinco minutos daqui. Fica ao lado do banco."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Thank you! And is there a bus stop near the pharmacy?",
+        "pt": "Obrigado! E há um ponto de ônibus perto da farmácia?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "Yes, it's in front of the bakery, on the corner.",
+        "pt": "Sim, fica em frente à padaria, na esquina."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is the pharmacy?",
+        "opcoes": [
+          "On Flower Street",
+          "On Main Street",
+          "Next to the bakery"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Is the pharmacy far?",
+        "opcoes": [
+          "Yes, very far.",
+          "No, five minutes."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Where is the bus stop?",
+        "opcoes": [
+          "Next to the bank",
+          "In front of the bakery",
+          "Behind the pharmacy"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u06l4-p1",
+      "tipo": "completar",
+      "frase": "Is there a bank ___ here?",
+      "respostas": [
+        "near"
+      ]
+    },
+    {
+      "id": "a1u06l4-p2",
+      "tipo": "completar",
+      "frase": "It's ___ Rose Street.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u06l4-p3",
+      "tipo": "completar",
+      "frase": "Yes, there's ___ on the corner.",
+      "respostas": [
+        "one"
+      ]
+    },
+    {
+      "id": "a1u06l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Posto de gasolina\":",
+      "opcoes": [
+        "gas station",
+        "oil station",
+        "petrol shop"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Bairro\":",
+      "opcoes": [
+        "neighbor",
+        "neighborhood",
+        "street"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l4-p6",
+      "tipo": "ordenar",
+      "frase": "There is a bakery on the corner",
+      "traducao_pt": "Há uma padaria na esquina"
+    },
+    {
+      "id": "a1u06l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Is there a pharmacy near here?"
+    },
+    {
+      "id": "a1u06l4-p8",
+      "tipo": "traduzir",
+      "pt": "O banco abre às dez.",
+      "respostas": [
+        "The bank opens at ten.",
+        "The bank opens at ten o'clock."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Um turista pede informações sobre o seu bairro. Diga o que há perto (mercado, farmácia, restaurantes) e onde fica.",
+    "papel_professor": "Faça o papel de turista no bairro do aluno. Pergunte se há farmácia, restaurante, ponto de ônibus e banco perto e onde ficam. Incentive there is/are e preposições.",
+    "abertura": "Hi! I'm a tourist here. Is there a good restaurant near here?",
+    "abertura_pt": "Oi! Sou turista aqui. Há um bom restaurante perto daqui?"
+  },
+  "teste": [
+    {
+      "id": "a1u06l4-t1",
+      "tipo": "completar",
+      "frase": "Is ___ a supermarket near your house?",
+      "respostas": [
+        "there"
+      ]
+    },
+    {
+      "id": "a1u06l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Na esquina\":",
+      "opcoes": [
+        "in the corner",
+        "on the corner",
+        "at corner"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My neighborhood is quiet."
+    },
+    {
+      "id": "a1u06l4-t4",
+      "tipo": "traduzir",
+      "pt": "Há dois parques no meu bairro.",
+      "respostas": [
+        "There are two parks in my neighborhood.",
+        "There are two parks in my neighbourhood."
+      ]
+    },
+    {
+      "id": "a1u06l4-t5",
+      "tipo": "ordenar",
+      "frase": "It's next to the bank",
+      "traducao_pt": "Fica ao lado do banco"
+    }
+  ]
+}

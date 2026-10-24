@@ -1,0 +1,342 @@
+{
+  "id": "a1-u04-l2",
+  "nivel": "A1",
+  "unidade": 4,
+  "numero": 2,
+  "titulo": "My daily routine",
+  "objetivo_pt": "Contar sua rotina com verbos do dia a dia no presente simples (I, you, we, they).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você faz de manhã. Responda com frases como \"I get up at six\".",
+    "papel_professor": "Pergunte a que horas o aluno acorda, toma café e vai trabalhar. Use I get up, I have breakfast, I go to work. Corrija o uso de \"at\" com horas.",
+    "abertura": "Good morning! I get up at six every day. What time do you get up?",
+    "abertura_pt": "Bom dia! Eu acordo às seis todo dia. A que horas você acorda?"
+  },
+  "vocabulario": [
+    {
+      "id": "get-up",
+      "en": "get up",
+      "pt": "levantar / acordar",
+      "emoji": "🛏️",
+      "exemplo_en": "I get up at six.",
+      "exemplo_pt": "Eu acordo às seis."
+    },
+    {
+      "id": "take-shower",
+      "en": "take a shower",
+      "pt": "tomar banho",
+      "emoji": "🚿",
+      "exemplo_en": "I take a shower in the morning.",
+      "exemplo_pt": "Eu tomo banho de manhã."
+    },
+    {
+      "id": "have-breakfast",
+      "en": "have breakfast",
+      "pt": "tomar café da manhã",
+      "emoji": "☕",
+      "exemplo_en": "We have breakfast together.",
+      "exemplo_pt": "Nós tomamos café juntos."
+    },
+    {
+      "id": "go-to-work",
+      "en": "go to work",
+      "pt": "ir para o trabalho",
+      "emoji": "🚌",
+      "exemplo_en": "I go to work by bus.",
+      "exemplo_pt": "Eu vou para o trabalho de ônibus."
+    },
+    {
+      "id": "start",
+      "en": "start",
+      "pt": "começar",
+      "emoji": "▶️",
+      "exemplo_en": "We start at seven.",
+      "exemplo_pt": "Nós começamos às sete."
+    },
+    {
+      "id": "have-lunch",
+      "en": "have lunch",
+      "pt": "almoçar",
+      "emoji": "🍽️",
+      "exemplo_en": "They have lunch at noon.",
+      "exemplo_pt": "Eles almoçam ao meio-dia."
+    },
+    {
+      "id": "finish",
+      "en": "finish",
+      "pt": "terminar",
+      "emoji": "🏁",
+      "exemplo_en": "I finish work at five.",
+      "exemplo_pt": "Eu termino o trabalho às cinco."
+    },
+    {
+      "id": "go-home",
+      "en": "go home",
+      "pt": "ir para casa",
+      "emoji": "🏠",
+      "exemplo_en": "We go home at six.",
+      "exemplo_pt": "Nós vamos para casa às seis."
+    },
+    {
+      "id": "have-dinner",
+      "en": "have dinner",
+      "pt": "jantar",
+      "emoji": "🍲",
+      "exemplo_en": "We have dinner at eight.",
+      "exemplo_pt": "Nós jantamos às oito."
+    },
+    {
+      "id": "go-to-bed",
+      "en": "go to bed",
+      "pt": "ir dormir",
+      "emoji": "😴",
+      "exemplo_en": "I go to bed at eleven.",
+      "exemplo_pt": "Eu vou dormir às onze."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Presente simples (I, you, we, they)",
+    "explicacao_pt": "O presente simples fala de rotina e hábitos — o que você faz sempre. Com I, you, we e they, o verbo fica na forma básica, sem mudança: I work, you work, we work, they work. Para horário usamos AT: at six, at half past seven. Em inglês muitas refeições usam HAVE: have breakfast (café), have lunch (almoço), have dinner (jantar). 'Go to work' e 'go home' (sem 'to' antes de home!).",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Verbo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "I",
+          "work",
+          "I work at a factory."
+        ],
+        [
+          "you",
+          "start",
+          "You start at eight."
+        ],
+        [
+          "we",
+          "have",
+          "We have lunch at noon."
+        ],
+        [
+          "they",
+          "go",
+          "They go home at six."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I get up at five thirty and take a shower.",
+        "pt": "Acordo às cinco e meia e tomo banho."
+      },
+      {
+        "en": "We have breakfast at six.",
+        "pt": "Tomamos café às seis."
+      },
+      {
+        "en": "They start work at seven and finish at four.",
+        "pt": "Eles começam a trabalhar às sete e terminam às quatro."
+      },
+      {
+        "en": "I go home by car.",
+        "pt": "Vou para casa de carro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Early birds",
+    "falas": [
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "You look tired, Sam!",
+        "pt": "Você parece cansado, Sam!"
+      },
+      {
+        "personagem": "Sam",
+        "voz": "b",
+        "en": "Yes. I get up at four thirty every day.",
+        "pt": "Sim. Eu acordo às quatro e meia todo dia."
+      },
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "Four thirty? Why?",
+        "pt": "Quatro e meia? Por quê?"
+      },
+      {
+        "personagem": "Sam",
+        "voz": "b",
+        "en": "I live far from here. I take two buses. I start work at six.",
+        "pt": "Moro longe daqui. Pego dois ônibus. Começo a trabalhar às seis."
+      },
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "Wow. I get up at six and I start at eight.",
+        "pt": "Uau. Eu acordo às seis e começo às oito."
+      },
+      {
+        "personagem": "Sam",
+        "voz": "b",
+        "en": "Lucky you! But I finish at two and I go home early.",
+        "pt": "Que sorte a sua! Mas eu termino às duas e vou para casa cedo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What time does Sam get up?",
+        "opcoes": [
+          "4:30",
+          "6:00",
+          "5:30"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How many buses does Sam take?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What time does Sam finish work?",
+        "opcoes": [
+          "2:00",
+          "8:00",
+          "6:00"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u04l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ up at six.",
+      "respostas": [
+        "get"
+      ]
+    },
+    {
+      "id": "a1u04l2-p2",
+      "tipo": "completar",
+      "frase": "We ___ breakfast at seven.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "a1u04l2-p3",
+      "tipo": "completar",
+      "frase": "They go to work ___ eight o'clock.",
+      "respostas": [
+        "at"
+      ]
+    },
+    {
+      "id": "a1u04l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Ir para casa\":",
+      "opcoes": [
+        "go to home",
+        "go home",
+        "go at home"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Com \"home\" não se usa \"to\"."
+    },
+    {
+      "id": "a1u04l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Have dinner\" é:",
+      "opcoes": [
+        "almoçar",
+        "jantar",
+        "tomar café"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l2-p6",
+      "tipo": "ordenar",
+      "frase": "I take a shower in the morning",
+      "traducao_pt": "Eu tomo banho de manhã"
+    },
+    {
+      "id": "a1u04l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I finish work at five."
+    },
+    {
+      "id": "a1u04l2-p8",
+      "tipo": "traduzir",
+      "pt": "Nós almoçamos ao meio-dia.",
+      "respostas": [
+        "We have lunch at noon.",
+        "We have lunch at twelve.",
+        "We have lunch at midday.",
+        "We have lunch at twelve o'clock."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte sua rotina de um dia de trabalho, do momento em que acorda até ir dormir, com horários.",
+    "papel_professor": "Pergunte a rotina do aluno passo a passo (get up, breakfast, go to work, lunch, finish, dinner, bed), sempre perguntando \"What time…?\". Conte também a sua rotina para comparar.",
+    "abertura": "Let's compare our days! What time do you get up on a work day?",
+    "abertura_pt": "Vamos comparar nossos dias! A que horas você acorda num dia de trabalho?"
+  },
+  "teste": [
+    {
+      "id": "a1u04l2-t1",
+      "tipo": "completar",
+      "frase": "I go to ___ at eleven. (dormir)",
+      "respostas": [
+        "bed"
+      ]
+    },
+    {
+      "id": "a1u04l2-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Eles começam às sete\":",
+      "opcoes": [
+        "They start at seven.",
+        "They starts at seven.",
+        "They start in seven."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We have dinner at eight."
+    },
+    {
+      "id": "a1u04l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu acordo às seis.",
+      "respostas": [
+        "I get up at six.",
+        "I wake up at six.",
+        "I get up at six o'clock."
+      ]
+    },
+    {
+      "id": "a1u04l2-t5",
+      "tipo": "ordenar",
+      "frase": "I go to work by bus",
+      "traducao_pt": "Eu vou para o trabalho de ônibus"
+    }
+  ]
+}

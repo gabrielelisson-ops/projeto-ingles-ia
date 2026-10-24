@@ -1,0 +1,460 @@
+{
+  "id": "a1-final",
+  "nivel": "A1",
+  "unidade": 0,
+  "titulo": "Prova final do A1 — Básico 1",
+  "leitura": {
+    "texto": "Hello! My name is Henrique Alves. I'm thirty-eight years old and I'm from Joinville, in the south of Brazil. I'm married. My wife's name is Paula. She's an accountant and she works in an office downtown. We have one daughter, Lívia. She's eleven and she loves drawing.\n\nI'm a production supervisor at a metal parts factory. I work from Monday to Friday. I usually get up at five fifteen. I have a quick breakfast — some bread and a cup of black coffee — and I drive to work. My shift starts at six and finishes at three. There are forty people on my team. Every morning I check the production line and talk to the operators. We always wear safety glasses and boots. At ten we have a fifteen-minute break, and lunch is at noon in the cafeteria. I don't like the food there very much, but it's cheap!\n\nIn the evening I study English for thirty minutes. Paula sometimes studies with me. On Saturdays we often go to the mall. Lívia always wants new sneakers! On Sundays we visit my parents. They live in a small house near the beach. There's a big garden behind the house, and my father loves cooking fish for us.",
+    "perguntas": [
+      {
+        "id": "a1finpv-l1",
+        "tipo": "multipla",
+        "enunciado": "How old is Henrique?",
+        "opcoes": [
+          "28",
+          "38",
+          "48"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l2",
+        "tipo": "multipla",
+        "enunciado": "What is Paula's job?",
+        "opcoes": [
+          "Supervisor",
+          "Accountant",
+          "Teacher"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l3",
+        "tipo": "multipla",
+        "enunciado": "How old is Lívia?",
+        "opcoes": [
+          "Eleven",
+          "Seven",
+          "Twelve"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-l4",
+        "tipo": "multipla",
+        "enunciado": "What does Lívia love?",
+        "opcoes": [
+          "Cooking",
+          "Drawing",
+          "Swimming"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l5",
+        "tipo": "multipla",
+        "enunciado": "What time does Henrique get up?",
+        "opcoes": [
+          "5:15",
+          "5:50",
+          "6:00"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-l6",
+        "tipo": "multipla",
+        "enunciado": "How does he go to work?",
+        "opcoes": [
+          "By bus",
+          "He drives.",
+          "He walks."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l7",
+        "tipo": "multipla",
+        "enunciado": "How many people are on his team?",
+        "opcoes": [
+          "Fourteen",
+          "Forty",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l8",
+        "tipo": "multipla",
+        "enunciado": "What do they always wear?",
+        "opcoes": [
+          "Uniforms and hats",
+          "Safety glasses and boots",
+          "Gloves"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l9",
+        "tipo": "multipla",
+        "enunciado": "When is the break?",
+        "opcoes": [
+          "At ten",
+          "At noon",
+          "At three"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-l10",
+        "tipo": "multipla",
+        "enunciado": "Does he like the cafeteria food?",
+        "opcoes": [
+          "Yes, very much.",
+          "Not very much."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l11",
+        "tipo": "multipla",
+        "enunciado": "How long does he study English?",
+        "opcoes": [
+          "Thirty minutes",
+          "One hour",
+          "Fifteen minutes"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-l12",
+        "tipo": "multipla",
+        "enunciado": "What do they often do on Saturdays?",
+        "opcoes": [
+          "Visit his parents",
+          "Go to the mall",
+          "Go to the beach"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l13",
+        "tipo": "multipla",
+        "enunciado": "Where do his parents live?",
+        "opcoes": [
+          "Downtown",
+          "Near the beach",
+          "In Joinville center"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-l14",
+        "tipo": "multipla",
+        "enunciado": "What is behind the house?",
+        "opcoes": [
+          "A big garden",
+          "A garage",
+          "A beach"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-l15",
+        "tipo": "multipla",
+        "enunciado": "What does his father love cooking?",
+        "opcoes": [
+          "Meat",
+          "Pasta",
+          "Fish"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "Good morning. Welcome to Sky Hotel. Can I help you?",
+        "pt": "Bom dia. Bem-vindo ao Sky Hotel. Posso ajudar?"
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "Good morning. I have a reservation. My name is Clara Ribeiro.",
+        "pt": "Bom dia. Tenho uma reserva. Meu nome é Clara Ribeiro."
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "How do you spell your last name, please?",
+        "pt": "Como se soletra seu sobrenome, por favor?"
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "R-I-B-E-I-R-O.",
+        "pt": "R-I-B-E-I-R-O."
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "Thank you. Two nights, right? Your room is four hundred and twelve, on the fourth floor.",
+        "pt": "Obrigado. Duas noites, certo? Seu quarto é o 412, no quarto andar."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "Great. What time is breakfast?",
+        "pt": "Ótimo. Que horas é o café da manhã?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "From six thirty to ten. The restaurant is next to the elevator.",
+        "pt": "Das seis e meia às dez. O restaurante fica ao lado do elevador."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "Is there a pharmacy near here?",
+        "pt": "Há uma farmácia perto daqui?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "Yes, there's one on Lake Street, in front of the bank.",
+        "pt": "Sim, há uma na Rua Lake, em frente ao banco."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "Thanks. Oh, and can I have a coffee now?",
+        "pt": "Obrigada. Ah, e posso tomar um café agora?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "Of course. Would you like milk?",
+        "pt": "Claro. Quer com leite?"
+      },
+      {
+        "personagem": "Guest",
+        "voz": "b",
+        "en": "No, thank you. Black, please. How much is it?",
+        "pt": "Não, obrigada. Preto, por favor. Quanto custa?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "a",
+        "en": "It's free for guests!",
+        "pt": "É grátis para hóspedes!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1finpv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the guest's last name?",
+        "opcoes": [
+          "Ribeira",
+          "Ribeiro",
+          "Rivero"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e2",
+        "tipo": "multipla",
+        "enunciado": "How many nights is she staying?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e3",
+        "tipo": "multipla",
+        "enunciado": "What is her room number?",
+        "opcoes": [
+          "412",
+          "420",
+          "214"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-e4",
+        "tipo": "multipla",
+        "enunciado": "What floor is the room on?",
+        "opcoes": [
+          "Second",
+          "Fourth",
+          "Fourteenth"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e5",
+        "tipo": "multipla",
+        "enunciado": "When does breakfast start?",
+        "opcoes": [
+          "6:30",
+          "6:00",
+          "10:00"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-e6",
+        "tipo": "multipla",
+        "enunciado": "Where is the restaurant?",
+        "opcoes": [
+          "Next to the elevator",
+          "In front of the bank",
+          "On Lake Street"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-e7",
+        "tipo": "multipla",
+        "enunciado": "Where is the pharmacy?",
+        "opcoes": [
+          "Next to the hotel",
+          "In front of the bank",
+          "Behind the elevator"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e8",
+        "tipo": "multipla",
+        "enunciado": "How does she want her coffee?",
+        "opcoes": [
+          "With milk",
+          "Black",
+          "With sugar"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e9",
+        "tipo": "multipla",
+        "enunciado": "How much is the coffee?",
+        "opcoes": [
+          "Two dollars",
+          "It is free.",
+          "Ten dollars"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1finpv-e10",
+        "tipo": "multipla",
+        "enunciado": "What does the receptionist offer?",
+        "opcoes": [
+          "Milk",
+          "Sugar",
+          "A sandwich"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1finpv-e11",
+        "tipo": "ouvir_escrever",
+        "audio": "I have a reservation."
+      },
+      {
+        "id": "a1finpv-e12",
+        "tipo": "ouvir_escrever",
+        "audio": "What time is breakfast?"
+      },
+      {
+        "id": "a1finpv-e13",
+        "tipo": "ouvir_escrever",
+        "audio": "Is there a pharmacy near here?"
+      },
+      {
+        "id": "a1finpv-e14",
+        "tipo": "ouvir_escrever",
+        "audio": "The restaurant is next to the elevator."
+      },
+      {
+        "id": "a1finpv-e15",
+        "tipo": "ouvir_escrever",
+        "audio": "Would you like milk?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1finpv-w1",
+      "instrucao_pt": "Apresente-se: nome, idade, cidade, profissão e família.",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1finpv-w2",
+      "instrucao_pt": "Descreva sua rotina num dia de trabalho com horários.",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1finpv-w3",
+      "instrucao_pt": "Descreva sua casa e o que há perto dela (there is/are e preposições).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1finpv-w4",
+      "instrucao_pt": "Escreva sobre comida: o que você gosta, o que não gosta e o que come normalmente.",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1finpv-w5",
+      "instrucao_pt": "Escreva sobre um colega ou familiar: o que ele/ela faz e com que frequência (use he/she e advérbios).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1finpv-s1",
+      "pergunta_en": "Please introduce yourself.",
+      "instrucao_pt": "Apresente-se em voz alta: nome, idade, cidade, profissão."
+    },
+    {
+      "id": "a1finpv-s2",
+      "pergunta_en": "Tell me about your family.",
+      "instrucao_pt": "Fale em voz alta sobre sua família (nomes, idades, profissões)."
+    },
+    {
+      "id": "a1finpv-s3",
+      "pergunta_en": "What do you usually do on weekends?",
+      "instrucao_pt": "Fale em voz alta sobre seu fim de semana (use usually, sometimes…)."
+    },
+    {
+      "id": "a1finpv-s4",
+      "pergunta_en": "Describe your workplace. What is there?",
+      "instrucao_pt": "Descreva seu local de trabalho em voz alta (there is/are, preposições)."
+    },
+    {
+      "id": "a1finpv-s5",
+      "pergunta_en": "You are in a café. Order food and a drink, and ask the price.",
+      "instrucao_pt": "Faça um pedido completo em voz alta e pergunte o preço."
+    }
+  ],
+  "foco_avaliacao": "Prova final do nível A1 (iniciante). Avalie todo o A1: verbo to be (todas as formas), números, horas, família e possessivos, have/has, presente simples (inclusive -s com he/she e do/does), advérbios de frequência, there is/are, some/any, preposições de lugar, comida (contáveis/incontáveis, like + -ing, would like), compras (this/that/these/those, How much/How many, Can I…?). Compare com o esperado para A1, não com um nativo.",
+  "entrevista": {
+    "minutos": 5,
+    "papel_professor": "Você é o examinador da entrevista oral final do nível A1. Faça uma conversa amigável de 5 minutos cobrindo: apresentação pessoal, família, rotina e trabalho, casa e cidade, comida e compras. Faça UMA pergunta por vez, simples, no nível A1. Não corrija durante a entrevista (correcoes sempre vazia); apenas incentive e siga com a próxima pergunta.",
+    "abertura": "Hello, and welcome to your final interview! Don't worry, it's a friendly conversation. First, what's your name and where are you from?",
+    "abertura_pt": "Olá e bem-vindo à sua entrevista final! Não se preocupe, é uma conversa amigável. Primeiro, qual é o seu nome e de onde você é?"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "id": "a1-u07-l5",
+  "nivel": "A1",
+  "unidade": 7,
+  "numero": 5,
+  "titulo": "Lunch at a restaurant",
+  "objetivo_pt": "Ter uma conversa completa num restaurante: pedir, falar de gostos e pagar.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga sua comida favorita, uma comida que você odeia e o que você gostaria de comer hoje.",
+    "papel_professor": "Peça ao aluno: comida favorita (I love…), uma que ele odeia (I hate…) e o que ele gostaria agora (I'd like…). Corrija like/would like.",
+    "abertura": "Quick! What's your favorite food? And what food do you hate?",
+    "abertura_pt": "Rápido! Qual é sua comida favorita? E que comida você odeia?"
+  },
+  "vocabulario": [
+    {
+      "id": "table-for",
+      "en": "a table for two",
+      "pt": "uma mesa para dois",
+      "emoji": "🍽️",
+      "exemplo_en": "A table for two, please.",
+      "exemplo_pt": "Uma mesa para dois, por favor."
+    },
+    {
+      "id": "waiter",
+      "en": "waiter / waitress",
+      "pt": "garçom / garçonete",
+      "emoji": "🧑‍🍳",
+      "exemplo_en": "The waiter is very nice.",
+      "exemplo_pt": "O garçom é muito simpático."
+    },
+    {
+      "id": "starter",
+      "en": "starter / main course / dessert",
+      "pt": "entrada / prato principal / sobremesa",
+      "emoji": "🥗",
+      "exemplo_en": "What's for dessert?",
+      "exemplo_pt": "O que tem de sobremesa?"
+    },
+    {
+      "id": "steak",
+      "en": "steak",
+      "pt": "bife",
+      "emoji": "🥩",
+      "exemplo_en": "I'd like the steak, please.",
+      "exemplo_pt": "Eu gostaria do bife, por favor."
+    },
+    {
+      "id": "salad",
+      "en": "salad",
+      "pt": "salada",
+      "emoji": "🥗",
+      "exemplo_en": "A green salad, please.",
+      "exemplo_pt": "Uma salada verde, por favor."
+    },
+    {
+      "id": "soup",
+      "en": "soup",
+      "pt": "sopa",
+      "emoji": "🍲",
+      "exemplo_en": "The soup of the day is tomato.",
+      "exemplo_pt": "A sopa do dia é de tomate."
+    },
+    {
+      "id": "rare-well",
+      "en": "rare / medium / well done",
+      "pt": "mal passado / ao ponto / bem passado",
+      "emoji": "🔥",
+      "exemplo_en": "Medium, please.",
+      "exemplo_pt": "Ao ponto, por favor."
+    },
+    {
+      "id": "recommend",
+      "en": "recommend",
+      "pt": "recomendar",
+      "emoji": "⭐",
+      "exemplo_en": "What do you recommend?",
+      "exemplo_pt": "O que você recomenda?"
+    },
+    {
+      "id": "tip",
+      "en": "tip",
+      "pt": "gorjeta",
+      "emoji": "💵",
+      "exemplo_en": "The tip is ten percent.",
+      "exemplo_pt": "A gorjeta é dez por cento."
+    },
+    {
+      "id": "vegetarian",
+      "en": "vegetarian",
+      "pt": "vegetariano(a)",
+      "emoji": "🥕",
+      "exemplo_en": "Is there a vegetarian option?",
+      "exemplo_pt": "Há uma opção vegetariana?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: comida e restaurante",
+    "explicacao_pt": "Junte tudo: contáveis/incontáveis (a steak, some salad), gostos (I love fish, I don't like spicy food), pedidos educados (I'd like…, Can I have…?), ofertas (Would you like a dessert?). No restaurante: A table for two, please. / What do you recommend? / I'd like the soup as a starter. / Can we have the check, please?",
+    "tabela": {
+      "colunas": [
+        "Momento",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Chegar",
+          "A table for two, please.",
+          "Uma mesa para dois, por favor."
+        ],
+        [
+          "Escolher",
+          "What do you recommend?",
+          "O que você recomenda?"
+        ],
+        [
+          "Pedir",
+          "I'd like the steak, medium.",
+          "Quero o bife, ao ponto."
+        ],
+        [
+          "Restrição",
+          "I don't eat meat. Is there a vegetarian option?",
+          "Não como carne. Há opção vegetariana?"
+        ],
+        [
+          "Sobremesa",
+          "Would you like dessert? — Yes, please.",
+          "Gostaria de sobremesa? — Sim."
+        ],
+        [
+          "Pagar",
+          "Can we have the check, please?",
+          "A conta, por favor."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Good evening. A table for three, please.",
+        "pt": "Boa noite. Uma mesa para três, por favor."
+      },
+      {
+        "en": "I'd like the fish with salad, please.",
+        "pt": "Eu gostaria do peixe com salada, por favor."
+      },
+      {
+        "en": "My wife doesn't like spicy food. Is the soup spicy?",
+        "pt": "Minha esposa não gosta de comida apimentada. A sopa é apimentada?"
+      },
+      {
+        "en": "The food is delicious. Can we have the check, please?",
+        "pt": "A comida está deliciosa. A conta, por favor."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Dinner with a client",
+    "falas": [
+      {
+        "personagem": "Waiter",
+        "voz": "a",
+        "en": "Good evening. Are you ready to order?",
+        "pt": "Boa noite. Estão prontos para pedir?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Yes. What do you recommend?",
+        "pt": "Sim. O que você recomenda?"
+      },
+      {
+        "personagem": "Waiter",
+        "voz": "a",
+        "en": "The steak is very good. And the fish of the day is salmon.",
+        "pt": "O bife é muito bom. E o peixe do dia é salmão."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "I'd like the steak, medium, please. My client doesn't eat meat.",
+        "pt": "Eu gostaria do bife, ao ponto, por favor. Meu cliente não come carne."
+      },
+      {
+        "personagem": "Waiter",
+        "voz": "a",
+        "en": "No problem. There's a vegetarian pasta, or the salmon.",
+        "pt": "Sem problema. Há uma massa vegetariana, ou o salmão."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "He loves fish. The salmon for him, please.",
+        "pt": "Ele adora peixe. O salmão para ele, por favor."
+      },
+      {
+        "personagem": "Waiter",
+        "voz": "a",
+        "en": "Would you like anything to drink?",
+        "pt": "Gostariam de algo para beber?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Two orange juices, please.",
+        "pt": "Dois sucos de laranja, por favor."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the fish of the day?",
+        "opcoes": [
+          "Tuna",
+          "Salmon",
+          "Cod"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How does Rui want the steak?",
+        "opcoes": [
+          "Rare",
+          "Medium",
+          "Well done"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What do they drink?",
+        "opcoes": [
+          "Water",
+          "Two orange juices",
+          "Wine"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u07l5-p1",
+      "tipo": "completar",
+      "frase": "A table ___ two, please.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "a1u07l5-p2",
+      "tipo": "completar",
+      "frase": "What do you ___? (recomendar)",
+      "respostas": [
+        "recommend"
+      ]
+    },
+    {
+      "id": "a1u07l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Sobremesa\":",
+      "opcoes": [
+        "desert",
+        "dessert",
+        "sweet course"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Desert (um S) = deserto!"
+    },
+    {
+      "id": "a1u07l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Bem passado\":",
+      "opcoes": [
+        "well done",
+        "very cooked",
+        "good done"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u07l5-p5",
+      "tipo": "completar",
+      "frase": "My client ___ eat meat. (negativa)",
+      "respostas": [
+        "doesn't",
+        "does not"
+      ]
+    },
+    {
+      "id": "a1u07l5-p6",
+      "tipo": "ordenar",
+      "frase": "Is there a vegetarian option?",
+      "traducao_pt": "Há uma opção vegetariana?"
+    },
+    {
+      "id": "a1u07l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The soup of the day is tomato."
+    },
+    {
+      "id": "a1u07l5-p8",
+      "tipo": "traduzir",
+      "pt": "A comida está deliciosa.",
+      "respostas": [
+        "The food is delicious."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: você está jantando com um cliente estrangeiro. O professor é o garçom. Peça uma mesa, pergunte recomendações, faça os pedidos (um prato para você e outro para o cliente, que é vegetariano), sobremesa e a conta.",
+    "papel_professor": "Faça o papel de garçom de um restaurante. Receba o aluno, ofereça a mesa, recomende pratos (steak, salmon, vegetarian risotto), pergunte o ponto da carne, bebidas e sobremesa, e traga a conta. Use Would you like…? e Anything else?",
+    "abertura": "Good evening and welcome! How many people?",
+    "abertura_pt": "Boa noite e bem-vindos! Quantas pessoas?"
+  },
+  "teste": [
+    {
+      "id": "a1u07l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Gorjeta\":",
+      "opcoes": [
+        "tip",
+        "top",
+        "tax"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u07l5-t2",
+      "tipo": "completar",
+      "frase": "Would you like ___? (sobremesa)",
+      "respostas": [
+        "dessert"
+      ]
+    },
+    {
+      "id": "a1u07l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'd like the steak, please.",
+      "aceitas": [
+        "I would like the steak, please.",
+        "I'd like the steak please."
+      ]
+    },
+    {
+      "id": "a1u07l5-t4",
+      "tipo": "traduzir",
+      "pt": "Uma mesa para dois, por favor.",
+      "respostas": [
+        "A table for two, please.",
+        "A table for two please."
+      ]
+    },
+    {
+      "id": "a1u07l5-t5",
+      "tipo": "ordenar",
+      "frase": "Can we have the check please?",
+      "traducao_pt": "A conta, por favor"
+    }
+  ]
+}

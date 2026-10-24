@@ -1,0 +1,342 @@
+{
+  "id": "a1-u06-l1",
+  "nivel": "A1",
+  "unidade": 6,
+  "numero": 1,
+  "titulo": "There is a sofa",
+  "objetivo_pt": "Descrever os cômodos e móveis da casa com there is e there are.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre sua casa. Use \"There is…\" e \"There are…\".",
+    "papel_professor": "Pergunte sobre a casa do aluno: quantos quartos, o que tem na sala e na cozinha. Use there is/there are. Corrija \"have\" usado no lugar de \"there is\" (Na sala tem um sofá = There is a sofa).",
+    "abertura": "Tell me about your home. How many bedrooms are there?",
+    "abertura_pt": "Me fale da sua casa. Quantos quartos há?"
+  },
+  "vocabulario": [
+    {
+      "id": "living-room",
+      "en": "living room",
+      "pt": "sala de estar",
+      "emoji": "🛋️",
+      "exemplo_en": "There is a big sofa in the living room.",
+      "exemplo_pt": "Há um sofá grande na sala."
+    },
+    {
+      "id": "kitchen",
+      "en": "kitchen",
+      "pt": "cozinha",
+      "emoji": "🍳",
+      "exemplo_en": "The kitchen is small.",
+      "exemplo_pt": "A cozinha é pequena."
+    },
+    {
+      "id": "bedroom",
+      "en": "bedroom",
+      "pt": "quarto",
+      "emoji": "🛏️",
+      "exemplo_en": "There are two bedrooms.",
+      "exemplo_pt": "Há dois quartos."
+    },
+    {
+      "id": "bathroom",
+      "en": "bathroom",
+      "pt": "banheiro",
+      "emoji": "🛁",
+      "exemplo_en": "There is one bathroom.",
+      "exemplo_pt": "Há um banheiro."
+    },
+    {
+      "id": "sofa",
+      "en": "sofa",
+      "pt": "sofá",
+      "emoji": "🛋️",
+      "exemplo_en": "The sofa is new.",
+      "exemplo_pt": "O sofá é novo."
+    },
+    {
+      "id": "table-chair",
+      "en": "table / chair",
+      "pt": "mesa / cadeira",
+      "emoji": "🪑",
+      "exemplo_en": "There are four chairs.",
+      "exemplo_pt": "Há quatro cadeiras."
+    },
+    {
+      "id": "bed",
+      "en": "bed",
+      "pt": "cama",
+      "emoji": "🛌",
+      "exemplo_en": "There is a bed and a closet.",
+      "exemplo_pt": "Há uma cama e um armário."
+    },
+    {
+      "id": "fridge",
+      "en": "fridge",
+      "pt": "geladeira",
+      "emoji": "🧊",
+      "exemplo_en": "There is milk in the fridge.",
+      "exemplo_pt": "Há leite na geladeira."
+    },
+    {
+      "id": "window",
+      "en": "window",
+      "pt": "janela",
+      "emoji": "🪟",
+      "exemplo_en": "There are three windows.",
+      "exemplo_pt": "Há três janelas."
+    },
+    {
+      "id": "apartment",
+      "en": "apartment / house",
+      "pt": "apartamento / casa",
+      "emoji": "🏢",
+      "exemplo_en": "We live in an apartment.",
+      "exemplo_pt": "Nós moramos num apartamento."
+    }
+  ],
+  "gramatica": {
+    "titulo": "There is / There are",
+    "explicacao_pt": "Para dizer que algo EXISTE num lugar (o nosso 'tem' ou 'há'), use THERE IS para uma coisa e THERE ARE para várias: There is a sofa in the living room. There are two bedrooms. Atenção: brasileiros costumam dizer 'In my house have…' — está errado! Diga: There is / There are. Forma curta: there's. Negativa: there isn't / there aren't.",
+    "tabela": {
+      "colunas": [
+        "Quantidade",
+        "Afirmativa",
+        "Negativa"
+      ],
+      "linhas": [
+        [
+          "uma coisa",
+          "There is a TV.",
+          "There isn't a TV."
+        ],
+        [
+          "várias coisas",
+          "There are two beds.",
+          "There aren't any beds."
+        ],
+        [
+          "forma curta",
+          "There's a fridge.",
+          "—"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "There's a small kitchen and a big living room.",
+        "pt": "Há uma cozinha pequena e uma sala grande."
+      },
+      {
+        "en": "There are three bedrooms in my house.",
+        "pt": "Há três quartos na minha casa."
+      },
+      {
+        "en": "There isn't a garage.",
+        "pt": "Não há garagem."
+      },
+      {
+        "en": "There aren't any windows in the bathroom.",
+        "pt": "Não há janelas no banheiro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Renting an apartment",
+    "falas": [
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "This is the apartment. There's a living room with a balcony.",
+        "pt": "Este é o apartamento. Há uma sala com sacada."
+      },
+      {
+        "personagem": "Nara",
+        "voz": "b",
+        "en": "Nice! How many bedrooms are there?",
+        "pt": "Que legal! Quantos quartos há?"
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "There are two bedrooms and one bathroom.",
+        "pt": "Há dois quartos e um banheiro."
+      },
+      {
+        "personagem": "Nara",
+        "voz": "b",
+        "en": "Is there a fridge in the kitchen?",
+        "pt": "Há geladeira na cozinha?"
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Yes, there is. But there isn't a washing machine.",
+        "pt": "Sim. Mas não há máquina de lavar."
+      },
+      {
+        "personagem": "Nara",
+        "voz": "b",
+        "en": "OK. And is there a garage?",
+        "pt": "OK. E há garagem?"
+      },
+      {
+        "personagem": "Agent",
+        "voz": "a",
+        "en": "Yes, there's one parking space.",
+        "pt": "Sim, há uma vaga."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How many bedrooms are there?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What is NOT in the apartment?",
+        "opcoes": [
+          "A fridge",
+          "A washing machine",
+          "A balcony"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Is there a garage?",
+        "opcoes": [
+          "Yes, one parking space.",
+          "No, there isn't."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u06l1-p1",
+      "tipo": "completar",
+      "frase": "There ___ a sofa in the living room.",
+      "respostas": [
+        "is"
+      ]
+    },
+    {
+      "id": "a1u06l1-p2",
+      "tipo": "completar",
+      "frase": "There ___ two bedrooms.",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u06l1-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Na minha casa tem dois banheiros\":",
+      "opcoes": [
+        "In my house have two bathrooms.",
+        "There are two bathrooms in my house.",
+        "My house there is two bathrooms."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l1-p4",
+      "tipo": "completar",
+      "frase": "There ___ a garage. (negativa)",
+      "respostas": [
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "a1u06l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Geladeira\":",
+      "opcoes": [
+        "freezer only",
+        "fridge",
+        "stove"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l1-p6",
+      "tipo": "ordenar",
+      "frase": "There are three windows",
+      "traducao_pt": "Há três janelas"
+    },
+    {
+      "id": "a1u06l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "There's a small kitchen.",
+      "aceitas": [
+        "There is a small kitchen."
+      ]
+    },
+    {
+      "id": "a1u06l1-p8",
+      "tipo": "traduzir",
+      "pt": "Nós moramos num apartamento.",
+      "respostas": [
+        "We live in an apartment.",
+        "We live in a flat."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você quer alugar uma casa. Pergunte ao corretor o que há na casa (quartos, banheiros, garagem, móveis).",
+    "papel_professor": "Faça o papel de corretor de imóveis mostrando uma casa (3 quartos, 2 banheiros, sem piscina, com garagem para 2 carros). Responda às perguntas do aluno com there is/are e incentive Is there…? Are there…?",
+    "abertura": "Welcome! This house is great. What do you want to know?",
+    "abertura_pt": "Bem-vindo! Esta casa é ótima. O que você quer saber?"
+  },
+  "teste": [
+    {
+      "id": "a1u06l1-t1",
+      "tipo": "completar",
+      "frase": "There ___ four chairs.",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u06l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Quarto\" (de dormir):",
+      "opcoes": [
+        "bedroom",
+        "bathroom",
+        "living room"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "There is one bathroom."
+    },
+    {
+      "id": "a1u06l1-t4",
+      "tipo": "traduzir",
+      "pt": "Há um sofá na sala.",
+      "respostas": [
+        "There is a sofa in the living room.",
+        "There's a sofa in the living room."
+      ]
+    },
+    {
+      "id": "a1u06l1-t5",
+      "tipo": "ordenar",
+      "frase": "There isn't a garage",
+      "traducao_pt": "Não há garagem"
+    }
+  ]
+}

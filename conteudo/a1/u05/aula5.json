@@ -1,0 +1,348 @@
+{
+  "id": "a1-u05-l5",
+  "nivel": "A1",
+  "unidade": 5,
+  "numero": 5,
+  "titulo": "A day in the factory",
+  "objetivo_pt": "Descrever a rotina e as funções de colegas numa fábrica, juntando tudo da unidade.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: escolha um colega de trabalho e diga 3 frases sobre a rotina dele.",
+    "papel_professor": "Peça 3 frases sobre a rotina de um colega do aluno. Corrija o -s, does/doesn't e a posição dos advérbios.",
+    "abertura": "Think of a colleague at work. Tell me three things he or she does every day.",
+    "abertura_pt": "Pense num colega de trabalho. Me diga três coisas que ele ou ela faz todo dia."
+  },
+  "vocabulario": [
+    {
+      "id": "operator",
+      "en": "operator",
+      "pt": "operador(a)",
+      "emoji": "⚙️",
+      "exemplo_en": "The operator checks the machine.",
+      "exemplo_pt": "O operador verifica a máquina."
+    },
+    {
+      "id": "check",
+      "en": "check",
+      "pt": "verificar",
+      "emoji": "✅",
+      "exemplo_en": "She checks the parts every hour.",
+      "exemplo_pt": "Ela verifica as peças a cada hora."
+    },
+    {
+      "id": "produce",
+      "en": "produce",
+      "pt": "produzir",
+      "emoji": "🏭",
+      "exemplo_en": "The line produces 500 parts a day.",
+      "exemplo_pt": "A linha produz 500 peças por dia."
+    },
+    {
+      "id": "line",
+      "en": "production line",
+      "pt": "linha de produção",
+      "emoji": "🔧",
+      "exemplo_en": "He works on the production line.",
+      "exemplo_pt": "Ele trabalha na linha de produção."
+    },
+    {
+      "id": "safety-glasses",
+      "en": "safety glasses",
+      "pt": "óculos de segurança",
+      "emoji": "🥽",
+      "exemplo_en": "She always wears safety glasses.",
+      "exemplo_pt": "Ela sempre usa óculos de segurança."
+    },
+    {
+      "id": "wear",
+      "en": "wear",
+      "pt": "usar (roupa, EPI)",
+      "emoji": "🦺",
+      "exemplo_en": "We wear uniforms.",
+      "exemplo_pt": "Nós usamos uniformes."
+    },
+    {
+      "id": "report",
+      "en": "report",
+      "pt": "relatório",
+      "emoji": "📄",
+      "exemplo_en": "He writes a report on Fridays.",
+      "exemplo_pt": "Ele escreve um relatório às sextas."
+    },
+    {
+      "id": "team",
+      "en": "team",
+      "pt": "equipe",
+      "emoji": "👷",
+      "exemplo_en": "Our team has eight people.",
+      "exemplo_pt": "Nossa equipe tem oito pessoas."
+    },
+    {
+      "id": "supervisor-q",
+      "en": "supervisor",
+      "pt": "supervisor(a)",
+      "emoji": "📋",
+      "exemplo_en": "The supervisor visits the line every morning.",
+      "exemplo_pt": "O supervisor visita a linha toda manhã."
+    },
+    {
+      "id": "quality",
+      "en": "quality",
+      "pt": "qualidade",
+      "emoji": "🏅",
+      "exemplo_en": "Quality is very important here.",
+      "exemplo_pt": "Qualidade é muito importante aqui."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: a rotina dos outros",
+    "explicacao_pt": "Revise tudo: he/she + verbo com -s (She checks), regras especiais (fixes, studies, has, goes, does), does/doesn't em perguntas e negativas (Does he wear gloves? He doesn't work at night) e advérbios de frequência (She always wears safety glasses). No trabalho, para dizer a frequência, use também 'every hour', 'every morning', 'twice a day'.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "O que faz",
+          "She checks the parts.",
+          "Ela verifica as peças."
+        ],
+        [
+          "Quando",
+          "He starts at six.",
+          "Ele começa às seis."
+        ],
+        [
+          "Frequência",
+          "She always wears glasses.",
+          "Ela sempre usa óculos."
+        ],
+        [
+          "Negativa",
+          "He doesn't work at night.",
+          "Ele não trabalha à noite."
+        ],
+        [
+          "Pergunta",
+          "Does she write reports?",
+          "Ela escreve relatórios?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The operator starts the machine at six.",
+        "pt": "O operador liga a máquina às seis."
+      },
+      {
+        "en": "The supervisor usually checks the reports.",
+        "pt": "O supervisor geralmente confere os relatórios."
+      },
+      {
+        "en": "Does the line produce on Saturdays? — No, it doesn't.",
+        "pt": "A linha produz aos sábados? — Não."
+      },
+      {
+        "en": "Everybody wears safety glasses here.",
+        "pt": "Todo mundo usa óculos de segurança aqui."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A tour of the factory",
+    "falas": [
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "Welcome! This is line three. It produces car doors.",
+        "pt": "Bem-vindos! Esta é a linha três. Ela produz portas de carro."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "Who is the woman with the tablet?",
+        "pt": "Quem é a mulher com o tablet?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "That's Joana, the supervisor. She checks the quality every hour.",
+        "pt": "É a Joana, a supervisora. Ela verifica a qualidade a cada hora."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "Does the line work at night?",
+        "pt": "A linha trabalha à noite?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "Yes, it does. We have three shifts. The line never stops.",
+        "pt": "Sim. Temos três turnos. A linha nunca para."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "And the operators always wear safety glasses?",
+        "pt": "E os operadores sempre usam óculos de segurança?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "Always. And you need glasses too. Here you are.",
+        "pt": "Sempre. E vocês também precisam de óculos. Aqui está."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u05l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What does line three produce?",
+        "opcoes": [
+          "Car doors",
+          "Car seats",
+          "Engines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u05l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How often does Joana check the quality?",
+        "opcoes": [
+          "Every day",
+          "Every hour",
+          "Once a week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Does the line stop at night?",
+        "opcoes": [
+          "Yes, it does.",
+          "No, it doesn't. It never stops."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u05l5-p1",
+      "tipo": "completar",
+      "frase": "She ___ the parts every hour. (check)",
+      "respostas": [
+        "checks"
+      ]
+    },
+    {
+      "id": "a1u05l5-p2",
+      "tipo": "completar",
+      "frase": "We ___ uniforms. (usar)",
+      "respostas": [
+        "wear"
+      ]
+    },
+    {
+      "id": "a1u05l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Linha de produção\":",
+      "opcoes": [
+        "production line",
+        "product line",
+        "line production"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u05l5-p4",
+      "tipo": "completar",
+      "frase": "___ the supervisor write reports?",
+      "respostas": [
+        "Does"
+      ]
+    },
+    {
+      "id": "a1u05l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "The line produce 500 parts.",
+        "The line produces 500 parts.",
+        "The line producing 500 parts."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u05l5-p6",
+      "tipo": "ordenar",
+      "frase": "She always wears safety glasses",
+      "traducao_pt": "Ela sempre usa óculos de segurança"
+    },
+    {
+      "id": "a1u05l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Our team has eight people."
+    },
+    {
+      "id": "a1u05l5-p8",
+      "tipo": "traduzir",
+      "pt": "Ele não trabalha à noite.",
+      "respostas": [
+        "He doesn't work at night.",
+        "He does not work at night."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: um visitante estrangeiro está na sua empresa. Explique o que três pessoas da sua equipe fazem, quando trabalham e com que frequência fazem tarefas importantes.",
+    "papel_professor": "Faça o papel de um visitante estrangeiro numa fábrica brasileira. Pergunte quem são as pessoas, o que fazem, quando trabalham e com que frequência (Does she…? How often does he…?).",
+    "abertura": "Thanks for the tour! Who is that man over there? What does he do?",
+    "abertura_pt": "Obrigado pela visita! Quem é aquele homem ali? O que ele faz?"
+  },
+  "teste": [
+    {
+      "id": "a1u05l5-t1",
+      "tipo": "completar",
+      "frase": "The machine ___ stops. (nunca)",
+      "respostas": [
+        "never"
+      ]
+    },
+    {
+      "id": "a1u05l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Ela verifica a qualidade\":",
+      "opcoes": [
+        "She check the quality.",
+        "She checks the quality.",
+        "She is check the quality."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u05l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The supervisor visits the line every morning."
+    },
+    {
+      "id": "a1u05l5-t4",
+      "tipo": "traduzir",
+      "pt": "Ele escreve um relatório às sextas.",
+      "respostas": [
+        "He writes a report on Fridays.",
+        "He writes a report on Friday."
+      ]
+    },
+    {
+      "id": "a1u05l5-t5",
+      "tipo": "ordenar",
+      "frase": "Does the line work at night?",
+      "traducao_pt": "A linha trabalha à noite?"
+    }
+  ]
+}

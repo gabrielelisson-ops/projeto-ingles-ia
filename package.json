@@ -6,8 +6,10 @@
     "expo": "~58.0.19",
     "expo-constants": "~58.0.13",
     "expo-linking": "~58.0.14",
+    "expo-print": "~58.0.7",
     "expo-router": "~58.0.26",
     "expo-secure-store": "~58.0.2",
+    "expo-sharing": "~58.0.20",
     "expo-speech": "~58.0.3",
     "expo-speech-recognition": "^58.0.0",
     "expo-sqlite": "~58.0.14",
@@ -26,6 +28,7 @@
     "@types/react": "~19.3.0",
     "jest": "^30.5.2",
     "jest-expo": "~58.0.12",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -34,7 +37,8 @@
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "conteudo:indice": "node scripts/gerar-indice.js",
-    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && jest"
+    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && jest",
+    "gerar": "tsx scripts/gerar-conteudo.ts"
   },
   "private": true,
   "jest": {

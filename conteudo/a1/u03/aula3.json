@@ -1,0 +1,343 @@
+{
+  "id": "a1-u03-l3",
+  "nivel": "A1",
+  "unidade": 3,
+  "numero": 3,
+  "titulo": "Maria's brother",
+  "objetivo_pt": "Usar o 's para dizer de quem é algo (o irmão da Maria = Maria's brother).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre pessoas da sua família usando nomes. Responda com \"'s\": \"Ana's husband is…\".",
+    "papel_professor": "Pergunte quem é quem na família do aluno usando 's (Who is your sister's husband? What's your mother's name?). Corrija a ordem 'the brother of Maria' para 'Maria's brother'.",
+    "abertura": "Let's practice with names. What's your mother's name?",
+    "abertura_pt": "Vamos praticar com nomes. Qual é o nome da sua mãe?"
+  },
+  "vocabulario": [
+    {
+      "id": "apostrophe",
+      "en": "'s (Maria's)",
+      "pt": "de (posse)",
+      "emoji": "🔗",
+      "exemplo_en": "Maria's brother is tall.",
+      "exemplo_pt": "O irmão da Maria é alto."
+    },
+    {
+      "id": "boss",
+      "en": "boss",
+      "pt": "chefe",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "My boss's car is red.",
+      "exemplo_pt": "O carro do meu chefe é vermelho."
+    },
+    {
+      "id": "car",
+      "en": "car",
+      "pt": "carro",
+      "emoji": "🚗",
+      "exemplo_en": "Is that Pedro's car?",
+      "exemplo_pt": "Aquele é o carro do Pedro?"
+    },
+    {
+      "id": "house",
+      "en": "house",
+      "pt": "casa",
+      "emoji": "🏠",
+      "exemplo_en": "My parents' house is in the country.",
+      "exemplo_pt": "A casa dos meus pais fica no interior."
+    },
+    {
+      "id": "dog-cat",
+      "en": "dog / cat",
+      "pt": "cachorro / gato",
+      "emoji": "🐕",
+      "exemplo_en": "The children's dog is Bob.",
+      "exemplo_pt": "O cachorro das crianças é o Bob."
+    },
+    {
+      "id": "friend-q",
+      "en": "best friend",
+      "pt": "melhor amigo(a)",
+      "emoji": "🤗",
+      "exemplo_en": "My wife's best friend is Clara.",
+      "exemplo_pt": "A melhor amiga da minha esposa é Clara."
+    },
+    {
+      "id": "name-q",
+      "en": "first name",
+      "pt": "primeiro nome",
+      "emoji": "🏷️",
+      "exemplo_en": "My father's first name is José.",
+      "exemplo_pt": "O primeiro nome do meu pai é José."
+    },
+    {
+      "id": "nephew",
+      "en": "nephew / niece",
+      "pt": "sobrinho / sobrinha",
+      "emoji": "🧒",
+      "exemplo_en": "My brother's son is my nephew.",
+      "exemplo_pt": "O filho do meu irmão é meu sobrinho."
+    },
+    {
+      "id": "tall",
+      "en": "tall",
+      "pt": "alto(a)",
+      "emoji": "📏",
+      "exemplo_en": "Her husband is very tall.",
+      "exemplo_pt": "O marido dela é muito alto."
+    },
+    {
+      "id": "young-old",
+      "en": "young / old",
+      "pt": "jovem / velho",
+      "emoji": "🧓",
+      "exemplo_en": "My grandfather is old but strong.",
+      "exemplo_pt": "Meu avô é velho, mas forte."
+    }
+  ],
+  "gramatica": {
+    "titulo": "O 's de posse",
+    "explicacao_pt": "Para dizer 'o carro do Pedro', em inglês invertemos: primeiro o dono, depois 's, depois a coisa: Pedro's car. 'A esposa do meu irmão' = my brother's wife. Se o dono é um plural com -s (parents, workers), coloque só o apóstrofo: my parents' house. Plurais irregulares levam 's: the children's room. Atenção: 'Ana's' pode significar 'Ana is' em frases como 'Ana's here' — o sentido mostra qual é.",
+    "tabela": {
+      "colunas": [
+        "Português",
+        "Inglês",
+        "Regra"
+      ],
+      "linhas": [
+        [
+          "o carro do Pedro",
+          "Pedro's car",
+          "dono + 's"
+        ],
+        [
+          "a esposa do meu irmão",
+          "my brother's wife",
+          "dono + 's"
+        ],
+        [
+          "a casa dos meus pais",
+          "my parents' house",
+          "plural com -s: só '"
+        ],
+        [
+          "o quarto das crianças",
+          "the children's room",
+          "plural irregular: 's"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My sister's name is Carla.",
+        "pt": "O nome da minha irmã é Carla."
+      },
+      {
+        "en": "Is this your father's car? — Yes, it is.",
+        "pt": "Este é o carro do seu pai? — Sim."
+      },
+      {
+        "en": "The workers' cafeteria is on the left.",
+        "pt": "O refeitório dos funcionários fica à esquerda."
+      },
+      {
+        "en": "My boss's daughter is a doctor.",
+        "pt": "A filha do meu chefe é médica."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Whose car is it?",
+    "falas": [
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "Is that your car, Nora?",
+        "pt": "Aquele é o seu carro, Nora?"
+      },
+      {
+        "personagem": "Nora",
+        "voz": "b",
+        "en": "No, it isn't. It's my husband's car. My car is the small white one.",
+        "pt": "Não. É o carro do meu marido. Meu carro é o branco pequeno."
+      },
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "And the black car? Is it the manager's?",
+        "pt": "E o carro preto? É do gerente?"
+      },
+      {
+        "personagem": "Nora",
+        "voz": "b",
+        "en": "No, it's Silvia's. She's the director's assistant.",
+        "pt": "Não, é da Sílvia. Ela é assistente do diretor."
+      },
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "Oh, and the blue bike?",
+        "pt": "Ah, e a bicicleta azul?"
+      },
+      {
+        "personagem": "Nora",
+        "voz": "b",
+        "en": "That's my son's bike. He's here today with me.",
+        "pt": "É a bicicleta do meu filho. Ele está aqui hoje comigo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u03l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Whose is the first car?",
+        "opcoes": [
+          "Nora's",
+          "Nora's husband's",
+          "The manager's"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Who is Silvia?",
+        "opcoes": [
+          "The director's assistant",
+          "The manager",
+          "Nora's sister"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Whose bike is it?",
+        "opcoes": [
+          "Davi's",
+          "Nora's son's",
+          "Silvia's"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u03l3-p1",
+      "tipo": "multipla",
+      "enunciado": "\"O carro do Pedro\" em inglês:",
+      "opcoes": [
+        "the car of Pedro",
+        "Pedro's car",
+        "Pedro car's"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l3-p2",
+      "tipo": "completar",
+      "frase": "This is my ___ house. (a casa dos meus pais)",
+      "respostas": [
+        "parents'"
+      ],
+      "explicacao_pt": "Plural com -s: só o apóstrofo."
+    },
+    {
+      "id": "a1u03l3-p3",
+      "tipo": "completar",
+      "frase": "Bruno is my ___ husband. (o marido da minha irmã)",
+      "respostas": [
+        "sister's"
+      ]
+    },
+    {
+      "id": "a1u03l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O filho do meu irmão\" é meu:",
+      "opcoes": [
+        "nephew",
+        "niece",
+        "cousin"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u03l3-p5",
+      "tipo": "ordenar",
+      "frase": "My boss's car is red",
+      "traducao_pt": "O carro do meu chefe é vermelho"
+    },
+    {
+      "id": "a1u03l3-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "Is this your father's car?"
+    },
+    {
+      "id": "a1u03l3-p7",
+      "tipo": "traduzir",
+      "pt": "O nome da minha mãe é Lúcia.",
+      "respostas": [
+        "My mother's name is Lúcia.",
+        "My mother's name is Lucia.",
+        "My mom's name is Lucia.",
+        "My mom's name is Lúcia."
+      ]
+    },
+    {
+      "id": "a1u03l3-p8",
+      "tipo": "multipla",
+      "enunciado": "'The children's room':",
+      "opcoes": [
+        "o quarto da criança",
+        "o quarto das crianças",
+        "as crianças do quarto"
+      ],
+      "correta": 1
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Brincadeira de árvore genealógica: o professor pergunta \"Who is your mother's sister?\" e você responde com a palavra certa (aunt etc.). Depois faça uma pergunta para ele.",
+    "papel_professor": "Faça perguntas tipo charada sobre família com 's (Who is your father's brother? — My uncle). Depois peça ao aluno para fazer uma pergunta igual para você.",
+    "abertura": "Family puzzle! Who is your mother's sister?",
+    "abertura_pt": "Charada de família! Quem é a irmã da sua mãe?"
+  },
+  "teste": [
+    {
+      "id": "a1u03l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"A casa do Paulo\":",
+      "opcoes": [
+        "Paulo's house",
+        "house Paulo's",
+        "the house of Paulo's"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u03l3-t2",
+      "tipo": "completar",
+      "frase": "My ___ son is my nephew. (meu irmão)",
+      "respostas": [
+        "brother's"
+      ]
+    },
+    {
+      "id": "a1u03l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My sister's name is Carla."
+    },
+    {
+      "id": "a1u03l3-t4",
+      "tipo": "traduzir",
+      "pt": "O carro do meu marido é preto.",
+      "respostas": [
+        "My husband's car is black."
+      ]
+    },
+    {
+      "id": "a1u03l3-t5",
+      "tipo": "ordenar",
+      "frase": "Is that Pedro's car?",
+      "traducao_pt": "Aquele é o carro do Pedro?"
+    }
+  ]
+}

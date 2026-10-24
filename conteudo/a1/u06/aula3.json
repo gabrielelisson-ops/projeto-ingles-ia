@@ -1,0 +1,352 @@
+{
+  "id": "a1-u06-l3",
+  "nivel": "A1",
+  "unidade": 6,
+  "numero": 3,
+  "titulo": "The keys are on the table",
+  "objetivo_pt": "Dizer onde as coisas estão com preposições de lugar: in, on, under, next to, between, behind, in front of.",
+  "aquecimento": {
+    "situacao_pt": "Jogo: o professor pergunta onde estão coisas na sua casa. Responda com in, on, under, next to…",
+    "papel_professor": "Pergunte onde estão objetos na casa do aluno (Where is your phone? Where are your keys?). Incentive in/on/under/next to/between/behind/in front of.",
+    "abertura": "Where is your phone now? Is it on the table?",
+    "abertura_pt": "Onde está seu celular agora? Está na mesa?"
+  },
+  "vocabulario": [
+    {
+      "id": "in",
+      "en": "in",
+      "pt": "dentro de / em",
+      "emoji": "📦",
+      "exemplo_en": "The keys are in my bag.",
+      "exemplo_pt": "As chaves estão na minha bolsa."
+    },
+    {
+      "id": "on",
+      "en": "on",
+      "pt": "em cima de / sobre",
+      "emoji": "🔝",
+      "exemplo_en": "The phone is on the table.",
+      "exemplo_pt": "O celular está em cima da mesa."
+    },
+    {
+      "id": "under",
+      "en": "under",
+      "pt": "embaixo de",
+      "emoji": "⬇️",
+      "exemplo_en": "The cat is under the bed.",
+      "exemplo_pt": "O gato está embaixo da cama."
+    },
+    {
+      "id": "next-to",
+      "en": "next to",
+      "pt": "ao lado de",
+      "emoji": "↔️",
+      "exemplo_en": "The bank is next to the pharmacy.",
+      "exemplo_pt": "O banco fica ao lado da farmácia."
+    },
+    {
+      "id": "between",
+      "en": "between",
+      "pt": "entre",
+      "emoji": "🔀",
+      "exemplo_en": "The sofa is between the windows.",
+      "exemplo_pt": "O sofá fica entre as janelas."
+    },
+    {
+      "id": "behind",
+      "en": "behind",
+      "pt": "atrás de",
+      "emoji": "🔙",
+      "exemplo_en": "The garage is behind the house.",
+      "exemplo_pt": "A garagem fica atrás da casa."
+    },
+    {
+      "id": "in-front-of",
+      "en": "in front of",
+      "pt": "em frente a",
+      "emoji": "🔜",
+      "exemplo_en": "The bus stop is in front of the school.",
+      "exemplo_pt": "O ponto fica em frente à escola."
+    },
+    {
+      "id": "keys",
+      "en": "keys",
+      "pt": "chaves",
+      "emoji": "🔑",
+      "exemplo_en": "Where are my keys?",
+      "exemplo_pt": "Onde estão minhas chaves?"
+    },
+    {
+      "id": "bag",
+      "en": "bag",
+      "pt": "bolsa / sacola",
+      "emoji": "👜",
+      "exemplo_en": "My wallet is in my bag.",
+      "exemplo_pt": "Minha carteira está na bolsa."
+    },
+    {
+      "id": "shelf",
+      "en": "shelf",
+      "pt": "prateleira",
+      "emoji": "📚",
+      "exemplo_en": "The books are on the shelf.",
+      "exemplo_pt": "Os livros estão na prateleira."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Preposições de lugar",
+    "explicacao_pt": "Para dizer onde algo está, use to be + preposição: The keys are ON the table. Atenção às diferenças com o português 'em': IN = dentro (in the box, in the kitchen), ON = em cima/superfície (on the table, on the wall). Pergunta: Where is…? / Where are…? Resposta: It's… / They're… 'Between' é entre DUAS coisas: between the bank and the school.",
+    "tabela": {
+      "colunas": [
+        "Preposição",
+        "Português",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "in",
+          "dentro de / em",
+          "in the box"
+        ],
+        [
+          "on",
+          "em cima de",
+          "on the desk"
+        ],
+        [
+          "under",
+          "embaixo de",
+          "under the chair"
+        ],
+        [
+          "next to",
+          "ao lado de",
+          "next to the door"
+        ],
+        [
+          "between",
+          "entre",
+          "between A and B"
+        ],
+        [
+          "behind",
+          "atrás de",
+          "behind the house"
+        ],
+        [
+          "in front of",
+          "em frente a",
+          "in front of the TV"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where are my glasses? — They're on your head!",
+        "pt": "Onde estão meus óculos? — Estão na sua cabeça!"
+      },
+      {
+        "en": "The printer is next to the window.",
+        "pt": "A impressora fica ao lado da janela."
+      },
+      {
+        "en": "The car is in front of the house.",
+        "pt": "O carro está em frente à casa."
+      },
+      {
+        "en": "My bag is under the desk.",
+        "pt": "Minha bolsa está embaixo da mesa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Where are my keys?",
+    "falas": [
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "I'm late! Where are my keys?",
+        "pt": "Estou atrasado! Onde estão minhas chaves?"
+      },
+      {
+        "personagem": "Eva",
+        "voz": "b",
+        "en": "Are they in your bag?",
+        "pt": "Estão na sua mochila?"
+      },
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "No, they aren't. And they aren't on the table.",
+        "pt": "Não. E não estão na mesa."
+      },
+      {
+        "personagem": "Eva",
+        "voz": "b",
+        "en": "Look under the sofa!",
+        "pt": "Olha embaixo do sofá!"
+      },
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "No… Oh, wait! They're next to the TV.",
+        "pt": "Não… Ah, espera! Estão ao lado da TV."
+      },
+      {
+        "personagem": "Eva",
+        "voz": "b",
+        "en": "Great. And your phone is on the shelf, behind the books.",
+        "pt": "Ótimo. E seu celular está na prateleira, atrás dos livros."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Where are the keys?",
+        "opcoes": [
+          "In the bag",
+          "Next to the TV",
+          "Under the sofa"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the phone?",
+        "opcoes": [
+          "On the shelf",
+          "On the table",
+          "In the bag"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06l3-e3",
+        "tipo": "multipla",
+        "enunciado": "The phone is…",
+        "opcoes": [
+          "in front of the books",
+          "behind the books",
+          "under the books"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u06l3-p1",
+      "tipo": "completar",
+      "frase": "The keys are ___ my bag. (dentro)",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "a1u06l3-p2",
+      "tipo": "completar",
+      "frase": "The phone is ___ the table. (em cima)",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u06l3-p3",
+      "tipo": "completar",
+      "frase": "The cat is ___ the bed. (embaixo)",
+      "respostas": [
+        "under"
+      ]
+    },
+    {
+      "id": "a1u06l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Ao lado de\":",
+      "opcoes": [
+        "next to",
+        "behind",
+        "between"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A garagem fica atrás da casa\":",
+      "opcoes": [
+        "The garage is in front of the house.",
+        "The garage is behind the house.",
+        "The garage is next the house."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l3-p6",
+      "tipo": "ordenar",
+      "frase": "The bank is next to the pharmacy",
+      "traducao_pt": "O banco fica ao lado da farmácia"
+    },
+    {
+      "id": "a1u06l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Where are my keys?"
+    },
+    {
+      "id": "a1u06l3-p8",
+      "tipo": "traduzir",
+      "pt": "O ponto de ônibus fica em frente à escola.",
+      "respostas": [
+        "The bus stop is in front of the school."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor perdeu algumas coisas no escritório. Ajude-o a achar: pergunte e sugira lugares com preposições.",
+    "papel_professor": "Faça o papel de colega que perdeu objetos no escritório (óculos, crachá, caneta). O aluno sugere lugares; você diz se está ou não. No fim, encontre os objetos com preposições (behind the monitor, under the chair).",
+    "abertura": "Oh no! Where is my badge? I need it for the meeting!",
+    "abertura_pt": "Ah não! Cadê meu crachá? Preciso dele para a reunião!"
+  },
+  "teste": [
+    {
+      "id": "a1u06l3-t1",
+      "tipo": "completar",
+      "frase": "The sofa is ___ the two windows. (entre)",
+      "respostas": [
+        "between"
+      ]
+    },
+    {
+      "id": "a1u06l3-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Em frente a\":",
+      "opcoes": [
+        "in front of",
+        "behind",
+        "on"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The books are on the shelf."
+    },
+    {
+      "id": "a1u06l3-t4",
+      "tipo": "traduzir",
+      "pt": "Minha carteira está na bolsa.",
+      "respostas": [
+        "My wallet is in my bag.",
+        "My wallet is in the bag."
+      ]
+    },
+    {
+      "id": "a1u06l3-t5",
+      "tipo": "ordenar",
+      "frase": "The car is in front of the house",
+      "traducao_pt": "O carro está em frente à casa"
+    }
+  ]
+}

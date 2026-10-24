@@ -1,0 +1,331 @@
+{
+  "id": "a1-u08-l2",
+  "nivel": "A1",
+  "unidade": 8,
+  "numero": 2,
+  "titulo": "This one or that one?",
+  "objetivo_pt": "Usar this, that, these e those para apontar coisas perto e longe.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre objetos perto e longe de você. Use \"This is…\" (perto) e \"That is…\" (longe).",
+    "papel_professor": "Pergunte sobre objetos perto e longe do aluno (What is this? What are those?). Corrija this/these/that/those conforme número e distância.",
+    "abertura": "Look around you. What is this, near you?",
+    "abertura_pt": "Olhe ao redor. O que é isto, perto de você?"
+  },
+  "vocabulario": [
+    {
+      "id": "this",
+      "en": "this",
+      "pt": "este / esta / isto (perto)",
+      "emoji": "👇",
+      "exemplo_en": "This shirt is cheap.",
+      "exemplo_pt": "Esta camisa é barata."
+    },
+    {
+      "id": "that",
+      "en": "that",
+      "pt": "aquele / aquela / aquilo (longe)",
+      "emoji": "👉",
+      "exemplo_en": "That jacket is expensive.",
+      "exemplo_pt": "Aquela jaqueta é cara."
+    },
+    {
+      "id": "these",
+      "en": "these",
+      "pt": "estes / estas (perto)",
+      "emoji": "👇👇",
+      "exemplo_en": "These shoes are comfortable.",
+      "exemplo_pt": "Estes sapatos são confortáveis."
+    },
+    {
+      "id": "those",
+      "en": "those",
+      "pt": "aqueles / aquelas (longe)",
+      "emoji": "👉👉",
+      "exemplo_en": "Those boots are nice.",
+      "exemplo_pt": "Aquelas botas são legais."
+    },
+    {
+      "id": "one",
+      "en": "this one / that one",
+      "pt": "este aqui / aquele ali",
+      "emoji": "☝️",
+      "exemplo_en": "I like that one.",
+      "exemplo_pt": "Gosto daquele ali."
+    },
+    {
+      "id": "cheap",
+      "en": "cheap",
+      "pt": "barato",
+      "emoji": "🏷️",
+      "exemplo_en": "These socks are cheap.",
+      "exemplo_pt": "Estas meias são baratas."
+    },
+    {
+      "id": "expensive",
+      "en": "expensive",
+      "pt": "caro",
+      "emoji": "💰",
+      "exemplo_en": "That watch is expensive.",
+      "exemplo_pt": "Aquele relógio é caro."
+    },
+    {
+      "id": "comfortable",
+      "en": "comfortable",
+      "pt": "confortável",
+      "emoji": "😌",
+      "exemplo_en": "These shoes are very comfortable.",
+      "exemplo_pt": "Estes sapatos são muito confortáveis."
+    },
+    {
+      "id": "nice",
+      "en": "nice / beautiful",
+      "pt": "bonito / lindo",
+      "emoji": "✨",
+      "exemplo_en": "That dress is beautiful.",
+      "exemplo_pt": "Aquele vestido é lindo."
+    },
+    {
+      "id": "socks",
+      "en": "socks",
+      "pt": "meias",
+      "emoji": "🧦",
+      "exemplo_en": "I need some socks.",
+      "exemplo_pt": "Preciso de meias."
+    }
+  ],
+  "gramatica": {
+    "titulo": "This, that, these, those",
+    "explicacao_pt": "Use THIS (singular) e THESE (plural) para coisas PERTO de você. Use THAT (singular) e THOSE (plural) para coisas LONGE. O verbo combina: This is… / These are… / That is… / Those are… Para não repetir o nome, use ONE: I don't like this shirt. I like that one. Pronúncia: this (curto, 'dis') × these (longo, 'diiz').",
+    "tabela": {
+      "colunas": [
+        "Número",
+        "Perto",
+        "Longe"
+      ],
+      "linhas": [
+        [
+          "Singular",
+          "this shirt (esta camisa)",
+          "that shirt (aquela camisa)"
+        ],
+        [
+          "Plural",
+          "these shoes (estes sapatos)",
+          "those shoes (aqueles sapatos)"
+        ],
+        [
+          "Com verbo",
+          "This is / These are",
+          "That is / Those are"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "This jacket is too big. Do you have a smaller one?",
+        "pt": "Esta jaqueta é grande demais. Tem uma menor?"
+      },
+      {
+        "en": "Those sneakers are very nice!",
+        "pt": "Aqueles tênis são muito bonitos!"
+      },
+      {
+        "en": "Is that your car? — Yes, it is.",
+        "pt": "Aquele é o seu carro? — Sim."
+      },
+      {
+        "en": "I don't like these. I prefer those.",
+        "pt": "Não gosto destes. Prefiro aqueles."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Choosing sunglasses",
+    "falas": [
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Do you like these sunglasses?",
+        "pt": "Você gosta destes óculos de sol?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "Hmm, they're nice, but they're expensive. What about those?",
+        "pt": "Hmm, são bonitos, mas são caros. E aqueles?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Those are cheaper. They're forty reais.",
+        "pt": "Aqueles são mais baratos. Custam quarenta reais."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "And that one, the black one?",
+        "pt": "E aquele, o preto?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "That one is fifty. It's very popular.",
+        "pt": "Aquele custa cinquenta. É muito popular."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "I like the black one. I'll take it!",
+        "pt": "Gosto do preto. Vou levar!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u08l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Why doesn't Ana like the first sunglasses?",
+        "opcoes": [
+          "They are ugly.",
+          "They are expensive.",
+          "They are big."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How much is the black one?",
+        "opcoes": [
+          "40 reais",
+          "50 reais",
+          "15 reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Which one does Ana take?",
+        "opcoes": [
+          "The first one",
+          "The black one",
+          "None"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u08l2-p1",
+      "tipo": "completar",
+      "frase": "___ shoes are comfortable. (estes, perto)",
+      "respostas": [
+        "These"
+      ]
+    },
+    {
+      "id": "a1u08l2-p2",
+      "tipo": "completar",
+      "frase": "___ jacket is expensive. (aquela, longe)",
+      "respostas": [
+        "That"
+      ]
+    },
+    {
+      "id": "a1u08l2-p3",
+      "tipo": "completar",
+      "frase": "I don't like this shirt. I like that ___.",
+      "respostas": [
+        "one"
+      ]
+    },
+    {
+      "id": "a1u08l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "This shoes are nice.",
+        "These shoes are nice.",
+        "These shoes is nice."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u08l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Barato\":",
+      "opcoes": [
+        "cheap",
+        "chip",
+        "expensive"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u08l2-p6",
+      "tipo": "ordenar",
+      "frase": "Those boots are very nice",
+      "traducao_pt": "Aquelas botas são muito legais"
+    },
+    {
+      "id": "a1u08l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "These socks are cheap."
+    },
+    {
+      "id": "a1u08l2-p8",
+      "tipo": "traduzir",
+      "pt": "Aquele relógio é caro.",
+      "respostas": [
+        "That watch is expensive."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está numa loja escolhendo um presente. Compare objetos perto e longe com o vendedor (this/that/these/those) e escolha um.",
+    "papel_professor": "Faça o papel de vendedor numa loja de presentes. Mostre objetos (these mugs, that bag, those watches) e dê preços. Incentive o aluno a usar this/that/these/those e \"that one\".",
+    "abertura": "Hello! Are you looking for a gift? These mugs are very popular.",
+    "abertura_pt": "Olá! Está procurando um presente? Estas canecas são muito procuradas."
+  },
+  "teste": [
+    {
+      "id": "a1u08l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Aqueles\" (longe, plural):",
+      "opcoes": [
+        "these",
+        "those",
+        "that"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u08l2-t2",
+      "tipo": "completar",
+      "frase": "___ is my phone. (este, perto)",
+      "respostas": [
+        "This"
+      ]
+    },
+    {
+      "id": "a1u08l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "That dress is beautiful."
+    },
+    {
+      "id": "a1u08l2-t4",
+      "tipo": "traduzir",
+      "pt": "Estes sapatos são confortáveis.",
+      "respostas": [
+        "These shoes are comfortable."
+      ]
+    },
+    {
+      "id": "a1u08l2-t5",
+      "tipo": "ordenar",
+      "frase": "I like that one",
+      "traducao_pt": "Gosto daquele ali"
+    }
+  ]
+}

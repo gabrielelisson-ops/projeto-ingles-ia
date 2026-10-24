@@ -7,7 +7,8 @@ import path from 'path';
 import { montarCurso, estruturaDoCurso } from '../src/conteudo/curso';
 import { AulaSchema, ProvaSchema, descreverErros } from '../src/conteudo/schema';
 import { corrigir, palavrasParaOrdenar } from '../src/logica/respostas';
-import { statusCurso } from '../src/logica/desbloqueio';
+import { nivelAtual, proximoItem, statusCurso } from '../src/logica/desbloqueio';
+import { exerciciosInconsistentes } from '../src/gerador/gerador';
 
 const RAIZ = path.join(__dirname, '..', 'conteudo');
 const ler = (p: string) => JSON.parse(fs.readFileSync(p, 'utf8'));
@@ -28,6 +29,11 @@ const unidadesBrutas = pastasDeUnidade.map((dir) => ({
   aulas: [1, 2, 3, 4, 5].map((n) => ler(path.join(dir, `aula${n}.json`))),
   prova: ler(path.join(dir, 'prova.json')),
 }));
+
+const finais = fs
+  .readdirSync(RAIZ)
+  .filter((n) => /^(a1|a2|b1|b2|c1)$/.test(n) && fs.existsSync(path.join(RAIZ, n, 'final.json')))
+  .map((n) => ({ nivel: n, prova: ler(path.join(RAIZ, n, 'final.json')) }));
 
 describe('conteúdo do curso', () => {
   test('existe pelo menos a unidade 1 do A1', () => {
@@ -80,14 +86,59 @@ describe('conteúdo do curso', () => {
     });
   }
 
+  for (const f of finais) {
+    test(`${f.nivel}/final.json: prova final com 40 questões, entrevista e respostas aceitas`, () => {
+      const r = ProvaSchema.safeParse(f.prova);
+      expect(r.success ? [] : descreverErros(r.error)).toEqual([]);
+      const p = ProvaSchema.parse(f.prova);
+      expect(p.unidade).toBe(0);
+      expect(p.entrevista).toBeDefined();
+      expect(p.leitura.perguntas.length + p.escuta.perguntas.length + p.escrita.length + p.fala.length).toBe(40);
+      expect(exerciciosInconsistentes([...p.leitura.perguntas, ...p.escuta.perguntas])).toEqual([]);
+    });
+  }
+
+  test('o A1 está completo: 8 unidades e prova final', () => {
+    expect(unidadesBrutas.filter((u) => u.meta.nivel === 'A1')).toHaveLength(8);
+    expect(finais.some((f) => f.nivel === 'a1')).toBe(true);
+  });
+
   test('o curso monta sem erros e a primeira aula fica liberada', () => {
     const c = montarCurso(
       ler(path.join(RAIZ, 'curriculo.json')),
       unidadesBrutas.map(({ meta, aulas, prova }) => ({ meta, aulas, prova })),
+      finais.map((f) => f.prova),
     );
+    expect(c.finais.A1?.id).toBe('a1-final');
     expect(c.erros).toEqual([]);
     const s = statusCurso(estruturaDoCurso(c), { aulasConcluidas: new Set(), provas: {} }, Date.now());
     expect(s.get('a1-u01-l1')?.estado).toBe('disponivel');
+  });
+
+  test('percorrendo o A1 inteiro: a prova final só libera depois das 8 provas de unidade', () => {
+    const c = montarCurso(
+      ler(path.join(RAIZ, 'curriculo.json')),
+      unidadesBrutas.map(({ meta, aulas, prova }) => ({ meta, aulas, prova })),
+      finais.map((f) => f.prova),
+    );
+    const est = estruturaDoCurso(c);
+    const aulas = new Set<string>();
+    const provas: Record<string, { nota: number; aprovado: boolean; data: number }[]> = {};
+    const ok = [{ nota: 80, aprovado: true, data: 1 }];
+    const a1 = est.find((n) => n.nivel === 'A1')!;
+    for (const u of a1.unidades) {
+      for (const a of u.aulas) {
+        expect(proximoItem(est, statusCurso(est, { aulasConcluidas: aulas, provas }, 2))?.id).toBe(a);
+        aulas.add(a);
+      }
+      expect(statusCurso(est, { aulasConcluidas: aulas, provas }, 2).get('a1-final')?.estado).toBe('bloqueada');
+      provas[u.prova!] = ok;
+    }
+    const s = statusCurso(est, { aulasConcluidas: aulas, provas }, 2);
+    expect(s.get('a1-final')?.estado).toBe('disponivel');
+    expect(nivelAtual(est, { aulasConcluidas: aulas, provas })).toBe('A1');
+    provas['a1-final'] = ok;
+    expect(nivelAtual(est, { aulasConcluidas: aulas, provas })).toBe('A2');
   });
 
   test('um JSON com erro vira mensagem legível e não derruba o curso', () => {

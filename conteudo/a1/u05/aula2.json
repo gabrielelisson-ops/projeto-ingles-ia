@@ -1,0 +1,336 @@
+{
+  "id": "a1-u05-l2",
+  "nivel": "A1",
+  "unidade": 5,
+  "numero": 2,
+  "titulo": "He watches, she studies",
+  "objetivo_pt": "Escrever e pronunciar o -s com regras especiais: -es, -ies, has, goes, does.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer verbos e você diz a forma com \"he\". Ex.: watch → he watches.",
+    "papel_professor": "Jogo rápido: diga um verbo (watch, study, go, have, do, fix, play) e peça ao aluno a forma com he/she numa frase curta. Corrija com gentileza.",
+    "abertura": "Quick game! I say a verb, you say a sentence with 'she'. Ready? Watch.",
+    "abertura_pt": "Jogo rápido! Eu digo um verbo, você diz uma frase com \"she\". Pronto? Watch."
+  },
+  "vocabulario": [
+    {
+      "id": "watches",
+      "en": "watches",
+      "pt": "assiste",
+      "emoji": "📺",
+      "exemplo_en": "He watches the news.",
+      "exemplo_pt": "Ele assiste ao jornal."
+    },
+    {
+      "id": "studies",
+      "en": "studies",
+      "pt": "estuda",
+      "emoji": "📚",
+      "exemplo_en": "She studies at night.",
+      "exemplo_pt": "Ela estuda à noite."
+    },
+    {
+      "id": "goes",
+      "en": "goes",
+      "pt": "vai",
+      "emoji": "🚶",
+      "exemplo_en": "He goes to work by train.",
+      "exemplo_pt": "Ele vai para o trabalho de trem."
+    },
+    {
+      "id": "does",
+      "en": "does",
+      "pt": "faz",
+      "emoji": "✅",
+      "exemplo_en": "She does yoga.",
+      "exemplo_pt": "Ela faz ioga."
+    },
+    {
+      "id": "has",
+      "en": "has",
+      "pt": "tem",
+      "emoji": "🤲",
+      "exemplo_en": "He has lunch at one.",
+      "exemplo_pt": "Ele almoça à uma."
+    },
+    {
+      "id": "fixes",
+      "en": "fixes",
+      "pt": "conserta",
+      "emoji": "🔧",
+      "exemplo_en": "He fixes machines.",
+      "exemplo_pt": "Ele conserta máquinas."
+    },
+    {
+      "id": "teaches",
+      "en": "teaches",
+      "pt": "ensina",
+      "emoji": "🧑‍🏫",
+      "exemplo_en": "She teaches math.",
+      "exemplo_pt": "Ela ensina matemática."
+    },
+    {
+      "id": "plays",
+      "en": "plays",
+      "pt": "joga / toca",
+      "emoji": "🎸",
+      "exemplo_en": "He plays the guitar.",
+      "exemplo_pt": "Ele toca violão."
+    },
+    {
+      "id": "washes",
+      "en": "washes",
+      "pt": "lava",
+      "emoji": "🧼",
+      "exemplo_en": "She washes the car on Sunday.",
+      "exemplo_pt": "Ela lava o carro no domingo."
+    },
+    {
+      "id": "tries",
+      "en": "tries",
+      "pt": "tenta",
+      "emoji": "🎯",
+      "exemplo_en": "He tries again.",
+      "exemplo_pt": "Ele tenta de novo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Regras do -s",
+    "explicacao_pt": "Na maioria dos verbos, só acrescente -s: work → works, play → plays. Verbos terminados em -ch, -sh, -ss, -x, -o ganham -ES: watch → watches, wash → washes, fix → fixes, go → goes, do → does. Consoante + y vira -IES: study → studies, try → tries (mas vogal + y fica -s: play → plays). Irregular: have → HAS. Pronúncia: -es em watches/fixes soa como 'iz' (uót-chiz).",
+    "tabela": {
+      "colunas": [
+        "Terminação",
+        "Regra",
+        "Exemplos"
+      ],
+      "linhas": [
+        [
+          "maioria",
+          "+ s",
+          "works, plays, drives"
+        ],
+        [
+          "-ch, -sh, -ss, -x, -o",
+          "+ es",
+          "watches, washes, fixes, goes, does"
+        ],
+        [
+          "consoante + y",
+          "y → ies",
+          "studies, tries, carries"
+        ],
+        [
+          "have",
+          "irregular",
+          "has"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My son studies in the evening.",
+        "pt": "Meu filho estuda à noitinha."
+      },
+      {
+        "en": "The technician fixes the machine.",
+        "pt": "O técnico conserta a máquina."
+      },
+      {
+        "en": "She goes to the gym and does pilates.",
+        "pt": "Ela vai à academia e faz pilates."
+      },
+      {
+        "en": "He has two jobs.",
+        "pt": "Ele tem dois empregos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The maintenance team",
+    "falas": [
+      {
+        "personagem": "Laura",
+        "voz": "a",
+        "en": "Who is the man in the blue uniform?",
+        "pt": "Quem é o homem de uniforme azul?"
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "That's Marcos. He fixes the machines here.",
+        "pt": "É o Marcos. Ele conserta as máquinas aqui."
+      },
+      {
+        "personagem": "Laura",
+        "voz": "a",
+        "en": "Does he work every day?",
+        "pt": "Ele trabalha todo dia?"
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "Yes. He goes to all the buildings. And he teaches the new technicians.",
+        "pt": "Sim. Ele vai a todos os prédios. E ensina os técnicos novos."
+      },
+      {
+        "personagem": "Laura",
+        "voz": "a",
+        "en": "Wow, he has a busy day!",
+        "pt": "Uau, ele tem um dia cheio!"
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "Yes, and at night he studies engineering.",
+        "pt": "Sim, e à noite ele estuda engenharia."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u05l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What does Marcos do?",
+        "opcoes": [
+          "He fixes machines.",
+          "He drives trucks.",
+          "He teaches English."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u05l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Who does Marcos teach?",
+        "opcoes": [
+          "Students",
+          "New technicians",
+          "Engineers"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Marcos study at night?",
+        "opcoes": [
+          "Engineering",
+          "English",
+          "Math"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u05l2-p1",
+      "tipo": "completar",
+      "frase": "He ___ TV at night. (watch)",
+      "respostas": [
+        "watches"
+      ]
+    },
+    {
+      "id": "a1u05l2-p2",
+      "tipo": "completar",
+      "frase": "She ___ English. (study)",
+      "respostas": [
+        "studies"
+      ]
+    },
+    {
+      "id": "a1u05l2-p3",
+      "tipo": "completar",
+      "frase": "He ___ to work by bus. (go)",
+      "respostas": [
+        "goes"
+      ]
+    },
+    {
+      "id": "a1u05l2-p4",
+      "tipo": "completar",
+      "frase": "My wife ___ two sisters. (have)",
+      "respostas": [
+        "has"
+      ]
+    },
+    {
+      "id": "a1u05l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Forma certa de \"play\" com she:",
+      "opcoes": [
+        "plaies",
+        "plays",
+        "playes"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Vogal + y: só -s."
+    },
+    {
+      "id": "a1u05l2-p6",
+      "tipo": "ordenar",
+      "frase": "The technician fixes the machine",
+      "traducao_pt": "O técnico conserta a máquina"
+    },
+    {
+      "id": "a1u05l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She does yoga on Saturday."
+    },
+    {
+      "id": "a1u05l2-p8",
+      "tipo": "traduzir",
+      "pt": "Ele ensina matemática.",
+      "respostas": [
+        "He teaches math.",
+        "He teaches maths.",
+        "He teaches mathematics."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Fale de um colega de trabalho: o que ele faz no trabalho, aonde vai, o que estuda e o que faz no tempo livre.",
+    "papel_professor": "Faça perguntas sobre um colega do aluno usando verbos com regras especiais (What does he do? Does he study? Where does he go?). Corrija watches/studies/goes/has.",
+    "abertura": "Tell me about a colleague. What does he or she do at work?",
+    "abertura_pt": "Me fale de um colega. O que ele ou ela faz no trabalho?"
+  },
+  "teste": [
+    {
+      "id": "a1u05l2-t1",
+      "tipo": "completar",
+      "frase": "She ___ the car on Sunday. (wash)",
+      "respostas": [
+        "washes"
+      ]
+    },
+    {
+      "id": "a1u05l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Forma certa de \"try\" com he:",
+      "opcoes": [
+        "trys",
+        "tries",
+        "tryes"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u05l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "He has lunch at one."
+    },
+    {
+      "id": "a1u05l2-t4",
+      "tipo": "traduzir",
+      "pt": "Ela vai para o trabalho de trem.",
+      "respostas": [
+        "She goes to work by train."
+      ]
+    },
+    {
+      "id": "a1u05l2-t5",
+      "tipo": "ordenar",
+      "frase": "My son studies in the evening",
+      "traducao_pt": "Meu filho estuda à noitinha"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "a1-u07-l1",
+  "nivel": "A1",
+  "unidade": 7,
+  "numero": 1,
+  "titulo": "An apple, some rice",
+  "objetivo_pt": "Nomear alimentos e saber quais se contam (an apple) e quais não (some rice).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você come no café da manhã e no almoço. Use \"I eat…\" e \"I have…\".",
+    "papel_professor": "Pergunte o que o aluno come no café e no almoço. Ensine nomes de alimentos. Corrija contáveis/incontáveis (a rice → some rice; an apple).",
+    "abertura": "What do you usually eat for breakfast?",
+    "abertura_pt": "O que você geralmente come no café da manhã?"
+  },
+  "vocabulario": [
+    {
+      "id": "apple",
+      "en": "apple",
+      "pt": "maçã",
+      "emoji": "🍎",
+      "exemplo_en": "I eat an apple every day.",
+      "exemplo_pt": "Eu como uma maçã todo dia."
+    },
+    {
+      "id": "banana",
+      "en": "banana",
+      "pt": "banana",
+      "emoji": "🍌",
+      "exemplo_en": "There are some bananas on the table.",
+      "exemplo_pt": "Há algumas bananas na mesa."
+    },
+    {
+      "id": "rice",
+      "en": "rice",
+      "pt": "arroz",
+      "emoji": "🍚",
+      "exemplo_en": "We eat rice and beans.",
+      "exemplo_pt": "Comemos arroz e feijão."
+    },
+    {
+      "id": "beans",
+      "en": "beans",
+      "pt": "feijão",
+      "emoji": "🫘",
+      "exemplo_en": "Brazilians love beans.",
+      "exemplo_pt": "Os brasileiros amam feijão."
+    },
+    {
+      "id": "meat",
+      "en": "meat",
+      "pt": "carne",
+      "emoji": "🥩",
+      "exemplo_en": "I don't eat meat on Fridays.",
+      "exemplo_pt": "Não como carne às sextas."
+    },
+    {
+      "id": "chicken",
+      "en": "chicken",
+      "pt": "frango",
+      "emoji": "🍗",
+      "exemplo_en": "Chicken with rice, please.",
+      "exemplo_pt": "Frango com arroz, por favor."
+    },
+    {
+      "id": "fish",
+      "en": "fish",
+      "pt": "peixe",
+      "emoji": "🐟",
+      "exemplo_en": "We often eat fish.",
+      "exemplo_pt": "Comemos peixe com frequência."
+    },
+    {
+      "id": "vegetables",
+      "en": "vegetables",
+      "pt": "verduras / legumes",
+      "emoji": "🥦",
+      "exemplo_en": "Vegetables are good for you.",
+      "exemplo_pt": "Verduras fazem bem."
+    },
+    {
+      "id": "cheese",
+      "en": "cheese",
+      "pt": "queijo",
+      "emoji": "🧀",
+      "exemplo_en": "There is some cheese in the fridge.",
+      "exemplo_pt": "Há um pouco de queijo na geladeira."
+    },
+    {
+      "id": "fruit",
+      "en": "fruit",
+      "pt": "fruta(s)",
+      "emoji": "🍇",
+      "exemplo_en": "I have fruit for breakfast.",
+      "exemplo_pt": "Como fruta no café da manhã."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Contáveis e incontáveis",
+    "explicacao_pt": "Alguns alimentos podemos contar: an apple, two bananas, three eggs (contáveis: usam a/an e plural). Outros não se contam: rice, meat, cheese, water, milk, bread (incontáveis: NÃO usam a/an nem -s). Para incontáveis use 'some' ou uma medida: some rice, a piece of cheese, a glass of water, a cup of coffee. Diferente do português: 'bread' e 'fruit' em geral são incontáveis em inglês.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Exemplos",
+        "Com quantidade"
+      ],
+      "linhas": [
+        [
+          "Contável",
+          "an apple, a banana, an egg",
+          "two apples, some bananas"
+        ],
+        [
+          "Incontável",
+          "rice, meat, bread, milk",
+          "some rice, a piece of bread"
+        ],
+        [
+          "Medida",
+          "a glass of…, a cup of…",
+          "a glass of juice, a cup of tea"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I have some bread and a cup of coffee.",
+        "pt": "Como um pouco de pão e tomo uma xícara de café."
+      },
+      {
+        "en": "She eats two eggs every morning.",
+        "pt": "Ela come dois ovos toda manhã."
+      },
+      {
+        "en": "We need some rice and some beans.",
+        "pt": "Precisamos de arroz e feijão."
+      },
+      {
+        "en": "Can I have a glass of water?",
+        "pt": "Posso tomar um copo de água?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What do you eat?",
+    "falas": [
+      {
+        "personagem": "Kim",
+        "voz": "a",
+        "en": "What do people eat in Brazil for lunch?",
+        "pt": "O que as pessoas comem no almoço no Brasil?"
+      },
+      {
+        "personagem": "Duda",
+        "voz": "b",
+        "en": "Usually rice, beans, some meat or chicken, and salad.",
+        "pt": "Geralmente arroz, feijão, um pouco de carne ou frango, e salada."
+      },
+      {
+        "personagem": "Kim",
+        "voz": "a",
+        "en": "Every day? Rice and beans every day?",
+        "pt": "Todo dia? Arroz e feijão todo dia?"
+      },
+      {
+        "personagem": "Duda",
+        "voz": "b",
+        "en": "Yes! And you? What do you eat in Korea?",
+        "pt": "Sim! E você? O que vocês comem na Coreia?"
+      },
+      {
+        "personagem": "Kim",
+        "voz": "a",
+        "en": "We eat rice too, and vegetables, and a lot of soup.",
+        "pt": "Comemos arroz também, e verduras, e muita sopa."
+      },
+      {
+        "personagem": "Duda",
+        "voz": "b",
+        "en": "And for breakfast?",
+        "pt": "E no café da manhã?"
+      },
+      {
+        "personagem": "Kim",
+        "voz": "a",
+        "en": "Sometimes rice! But I usually have an egg and some fruit.",
+        "pt": "Às vezes arroz! Mas geralmente como um ovo e um pouco de fruta."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What do Brazilians usually eat for lunch?",
+        "opcoes": [
+          "Soup and bread",
+          "Rice, beans, meat and salad",
+          "Fish and fruit"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What do people eat a lot in Korea?",
+        "opcoes": [
+          "Soup",
+          "Beans",
+          "Cheese"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Kim usually have for breakfast?",
+        "opcoes": [
+          "Rice and soup",
+          "An egg and some fruit",
+          "Bread and coffee"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u07l1-p1",
+      "tipo": "completar",
+      "frase": "I eat ___ apple every day.",
+      "respostas": [
+        "an"
+      ]
+    },
+    {
+      "id": "a1u07l1-p2",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "a rice",
+        "some rice",
+        "two rices"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Rice é incontável."
+    },
+    {
+      "id": "a1u07l1-p3",
+      "tipo": "multipla",
+      "enunciado": "Qual é contável?",
+      "opcoes": [
+        "meat",
+        "egg",
+        "milk"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l1-p4",
+      "tipo": "completar",
+      "frase": "Can I have a glass ___ water?",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "a1u07l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Verduras e legumes\":",
+      "opcoes": [
+        "greens",
+        "vegetables",
+        "vegetals"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l1-p6",
+      "tipo": "ordenar",
+      "frase": "We eat rice and beans",
+      "traducao_pt": "Nós comemos arroz e feijão"
+    },
+    {
+      "id": "a1u07l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "There is some cheese in the fridge."
+    },
+    {
+      "id": "a1u07l1-p8",
+      "tipo": "traduzir",
+      "pt": "Eu não como carne.",
+      "respostas": [
+        "I don't eat meat.",
+        "I do not eat meat."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Um colega estrangeiro quer saber sobre a comida do Brasil. Explique o que comemos no café da manhã, almoço e jantar.",
+    "papel_professor": "Faça o papel de um colega estrangeiro curioso. Pergunte o que brasileiros comem em cada refeição e o que o aluno come. Ensine nomes de comidas se precisar. Corrija a/an/some.",
+    "abertura": "I want to try Brazilian food! What do you eat for lunch?",
+    "abertura_pt": "Quero provar comida brasileira! O que vocês comem no almoço?"
+  },
+  "teste": [
+    {
+      "id": "a1u07l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Qual é incontável?",
+      "opcoes": [
+        "banana",
+        "apple",
+        "bread"
+      ],
+      "correta": 2
+    },
+    {
+      "id": "a1u07l1-t2",
+      "tipo": "completar",
+      "frase": "She eats two ___ every morning. (ovos)",
+      "respostas": [
+        "eggs"
+      ]
+    },
+    {
+      "id": "a1u07l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We often eat fish."
+    },
+    {
+      "id": "a1u07l1-t4",
+      "tipo": "traduzir",
+      "pt": "Precisamos de arroz.",
+      "respostas": [
+        "We need some rice.",
+        "We need rice."
+      ]
+    },
+    {
+      "id": "a1u07l1-t5",
+      "tipo": "ordenar",
+      "frase": "I have fruit for breakfast",
+      "traducao_pt": "Como fruta no café da manhã"
+    }
+  ]
+}

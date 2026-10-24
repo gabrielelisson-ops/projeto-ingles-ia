@@ -1,0 +1,253 @@
+{
+  "id": "a1-u05-prova",
+  "nivel": "A1",
+  "unidade": 5,
+  "titulo": "Prova da Unidade 5 — Their day",
+  "leitura": {
+    "texto": "Meet Rafael. He is a maintenance technician at a paper factory in Paraná. He usually gets up at 4:45 because his shift starts at six. He goes to work by motorcycle. At the factory, he checks the machines and fixes problems. He always wears safety boots and gloves. He doesn't work at night, but he sometimes works on Saturday mornings. Rafael has lunch in the cafeteria at eleven thirty. In the afternoon he writes a short report. His wife, Diana, is a teacher. She teaches English at a school, and she never gets up before six!",
+    "perguntas": [
+      {
+        "id": "a1u05pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Where does Rafael work?",
+        "opcoes": [
+          "In a car factory",
+          "In a paper factory",
+          "In a school"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What time does he usually get up?",
+        "opcoes": [
+          "4:45",
+          "6:00",
+          "5:45"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u05pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How does he go to work?",
+        "opcoes": [
+          "By bus",
+          "By car",
+          "By motorcycle"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a1u05pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What does he always wear?",
+        "opcoes": [
+          "A uniform and glasses",
+          "Safety boots and gloves",
+          "A blue jacket"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Does Rafael work at night?",
+        "opcoes": [
+          "Yes, he does.",
+          "No, he doesn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-l6",
+        "tipo": "multipla",
+        "enunciado": "When does he sometimes work?",
+        "opcoes": [
+          "On Sunday",
+          "On Saturday mornings",
+          "At night"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What does he do in the afternoon?",
+        "opcoes": [
+          "He fixes cars.",
+          "He writes a short report.",
+          "He teaches English."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What does Diana do?",
+        "opcoes": [
+          "She teaches English.",
+          "She works in the factory.",
+          "She is a nurse."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Does your sister still work at the hospital?",
+        "pt": "Sua irmã ainda trabalha no hospital?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "b",
+        "en": "Yes, she does. She's a nurse. She works the night shift.",
+        "pt": "Sim. Ela é enfermeira. Trabalha no turno da noite."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Wow. When does she sleep?",
+        "pt": "Nossa. Quando ela dorme?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "b",
+        "en": "She usually sleeps in the morning, from eight to two.",
+        "pt": "Ela geralmente dorme de manhã, das oito às duas."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Does she like the night shift?",
+        "pt": "Ela gosta do turno da noite?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "b",
+        "en": "Not really. But she has three days off a week.",
+        "pt": "Não muito. Mas ela tem três folgas por semana."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "That's good. Does she have children?",
+        "pt": "Isso é bom. Ela tem filhos?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "b",
+        "en": "No, she doesn't. She has a cat. It never sleeps at night either!",
+        "pt": "Não. Ela tem um gato. Ele também nunca dorme à noite!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u05pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Mara's sister's job?",
+        "opcoes": [
+          "Doctor",
+          "Nurse",
+          "Teacher"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What shift does she work?",
+        "opcoes": [
+          "Morning shift",
+          "Night shift",
+          "Afternoon shift"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When does she usually sleep?",
+        "opcoes": [
+          "From 8 to 2",
+          "At night",
+          "From 2 to 8"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u05pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Does she like the night shift?",
+        "opcoes": [
+          "Yes, very much.",
+          "Not really."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How many days off does she have a week?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Does she have children?",
+        "opcoes": [
+          "Yes, she does.",
+          "No, she doesn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "She usually sleeps in the morning."
+      },
+      {
+        "id": "a1u05pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Does she like the night shift?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u05pv-w1",
+      "instrucao_pt": "Descreva a rotina de uma pessoa que você conhece (trabalho, horários, transporte). Cuidado com o -s!",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u05pv-w2",
+      "instrucao_pt": "Escreva sobre os hábitos dessa pessoa usando pelo menos 2 advérbios de frequência e 1 frase com doesn't.",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u05pv-s1",
+      "pergunta_en": "Tell me about a person in your family. What does he or she do every day?",
+      "instrucao_pt": "Fale em voz alta sobre a rotina de um familiar (use he/she + verbo com -s)."
+    },
+    {
+      "id": "a1u05pv-s2",
+      "pergunta_en": "How often do you exercise, cook and work overtime?",
+      "instrucao_pt": "Responda em voz alta usando always, usually, sometimes ou never."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Presente simples com he/she/it (-s, -es, -ies, has), does/doesn't em perguntas e negativas, advérbios de frequência e sua posição, vocabulário de trabalho na fábrica. Erro principal a observar: falta do -s com he/she e 'does she works'."
+}

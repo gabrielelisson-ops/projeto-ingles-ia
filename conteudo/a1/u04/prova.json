@@ -1,0 +1,254 @@
+{
+  "id": "a1-u04-prova",
+  "nivel": "A1",
+  "unidade": 4,
+  "titulo": "Prova da Unidade 4 — My day",
+  "leitura": {
+    "texto": "My name is Ana. I'm a quality inspector. I work in a car parts factory from Monday to Friday. I get up at five o'clock and I have breakfast with my husband. We don't have breakfast on weekends! I take the bus at quarter to six. My shift starts at half past six and finishes at three. We have a break at nine and lunch at twelve. In the evening, I study English. My husband and I have dinner at eight and we go to bed at ten. On Saturday we visit his parents. Sunday is our day off at home.",
+    "perguntas": [
+      {
+        "id": "a1u04pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What is Ana's job?",
+        "opcoes": [
+          "Engineer",
+          "Quality inspector",
+          "Bus driver"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What time does Ana get up?",
+        "opcoes": [
+          "5:00",
+          "5:45",
+          "6:30"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What time is the bus?",
+        "opcoes": [
+          "5:15",
+          "5:45",
+          "6:15"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-l4",
+        "tipo": "multipla",
+        "enunciado": "When does her shift start?",
+        "opcoes": [
+          "6:30",
+          "6:00",
+          "3:00"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What time is lunch?",
+        "opcoes": [
+          "9:00",
+          "12:00",
+          "3:00"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-l6",
+        "tipo": "multipla",
+        "enunciado": "When does Ana study English?",
+        "opcoes": [
+          "In the morning",
+          "At lunch",
+          "In the evening"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a1u04pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What do they do on Saturday?",
+        "opcoes": [
+          "Visit his parents",
+          "Work",
+          "Stay at home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Do they have breakfast together on weekends?",
+        "opcoes": [
+          "Yes, they do.",
+          "No, they don't."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Jon",
+        "voz": "a",
+        "en": "Hi, Clara. Do you work on Saturday?",
+        "pt": "Oi, Clara. Você trabalha no sábado?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "No, I don't. I work from Monday to Friday.",
+        "pt": "Não. Trabalho de segunda a sexta."
+      },
+      {
+        "personagem": "Jon",
+        "voz": "a",
+        "en": "What time do you start?",
+        "pt": "A que horas você começa?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "At quarter past eight. And I finish at five.",
+        "pt": "Às oito e quinze. E termino às cinco."
+      },
+      {
+        "personagem": "Jon",
+        "voz": "a",
+        "en": "Do you have lunch in the cafeteria?",
+        "pt": "Você almoça no refeitório?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "Yes, I do. At half past twelve.",
+        "pt": "Sim. Ao meio-dia e meia."
+      },
+      {
+        "personagem": "Jon",
+        "voz": "a",
+        "en": "And in the evening?",
+        "pt": "E à noite?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "On Tuesday and Thursday I play volleyball.",
+        "pt": "Na terça e na quinta jogo vôlei."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Does Clara work on Saturday?",
+        "opcoes": [
+          "Yes, she does.",
+          "No, she doesn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What time does she start?",
+        "opcoes": [
+          "8:15",
+          "8:45",
+          "8:00"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What time does she finish?",
+        "opcoes": [
+          "4:00",
+          "5:00",
+          "6:00"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Where does she have lunch?",
+        "opcoes": [
+          "At home",
+          "In the cafeteria",
+          "In a restaurant"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What time is her lunch?",
+        "opcoes": [
+          "12:00",
+          "12:30",
+          "1:30"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-e6",
+        "tipo": "multipla",
+        "enunciado": "When does she play volleyball?",
+        "opcoes": [
+          "Monday and Wednesday",
+          "Tuesday and Thursday",
+          "On weekends"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "What time do you start?"
+      },
+      {
+        "id": "a1u04pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I work from Monday to Friday."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u04pv-w1",
+      "instrucao_pt": "Descreva sua rotina num dia de trabalho, com pelo menos 3 horários (use at e o presente simples).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u04pv-w2",
+      "instrucao_pt": "Escreva o que você faz e o que NÃO faz no fim de semana (use on Saturday/Sunday e don't).",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u04pv-s1",
+      "pergunta_en": "What time do you get up and what time do you start work?",
+      "instrucao_pt": "Responda em voz alta com os horários (use \"at\")."
+    },
+    {
+      "id": "a1u04pv-s2",
+      "pergunta_en": "What do you do on weekends?",
+      "instrucao_pt": "Fale em voz alta 2 ou 3 coisas que você faz (e não faz) no fim de semana."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Horas (o'clock, half past, quarter past/to, formato digital), presente simples com I/you/we/they, do/don't em perguntas e negativas, at/on/in com tempo, dias da semana, vocabulário de rotina e turnos."
+}

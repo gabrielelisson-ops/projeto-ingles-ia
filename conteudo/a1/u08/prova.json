@@ -1,0 +1,265 @@
+{
+  "id": "a1-u08-prova",
+  "nivel": "A1",
+  "unidade": 8,
+  "titulo": "Prova da Unidade 8 — Shopping",
+  "leitura": {
+    "texto": "SALE AT MODA SUL! This weekend, all jackets are on sale. Leather jackets: R$ 250 (before R$ 350). Jeans jackets: R$ 120. T-shirts are two for R$ 60, in white, black, gray and green. Sneakers: buy one pair and get 20% off the second pair. Our new collection of dresses is in red, blue and yellow, from R$ 90. Kids' clothes are on the second floor. The fitting rooms are next to the stairs. You can pay in cash or by card, and you can exchange any product in 30 days with the receipt. The store opens at 9 a.m. and closes at 10 p.m.",
+    "perguntas": [
+      {
+        "id": "a1u08pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How much is a leather jacket now?",
+        "opcoes": [
+          "R$ 350",
+          "R$ 250",
+          "R$ 120"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How much are two T-shirts?",
+        "opcoes": [
+          "R$ 30",
+          "R$ 60",
+          "R$ 120"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What colors are the T-shirts?",
+        "opcoes": [
+          "Red, blue and yellow",
+          "White, black, gray and green",
+          "Only black"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What is the discount on sneakers?",
+        "opcoes": [
+          "20% off the second pair",
+          "50% off",
+          "Two for one"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Where are the kids' clothes?",
+        "opcoes": [
+          "On the first floor",
+          "On the second floor",
+          "Next to the stairs"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Where are the fitting rooms?",
+        "opcoes": [
+          "Next to the stairs",
+          "On the second floor",
+          "Near the exit"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What do you need to exchange a product?",
+        "opcoes": [
+          "The receipt",
+          "A card",
+          "The bag"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What time does the store close?",
+        "opcoes": [
+          "9 p.m.",
+          "10 p.m.",
+          "9 a.m."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Hello! Are you looking for something?",
+        "pt": "Olá! Está procurando algo?"
+      },
+      {
+        "personagem": "Customer",
+        "voz": "b",
+        "en": "Yes, a jacket. How much is that gray one?",
+        "pt": "Sim, uma jaqueta. Quanto custa aquela cinza?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "It's one hundred and eighty reais.",
+        "pt": "Custa cento e oitenta reais."
+      },
+      {
+        "personagem": "Customer",
+        "voz": "b",
+        "en": "Hmm. And these black ones?",
+        "pt": "Hmm. E estas pretas?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "These are on sale. They're one hundred and twenty.",
+        "pt": "Estas estão em promoção. Custam cento e vinte."
+      },
+      {
+        "personagem": "Customer",
+        "voz": "b",
+        "en": "Can I try one on? Size medium.",
+        "pt": "Posso experimentar uma? Tamanho médio."
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Sure. The fitting room is on the left.",
+        "pt": "Claro. O provador fica à esquerda."
+      },
+      {
+        "personagem": "Customer",
+        "voz": "b",
+        "en": "It's perfect. I'll take it. Can I pay in cash?",
+        "pt": "Está perfeita. Vou levar. Posso pagar em dinheiro?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Of course.",
+        "pt": "Claro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u08pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the customer looking for?",
+        "opcoes": [
+          "A jacket",
+          "A dress",
+          "Sneakers"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How much is the gray jacket?",
+        "opcoes": [
+          "R$ 120",
+          "R$ 180",
+          "R$ 80"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How much are the black jackets?",
+        "opcoes": [
+          "R$ 120",
+          "R$ 180",
+          "R$ 220"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What size is the customer?",
+        "opcoes": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Where is the fitting room?",
+        "opcoes": [
+          "On the left",
+          "On the right",
+          "Upstairs"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u08pv-e6",
+        "tipo": "multipla",
+        "enunciado": "How does the customer pay?",
+        "opcoes": [
+          "By card",
+          "In cash",
+          "He doesn't buy it"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u08pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Can I try one on?"
+      },
+      {
+        "id": "a1u08pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "These are on sale.",
+        "aceitas": [
+          "These are on sale"
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u08pv-w1",
+      "instrucao_pt": "Descreva a roupa que você usa no trabalho e a roupa que você usa no fim de semana (peças e cores).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u08pv-w2",
+      "instrucao_pt": "Escreva um diálogo curto numa loja: você procura algo, pergunta o preço e decide comprar.",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u08pv-s1",
+      "pergunta_en": "What are you wearing today? Describe the colors.",
+      "instrucao_pt": "Descreva em voz alta suas roupas e as cores (adjetivo antes do nome)."
+    },
+    {
+      "id": "a1u08pv-s2",
+      "pergunta_en": "You are in a store. Ask for the price of two things and buy one.",
+      "instrucao_pt": "Em voz alta: pergunte o preço de duas coisas (How much is/are…?) e diga qual vai levar."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Roupas e cores (adjetivo antes do nome, sem plural), this/that/these/those, preços com How much is/are…?, How many…?, pedidos em loja com Can I…?, I'm looking for…, I'll take it."
+}

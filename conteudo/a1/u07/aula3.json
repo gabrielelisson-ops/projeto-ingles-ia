@@ -1,0 +1,343 @@
+{
+  "id": "a1-u07-l3",
+  "nivel": "A1",
+  "unidade": 7,
+  "numero": 3,
+  "titulo": "I'd like a coffee",
+  "objetivo_pt": "Oferecer e pedir com educação usando would like (Would you like…? I'd like…).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai te oferecer algumas coisas. Aceite com \"Yes, please\" ou recuse com \"No, thank you\", e peça o que quer com \"I'd like…\".",
+    "papel_professor": "Ofereça bebidas e comidas ao aluno com Would you like…? Ensine Yes, please / No, thank you / I'd like… Corrija 'I want' para 'I'd like' quando for um pedido educado.",
+    "abertura": "Welcome to my house! Would you like something to drink?",
+    "abertura_pt": "Bem-vindo à minha casa! Você quer algo para beber?"
+  },
+  "vocabulario": [
+    {
+      "id": "would-like",
+      "en": "would like",
+      "pt": "gostaria de",
+      "emoji": "🙏",
+      "exemplo_en": "I'd like a coffee, please.",
+      "exemplo_pt": "Eu gostaria de um café, por favor."
+    },
+    {
+      "id": "would-you-like",
+      "en": "Would you like…?",
+      "pt": "Você gostaria de…? / Aceita…?",
+      "emoji": "🤲",
+      "exemplo_en": "Would you like some tea?",
+      "exemplo_pt": "Aceita um chá?"
+    },
+    {
+      "id": "yes-please",
+      "en": "Yes, please.",
+      "pt": "Sim, por favor.",
+      "emoji": "👍",
+      "exemplo_en": "Cake? — Yes, please!",
+      "exemplo_pt": "Bolo? — Sim, por favor!"
+    },
+    {
+      "id": "no-thanks",
+      "en": "No, thank you.",
+      "pt": "Não, obrigado(a).",
+      "emoji": "✋",
+      "exemplo_en": "More coffee? — No, thank you.",
+      "exemplo_pt": "Mais café? — Não, obrigado."
+    },
+    {
+      "id": "tea",
+      "en": "tea",
+      "pt": "chá",
+      "emoji": "🍵",
+      "exemplo_en": "A cup of tea, please.",
+      "exemplo_pt": "Uma xícara de chá, por favor."
+    },
+    {
+      "id": "juice",
+      "en": "juice",
+      "pt": "suco",
+      "emoji": "🧃",
+      "exemplo_en": "I would like an orange juice.",
+      "exemplo_pt": "Eu gostaria de um suco de laranja."
+    },
+    {
+      "id": "sugar",
+      "en": "sugar",
+      "pt": "açúcar",
+      "emoji": "🍬",
+      "exemplo_en": "Coffee with sugar?",
+      "exemplo_pt": "Café com açúcar?"
+    },
+    {
+      "id": "snack",
+      "en": "snack",
+      "pt": "lanche",
+      "emoji": "🥪",
+      "exemplo_en": "Would you like a snack?",
+      "exemplo_pt": "Quer um lanche?"
+    },
+    {
+      "id": "something",
+      "en": "something",
+      "pt": "algo / alguma coisa",
+      "emoji": "❔",
+      "exemplo_en": "Would you like something to eat?",
+      "exemplo_pt": "Quer algo para comer?"
+    },
+    {
+      "id": "thirsty-hungry",
+      "en": "thirsty / hungry",
+      "pt": "com sede / com fome",
+      "emoji": "😋",
+      "exemplo_en": "I'm hungry. I'd like a sandwich.",
+      "exemplo_pt": "Estou com fome. Gostaria de um sanduíche."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Would like: oferecer e pedir com educação",
+    "explicacao_pt": "WOULD LIKE é uma forma educada de 'want' (querer). Para oferecer: Would you like a coffee? / Would you like something to eat? Para pedir: I would like = I'd like a juice, please. Respostas: Yes, please. / No, thank you. Com verbo, use TO: I'd like to order (gostaria de pedir). Diferença: 'Do you like coffee?' = você gosta de café (em geral); 'Would you like a coffee?' = aceita um café (agora).",
+    "tabela": {
+      "colunas": [
+        "Frase",
+        "Uso",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Would you like a coffee?",
+          "oferecer agora",
+          "Aceita um café?"
+        ],
+        [
+          "Do you like coffee?",
+          "gosto em geral",
+          "Você gosta de café?"
+        ],
+        [
+          "I'd like a juice, please.",
+          "pedir",
+          "Eu gostaria de um suco."
+        ],
+        [
+          "I'd like to order.",
+          "pedir + verbo",
+          "Gostaria de pedir."
+        ],
+        [
+          "Yes, please. / No, thank you.",
+          "responder",
+          "Sim, por favor. / Não, obrigado."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Would you like some water? — Yes, please. I'm thirsty.",
+        "pt": "Aceita água? — Sim, por favor. Estou com sede."
+      },
+      {
+        "en": "I'd like a sandwich and a juice, please.",
+        "pt": "Gostaria de um sanduíche e um suco, por favor."
+      },
+      {
+        "en": "Would you like sugar in your tea? — No, thank you.",
+        "pt": "Quer açúcar no chá? — Não, obrigado."
+      },
+      {
+        "en": "We'd like to order now.",
+        "pt": "Gostaríamos de pedir agora."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A meeting break",
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Let's have a break. Would you like a coffee, Mr. Adams?",
+        "pt": "Vamos fazer um intervalo. Aceita um café, Sr. Adams?"
+      },
+      {
+        "personagem": "Adams",
+        "voz": "b",
+        "en": "Yes, please. With milk, no sugar.",
+        "pt": "Sim, por favor. Com leite, sem açúcar."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "And would you like something to eat? There are some sandwiches.",
+        "pt": "E quer algo para comer? Há alguns sanduíches."
+      },
+      {
+        "personagem": "Adams",
+        "voz": "b",
+        "en": "No, thank you. I'm not hungry. But I'd like some water.",
+        "pt": "Não, obrigado. Não estou com fome. Mas gostaria de água."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Of course. Here you are.",
+        "pt": "Claro. Aqui está."
+      },
+      {
+        "personagem": "Adams",
+        "voz": "b",
+        "en": "Thank you. Brazilian coffee is delicious!",
+        "pt": "Obrigado. O café brasileiro é delicioso!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How does Mr. Adams like his coffee?",
+        "opcoes": [
+          "With milk and sugar",
+          "With milk, no sugar",
+          "Black, with sugar"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Does he want a sandwich?",
+        "opcoes": [
+          "Yes, please.",
+          "No, thank you."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What else does he want?",
+        "opcoes": [
+          "Some water",
+          "Some juice",
+          "Some tea"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u07l3-p1",
+      "tipo": "completar",
+      "frase": "___ you like some tea?",
+      "respostas": [
+        "Would"
+      ]
+    },
+    {
+      "id": "a1u07l3-p2",
+      "tipo": "completar",
+      "frase": "I'd ___ a coffee, please.",
+      "respostas": [
+        "like"
+      ]
+    },
+    {
+      "id": "a1u07l3-p3",
+      "tipo": "multipla",
+      "enunciado": "Para OFERECER um café agora:",
+      "opcoes": [
+        "Do you like a coffee?",
+        "Would you like a coffee?",
+        "You like coffee?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Recusar com educação:",
+      "opcoes": [
+        "No, I not.",
+        "No, thank you.",
+        "No want."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l3-p5",
+      "tipo": "completar",
+      "frase": "We'd like ___ order now.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "a1u07l3-p6",
+      "tipo": "ordenar",
+      "frase": "I'd like an orange juice please",
+      "traducao_pt": "Gostaria de um suco de laranja, por favor"
+    },
+    {
+      "id": "a1u07l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Would you like something to eat?"
+    },
+    {
+      "id": "a1u07l3-p8",
+      "tipo": "traduzir",
+      "pt": "Estou com fome.",
+      "respostas": [
+        "I'm hungry.",
+        "I am hungry."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você recebe um visitante estrangeiro na sua empresa. Ofereça bebidas e lanches e pergunte como ele prefere o café.",
+    "papel_professor": "Faça o papel de um visitante estrangeiro numa reunião. O aluno deve oferecer bebidas e comidas (Would you like…?). Aceite algumas e recuse outras com educação. Se o aluno usar 'Do you like' para oferecer, corrija com gentileza.",
+    "abertura": "Hello! Thanks for having me here. It's a hot day!",
+    "abertura_pt": "Olá! Obrigado por me receber. Está um dia quente!"
+  },
+  "teste": [
+    {
+      "id": "a1u07l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Aceita um chá?\"",
+      "opcoes": [
+        "Would you like some tea?",
+        "Do you like some tea?",
+        "Like you tea?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u07l3-t2",
+      "tipo": "completar",
+      "frase": "I'm thirsty. I'd like some ___. (água)",
+      "respostas": [
+        "water"
+      ]
+    },
+    {
+      "id": "a1u07l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Yes, please."
+    },
+    {
+      "id": "a1u07l3-t4",
+      "tipo": "traduzir",
+      "pt": "Gostaria de um café, por favor.",
+      "respostas": [
+        "I'd like a coffee, please.",
+        "I would like a coffee, please.",
+        "I'd like a coffee please."
+      ]
+    },
+    {
+      "id": "a1u07l3-t5",
+      "tipo": "ordenar",
+      "frase": "Would you like a snack?",
+      "traducao_pt": "Quer um lanche?"
+    }
+  ]
+}

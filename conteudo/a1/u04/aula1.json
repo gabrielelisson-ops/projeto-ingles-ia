@@ -1,0 +1,361 @@
+{
+  "id": "a1-u04-l1",
+  "nivel": "A1",
+  "unidade": 4,
+  "numero": 1,
+  "titulo": "What time is it?",
+  "objetivo_pt": "Perguntar e dizer as horas em inglês.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar as horas e alguns horários. Responda com \"It's …\".",
+    "papel_professor": "Pergunte as horas de forma simples e dê horários para o aluno dizer em inglês (7:30, 9:15, 12:00). Use o'clock, half past, quarter past/to.",
+    "abertura": "Hello! What time is it now, where you are?",
+    "abertura_pt": "Olá! Que horas são agora aí onde você está?"
+  },
+  "vocabulario": [
+    {
+      "id": "time",
+      "en": "time",
+      "pt": "hora / tempo",
+      "emoji": "🕐",
+      "exemplo_en": "What time is it?",
+      "exemplo_pt": "Que horas são?"
+    },
+    {
+      "id": "oclock",
+      "en": "o'clock",
+      "pt": "em ponto",
+      "emoji": "🕗",
+      "exemplo_en": "It's eight o'clock.",
+      "exemplo_pt": "São oito em ponto."
+    },
+    {
+      "id": "half-past",
+      "en": "half past",
+      "pt": "e meia",
+      "emoji": "🕢",
+      "exemplo_en": "It's half past seven.",
+      "exemplo_pt": "São sete e meia."
+    },
+    {
+      "id": "quarter-past",
+      "en": "quarter past",
+      "pt": "e quinze",
+      "emoji": "🕒",
+      "exemplo_en": "It's quarter past three.",
+      "exemplo_pt": "São três e quinze."
+    },
+    {
+      "id": "quarter-to",
+      "en": "quarter to",
+      "pt": "quinze para",
+      "emoji": "🕓",
+      "exemplo_en": "It's quarter to five.",
+      "exemplo_pt": "São quinze para as cinco."
+    },
+    {
+      "id": "am-pm",
+      "en": "a.m. / p.m.",
+      "pt": "da manhã / da tarde-noite",
+      "emoji": "🌗",
+      "exemplo_en": "The shift starts at 6 a.m.",
+      "exemplo_pt": "O turno começa às 6 da manhã."
+    },
+    {
+      "id": "noon",
+      "en": "noon / midnight",
+      "pt": "meio-dia / meia-noite",
+      "emoji": "🕛",
+      "exemplo_en": "Lunch is at noon.",
+      "exemplo_pt": "O almoço é ao meio-dia."
+    },
+    {
+      "id": "minute",
+      "en": "minute",
+      "pt": "minuto",
+      "emoji": "⏱️",
+      "exemplo_en": "Wait five minutes, please.",
+      "exemplo_pt": "Espere cinco minutos, por favor."
+    },
+    {
+      "id": "hour",
+      "en": "hour",
+      "pt": "hora (duração)",
+      "emoji": "⏳",
+      "exemplo_en": "The meeting is one hour.",
+      "exemplo_pt": "A reunião dura uma hora."
+    },
+    {
+      "id": "early-late",
+      "en": "early / late",
+      "pt": "cedo / tarde",
+      "emoji": "⏰",
+      "exemplo_en": "It's late. Let's go!",
+      "exemplo_pt": "Está tarde. Vamos!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Dizendo as horas",
+    "explicacao_pt": "Pergunta: What time is it? (Que horas são?). Resposta sempre com IT'S: It's ten o'clock. Há dois jeitos de dizer horas: 1) o jeito digital, muito fácil: 7:30 = seven thirty, 9:15 = nine fifteen, 4:45 = four forty-five; 2) o jeito tradicional: half past seven (7:30), quarter past nine (9:15), quarter to five (4:45). Para minutos até 30 usamos PAST (passado); depois de 30, TO (para). 'Hour' é duração (uma hora de reunião); 'time' é o horário.",
+    "tabela": {
+      "colunas": [
+        "Horário",
+        "Digital",
+        "Tradicional"
+      ],
+      "linhas": [
+        [
+          "7:00",
+          "seven",
+          "seven o'clock"
+        ],
+        [
+          "7:15",
+          "seven fifteen",
+          "quarter past seven"
+        ],
+        [
+          "7:30",
+          "seven thirty",
+          "half past seven"
+        ],
+        [
+          "7:45",
+          "seven forty-five",
+          "quarter to eight"
+        ],
+        [
+          "7:10",
+          "seven ten",
+          "ten past seven"
+        ],
+        [
+          "7:50",
+          "seven fifty",
+          "ten to eight"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "What time is it? — It's nine thirty.",
+        "pt": "Que horas são? — São nove e meia."
+      },
+      {
+        "en": "It's quarter to six. We're late!",
+        "pt": "São quinze para as seis. Estamos atrasados!"
+      },
+      {
+        "en": "The bus is at ten past seven.",
+        "pt": "O ônibus é às sete e dez."
+      },
+      {
+        "en": "It's midnight. Good night!",
+        "pt": "É meia-noite. Boa noite!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "At the bus stop",
+    "falas": [
+      {
+        "personagem": "Woman",
+        "voz": "a",
+        "en": "Excuse me, what time is it?",
+        "pt": "Com licença, que horas são?"
+      },
+      {
+        "personagem": "Man",
+        "voz": "b",
+        "en": "It's ten to seven.",
+        "pt": "São dez para as sete."
+      },
+      {
+        "personagem": "Woman",
+        "voz": "a",
+        "en": "Thanks. Is the bus at seven?",
+        "pt": "Obrigada. O ônibus é às sete?"
+      },
+      {
+        "personagem": "Man",
+        "voz": "b",
+        "en": "No, it's at quarter past seven.",
+        "pt": "Não, é às sete e quinze."
+      },
+      {
+        "personagem": "Woman",
+        "voz": "a",
+        "en": "Oh no, my shift is at half past seven!",
+        "pt": "Ah não, meu turno é às sete e meia!"
+      },
+      {
+        "personagem": "Man",
+        "voz": "b",
+        "en": "Don't worry. The factory is only ten minutes from here.",
+        "pt": "Não se preocupe. A fábrica fica a só dez minutos daqui."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What time is it?",
+        "opcoes": [
+          "6:50",
+          "7:10",
+          "6:10"
+        ],
+        "correta": 0,
+        "explicacao_pt": "\"Ten to seven\" = dez para as sete = 6:50."
+      },
+      {
+        "id": "a1u04l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What time is the bus?",
+        "opcoes": [
+          "7:00",
+          "7:15",
+          "7:30"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What time is the woman's shift?",
+        "opcoes": [
+          "7:30",
+          "7:15",
+          "6:30"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u04l1-p1",
+      "tipo": "multipla",
+      "enunciado": "\"Half past nine\" é:",
+      "opcoes": [
+        "9:30",
+        "8:30",
+        "9:15"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l1-p2",
+      "tipo": "multipla",
+      "enunciado": "\"Quarter to four\" é:",
+      "opcoes": [
+        "4:15",
+        "3:45",
+        "4:45"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l1-p3",
+      "tipo": "completar",
+      "frase": "What ___ is it?",
+      "respostas": [
+        "time"
+      ]
+    },
+    {
+      "id": "a1u04l1-p4",
+      "tipo": "completar",
+      "frase": "It's eight ___. (8:00)",
+      "respostas": [
+        "o'clock"
+      ]
+    },
+    {
+      "id": "a1u04l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual horário você ouve?",
+      "audio": "It's five forty.",
+      "opcoes": [
+        "5:40",
+        "4:50",
+        "5:14"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l1-p6",
+      "tipo": "ordenar",
+      "frase": "It's quarter past three",
+      "traducao_pt": "São três e quinze"
+    },
+    {
+      "id": "a1u04l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's half past seven.",
+      "aceitas": [
+        "It is half past seven.",
+        "It's seven thirty."
+      ]
+    },
+    {
+      "id": "a1u04l1-p8",
+      "tipo": "traduzir",
+      "pt": "São dez e meia.",
+      "respostas": [
+        "It's ten thirty.",
+        "It is ten thirty.",
+        "It's half past ten.",
+        "It is half past ten."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está numa estação de trem e pergunta os horários. Peça as horas e o horário do próximo trem.",
+    "papel_professor": "Faça o papel de funcionário de uma estação. Responda que horas são e os horários dos trens (8:15, 8:45, 9:30). Faça o aluno repetir os horários para confirmar.",
+    "abertura": "Good morning! Can I help you?",
+    "abertura_pt": "Bom dia! Posso ajudar?"
+  },
+  "teste": [
+    {
+      "id": "a1u04l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"It's quarter past six\" é:",
+      "opcoes": [
+        "6:15",
+        "6:45",
+        "5:45"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l1-t2",
+      "tipo": "completar",
+      "frase": "It's half ___ two. (2:30)",
+      "respostas": [
+        "past"
+      ]
+    },
+    {
+      "id": "a1u04l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What time is it?"
+    },
+    {
+      "id": "a1u04l1-t4",
+      "tipo": "traduzir",
+      "pt": "É meio-dia.",
+      "respostas": [
+        "It's noon.",
+        "It is noon.",
+        "It's twelve o'clock.",
+        "It's midday."
+      ]
+    },
+    {
+      "id": "a1u04l1-t5",
+      "tipo": "ordenar",
+      "frase": "The bus is at seven fifteen",
+      "traducao_pt": "O ônibus é às sete e quinze"
+    }
+  ]
+}

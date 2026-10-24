@@ -1,0 +1,339 @@
+{
+  "id": "a1-u03-l4",
+  "nivel": "A1",
+  "unidade": 3,
+  "numero": 4,
+  "titulo": "I have two brothers",
+  "objetivo_pt": "Usar have e has para dizer quem você tem na família e o que você tem.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar quantos irmãos e filhos você tem. Responda com \"I have…\".",
+    "papel_professor": "Pergunte quantos irmãos, filhos e animais o aluno tem. Use have/has. Corrija \"she have\" → \"she has\" e \"I have 30 years\" → \"I'm 30\".",
+    "abertura": "I have one sister and two cats. And you? Do you have brothers or sisters?",
+    "abertura_pt": "Eu tenho uma irmã e dois gatos. E você? Você tem irmãos ou irmãs?"
+  },
+  "vocabulario": [
+    {
+      "id": "have",
+      "en": "have",
+      "pt": "ter",
+      "emoji": "🤲",
+      "exemplo_en": "I have two brothers.",
+      "exemplo_pt": "Eu tenho dois irmãos."
+    },
+    {
+      "id": "has",
+      "en": "has",
+      "pt": "tem (he/she/it)",
+      "emoji": "👉",
+      "exemplo_en": "She has a big family.",
+      "exemplo_pt": "Ela tem uma família grande."
+    },
+    {
+      "id": "dont-have",
+      "en": "don't have",
+      "pt": "não tenho / não têm",
+      "emoji": "🙅",
+      "exemplo_en": "We don't have children.",
+      "exemplo_pt": "Nós não temos filhos."
+    },
+    {
+      "id": "doesnt-have",
+      "en": "doesn't have",
+      "pt": "não tem (he/she/it)",
+      "emoji": "🚫",
+      "exemplo_en": "He doesn't have a car.",
+      "exemplo_pt": "Ele não tem carro."
+    },
+    {
+      "id": "pet",
+      "en": "pet",
+      "pt": "animal de estimação",
+      "emoji": "🐾",
+      "exemplo_en": "Do you have a pet?",
+      "exemplo_pt": "Você tem um animal de estimação?"
+    },
+    {
+      "id": "only-child",
+      "en": "only child",
+      "pt": "filho(a) único(a)",
+      "emoji": "1️⃣",
+      "exemplo_en": "I'm an only child.",
+      "exemplo_pt": "Sou filho único."
+    },
+    {
+      "id": "twins",
+      "en": "twins",
+      "pt": "gêmeos",
+      "emoji": "👯",
+      "exemplo_en": "My sisters are twins.",
+      "exemplo_pt": "Minhas irmãs são gêmeas."
+    },
+    {
+      "id": "baby",
+      "en": "baby",
+      "pt": "bebê",
+      "emoji": "🍼",
+      "exemplo_en": "They have a new baby.",
+      "exemplo_pt": "Eles têm um bebê novo."
+    },
+    {
+      "id": "big-small",
+      "en": "big / small",
+      "pt": "grande / pequeno(a)",
+      "emoji": "🔍",
+      "exemplo_en": "We have a small family.",
+      "exemplo_pt": "Temos uma família pequena."
+    },
+    {
+      "id": "any",
+      "en": "any",
+      "pt": "algum / nenhum (pergunta e negativa)",
+      "emoji": "❓",
+      "exemplo_en": "Do you have any children?",
+      "exemplo_pt": "Você tem filhos?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Have e has",
+    "explicacao_pt": "Para 'ter', usamos HAVE com I, you, we, they e HAS com he, she, it: I have a son, she has two daughters. Negativa: I don't have / she doesn't have (depois de doesn't, volta para HAVE: she doesn't HAVE). Pergunta: Do you have…? / Does he have…? Lembre: idade NÃO usa have (I'm 30, nunca I have 30 years). No inglês britânico também se ouve 'have got': I've got two brothers.",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Afirmativa",
+        "Negativa / Pergunta"
+      ],
+      "linhas": [
+        [
+          "I / you / we / they",
+          "I have a car.",
+          "I don't have a car. / Do you have a car?"
+        ],
+        [
+          "he / she / it",
+          "She has a car.",
+          "She doesn't have a car. / Does she have a car?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I have two brothers and one sister.",
+        "pt": "Tenho dois irmãos e uma irmã."
+      },
+      {
+        "en": "My boss has three children.",
+        "pt": "Meu chefe tem três filhos."
+      },
+      {
+        "en": "Do you have any pets? — Yes, I have a dog.",
+        "pt": "Você tem animais? — Sim, tenho um cachorro."
+      },
+      {
+        "en": "He doesn't have a sister. He's an only child.",
+        "pt": "Ele não tem irmã. É filho único."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Talking at lunch",
+    "falas": [
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "Do you have children, Amy?",
+        "pt": "Você tem filhos, Amy?"
+      },
+      {
+        "personagem": "Amy",
+        "voz": "b",
+        "en": "Yes, I have twins. They're five. And you?",
+        "pt": "Sim, tenho gêmeos. Eles têm cinco anos. E você?"
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "We don't have children, but we have two dogs!",
+        "pt": "Não temos filhos, mas temos dois cachorros!"
+      },
+      {
+        "personagem": "Amy",
+        "voz": "b",
+        "en": "Ha! Dogs are family too. Does your wife work here?",
+        "pt": "Ha! Cachorros também são família. Sua esposa trabalha aqui?"
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "No, she doesn't. She has a small bakery.",
+        "pt": "Não. Ela tem uma padaria pequena."
+      },
+      {
+        "personagem": "Amy",
+        "voz": "b",
+        "en": "A bakery? I love bread!",
+        "pt": "Uma padaria? Eu amo pão!"
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "Then come on Saturday!",
+        "pt": "Então venha no sábado!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u03l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How old are Amy's twins?",
+        "opcoes": [
+          "Two",
+          "Five",
+          "Fifteen"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Does Gil have children?",
+        "opcoes": [
+          "Yes, two.",
+          "No, he has two dogs.",
+          "Yes, twins."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Gil's wife have?",
+        "opcoes": [
+          "A restaurant",
+          "A bakery",
+          "A factory"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u03l4-p1",
+      "tipo": "completar",
+      "frase": "She ___ two sisters.",
+      "respostas": [
+        "has"
+      ]
+    },
+    {
+      "id": "a1u03l4-p2",
+      "tipo": "completar",
+      "frase": "We ___ have a car. (negativa)",
+      "respostas": [
+        "don't",
+        "do not"
+      ]
+    },
+    {
+      "id": "a1u03l4-p3",
+      "tipo": "completar",
+      "frase": "___ he have a pet?",
+      "respostas": [
+        "Does"
+      ]
+    },
+    {
+      "id": "a1u03l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "He doesn't has a car.",
+        "He doesn't have a car.",
+        "He don't have a car."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Depois de doesn't, use have."
+    },
+    {
+      "id": "a1u03l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Tenho 30 anos\":",
+      "opcoes": [
+        "I have 30 years.",
+        "I'm 30.",
+        "I has 30."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l4-p6",
+      "tipo": "ordenar",
+      "frase": "Do you have any children?",
+      "traducao_pt": "Você tem filhos?"
+    },
+    {
+      "id": "a1u03l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I have two brothers."
+    },
+    {
+      "id": "a1u03l4-p8",
+      "tipo": "traduzir",
+      "pt": "Meu chefe tem três filhos.",
+      "respostas": [
+        "My boss has three children.",
+        "My boss has three kids."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Converse sobre famílias: diga quantos irmãos, filhos e animais você tem, e pergunte o mesmo ao professor.",
+    "papel_professor": "Faça o papel de Amy, mãe de gêmeos de 5 anos com um gato. Pergunte sobre a família do aluno (Do you have…? How many…?) e responda às perguntas dele. Corrija have/has.",
+    "abertura": "Hi! I'm Amy. I have twin boys. Do you have children?",
+    "abertura_pt": "Oi! Sou a Amy. Tenho meninos gêmeos. Você tem filhos?"
+  },
+  "teste": [
+    {
+      "id": "a1u03l4-t1",
+      "tipo": "completar",
+      "frase": "My sister ___ a baby.",
+      "respostas": [
+        "has"
+      ]
+    },
+    {
+      "id": "a1u03l4-t2",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Do she have a dog?",
+        "Does she have a dog?",
+        "Does she has a dog?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We don't have children.",
+      "aceitas": [
+        "We do not have children."
+      ]
+    },
+    {
+      "id": "a1u03l4-t4",
+      "tipo": "traduzir",
+      "pt": "Eu sou filho único.",
+      "respostas": [
+        "I'm an only child.",
+        "I am an only child."
+      ]
+    },
+    {
+      "id": "a1u03l4-t5",
+      "tipo": "ordenar",
+      "frase": "He doesn't have a car",
+      "traducao_pt": "Ele não tem carro"
+    }
+  ]
+}

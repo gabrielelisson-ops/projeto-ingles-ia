@@ -1,0 +1,386 @@
+{
+  "id": "a1-u02-l1",
+  "nivel": "A1",
+  "unidade": 2,
+  "numero": 1,
+  "titulo": "Numbers 0–20",
+  "objetivo_pt": "Contar de 0 a 20 e dizer e entender números de telefone.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir para você contar e dizer alguns números. Fale devagar, um número de cada vez.",
+    "papel_professor": "Peça ao aluno para contar de 1 a 10, depois diga números soltos de 0 a 20 e peça para ele repetir. Frases muito curtas.",
+    "abertura": "Hi! Let's count together. One, two, three… Can you continue?",
+    "abertura_pt": "Oi! Vamos contar juntos. Um, dois, três… Você pode continuar?"
+  },
+  "vocabulario": [
+    {
+      "id": "zero",
+      "en": "zero / oh",
+      "pt": "zero",
+      "emoji": "0️⃣",
+      "exemplo_en": "My number starts with oh, nine.",
+      "exemplo_pt": "Meu número começa com zero, nove."
+    },
+    {
+      "id": "one-five",
+      "en": "one, two, three, four, five",
+      "pt": "um, dois, três, quatro, cinco",
+      "emoji": "🖐️",
+      "exemplo_en": "I have five minutes.",
+      "exemplo_pt": "Eu tenho cinco minutos."
+    },
+    {
+      "id": "six-ten",
+      "en": "six, seven, eight, nine, ten",
+      "pt": "seis, sete, oito, nove, dez",
+      "emoji": "🔟",
+      "exemplo_en": "The meeting is at ten.",
+      "exemplo_pt": "A reunião é às dez."
+    },
+    {
+      "id": "eleven",
+      "en": "eleven",
+      "pt": "onze",
+      "emoji": "1️⃣",
+      "exemplo_en": "Room eleven, please.",
+      "exemplo_pt": "Sala onze, por favor."
+    },
+    {
+      "id": "twelve",
+      "en": "twelve",
+      "pt": "doze",
+      "emoji": "🕛",
+      "exemplo_en": "There are twelve operators.",
+      "exemplo_pt": "Há doze operadores."
+    },
+    {
+      "id": "thirteen",
+      "en": "thirteen",
+      "pt": "treze",
+      "emoji": "🔢",
+      "exemplo_en": "Gate thirteen.",
+      "exemplo_pt": "Portão treze."
+    },
+    {
+      "id": "fifteen",
+      "en": "fifteen",
+      "pt": "quinze",
+      "emoji": "⏱️",
+      "exemplo_en": "Wait fifteen minutes.",
+      "exemplo_pt": "Espere quinze minutos."
+    },
+    {
+      "id": "twenty",
+      "en": "twenty",
+      "pt": "vinte",
+      "emoji": "2️⃣",
+      "exemplo_en": "I work twenty days a month.",
+      "exemplo_pt": "Eu trabalho vinte dias por mês."
+    },
+    {
+      "id": "phone-number",
+      "en": "phone number",
+      "pt": "número de telefone",
+      "emoji": "📱",
+      "exemplo_en": "What's your phone number?",
+      "exemplo_pt": "Qual é o seu número de telefone?"
+    },
+    {
+      "id": "number",
+      "en": "number",
+      "pt": "número",
+      "emoji": "#️⃣",
+      "exemplo_en": "My number is in the list.",
+      "exemplo_pt": "Meu número está na lista."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Números de 0 a 20 e telefones",
+    "explicacao_pt": "De 13 a 19 os números terminam em -teen: thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen. Atenção à pronúncia: em -teen a força vai no final (thir-TEEN). Em telefones, dizemos um algarismo por vez, e o zero costuma ser 'oh': 9 8 7 0 = nine, eight, seven, oh. Dois números iguais seguidos: 'double' (55 = double five). Para perguntar: What's your phone number? Resposta: It's…",
+    "tabela": {
+      "colunas": [
+        "Número",
+        "Inglês",
+        "Dica"
+      ],
+      "linhas": [
+        [
+          "11",
+          "eleven",
+          "não tem -teen"
+        ],
+        [
+          "12",
+          "twelve",
+          "não tem -teen"
+        ],
+        [
+          "13",
+          "thirteen",
+          "thir-TEEN"
+        ],
+        [
+          "14",
+          "fourteen",
+          "four-TEEN"
+        ],
+        [
+          "15",
+          "fifteen",
+          "fif-TEEN"
+        ],
+        [
+          "16",
+          "sixteen",
+          "six-TEEN"
+        ],
+        [
+          "17",
+          "seventeen",
+          "seven-TEEN"
+        ],
+        [
+          "18",
+          "eighteen",
+          "eigh-TEEN"
+        ],
+        [
+          "19",
+          "nineteen",
+          "nine-TEEN"
+        ],
+        [
+          "20",
+          "twenty",
+          "TWEN-ty"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "What's your phone number? — It's nine, eight, double one, four.",
+        "pt": "Qual é seu telefone? — É 9, 8, 1, 1, 4."
+      },
+      {
+        "en": "I'm in room fourteen.",
+        "pt": "Estou na sala catorze."
+      },
+      {
+        "en": "Gate nineteen, please.",
+        "pt": "Portão dezenove, por favor."
+      },
+      {
+        "en": "Is it thirteen or fourteen? — Thirteen.",
+        "pt": "É treze ou catorze? — Treze."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Calling the supplier",
+    "falas": [
+      {
+        "personagem": "Carol",
+        "voz": "a",
+        "en": "Good morning, Silva Parts. Can I help you?",
+        "pt": "Bom dia, Silva Peças. Posso ajudar?"
+      },
+      {
+        "personagem": "Tiago",
+        "voz": "b",
+        "en": "Hi, I'm Tiago from the factory. What's Mr. Brown's phone number?",
+        "pt": "Oi, sou o Tiago da fábrica. Qual é o telefone do Sr. Brown?"
+      },
+      {
+        "personagem": "Carol",
+        "voz": "a",
+        "en": "It's five, five, five, oh, one, eight, two.",
+        "pt": "É 5, 5, 5, 0, 1, 8, 2."
+      },
+      {
+        "personagem": "Tiago",
+        "voz": "b",
+        "en": "Sorry, again, please. Slowly.",
+        "pt": "Desculpe, de novo, por favor. Devagar."
+      },
+      {
+        "personagem": "Carol",
+        "voz": "a",
+        "en": "Sure. Double five, five… oh, one, eight, two.",
+        "pt": "Claro. 5, 5, 5… 0, 1, 8, 2."
+      },
+      {
+        "personagem": "Tiago",
+        "voz": "b",
+        "en": "Thank you! And his room number?",
+        "pt": "Obrigado! E o número da sala dele?"
+      },
+      {
+        "personagem": "Carol",
+        "voz": "a",
+        "en": "It's room sixteen.",
+        "pt": "É a sala dezesseis."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u02l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the company name?",
+        "opcoes": [
+          "Silva Parts",
+          "Brown Parts",
+          "Tiago Parts"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What is Mr. Brown's room number?",
+        "opcoes": [
+          "Six",
+          "Sixteen",
+          "Sixty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How does Carol say 555?",
+        "opcoes": [
+          "five hundred",
+          "double five, five",
+          "five, five, five, five"
+        ],
+        "correta": 1,
+        "explicacao_pt": "Ela usa \"double five\" para os dois primeiros cincos."
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u02l1-p1",
+      "tipo": "multipla",
+      "enunciado": "Qual é o número 15?",
+      "opcoes": [
+        "fifty",
+        "fifteen",
+        "five"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u02l1-p2",
+      "tipo": "multipla",
+      "enunciado": "Qual número você ouve?",
+      "audio": "thirteen",
+      "opcoes": [
+        "13",
+        "30",
+        "3"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u02l1-p3",
+      "tipo": "completar",
+      "frase": "What's your phone ___?",
+      "respostas": [
+        "number"
+      ]
+    },
+    {
+      "id": "a1u02l1-p4",
+      "tipo": "completar",
+      "frase": "Ten, eleven, ___, thirteen.",
+      "respostas": [
+        "twelve"
+      ]
+    },
+    {
+      "id": "a1u02l1-p5",
+      "tipo": "ordenar",
+      "frase": "What's your phone number?",
+      "traducao_pt": "Qual é o seu telefone?"
+    },
+    {
+      "id": "a1u02l1-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "Room eighteen.",
+      "aceitas": [
+        "Room 18."
+      ]
+    },
+    {
+      "id": "a1u02l1-p7",
+      "tipo": "traduzir",
+      "pt": "É a sala vinte.",
+      "respostas": [
+        "It's room twenty.",
+        "It is room twenty.",
+        "It's room 20."
+      ]
+    },
+    {
+      "id": "a1u02l1-p8",
+      "tipo": "multipla",
+      "enunciado": "Em telefones, o zero costuma ser dito como:",
+      "opcoes": [
+        "zero sempre",
+        "oh",
+        "none"
+      ],
+      "correta": 1
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você liga para a recepção de um hotel para deixar seu telefone. Diga seu nome e seu número, algarismo por algarismo.",
+    "papel_professor": "Faça o papel de recepcionista de hotel. Peça o nome e o número de telefone do aluno, repita os números para confirmar e peça o número do quarto (entre 10 e 20).",
+    "abertura": "Hello, Sun Hotel. What's your name, please?",
+    "abertura_pt": "Alô, Hotel Sun. Qual é o seu nome, por favor?"
+  },
+  "teste": [
+    {
+      "id": "a1u02l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Qual é o número 12?",
+      "opcoes": [
+        "twelve",
+        "twenty",
+        "two"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u02l1-t2",
+      "tipo": "ouvir_escrever",
+      "audio": "Nineteen.",
+      "aceitas": [
+        "19"
+      ]
+    },
+    {
+      "id": "a1u02l1-t3",
+      "tipo": "completar",
+      "frase": "Seventeen, ___, nineteen.",
+      "respostas": [
+        "eighteen"
+      ]
+    },
+    {
+      "id": "a1u02l1-t4",
+      "tipo": "traduzir",
+      "pt": "Qual é o seu número de telefone?",
+      "respostas": [
+        "What's your phone number?",
+        "What is your phone number?"
+      ]
+    },
+    {
+      "id": "a1u02l1-t5",
+      "tipo": "ordenar",
+      "frase": "It's room fourteen",
+      "traducao_pt": "É a sala catorze"
+    }
+  ]
+}

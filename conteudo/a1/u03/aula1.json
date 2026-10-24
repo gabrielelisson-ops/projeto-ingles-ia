@@ -1,0 +1,346 @@
+{
+  "id": "a1-u03-l1",
+  "nivel": "A1",
+  "unidade": 3,
+  "numero": 1,
+  "titulo": "My family",
+  "objetivo_pt": "Nomear os membros da família e usar my e your.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre sua família. Responda com \"My … is …\" (ex.: My wife is …).",
+    "papel_professor": "Pergunte de forma simpática sobre a família do aluno: nome da esposa/marido, pais, irmãos. Use my, your e palavras da família. Frases curtas.",
+    "abertura": "Hi! Today we talk about family. My wife is Laura. What's your wife's or husband's name?",
+    "abertura_pt": "Oi! Hoje falamos de família. Minha esposa é a Laura. Qual é o nome da sua esposa ou marido?"
+  },
+  "vocabulario": [
+    {
+      "id": "mother",
+      "en": "mother / mom",
+      "pt": "mãe",
+      "emoji": "👩",
+      "exemplo_en": "My mother is from Bahia.",
+      "exemplo_pt": "Minha mãe é da Bahia."
+    },
+    {
+      "id": "father",
+      "en": "father / dad",
+      "pt": "pai",
+      "emoji": "👨",
+      "exemplo_en": "My father is a driver.",
+      "exemplo_pt": "Meu pai é motorista."
+    },
+    {
+      "id": "parents",
+      "en": "parents",
+      "pt": "pais (pai e mãe)",
+      "emoji": "👨‍👩",
+      "exemplo_en": "My parents are in Fortaleza.",
+      "exemplo_pt": "Meus pais estão em Fortaleza."
+    },
+    {
+      "id": "brother",
+      "en": "brother",
+      "pt": "irmão",
+      "emoji": "👦",
+      "exemplo_en": "My brother is an electrician.",
+      "exemplo_pt": "Meu irmão é eletricista."
+    },
+    {
+      "id": "sister",
+      "en": "sister",
+      "pt": "irmã",
+      "emoji": "👧",
+      "exemplo_en": "Your sister is very nice.",
+      "exemplo_pt": "Sua irmã é muito legal."
+    },
+    {
+      "id": "son",
+      "en": "son",
+      "pt": "filho",
+      "emoji": "🧒",
+      "exemplo_en": "My son is eight.",
+      "exemplo_pt": "Meu filho tem oito anos."
+    },
+    {
+      "id": "daughter",
+      "en": "daughter",
+      "pt": "filha",
+      "emoji": "👶",
+      "exemplo_en": "Your daughter is beautiful.",
+      "exemplo_pt": "Sua filha é linda."
+    },
+    {
+      "id": "children",
+      "en": "children / kids",
+      "pt": "filhos / crianças",
+      "emoji": "👨‍👩‍👧‍👦",
+      "exemplo_en": "We have two children.",
+      "exemplo_pt": "Nós temos dois filhos."
+    },
+    {
+      "id": "grandparents",
+      "en": "grandmother / grandfather",
+      "pt": "avó / avô",
+      "emoji": "👵",
+      "exemplo_en": "My grandmother is ninety.",
+      "exemplo_pt": "Minha avó tem noventa anos."
+    },
+    {
+      "id": "family",
+      "en": "family",
+      "pt": "família",
+      "emoji": "🏡",
+      "exemplo_en": "My family is big.",
+      "exemplo_pt": "Minha família é grande."
+    }
+  ],
+  "gramatica": {
+    "titulo": "My e your",
+    "explicacao_pt": "Para dizer 'meu/minha/meus/minhas' usamos sempre MY, e para 'seu/sua/seus/suas' (de você) usamos YOUR. Em inglês essas palavras não mudam por gênero nem número: my brother, my sister, my parents. Cuidado: 'parents' significa pai e mãe — não confunda com 'parentes' (relatives). 'Children' é o plural irregular de 'child' (criança/filho).",
+    "tabela": {
+      "colunas": [
+        "Português",
+        "Inglês",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "meu / minha",
+          "my",
+          "my mother"
+        ],
+        [
+          "meus / minhas",
+          "my",
+          "my parents"
+        ],
+        [
+          "seu / sua (de você)",
+          "your",
+          "your sister"
+        ],
+        [
+          "seus / suas (de você)",
+          "your",
+          "your children"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My parents are sixty and sixty-two.",
+        "pt": "Meus pais têm sessenta e sessenta e dois anos."
+      },
+      {
+        "en": "Is your brother married?",
+        "pt": "Seu irmão é casado?"
+      },
+      {
+        "en": "My son and my daughter are students.",
+        "pt": "Meu filho e minha filha são estudantes."
+      },
+      {
+        "en": "Your family is very nice.",
+        "pt": "Sua família é muito legal."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A family photo",
+    "falas": [
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "Look, this is a photo of my family.",
+        "pt": "Olha, esta é uma foto da minha família."
+      },
+      {
+        "personagem": "Mike",
+        "voz": "b",
+        "en": "Nice! Who's she?",
+        "pt": "Legal! Quem é ela?"
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "She's my mother, Teresa. And he's my father, Jorge.",
+        "pt": "Ela é minha mãe, Teresa. E ele é meu pai, Jorge."
+      },
+      {
+        "personagem": "Mike",
+        "voz": "b",
+        "en": "And the boy? Is he your brother?",
+        "pt": "E o menino? É seu irmão?"
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "No, he isn't. He's my son, Theo. He's six.",
+        "pt": "Não. Ele é meu filho, Theo. Ele tem seis anos."
+      },
+      {
+        "personagem": "Mike",
+        "voz": "b",
+        "en": "Oh, he's cute! And the girl?",
+        "pt": "Ah, ele é fofo! E a menina?"
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "She's my sister, Bia. She's a nurse.",
+        "pt": "Ela é minha irmã, Bia. Ela é enfermeira."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u03l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Who is Teresa?",
+        "opcoes": [
+          "Joana's mother",
+          "Joana's sister",
+          "Joana's daughter"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Who is Theo?",
+        "opcoes": [
+          "Joana's brother",
+          "Joana's son",
+          "Mike's son"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Bia do?",
+        "opcoes": [
+          "She is a teacher.",
+          "She is a nurse.",
+          "She is a student."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u03l1-p1",
+      "tipo": "completar",
+      "frase": "___ mother is from Bahia. (meu/minha)",
+      "respostas": [
+        "My"
+      ]
+    },
+    {
+      "id": "a1u03l1-p2",
+      "tipo": "completar",
+      "frase": "Is ___ sister a nurse? (sua, de você)",
+      "respostas": [
+        "your"
+      ]
+    },
+    {
+      "id": "a1u03l1-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Parents\" significa:",
+      "opcoes": [
+        "parentes",
+        "pai e mãe",
+        "padrinhos"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Parentes em geral = relatives."
+    },
+    {
+      "id": "a1u03l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Plural de \"child\":",
+      "opcoes": [
+        "childs",
+        "children",
+        "childrens"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l1-p5",
+      "tipo": "ordenar",
+      "frase": "My parents are in Fortaleza",
+      "traducao_pt": "Meus pais estão em Fortaleza"
+    },
+    {
+      "id": "a1u03l1-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "This is my daughter."
+    },
+    {
+      "id": "a1u03l1-p7",
+      "tipo": "traduzir",
+      "pt": "Meu irmão é eletricista.",
+      "respostas": [
+        "My brother is an electrician."
+      ]
+    },
+    {
+      "id": "a1u03l1-p8",
+      "tipo": "multipla",
+      "enunciado": "A mãe da sua mãe é sua:",
+      "opcoes": [
+        "sister",
+        "grandmother",
+        "daughter"
+      ],
+      "correta": 1
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Mostre uma \"foto\" da sua família ao professor: diga quem é cada pessoa, a idade e a profissão.",
+    "papel_professor": "Faça o papel de um amigo curioso olhando uma foto da família do aluno. Pergunte \"Who is he/she?\", a idade e a profissão de cada pessoa.",
+    "abertura": "Oh, is this a photo of your family? Who's this woman?",
+    "abertura_pt": "Ah, esta é uma foto da sua família? Quem é esta mulher?"
+  },
+  "teste": [
+    {
+      "id": "a1u03l1-t1",
+      "tipo": "completar",
+      "frase": "This is ___ son. (meu)",
+      "respostas": [
+        "my"
+      ]
+    },
+    {
+      "id": "a1u03l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Filha\" em inglês:",
+      "opcoes": [
+        "son",
+        "daughter",
+        "sister"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My parents are sixty."
+    },
+    {
+      "id": "a1u03l1-t4",
+      "tipo": "traduzir",
+      "pt": "Sua família é grande.",
+      "respostas": [
+        "Your family is big."
+      ]
+    },
+    {
+      "id": "a1u03l1-t5",
+      "tipo": "ordenar",
+      "frase": "We have two children",
+      "traducao_pt": "Nós temos dois filhos"
+    }
+  ]
+}

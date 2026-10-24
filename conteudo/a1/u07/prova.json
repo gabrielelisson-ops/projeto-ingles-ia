@@ -1,0 +1,262 @@
+{
+  "id": "a1-u07-prova",
+  "nivel": "A1",
+  "unidade": 7,
+  "titulo": "Prova da Unidade 7 — Food and drink",
+  "leitura": {
+    "texto": "Hi, I'm Mônica. I love food! I usually have breakfast at home: some bread, cheese and a cup of coffee. I don't like tea. At lunch I eat in the company cafeteria. There is always rice, beans and salad, and there is chicken or fish. I don't eat red meat. On Fridays my colleagues and I like eating out. We go to an Italian restaurant near the factory. I'd like to go to a Japanese restaurant, but my friend Hugo hates fish! At home, my husband cooks. He loves cooking pasta. I wash the dishes. I don't mind!",
+    "perguntas": [
+      {
+        "id": "a1u07pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What does Mônica have for breakfast?",
+        "opcoes": [
+          "Bread, cheese and coffee",
+          "Tea and cake",
+          "Rice and beans"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Does she like tea?",
+        "opcoes": [
+          "Yes, she does.",
+          "No, she doesn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Where does she have lunch?",
+        "opcoes": [
+          "At home",
+          "In the company cafeteria",
+          "In an Italian restaurant"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What does she NOT eat?",
+        "opcoes": [
+          "Fish",
+          "Chicken",
+          "Red meat"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a1u07pv-l5",
+        "tipo": "multipla",
+        "enunciado": "When do they eat out?",
+        "opcoes": [
+          "On Mondays",
+          "On Fridays",
+          "On weekends"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why don't they go to a Japanese restaurant?",
+        "opcoes": [
+          "It is far.",
+          "Hugo hates fish.",
+          "It is expensive."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Who cooks at home?",
+        "opcoes": [
+          "Mônica",
+          "Her husband",
+          "Hugo"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What does Mônica's husband love cooking?",
+        "opcoes": [
+          "Fish",
+          "Pasta",
+          "Chicken"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Waitress",
+        "voz": "a",
+        "en": "Hello! Are you ready to order?",
+        "pt": "Olá! Estão prontos para pedir?"
+      },
+      {
+        "personagem": "Man",
+        "voz": "b",
+        "en": "Yes. Can I have the chicken salad, please?",
+        "pt": "Sim. Pode me dar a salada de frango, por favor?"
+      },
+      {
+        "personagem": "Waitress",
+        "voz": "a",
+        "en": "Sure. Would you like something to drink?",
+        "pt": "Claro. Gostaria de algo para beber?"
+      },
+      {
+        "personagem": "Man",
+        "voz": "b",
+        "en": "A large lemonade, please.",
+        "pt": "Uma limonada grande, por favor."
+      },
+      {
+        "personagem": "Waitress",
+        "voz": "a",
+        "en": "And for you, madam?",
+        "pt": "E para a senhora?"
+      },
+      {
+        "personagem": "Woman",
+        "voz": "b",
+        "en": "I'd like the vegetable soup. I'm vegetarian.",
+        "pt": "Eu gostaria da sopa de legumes. Sou vegetariana."
+      },
+      {
+        "personagem": "Waitress",
+        "voz": "a",
+        "en": "Anything else?",
+        "pt": "Mais alguma coisa?"
+      },
+      {
+        "personagem": "Woman",
+        "voz": "b",
+        "en": "No, that's all, thanks. Oh, and can we pay by card?",
+        "pt": "Não, é só, obrigada. Ah, e podemos pagar com cartão?"
+      },
+      {
+        "personagem": "Waitress",
+        "voz": "a",
+        "en": "Yes, of course.",
+        "pt": "Sim, claro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the man order?",
+        "opcoes": [
+          "Chicken soup",
+          "Chicken salad",
+          "Vegetable soup"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What does he drink?",
+        "opcoes": [
+          "A small lemonade",
+          "A large lemonade",
+          "Water"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the woman order?",
+        "opcoes": [
+          "Vegetable soup",
+          "Chicken salad",
+          "Pasta"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why does she order that?",
+        "opcoes": [
+          "She is vegetarian.",
+          "She is not hungry.",
+          "She loves soup."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Do they want anything else?",
+        "opcoes": [
+          "Yes, dessert.",
+          "No, that's all."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Can they pay by card?",
+        "opcoes": [
+          "Yes",
+          "No"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Would you like something to drink?"
+      },
+      {
+        "id": "a1u07pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I'd like the vegetable soup.",
+        "aceitas": [
+          "I would like the vegetable soup."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u07pv-w1",
+      "instrucao_pt": "Escreva sobre o que você come num dia normal e do que você gosta e não gosta (use like/love/hate).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u07pv-w2",
+      "instrucao_pt": "Escreva um pequeno diálogo pedindo comida num café (use I'd like ou Can I have e Anything else).",
+      "min_frases": 2,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u07pv-s1",
+      "pergunta_en": "What's your favorite food, and what food don't you like?",
+      "instrucao_pt": "Responda em voz alta usando love, like, don't like ou hate."
+    },
+    {
+      "id": "a1u07pv-s2",
+      "pergunta_en": "You are in a café. Order something to eat and something to drink.",
+      "instrucao_pt": "Faça em voz alta um pedido educado: comida, bebida e tamanho (use I'd like / Can I have)."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Alimentos contáveis e incontáveis (a/an, some, a glass of…), like/love/hate + -ing, would like (oferecer e pedir), pedidos em café e restaurante (Can I have…?, Anything else?, the check). Observe 'Do you like' × 'Would you like' e o -ing depois de like."
+}

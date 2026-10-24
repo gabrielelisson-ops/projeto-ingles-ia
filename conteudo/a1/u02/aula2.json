@@ -1,0 +1,364 @@
+{
+  "id": "a1-u02-l2",
+  "nivel": "A1",
+  "unidade": 2,
+  "numero": 2,
+  "titulo": "How old are you?",
+  "objetivo_pt": "Contar de 20 a 100 e dizer a idade com o verbo to be.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sua idade. Responda com \"I'm ...\" (sem \"years\" se quiser).",
+    "papel_professor": "Pergunte a idade do aluno e de alguém da família dele. Corrija o erro comum \"I have 30 years\" para \"I'm 30\". Frases curtas.",
+    "abertura": "Hi! I'm forty-two years old. How old are you?",
+    "abertura_pt": "Oi! Eu tenho quarenta e dois anos. Quantos anos você tem?"
+  },
+  "vocabulario": [
+    {
+      "id": "thirty",
+      "en": "thirty",
+      "pt": "trinta",
+      "emoji": "3️⃣",
+      "exemplo_en": "I'm thirty.",
+      "exemplo_pt": "Eu tenho trinta anos."
+    },
+    {
+      "id": "forty",
+      "en": "forty",
+      "pt": "quarenta",
+      "emoji": "4️⃣",
+      "exemplo_en": "My father is forty-five.",
+      "exemplo_pt": "Meu pai tem quarenta e cinco anos."
+    },
+    {
+      "id": "fifty",
+      "en": "fifty",
+      "pt": "cinquenta",
+      "emoji": "5️⃣",
+      "exemplo_en": "Fifty operators work here.",
+      "exemplo_pt": "Cinquenta operadores trabalham aqui."
+    },
+    {
+      "id": "sixty",
+      "en": "sixty",
+      "pt": "sessenta",
+      "emoji": "6️⃣",
+      "exemplo_en": "My mother is sixty.",
+      "exemplo_pt": "Minha mãe tem sessenta anos."
+    },
+    {
+      "id": "seventy",
+      "en": "seventy",
+      "pt": "setenta",
+      "emoji": "7️⃣",
+      "exemplo_en": "Seventy pieces, please.",
+      "exemplo_pt": "Setenta peças, por favor."
+    },
+    {
+      "id": "eighty",
+      "en": "eighty",
+      "pt": "oitenta",
+      "emoji": "8️⃣",
+      "exemplo_en": "My grandmother is eighty.",
+      "exemplo_pt": "Minha avó tem oitenta anos."
+    },
+    {
+      "id": "ninety",
+      "en": "ninety",
+      "pt": "noventa",
+      "emoji": "9️⃣",
+      "exemplo_en": "The box has ninety parts.",
+      "exemplo_pt": "A caixa tem noventa peças."
+    },
+    {
+      "id": "hundred",
+      "en": "one hundred",
+      "pt": "cem",
+      "emoji": "💯",
+      "exemplo_en": "One hundred percent!",
+      "exemplo_pt": "Cem por cento!"
+    },
+    {
+      "id": "how-old",
+      "en": "How old…?",
+      "pt": "Quantos anos…?",
+      "emoji": "🎂",
+      "exemplo_en": "How old is your son?",
+      "exemplo_pt": "Quantos anos tem seu filho?"
+    },
+    {
+      "id": "years-old",
+      "en": "years old",
+      "pt": "anos de idade",
+      "emoji": "📅",
+      "exemplo_en": "She's ten years old.",
+      "exemplo_pt": "Ela tem dez anos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Idade com to be (não com \"have\")",
+    "explicacao_pt": "Em português dizemos 'eu TENHO 30 anos', mas em inglês usamos o verbo to be: I AM 30 (I'm thirty). Nunca diga 'I have 30 years'. Pode completar com 'years old' (I'm thirty years old) ou não. Pergunta: How old are you? / How old is he? Números redondos terminam em -ty (twenty, thirty… ninety). Para os outros, junte com hífen: 21 = twenty-one, 46 = forty-six. Cuidado: thirteen (13) × thirty (30) — em -ty a força vai no começo: THIR-ty.",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "How old are you?",
+          "I'm thirty-four.",
+          "Tenho 34 anos."
+        ],
+        [
+          "How old is he?",
+          "He's fifty.",
+          "Ele tem 50."
+        ],
+        [
+          "How old is she?",
+          "She's twenty-one.",
+          "Ela tem 21."
+        ],
+        [
+          "How old is it?",
+          "It's ten years old.",
+          "Tem 10 anos (coisa)."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "How old is your car? — It's eight years old.",
+        "pt": "Quantos anos tem seu carro? — Tem oito anos."
+      },
+      {
+        "en": "I'm thirty-six and my wife is thirty-three.",
+        "pt": "Tenho 36 e minha esposa tem 33."
+      },
+      {
+        "en": "The factory is sixty years old.",
+        "pt": "A fábrica tem sessenta anos."
+      },
+      {
+        "en": "Is she forty? — No, she's fifty!",
+        "pt": "Ela tem quarenta? — Não, ela tem cinquenta!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A birthday at work",
+    "falas": [
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "Today is Marcos's birthday!",
+        "pt": "Hoje é o aniversário do Marcos!"
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "Really? How old is he?",
+        "pt": "Sério? Quantos anos ele tem?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "He's forty.",
+        "pt": "Ele tem quarenta."
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "Forty? Wow! He looks thirty. And how old are you, Lia?",
+        "pt": "Quarenta? Uau! Ele parece ter trinta. E quantos anos você tem, Lia?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "I'm twenty-eight. And you?",
+        "pt": "Tenho vinte e oito. E você?"
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "I'm fifty-two. I'm the old man here!",
+        "pt": "Tenho cinquenta e dois. Sou o velho aqui!"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "No, you aren't!",
+        "pt": "Não, não é!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u02l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How old is Marcos?",
+        "opcoes": [
+          "14",
+          "40",
+          "30"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How old is Lia?",
+        "opcoes": [
+          "28",
+          "38",
+          "22"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Who is fifty-two?",
+        "opcoes": [
+          "Marcos",
+          "Lia",
+          "Ben"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u02l2-p1",
+      "tipo": "multipla",
+      "enunciado": "Como se diz \"Eu tenho 30 anos\"?",
+      "opcoes": [
+        "I have 30 years.",
+        "I'm 30.",
+        "I'm 30 years."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Idade usa to be: I am 30."
+    },
+    {
+      "id": "a1u02l2-p2",
+      "tipo": "completar",
+      "frase": "How ___ are you?",
+      "respostas": [
+        "old"
+      ]
+    },
+    {
+      "id": "a1u02l2-p3",
+      "tipo": "completar",
+      "frase": "Thirty, forty, ___, sixty.",
+      "respostas": [
+        "fifty"
+      ]
+    },
+    {
+      "id": "a1u02l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual número você ouve?",
+      "audio": "forty",
+      "opcoes": [
+        "14",
+        "40",
+        "44"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u02l2-p5",
+      "tipo": "ordenar",
+      "frase": "How old is your son?",
+      "traducao_pt": "Quantos anos tem seu filho?"
+    },
+    {
+      "id": "a1u02l2-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "She's twenty-one.",
+      "aceitas": [
+        "She is twenty-one.",
+        "She's 21.",
+        "She is 21."
+      ]
+    },
+    {
+      "id": "a1u02l2-p7",
+      "tipo": "traduzir",
+      "pt": "Ele tem cinquenta anos.",
+      "respostas": [
+        "He's fifty.",
+        "He is fifty.",
+        "He's fifty years old.",
+        "He is fifty years old.",
+        "He is 50.",
+        "He's 50."
+      ]
+    },
+    {
+      "id": "a1u02l2-p8",
+      "tipo": "multipla",
+      "enunciado": "Como se escreve 67?",
+      "opcoes": [
+        "sixty seven",
+        "sixty-seven",
+        "sixtyseven"
+      ],
+      "correta": 1,
+      "explicacao_pt": "Dezenas e unidades são unidas por hífen."
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você conversa com um colega novo. Pergunte a idade dele e a de alguém da família, e fale a sua.",
+    "papel_professor": "Faça o papel de Paul, um colega de 35 anos. Pergunte a idade do aluno, da esposa ou de um filho dele. Use How old…? e números até 100.",
+    "abertura": "Hi, I'm Paul. I'm thirty-five. And you? How old are you?",
+    "abertura_pt": "Oi, sou o Paul. Tenho trinta e cinco. E você? Quantos anos você tem?"
+  },
+  "teste": [
+    {
+      "id": "a1u02l2-t1",
+      "tipo": "completar",
+      "frase": "I ___ thirty-two.",
+      "respostas": [
+        "am",
+        "'m"
+      ]
+    },
+    {
+      "id": "a1u02l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Qual é o número 80?",
+      "opcoes": [
+        "eighteen",
+        "eighty",
+        "eight"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u02l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "How old are you?"
+    },
+    {
+      "id": "a1u02l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu tenho quarenta anos.",
+      "respostas": [
+        "I'm forty.",
+        "I am forty.",
+        "I'm forty years old.",
+        "I am forty years old.",
+        "I'm 40.",
+        "I am 40."
+      ]
+    },
+    {
+      "id": "a1u02l2-t5",
+      "tipo": "ordenar",
+      "frase": "My mother is sixty",
+      "traducao_pt": "Minha mãe tem sessenta anos"
+    }
+  ]
+}

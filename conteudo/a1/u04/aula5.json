@@ -1,0 +1,349 @@
+{
+  "id": "a1-u04-l5",
+  "nivel": "A1",
+  "unidade": 4,
+  "numero": 5,
+  "titulo": "My work schedule",
+  "objetivo_pt": "Descrever seu horário de trabalho e turnos, juntando horas, dias e presente simples.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga em 3 frases como é sua semana de trabalho (dias, horários).",
+    "papel_professor": "Peça ao aluno para descrever a semana de trabalho em 3 frases (dias, hora de começar e terminar). Ajude com perguntas se travar.",
+    "abertura": "Tell me about your work week. What days do you work?",
+    "abertura_pt": "Me fale da sua semana de trabalho. Quais dias você trabalha?"
+  },
+  "vocabulario": [
+    {
+      "id": "shift",
+      "en": "shift",
+      "pt": "turno",
+      "emoji": "🔄",
+      "exemplo_en": "I work the morning shift.",
+      "exemplo_pt": "Eu trabalho no turno da manhã."
+    },
+    {
+      "id": "schedule",
+      "en": "schedule",
+      "pt": "horário / escala",
+      "emoji": "🗓️",
+      "exemplo_en": "What's your schedule?",
+      "exemplo_pt": "Qual é seu horário?"
+    },
+    {
+      "id": "day-off",
+      "en": "day off",
+      "pt": "folga",
+      "emoji": "🏖️",
+      "exemplo_en": "Sunday is my day off.",
+      "exemplo_pt": "Domingo é minha folga."
+    },
+    {
+      "id": "break",
+      "en": "break",
+      "pt": "intervalo",
+      "emoji": "☕",
+      "exemplo_en": "We have a break at ten.",
+      "exemplo_pt": "Temos um intervalo às dez."
+    },
+    {
+      "id": "overtime",
+      "en": "overtime",
+      "pt": "hora extra",
+      "emoji": "➕",
+      "exemplo_en": "I don't do overtime on Fridays.",
+      "exemplo_pt": "Não faço hora extra às sextas."
+    },
+    {
+      "id": "night-shift",
+      "en": "night shift",
+      "pt": "turno da noite",
+      "emoji": "🌃",
+      "exemplo_en": "They work the night shift.",
+      "exemplo_pt": "Eles trabalham no turno da noite."
+    },
+    {
+      "id": "weekend-w",
+      "en": "weekend",
+      "pt": "fim de semana",
+      "emoji": "🗓️",
+      "exemplo_en": "We don't work on weekends.",
+      "exemplo_pt": "Não trabalhamos nos fins de semana."
+    },
+    {
+      "id": "from-to",
+      "en": "from … to …",
+      "pt": "de … até …",
+      "emoji": "↔️",
+      "exemplo_en": "I work from seven to four.",
+      "exemplo_pt": "Trabalho das sete às quatro."
+    },
+    {
+      "id": "usually",
+      "en": "every week",
+      "pt": "toda semana",
+      "emoji": "🔁",
+      "exemplo_en": "We have a meeting every week.",
+      "exemplo_pt": "Temos uma reunião toda semana."
+    },
+    {
+      "id": "clock-in",
+      "en": "clock in / clock out",
+      "pt": "bater o ponto (entrada / saída)",
+      "emoji": "🕘",
+      "exemplo_en": "We clock in at six fifty.",
+      "exemplo_pt": "Batemos o ponto às seis e cinquenta."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: rotina com horas e dias",
+    "explicacao_pt": "Junte tudo: presente simples (I work, we start), horas (at seven thirty), dias (on Monday) e partes do dia (in the morning). Para um intervalo de tempo use FROM … TO …: from Monday to Friday, from 6 a.m. to 2 p.m. Perguntas úteis no trabalho: What's your schedule? What shift do you work? Do you work on weekends?",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "What's your schedule?",
+          "I work from 7 to 4.",
+          "Trabalho das 7 às 4."
+        ],
+        [
+          "What shift do you work?",
+          "I work the night shift.",
+          "Trabalho no turno da noite."
+        ],
+        [
+          "Do you work on weekends?",
+          "No, I don't.",
+          "Não."
+        ],
+        [
+          "When is your day off?",
+          "It's on Sunday.",
+          "É no domingo."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I work from Monday to Friday, from six to two.",
+        "pt": "Trabalho de segunda a sexta, das seis às duas."
+      },
+      {
+        "en": "We have a break at ten and lunch at noon.",
+        "pt": "Temos intervalo às dez e almoço ao meio-dia."
+      },
+      {
+        "en": "On Saturdays I don't work. It's my day off.",
+        "pt": "Aos sábados não trabalho. É minha folga."
+      },
+      {
+        "en": "They clock in at ten to six.",
+        "pt": "Eles batem o ponto às dez para as seis."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The new schedule",
+    "falas": [
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Hi, team. Here is the new schedule.",
+        "pt": "Oi, equipe. Aqui está a nova escala."
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "Do we work on Saturdays now?",
+        "pt": "Agora trabalhamos aos sábados?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Only the morning shift. From seven to eleven.",
+        "pt": "Só o turno da manhã. Das sete às onze."
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "And the night shift?",
+        "pt": "E o turno da noite?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "The night shift works from ten p.m. to six a.m., Monday to Friday.",
+        "pt": "O turno da noite trabalha das dez da noite às seis da manhã, de segunda a sexta."
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "What time is the break?",
+        "pt": "Que horas é o intervalo?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "At two a.m. Thirty minutes.",
+        "pt": "Às duas da manhã. Trinta minutos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Who works on Saturdays?",
+        "opcoes": [
+          "Everybody",
+          "Only the morning shift",
+          "Only the night shift"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04l5-e2",
+        "tipo": "multipla",
+        "enunciado": "When does the night shift finish?",
+        "opcoes": [
+          "6 a.m.",
+          "10 p.m.",
+          "2 a.m."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How long is the break?",
+        "opcoes": [
+          "Ten minutes",
+          "Thirty minutes",
+          "One hour"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u04l5-p1",
+      "tipo": "completar",
+      "frase": "I work the morning ___.",
+      "respostas": [
+        "shift"
+      ]
+    },
+    {
+      "id": "a1u04l5-p2",
+      "tipo": "completar",
+      "frase": "I work ___ Monday to Friday.",
+      "respostas": [
+        "from"
+      ]
+    },
+    {
+      "id": "a1u04l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Folga\":",
+      "opcoes": [
+        "day off",
+        "break",
+        "overtime"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Hora extra\":",
+      "opcoes": [
+        "extra hour",
+        "overtime",
+        "day off"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l5-p5",
+      "tipo": "ordenar",
+      "frase": "We have a break at ten",
+      "traducao_pt": "Temos um intervalo às dez"
+    },
+    {
+      "id": "a1u04l5-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "What's your schedule?",
+      "aceitas": [
+        "What is your schedule?"
+      ]
+    },
+    {
+      "id": "a1u04l5-p7",
+      "tipo": "traduzir",
+      "pt": "Eu trabalho das sete às quatro.",
+      "respostas": [
+        "I work from seven to four.",
+        "I work from 7 to 4."
+      ]
+    },
+    {
+      "id": "a1u04l5-p8",
+      "tipo": "completar",
+      "frase": "Do you work on weekends? — No, I ___.",
+      "respostas": [
+        "don't",
+        "do not"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: um colega novo quer saber como funciona o horário na sua empresa. Explique dias, turnos, intervalos e folgas.",
+    "papel_professor": "Faça o papel de um funcionário novo e curioso. Pergunte sobre horários, turnos, intervalo, almoço e folgas na empresa do aluno. Use Do you…?, What time…?, from…to…",
+    "abertura": "Hi! I'm new here. What time do we start in the morning?",
+    "abertura_pt": "Oi! Sou novo aqui. A que horas começamos de manhã?"
+  },
+  "teste": [
+    {
+      "id": "a1u04l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Turno da noite\":",
+      "opcoes": [
+        "night shift",
+        "night time",
+        "shift night"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u04l5-t2",
+      "tipo": "completar",
+      "frase": "Sunday is my day ___.",
+      "respostas": [
+        "off"
+      ]
+    },
+    {
+      "id": "a1u04l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We clock in at six fifty."
+    },
+    {
+      "id": "a1u04l5-t4",
+      "tipo": "traduzir",
+      "pt": "Nós não trabalhamos no domingo.",
+      "respostas": [
+        "We don't work on Sunday.",
+        "We do not work on Sunday.",
+        "We don't work on Sundays."
+      ]
+    },
+    {
+      "id": "a1u04l5-t5",
+      "tipo": "ordenar",
+      "frase": "I work from six to two",
+      "traducao_pt": "Trabalho das seis às duas"
+    }
+  ]
+}

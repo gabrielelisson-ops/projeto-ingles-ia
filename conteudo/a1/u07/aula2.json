@@ -1,0 +1,342 @@
+{
+  "id": "a1-u07-l2",
+  "nivel": "A1",
+  "unidade": 7,
+  "numero": 2,
+  "titulo": "I love cooking",
+  "objetivo_pt": "Dizer do que você gosta e não gosta com like, love, hate e o verbo com -ing.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar do que você gosta. Responda com \"I love…\", \"I like…\", \"I don't like…\" ou \"I hate…\".",
+    "papel_professor": "Pergunte do que o aluno gosta e não gosta (comidas e atividades: cooking, eating out, washing dishes). Incentive verbo + -ing depois de like/love/hate.",
+    "abertura": "Do you like cooking? I love cooking pasta!",
+    "abertura_pt": "Você gosta de cozinhar? Eu amo cozinhar macarrão!"
+  },
+  "vocabulario": [
+    {
+      "id": "love",
+      "en": "love",
+      "pt": "amar / adorar",
+      "emoji": "😍",
+      "exemplo_en": "I love chocolate.",
+      "exemplo_pt": "Eu amo chocolate."
+    },
+    {
+      "id": "like",
+      "en": "like",
+      "pt": "gostar de",
+      "emoji": "🙂",
+      "exemplo_en": "She likes cooking.",
+      "exemplo_pt": "Ela gosta de cozinhar."
+    },
+    {
+      "id": "dont-like",
+      "en": "don't like",
+      "pt": "não gostar de",
+      "emoji": "😕",
+      "exemplo_en": "I don't like onions.",
+      "exemplo_pt": "Não gosto de cebola."
+    },
+    {
+      "id": "hate",
+      "en": "hate",
+      "pt": "odiar",
+      "emoji": "😖",
+      "exemplo_en": "He hates washing dishes.",
+      "exemplo_pt": "Ele odeia lavar louça."
+    },
+    {
+      "id": "cooking",
+      "en": "cooking",
+      "pt": "cozinhar (o ato)",
+      "emoji": "👩‍🍳",
+      "exemplo_en": "I love cooking on weekends.",
+      "exemplo_pt": "Adoro cozinhar nos fins de semana."
+    },
+    {
+      "id": "eating-out",
+      "en": "eating out",
+      "pt": "comer fora",
+      "emoji": "🍽️",
+      "exemplo_en": "We like eating out on Fridays.",
+      "exemplo_pt": "Gostamos de comer fora às sextas."
+    },
+    {
+      "id": "dishes",
+      "en": "washing the dishes",
+      "pt": "lavar a louça",
+      "emoji": "🧽",
+      "exemplo_en": "Nobody likes washing the dishes.",
+      "exemplo_pt": "Ninguém gosta de lavar a louça."
+    },
+    {
+      "id": "spicy",
+      "en": "spicy",
+      "pt": "apimentado",
+      "emoji": "🌶️",
+      "exemplo_en": "I don't like spicy food.",
+      "exemplo_pt": "Não gosto de comida apimentada."
+    },
+    {
+      "id": "sweet",
+      "en": "sweet",
+      "pt": "doce",
+      "emoji": "🍰",
+      "exemplo_en": "My son loves sweet things.",
+      "exemplo_pt": "Meu filho ama coisas doces."
+    },
+    {
+      "id": "delicious",
+      "en": "delicious",
+      "pt": "delicioso",
+      "emoji": "😋",
+      "exemplo_en": "This cake is delicious!",
+      "exemplo_pt": "Este bolo está delicioso!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Like, love, hate + -ing",
+    "explicacao_pt": "Para falar de gostos use like (gostar), love (amar) e hate (odiar). Depois deles: um nome (I like coffee) ou um verbo com -ING (I like cooking, she loves eating out). Atenção: em inglês não há 'de' depois de like — diga 'I like pizza', nunca 'I like of pizza'. Com he/she: he likes, she loves, it hates. Negativa: I don't like, she doesn't like.",
+    "tabela": {
+      "colunas": [
+        "Verbo",
+        "+ nome",
+        "+ verbo -ing"
+      ],
+      "linhas": [
+        [
+          "love",
+          "I love pizza.",
+          "I love cooking."
+        ],
+        [
+          "like",
+          "She likes fish.",
+          "She likes swimming."
+        ],
+        [
+          "don't like",
+          "I don't like onions.",
+          "I don't like getting up early."
+        ],
+        [
+          "hate",
+          "He hates coffee.",
+          "He hates washing dishes."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I love eating out with my wife.",
+        "pt": "Adoro comer fora com minha esposa."
+      },
+      {
+        "en": "My husband doesn't like spicy food.",
+        "pt": "Meu marido não gosta de comida apimentada."
+      },
+      {
+        "en": "Do you like cooking? — Yes, I do!",
+        "pt": "Você gosta de cozinhar? — Sim!"
+      },
+      {
+        "en": "They hate waiting in line.",
+        "pt": "Eles odeiam esperar na fila."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Who cooks at home?",
+    "falas": [
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "Who cooks in your house, Leo?",
+        "pt": "Quem cozinha na sua casa, Leo?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "I do! I love cooking. My wife hates it.",
+        "pt": "Eu! Adoro cozinhar. Minha esposa odeia."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "And who washes the dishes?",
+        "pt": "E quem lava a louça?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "She does. She doesn't mind washing the dishes.",
+        "pt": "Ela. Ela não se importa de lavar a louça."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "Perfect team! What do you like cooking?",
+        "pt": "Time perfeito! O que você gosta de cozinhar?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Fish and vegetables. But my kids only like pizza!",
+        "pt": "Peixe e legumes. Mas meus filhos só gostam de pizza!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Who cooks in Leo's house?",
+        "opcoes": [
+          "Leo",
+          "His wife",
+          "His kids"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u07l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Who washes the dishes?",
+        "opcoes": [
+          "Leo",
+          "Leo's wife",
+          "The kids"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What do the kids like?",
+        "opcoes": [
+          "Fish",
+          "Vegetables",
+          "Pizza"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u07l2-p1",
+      "tipo": "completar",
+      "frase": "I love ___. (cozinhar)",
+      "respostas": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "a1u07l2-p2",
+      "tipo": "completar",
+      "frase": "She ___ spicy food. (gosta)",
+      "respostas": [
+        "likes"
+      ]
+    },
+    {
+      "id": "a1u07l2-p3",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I like of pizza.",
+        "I like pizza.",
+        "I am like pizza."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "He hates wash dishes.",
+        "He hates washing dishes.",
+        "He hate washing dishes."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l2-p5",
+      "tipo": "completar",
+      "frase": "My husband ___ like onions. (negativa)",
+      "respostas": [
+        "doesn't",
+        "does not"
+      ]
+    },
+    {
+      "id": "a1u07l2-p6",
+      "tipo": "ordenar",
+      "frase": "We like eating out on Fridays",
+      "traducao_pt": "Gostamos de comer fora às sextas"
+    },
+    {
+      "id": "a1u07l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "This cake is delicious!"
+    },
+    {
+      "id": "a1u07l2-p8",
+      "tipo": "traduzir",
+      "pt": "Eu odeio acordar cedo.",
+      "respostas": [
+        "I hate getting up early.",
+        "I hate waking up early."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Converse sobre gostos: comidas favoritas, o que você gosta de cozinhar e o que odeia fazer em casa.",
+    "papel_professor": "Converse sobre gostos alimentares e tarefas da casa. Pergunte Do you like…? What do you love/hate…? Conte os seus gostos também. Corrija o -ing e o -s com he/she.",
+    "abertura": "Let's talk about food. What's your favorite food?",
+    "abertura_pt": "Vamos falar de comida. Qual é sua comida favorita?"
+  },
+  "teste": [
+    {
+      "id": "a1u07l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Ela ama doces\":",
+      "opcoes": [
+        "She love sweet things.",
+        "She loves sweet things.",
+        "She loving sweet things."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l2-t2",
+      "tipo": "completar",
+      "frase": "Do you like ___ out? (comer fora)",
+      "respostas": [
+        "eating"
+      ]
+    },
+    {
+      "id": "a1u07l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I don't like spicy food.",
+      "aceitas": [
+        "I do not like spicy food."
+      ]
+    },
+    {
+      "id": "a1u07l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu adoro cozinhar.",
+      "respostas": [
+        "I love cooking.",
+        "I love to cook."
+      ]
+    },
+    {
+      "id": "a1u07l2-t5",
+      "tipo": "ordenar",
+      "frase": "They hate waiting in line",
+      "traducao_pt": "Eles odeiam esperar na fila"
+    }
+  ]
+}
