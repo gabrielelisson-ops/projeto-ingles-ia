@@ -1,0 +1,362 @@
+{
+  "id": "c1-u06-l4",
+  "nivel": "C1",
+  "unidade": 6,
+  "numero": 4,
+  "titulo": "Building resilience",
+  "objetivo_pt": "Discutir resiliência da cadeia: diversificação, nearshoring, riscos e planos de contingência.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como sua empresa se prepararia para uma grande ruptura (pandemia, guerra, desastre natural). Discuta estratégias de resiliência.",
+    "papel_professor": "Pergunte sobre resiliência (single sourcing vs. dual sourcing, nearshoring, safety stock, contingency plans). Ensine vocabulário e estruturas condicionais/hipotéticas. Corrija.",
+    "abertura": "If your main supplier stopped delivering tomorrow, what would happen?",
+    "abertura_pt": "Se seu principal fornecedor parasse de entregar amanhã, o que aconteceria?"
+  },
+  "vocabulario": [
+    {
+      "id": "resilience",
+      "en": "resilience / resilient",
+      "pt": "resiliência / resiliente",
+      "emoji": "🌿",
+      "exemplo_en": "We need a more resilient supply chain.",
+      "exemplo_pt": "Precisamos de uma cadeia mais resiliente."
+    },
+    {
+      "id": "disruption",
+      "en": "disruption",
+      "pt": "ruptura / interrupção",
+      "emoji": "💥",
+      "exemplo_en": "The pandemic caused massive disruption.",
+      "exemplo_pt": "A pandemia causou uma ruptura enorme."
+    },
+    {
+      "id": "single-sourcing",
+      "en": "single sourcing / dual sourcing",
+      "pt": "fornecedor único / duplo",
+      "emoji": "1️⃣",
+      "exemplo_en": "Single sourcing is risky.",
+      "exemplo_pt": "Ter fornecedor único é arriscado."
+    },
+    {
+      "id": "nearshoring",
+      "en": "nearshoring / reshoring",
+      "pt": "trazer a produção para perto / de volta",
+      "emoji": "🏠",
+      "exemplo_en": "Many companies are nearshoring to Mexico.",
+      "exemplo_pt": "Muitas empresas estão trazendo produção para o México."
+    },
+    {
+      "id": "contingency",
+      "en": "contingency plan",
+      "pt": "plano de contingência",
+      "emoji": "🗺️",
+      "exemplo_en": "Do we have a contingency plan?",
+      "exemplo_pt": "Temos um plano de contingência?"
+    },
+    {
+      "id": "diversify",
+      "en": "diversify",
+      "pt": "diversificar",
+      "emoji": "🌈",
+      "exemplo_en": "We need to diversify our supplier base.",
+      "exemplo_pt": "Precisamos diversificar nossa base de fornecedores."
+    },
+    {
+      "id": "dependency",
+      "en": "dependency on / reliance on",
+      "pt": "dependência de",
+      "emoji": "🔗",
+      "exemplo_en": "Our dependency on one country is too high.",
+      "exemplo_pt": "Nossa dependência de um só país é alta demais."
+    },
+    {
+      "id": "geopolitical",
+      "en": "geopolitical risk",
+      "pt": "risco geopolítico",
+      "emoji": "🌍",
+      "exemplo_en": "Geopolitical risks are increasing.",
+      "exemplo_pt": "Os riscos geopolíticos estão aumentando."
+    },
+    {
+      "id": "scenario-planning",
+      "en": "scenario planning",
+      "pt": "planejamento de cenários",
+      "emoji": "🎲",
+      "exemplo_en": "Scenario planning helps us prepare.",
+      "exemplo_pt": "O planejamento de cenários nos ajuda a nos preparar."
+    },
+    {
+      "id": "cost-vs-risk",
+      "en": "trade off cost against risk",
+      "pt": "equilibrar custo e risco",
+      "emoji": "⚖️",
+      "exemplo_en": "We must trade off cost against risk.",
+      "exemplo_pt": "Precisamos equilibrar custo e risco."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Falando de risco e resiliência",
+    "explicacao_pt": "Hipóteses (2ª condicional): If our main supplier stopped delivering, we would have to… Passado (3ª e mista): If we had diversified earlier, we wouldn't be so exposed now. Recomendações: We should consider + -ing / It would be advisable to… / It is essential that we + verbo base. Equilíbrio: There's a trade-off between cost and resilience. / Dual sourcing would increase costs, but it would reduce our exposure. Cautela: This could potentially… / There is a risk that… / In the event of + substantivo (In the event of a strike, …).",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Hipótese",
+          "If X happened, we would…",
+          "If the port closed, we would lose two weeks."
+        ],
+        [
+          "Arrependimento",
+          "If we had…, we wouldn't…",
+          "If we had diversified, we wouldn't be so exposed."
+        ],
+        [
+          "Recomendação",
+          "It would be advisable to…",
+          "It would be advisable to qualify a second supplier."
+        ],
+        [
+          "Evento",
+          "In the event of…, …",
+          "In the event of a strike, we will use air freight."
+        ],
+        [
+          "Equilíbrio",
+          "There's a trade-off between…",
+          "There's a trade-off between cost and resilience."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If our only supplier in China stopped delivering, we would be able to produce for just three weeks.",
+        "pt": "Se nosso único fornecedor na China parasse de entregar, conseguiríamos produzir por apenas três semanas."
+      },
+      {
+        "en": "If we had qualified a second supplier before the pandemic, we wouldn't have stopped the line.",
+        "pt": "Se tivéssemos qualificado um segundo fornecedor antes da pandemia, não teríamos parado a linha."
+      },
+      {
+        "en": "It would be advisable to diversify our supplier base and consider nearshoring some components.",
+        "pt": "Seria aconselhável diversificar nossa base de fornecedores e considerar trazer alguns componentes para mais perto."
+      },
+      {
+        "en": "In the event of a major disruption, our contingency plan allows us to switch to air freight within 48 hours.",
+        "pt": "Em caso de uma grande ruptura, nosso plano de contingência permite mudar para frete aéreo em 48 horas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A resilience review",
+    "falas": [
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "After last year's disruption, we need to review our supply chain resilience. What are our biggest risks?",
+        "pt": "Depois da ruptura do ano passado, precisamos revisar a resiliência da nossa cadeia. Quais são nossos maiores riscos?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "Our biggest risk is single sourcing. Seventy percent of our electronic components come from one supplier in Asia.",
+        "pt": "Nosso maior risco é o fornecedor único. Setenta por cento dos componentes eletrônicos vêm de um só fornecedor na Ásia."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "What would happen if that supplier stopped delivering?",
+        "pt": "O que aconteceria se esse fornecedor parasse de entregar?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "We would be able to produce for about four weeks. After that, we'd have to stop.",
+        "pt": "Conseguiríamos produzir por umas quatro semanas. Depois, teríamos que parar."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "So what do you recommend?",
+        "pt": "Então o que você recomenda?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "It would be advisable to qualify a second supplier in Mexico. It would increase costs by about 4%, but it would cut lead time and reduce our dependency on one region.",
+        "pt": "Seria aconselhável qualificar um segundo fornecedor no México. Aumentaria os custos em uns 4%, mas cortaria o prazo e reduziria nossa dependência de uma só região."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "There's always a trade-off between cost and risk. Let's prepare the business case.",
+        "pt": "Sempre há uma troca entre custo e risco. Vamos preparar a justificativa."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is their biggest risk?",
+        "opcoes": [
+          "Single sourcing",
+          "High prices",
+          "Old machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What percentage of electronic components come from one supplier?",
+        "opcoes": [
+          "40%",
+          "70%",
+          "90%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How long could they produce if the supplier stopped?",
+        "opcoes": [
+          "About one week",
+          "About four weeks",
+          "About six months"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l4-e4",
+        "tipo": "multipla",
+        "enunciado": "Where would the second supplier be?",
+        "opcoes": [
+          "Mexico",
+          "China",
+          "Brazil"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u06l4-p1",
+      "tipo": "completar",
+      "frase": "We need a more ___ supply chain. (resiliente)",
+      "respostas": [
+        "resilient"
+      ]
+    },
+    {
+      "id": "c1u06l4-p2",
+      "tipo": "completar",
+      "frase": "Do we have a ___ plan? (contingência)",
+      "respostas": [
+        "contingency"
+      ]
+    },
+    {
+      "id": "c1u06l4-p3",
+      "tipo": "completar",
+      "frase": "We need to ___ our supplier base. (diversificar)",
+      "respostas": [
+        "diversify"
+      ]
+    },
+    {
+      "id": "c1u06l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Arrependimento com resultado no presente:",
+      "opcoes": [
+        "If we had diversified, we wouldn't be so exposed now.",
+        "If we diversified, we won't be exposed.",
+        "If we have diversified, we wouldn't been exposed."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Em caso de greve, usaremos frete aéreo\":",
+      "opcoes": [
+        "In the event of a strike, we will use air freight.",
+        "In event of strike we use air freight.",
+        "In case a strike, we would used air freight."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l4-p6",
+      "tipo": "ordenar",
+      "frase": "Single sourcing is risky",
+      "traducao_pt": "Ter fornecedor único é arriscado"
+    },
+    {
+      "id": "c1u06l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Many companies are nearshoring to Mexico."
+    },
+    {
+      "id": "c1u06l4-p8",
+      "tipo": "traduzir",
+      "pt": "Precisamos equilibrar custo e risco.",
+      "respostas": [
+        "We must trade off cost against risk.",
+        "We need to balance cost and risk.",
+        "We need to trade off cost against risk."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça com o professor (COO) uma revisão de resiliência da cadeia da sua empresa: os maiores riscos, o que aconteceria em caso de ruptura, o que poderia ter sido feito no passado e suas recomendações com custo e benefício.",
+    "papel_professor": "Faça o papel de COO. Pergunte What if…? What should we have done? What would it cost? Desafie com o trade-off custo × risco. Corrija condicionais e linguagem de recomendação.",
+    "abertura": "Let's be honest: how prepared are we for the next big disruption?",
+    "abertura_pt": "Vamos ser honestos: quão preparados estamos para a próxima grande ruptura?"
+  },
+  "teste": [
+    {
+      "id": "c1u06l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Recomendação formal:",
+      "opcoes": [
+        "It would be advisable to qualify a second supplier.",
+        "You must to qualify a second supplier.",
+        "Qualify second supplier is advisable would."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l4-t2",
+      "tipo": "completar",
+      "frase": "The pandemic caused massive ___. (ruptura)",
+      "respostas": [
+        "disruption"
+      ]
+    },
+    {
+      "id": "c1u06l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Geopolitical risks are increasing."
+    },
+    {
+      "id": "c1u06l4-t4",
+      "tipo": "traduzir",
+      "pt": "Nossa dependência de um só país é alta demais.",
+      "respostas": [
+        "Our dependency on one country is too high.",
+        "Our reliance on one country is too high.",
+        "Our dependence on one country is too high."
+      ]
+    },
+    {
+      "id": "c1u06l4-t5",
+      "tipo": "ordenar",
+      "frase": "Scenario planning helps us prepare",
+      "traducao_pt": "O planejamento de cenários nos ajuda a nos preparar"
+    }
+  ]
+}

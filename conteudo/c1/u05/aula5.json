@@ -1,0 +1,354 @@
+{
+  "id": "c1-u05-l5",
+  "nivel": "C1",
+  "unidade": 5,
+  "numero": 5,
+  "titulo": "Corporate communication",
+  "objetivo_pt": "Comunicar mudanças corporativas (reestruturação, fusão, nova política) de forma clara e sensível.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: você já viveu uma grande mudança na empresa (fusão, reestruturação, novo dono)? Como ela foi comunicada? Foi bem feito?",
+    "papel_professor": "Peça a experiência. Discuta o que torna uma comunicação de mudança boa (transparência, motivo, impacto, próximos passos, empatia). Ensine frases-chave.",
+    "abertura": "Have you ever been through a big change at work, like a merger or restructuring? How was it communicated?",
+    "abertura_pt": "Você já passou por uma grande mudança no trabalho, como fusão ou reestruturação? Como foi comunicada?"
+  },
+  "vocabulario": [
+    {
+      "id": "restructuring",
+      "en": "restructuring",
+      "pt": "reestruturação",
+      "emoji": "🏗️",
+      "exemplo_en": "The company is going through a restructuring.",
+      "exemplo_pt": "A empresa está passando por uma reestruturação."
+    },
+    {
+      "id": "merger",
+      "en": "merger / acquisition",
+      "pt": "fusão / aquisição",
+      "emoji": "🤝",
+      "exemplo_en": "The merger will be completed in June.",
+      "exemplo_pt": "A fusão será concluída em junho."
+    },
+    {
+      "id": "announce",
+      "en": "announce / announcement",
+      "pt": "anunciar / anúncio",
+      "emoji": "📢",
+      "exemplo_en": "I'd like to make an important announcement.",
+      "exemplo_pt": "Gostaria de fazer um anúncio importante."
+    },
+    {
+      "id": "rationale",
+      "en": "rationale",
+      "pt": "justificativa / lógica",
+      "emoji": "🧠",
+      "exemplo_en": "Let me explain the rationale behind this decision.",
+      "exemplo_pt": "Deixem-me explicar a lógica por trás desta decisão."
+    },
+    {
+      "id": "impact-l5",
+      "en": "impact on",
+      "pt": "impacto em",
+      "emoji": "💥",
+      "exemplo_en": "I know this will have an impact on many of you.",
+      "exemplo_pt": "Sei que isso terá impacto em muitos de vocês."
+    },
+    {
+      "id": "reassure",
+      "en": "reassure",
+      "pt": "tranquilizar",
+      "emoji": "🤲",
+      "exemplo_en": "I want to reassure you that no jobs will be lost.",
+      "exemplo_pt": "Quero tranquilizá-los de que nenhum emprego será perdido."
+    },
+    {
+      "id": "transparent",
+      "en": "transparent / transparency",
+      "pt": "transparente / transparência",
+      "emoji": "🔍",
+      "exemplo_en": "We want to be fully transparent.",
+      "exemplo_pt": "Queremos ser totalmente transparentes."
+    },
+    {
+      "id": "transition",
+      "en": "transition period",
+      "pt": "período de transição",
+      "emoji": "🌉",
+      "exemplo_en": "There will be a six-month transition period.",
+      "exemplo_pt": "Haverá um período de transição de seis meses."
+    },
+    {
+      "id": "rest-assured",
+      "en": "Rest assured that…",
+      "pt": "Fiquem tranquilos de que…",
+      "emoji": "😌",
+      "exemplo_en": "Rest assured that we will support everyone affected.",
+      "exemplo_pt": "Fiquem tranquilos de que vamos apoiar todos os afetados."
+    },
+    {
+      "id": "concerns-l5",
+      "en": "concerns / raise concerns",
+      "pt": "preocupações / levantar preocupações",
+      "emoji": "🙋",
+      "exemplo_en": "Please raise any concerns with your manager.",
+      "exemplo_pt": "Por favor, levem quaisquer preocupações ao seu gestor."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Comunicando mudanças",
+    "explicacao_pt": "1) ANÚNCIO claro: I'd like to announce that… / As some of you may have heard, … 2) RAZÃO: The rationale behind this decision is… / Given the changes in the market, … 3) IMPACTO honesto: This will mean that… / I know this will have an impact on… 4) TRANQUILIZAR (só o que for verdade!): I want to reassure you that… / Rest assured that… 5) PRÓXIMOS PASSOS: Over the coming weeks, … / There will be a transition period of… 6) ABERTURA: Please raise any concerns with… / My door is always open. Use passiva para a decisão (It has been decided…) com cuidado — 'We have decided' é mais responsável e humano.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Anúncio",
+          "I'd like to announce that…",
+          "Gostaria de anunciar que…"
+        ],
+        [
+          "Razão",
+          "The rationale behind this decision is…",
+          "A lógica dessa decisão é…"
+        ],
+        [
+          "Impacto",
+          "I know this will have an impact on…",
+          "Sei que isso terá impacto em…"
+        ],
+        [
+          "Tranquilizar",
+          "Rest assured that…",
+          "Fiquem tranquilos de que…"
+        ],
+        [
+          "Abertura",
+          "Please raise any concerns with…",
+          "Levem as preocupações a…"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "As some of you may have heard, we have agreed to merge with Grupo Atlântico.",
+        "pt": "Como alguns de vocês podem ter ouvido, concordamos em nos fundir com o Grupo Atlântico."
+      },
+      {
+        "en": "The rationale behind this decision is simple: together, we will be stronger in a very competitive market.",
+        "pt": "A lógica dessa decisão é simples: juntos, seremos mais fortes num mercado muito competitivo."
+      },
+      {
+        "en": "I know that change can be unsettling. I want to reassure you that all current contracts will be respected.",
+        "pt": "Sei que mudanças podem causar insegurança. Quero tranquilizá-los de que todos os contratos atuais serão respeitados."
+      },
+      {
+        "en": "Over the coming weeks, your managers will share more details. Please raise any concerns with them or directly with HR.",
+        "pt": "Nas próximas semanas, seus gestores darão mais detalhes. Por favor, levem quaisquer preocupações a eles ou diretamente ao RH."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An all-hands announcement",
+    "falas": [
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Good morning, everyone. Thank you for joining at short notice. I'd like to make an important announcement.",
+        "pt": "Bom dia a todos. Obrigado por virem em cima da hora. Gostaria de fazer um anúncio importante."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "As some of you may have heard, we have agreed to acquire Plastec, our main competitor in the North-East.",
+        "pt": "Como alguns podem ter ouvido, concordamos em adquirir a Plastec, nossa principal concorrente no Nordeste."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "The rationale behind this decision is to expand our presence in a fast-growing region and to combine our technologies.",
+        "pt": "A lógica dessa decisão é ampliar nossa presença numa região em rápido crescimento e combinar nossas tecnologias."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "I know many of you will have questions about what this means for your jobs. I want to reassure you that no positions in this plant will be cut.",
+        "pt": "Sei que muitos de vocês terão perguntas sobre o que isso significa para seus empregos. Quero tranquilizá-los de que nenhum cargo desta fábrica será cortado."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "There will be a twelve-month transition period. Over the coming weeks, your managers will share more details.",
+        "pt": "Haverá um período de transição de doze meses. Nas próximas semanas, seus gestores darão mais detalhes."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "We want to be fully transparent throughout this process. Please raise any concerns with your manager or with HR.",
+        "pt": "Queremos ser totalmente transparentes durante todo o processo. Por favor, levem quaisquer preocupações ao seu gestor ou ao RH."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is being announced?",
+        "opcoes": [
+          "The acquisition of a competitor",
+          "A plant closure",
+          "A new CEO"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is Plastec?",
+        "opcoes": [
+          "In the North-East",
+          "In the South",
+          "Abroad"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the CEO reassure employees about?",
+        "opcoes": [
+          "No positions in this plant will be cut.",
+          "Salaries will double.",
+          "Nothing will change at all."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l5-e4",
+        "tipo": "multipla",
+        "enunciado": "How long is the transition period?",
+        "opcoes": [
+          "Six months",
+          "Twelve months",
+          "Two years"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u05l5-p1",
+      "tipo": "completar",
+      "frase": "Let me explain the ___ behind this decision. (lógica)",
+      "respostas": [
+        "rationale"
+      ]
+    },
+    {
+      "id": "c1u05l5-p2",
+      "tipo": "completar",
+      "frase": "I want to ___ you that no jobs will be lost. (tranquilizar)",
+      "respostas": [
+        "reassure"
+      ]
+    },
+    {
+      "id": "c1u05l5-p3",
+      "tipo": "completar",
+      "frase": "Rest ___ that we will support everyone.",
+      "respostas": [
+        "assured"
+      ]
+    },
+    {
+      "id": "c1u05l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Abertura de anúncio:",
+      "opcoes": [
+        "As some of you may have heard, …",
+        "Listen, something happened.",
+        "You know already, right?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Haverá um período de transição de seis meses\":",
+      "opcoes": [
+        "There will be a six-month transition period.",
+        "There will be a six months transition period.",
+        "Will have a transition of six month."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l5-p6",
+      "tipo": "ordenar",
+      "frase": "We want to be fully transparent",
+      "traducao_pt": "Queremos ser totalmente transparentes"
+    },
+    {
+      "id": "c1u05l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Please raise any concerns with your manager."
+    },
+    {
+      "id": "c1u05l5-p8",
+      "tipo": "traduzir",
+      "pt": "A fusão será concluída em junho.",
+      "respostas": [
+        "The merger will be completed in June.",
+        "The merger will be finalized in June."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: você é o diretor e vai anunciar uma mudança importante aos funcionários (o professor), por exemplo uma reestruturação ou nova política. Seja claro, explique a lógica, seja honesto sobre o impacto, tranquilize no que for verdade e responda às perguntas preocupadas.",
+    "papel_professor": "Faça o papel de funcionários preocupados. Após o anúncio, faça perguntas difíceis (Will there be layoffs? Why weren't we consulted? What about my shift?). Avalie clareza, empatia e honestidade. Corrija.",
+    "abertura": "Everyone is gathered in the canteen. People look worried. Whenever you're ready.",
+    "abertura_pt": "Todos estão reunidos no refeitório. As pessoas parecem preocupadas. Quando estiver pronto."
+  },
+  "teste": [
+    {
+      "id": "c1u05l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Comunicação responsável:",
+      "opcoes": [
+        "We have decided to restructure the department.",
+        "It has been decided by someone that things change."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l5-t2",
+      "tipo": "completar",
+      "frase": "I'd like to make an important ___. (anúncio)",
+      "respostas": [
+        "announcement"
+      ]
+    },
+    {
+      "id": "c1u05l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I know this will have an impact on many of you."
+    },
+    {
+      "id": "c1u05l5-t4",
+      "tipo": "traduzir",
+      "pt": "A empresa está passando por uma reestruturação.",
+      "respostas": [
+        "The company is going through a restructuring.",
+        "The company is undergoing a restructuring.",
+        "The company is going through restructuring."
+      ]
+    },
+    {
+      "id": "c1u05l5-t5",
+      "tipo": "ordenar",
+      "frase": "Over the coming weeks your managers will share more details",
+      "traducao_pt": "Nas próximas semanas, seus gestores darão mais detalhes"
+    }
+  ]
+}

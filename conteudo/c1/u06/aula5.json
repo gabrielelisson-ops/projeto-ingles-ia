@@ -1,0 +1,361 @@
+{
+  "id": "c1-u06-l5",
+  "nivel": "C1",
+  "unidade": 6,
+  "numero": 5,
+  "titulo": "A supply chain crisis",
+  "objetivo_pt": "Gerenciar uma crise de suprimento em tempo real: avaliar, decidir, comunicar (revisão da unidade).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: você já viveu uma falta de material ou um atraso grave de fornecedor? Como foi resolvido?",
+    "papel_professor": "Peça a experiência. Ensine linguagem de gestão de crise (Our immediate priority is…, We've set up a crisis team, We'll keep you posted). Corrija.",
+    "abertura": "Have you ever experienced a serious shortage of materials at work? What happened?",
+    "abertura_pt": "Você já passou por uma falta séria de materiais no trabalho? O que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "shortage",
+      "en": "shortage",
+      "pt": "escassez / falta",
+      "emoji": "⚠️",
+      "exemplo_en": "There is a global shortage of chips.",
+      "exemplo_pt": "Há uma escassez global de chips."
+    },
+    {
+      "id": "crisis-team",
+      "en": "crisis team / war room",
+      "pt": "comitê de crise / sala de guerra",
+      "emoji": "🚨",
+      "exemplo_en": "We've set up a crisis team.",
+      "exemplo_pt": "Montamos um comitê de crise."
+    },
+    {
+      "id": "immediate-priority",
+      "en": "Our immediate priority is…",
+      "pt": "Nossa prioridade imediata é…",
+      "emoji": "🎯",
+      "exemplo_en": "Our immediate priority is to protect key customers.",
+      "exemplo_pt": "Nossa prioridade imediata é proteger os clientes-chave."
+    },
+    {
+      "id": "allocate",
+      "en": "allocate (stock / capacity)",
+      "pt": "alocar (estoque / capacidade)",
+      "emoji": "📊",
+      "exemplo_en": "We will allocate stock to our top customers first.",
+      "exemplo_pt": "Vamos alocar estoque primeiro aos principais clientes."
+    },
+    {
+      "id": "expedite",
+      "en": "expedite",
+      "pt": "acelerar / agilizar",
+      "emoji": "⚡",
+      "exemplo_en": "Can you expedite the shipment?",
+      "exemplo_pt": "Pode agilizar a remessa?"
+    },
+    {
+      "id": "air-freight",
+      "en": "air freight / sea freight",
+      "pt": "frete aéreo / marítimo",
+      "emoji": "✈️",
+      "exemplo_en": "We switched to air freight.",
+      "exemplo_pt": "Mudamos para frete aéreo."
+    },
+    {
+      "id": "keep-posted",
+      "en": "We'll keep you posted",
+      "pt": "Vamos mantê-los informados",
+      "emoji": "📣",
+      "exemplo_en": "We'll keep you posted on any developments.",
+      "exemplo_pt": "Vamos mantê-los informados sobre qualquer novidade."
+    },
+    {
+      "id": "workaround",
+      "en": "workaround",
+      "pt": "solução alternativa (paliativa)",
+      "emoji": "🛠️",
+      "exemplo_en": "We've found a workaround.",
+      "exemplo_pt": "Encontramos uma solução alternativa."
+    },
+    {
+      "id": "force-majeure",
+      "en": "force majeure",
+      "pt": "força maior",
+      "emoji": "🌪️",
+      "exemplo_en": "The supplier declared force majeure.",
+      "exemplo_pt": "O fornecedor declarou força maior."
+    },
+    {
+      "id": "back-to-normal",
+      "en": "return to normal / recover",
+      "pt": "voltar ao normal / se recuperar",
+      "emoji": "🔙",
+      "exemplo_en": "Supply is expected to return to normal in May.",
+      "exemplo_pt": "Espera-se que o fornecimento volte ao normal em maio."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: gestão de crise na cadeia",
+    "explicacao_pt": "SITUAÇÃO (passiva impessoal): It is estimated that… / The supplier is reported to have… / Deliveries are expected to resume… IMPACTO (condicionais): If we don't act, we will run out in two weeks. AÇÕES (present perfect + futuro): We have set up a crisis team. We are expediting… We will allocate… DECISÃO (participle clauses): Having assessed the options, we have decided to… / Given the situation, … COMUNICAÇÃO: Our immediate priority is… / We'll keep you posted. / Rest assured that… LIÇÕES: If we had…, we would have… / This should have been anticipated.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Situação",
+          "The supplier is reported to have…",
+          "The supplier is reported to have declared force majeure."
+        ],
+        [
+          "Impacto",
+          "If we don't act, …",
+          "If we don't act, we'll run out in ten days."
+        ],
+        [
+          "Ação",
+          "We have set up… / We are expediting…",
+          "We have set up a crisis team."
+        ],
+        [
+          "Decisão",
+          "Having assessed the options, …",
+          "Having assessed the options, we chose air freight."
+        ],
+        [
+          "Comunicação",
+          "We'll keep you posted.",
+          "We'll keep you posted on any developments."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our main chip supplier is reported to have declared force majeure after the floods.",
+        "pt": "Consta que nosso principal fornecedor de chips declarou força maior após as enchentes."
+      },
+      {
+        "en": "If we don't find an alternative, we will run out of stock in twelve days.",
+        "pt": "Se não encontrarmos uma alternativa, ficaremos sem estoque em doze dias."
+      },
+      {
+        "en": "Having assessed the options, we have decided to switch part of the volume to air freight.",
+        "pt": "Tendo avaliado as opções, decidimos passar parte do volume para frete aéreo."
+      },
+      {
+        "en": "Our immediate priority is to protect our key customers. We'll keep you posted on any developments.",
+        "pt": "Nossa prioridade imediata é proteger os clientes-chave. Vamos mantê-los informados de qualquer novidade."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The crisis call",
+    "falas": [
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "OK, everyone, thanks for joining at short notice. What do we know?",
+        "pt": "OK, pessoal, obrigado por entrarem em cima da hora. O que sabemos?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "Our sensor supplier in Taiwan is reported to have stopped production after an earthquake. Deliveries are not expected to resume for at least three weeks.",
+        "pt": "Consta que nosso fornecedor de sensores em Taiwan parou a produção depois de um terremoto. Não se espera retomada das entregas por pelo menos três semanas."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "How much stock do we have?",
+        "pt": "Quanto estoque temos?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "About ten days. If we don't act, we'll have to stop lines 2 and 3.",
+        "pt": "Uns dez dias. Se não agirmos, teremos que parar as linhas 2 e 3."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "What are our options?",
+        "pt": "Quais são nossas opções?"
+      },
+      {
+        "personagem": "Supply chain director",
+        "voz": "b",
+        "en": "Having contacted three alternative suppliers, we found one in Germany that can deliver 60% of our needs by air within a week.",
+        "pt": "Tendo contatado três fornecedores alternativos, achamos um na Alemanha que pode entregar 60% das nossas necessidades por avião em uma semana."
+      },
+      {
+        "personagem": "COO",
+        "voz": "a",
+        "en": "Good. Let's do it, and allocate the available stock to our top three customers first. We'll keep the board posted.",
+        "pt": "Ótimo. Vamos fazer, e alocar o estoque disponível primeiro aos nossos três principais clientes. Vamos manter o conselho informado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What happened to the sensor supplier?",
+        "opcoes": [
+          "It stopped production after an earthquake.",
+          "It went bankrupt.",
+          "It raised prices."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How much stock do they have?",
+        "opcoes": [
+          "About three days",
+          "About ten days",
+          "About three weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How much can the German supplier deliver?",
+        "opcoes": [
+          "30% of their needs",
+          "60% of their needs",
+          "100% of their needs"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l5-e4",
+        "tipo": "multipla",
+        "enunciado": "Who will get the available stock first?",
+        "opcoes": [
+          "The top three customers",
+          "All customers equally",
+          "Nobody"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u06l5-p1",
+      "tipo": "completar",
+      "frase": "There is a global ___ of chips. (escassez)",
+      "respostas": [
+        "shortage"
+      ]
+    },
+    {
+      "id": "c1u06l5-p2",
+      "tipo": "completar",
+      "frase": "We've set up a crisis ___.",
+      "respostas": [
+        "team"
+      ]
+    },
+    {
+      "id": "c1u06l5-p3",
+      "tipo": "completar",
+      "frase": "We'll keep you ___ on any developments.",
+      "respostas": [
+        "posted"
+      ]
+    },
+    {
+      "id": "c1u06l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Decisão com participle clause:",
+      "opcoes": [
+        "Having assessed the options, we chose air freight.",
+        "Assessed the options, air freight was chosen by us.",
+        "Having assess options, we choose air."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O fornecedor declarou força maior\":",
+      "opcoes": [
+        "The supplier declared force majeure.",
+        "The supplier declared bigger force.",
+        "The supplier said major force."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l5-p6",
+      "tipo": "ordenar",
+      "frase": "We've found a workaround",
+      "traducao_pt": "Encontramos uma solução alternativa"
+    },
+    {
+      "id": "c1u06l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Can you expedite the shipment?"
+    },
+    {
+      "id": "c1u06l5-p8",
+      "tipo": "traduzir",
+      "pt": "Espera-se que o fornecimento volte ao normal em maio.",
+      "respostas": [
+        "Supply is expected to return to normal in May.",
+        "It is expected that supply will return to normal in May."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: o professor (COO) convoca uma reunião de crise. Um fornecedor crítico parou. Apresente a situação com passiva impessoal, avalie o impacto, proponha opções com custos, tome uma decisão, defina a comunicação com clientes e diga que lição tirar.",
+    "papel_professor": "Faça o papel de COO sob pressão. Exija números (How many days of stock? How much will air freight cost?) e decisão rápida. No fim, peça uma lição aprendida (What should have been done?). Dê retorno sobre linguagem e clareza.",
+    "abertura": "We have a serious problem. Our main supplier has just stopped. I need the facts and a plan in ten minutes. Go.",
+    "abertura_pt": "Temos um problema sério. Nosso principal fornecedor acabou de parar. Preciso dos fatos e de um plano em dez minutos. Vai."
+  },
+  "teste": [
+    {
+      "id": "c1u06l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Prioridade imediata:",
+      "opcoes": [
+        "Our immediate priority is to protect key customers.",
+        "First thing we do maybe customers.",
+        "Priority immediate customers protect."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l5-t2",
+      "tipo": "completar",
+      "frase": "We will ___ stock to our top customers first. (alocar)",
+      "respostas": [
+        "allocate"
+      ]
+    },
+    {
+      "id": "c1u06l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We switched to air freight."
+    },
+    {
+      "id": "c1u06l5-t4",
+      "tipo": "traduzir",
+      "pt": "Montamos um comitê de crise.",
+      "respostas": [
+        "We've set up a crisis team.",
+        "We have set up a crisis team.",
+        "We set up a crisis team."
+      ]
+    },
+    {
+      "id": "c1u06l5-t5",
+      "tipo": "ordenar",
+      "frase": "If we don't act we'll run out in ten days",
+      "traducao_pt": "Se não agirmos, ficaremos sem estoque em dez dias"
+    }
+  ]
+}

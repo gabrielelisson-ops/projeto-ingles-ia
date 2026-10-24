@@ -1,0 +1,259 @@
+{
+  "id": "c1-u05-prova",
+  "nivel": "C1",
+  "unidade": 5,
+  "titulo": "Prova da Unidade 5 (C1) — Corporate English",
+  "leitura": {
+    "texto": "LETTER FROM THE CEO — ANNUAL REPORT\nDear shareholders,\nFounded sixty years ago as a small family workshop, Brasmetal is today one of the leading suppliers of steel components in Latin America. Having completed a challenging but successful year, I would like to share our main results and priorities.\nRevenue grew 11% year on year, reaching 1.4 billion reais. Our EBITDA margin, however, fell slightly from 15.8% to 15.1%, mainly due to a sharp rise in energy and raw material costs during the first half of the year. Costs levelled off in the third quarter, and margins recovered steadily towards the end of the year.\nOn the operational side, OEE increased from 71% to 78%, peaking at 81% in November. Using predictive maintenance on our main presses, we reduced unplanned stoppages by 35%.\nOur strategy remains focused on three priorities: electrification, digitalization and sustainability. What sets us apart is our engineering partnership with customers, which allows us to co-develop components for electric vehicles.\nGiven the growth in this segment, the board has approved an investment of 220 million reais in a new plant in Paraná. Adopting a phased approach, we expect the first line to start production in 2027 and the project to break even by 2030.\nI would like to thank our 6,500 employees for their commitment. Rest assured that we will continue to invest in their development.",
+    "perguntas": [
+      {
+        "id": "c1u05pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How old is Brasmetal?",
+        "opcoes": [
+          "Forty years",
+          "Sixty years",
+          "A hundred years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-l2",
+        "tipo": "multipla",
+        "enunciado": "By how much did revenue grow?",
+        "opcoes": [
+          "8%",
+          "11%",
+          "15%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What happened to the EBITDA margin?",
+        "opcoes": [
+          "It fell slightly.",
+          "It rose sharply.",
+          "It remained stable."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05pv-l4",
+        "tipo": "multipla",
+        "enunciado": "When did costs level off?",
+        "opcoes": [
+          "In the first quarter",
+          "In the third quarter",
+          "In December"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-l5",
+        "tipo": "multipla",
+        "enunciado": "When did OEE peak?",
+        "opcoes": [
+          "In September",
+          "In October",
+          "In November"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u05pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How did they reduce unplanned stoppages?",
+        "opcoes": [
+          "Using predictive maintenance",
+          "Hiring more people",
+          "Buying new presses"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What sets the company apart?",
+        "opcoes": [
+          "Its engineering partnership with customers",
+          "Its low prices",
+          "Its size"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05pv-l8",
+        "tipo": "multipla",
+        "enunciado": "When do they expect the new plant project to break even?",
+        "opcoes": [
+          "By 2027",
+          "By 2030",
+          "By 2035"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "Let me summarize the market analysis. Based on our research, demand for recycled packaging will grow by around 12% a year.",
+        "pt": "Deixem-me resumir a análise de mercado. Com base em nossa pesquisa, a demanda por embalagens recicladas vai crescer cerca de 12% ao ano."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "And where do we stand today?",
+        "pt": "E onde estamos hoje?"
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "Your market share has fallen slightly over the past three years, from 19% to 16%, while two new competitors have entered the market.",
+        "pt": "Sua participação de mercado caiu levemente nos últimos três anos, de 19% para 16%, enquanto dois novos concorrentes entraram no mercado."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "That's worrying. What do you recommend?",
+        "pt": "Isso é preocupante. O que vocês recomendam?"
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "Having compared several options, we recommend investing in a recycling line. It aligns with your sustainability strategy and would give you a clear competitive advantage.",
+        "pt": "Tendo comparado várias opções, recomendamos investir numa linha de reciclagem. Está alinhada à sua estratégia de sustentabilidade e daria uma clara vantagem competitiva."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "What's the investment, and when would we break even?",
+        "pt": "Qual é o investimento, e quando atingiríamos o equilíbrio?"
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "About 30 million reais in capex. Even in the worst-case scenario, you would break even in four years.",
+        "pt": "Cerca de 30 milhões de reais em investimento. Mesmo no pior cenário, vocês atingiriam o equilíbrio em quatro anos."
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Thank you. I'll present the business case to the board next month.",
+        "pt": "Obrigado. Vou apresentar a justificativa ao conselho no mês que vem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05pv-e1",
+        "tipo": "multipla",
+        "enunciado": "By how much will demand for recycled packaging grow per year?",
+        "opcoes": [
+          "About 2%",
+          "About 12%",
+          "About 20%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What has happened to the company's market share?",
+        "opcoes": [
+          "It has fallen slightly from 19% to 16%.",
+          "It has risen sharply.",
+          "It has remained stable."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How many new competitors have entered the market?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the consultant recommend?",
+        "opcoes": [
+          "Investing in a recycling line",
+          "Closing a plant",
+          "Lowering prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How much is the investment?",
+        "opcoes": [
+          "3 million reais",
+          "30 million reais",
+          "300 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-e6",
+        "tipo": "multipla",
+        "enunciado": "When would they break even in the worst case?",
+        "opcoes": [
+          "In two years",
+          "In four years",
+          "In ten years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Based on our research, demand will grow by around twelve percent a year.",
+        "aceitas": [
+          "Based on our research, demand will grow by around 12% a year."
+        ]
+      },
+      {
+        "id": "c1u05pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Having compared several options, we recommend investing in a recycling line."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u05pv-w1",
+      "instrucao_pt": "Escreva o parágrafo de abertura de um relatório anual (real ou inventado), com participle clauses, resultados (KPIs e tendências) e a estratégia.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u05pv-w2",
+      "instrucao_pt": "Escreva uma mensagem aos funcionários anunciando uma mudança importante: o anúncio, a lógica, o impacto, uma tranquilização honesta e os próximos passos.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u05pv-s1",
+      "pergunta_en": "Describe the performance of your area over the last year using at least four KPIs and trend language.",
+      "instrucao_pt": "Fale em voz alta com verbos e advérbios de tendência."
+    },
+    {
+      "id": "c1u05pv-s2",
+      "pergunta_en": "Present a short business case for an investment to the board.",
+      "instrucao_pt": "Inclua alinhamento estratégico, números, riscos, mitigação e o pedido."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Linguagem de estratégia (vision, mission, competitive advantage, market share, core business, align, aim to), descrição de KPIs e tendências (rise sharply, fall slightly, peak, level off, by/to/from, year on year), participle clauses (Having + pp, -ing, Founded/Based/Given; evitar particípio solto), business case (ROI, capex, break even, mitigate, phased approach, sign off), comunicação de mudanças (rationale, reassure, transition period)."
+}

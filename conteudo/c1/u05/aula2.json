@@ -1,0 +1,352 @@
+{
+  "id": "c1-u05-l2",
+  "nivel": "C1",
+  "unidade": 5,
+  "numero": 2,
+  "titulo": "KPIs and performance",
+  "objetivo_pt": "Descrever indicadores de desempenho (KPIs), tendências e números com precisão.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você descreva os principais indicadores da sua área e como eles evoluíram.",
+    "papel_professor": "Pergunte sobre KPIs (OEE, on-time delivery, scrap rate, turnover, EBITDA). Ensine verbos e advérbios de tendência (rose sharply, fell slightly, remained stable, peaked, bottomed out). Corrija preposições (by/to/from).",
+    "abertura": "What are the three most important KPIs in your area, and how have they changed this year?",
+    "abertura_pt": "Quais são os três indicadores mais importantes da sua área e como mudaram este ano?"
+  },
+  "vocabulario": [
+    {
+      "id": "kpi",
+      "en": "KPI",
+      "pt": "indicador-chave de desempenho",
+      "emoji": "📊",
+      "exemplo_en": "On-time delivery is our main KPI.",
+      "exemplo_pt": "Entrega no prazo é nosso principal indicador."
+    },
+    {
+      "id": "rise-sharply",
+      "en": "rise sharply / dramatically",
+      "pt": "subir acentuadamente",
+      "emoji": "📈",
+      "exemplo_en": "Costs rose sharply in the first quarter.",
+      "exemplo_pt": "Os custos subiram acentuadamente no primeiro trimestre."
+    },
+    {
+      "id": "fall-slightly",
+      "en": "fall slightly / marginally",
+      "pt": "cair levemente",
+      "emoji": "📉",
+      "exemplo_en": "Turnover fell slightly.",
+      "exemplo_pt": "A rotatividade caiu levemente."
+    },
+    {
+      "id": "remain-stable",
+      "en": "remain stable / level off",
+      "pt": "manter-se estável / estabilizar",
+      "emoji": "➖",
+      "exemplo_en": "Sales remained stable.",
+      "exemplo_pt": "As vendas se mantiveram estáveis."
+    },
+    {
+      "id": "peak",
+      "en": "peak / reach a peak",
+      "pt": "atingir o pico",
+      "emoji": "⛰️",
+      "exemplo_en": "Demand peaked in December.",
+      "exemplo_pt": "A demanda atingiu o pico em dezembro."
+    },
+    {
+      "id": "bottom-out",
+      "en": "bottom out / hit a low",
+      "pt": "chegar ao fundo",
+      "emoji": "🕳️",
+      "exemplo_en": "Margins bottomed out in March.",
+      "exemplo_pt": "As margens chegaram ao fundo em março."
+    },
+    {
+      "id": "fluctuate",
+      "en": "fluctuate",
+      "pt": "oscilar",
+      "emoji": "〰️",
+      "exemplo_en": "Prices fluctuated throughout the year.",
+      "exemplo_pt": "Os preços oscilaram durante o ano."
+    },
+    {
+      "id": "steady",
+      "en": "steady / gradual",
+      "pt": "constante / gradual",
+      "emoji": "🐢",
+      "exemplo_en": "There was a steady improvement.",
+      "exemplo_pt": "Houve uma melhoria constante."
+    },
+    {
+      "id": "year-on-year",
+      "en": "year on year (YoY)",
+      "pt": "em relação ao ano anterior",
+      "emoji": "📅",
+      "exemplo_en": "Revenue grew 12% year on year.",
+      "exemplo_pt": "A receita cresceu 12% em relação ao ano anterior."
+    },
+    {
+      "id": "ebitda",
+      "en": "revenue / margin / EBITDA",
+      "pt": "receita / margem / EBITDA",
+      "emoji": "💰",
+      "exemplo_en": "Our EBITDA margin improved to 18%.",
+      "exemplo_pt": "Nossa margem EBITDA melhorou para 18%."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo tendências",
+    "explicacao_pt": "VERBOS: rise/increase/grow/go up; fall/decrease/decline/drop; remain stable/level off; peak; bottom out; fluctuate. ADVÉRBIOS (verbo + advérbio): sharply/dramatically/significantly (muito), steadily/gradually (aos poucos), slightly/marginally (pouco). SUBSTANTIVOS (adjetivo + substantivo): a sharp rise, a slight fall, a steady increase. PREPOSIÇÕES: rose BY 5% (diferença), rose TO 20% (valor final), FROM 15% TO 20%, AT a level of, a rise OF 5%, an increase IN sales. Tempo: past simple para períodos terminados; present perfect para 'até agora' (has risen since January).",
+    "tabela": {
+      "colunas": [
+        "Movimento",
+        "Verbo + advérbio",
+        "Substantivo"
+      ],
+      "linhas": [
+        [
+          "Subida forte",
+          "rose sharply",
+          "a sharp rise"
+        ],
+        [
+          "Subida gradual",
+          "increased steadily",
+          "a steady increase"
+        ],
+        [
+          "Queda pequena",
+          "fell slightly",
+          "a slight fall"
+        ],
+        [
+          "Estável",
+          "remained stable",
+          "stability"
+        ],
+        [
+          "Pico",
+          "peaked at 95%",
+          "a peak of 95%"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "On-time delivery rose sharply from 82% to 94% in the second half of the year.",
+        "pt": "A entrega no prazo subiu acentuadamente de 82% para 94% no segundo semestre."
+      },
+      {
+        "en": "Scrap fell slightly, by 0.3 percentage points, to 2.1%.",
+        "pt": "O refugo caiu levemente, 0,3 ponto percentual, para 2,1%."
+      },
+      {
+        "en": "Revenue has grown steadily since January, reaching 48 million in September.",
+        "pt": "A receita cresceu de forma constante desde janeiro, chegando a 48 milhões em setembro."
+      },
+      {
+        "en": "Raw material prices fluctuated throughout the year before levelling off in November.",
+        "pt": "Os preços de matéria-prima oscilaram o ano todo antes de estabilizar em novembro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Quarterly results",
+    "falas": [
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "Let me present the results for the third quarter.",
+        "pt": "Deixem-me apresentar os resultados do terceiro trimestre."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "Revenue grew 9% year on year, reaching 210 million reais.",
+        "pt": "A receita cresceu 9% em relação ao ano anterior, chegando a 210 milhões de reais."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "However, our EBITDA margin fell slightly, from 17% to 16.2%, mainly due to a sharp rise in energy costs.",
+        "pt": "No entanto, nossa margem EBITDA caiu levemente, de 17% para 16,2%, principalmente devido a uma alta acentuada nos custos de energia."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "On the operational side, OEE increased steadily throughout the quarter and peaked at 84% in September.",
+        "pt": "No lado operacional, o OEE aumentou de forma constante ao longo do trimestre e atingiu o pico de 84% em setembro."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "Employee turnover remained stable at around 1.5% per month.",
+        "pt": "A rotatividade de funcionários se manteve estável em torno de 1,5% ao mês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05l2-e1",
+        "tipo": "multipla",
+        "enunciado": "By how much did revenue grow year on year?",
+        "opcoes": [
+          "6%",
+          "9%",
+          "16%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What happened to the EBITDA margin?",
+        "opcoes": [
+          "It fell slightly.",
+          "It rose sharply.",
+          "It remained stable."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Why did the margin fall?",
+        "opcoes": [
+          "A sharp rise in energy costs",
+          "Lower sales",
+          "More employees"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l2-e4",
+        "tipo": "multipla",
+        "enunciado": "When did OEE peak?",
+        "opcoes": [
+          "July",
+          "August",
+          "September"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u05l2-p1",
+      "tipo": "completar",
+      "frase": "Costs rose ___ in the first quarter. (acentuadamente)",
+      "respostas": [
+        "sharply"
+      ]
+    },
+    {
+      "id": "c1u05l2-p2",
+      "tipo": "completar",
+      "frase": "Revenue grew 12% year ___ year.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "c1u05l2-p3",
+      "tipo": "completar",
+      "frase": "Scrap fell from 3% ___ 2%.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "c1u05l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Preposição para a diferença:",
+      "opcoes": [
+        "Sales rose by 5%.",
+        "Sales rose to 5% of difference.",
+        "Sales rose in 5%."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Houve uma melhoria constante\":",
+      "opcoes": [
+        "There was a steady improvement.",
+        "There was a steadily improvement.",
+        "There was improve steady."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l2-p6",
+      "tipo": "ordenar",
+      "frase": "Demand peaked in December",
+      "traducao_pt": "A demanda atingiu o pico em dezembro"
+    },
+    {
+      "id": "c1u05l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Prices fluctuated throughout the year."
+    },
+    {
+      "id": "c1u05l2-p8",
+      "tipo": "traduzir",
+      "pt": "As vendas se mantiveram estáveis.",
+      "respostas": [
+        "Sales remained stable.",
+        "Sales stayed stable."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor os resultados de um trimestre (reais ou inventados) da sua área: pelo menos 4 indicadores com números, tendências e causas.",
+    "papel_professor": "Ouça e faça perguntas (What caused that? How does it compare with last year? What's your forecast?). Corrija verbos de tendência, advérbios e preposições.",
+    "abertura": "Let's go through your results. How did the last quarter go?",
+    "abertura_pt": "Vamos passar pelos seus resultados. Como foi o último trimestre?"
+  },
+  "teste": [
+    {
+      "id": "c1u05l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Substantivo correto:",
+      "opcoes": [
+        "a sharp rise",
+        "a sharply rise",
+        "a sharp rising up"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l2-t2",
+      "tipo": "completar",
+      "frase": "Margins ___ out in March. (chegaram ao fundo)",
+      "respostas": [
+        "bottomed"
+      ]
+    },
+    {
+      "id": "c1u05l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our EBITDA margin improved to eighteen percent.",
+      "aceitas": [
+        "Our EBITDA margin improved to 18%."
+      ]
+    },
+    {
+      "id": "c1u05l2-t4",
+      "tipo": "traduzir",
+      "pt": "A rotatividade caiu levemente.",
+      "respostas": [
+        "Turnover fell slightly.",
+        "Staff turnover fell slightly.",
+        "Employee turnover fell slightly."
+      ]
+    },
+    {
+      "id": "c1u05l2-t5",
+      "tipo": "ordenar",
+      "frase": "On-time delivery is our main KPI",
+      "traducao_pt": "Entrega no prazo é nosso principal indicador"
+    }
+  ]
+}

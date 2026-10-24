@@ -1,0 +1,347 @@
+{
+  "id": "c1-u05-l1",
+  "nivel": "C1",
+  "unidade": 5,
+  "numero": 1,
+  "titulo": "Our strategy",
+  "objetivo_pt": "Falar de estratégia corporativa: visão, objetivos, prioridades e vantagem competitiva.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre a estratégia da sua empresa. Explique a visão, os principais objetivos e o que diferencia a empresa dos concorrentes.",
+    "papel_professor": "Pergunte (What is your company's strategy? What makes you different? What are the strategic priorities this year?). Ensine vocabulário de estratégia. Corrija.",
+    "abertura": "What would you say is your company's main competitive advantage?",
+    "abertura_pt": "Qual você diria que é a principal vantagem competitiva da sua empresa?"
+  },
+  "vocabulario": [
+    {
+      "id": "vision",
+      "en": "vision / mission",
+      "pt": "visão / missão",
+      "emoji": "🔭",
+      "exemplo_en": "Our vision is to be the most reliable supplier in Latin America.",
+      "exemplo_pt": "Nossa visão é ser o fornecedor mais confiável da América Latina."
+    },
+    {
+      "id": "strategic",
+      "en": "strategic priority",
+      "pt": "prioridade estratégica",
+      "emoji": "⭐",
+      "exemplo_en": "Our strategic priority this year is digitalization.",
+      "exemplo_pt": "Nossa prioridade estratégica este ano é a digitalização."
+    },
+    {
+      "id": "competitive-advantage",
+      "en": "competitive advantage",
+      "pt": "vantagem competitiva",
+      "emoji": "🏆",
+      "exemplo_en": "Our competitive advantage is speed.",
+      "exemplo_pt": "Nossa vantagem competitiva é a rapidez."
+    },
+    {
+      "id": "market-share",
+      "en": "market share",
+      "pt": "participação de mercado",
+      "emoji": "🥧",
+      "exemplo_en": "We have a 25% market share.",
+      "exemplo_pt": "Temos 25% de participação de mercado."
+    },
+    {
+      "id": "core-business",
+      "en": "core business",
+      "pt": "negócio principal",
+      "emoji": "🎯",
+      "exemplo_en": "Packaging is our core business.",
+      "exemplo_pt": "Embalagem é nosso negócio principal."
+    },
+    {
+      "id": "expand",
+      "en": "expand into (new markets)",
+      "pt": "expandir para",
+      "emoji": "🌎",
+      "exemplo_en": "We plan to expand into Mexico.",
+      "exemplo_pt": "Planejamos expandir para o México."
+    },
+    {
+      "id": "stakeholders-l1",
+      "en": "shareholders / stakeholders",
+      "pt": "acionistas / partes interessadas",
+      "emoji": "👥",
+      "exemplo_en": "We must create value for our shareholders.",
+      "exemplo_pt": "Precisamos criar valor para nossos acionistas."
+    },
+    {
+      "id": "long-term-l1",
+      "en": "long-term growth",
+      "pt": "crescimento de longo prazo",
+      "emoji": "🌳",
+      "exemplo_en": "We focus on long-term growth.",
+      "exemplo_pt": "Focamos em crescimento de longo prazo."
+    },
+    {
+      "id": "sustainability",
+      "en": "sustainability / ESG",
+      "pt": "sustentabilidade / ESG",
+      "emoji": "♻️",
+      "exemplo_en": "Sustainability is at the heart of our strategy.",
+      "exemplo_pt": "A sustentabilidade está no centro da nossa estratégia."
+    },
+    {
+      "id": "align",
+      "en": "align (with)",
+      "pt": "alinhar (com)",
+      "emoji": "📐",
+      "exemplo_en": "Every project must align with the strategy.",
+      "exemplo_pt": "Todo projeto deve estar alinhado à estratégia."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Linguagem de estratégia",
+    "explicacao_pt": "Para falar de estratégia, combine: 1) VISÃO/MISSÃO (presente simples): Our mission is to… / We aim to… 2) PRIORIDADES (presente/futuro): Our strategic priorities are… / This year, we will focus on… 3) POSIÇÃO NO MERCADO: We are the market leader in… / We hold a 25% market share. 4) DIFERENCIAÇÃO: What sets us apart is… / Our competitive advantage lies in… 5) PLANOS: We plan to expand into… / We intend to… / By 2030, we aim to have… Use verbos de intenção: aim, intend, plan, seek, strive.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Missão",
+          "Our mission is to…",
+          "Our mission is to make packaging sustainable."
+        ],
+        [
+          "Diferencial",
+          "What sets us apart is…",
+          "What sets us apart is our service."
+        ],
+        [
+          "Posição",
+          "We are the market leader in…",
+          "We are the market leader in the South."
+        ],
+        [
+          "Prioridade",
+          "This year, we will focus on…",
+          "This year, we will focus on exports."
+        ],
+        [
+          "Ambição",
+          "By 2030, we aim to…",
+          "By 2030, we aim to double our revenue."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our mission is to provide safe, affordable packaging while reducing our environmental impact.",
+        "pt": "Nossa missão é oferecer embalagens seguras e acessíveis, reduzindo nosso impacto ambiental."
+      },
+      {
+        "en": "What sets us apart from our competitors is our technical support.",
+        "pt": "O que nos diferencia dos concorrentes é nosso suporte técnico."
+      },
+      {
+        "en": "We currently hold a 30% market share in Brazil and aim to expand into Argentina and Chile.",
+        "pt": "Atualmente temos 30% de participação no Brasil e queremos expandir para Argentina e Chile."
+      },
+      {
+        "en": "Every investment must align with our three strategic priorities.",
+        "pt": "Todo investimento deve estar alinhado às nossas três prioridades estratégicas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The CEO's message",
+    "falas": [
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Good morning. I'd like to share our strategy for the next five years.",
+        "pt": "Bom dia. Gostaria de compartilhar nossa estratégia para os próximos cinco anos."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Our vision remains the same: to be the most reliable supplier of auto parts in South America.",
+        "pt": "Nossa visão continua a mesma: ser o fornecedor mais confiável de autopeças da América do Sul."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "We currently hold a 22% market share in Brazil. By 2030, we aim to reach 30% and expand into Colombia.",
+        "pt": "Atualmente temos 22% de participação de mercado no Brasil. Até 2030, queremos chegar a 30% e expandir para a Colômbia."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "We have three strategic priorities: electric vehicle parts, digitalization of our plants, and sustainability.",
+        "pt": "Temos três prioridades estratégicas: peças para veículos elétricos, digitalização das fábricas e sustentabilidade."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "What sets us apart is not price. It's our quality and our technical partnership with customers.",
+        "pt": "O que nos diferencia não é o preço. É nossa qualidade e nossa parceria técnica com os clientes."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What is their vision?",
+        "opcoes": [
+          "To be the most reliable supplier of auto parts in South America",
+          "To be the cheapest supplier",
+          "To make cars"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What is their current market share in Brazil?",
+        "opcoes": [
+          "20%",
+          "22%",
+          "30%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Where do they want to expand?",
+        "opcoes": [
+          "Colombia",
+          "Mexico",
+          "Chile"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What sets them apart?",
+        "opcoes": [
+          "Quality and technical partnership",
+          "Low price",
+          "Marketing"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u05l1-p1",
+      "tipo": "completar",
+      "frase": "We have a 25% market ___.",
+      "respostas": [
+        "share"
+      ]
+    },
+    {
+      "id": "c1u05l1-p2",
+      "tipo": "completar",
+      "frase": "Packaging is our ___ business. (principal)",
+      "respostas": [
+        "core"
+      ]
+    },
+    {
+      "id": "c1u05l1-p3",
+      "tipo": "completar",
+      "frase": "Every project must ___ with the strategy. (alinhar)",
+      "respostas": [
+        "align"
+      ]
+    },
+    {
+      "id": "c1u05l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O que nos diferencia é nosso serviço\":",
+      "opcoes": [
+        "What sets us apart is our service.",
+        "What sets apart us is our service.",
+        "What puts us apart is service."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Planejamos expandir para o México\":",
+      "opcoes": [
+        "We plan to expand into Mexico.",
+        "We plan to expand at Mexico.",
+        "We plan expanding to Mexico in."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l1-p6",
+      "tipo": "ordenar",
+      "frase": "Sustainability is at the heart of our strategy",
+      "traducao_pt": "A sustentabilidade está no centro da nossa estratégia"
+    },
+    {
+      "id": "c1u05l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Our competitive advantage is speed."
+    },
+    {
+      "id": "c1u05l1-p8",
+      "tipo": "traduzir",
+      "pt": "Nossa prioridade estratégica este ano é a digitalização.",
+      "respostas": [
+        "Our strategic priority this year is digitalization.",
+        "This year, our strategic priority is digitalization."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor (um investidor) a estratégia da sua empresa ou de uma empresa que você conhece: missão, posição no mercado, diferencial, prioridades e ambição para 2030.",
+    "papel_professor": "Faça o papel de investidor. Pergunte (Why would customers choose you? What's your biggest threat? How will you fund the expansion?). Corrija vocabulário estratégico e verbos de intenção.",
+    "abertura": "I'm considering investing in your company. Tell me about your strategy.",
+    "abertura_pt": "Estou pensando em investir na sua empresa. Me fale da sua estratégia."
+  },
+  "teste": [
+    {
+      "id": "c1u05l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Verbo de intenção:",
+      "opcoes": [
+        "We aim to double our revenue.",
+        "We aim doubling our revenue.",
+        "We aim double revenue."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l1-t2",
+      "tipo": "completar",
+      "frase": "Our ___ is to be the most reliable supplier. (visão)",
+      "respostas": [
+        "vision"
+      ]
+    },
+    {
+      "id": "c1u05l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We must create value for our shareholders."
+    },
+    {
+      "id": "c1u05l1-t4",
+      "tipo": "traduzir",
+      "pt": "Focamos em crescimento de longo prazo.",
+      "respostas": [
+        "We focus on long-term growth."
+      ]
+    },
+    {
+      "id": "c1u05l1-t5",
+      "tipo": "ordenar",
+      "frase": "We are the market leader in the South",
+      "traducao_pt": "Somos líderes de mercado no Sul"
+    }
+  ]
+}

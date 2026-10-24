@@ -1,0 +1,256 @@
+{
+  "id": "c1-u06-prova",
+  "nivel": "C1",
+  "unidade": 6,
+  "titulo": "Prova da Unidade 6 (C1) — Supply chain",
+  "leitura": {
+    "texto": "THE END OF JUST-IN-TIME?\nFor decades, just-in-time was considered the gold standard of supply chain management. Inventory was seen as waste, and companies were praised for keeping stock levels as low as possible. Then came the pandemic, the chip shortage and a series of port closures. It is estimated that the global automotive industry lost over 200 billion dollars in revenue in 2021 alone because of missing semiconductors.\nMany experts now believe that the pendulum has swung too far. 'Just-in-time works beautifully when everything goes well,' says logistics professor Hélio Brandão. 'But it leaves no margin for error. A single fire at a tier 2 supplier can stop an entire production line on the other side of the world.'\nAs a result, companies are being forced to rethink their strategies. Safety stock of critical components is being increased, and single sourcing is being replaced by dual or multiple sourcing. Nearshoring is also growing: several European manufacturers are reported to have moved part of their supply base from Asia to Eastern Europe and North Africa.\nHowever, resilience comes at a price. Holding more inventory ties up cash, and qualifying new suppliers takes time. 'There's always a trade-off between cost and risk,' Brandão explains. 'The question is not whether to abandon just-in-time, but where it still makes sense.'\nHis recommendation: classify components by risk. 'For cheap, easily available parts, just-in-time is still the best option. For critical, single-source components, a buffer should have been built years ago.'",
+    "perguntas": [
+      {
+        "id": "c1u06pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How was inventory seen under just-in-time?",
+        "opcoes": [
+          "As waste",
+          "As an investment",
+          "As a safety measure"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How much revenue did the automotive industry lose in 2021?",
+        "opcoes": [
+          "Over 20 billion dollars",
+          "Over 200 billion dollars",
+          "Over 2 trillion dollars"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What was the cause of these losses?",
+        "opcoes": [
+          "Missing semiconductors",
+          "A strike",
+          "High oil prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with just-in-time, according to Brandão?",
+        "opcoes": [
+          "It leaves no margin for error.",
+          "It is too expensive.",
+          "It is too slow."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What is replacing single sourcing?",
+        "opcoes": [
+          "Dual or multiple sourcing",
+          "Just-in-time",
+          "Air freight"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Where are some European manufacturers moving their supply base?",
+        "opcoes": [
+          "To Eastern Europe and North Africa",
+          "To China",
+          "To South America"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What is a cost of resilience?",
+        "opcoes": [
+          "Holding more inventory ties up cash.",
+          "It reduces quality.",
+          "It increases accidents."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What does Brandão recommend?",
+        "opcoes": [
+          "Classifying components by risk",
+          "Abandoning just-in-time completely",
+          "Using only local suppliers"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Give me the latest on the resin situation.",
+        "pt": "Me dê as últimas sobre a situação da resina."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Our supplier in the US is reported to have had a major breakdown at its main plant. Deliveries are expected to be delayed by at least four weeks.",
+        "pt": "Consta que nosso fornecedor nos EUA teve uma grande quebra na fábrica principal. Espera-se que as entregas atrasem pelo menos quatro semanas."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "How much stock do we have?",
+        "pt": "Quanto estoque temos?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Fifteen days at current consumption. The packing line is already our bottleneck, so any stop there would hold up all deliveries.",
+        "pt": "Quinze dias no consumo atual. A linha de embalagem já é nosso gargalo, então qualquer parada lá seguraria todas as entregas."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Options?",
+        "pt": "Opções?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Having contacted four suppliers, we've found two in Asia, but their lead time is eight weeks by sea. A local distributor can deliver in ten days, but it's 18% more expensive.",
+        "pt": "Tendo contatado quatro fornecedores, achamos dois na Ásia, mas o prazo deles é de oito semanas por mar. Um distribuidor local entrega em dez dias, mas é 18% mais caro."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Let's go with the local distributor for now. And honestly, this should have been anticipated. We need a second qualified supplier.",
+        "pt": "Vamos com o distribuidor local por enquanto. E sinceramente, isso deveria ter sido previsto. Precisamos de um segundo fornecedor qualificado."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Agreed. I'll start the qualification process this week and keep you posted.",
+        "pt": "Concordo. Começo o processo de qualificação esta semana e te mantenho informado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What happened to the US supplier?",
+        "opcoes": [
+          "A major breakdown at its main plant",
+          "A strike",
+          "A fire"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How long will deliveries be delayed?",
+        "opcoes": [
+          "At least two weeks",
+          "At least four weeks",
+          "At least eight weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How much stock do they have?",
+        "opcoes": [
+          "Ten days",
+          "Fifteen days",
+          "Thirty days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the bottleneck?",
+        "opcoes": [
+          "The packing line",
+          "The warehouse",
+          "Customs"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Why not use the Asian suppliers?",
+        "opcoes": [
+          "Their lead time is eight weeks by sea.",
+          "They are too expensive.",
+          "Their quality is poor."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What does the director say should have been done?",
+        "opcoes": [
+          "The situation should have been anticipated with a second supplier.",
+          "They should have used air freight.",
+          "They should have closed the line."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Deliveries are expected to be delayed by at least four weeks."
+      },
+      {
+        "id": "c1u06pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "This should have been anticipated."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u06pv-w1",
+      "instrucao_pt": "Descreva a cadeia de suprimentos de um produto da sua empresa (ou que você conhece) e identifique o gargalo e um risco principal.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u06pv-w2",
+      "instrucao_pt": "Escreva um boletim de crise para a diretoria: situação (passiva impessoal), impacto, opções, decisão e uma lição aprendida.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u06pv-s1",
+      "pergunta_en": "Explain your company's biggest supply chain risk and what you would do to build resilience.",
+      "instrucao_pt": "Fale em voz alta com condicionais e linguagem de recomendação."
+    },
+    {
+      "id": "c1u06pv-s2",
+      "pergunta_en": "A critical supplier has just stopped delivering. Brief your director and propose a plan.",
+      "instrucao_pt": "Use passiva impessoal, números e participle clauses."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Vocabulário de supply chain (sourcing, upstream/downstream, tier 1/2, DC, end-to-end visibility, customs clearance, lead time, bottleneck, throughput, safety stock, stockout, JIT, inventory turnover), passiva avançada (It is believed that…, X is expected to…, is said to have + pp, should/must have been + pp, is being + pp), resiliência (single/dual sourcing, nearshoring, contingency plan, trade-off), gestão de crise."
+}

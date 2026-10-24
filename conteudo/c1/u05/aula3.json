@@ -1,0 +1,350 @@
+{
+  "id": "c1-u05-l3",
+  "nivel": "C1",
+  "unidade": 5,
+  "numero": 3,
+  "titulo": "Having analyzed the data…",
+  "objetivo_pt": "Usar participle clauses para escrever e falar de forma concisa e sofisticada.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar duas frases. Junte-as numa só usando participle clauses (Having analyzed…, Based on…, Founded in…).",
+    "papel_professor": "Dê pares (We analyzed the data. We decided to close line 4. / The company was founded in 1980. It now has 2,000 employees.) e peça versões com particípio. Ensine -ing, having + pp e particípio passado. Corrija o sujeito oculto.",
+    "abertura": "Join these: 'We analyzed the data. Then we decided to close line 4.'",
+    "abertura_pt": "Junte estas: \"Analisamos os dados. Depois decidimos fechar a linha 4.\""
+  },
+  "vocabulario": [
+    {
+      "id": "having-pp",
+      "en": "Having + particípio, …",
+      "pt": "Tendo (feito)…, …",
+      "emoji": "✔️",
+      "exemplo_en": "Having analyzed the data, we decided to act.",
+      "exemplo_pt": "Tendo analisado os dados, decidimos agir."
+    },
+    {
+      "id": "ing-clause",
+      "en": "-ing clause (Using…, Working…)",
+      "pt": "oração com -ing (Usando…, Trabalhando…)",
+      "emoji": "🔄",
+      "exemplo_en": "Using the new software, we cut errors by half.",
+      "exemplo_pt": "Usando o novo software, cortamos os erros pela metade."
+    },
+    {
+      "id": "pp-clause",
+      "en": "Founded / Based / Located…",
+      "pt": "Fundada / Baseada / Localizada…",
+      "emoji": "🏢",
+      "exemplo_en": "Founded in 1980, the company now employs 2,000 people.",
+      "exemplo_pt": "Fundada em 1980, a empresa hoje emprega 2.000 pessoas."
+    },
+    {
+      "id": "based-on",
+      "en": "Based on…",
+      "pt": "Com base em…",
+      "emoji": "📊",
+      "exemplo_en": "Based on the results, we recommend option B.",
+      "exemplo_pt": "Com base nos resultados, recomendamos a opção B."
+    },
+    {
+      "id": "given",
+      "en": "Given…",
+      "pt": "Dado(s)… / Considerando…",
+      "emoji": "🎁",
+      "exemplo_en": "Given the current situation, we must act fast.",
+      "exemplo_pt": "Dada a situação atual, precisamos agir rápido."
+    },
+    {
+      "id": "compared-with",
+      "en": "Compared with…",
+      "pt": "Comparado com…",
+      "emoji": "⚖️",
+      "exemplo_en": "Compared with last year, costs are lower.",
+      "exemplo_pt": "Comparado ao ano passado, os custos estão menores."
+    },
+    {
+      "id": "not-having",
+      "en": "Not having…",
+      "pt": "Não tendo…",
+      "emoji": "🚫",
+      "exemplo_en": "Not having enough data, we postponed the decision.",
+      "exemplo_pt": "Não tendo dados suficientes, adiamos a decisão."
+    },
+    {
+      "id": "when-ing",
+      "en": "When / While + -ing",
+      "pt": "Ao / Enquanto + verbo",
+      "emoji": "⏱️",
+      "exemplo_en": "When preparing the report, check all the figures.",
+      "exemplo_pt": "Ao preparar o relatório, confira todos os números."
+    },
+    {
+      "id": "dangling",
+      "en": "dangling participle",
+      "pt": "particípio solto (erro)",
+      "emoji": "⚠️",
+      "exemplo_en": "Avoid dangling participles.",
+      "exemplo_pt": "Evite particípios soltos."
+    },
+    {
+      "id": "concise",
+      "en": "concise",
+      "pt": "conciso",
+      "emoji": "✂️",
+      "exemplo_en": "Participle clauses make your writing more concise.",
+      "exemplo_pt": "Orações com particípio deixam a escrita mais concisa."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Participle clauses",
+    "explicacao_pt": "Reduzem orações e soam profissionais. 1) PRESENTE (-ing) = ação ao mesmo tempo ou causa: Using the new system, we cut errors. (= Because we used…) 2) PERFEITO (Having + pp) = ação ANTERIOR: Having analyzed the data, we decided… (= After we had analyzed…) 3) PASSADO (pp) = sentido passivo: Founded in 1980, the company… (= The company, which was founded…) / Based on the results, … 4) Com conjunções: When preparing…, While working…, After signing… REGRA DE OURO: o sujeito oculto da oração com particípio deve ser o MESMO da oração principal. Erro: 'Having analyzed the data, the line was closed' (a linha não analisou!) → 'Having analyzed the data, we closed the line'.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Exemplo",
+        "Equivale a"
+      ],
+      "linhas": [
+        [
+          "-ing (simultâneo/causa)",
+          "Working with suppliers, we cut lead times.",
+          "Because we worked with suppliers…"
+        ],
+        [
+          "Having + pp (anterior)",
+          "Having signed the contract, they started.",
+          "After they had signed…"
+        ],
+        [
+          "pp (passiva)",
+          "Located in Joinville, the plant…",
+          "The plant, which is located…"
+        ],
+        [
+          "Based on / Given",
+          "Based on the data, we recommend…",
+          "If we base our decision on…"
+        ],
+        [
+          "Erro (sujeito diferente)",
+          "✗ Having checked it, the report was sent.",
+          "✓ Having checked it, I sent the report."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Having analyzed two years of data, the team identified three main causes of delay.",
+        "pt": "Tendo analisado dois anos de dados, a equipe identificou três causas principais de atraso."
+      },
+      {
+        "en": "Founded in 1975, Metal Sul is now one of the largest steel distributors in the country.",
+        "pt": "Fundada em 1975, a Metal Sul é hoje uma das maiores distribuidoras de aço do país."
+      },
+      {
+        "en": "Based on these results, we recommend expanding the pilot to all plants.",
+        "pt": "Com base nesses resultados, recomendamos ampliar o piloto para todas as fábricas."
+      },
+      {
+        "en": "Given the rise in energy prices, the investment in solar panels has become even more attractive.",
+        "pt": "Dada a alta nos preços de energia, o investimento em painéis solares ficou ainda mais atraente."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An annual report extract",
+    "falas": [
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Founded in 1988 in Caxias do Sul, Serra Componentes now employs 1,800 people in four plants.",
+        "pt": "Fundada em 1988 em Caxias do Sul, a Serra Componentes emprega hoje 1.800 pessoas em quatro fábricas."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Having completed the acquisition of a competitor in March, the company increased its market share to 28%.",
+        "pt": "Tendo concluído a aquisição de um concorrente em março, a empresa aumentou sua participação de mercado para 28%."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Using new automation technology, the group reduced production costs by 7% while improving quality.",
+        "pt": "Usando nova tecnologia de automação, o grupo reduziu os custos de produção em 7% enquanto melhorava a qualidade."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Given the uncertain economic outlook, the board has decided to postpone the opening of a fifth plant.",
+        "pt": "Dado o cenário econômico incerto, o conselho decidiu adiar a abertura de uma quinta fábrica."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Based on current orders, management expects revenue to grow by around 10% next year.",
+        "pt": "Com base nos pedidos atuais, a gestão espera que a receita cresça em torno de 10% no próximo ano."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05l3-e1",
+        "tipo": "multipla",
+        "enunciado": "When was the company founded?",
+        "opcoes": [
+          "1978",
+          "1988",
+          "1998"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What did the company complete in March?",
+        "opcoes": [
+          "The acquisition of a competitor",
+          "A new plant",
+          "An IPO"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l3-e3",
+        "tipo": "multipla",
+        "enunciado": "By how much did production costs fall?",
+        "opcoes": [
+          "7%",
+          "10%",
+          "28%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l3-e4",
+        "tipo": "multipla",
+        "enunciado": "Why was the fifth plant postponed?",
+        "opcoes": [
+          "The uncertain economic outlook",
+          "A lack of workers",
+          "Environmental problems"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u05l3-p1",
+      "tipo": "completar",
+      "frase": "___ analyzed the data, we decided to act.",
+      "respostas": [
+        "Having"
+      ]
+    },
+    {
+      "id": "c1u05l3-p2",
+      "tipo": "completar",
+      "frase": "___ in 1980, the company now employs 2,000 people. (fundada)",
+      "respostas": [
+        "Founded"
+      ]
+    },
+    {
+      "id": "c1u05l3-p3",
+      "tipo": "completar",
+      "frase": "___ on the results, we recommend option B. (com base)",
+      "respostas": [
+        "Based"
+      ]
+    },
+    {
+      "id": "c1u05l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Sem erro de sujeito:",
+      "opcoes": [
+        "Having checked the figures, I sent the report.",
+        "Having checked the figures, the report was sent."
+      ],
+      "correta": 0,
+      "explicacao_pt": "O sujeito oculto (quem verificou) deve ser o mesmo da oração principal."
+    },
+    {
+      "id": "c1u05l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Dada a situação atual\":",
+      "opcoes": [
+        "Given the current situation",
+        "Giving the current situation",
+        "Gave the current situation"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l3-p6",
+      "tipo": "ordenar",
+      "frase": "Compared with last year costs are lower",
+      "traducao_pt": "Comparado ao ano passado, os custos estão menores"
+    },
+    {
+      "id": "c1u05l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Participle clauses make your writing more concise."
+    },
+    {
+      "id": "c1u05l3-p8",
+      "tipo": "traduzir",
+      "pt": "Usando o novo software, cortamos os erros pela metade.",
+      "respostas": [
+        "Using the new software, we cut errors by half.",
+        "Using the new software, we cut the errors by half.",
+        "Using the new software, we halved errors."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Descreva ao professor, como num relatório anual, a história recente e os resultados da sua empresa, usando pelo menos 5 participle clauses (Founded in…, Having…, Using…, Based on…, Given…).",
+    "papel_professor": "Ouça o relato estilo relatório anual. Peça que reformule frases longas com participle clauses. Corrija particípios soltos (sujeito errado).",
+    "abertura": "Imagine you're writing the first paragraph of your company's annual report. Read it to me.",
+    "abertura_pt": "Imagine que você está escrevendo o primeiro parágrafo do relatório anual da sua empresa. Leia para mim."
+  },
+  "teste": [
+    {
+      "id": "c1u05l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Ação anterior:",
+      "opcoes": [
+        "Having signed the contract, they started production.",
+        "Signed the contract, they started.",
+        "Having sign the contract, they started."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l3-t2",
+      "tipo": "completar",
+      "frase": "Not ___ enough data, we postponed the decision. (tendo)",
+      "respostas": [
+        "having"
+      ]
+    },
+    {
+      "id": "c1u05l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "When preparing the report, check all the figures."
+    },
+    {
+      "id": "c1u05l3-t4",
+      "tipo": "traduzir",
+      "pt": "Dada a situação atual, precisamos agir rápido.",
+      "respostas": [
+        "Given the current situation, we must act fast.",
+        "Given the current situation, we need to act quickly.",
+        "Given the current situation, we must act quickly."
+      ]
+    },
+    {
+      "id": "c1u05l3-t5",
+      "tipo": "ordenar",
+      "frase": "Located in Joinville the plant employs 500 people",
+      "traducao_pt": "Localizada em Joinville, a fábrica emprega 500 pessoas"
+    }
+  ]
+}
