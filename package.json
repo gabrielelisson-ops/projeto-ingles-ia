@@ -26,6 +26,7 @@
     "@types/react": "~19.3.0",
     "jest": "^30.5.2",
     "jest-expo": "~58.0.12",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -34,7 +35,8 @@
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "conteudo:indice": "node scripts/gerar-indice.js",
-    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && jest"
+    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && jest",
+    "gerar": "tsx scripts/gerar-conteudo.ts"
   },
   "private": true,
   "jest": {

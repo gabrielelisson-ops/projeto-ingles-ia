@@ -48,6 +48,8 @@ export type EntradaProva = {
   /** Nota de cada tarefa, de 0 a 10. */
   escrita: number[];
   fala: number[];
+  /** Prova final: nota da entrevista oral (0 a 10). Vale metade da parte de fala. */
+  entrevista?: number;
 };
 
 export type ResultadoProva = {
@@ -67,7 +69,7 @@ export function calcularProva(e: EntradaProva): ResultadoProva {
     leitura: Math.round(pct(e.leitura.acertos, e.leitura.total)),
     escuta: Math.round(pct(e.escuta.acertos, e.escuta.total)),
     escrita: Math.round(mediaDe10(e.escrita)),
-    fala: Math.round(mediaDe10(e.fala)),
+    fala: Math.round(e.entrevista == null ? mediaDe10(e.fala) : (mediaDe10(e.fala) + mediaDe10([e.entrevista])) / 2),
   };
   const valores = Object.values(partes);
   const nota = Math.round(valores.reduce((s, v) => s + v, 0) / valores.length);

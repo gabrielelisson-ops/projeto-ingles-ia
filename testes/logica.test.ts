@@ -259,3 +259,25 @@ describe('painel', () => {
     }
   });
 });
+
+// ---------- Fase 2: prova final e certificado ----------
+
+import { esc, htmlCertificado } from '../src/logica/certificado';
+
+describe('prova final e certificado', () => {
+  test('entrevista vale metade da parte de fala', () => {
+    const base = { leitura: { acertos: 10, total: 10 }, escuta: { acertos: 10, total: 10 }, escrita: [10], fala: [8] };
+    expect(calcularProva(base).partes.fala).toBe(80);
+    expect(calcularProva({ ...base, entrevista: 4 }).partes.fala).toBe(60);
+    expect(calcularProva({ ...base, entrevista: 4 }).nota).toBe(90);
+  });
+
+  test('certificado escapa o nome e limita a nota', () => {
+    const h = htmlCertificado({ nome: '<script>alert(1)</script> & "Ana"', nivel: 'A1', nomeNivel: 'Básico 1', nota: 140, data: Date.UTC(2026, 9, 24, 12) });
+    expect(h).not.toContain('<script>alert');
+    expect(h).toContain('&lt;script&gt;alert(1)&lt;/script&gt; &amp; &quot;Ana&quot;');
+    expect(h).toContain('100/100');
+    expect(h).toContain('A1 — Básico 1');
+    expect(esc("it's")).toBe('it&#39;s');
+  });
+});
