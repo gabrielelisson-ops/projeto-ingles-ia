@@ -1,0 +1,357 @@
+{
+  "id": "a1-u05-l4",
+  "nivel": "A1",
+  "unidade": 5,
+  "numero": 4,
+  "titulo": "Always, sometimes, never",
+  "objetivo_pt": "Dizer com que frequência você faz as coisas: always, usually, often, sometimes, never.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar com que frequência você faz algumas coisas. Responda com always, sometimes, never…",
+    "papel_professor": "Pergunte com que frequência o aluno faz coisas (How often do you…? Do you always…?). Corrija a posição do advérbio (I always get up, I'm always late).",
+    "abertura": "How often do you drink coffee? Always, sometimes or never?",
+    "abertura_pt": "Com que frequência você bebe café? Sempre, às vezes ou nunca?"
+  },
+  "vocabulario": [
+    {
+      "id": "always",
+      "en": "always",
+      "pt": "sempre",
+      "emoji": "💯",
+      "exemplo_en": "I always have breakfast.",
+      "exemplo_pt": "Eu sempre tomo café da manhã."
+    },
+    {
+      "id": "usually",
+      "en": "usually",
+      "pt": "geralmente",
+      "emoji": "📈",
+      "exemplo_en": "She usually gets up at six.",
+      "exemplo_pt": "Ela geralmente acorda às seis."
+    },
+    {
+      "id": "often",
+      "en": "often",
+      "pt": "frequentemente",
+      "emoji": "🔁",
+      "exemplo_en": "We often eat fish.",
+      "exemplo_pt": "Nós comemos peixe com frequência."
+    },
+    {
+      "id": "sometimes",
+      "en": "sometimes",
+      "pt": "às vezes",
+      "emoji": "🤷",
+      "exemplo_en": "He sometimes works on Saturdays.",
+      "exemplo_pt": "Ele às vezes trabalha aos sábados."
+    },
+    {
+      "id": "never",
+      "en": "never",
+      "pt": "nunca",
+      "emoji": "🚫",
+      "exemplo_en": "I never drink alcohol at lunch.",
+      "exemplo_pt": "Eu nunca bebo álcool no almoço."
+    },
+    {
+      "id": "how-often",
+      "en": "How often…?",
+      "pt": "Com que frequência…?",
+      "emoji": "❓",
+      "exemplo_en": "How often do you exercise?",
+      "exemplo_pt": "Com que frequência você se exercita?"
+    },
+    {
+      "id": "once-twice",
+      "en": "once a week / twice a week",
+      "pt": "uma vez / duas vezes por semana",
+      "emoji": "📅",
+      "exemplo_en": "I go to the gym twice a week.",
+      "exemplo_pt": "Vou à academia duas vezes por semana."
+    },
+    {
+      "id": "exercise",
+      "en": "exercise",
+      "pt": "fazer exercício",
+      "emoji": "🏃",
+      "exemplo_en": "She exercises every morning.",
+      "exemplo_pt": "Ela se exercita toda manhã."
+    },
+    {
+      "id": "on-time",
+      "en": "on time",
+      "pt": "pontual / na hora",
+      "emoji": "⌚",
+      "exemplo_en": "He's always on time.",
+      "exemplo_pt": "Ele é sempre pontual."
+    },
+    {
+      "id": "busy",
+      "en": "busy",
+      "pt": "ocupado(a)",
+      "emoji": "📋",
+      "exemplo_en": "I'm usually busy on Mondays.",
+      "exemplo_pt": "Geralmente estou ocupado às segundas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Advérbios de frequência",
+    "explicacao_pt": "Estes advérbios dizem a frequência: always (100%), usually (80%), often (60%), sometimes (40%), never (0%). Posição: ANTES do verbo principal (I always get up at six; She never drinks coffee), mas DEPOIS do verbo to be (He is always late; We are never busy). Para perguntar: How often do you…? Respostas também podem ser: every day, once a week, twice a month.",
+    "tabela": {
+      "colunas": [
+        "Advérbio",
+        "%",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "always",
+          "100%",
+          "I always walk to work."
+        ],
+        [
+          "usually",
+          "80%",
+          "She usually has lunch at noon."
+        ],
+        [
+          "often",
+          "60%",
+          "We often work overtime."
+        ],
+        [
+          "sometimes",
+          "40%",
+          "He sometimes cooks."
+        ],
+        [
+          "never",
+          "0%",
+          "They never work on Sundays."
+        ],
+        [
+          "com to be",
+          "depois de be",
+          "I'm always tired on Fridays."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My boss is never late.",
+        "pt": "Meu chefe nunca se atrasa."
+      },
+      {
+        "en": "We usually have a meeting on Monday.",
+        "pt": "Geralmente temos reunião na segunda."
+      },
+      {
+        "en": "How often do you visit your parents? — Once a month.",
+        "pt": "Com que frequência você visita seus pais? — Uma vez por mês."
+      },
+      {
+        "en": "She sometimes works from home.",
+        "pt": "Ela às vezes trabalha de casa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Healthy habits?",
+    "falas": [
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "How often do you exercise, Mr. Lopes?",
+        "pt": "Com que frequência o senhor se exercita, Sr. Lopes?"
+      },
+      {
+        "personagem": "Lopes",
+        "voz": "b",
+        "en": "Hmm… I sometimes walk on weekends.",
+        "pt": "Hmm… Às vezes caminho nos fins de semana."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "And do you eat vegetables?",
+        "pt": "E o senhor come verduras?"
+      },
+      {
+        "personagem": "Lopes",
+        "voz": "b",
+        "en": "Not often. I usually eat at the factory. I always have meat and rice.",
+        "pt": "Não com frequência. Geralmente como na fábrica. Sempre como carne e arroz."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "Do you drink water?",
+        "pt": "O senhor bebe água?"
+      },
+      {
+        "personagem": "Lopes",
+        "voz": "b",
+        "en": "I never drink water at work. I drink coffee. Lots of coffee!",
+        "pt": "Nunca bebo água no trabalho. Bebo café. Muito café!"
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "OK. We need to change some habits!",
+        "pt": "OK. Precisamos mudar alguns hábitos!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u05l4-e1",
+        "tipo": "multipla",
+        "enunciado": "When does Mr. Lopes walk?",
+        "opcoes": [
+          "Every day",
+          "Sometimes on weekends",
+          "Never"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Where does he usually eat?",
+        "opcoes": [
+          "At home",
+          "At the factory",
+          "In a restaurant"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u05l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What does he drink at work?",
+        "opcoes": [
+          "Water",
+          "Coffee",
+          "Juice"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u05l4-p1",
+      "tipo": "completar",
+      "frase": "I ___ have breakfast. (100%)",
+      "respostas": [
+        "always"
+      ]
+    },
+    {
+      "id": "a1u05l4-p2",
+      "tipo": "completar",
+      "frase": "She ___ drinks alcohol. (0%)",
+      "respostas": [
+        "never"
+      ]
+    },
+    {
+      "id": "a1u05l4-p3",
+      "tipo": "multipla",
+      "enunciado": "Posição correta:",
+      "opcoes": [
+        "He always is late.",
+        "He is always late.",
+        "Always he is late."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Com to be, o advérbio vem depois."
+    },
+    {
+      "id": "a1u05l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Posição correta:",
+      "opcoes": [
+        "I get always up at six.",
+        "I always get up at six.",
+        "I get up at six always."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u05l4-p5",
+      "tipo": "ordenar",
+      "frase": "We usually have a meeting on Monday",
+      "traducao_pt": "Geralmente temos reunião na segunda"
+    },
+    {
+      "id": "a1u05l4-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "How often do you exercise?"
+    },
+    {
+      "id": "a1u05l4-p7",
+      "tipo": "traduzir",
+      "pt": "Meu chefe nunca se atrasa.",
+      "respostas": [
+        "My boss is never late."
+      ]
+    },
+    {
+      "id": "a1u05l4-p8",
+      "tipo": "multipla",
+      "enunciado": "\"Twice a week\" significa:",
+      "opcoes": [
+        "duas semanas",
+        "duas vezes por semana",
+        "toda semana"
+      ],
+      "correta": 1
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Pesquisa de hábitos: o professor faz perguntas \"How often…?\" sobre exercício, café, horas extras e família. Responda com advérbios de frequência e depois pergunte a ele.",
+    "papel_professor": "Faça o papel de entrevistador de uma pesquisa de hábitos. Pergunte How often…? sobre 4 hábitos. Depois peça ao aluno para perguntar a você. Corrija a posição dos advérbios.",
+    "abertura": "Hello! I'm doing a survey about habits. How often do you exercise?",
+    "abertura_pt": "Olá! Estou fazendo uma pesquisa sobre hábitos. Com que frequência você se exercita?"
+  },
+  "teste": [
+    {
+      "id": "a1u05l4-t1",
+      "tipo": "completar",
+      "frase": "He is ___ on time. (sempre)",
+      "respostas": [
+        "always"
+      ]
+    },
+    {
+      "id": "a1u05l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Às vezes\" em inglês:",
+      "opcoes": [
+        "always",
+        "sometimes",
+        "often"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u05l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "She usually gets up at six."
+    },
+    {
+      "id": "a1u05l4-t4",
+      "tipo": "traduzir",
+      "pt": "Eu nunca trabalho no domingo.",
+      "respostas": [
+        "I never work on Sunday.",
+        "I never work on Sundays."
+      ]
+    },
+    {
+      "id": "a1u05l4-t5",
+      "tipo": "ordenar",
+      "frase": "How often do you visit your parents?",
+      "traducao_pt": "Com que frequência você visita seus pais?"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "a1-u06-l5",
+  "nivel": "A1",
+  "unidade": 6,
+  "numero": 5,
+  "titulo": "Our factory",
+  "objetivo_pt": "Descrever o local de trabalho: setores, onde ficam e o que há em cada um.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga 3 coisas que existem no seu local de trabalho e onde ficam.",
+    "papel_professor": "Peça 3 frases sobre o local de trabalho do aluno com there is/are e preposições. Ensine palavras do ambiente de trabalho se ele precisar.",
+    "abertura": "Describe your workplace. What is there?",
+    "abertura_pt": "Descreva seu local de trabalho. O que há lá?"
+  },
+  "vocabulario": [
+    {
+      "id": "warehouse",
+      "en": "warehouse",
+      "pt": "armazém / almoxarifado",
+      "emoji": "📦",
+      "exemplo_en": "The warehouse is behind the factory.",
+      "exemplo_pt": "O armazém fica atrás da fábrica."
+    },
+    {
+      "id": "cafeteria",
+      "en": "cafeteria",
+      "pt": "refeitório",
+      "emoji": "🍽️",
+      "exemplo_en": "The cafeteria is on the first floor.",
+      "exemplo_pt": "O refeitório fica no primeiro andar."
+    },
+    {
+      "id": "locker-room",
+      "en": "locker room",
+      "pt": "vestiário",
+      "emoji": "🚪",
+      "exemplo_en": "The locker room is next to the entrance.",
+      "exemplo_pt": "O vestiário fica ao lado da entrada."
+    },
+    {
+      "id": "parking-lot",
+      "en": "parking lot",
+      "pt": "estacionamento",
+      "emoji": "🅿️",
+      "exemplo_en": "There is a big parking lot.",
+      "exemplo_pt": "Há um estacionamento grande."
+    },
+    {
+      "id": "entrance",
+      "en": "entrance / exit",
+      "pt": "entrada / saída",
+      "emoji": "🚪",
+      "exemplo_en": "The exit is on the left.",
+      "exemplo_pt": "A saída fica à esquerda."
+    },
+    {
+      "id": "floor",
+      "en": "floor",
+      "pt": "andar",
+      "emoji": "🏢",
+      "exemplo_en": "The offices are on the second floor.",
+      "exemplo_pt": "Os escritórios ficam no segundo andar."
+    },
+    {
+      "id": "meeting-room",
+      "en": "meeting room",
+      "pt": "sala de reunião",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "There are two meeting rooms.",
+      "exemplo_pt": "Há duas salas de reunião."
+    },
+    {
+      "id": "first-aid",
+      "en": "first aid room",
+      "pt": "ambulatório / enfermaria",
+      "emoji": "⛑️",
+      "exemplo_en": "The first aid room is near the line.",
+      "exemplo_pt": "A enfermaria fica perto da linha."
+    },
+    {
+      "id": "left-right",
+      "en": "on the left / on the right",
+      "pt": "à esquerda / à direita",
+      "emoji": "↔️",
+      "exemplo_en": "The cafeteria is on the right.",
+      "exemplo_pt": "O refeitório fica à direita."
+    },
+    {
+      "id": "building",
+      "en": "building",
+      "pt": "prédio",
+      "emoji": "🏭",
+      "exemplo_en": "There are three buildings.",
+      "exemplo_pt": "Há três prédios."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: descrever um lugar",
+    "explicacao_pt": "Para descrever um lugar, junte: there is/are (There are three buildings), some/any (There aren't any windows in the warehouse), preposições (The cafeteria is next to the locker room) e andares (on the first floor, on the second floor). 'On the left / on the right' = à esquerda / à direita. Em inglês americano, 'first floor' é o térreo!",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Where is the cafeteria?",
+          "It's on the first floor, on the right.",
+          "Fica no térreo, à direita."
+        ],
+        [
+          "Is there a parking lot?",
+          "Yes, there's a big one.",
+          "Sim, há um grande."
+        ],
+        [
+          "Are there any meeting rooms?",
+          "Yes, there are two.",
+          "Sim, há duas."
+        ],
+        [
+          "Where is the exit?",
+          "It's behind you.",
+          "Fica atrás de você."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Welcome! The offices are on the second floor.",
+        "pt": "Bem-vindo! Os escritórios ficam no segundo andar."
+      },
+      {
+        "en": "The warehouse is between building A and building B.",
+        "pt": "O armazém fica entre o prédio A e o B."
+      },
+      {
+        "en": "There's a first aid room next to the line.",
+        "pt": "Há uma enfermaria ao lado da linha."
+      },
+      {
+        "en": "The lockers are in the locker room, on the left.",
+        "pt": "Os armários ficam no vestiário, à esquerda."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "New employee's first day",
+    "falas": [
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "Welcome, Caio! Let's see the factory. Here on the left is the locker room.",
+        "pt": "Bem-vindo, Caio! Vamos ver a fábrica. Aqui à esquerda fica o vestiário."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "Great. Where is the cafeteria?",
+        "pt": "Ótimo. Onde fica o refeitório?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "It's on the second floor, next to the meeting rooms.",
+        "pt": "Fica no segundo andar, ao lado das salas de reunião."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "Is there a first aid room?",
+        "pt": "Há uma enfermaria?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "Yes, there is. It's behind the production line.",
+        "pt": "Sim. Fica atrás da linha de produção."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "And the warehouse?",
+        "pt": "E o almoxarifado?"
+      },
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "It's in building C, in front of the parking lot.",
+        "pt": "Fica no prédio C, em frente ao estacionamento."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is the locker room?",
+        "opcoes": [
+          "On the left",
+          "On the right",
+          "On the second floor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the cafeteria?",
+        "opcoes": [
+          "Next to the parking lot",
+          "On the second floor",
+          "Behind the line"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Where is the warehouse?",
+        "opcoes": [
+          "In building C",
+          "In building A",
+          "Next to the cafeteria"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u06l5-p1",
+      "tipo": "completar",
+      "frase": "The offices are on the second ___.",
+      "respostas": [
+        "floor"
+      ]
+    },
+    {
+      "id": "a1u06l5-p2",
+      "tipo": "completar",
+      "frase": "The exit is on the ___. (esquerda)",
+      "respostas": [
+        "left"
+      ]
+    },
+    {
+      "id": "a1u06l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Vestiário\":",
+      "opcoes": [
+        "locker room",
+        "living room",
+        "dressing table"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Almoxarifado / armazém\":",
+      "opcoes": [
+        "warehouse",
+        "wardrobe",
+        "workhouse"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l5-p5",
+      "tipo": "completar",
+      "frase": "There ___ three buildings.",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a1u06l5-p6",
+      "tipo": "ordenar",
+      "frase": "The cafeteria is on the right",
+      "traducao_pt": "O refeitório fica à direita"
+    },
+    {
+      "id": "a1u06l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "There are two meeting rooms."
+    },
+    {
+      "id": "a1u06l5-p8",
+      "tipo": "traduzir",
+      "pt": "O estacionamento fica atrás do prédio.",
+      "respostas": [
+        "The parking lot is behind the building.",
+        "The car park is behind the building."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: um funcionário novo chegou. Mostre a empresa: o que há, onde ficam o refeitório, o vestiário, a saída e a sala de reunião.",
+    "papel_professor": "Faça o papel de um funcionário novo no primeiro dia. Pergunte onde ficam os lugares (cafeteria, locker room, bathroom, exit, first aid room) e se há estacionamento. Incentive there is/are e preposições.",
+    "abertura": "Hi! It's my first day here. Where is the locker room?",
+    "abertura_pt": "Oi! É meu primeiro dia aqui. Onde fica o vestiário?"
+  },
+  "teste": [
+    {
+      "id": "a1u06l5-t1",
+      "tipo": "completar",
+      "frase": "The first aid room is ___ to the line. (ao lado)",
+      "respostas": [
+        "next"
+      ]
+    },
+    {
+      "id": "a1u06l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Estacionamento\":",
+      "opcoes": [
+        "parking lot",
+        "park",
+        "garage only"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The exit is on the left."
+    },
+    {
+      "id": "a1u06l5-t4",
+      "tipo": "traduzir",
+      "pt": "Há três prédios.",
+      "respostas": [
+        "There are three buildings."
+      ]
+    },
+    {
+      "id": "a1u06l5-t5",
+      "tipo": "ordenar",
+      "frase": "The warehouse is behind the factory",
+      "traducao_pt": "O armazém fica atrás da fábrica"
+    }
+  ]
+}

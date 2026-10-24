@@ -1,0 +1,329 @@
+{
+  "id": "a1-u06-l2",
+  "nivel": "A1",
+  "unidade": 6,
+  "numero": 2,
+  "titulo": "Is there any milk?",
+  "objetivo_pt": "Perguntar se há algo e usar some e any.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que há na sua geladeira e na sua cozinha. Responda com \"There is some…\" ou \"There isn't any…\".",
+    "papel_professor": "Pergunte o que há na geladeira e no armário do aluno (Is there any milk? Are there any eggs?). Corrija some/any.",
+    "abertura": "Let's open your fridge! Is there any milk?",
+    "abertura_pt": "Vamos abrir sua geladeira! Tem leite?"
+  },
+  "vocabulario": [
+    {
+      "id": "some",
+      "en": "some",
+      "pt": "algum / alguns / um pouco",
+      "emoji": "🥚",
+      "exemplo_en": "There are some eggs.",
+      "exemplo_pt": "Há alguns ovos."
+    },
+    {
+      "id": "any",
+      "en": "any",
+      "pt": "algum / nenhum (negativa e pergunta)",
+      "emoji": "❓",
+      "exemplo_en": "Are there any apples?",
+      "exemplo_pt": "Há maçãs?"
+    },
+    {
+      "id": "milk",
+      "en": "milk",
+      "pt": "leite",
+      "emoji": "🥛",
+      "exemplo_en": "There isn't any milk.",
+      "exemplo_pt": "Não há leite."
+    },
+    {
+      "id": "eggs",
+      "en": "eggs",
+      "pt": "ovos",
+      "emoji": "🥚",
+      "exemplo_en": "There are six eggs.",
+      "exemplo_pt": "Há seis ovos."
+    },
+    {
+      "id": "bread",
+      "en": "bread",
+      "pt": "pão",
+      "emoji": "🍞",
+      "exemplo_en": "Is there any bread?",
+      "exemplo_pt": "Tem pão?"
+    },
+    {
+      "id": "water",
+      "en": "water",
+      "pt": "água",
+      "emoji": "💧",
+      "exemplo_en": "There is some water in the bottle.",
+      "exemplo_pt": "Há um pouco de água na garrafa."
+    },
+    {
+      "id": "cups",
+      "en": "cups",
+      "pt": "xícaras",
+      "emoji": "☕",
+      "exemplo_en": "There are some cups on the table.",
+      "exemplo_pt": "Há algumas xícaras na mesa."
+    },
+    {
+      "id": "cupboard",
+      "en": "cupboard",
+      "pt": "armário (de cozinha)",
+      "emoji": "🗄️",
+      "exemplo_en": "The plates are in the cupboard.",
+      "exemplo_pt": "Os pratos estão no armário."
+    },
+    {
+      "id": "bottle",
+      "en": "bottle",
+      "pt": "garrafa",
+      "emoji": "🍾",
+      "exemplo_en": "There are two bottles of juice.",
+      "exemplo_pt": "Há duas garrafas de suco."
+    },
+    {
+      "id": "empty",
+      "en": "empty",
+      "pt": "vazio(a)",
+      "emoji": "🫙",
+      "exemplo_en": "The fridge is empty!",
+      "exemplo_pt": "A geladeira está vazia!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Some e any, Is there…? / Are there…?",
+    "explicacao_pt": "Para perguntar se existe algo: Is there a…? (uma coisa) / Are there any…? (várias). Respostas: Yes, there is. / No, there aren't. SOME é usado em frases afirmativas (There are some eggs = há alguns ovos). ANY é usado em perguntas e negativas (Are there any eggs? There aren't any eggs). Com coisas que não se contam (milk, water, bread) também usamos some/any: There is some milk. Is there any bread?",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Uma coisa",
+        "Várias / não contável"
+      ],
+      "linhas": [
+        [
+          "Afirmativa",
+          "There is a cup.",
+          "There are some cups. / There is some milk."
+        ],
+        [
+          "Negativa",
+          "There isn't a cup.",
+          "There aren't any cups. / There isn't any milk."
+        ],
+        [
+          "Pergunta",
+          "Is there a cup?",
+          "Are there any cups? / Is there any milk?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Is there any coffee? — Yes, there is some in the cupboard.",
+        "pt": "Tem café? — Sim, tem um pouco no armário."
+      },
+      {
+        "en": "There aren't any eggs. We need eggs.",
+        "pt": "Não há ovos. Precisamos de ovos."
+      },
+      {
+        "en": "Are there any cups? — Yes, there are.",
+        "pt": "Há xícaras? — Sim."
+      },
+      {
+        "en": "There is some bread on the table.",
+        "pt": "Há um pouco de pão na mesa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Breakfast problem",
+    "falas": [
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "Honey, is there any milk?",
+        "pt": "Amor, tem leite?"
+      },
+      {
+        "personagem": "Nico",
+        "voz": "b",
+        "en": "No, there isn't. But there is some juice.",
+        "pt": "Não. Mas tem um pouco de suco."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "OK. Are there any eggs?",
+        "pt": "OK. Tem ovos?"
+      },
+      {
+        "personagem": "Nico",
+        "voz": "b",
+        "en": "Yes, there are two eggs.",
+        "pt": "Sim, tem dois ovos."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "And bread?",
+        "pt": "E pão?"
+      },
+      {
+        "personagem": "Nico",
+        "voz": "b",
+        "en": "There isn't any bread. I go to the bakery now!",
+        "pt": "Não tem pão. Vou à padaria agora!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Is there any milk?",
+        "opcoes": [
+          "Yes, there is.",
+          "No, there isn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How many eggs are there?",
+        "opcoes": [
+          "Two",
+          "Twelve",
+          "None"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Where does Nico go?",
+        "opcoes": [
+          "To the supermarket",
+          "To the bakery",
+          "To work"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u06l2-p1",
+      "tipo": "completar",
+      "frase": "There are ___ eggs in the fridge.",
+      "respostas": [
+        "some"
+      ]
+    },
+    {
+      "id": "a1u06l2-p2",
+      "tipo": "completar",
+      "frase": "Are there ___ apples?",
+      "respostas": [
+        "any"
+      ]
+    },
+    {
+      "id": "a1u06l2-p3",
+      "tipo": "completar",
+      "frase": "There isn't ___ milk.",
+      "respostas": [
+        "any"
+      ]
+    },
+    {
+      "id": "a1u06l2-p4",
+      "tipo": "completar",
+      "frase": "___ there a fridge? — Yes, there is.",
+      "respostas": [
+        "Is"
+      ]
+    },
+    {
+      "id": "a1u06l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Are there any cups?",
+        "Is there any cups?",
+        "There are any cups?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u06l2-p6",
+      "tipo": "ordenar",
+      "frase": "The plates are in the cupboard",
+      "traducao_pt": "Os pratos estão no armário"
+    },
+    {
+      "id": "a1u06l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Is there any bread?"
+    },
+    {
+      "id": "a1u06l2-p8",
+      "tipo": "traduzir",
+      "pt": "A geladeira está vazia!",
+      "respostas": [
+        "The fridge is empty!"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Vocês vão fazer um café da manhã para visitas. Pergunte ao professor o que há na cozinha e decida o que precisa comprar.",
+    "papel_professor": "Faça o papel do marido/esposa do aluno na cozinha. Responda às perguntas sobre o que há (tem ovos e café, não tem leite nem pão, há algumas frutas). Use some/any e ajude a fazer a lista de compras.",
+    "abertura": "Our friends arrive at nine! What do we have for breakfast?",
+    "abertura_pt": "Nossos amigos chegam às nove! O que temos para o café da manhã?"
+  },
+  "teste": [
+    {
+      "id": "a1u06l2-t1",
+      "tipo": "completar",
+      "frase": "There is ___ water in the bottle.",
+      "respostas": [
+        "some"
+      ]
+    },
+    {
+      "id": "a1u06l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "There aren't some eggs.",
+        "There aren't any eggs.",
+        "There isn't any eggs."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u06l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Are there any cups?"
+    },
+    {
+      "id": "a1u06l2-t4",
+      "tipo": "traduzir",
+      "pt": "Não há pão.",
+      "respostas": [
+        "There isn't any bread.",
+        "There is no bread.",
+        "There isn't bread."
+      ]
+    },
+    {
+      "id": "a1u06l2-t5",
+      "tipo": "ordenar",
+      "frase": "Is there any coffee?",
+      "traducao_pt": "Tem café?"
+    }
+  ]
+}

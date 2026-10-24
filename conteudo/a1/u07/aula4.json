@@ -1,0 +1,363 @@
+{
+  "id": "a1-u07-l4",
+  "nivel": "A1",
+  "unidade": 7,
+  "numero": 4,
+  "titulo": "At the café",
+  "objetivo_pt": "Pedir comida e bebida num café ou lanchonete e pedir a conta.",
+  "aquecimento": {
+    "situacao_pt": "Você está num café. O professor é o atendente. Faça o seu pedido.",
+    "papel_professor": "Faça o papel de atendente de café. Pergunte o que o aluno quer comer e beber, ofereça tamanho (small, medium, large) e diga o preço. Use Can I help you? What would you like? Anything else?",
+    "abertura": "Good morning! What would you like?",
+    "abertura_pt": "Bom dia! O que você gostaria?"
+  },
+  "vocabulario": [
+    {
+      "id": "menu",
+      "en": "menu",
+      "pt": "cardápio",
+      "emoji": "📋",
+      "exemplo_en": "Can I see the menu, please?",
+      "exemplo_pt": "Posso ver o cardápio, por favor?"
+    },
+    {
+      "id": "order",
+      "en": "order",
+      "pt": "pedir / pedido",
+      "emoji": "📝",
+      "exemplo_en": "Are you ready to order?",
+      "exemplo_pt": "Estão prontos para pedir?"
+    },
+    {
+      "id": "can-i-have",
+      "en": "Can I have…?",
+      "pt": "Pode me dar…? / Eu queria…",
+      "emoji": "🙋",
+      "exemplo_en": "Can I have a cheese sandwich?",
+      "exemplo_pt": "Pode me dar um sanduíche de queijo?"
+    },
+    {
+      "id": "anything-else",
+      "en": "Anything else?",
+      "pt": "Mais alguma coisa?",
+      "emoji": "➕",
+      "exemplo_en": "Anything else? — No, thanks.",
+      "exemplo_pt": "Mais alguma coisa? — Não, obrigado."
+    },
+    {
+      "id": "small-large",
+      "en": "small / medium / large",
+      "pt": "pequeno / médio / grande",
+      "emoji": "🥤",
+      "exemplo_en": "A large coffee, please.",
+      "exemplo_pt": "Um café grande, por favor."
+    },
+    {
+      "id": "to-go",
+      "en": "for here or to go?",
+      "pt": "para comer aqui ou para levar?",
+      "emoji": "🛍️",
+      "exemplo_en": "To go, please.",
+      "exemplo_pt": "Para levar, por favor."
+    },
+    {
+      "id": "bill",
+      "en": "the check / the bill",
+      "pt": "a conta",
+      "emoji": "🧾",
+      "exemplo_en": "Can I have the check, please?",
+      "exemplo_pt": "A conta, por favor."
+    },
+    {
+      "id": "cake",
+      "en": "cake",
+      "pt": "bolo",
+      "emoji": "🍰",
+      "exemplo_en": "A piece of chocolate cake, please.",
+      "exemplo_pt": "Um pedaço de bolo de chocolate, por favor."
+    },
+    {
+      "id": "sandwich",
+      "en": "sandwich",
+      "pt": "sanduíche",
+      "emoji": "🥪",
+      "exemplo_en": "The chicken sandwich is great.",
+      "exemplo_pt": "O sanduíche de frango é ótimo."
+    },
+    {
+      "id": "pay",
+      "en": "pay",
+      "pt": "pagar",
+      "emoji": "💳",
+      "exemplo_en": "Can I pay by card?",
+      "exemplo_pt": "Posso pagar com cartão?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Pedindo num café",
+    "explicacao_pt": "Frases essenciais. O atendente: Can I help you? / What would you like? / Anything else? / For here or to go? Você: Can I have…, please? / I'd like…, please. / That's all, thanks. / Can I have the check, please? 'Can I have…?' é muito comum e educado para pedir. Tamanhos: small, medium, large.",
+    "tabela": {
+      "colunas": [
+        "Quem",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Atendente",
+          "What would you like?",
+          "O que você gostaria?"
+        ],
+        [
+          "Você",
+          "Can I have a large coffee, please?",
+          "Pode me dar um café grande?"
+        ],
+        [
+          "Atendente",
+          "Anything else?",
+          "Mais alguma coisa?"
+        ],
+        [
+          "Você",
+          "That's all, thanks.",
+          "É só isso, obrigado."
+        ],
+        [
+          "Atendente",
+          "For here or to go?",
+          "Para comer aqui ou levar?"
+        ],
+        [
+          "Você",
+          "Can I have the check, please?",
+          "A conta, por favor."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Can I have a medium tea and a piece of cake?",
+        "pt": "Pode me dar um chá médio e um pedaço de bolo?"
+      },
+      {
+        "en": "I'd like a chicken sandwich, please. To go.",
+        "pt": "Eu queria um sanduíche de frango, por favor. Para levar."
+      },
+      {
+        "en": "Anything else? — No, that's all.",
+        "pt": "Mais alguma coisa? — Não, é só."
+      },
+      {
+        "en": "Can I pay by card? — Sure.",
+        "pt": "Posso pagar com cartão? — Claro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Ordering a snack",
+    "falas": [
+      {
+        "personagem": "Server",
+        "voz": "a",
+        "en": "Hi! What would you like?",
+        "pt": "Oi! O que você gostaria?"
+      },
+      {
+        "personagem": "Luis",
+        "voz": "b",
+        "en": "Can I have a cheese sandwich and a coffee, please?",
+        "pt": "Pode me dar um sanduíche de queijo e um café, por favor?"
+      },
+      {
+        "personagem": "Server",
+        "voz": "a",
+        "en": "Sure. Small, medium or large coffee?",
+        "pt": "Claro. Café pequeno, médio ou grande?"
+      },
+      {
+        "personagem": "Luis",
+        "voz": "b",
+        "en": "Medium, please.",
+        "pt": "Médio, por favor."
+      },
+      {
+        "personagem": "Server",
+        "voz": "a",
+        "en": "Anything else?",
+        "pt": "Mais alguma coisa?"
+      },
+      {
+        "personagem": "Luis",
+        "voz": "b",
+        "en": "Yes, a piece of carrot cake. That's all.",
+        "pt": "Sim, um pedaço de bolo de cenoura. É só isso."
+      },
+      {
+        "personagem": "Server",
+        "voz": "a",
+        "en": "For here or to go?",
+        "pt": "Para comer aqui ou para levar?"
+      },
+      {
+        "personagem": "Luis",
+        "voz": "b",
+        "en": "For here. Can I pay by card?",
+        "pt": "Para comer aqui. Posso pagar com cartão?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u07l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What sandwich does Luis order?",
+        "opcoes": [
+          "Chicken",
+          "Cheese",
+          "Tuna"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What size is the coffee?",
+        "opcoes": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u07l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What cake does he order?",
+        "opcoes": [
+          "Chocolate cake",
+          "Carrot cake",
+          "Orange cake"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u07l4-p1",
+      "tipo": "completar",
+      "frase": "Can I ___ a coffee, please?",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "a1u07l4-p2",
+      "tipo": "completar",
+      "frase": "Anything ___?",
+      "respostas": [
+        "else"
+      ]
+    },
+    {
+      "id": "a1u07l4-p3",
+      "tipo": "multipla",
+      "enunciado": "\"A conta, por favor\":",
+      "opcoes": [
+        "The count, please.",
+        "Can I have the check, please?",
+        "The note, please."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Para levar\":",
+      "opcoes": [
+        "to go",
+        "to take out of here",
+        "for carry"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u07l4-p5",
+      "tipo": "completar",
+      "frase": "Can I pay ___ card?",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "a1u07l4-p6",
+      "tipo": "ordenar",
+      "frase": "Can I see the menu please?",
+      "traducao_pt": "Posso ver o cardápio, por favor?"
+    },
+    {
+      "id": "a1u07l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Are you ready to order?"
+    },
+    {
+      "id": "a1u07l4-p8",
+      "tipo": "traduzir",
+      "pt": "É só isso, obrigado.",
+      "respostas": [
+        "That's all, thanks.",
+        "That's all, thank you.",
+        "That is all, thanks.",
+        "That is all, thank you."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Agora você é o atendente! Atenda o professor no café: pergunte o que ele quer, o tamanho, se é para levar e diga o total.",
+    "papel_professor": "Inverta os papéis: você é o cliente e o aluno é o atendente. Peça um sanduíche, uma bebida e um doce; espere que o aluno pergunte tamanho, \"Anything else?\" e \"For here or to go?\". Ajude se ele travar.",
+    "abertura": "Hi! I'm very hungry today. Can I see the menu, please?",
+    "abertura_pt": "Oi! Estou com muita fome hoje. Posso ver o cardápio, por favor?"
+  },
+  "teste": [
+    {
+      "id": "a1u07l4-t1",
+      "tipo": "completar",
+      "frase": "What would you ___?",
+      "respostas": [
+        "like"
+      ]
+    },
+    {
+      "id": "a1u07l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Grande\" (tamanho):",
+      "opcoes": [
+        "big size",
+        "large",
+        "great"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u07l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "For here or to go?"
+    },
+    {
+      "id": "a1u07l4-t4",
+      "tipo": "traduzir",
+      "pt": "Posso pagar com cartão?",
+      "respostas": [
+        "Can I pay by card?",
+        "Can I pay with card?",
+        "Can I pay by credit card?"
+      ]
+    },
+    {
+      "id": "a1u07l4-t5",
+      "tipo": "ordenar",
+      "frase": "Can I have the check please?",
+      "traducao_pt": "A conta, por favor"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "a1-u06-prova",
+  "nivel": "A1",
+  "unidade": 6,
+  "titulo": "Prova da Unidade 6 — Home and city",
+  "leitura": {
+    "texto": "I live in a small apartment in Caxias do Sul with my wife. There are two bedrooms, a living room, a kitchen and one bathroom. In the living room there is a big sofa and a TV. There aren't any plants because we have a cat! Our building is on Garden Street. There is a bakery on the corner and a supermarket next to the bank. There isn't a park near our home, but there is a gym in front of our building. I work in a factory ten minutes from here. There are three buildings and a big parking lot. The cafeteria is on the first floor, between the locker room and the offices.",
+    "perguntas": [
+      {
+        "id": "a1u06pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many bedrooms are there?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What is in the living room?",
+        "opcoes": [
+          "A sofa and a TV",
+          "A bed and a TV",
+          "Some plants"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Why aren't there any plants?",
+        "opcoes": [
+          "They have a cat.",
+          "The apartment is small.",
+          "There are no windows."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Where is the bakery?",
+        "opcoes": [
+          "Next to the bank",
+          "On the corner",
+          "In front of the building"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Is there a park near the home?",
+        "opcoes": [
+          "Yes, there is.",
+          "No, there isn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What is in front of the building?",
+        "opcoes": [
+          "A gym",
+          "A supermarket",
+          "A park"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-l7",
+        "tipo": "multipla",
+        "enunciado": "How many buildings are there in the factory?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Ten"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Where is the cafeteria?",
+        "opcoes": [
+          "On the second floor",
+          "Between the locker room and the offices",
+          "Next to the parking lot"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Excuse me, is there a bathroom on this floor?",
+        "pt": "Com licença, há um banheiro neste andar?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "Yes, there is. It's on the right, next to the meeting room.",
+        "pt": "Sim. Fica à direita, ao lado da sala de reunião."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Thanks. And where is the cafeteria?",
+        "pt": "Obrigado. E onde fica o refeitório?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "It's on the second floor. There are some stairs behind you.",
+        "pt": "Fica no segundo andar. Há uma escada atrás de você."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Is there an elevator?",
+        "pt": "Há elevador?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "Yes, it's in front of the reception.",
+        "pt": "Sim, fica em frente à recepção."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Are there any vending machines?",
+        "pt": "Há máquinas de lanche?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "No, there aren't. But there's a coffee shop near the exit.",
+        "pt": "Não. Mas há uma cafeteria perto da saída."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u06pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Is there a bathroom on this floor?",
+        "opcoes": [
+          "Yes, there is.",
+          "No, there isn't."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the bathroom?",
+        "opcoes": [
+          "On the left",
+          "On the right, next to the meeting room",
+          "Behind the reception"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Where is the cafeteria?",
+        "opcoes": [
+          "On the first floor",
+          "On the second floor",
+          "Near the exit"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Where are the stairs?",
+        "opcoes": [
+          "Behind the visitor",
+          "In front of the reception",
+          "Next to the bathroom"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Where is the elevator?",
+        "opcoes": [
+          "In front of the reception",
+          "Behind the stairs",
+          "Near the exit"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u06pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Are there any vending machines?",
+        "opcoes": [
+          "Yes, there are.",
+          "No, there aren't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u06pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "It's on the second floor.",
+        "aceitas": [
+          "It is on the second floor."
+        ]
+      },
+      {
+        "id": "a1u06pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Is there an elevator?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u06pv-w1",
+      "instrucao_pt": "Descreva sua casa: cômodos, móveis e onde ficam (use there is/are e preposições).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u06pv-w2",
+      "instrucao_pt": "Descreva o que há (e o que não há) perto da sua casa ou do seu trabalho. Use some/any.",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u06pv-s1",
+      "pergunta_en": "Tell me about your home. How many rooms are there?",
+      "instrucao_pt": "Descreva sua casa em voz alta usando there is e there are."
+    },
+    {
+      "id": "a1u06pv-s2",
+      "pergunta_en": "What is there near your workplace?",
+      "instrucao_pt": "Fale em voz alta o que há perto do seu trabalho e onde fica (next to, in front of…)."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. There is/there are (afirmativa, negativa, pergunta), some/any, preposições de lugar (in, on, under, next to, between, behind, in front of), cômodos e móveis, lugares da cidade e do local de trabalho. Erro típico: 'In my house have…' em vez de 'There is…'."
+}
