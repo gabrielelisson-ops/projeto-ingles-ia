@@ -1,0 +1,76 @@
+{
+  "roleplays": [
+    {
+      "id": "entrevista-emprego",
+      "emoji": "💼",
+      "titulo_pt": "Entrevista de emprego",
+      "situacao_pt": "Você está numa entrevista para uma vaga numa empresa multinacional. Apresente-se, fale da sua experiência e faça pelo menos uma pergunta sobre a vaga.",
+      "papel_professor": "Você é um gerente de RH entrevistando o aluno para uma vaga na indústria. Pergunte sobre experiência, pontos fortes, rotina de trabalho e disponibilidade. Seja profissional e simpático.",
+      "abertura": "Good morning! Thank you for coming. Please, tell me a little about yourself.",
+      "abertura_pt": "Bom dia! Obrigado por vir. Por favor, me fale um pouco sobre você."
+    },
+    {
+      "id": "reuniao-trabalho",
+      "emoji": "🧑‍💼",
+      "titulo_pt": "Reunião de trabalho",
+      "situacao_pt": "Reunião semanal da equipe. Você precisa contar como está a produção, citar um problema e propor uma solução.",
+      "papel_professor": "Você é o gerente conduzindo a reunião semanal de produção. Peça um resumo da semana, pergunte sobre problemas, prazos e próximos passos. Faça uma pergunta de cada vez.",
+      "abertura": "OK, everybody, let's start. How was production this week?",
+      "abertura_pt": "OK, pessoal, vamos começar. Como foi a produção esta semana?"
+    },
+    {
+      "id": "restaurante",
+      "emoji": "🍽️",
+      "titulo_pt": "Restaurante",
+      "situacao_pt": "Você está jantando num restaurante no exterior. Peça mesa, escolha os pratos, a bebida, a sobremesa e peça a conta.",
+      "papel_professor": "Você é o garçom de um restaurante. Receba o cliente, ofereça o cardápio, recomende pratos, anote o pedido, ofereça sobremesa e traga a conta.",
+      "abertura": "Good evening! Welcome. A table for how many people?",
+      "abertura_pt": "Boa noite! Bem-vindo. Mesa para quantas pessoas?"
+    },
+    {
+      "id": "aeroporto",
+      "emoji": "✈️",
+      "titulo_pt": "Aeroporto",
+      "situacao_pt": "Você está fazendo check-in para um voo internacional. Responda às perguntas, despache a mala e pergunte o portão e o horário de embarque.",
+      "papel_professor": "Você é o atendente do check-in de uma companhia aérea. Peça passaporte e destino, pergunte sobre bagagem, escolha de assento e informe portão e horário de embarque.",
+      "abertura": "Good morning. Can I see your passport, please? Where are you flying today?",
+      "abertura_pt": "Bom dia. Posso ver seu passaporte, por favor? Para onde você vai voar hoje?"
+    },
+    {
+      "id": "hotel",
+      "emoji": "🏨",
+      "titulo_pt": "Hotel",
+      "situacao_pt": "Você chegou ao hotel numa viagem de trabalho. Faça o check-in, pergunte sobre o café da manhã e o Wi-Fi, e resolva um problema no quarto.",
+      "papel_professor": "Você é o recepcionista de um hotel. Faça o check-in, informe horário do café, senha do Wi-Fi e, depois, atenda uma reclamação do hóspede sobre o quarto (ar-condicionado, barulho, toalhas).",
+      "abertura": "Good evening and welcome to the City Hotel. Do you have a reservation?",
+      "abertura_pt": "Boa noite e bem-vindo ao City Hotel. Você tem reserva?"
+    },
+    {
+      "id": "medico",
+      "emoji": "🩺",
+      "titulo_pt": "Médico",
+      "situacao_pt": "Você não está se sentindo bem durante uma viagem e foi a uma clínica. Explique os sintomas, há quanto tempo está assim e pergunte o que fazer.",
+      "papel_professor": "Você é um médico numa clínica. Pergunte os sintomas, há quanto tempo, se o paciente tem alergias ou toma remédios, e dê recomendações simples. Nunca faça diagnóstico real: é só um treino de inglês.",
+      "abertura": "Hello, please have a seat. What seems to be the problem today?",
+      "abertura_pt": "Olá, sente-se, por favor. Qual parece ser o problema hoje?"
+    },
+    {
+      "id": "ligacao",
+      "emoji": "📞",
+      "titulo_pt": "Ligação telefônica",
+      "situacao_pt": "Você liga para um cliente estrangeiro para confirmar uma entrega. Peça para falar com a pessoa certa, deixe recado e confirme data e número do pedido.",
+      "papel_professor": "Você é a recepcionista de uma empresa cliente. Atenda o telefone, diga que a pessoa procurada está em reunião, ofereça anotar um recado e confirme os dados (nome, telefone, número do pedido, data) soletrando quando necessário.",
+      "abertura": "Good afternoon, Northwind Industries, Sarah speaking. How can I help you?",
+      "abertura_pt": "Boa tarde, Northwind Industries, aqui é a Sarah. Como posso ajudar?"
+    },
+    {
+      "id": "negociacao-fornecedor",
+      "emoji": "🤝",
+      "titulo_pt": "Negociação com fornecedor",
+      "situacao_pt": "Você precisa negociar preço e prazo de entrega de peças com um fornecedor estrangeiro. Tente conseguir desconto ou um prazo menor.",
+      "papel_professor": "Você é o representante de vendas de um fornecedor de peças industriais. Apresente preço e prazo, resista um pouco a descontos e só ceda se o aluno oferecer algo em troca (volume maior, contrato mais longo, pagamento antecipado).",
+      "abertura": "Thanks for the call. So, you need five thousand units. Our price is twelve dollars per unit, with delivery in six weeks.",
+      "abertura_pt": "Obrigado pela ligação. Então, vocês precisam de cinco mil unidades. Nosso preço é doze dólares por unidade, com entrega em seis semanas."
+    }
+  ]
+}

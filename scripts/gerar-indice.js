@@ -59,6 +59,8 @@ ${unidades.join('\n')}
 ];
 
 export const FINAIS_BRUTAS: unknown[] = [${finais.join(', ')}];
+
+export const ROLEPLAYS_BRUTOS: unknown = ${fs.existsSync(path.join(CONTEUDO, 'roleplays.json')) ? req(path.join(CONTEUDO, 'roleplays.json')) : '{ roleplays: [] }'};
 `;
 
 fs.writeFileSync(SAIDA, codigo);

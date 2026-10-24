@@ -98,6 +98,14 @@ describe('conteúdo do curso', () => {
     });
   }
 
+  test('roleplays.json: 8 situações válidas', () => {
+    const c = montarCurso(ler(path.join(RAIZ, 'curriculo.json')), [], [], ler(path.join(RAIZ, 'roleplays.json')));
+    expect(c.erros).toEqual([]);
+    expect(c.roleplays.map((r) => r.id)).toEqual([
+      'entrevista-emprego', 'reuniao-trabalho', 'restaurante', 'aeroporto', 'hotel', 'medico', 'ligacao', 'negociacao-fornecedor',
+    ]);
+  });
+
   test('o A1 está completo: 8 unidades e prova final', () => {
     expect(unidadesBrutas.filter((u) => u.meta.nivel === 'A1')).toHaveLength(8);
     expect(finais.some((f) => f.nivel === 'a1')).toBe(true);
