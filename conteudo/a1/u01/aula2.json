@@ -1,0 +1,87 @@
+{
+  "id": "a1-u01-l2",
+  "nivel": "A1",
+  "unidade": 1,
+  "numero": 2,
+  "titulo": "Where are you from?",
+  "objetivo_pt": "Dizer de onde você é, sua nacionalidade, e falar de outra pessoa com he is, she is e it is.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar de onde você é. Responda com 'I'm from…' e o nome da sua cidade ou país.",
+    "papel_professor": "Pergunte de onde o aluno é e de qual cidade. Comente algo simples e positivo sobre o lugar. Use I'm from, you're from, it is. Frases muito curtas.",
+    "abertura": "Hi again! I'm from Canada. Where are you from?",
+    "abertura_pt": "Oi de novo! Eu sou do Canadá. De onde você é?"
+  },
+  "vocabulario": [
+    { "id": "brazil", "en": "Brazil / Brazilian", "pt": "Brasil / brasileiro(a)", "emoji": "🇧🇷", "exemplo_en": "I'm Brazilian. I'm from Brazil.", "exemplo_pt": "Sou brasileiro. Sou do Brasil." },
+    { "id": "usa", "en": "the United States / American", "pt": "Estados Unidos / americano(a)", "emoji": "🇺🇸", "exemplo_en": "She's American.", "exemplo_pt": "Ela é americana." },
+    { "id": "england", "en": "England / English", "pt": "Inglaterra / inglês(a)", "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "exemplo_en": "He's from England. He's English.", "exemplo_pt": "Ele é da Inglaterra. Ele é inglês." },
+    { "id": "canada", "en": "Canada / Canadian", "pt": "Canadá / canadense", "emoji": "🇨🇦", "exemplo_en": "Is she Canadian?", "exemplo_pt": "Ela é canadense?" },
+    { "id": "mexico", "en": "Mexico / Mexican", "pt": "México / mexicano(a)", "emoji": "🇲🇽", "exemplo_en": "Diego is Mexican.", "exemplo_pt": "Diego é mexicano." },
+    { "id": "japan", "en": "Japan / Japanese", "pt": "Japão / japonês(a)", "emoji": "🇯🇵", "exemplo_en": "The engineer is from Japan.", "exemplo_pt": "O engenheiro é do Japão." },
+    { "id": "germany", "en": "Germany / German", "pt": "Alemanha / alemão(ã)", "emoji": "🇩🇪", "exemplo_en": "The machine is German.", "exemplo_pt": "A máquina é alemã." },
+    { "id": "china", "en": "China / Chinese", "pt": "China / chinês(a)", "emoji": "🇨🇳", "exemplo_en": "Our supplier is Chinese.", "exemplo_pt": "Nosso fornecedor é chinês." },
+    { "id": "city", "en": "city", "pt": "cidade", "emoji": "🏙️", "exemplo_en": "Curitiba is a big city.", "exemplo_pt": "Curitiba é uma cidade grande." },
+    { "id": "country", "en": "country", "pt": "país", "emoji": "🗺️", "exemplo_en": "Brazil is a big country.", "exemplo_pt": "O Brasil é um país grande." },
+    { "id": "where", "en": "where", "pt": "onde", "emoji": "📍", "exemplo_en": "Where are you from?", "exemplo_pt": "De onde você é?" }
+  ],
+  "gramatica": {
+    "titulo": "He is, she is, it is — e perguntas com to be",
+    "explicacao_pt": "Para falar de outra pessoa ou de uma coisa, usamos 'is': he is (ele é), she is (ela é), it is (é — para coisas, lugares e animais). Formas curtas: he's, she's, it's. Para perguntar, invertemos: 'You are from Brazil' vira 'Are you from Brazil?'. 'She is Mexican' vira 'Is she Mexican?'. Nacionalidades em inglês começam com letra maiúscula: Brazilian, American, German.",
+    "tabela": {
+      "colunas": ["Afirmação", "Pergunta", "Português"],
+      "linhas": [
+        ["I am from Brazil.", "Am I…?", "Eu sou do Brasil."],
+        ["You are Brazilian.", "Are you Brazilian?", "Você é brasileiro(a)?"],
+        ["He is from Japan.", "Is he from Japan?", "Ele é do Japão?"],
+        ["She is American.", "Is she American?", "Ela é americana?"],
+        ["It is a big city.", "Is it a big city?", "É uma cidade grande?"]
+      ]
+    },
+    "exemplos": [
+      { "en": "Where are you from? — I'm from Recife.", "pt": "De onde você é? — Sou de Recife." },
+      { "en": "Is he German? — Yes, he is.", "pt": "Ele é alemão? — Sim, é." },
+      { "en": "She's from Mexico City.", "pt": "Ela é da Cidade do México." },
+      { "en": "It's a beautiful country.", "pt": "É um país lindo." }
+    ]
+  },
+  "escuta": {
+    "titulo": "A visitor at the factory",
+    "falas": [
+      { "personagem": "Lucas", "voz": "a", "en": "Hello! Welcome to our factory. I'm Lucas.", "pt": "Olá! Bem-vindo à nossa fábrica. Eu sou o Lucas." },
+      { "personagem": "Kenji", "voz": "b", "en": "Hi, Lucas. I'm Kenji. Nice to meet you.", "pt": "Oi, Lucas. Eu sou o Kenji. Prazer." },
+      { "personagem": "Lucas", "voz": "a", "en": "Nice to meet you too. Where are you from, Kenji?", "pt": "O prazer é meu. De onde você é, Kenji?" },
+      { "personagem": "Kenji", "voz": "b", "en": "I'm from Japan, from Osaka. And you?", "pt": "Sou do Japão, de Osaka. E você?" },
+      { "personagem": "Lucas", "voz": "a", "en": "I'm Brazilian. I'm from Joinville. It's a small city in the south.", "pt": "Sou brasileiro. Sou de Joinville. É uma cidade pequena no sul." },
+      { "personagem": "Kenji", "voz": "b", "en": "And who is she?", "pt": "E quem é ela?" },
+      { "personagem": "Lucas", "voz": "a", "en": "She's Emma, our manager. She's from Germany.", "pt": "Ela é a Emma, nossa gerente. Ela é da Alemanha." }
+    ],
+    "perguntas": [
+      { "id": "a1u01l2-e1", "tipo": "multipla", "enunciado": "Where is Kenji from?", "opcoes": ["China", "Japan", "Germany"], "correta": 1 },
+      { "id": "a1u01l2-e2", "tipo": "multipla", "enunciado": "Joinville is…", "opcoes": ["a big city", "a country", "a small city"], "correta": 2, "explicacao_pt": "Lucas diz: 'It's a small city in the south'." },
+      { "id": "a1u01l2-e3", "tipo": "multipla", "enunciado": "Emma is…", "opcoes": ["German", "Brazilian", "Japanese"], "correta": 0, "explicacao_pt": "'She's from Germany' → ela é alemã (German)." }
+    ]
+  },
+  "pratica": [
+    { "id": "a1u01l2-p1", "tipo": "completar", "frase": "She ___ from Mexico.", "respostas": ["is", "'s"], "explicacao_pt": "she + is." },
+    { "id": "a1u01l2-p2", "tipo": "completar", "frase": "___ you from Brazil?", "respostas": ["Are"], "explicacao_pt": "Na pergunta o verbo vem antes: Are you…?" },
+    { "id": "a1u01l2-p3", "tipo": "multipla", "enunciado": "A pessoa é do Canadá. Ela é…", "opcoes": ["Canada", "Canadian", "Canadá"], "correta": 1, "explicacao_pt": "País: Canada. Nacionalidade: Canadian." },
+    { "id": "a1u01l2-p4", "tipo": "ordenar", "frase": "Where are you from?", "traducao_pt": "De onde você é?" },
+    { "id": "a1u01l2-p5", "tipo": "ordenar", "frase": "Is he from England?", "traducao_pt": "Ele é da Inglaterra?" },
+    { "id": "a1u01l2-p6", "tipo": "ouvir_escrever", "audio": "It's a big country.", "aceitas": ["It is a big country."] },
+    { "id": "a1u01l2-p7", "tipo": "traduzir", "pt": "Ele é brasileiro.", "respostas": ["He is Brazilian.", "He is a Brazilian."] },
+    { "id": "a1u01l2-p8", "tipo": "multipla", "enunciado": "Para falar de uma máquina, usamos:", "opcoes": ["he", "she", "it"], "correta": 2, "explicacao_pt": "Coisas, lugares e animais: it." }
+  ],
+  "conversa": {
+    "situacao_pt": "Um visitante estrangeiro chegou à sua empresa. Pergunte de onde ele é e conte de onde você é.",
+    "papel_professor": "Faça o papel de Mia, uma visitante dos Estados Unidos numa empresa brasileira. Responda de onde você é, pergunte de onde o aluno é e de qual cidade. Use he/she/it is e perguntas com to be.",
+    "abertura": "Hello! I'm Mia. I'm here for the meeting. Are you from this city?",
+    "abertura_pt": "Olá! Eu sou a Mia. Estou aqui para a reunião. Você é desta cidade?"
+  },
+  "teste": [
+    { "id": "a1u01l2-t1", "tipo": "completar", "frase": "He ___ Japanese.", "respostas": ["is", "'s"] },
+    { "id": "a1u01l2-t2", "tipo": "multipla", "enunciado": "Pergunta correta:", "opcoes": ["You are from Chile?", "Are you from Chile?", "Are from you Chile?"], "correta": 1 },
+    { "id": "a1u01l2-t3", "tipo": "ouvir_escrever", "audio": "She's from Germany.", "aceitas": ["She is from Germany."] },
+    { "id": "a1u01l2-t4", "tipo": "traduzir", "pt": "De onde você é?", "respostas": ["Where are you from?"] },
+    { "id": "a1u01l2-t5", "tipo": "multipla", "enunciado": "Nacionalidade de quem é dos Estados Unidos:", "opcoes": ["American", "United", "America"], "correta": 0 }
+  ]
+}

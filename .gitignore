@@ -147,3 +147,20 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Expo / React Native
+.expo/
+web-build/
+expo-env.d.ts
+android/
+ios/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Nunca versionar chaves, segredos ou backups com dados pessoais
+.env
+.env.*
+backup-*.json
+conteudo-gerado/

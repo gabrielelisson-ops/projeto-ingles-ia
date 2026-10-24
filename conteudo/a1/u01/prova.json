@@ -1,0 +1,50 @@
+{
+  "id": "a1-u01-prova",
+  "nivel": "A1",
+  "unidade": 1,
+  "titulo": "Prova da Unidade 1 — Hello!",
+  "foco_avaliacao": "Nível A1 iniciante. Cumprimentos, verbo to be (I am, you are, he/she/it is), perguntas e respostas curtas com to be, países e nacionalidades, profissões com a/an, This is…, How are you? Seja tolerante com frases simples; avalie se a mensagem é clara e se o to be e o a/an estão corretos.",
+  "leitura": {
+    "texto": "Hello! My name is Sofia Mendes. I'm Brazilian. I'm from Manaus, a big city in the north of Brazil. I'm an engineer and I work in a factory. This is my colleague, Peter. He isn't Brazilian. He's from England. He's a maintenance technician. Peter is very friendly. My husband is Rafael. He's a teacher. He isn't an engineer! Our email is mendes at mail dot com.",
+    "perguntas": [
+      { "id": "a1u01pv-l1", "tipo": "multipla", "enunciado": "Where is Sofia from?", "opcoes": ["England", "Manaus", "a small city"], "correta": 1 },
+      { "id": "a1u01pv-l2", "tipo": "multipla", "enunciado": "What does Sofia do?", "opcoes": ["She's a teacher.", "She's a technician.", "She's an engineer."], "correta": 2 },
+      { "id": "a1u01pv-l3", "tipo": "multipla", "enunciado": "Who is Peter?", "opcoes": ["Sofia's husband", "Sofia's colleague", "Sofia's teacher"], "correta": 1 },
+      { "id": "a1u01pv-l4", "tipo": "multipla", "enunciado": "Is Peter Brazilian?", "opcoes": ["Yes, he is.", "No, he isn't."], "correta": 1 },
+      { "id": "a1u01pv-l5", "tipo": "multipla", "enunciado": "Peter is…", "opcoes": ["English", "American", "Canadian"], "correta": 0 },
+      { "id": "a1u01pv-l6", "tipo": "multipla", "enunciado": "Rafael is…", "opcoes": ["an engineer", "a teacher", "a technician"], "correta": 1 },
+      { "id": "a1u01pv-l7", "tipo": "multipla", "enunciado": "Manaus is…", "opcoes": ["a big city", "a country", "in the south"], "correta": 0 },
+      { "id": "a1u01pv-l8", "tipo": "multipla", "enunciado": "Their email is…", "opcoes": ["sofia@mail.com", "mendes@mail.com", "peter@mail.com"], "correta": 1 }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      { "personagem": "Daniel", "voz": "a", "en": "Good afternoon! I'm Daniel. I'm the new supervisor.", "pt": "Boa tarde! Sou o Daniel. Sou o novo supervisor." },
+      { "personagem": "Grace", "voz": "b", "en": "Hi, Daniel. I'm Grace. Nice to meet you.", "pt": "Oi, Daniel. Sou a Grace. Prazer." },
+      { "personagem": "Daniel", "voz": "a", "en": "Nice to meet you too. Where are you from, Grace?", "pt": "O prazer é meu. De onde você é, Grace?" },
+      { "personagem": "Grace", "voz": "b", "en": "I'm from Canada, from Toronto. I'm an accountant here.", "pt": "Sou do Canadá, de Toronto. Sou contadora aqui." },
+      { "personagem": "Daniel", "voz": "a", "en": "Great. And how do you spell your last name?", "pt": "Ótimo. E como se soletra seu sobrenome?" },
+      { "personagem": "Grace", "voz": "b", "en": "It's Hill. H, I, double L.", "pt": "É Hill. H, I, dois L." },
+      { "personagem": "Daniel", "voz": "a", "en": "Thank you. Is the manager here today?", "pt": "Obrigado. A gerente está aqui hoje?" },
+      { "personagem": "Grace", "voz": "b", "en": "No, she isn't. She's in Germany. Well, see you later, Daniel!", "pt": "Não, ela não está. Ela está na Alemanha. Bom, até mais, Daniel!" }
+    ],
+    "perguntas": [
+      { "id": "a1u01pv-e1", "tipo": "multipla", "enunciado": "What time of day is it?", "opcoes": ["Morning", "Afternoon", "Night"], "correta": 1 },
+      { "id": "a1u01pv-e2", "tipo": "multipla", "enunciado": "Daniel is…", "opcoes": ["the new supervisor", "an accountant", "the manager"], "correta": 0 },
+      { "id": "a1u01pv-e3", "tipo": "multipla", "enunciado": "Where is Grace from?", "opcoes": ["Germany", "The United States", "Canada"], "correta": 2 },
+      { "id": "a1u01pv-e4", "tipo": "multipla", "enunciado": "What does Grace do?", "opcoes": ["She's an accountant.", "She's an engineer.", "She's a supervisor."], "correta": 0 },
+      { "id": "a1u01pv-e5", "tipo": "multipla", "enunciado": "Grace's last name is…", "opcoes": ["Hil", "Hill", "Hell"], "correta": 1 },
+      { "id": "a1u01pv-e6", "tipo": "multipla", "enunciado": "Is the manager there today?", "opcoes": ["Yes, she is.", "No, she isn't."], "correta": 1 },
+      { "id": "a1u01pv-e7", "tipo": "ouvir_escrever", "audio": "Nice to meet you too." },
+      { "id": "a1u01pv-e8", "tipo": "ouvir_escrever", "audio": "Where are you from?" }
+    ]
+  },
+  "escrita": [
+    { "id": "a1u01pv-w1", "instrucao_pt": "Apresente-se em inglês: diga seu nome, de onde você é, sua nacionalidade e sua profissão.", "min_frases": 3, "max_frases": 5 },
+    { "id": "a1u01pv-w2", "instrucao_pt": "Apresente uma pessoa (sua esposa/marido, um amigo ou colega): 'This is…'. Diga a profissão e de onde ela é.", "min_frases": 2, "max_frases": 4 }
+  ],
+  "fala": [
+    { "id": "a1u01pv-s1", "pergunta_en": "Hello! What's your name, and where are you from?", "instrucao_pt": "Responda em voz alta: seu nome e de onde você é (cidade e país)." },
+    { "id": "a1u01pv-s2", "pergunta_en": "What do you do? Tell me about your job.", "instrucao_pt": "Responda em voz alta: sua profissão (com a/an) e onde você trabalha." }
+  ]
+}
