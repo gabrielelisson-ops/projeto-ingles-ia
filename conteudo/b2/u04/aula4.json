@@ -1,0 +1,356 @@
+{
+  "id": "b2-u04-l4",
+  "nivel": "B2",
+  "unidade": 4,
+  "numero": 4,
+  "titulo": "Tell me about yourself",
+  "objetivo_pt": "Responder às perguntas clássicas de entrevista: apresentação, pontos fortes e fracos, desafios.",
+  "aquecimento": {
+    "situacao_pt": "O professor é um recrutador e vai fazer perguntas clássicas. Responda de forma organizada e com exemplos.",
+    "papel_professor": "Faça perguntas clássicas (Tell me about yourself. What are your strengths? What is your main weakness? Why do you want this job?). Ensine estruturas de resposta e o método STAR.",
+    "abertura": "So, let's start. Tell me about yourself.",
+    "abertura_pt": "Então, vamos começar. Me fale sobre você."
+  },
+  "vocabulario": [
+    {
+      "id": "strength",
+      "en": "strength / weakness",
+      "pt": "ponto forte / ponto fraco",
+      "emoji": "💪",
+      "exemplo_en": "My main strength is problem-solving.",
+      "exemplo_pt": "Meu principal ponto forte é resolver problemas."
+    },
+    {
+      "id": "background",
+      "en": "background",
+      "pt": "formação / trajetória",
+      "emoji": "📚",
+      "exemplo_en": "I have a background in mechanical engineering.",
+      "exemplo_pt": "Tenho formação em engenharia mecânica."
+    },
+    {
+      "id": "skill-l4",
+      "en": "hard skills / soft skills",
+      "pt": "habilidades técnicas / comportamentais",
+      "emoji": "🛠️",
+      "exemplo_en": "Communication is an important soft skill.",
+      "exemplo_pt": "Comunicação é uma soft skill importante."
+    },
+    {
+      "id": "star",
+      "en": "STAR method",
+      "pt": "método STAR (situação, tarefa, ação, resultado)",
+      "emoji": "⭐",
+      "exemplo_en": "I answered using the STAR method.",
+      "exemplo_pt": "Respondi usando o método STAR."
+    },
+    {
+      "id": "achievement-l4",
+      "en": "achievement",
+      "pt": "conquista",
+      "emoji": "🏆",
+      "exemplo_en": "My biggest achievement was reducing waste.",
+      "exemplo_pt": "Minha maior conquista foi reduzir o desperdício."
+    },
+    {
+      "id": "team-player",
+      "en": "team player",
+      "pt": "pessoa que trabalha bem em equipe",
+      "emoji": "🤝",
+      "exemplo_en": "I'm a team player.",
+      "exemplo_pt": "Trabalho bem em equipe."
+    },
+    {
+      "id": "deadline-l4",
+      "en": "meet a deadline",
+      "pt": "cumprir um prazo",
+      "emoji": "⏰",
+      "exemplo_en": "I always meet my deadlines.",
+      "exemplo_pt": "Sempre cumpro meus prazos."
+    },
+    {
+      "id": "handle",
+      "en": "handle / cope with",
+      "pt": "lidar com",
+      "emoji": "🧘",
+      "exemplo_en": "How do you handle stress?",
+      "exemplo_pt": "Como você lida com o estresse?"
+    },
+    {
+      "id": "motivated",
+      "en": "motivated / passionate",
+      "pt": "motivado / apaixonado",
+      "emoji": "🔥",
+      "exemplo_en": "I'm passionate about quality.",
+      "exemplo_pt": "Sou apaixonado por qualidade."
+    },
+    {
+      "id": "working-on",
+      "en": "I'm working on…",
+      "pt": "Estou trabalhando para melhorar…",
+      "emoji": "🔧",
+      "exemplo_en": "I'm working on my public speaking.",
+      "exemplo_pt": "Estou trabalhando minha fala em público."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estruturando respostas de entrevista",
+    "explicacao_pt": "TELL ME ABOUT YOURSELF: presente (quem é e o que faz) → passado (trajetória) → futuro (por que esta vaga). I'm a… with X years of experience in… I started… / I've worked… Now I'm looking for… STRENGTHS: qualidade + exemplo (I'm very organized. For example, …). WEAKNESS: fraqueza real mas controlável + o que está fazendo (I sometimes find it hard to delegate, so I'm working on…). PERGUNTAS COMPORTAMENTAIS (Tell me about a time when…) → STAR: Situation (past continuous / past simple), Task, Action (I + past simple), Result (números).",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Tell me about yourself",
+          "presente → passado → futuro",
+          "I'm a planner with 8 years of experience…"
+        ],
+        [
+          "Strength",
+          "qualidade + exemplo",
+          "I'm good at solving problems. Last year, I…"
+        ],
+        [
+          "Weakness",
+          "fraqueza + melhoria",
+          "I'm working on my presentation skills."
+        ],
+        [
+          "Tell me about a time…",
+          "STAR",
+          "We were facing… I decided to… As a result, …"
+        ],
+        [
+          "Why this job?",
+          "motivação + empresa",
+          "I'm interested in your work with automation."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm a production supervisor with ten years of experience in the food industry.",
+        "pt": "Sou supervisor de produção com dez anos de experiência na indústria de alimentos."
+      },
+      {
+        "en": "One of my main strengths is that I stay calm under pressure.",
+        "pt": "Um dos meus principais pontos fortes é manter a calma sob pressão."
+      },
+      {
+        "en": "I sometimes find it difficult to say no, so I'm learning to prioritize.",
+        "pt": "Às vezes tenho dificuldade de dizer não, então estou aprendendo a priorizar."
+      },
+      {
+        "en": "As a result, we reduced downtime by 30% in six months.",
+        "pt": "Como resultado, reduzimos o tempo de máquina parada em 30% em seis meses."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A model answer",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Can you tell me about a time when you solved a difficult problem?",
+        "pt": "Pode me falar de uma vez em que você resolveu um problema difícil?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Sure. Two years ago, our packing line was having frequent stops, and we were missing delivery deadlines.",
+        "pt": "Claro. Há dois anos, nossa linha de embalagem tinha paradas frequentes, e estávamos perdendo prazos de entrega."
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "My task was to find the cause and reduce the stops by half in three months.",
+        "pt": "Minha tarefa era encontrar a causa e reduzir as paradas pela metade em três meses."
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "I organized a team with operators and maintenance. We recorded every stop for two weeks and found that 60% were caused by the same sensor.",
+        "pt": "Organizei uma equipe com operadores e manutenção. Registramos cada parada por duas semanas e descobrimos que 60% eram causadas pelo mesmo sensor."
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "We replaced it and changed the cleaning procedure. As a result, stops fell by 70%, and we haven't missed a deadline since then.",
+        "pt": "Trocamos e mudamos o procedimento de limpeza. Como resultado, as paradas caíram 70% e não perdemos nenhum prazo desde então."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "That's a very clear example. Thank you.",
+        "pt": "É um exemplo muito claro. Obrigado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "Frequent stops on the packing line",
+          "Bad quality",
+          "High costs"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What was the target?",
+        "opcoes": [
+          "Reduce stops by half in three months",
+          "Hire more people",
+          "Buy a new line"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What caused 60% of the stops?",
+        "opcoes": [
+          "The same sensor",
+          "The operators",
+          "The material"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What was the result?",
+        "opcoes": [
+          "Stops fell by 70%.",
+          "Stops fell by 30%.",
+          "Nothing changed."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u04l4-p1",
+      "tipo": "completar",
+      "frase": "My main ___ is problem-solving. (ponto forte)",
+      "respostas": [
+        "strength"
+      ]
+    },
+    {
+      "id": "b2u04l4-p2",
+      "tipo": "completar",
+      "frase": "I have a ___ in mechanical engineering. (formação)",
+      "respostas": [
+        "background"
+      ]
+    },
+    {
+      "id": "b2u04l4-p3",
+      "tipo": "completar",
+      "frase": "How do you ___ stress? (lidar com)",
+      "respostas": [
+        "handle",
+        "manage"
+      ]
+    },
+    {
+      "id": "b2u04l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Resposta sobre ponto fraco:",
+      "opcoes": [
+        "I'm sometimes impatient, so I'm working on listening more.",
+        "I don't have weaknesses.",
+        "My weakness is that I work too hard and I'm perfect."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Como resultado, reduzimos o desperdício\":",
+      "opcoes": [
+        "As a result, we reduced waste.",
+        "As result, we reduced the waste.",
+        "Like a result, we reduce waste."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l4-p6",
+      "tipo": "ordenar",
+      "frase": "I'm passionate about quality",
+      "traducao_pt": "Sou apaixonado por qualidade"
+    },
+    {
+      "id": "b2u04l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I always meet my deadlines."
+    },
+    {
+      "id": "b2u04l4-p8",
+      "tipo": "traduzir",
+      "pt": "Estou trabalhando minha fala em público.",
+      "respostas": [
+        "I'm working on my public speaking.",
+        "I am working on my public speaking."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Simulação de entrevista: o professor vai fazer 4 perguntas clássicas (Tell me about yourself, strengths, weakness, a time when…). Responda com estrutura e exemplos reais.",
+    "papel_professor": "Faça as 4 perguntas, uma por vez. Para 'Tell me about a time…' exija STAR. Dê retorno breve após cada resposta (estrutura e vocabulário). Corrija tempos verbais.",
+    "abertura": "Thank you for coming. Let's begin. Could you tell me a little about yourself?",
+    "abertura_pt": "Obrigado por vir. Vamos começar. Poderia me falar um pouco sobre você?"
+  },
+  "teste": [
+    {
+      "id": "b2u04l4-t1",
+      "tipo": "multipla",
+      "enunciado": "STAR significa:",
+      "opcoes": [
+        "Situation, Task, Action, Result",
+        "Start, Talk, Answer, Repeat",
+        "Skills, Training, Ability, Results"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l4-t2",
+      "tipo": "completar",
+      "frase": "I'm a team ___. (trabalho bem em equipe)",
+      "respostas": [
+        "player"
+      ]
+    },
+    {
+      "id": "b2u04l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Communication is an important soft skill."
+    },
+    {
+      "id": "b2u04l4-t4",
+      "tipo": "traduzir",
+      "pt": "Minha maior conquista foi reduzir o desperdício.",
+      "respostas": [
+        "My biggest achievement was reducing waste.",
+        "My greatest achievement was reducing waste.",
+        "My biggest achievement was to reduce waste."
+      ]
+    },
+    {
+      "id": "b2u04l4-t5",
+      "tipo": "ordenar",
+      "frase": "I answered using the STAR method",
+      "traducao_pt": "Respondi usando o método STAR"
+    }
+  ]
+}

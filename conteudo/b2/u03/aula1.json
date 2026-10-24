@@ -1,0 +1,358 @@
+{
+  "id": "b2-u03-l1",
+  "nivel": "B2",
+  "unidade": 3,
+  "numero": 1,
+  "titulo": "It must be…",
+  "objetivo_pt": "Fazer deduções sobre o presente com must, might, could e can't.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever situações. Faça deduções: \"It must be…\", \"He might be…\", \"It can't be…\".",
+    "papel_professor": "Descreva situações (The lights are off in the office. Ana isn't answering her phone. There's a lot of smoke.). O aluno deduz com must/might/could/can't + verbo. Corrija 'It mustn't be' (proibição) → 'It can't be' (dedução).",
+    "abertura": "Ana isn't answering her phone, and she's always very punctual. What do you think?",
+    "abertura_pt": "A Ana não atende o telefone, e ela é sempre muito pontual. O que você acha?"
+  },
+  "vocabulario": [
+    {
+      "id": "must-be",
+      "en": "must be",
+      "pt": "deve ser / deve estar (certeza)",
+      "emoji": "🎯",
+      "exemplo_en": "He must be tired. He worked all night.",
+      "exemplo_pt": "Ele deve estar cansado. Trabalhou a noite toda."
+    },
+    {
+      "id": "might-be",
+      "en": "might / may be",
+      "pt": "pode ser / talvez seja",
+      "emoji": "🤷",
+      "exemplo_en": "She might be in a meeting.",
+      "exemplo_pt": "Talvez ela esteja em reunião."
+    },
+    {
+      "id": "could-be",
+      "en": "could be",
+      "pt": "poderia ser",
+      "emoji": "🔀",
+      "exemplo_en": "It could be a problem with the sensor.",
+      "exemplo_pt": "Poderia ser um problema no sensor."
+    },
+    {
+      "id": "cant-be",
+      "en": "can't be",
+      "pt": "não pode ser (certeza negativa)",
+      "emoji": "🚫",
+      "exemplo_en": "It can't be the battery. It's new.",
+      "exemplo_pt": "Não pode ser a bateria. É nova."
+    },
+    {
+      "id": "evidence",
+      "en": "evidence",
+      "pt": "evidência / indício",
+      "emoji": "🔍",
+      "exemplo_en": "There's no evidence of a leak.",
+      "exemplo_pt": "Não há indício de vazamento."
+    },
+    {
+      "id": "obviously",
+      "en": "obviously / clearly",
+      "pt": "obviamente / claramente",
+      "emoji": "💡",
+      "exemplo_en": "Clearly, something is wrong.",
+      "exemplo_pt": "Claramente, algo está errado."
+    },
+    {
+      "id": "probably-l1",
+      "en": "probably / possibly",
+      "pt": "provavelmente / possivelmente",
+      "emoji": "🎲",
+      "exemplo_en": "It's probably the filter.",
+      "exemplo_pt": "Provavelmente é o filtro."
+    },
+    {
+      "id": "sure",
+      "en": "I'm sure / I doubt it",
+      "pt": "tenho certeza / duvido",
+      "emoji": "✔️",
+      "exemplo_en": "I doubt it's the motor.",
+      "exemplo_pt": "Duvido que seja o motor."
+    },
+    {
+      "id": "sign-l1",
+      "en": "a sign of",
+      "pt": "um sinal de",
+      "emoji": "🚩",
+      "exemplo_en": "Noise is often a sign of wear.",
+      "exemplo_pt": "Barulho muitas vezes é sinal de desgaste."
+    },
+    {
+      "id": "look-like",
+      "en": "look like / sound like",
+      "pt": "parecer (visão / som)",
+      "emoji": "👀",
+      "exemplo_en": "It looks like a crack.",
+      "exemplo_pt": "Parece uma trinca."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Dedução no presente",
+    "explicacao_pt": "Para dizer o quanto temos CERTEZA de algo no presente: MUST + verbo = quase certeza positiva (He must be at home — the lights are on). CAN'T + verbo = quase certeza negativa (It can't be Rui — he's on holiday). MIGHT / MAY / COULD + verbo = possibilidade (She might be sick). Com ação em andamento: must/might/can't BE + -ING (He must be working). Atenção: para dedução negativa usamos CAN'T, não 'mustn't' (que significa proibição!).",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Modal",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "~95% sim",
+          "must",
+          "The machine must be overheating."
+        ],
+        [
+          "~50%",
+          "might / may / could",
+          "It might be the sensor."
+        ],
+        [
+          "~95% não",
+          "can't",
+          "It can't be the power — the lights are on."
+        ],
+        [
+          "Em andamento",
+          "must be + -ing",
+          "They must be having lunch."
+        ],
+        [
+          "Evidência",
+          "It looks like…",
+          "It looks like a leak."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The phone is busy. She must be talking to a customer.",
+        "pt": "O telefone está ocupado. Ela deve estar falando com um cliente."
+      },
+      {
+        "en": "It can't be the fuse. I changed it this morning.",
+        "pt": "Não pode ser o fusível. Troquei hoje de manhã."
+      },
+      {
+        "en": "The noise might be coming from the pump, but I'm not sure.",
+        "pt": "O barulho pode estar vindo da bomba, mas não tenho certeza."
+      },
+      {
+        "en": "There's oil on the floor. There must be a leak somewhere.",
+        "pt": "Tem óleo no chão. Deve haver um vazamento em algum lugar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What's that noise?",
+    "falas": [
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Can you hear that? There's a strange noise coming from the conveyor.",
+        "pt": "Está ouvindo isso? Tem um barulho estranho vindo da esteira."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Yes. It sounds like metal on metal. It must be a bearing.",
+        "pt": "Sim. Parece metal com metal. Deve ser um rolamento."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Could it be the belt?",
+        "pt": "Poderia ser a correia?"
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "It can't be the belt. We replaced it last week. It might be the motor, but I doubt it.",
+        "pt": "Não pode ser a correia. Trocamos semana passada. Poderia ser o motor, mas duvido."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "The motor is very hot.",
+        "pt": "O motor está muito quente."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Hmm, then the bearing must be damaged. Clearly, it needs grease. Let's stop the line and check.",
+        "pt": "Hmm, então o rolamento deve estar danificado. Claramente precisa de graxa. Vamos parar a linha e verificar."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is the noise coming from?",
+        "opcoes": [
+          "The conveyor",
+          "The compressor",
+          "The printer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What does the technician think it is first?",
+        "opcoes": [
+          "A bearing",
+          "The belt",
+          "The motor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Why can't it be the belt?",
+        "opcoes": [
+          "They replaced it last week.",
+          "It is very old.",
+          "There is no belt."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What do they decide to do?",
+        "opcoes": [
+          "Stop the line and check",
+          "Call the supplier",
+          "Ignore it"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u03l1-p1",
+      "tipo": "completar",
+      "frase": "He ___ be tired. He worked all night. (deve)",
+      "respostas": [
+        "must"
+      ]
+    },
+    {
+      "id": "b2u03l1-p2",
+      "tipo": "completar",
+      "frase": "It ___ be the battery. It's new. (não pode)",
+      "respostas": [
+        "can't",
+        "cannot"
+      ]
+    },
+    {
+      "id": "b2u03l1-p3",
+      "tipo": "completar",
+      "frase": "She ___ be in a meeting. (talvez)",
+      "respostas": [
+        "might",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": "b2u03l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Dedução negativa:",
+      "opcoes": [
+        "It mustn't be the fuse.",
+        "It can't be the fuse."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Para dedução negativa usamos can't; mustn't é proibição."
+    },
+    {
+      "id": "b2u03l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Eles devem estar almoçando\":",
+      "opcoes": [
+        "They must be having lunch.",
+        "They must have lunch now.",
+        "They must to be having lunch."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l1-p6",
+      "tipo": "ordenar",
+      "frase": "There must be a leak somewhere",
+      "traducao_pt": "Deve haver um vazamento em algum lugar"
+    },
+    {
+      "id": "b2u03l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It looks like a crack."
+    },
+    {
+      "id": "b2u03l1-p8",
+      "tipo": "traduzir",
+      "pt": "Provavelmente é o filtro.",
+      "respostas": [
+        "It's probably the filter.",
+        "It is probably the filter."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Jogo de detetive: o professor vai descrever 4 situações misteriosas. Para cada uma, dê pelo menos 2 deduções com must, might/could e can't.",
+    "papel_professor": "Descreva situações (The office is empty at 10 a.m. on a Monday. Your colleague arrives with a sunburn. The machine works in the morning but not at night.). Peça deduções variadas e justificadas. Corrija modais.",
+    "abertura": "Mystery number one: you arrive at the office at 10 a.m. on a Monday, and it's completely empty. What's going on?",
+    "abertura_pt": "Mistério número um: você chega ao escritório às 10h de uma segunda, e está completamente vazio. O que está acontecendo?"
+  },
+  "teste": [
+    {
+      "id": "b2u03l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Ela pode estar doente\":",
+      "opcoes": [
+        "She might be sick.",
+        "She must sick.",
+        "She can be sick yesterday."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l1-t2",
+      "tipo": "completar",
+      "frase": "I ___ it's the motor. (duvido)",
+      "respostas": [
+        "doubt"
+      ]
+    },
+    {
+      "id": "b2u03l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Noise is often a sign of wear."
+    },
+    {
+      "id": "b2u03l1-t4",
+      "tipo": "traduzir",
+      "pt": "Não há indício de vazamento.",
+      "respostas": [
+        "There's no evidence of a leak.",
+        "There is no evidence of a leak.",
+        "There's no sign of a leak."
+      ]
+    },
+    {
+      "id": "b2u03l1-t5",
+      "tipo": "ordenar",
+      "frase": "Clearly something is wrong",
+      "traducao_pt": "Claramente, algo está errado"
+    }
+  ]
+}

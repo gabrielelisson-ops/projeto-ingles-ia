@@ -1,0 +1,369 @@
+{
+  "id": "b2-u04-l5",
+  "nivel": "B2",
+  "unidade": 4,
+  "numero": 5,
+  "titulo": "The final interview",
+  "objetivo_pt": "Fazer uma entrevista completa em inglês, com perguntas indiretas, used to/be used to e respostas estruturadas.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga ao professor 3 coisas que você faria para se preparar para uma entrevista em inglês.",
+    "papel_professor": "Peça dicas de preparação. Ensine vocabulário de salário e negociação (salary expectations, notice period, start date) e frases de encerramento.",
+    "abertura": "If you had an interview in English next week, how would you prepare?",
+    "abertura_pt": "Se você tivesse uma entrevista em inglês semana que vem, como se prepararia?"
+  },
+  "vocabulario": [
+    {
+      "id": "expectations",
+      "en": "salary expectations",
+      "pt": "pretensão salarial",
+      "emoji": "💰",
+      "exemplo_en": "What are your salary expectations?",
+      "exemplo_pt": "Qual é sua pretensão salarial?"
+    },
+    {
+      "id": "notice",
+      "en": "notice period",
+      "pt": "aviso prévio",
+      "emoji": "📆",
+      "exemplo_en": "My notice period is thirty days.",
+      "exemplo_pt": "Meu aviso prévio é de trinta dias."
+    },
+    {
+      "id": "start-date",
+      "en": "start date",
+      "pt": "data de início",
+      "emoji": "🗓️",
+      "exemplo_en": "What would be the start date?",
+      "exemplo_pt": "Qual seria a data de início?"
+    },
+    {
+      "id": "relocate",
+      "en": "relocate",
+      "pt": "mudar de cidade (pelo trabalho)",
+      "emoji": "🧳",
+      "exemplo_en": "Would you be willing to relocate?",
+      "exemplo_pt": "Você estaria disposto a mudar de cidade?"
+    },
+    {
+      "id": "willing",
+      "en": "be willing to",
+      "pt": "estar disposto a",
+      "emoji": "🙋",
+      "exemplo_en": "I'm willing to travel.",
+      "exemplo_pt": "Estou disposto a viajar."
+    },
+    {
+      "id": "flexible-l5",
+      "en": "flexible",
+      "pt": "flexível",
+      "emoji": "🤸",
+      "exemplo_en": "I'm flexible about the start date.",
+      "exemplo_pt": "Sou flexível quanto à data de início."
+    },
+    {
+      "id": "negotiable",
+      "en": "negotiable",
+      "pt": "negociável",
+      "emoji": "🤝",
+      "exemplo_en": "The salary is negotiable.",
+      "exemplo_pt": "O salário é negociável."
+    },
+    {
+      "id": "thank-opportunity",
+      "en": "Thank you for the opportunity",
+      "pt": "Obrigado pela oportunidade",
+      "emoji": "🙏",
+      "exemplo_en": "Thank you for the opportunity to meet you.",
+      "exemplo_pt": "Obrigado pela oportunidade de conhecê-los."
+    },
+    {
+      "id": "look-forward-l5",
+      "en": "I look forward to hearing from you",
+      "pt": "Aguardo seu retorno",
+      "emoji": "📬",
+      "exemplo_en": "I look forward to hearing from you.",
+      "exemplo_pt": "Aguardo seu retorno."
+    },
+    {
+      "id": "shortlist",
+      "en": "shortlist",
+      "pt": "lista final (de candidatos)",
+      "emoji": "📋",
+      "exemplo_en": "You're on the shortlist.",
+      "exemplo_pt": "Você está na lista final."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: entrevista completa",
+    "explicacao_pt": "1) Abertura e conversa leve. 2) Tell me about yourself (presente → passado → futuro). 3) Experiência: I've worked… / I used to… / I'm used to + -ing. 4) Perguntas comportamentais: STAR. 5) Condições: My salary expectations are around… / My notice period is… / I'm willing to… 6) Suas perguntas (indiretas!): Could you tell me…? / I was wondering if… 7) Encerramento: Thank you for the opportunity. I look forward to hearing from you. Use linguagem modesta e positiva.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Experiência",
+          "I'm used to managing tight deadlines.",
+          "Estou acostumado a lidar com prazos apertados."
+        ],
+        [
+          "Passado",
+          "I used to be responsible for…",
+          "Eu era responsável por…"
+        ],
+        [
+          "Condições",
+          "My salary expectations are around…",
+          "Minha pretensão é em torno de…"
+        ],
+        [
+          "Pergunta",
+          "Could you tell me what a typical day looks like?",
+          "Poderia me dizer como é um dia típico?"
+        ],
+        [
+          "Fim",
+          "I look forward to hearing from you.",
+          "Aguardo seu retorno."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "In my current job, I'm used to working with international suppliers.",
+        "pt": "No meu emprego atual, estou acostumado a trabalhar com fornecedores internacionais."
+      },
+      {
+        "en": "My notice period is thirty days, but I'm flexible about the start date.",
+        "pt": "Meu aviso prévio é de trinta dias, mas sou flexível quanto à data de início."
+      },
+      {
+        "en": "I was wondering what the biggest challenges for this team are.",
+        "pt": "Queria saber quais são os maiores desafios desta equipe."
+      },
+      {
+        "en": "Thank you for the opportunity. I look forward to hearing from you.",
+        "pt": "Obrigado pela oportunidade. Aguardo seu retorno."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The end of an interview",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Just a few practical questions. Would you be willing to relocate to Curitiba?",
+        "pt": "Só algumas perguntas práticas. Você estaria disposto a se mudar para Curitiba?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Yes, I would. My family and I have talked about it, and we're happy to move.",
+        "pt": "Sim. Minha família e eu conversamos e ficaríamos felizes em mudar."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And what's your notice period?",
+        "pt": "E qual é seu aviso prévio?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Thirty days. But I could start a little earlier if necessary.",
+        "pt": "Trinta dias. Mas poderia começar um pouco antes se necessário."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Great. Do you have any questions for us?",
+        "pt": "Ótimo. Você tem alguma pergunta para nós?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Yes. Could you tell me what the biggest challenge for this role would be in the first year?",
+        "pt": "Sim. Poderia me dizer qual seria o maior desafio deste cargo no primeiro ano?"
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Starting the new line. It's a big project.",
+        "pt": "Iniciar a nova linha. É um projeto grande."
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "That sounds exciting. Thank you for the opportunity. I look forward to hearing from you.",
+        "pt": "Parece empolgante. Obrigado pela oportunidade. Aguardo o retorno de vocês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where would the candidate have to relocate?",
+        "opcoes": [
+          "To Curitiba",
+          "To São Paulo",
+          "To Recife"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What is his notice period?",
+        "opcoes": [
+          "Fifteen days",
+          "Thirty days",
+          "Sixty days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the candidate ask?",
+        "opcoes": [
+          "What the biggest challenge would be in the first year",
+          "What the salary was",
+          "When the holidays were"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the biggest challenge?",
+        "opcoes": [
+          "Starting the new line",
+          "Reducing costs",
+          "Training the team"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u04l5-p1",
+      "tipo": "completar",
+      "frase": "What are your salary ___? (pretensão)",
+      "respostas": [
+        "expectations"
+      ]
+    },
+    {
+      "id": "b2u04l5-p2",
+      "tipo": "completar",
+      "frase": "I'm ___ to travel. (disposto)",
+      "respostas": [
+        "willing"
+      ]
+    },
+    {
+      "id": "b2u04l5-p3",
+      "tipo": "completar",
+      "frase": "I look forward to ___ from you. (receber notícias)",
+      "respostas": [
+        "hearing"
+      ]
+    },
+    {
+      "id": "b2u04l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Meu aviso prévio é de trinta dias\":",
+      "opcoes": [
+        "My notice period is thirty days.",
+        "My previous notice is thirty days.",
+        "My warning time is thirty days."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Pergunta indireta do candidato:",
+      "opcoes": [
+        "Could you tell me what a typical day looks like?",
+        "Could you tell me what does a typical day look like?",
+        "Tell me how is a typical day?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l5-p6",
+      "tipo": "ordenar",
+      "frase": "The salary is negotiable",
+      "traducao_pt": "O salário é negociável"
+    },
+    {
+      "id": "b2u04l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Would you be willing to relocate?"
+    },
+    {
+      "id": "b2u04l5-p8",
+      "tipo": "traduzir",
+      "pt": "Obrigado pela oportunidade.",
+      "respostas": [
+        "Thank you for the opportunity.",
+        "Thanks for the opportunity."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: entrevista completa com o professor (o gerente que vai te contratar) para uma vaga na sua área. Responda com estrutura, fale de experiências passadas e do que está acostumado, discuta condições e faça suas perguntas indiretas no final.",
+    "papel_professor": "Conduza uma entrevista realista: abertura, Tell me about yourself, uma pergunta STAR, uma sobre mudanças (used to / be used to), condições (notice, salary, relocation), perguntas do candidato e encerramento. No fim, dê um retorno honesto.",
+    "abertura": "Good afternoon, and thank you for coming. Did you find our office easily?",
+    "abertura_pt": "Boa tarde e obrigado por vir. Encontrou nosso escritório com facilidade?"
+  },
+  "teste": [
+    {
+      "id": "b2u04l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Encerramento educado:",
+      "opcoes": [
+        "I look forward to hearing from you.",
+        "I wait your answer.",
+        "Call me back fast."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l5-t2",
+      "tipo": "completar",
+      "frase": "I'm ___ about the start date. (flexível)",
+      "respostas": [
+        "flexible"
+      ]
+    },
+    {
+      "id": "b2u04l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "You're on the shortlist.",
+      "aceitas": [
+        "You are on the shortlist."
+      ]
+    },
+    {
+      "id": "b2u04l5-t4",
+      "tipo": "traduzir",
+      "pt": "Qual seria a data de início?",
+      "respostas": [
+        "What would be the start date?",
+        "What would the start date be?"
+      ]
+    },
+    {
+      "id": "b2u04l5-t5",
+      "tipo": "ordenar",
+      "frase": "I'm used to working with international suppliers",
+      "traducao_pt": "Estou acostumado a trabalhar com fornecedores internacionais"
+    }
+  ]
+}

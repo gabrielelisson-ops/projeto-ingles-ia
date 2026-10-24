@@ -1,0 +1,354 @@
+{
+  "id": "b2-u03-l4",
+  "nivel": "B2",
+  "unidade": 3,
+  "numero": 4,
+  "titulo": "Should have, could have, would have",
+  "objetivo_pt": "Diferenciar should have (crítica), could have (possibilidade não usada) e would have (resultado hipotético).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar erros que alguém cometeu. Comente com \"He should have…\", \"He could have…\", \"It would have…\".",
+    "papel_professor": "Conte erros (João drove after drinking. Bia didn't back up her files. The team didn't test the new software.). O aluno comenta com should have / could have / would have. Corrija.",
+    "abertura": "Bia didn't back up her files, and her laptop was stolen. What do you think?",
+    "abertura_pt": "A Bia não fez backup dos arquivos e o notebook dela foi roubado. O que você acha?"
+  },
+  "vocabulario": [
+    {
+      "id": "should-have-l4",
+      "en": "should have",
+      "pt": "deveria ter (crítica)",
+      "emoji": "👉",
+      "exemplo_en": "She should have backed up her files.",
+      "exemplo_pt": "Ela deveria ter feito backup dos arquivos."
+    },
+    {
+      "id": "could-have-l4",
+      "en": "could have",
+      "pt": "poderia ter (mas não fez)",
+      "emoji": "🚪",
+      "exemplo_en": "We could have saved a lot of money.",
+      "exemplo_pt": "Poderíamos ter economizado muito."
+    },
+    {
+      "id": "would-have-l4",
+      "en": "would have",
+      "pt": "teria (resultado)",
+      "emoji": "🔮",
+      "exemplo_en": "It would have been cheaper.",
+      "exemplo_pt": "Teria sido mais barato."
+    },
+    {
+      "id": "neednt-have",
+      "en": "needn't have / didn't need to",
+      "pt": "não precisava ter",
+      "emoji": "😅",
+      "exemplo_en": "You needn't have bought it. We had one.",
+      "exemplo_pt": "Você não precisava ter comprado. Tínhamos um."
+    },
+    {
+      "id": "blame",
+      "en": "blame (someone for)",
+      "pt": "culpar (alguém por)",
+      "emoji": "👈",
+      "exemplo_en": "Don't blame the operators.",
+      "exemplo_pt": "Não culpe os operadores."
+    },
+    {
+      "id": "fault",
+      "en": "it's (not) someone's fault",
+      "pt": "(não) é culpa de alguém",
+      "emoji": "⚖️",
+      "exemplo_en": "It wasn't your fault.",
+      "exemplo_pt": "Não foi culpa sua."
+    },
+    {
+      "id": "careless",
+      "en": "careless / careful",
+      "pt": "descuidado / cuidadoso",
+      "emoji": "🙈",
+      "exemplo_en": "It was a careless mistake.",
+      "exemplo_pt": "Foi um erro por descuido."
+    },
+    {
+      "id": "warn-l4",
+      "en": "warning signs",
+      "pt": "sinais de alerta",
+      "emoji": "🚨",
+      "exemplo_en": "We should have noticed the warning signs.",
+      "exemplo_pt": "Deveríamos ter notado os sinais de alerta."
+    },
+    {
+      "id": "responsibility",
+      "en": "take responsibility",
+      "pt": "assumir a responsabilidade",
+      "emoji": "🙋",
+      "exemplo_en": "The manager took responsibility.",
+      "exemplo_pt": "O gerente assumiu a responsabilidade."
+    },
+    {
+      "id": "preventable",
+      "en": "preventable",
+      "pt": "evitável",
+      "emoji": "🛡️",
+      "exemplo_en": "The accident was preventable.",
+      "exemplo_pt": "O acidente era evitável."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Modais perfeitos: crítica e possibilidade",
+    "explicacao_pt": "SHOULD HAVE + pp = crítica ou arrependimento (era o certo, mas não foi feito): You should have told me. SHOULDN'T HAVE = foi feito, mas era errado: He shouldn't have shouted. COULD HAVE + pp = possibilidade que existia mas não foi usada: We could have taken the train (mas fomos de carro). WOULD HAVE + pp = resultado imaginado (geralmente com 'if' implícito): It would have been faster. NEEDN'T HAVE + pp = fez algo desnecessário. Compare com dedução: He must have forgotten (deduzo) × He should have remembered (critico).",
+    "tabela": {
+      "colunas": [
+        "Modal",
+        "Sentido",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "should have",
+          "crítica",
+          "We should have tested it."
+        ],
+        [
+          "shouldn't have",
+          "crítica (fez algo errado)",
+          "He shouldn't have removed the guard."
+        ],
+        [
+          "could have",
+          "possibilidade não usada",
+          "We could have asked for help."
+        ],
+        [
+          "would have",
+          "resultado imaginado",
+          "It would have been safer."
+        ],
+        [
+          "needn't have",
+          "desnecessário",
+          "You needn't have waited."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The operator shouldn't have removed the safety guard.",
+        "pt": "O operador não deveria ter removido a proteção."
+      },
+      {
+        "en": "We could have avoided the delay if we had ordered the parts earlier.",
+        "pt": "Poderíamos ter evitado o atraso se tivéssemos pedido as peças antes."
+      },
+      {
+        "en": "A simple checklist would have prevented this mistake.",
+        "pt": "Um checklist simples teria evitado este erro."
+      },
+      {
+        "en": "It wasn't your fault. The procedure should have been clearer.",
+        "pt": "Não foi culpa sua. O procedimento deveria ter sido mais claro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Who's to blame?",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "We lost a big order because the samples arrived late. What happened?",
+        "pt": "Perdemos um pedido grande porque as amostras chegaram atrasadas. O que aconteceu?"
+      },
+      {
+        "personagem": "Sales",
+        "voz": "b",
+        "en": "They were sent by normal post. We should have used express delivery.",
+        "pt": "Foram mandadas pelo correio normal. Deveríamos ter usado entrega expressa."
+      },
+      {
+        "personagem": "Logistics",
+        "voz": "a",
+        "en": "But nobody told us it was urgent. The request should have been marked as urgent.",
+        "pt": "Mas ninguém nos disse que era urgente. O pedido deveria ter sido marcado como urgente."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "I'm not interested in blaming anyone. Could we have avoided it?",
+        "pt": "Não estou interessado em culpar ninguém. Poderíamos ter evitado?"
+      },
+      {
+        "personagem": "Sales",
+        "voz": "b",
+        "en": "Yes. A simple phone call would have solved the problem.",
+        "pt": "Sim. Um simples telefonema teria resolvido o problema."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "OK. It was preventable. From now on, all customer samples go by express.",
+        "pt": "OK. Era evitável. De agora em diante, todas as amostras para clientes vão por expresso."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Why did they lose the order?",
+        "opcoes": [
+          "The samples arrived late.",
+          "The price was high.",
+          "The quality was bad."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How were the samples sent?",
+        "opcoes": [
+          "By express",
+          "By normal post",
+          "By hand"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What would have solved the problem?",
+        "opcoes": [
+          "A simple phone call",
+          "A new truck",
+          "A discount"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the new rule?",
+        "opcoes": [
+          "All customer samples go by express.",
+          "Sales sends everything.",
+          "No more samples."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u03l4-p1",
+      "tipo": "completar",
+      "frase": "She should ___ backed up her files.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u03l4-p2",
+      "tipo": "completar",
+      "frase": "We ___ have saved a lot of money. (poderíamos)",
+      "respostas": [
+        "could"
+      ]
+    },
+    {
+      "id": "b2u03l4-p3",
+      "tipo": "completar",
+      "frase": "It ___ have been cheaper. (teria)",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b2u03l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Crítica (fez algo errado):",
+      "opcoes": [
+        "He shouldn't have removed the guard.",
+        "He couldn't have removed the guard."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Você não precisava ter esperado\":",
+      "opcoes": [
+        "You needn't have waited.",
+        "You mustn't have waited.",
+        "You needn't to wait have."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l4-p6",
+      "tipo": "ordenar",
+      "frase": "The accident was preventable",
+      "traducao_pt": "O acidente era evitável"
+    },
+    {
+      "id": "b2u03l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It wasn't your fault.",
+      "aceitas": [
+        "It was not your fault."
+      ]
+    },
+    {
+      "id": "b2u03l4-p8",
+      "tipo": "traduzir",
+      "pt": "Deveríamos ter notado os sinais de alerta.",
+      "respostas": [
+        "We should have noticed the warning signs.",
+        "We should've noticed the warning signs."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Analise com o professor 3 situações que deram errado (um acidente, um atraso, um mal-entendido). Para cada uma: o que deve ter acontecido, o que deveria ter sido feito e o que teria acontecido de outra forma.",
+    "papel_professor": "Apresente 3 situações. Para cada uma peça dedução (must have), crítica (should have), alternativa (could have) e resultado (would have). Corrija a escolha de modal.",
+    "abertura": "Situation one: a new operator cut his hand on his first day. He wasn't wearing gloves. Let's analyze it.",
+    "abertura_pt": "Situação um: um operador novo cortou a mão no primeiro dia. Não estava usando luvas. Vamos analisar."
+  },
+  "teste": [
+    {
+      "id": "b2u03l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Dedução × crítica: \"He must have forgotten\" é…",
+      "opcoes": [
+        "dedução",
+        "crítica"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l4-t2",
+      "tipo": "completar",
+      "frase": "Don't ___ the operators. (culpe)",
+      "respostas": [
+        "blame"
+      ]
+    },
+    {
+      "id": "b2u03l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It was a careless mistake."
+    },
+    {
+      "id": "b2u03l4-t4",
+      "tipo": "traduzir",
+      "pt": "O gerente assumiu a responsabilidade.",
+      "respostas": [
+        "The manager took responsibility."
+      ]
+    },
+    {
+      "id": "b2u03l4-t5",
+      "tipo": "ordenar",
+      "frase": "We could have asked for help",
+      "traducao_pt": "Poderíamos ter pedido ajuda"
+    }
+  ]
+}

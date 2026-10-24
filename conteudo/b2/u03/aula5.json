@@ -1,0 +1,352 @@
+{
+  "id": "b2-u03-l5",
+  "nivel": "B2",
+  "unidade": 3,
+  "numero": 5,
+  "titulo": "The investigation",
+  "objetivo_pt": "Apresentar as conclusões de uma investigação, juntando dedução no presente e no passado e modais perfeitos.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: pense numa notícia recente (acidente, mistério, falha). Diga ao professor o que deve ter acontecido e o que poderia ter sido feito.",
+    "papel_professor": "Peça uma notícia recente. Corrija modais de dedução e de crítica. Ensine linguagem de conclusões (Our findings suggest…, We concluded that…).",
+    "abertura": "Have you seen any news recently about an accident or a strange event? What do you think happened?",
+    "abertura_pt": "Viu alguma notícia recente sobre um acidente ou algo estranho? O que você acha que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "findings",
+      "en": "findings",
+      "pt": "constatações / resultados",
+      "emoji": "📑",
+      "exemplo_en": "Our findings suggest a design problem.",
+      "exemplo_pt": "Nossas constatações sugerem um problema de projeto."
+    },
+    {
+      "id": "conclude",
+      "en": "conclude / conclusion",
+      "pt": "concluir / conclusão",
+      "emoji": "🏁",
+      "exemplo_en": "We concluded that the valve had failed.",
+      "exemplo_pt": "Concluímos que a válvula tinha falhado."
+    },
+    {
+      "id": "suggest-l5",
+      "en": "suggest / indicate",
+      "pt": "sugerir / indicar",
+      "emoji": "🧭",
+      "exemplo_en": "The evidence indicates human error.",
+      "exemplo_pt": "As evidências indicam erro humano."
+    },
+    {
+      "id": "likely",
+      "en": "likely / unlikely",
+      "pt": "provável / improvável",
+      "emoji": "📊",
+      "exemplo_en": "It's unlikely that it was sabotage.",
+      "exemplo_pt": "É improvável que tenha sido sabotagem."
+    },
+    {
+      "id": "appear",
+      "en": "appear to / seem to",
+      "pt": "parecer",
+      "emoji": "👁️",
+      "exemplo_en": "The sensor appears to have failed.",
+      "exemplo_pt": "O sensor parece ter falhado."
+    },
+    {
+      "id": "investigation",
+      "en": "investigation",
+      "pt": "investigação",
+      "emoji": "🕵️",
+      "exemplo_en": "The investigation took two weeks.",
+      "exemplo_pt": "A investigação levou duas semanas."
+    },
+    {
+      "id": "interview-l5",
+      "en": "interview (witnesses)",
+      "pt": "entrevistar (testemunhas)",
+      "emoji": "🎤",
+      "exemplo_en": "We interviewed six witnesses.",
+      "exemplo_pt": "Entrevistamos seis testemunhas."
+    },
+    {
+      "id": "timeline",
+      "en": "timeline",
+      "pt": "linha do tempo",
+      "emoji": "🕒",
+      "exemplo_en": "We built a timeline of the events.",
+      "exemplo_pt": "Montamos uma linha do tempo dos eventos."
+    },
+    {
+      "id": "recommendation",
+      "en": "recommendation",
+      "pt": "recomendação",
+      "emoji": "✅",
+      "exemplo_en": "Our main recommendation is training.",
+      "exemplo_pt": "Nossa principal recomendação é treinamento."
+    },
+    {
+      "id": "beyond-doubt",
+      "en": "beyond doubt",
+      "pt": "sem dúvida",
+      "emoji": "💯",
+      "exemplo_en": "It's beyond doubt that the guard was missing.",
+      "exemplo_pt": "Não há dúvida de que a proteção estava ausente."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Linguagem de conclusões",
+    "explicacao_pt": "Para apresentar conclusões com graus de certeza: CERTEZA — It's clear / beyond doubt that… / The guard must have been removed. PROVÁVEL — It's likely that… / The sensor appears to have failed / seems to have been damaged. POSSÍVEL — It might/could have been… IMPROVÁVEL — It's unlikely that… / It can't have been… Note APPEAR/SEEM + TO HAVE + particípio para o passado (It seems to have started at night). Recomendações: We recommend + -ing / that… / … should be + particípio.",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Expressão",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Alta",
+          "It's clear that… / must have",
+          "It's clear that the valve failed."
+        ],
+        [
+          "Provável",
+          "It's likely that… / appears to have",
+          "The fire appears to have started in the kitchen."
+        ],
+        [
+          "Possível",
+          "might / could have",
+          "It could have been an electrical fault."
+        ],
+        [
+          "Improvável",
+          "It's unlikely that…",
+          "It's unlikely that it was deliberate."
+        ],
+        [
+          "Recomendação",
+          "We recommend + -ing",
+          "We recommend installing a second sensor."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our findings indicate that the fire started in the electrical panel.",
+        "pt": "Nossas constatações indicam que o incêndio começou no painel elétrico."
+      },
+      {
+        "en": "The cable appears to have been damaged during the renovation.",
+        "pt": "O cabo parece ter sido danificado durante a reforma."
+      },
+      {
+        "en": "It's unlikely that the operators were responsible.",
+        "pt": "É improvável que os operadores tenham sido os responsáveis."
+      },
+      {
+        "en": "We recommend that all panels should be inspected every six months.",
+        "pt": "Recomendamos que todos os painéis sejam inspecionados a cada seis meses."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Presenting the findings",
+    "falas": [
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "Good morning. I'll present the findings of our investigation into the fire on 3 June.",
+        "pt": "Bom dia. Vou apresentar as constatações da nossa investigação sobre o incêndio de 3 de junho."
+      },
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "We interviewed eight witnesses and built a timeline. The fire appears to have started at around 11 p.m. in the paint storage room.",
+        "pt": "Entrevistamos oito testemunhas e montamos uma linha do tempo. O incêndio parece ter começado por volta das 23h na sala de armazenamento de tintas."
+      },
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "It's unlikely that it was deliberate. There was no sign of a break-in, and the cameras show nobody near the room.",
+        "pt": "É improvável que tenha sido intencional. Não havia sinal de arrombamento, e as câmeras não mostram ninguém perto da sala."
+      },
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "Our main conclusion is that an old extension cable must have overheated. It shouldn't have been there — it's against our procedures.",
+        "pt": "Nossa principal conclusão é que uma extensão velha deve ter superaquecido. Ela não deveria estar lá — é contra nossos procedimentos."
+      },
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "If the smoke detector had been working, the fire would have been detected much earlier.",
+        "pt": "Se o detector de fumaça estivesse funcionando, o incêndio teria sido detectado muito antes."
+      },
+      {
+        "personagem": "Investigator",
+        "voz": "a",
+        "en": "We recommend removing all extension cables and testing the detectors every month.",
+        "pt": "Recomendamos retirar todas as extensões e testar os detectores todo mês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many witnesses did they interview?",
+        "opcoes": [
+          "Six",
+          "Eight",
+          "Ten"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Where did the fire start?",
+        "opcoes": [
+          "In the paint storage room",
+          "In the office",
+          "In the kitchen"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the main conclusion?",
+        "opcoes": [
+          "An old extension cable must have overheated.",
+          "Someone started it deliberately.",
+          "A machine exploded."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What else went wrong?",
+        "opcoes": [
+          "The smoke detector wasn't working.",
+          "The doors were locked.",
+          "There was no water."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u03l5-p1",
+      "tipo": "completar",
+      "frase": "Our ___ suggest a design problem. (constatações)",
+      "respostas": [
+        "findings"
+      ]
+    },
+    {
+      "id": "b2u03l5-p2",
+      "tipo": "completar",
+      "frase": "It's ___ that it was sabotage. (improvável)",
+      "respostas": [
+        "unlikely"
+      ]
+    },
+    {
+      "id": "b2u03l5-p3",
+      "tipo": "completar",
+      "frase": "The sensor appears to ___ failed.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u03l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O incêndio parece ter começado na cozinha\":",
+      "opcoes": [
+        "The fire appears to have started in the kitchen.",
+        "The fire appears to start in the kitchen yesterday.",
+        "The fire appears that started in the kitchen."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Recomendação:",
+      "opcoes": [
+        "We recommend installing a second sensor.",
+        "We recommend to install a second sensor.",
+        "We recommend you install of a second sensor."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l5-p6",
+      "tipo": "ordenar",
+      "frase": "We built a timeline of the events",
+      "traducao_pt": "Montamos uma linha do tempo dos eventos"
+    },
+    {
+      "id": "b2u03l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The evidence indicates human error."
+    },
+    {
+      "id": "b2u03l5-p8",
+      "tipo": "traduzir",
+      "pt": "Concluímos que a válvula tinha falhado.",
+      "respostas": [
+        "We concluded that the valve had failed.",
+        "We concluded the valve had failed."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: apresente ao professor (o diretor) as conclusões de uma investigação sobre um incidente (real ou inventado): o que aconteceu, as evidências, a causa provável, o que deveria ter sido feito e as recomendações. Ele vai questionar suas conclusões.",
+    "papel_professor": "Faça o papel de diretor exigente. Questione (How do you know? Could it have been something else? Who should have noticed?). Exija graus de certeza adequados. Corrija modais e linguagem de conclusão.",
+    "abertura": "OK, I've read the incident summary, but I want to hear your conclusions. What happened, and how sure are you?",
+    "abertura_pt": "OK, li o resumo do incidente, mas quero ouvir suas conclusões. O que aconteceu, e qual a sua certeza?"
+  },
+  "teste": [
+    {
+      "id": "b2u03l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Alta certeza:",
+      "opcoes": [
+        "It's clear that the valve failed.",
+        "It might be that the valve maybe failed."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l5-t2",
+      "tipo": "completar",
+      "frase": "We ___ six witnesses. (entrevistamos)",
+      "respostas": [
+        "interviewed"
+      ]
+    },
+    {
+      "id": "b2u03l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our main recommendation is training."
+    },
+    {
+      "id": "b2u03l5-t4",
+      "tipo": "traduzir",
+      "pt": "A investigação levou duas semanas.",
+      "respostas": [
+        "The investigation took two weeks."
+      ]
+    },
+    {
+      "id": "b2u03l5-t5",
+      "tipo": "ordenar",
+      "frase": "The cable appears to have been damaged",
+      "traducao_pt": "O cabo parece ter sido danificado"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "b2-u03-l2",
+  "nivel": "B2",
+  "unidade": 3,
+  "numero": 2,
+  "titulo": "It must have been…",
+  "objetivo_pt": "Fazer deduções sobre o passado com must have, might have, could have e can't have.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever o que aconteceu. Deduza a causa: \"It must have…\", \"Someone might have…\", \"It can't have…\".",
+    "papel_professor": "Descreva resultados (The door was open in the morning. The report has a lot of mistakes. The truck arrived empty.). O aluno deduz o passado com modal + have + particípio. Corrija.",
+    "abertura": "When we arrived this morning, the warehouse door was open. What do you think happened?",
+    "abertura_pt": "Quando chegamos hoje de manhã, a porta do armazém estava aberta. O que você acha que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "must-have",
+      "en": "must have + particípio",
+      "pt": "deve ter (feito)",
+      "emoji": "🎯",
+      "exemplo_en": "Someone must have left the door open.",
+      "exemplo_pt": "Alguém deve ter deixado a porta aberta."
+    },
+    {
+      "id": "might-have-l2",
+      "en": "might / may have",
+      "pt": "pode ter / talvez tenha",
+      "emoji": "🤷",
+      "exemplo_en": "The driver might have taken the wrong road.",
+      "exemplo_pt": "O motorista pode ter pegado a estrada errada."
+    },
+    {
+      "id": "could-have-l2",
+      "en": "could have",
+      "pt": "poderia ter",
+      "emoji": "🔀",
+      "exemplo_en": "It could have been a power surge.",
+      "exemplo_pt": "Poderia ter sido um pico de energia."
+    },
+    {
+      "id": "cant-have",
+      "en": "can't / couldn't have",
+      "pt": "não pode ter",
+      "emoji": "🚫",
+      "exemplo_en": "He can't have seen it. He wasn't there.",
+      "exemplo_pt": "Ele não pode ter visto. Não estava lá."
+    },
+    {
+      "id": "forget-l2",
+      "en": "forget (forgot, forgotten)",
+      "pt": "esquecer",
+      "emoji": "🤦",
+      "exemplo_en": "He must have forgotten.",
+      "exemplo_pt": "Ele deve ter esquecido."
+    },
+    {
+      "id": "break-in",
+      "en": "break in / break-in",
+      "pt": "arrombar / arrombamento",
+      "emoji": "🔓",
+      "exemplo_en": "There's no sign of a break-in.",
+      "exemplo_pt": "Não há sinal de arrombamento."
+    },
+    {
+      "id": "mistake-l2",
+      "en": "by mistake",
+      "pt": "por engano",
+      "emoji": "🙊",
+      "exemplo_en": "Someone must have deleted it by mistake.",
+      "exemplo_pt": "Alguém deve ter apagado por engano."
+    },
+    {
+      "id": "cctv",
+      "en": "CCTV / camera footage",
+      "pt": "câmeras / imagens",
+      "emoji": "📹",
+      "exemplo_en": "Let's check the CCTV footage.",
+      "exemplo_pt": "Vamos verificar as imagens das câmeras."
+    },
+    {
+      "id": "explanation",
+      "en": "explanation",
+      "pt": "explicação",
+      "emoji": "💬",
+      "exemplo_en": "There must be a logical explanation.",
+      "exemplo_pt": "Deve haver uma explicação lógica."
+    },
+    {
+      "id": "power-surge",
+      "en": "power surge",
+      "pt": "pico de energia",
+      "emoji": "⚡",
+      "exemplo_en": "A power surge might have damaged the board.",
+      "exemplo_pt": "Um pico de energia pode ter danificado a placa."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Dedução no passado",
+    "explicacao_pt": "Estrutura: MODAL + HAVE + PARTICÍPIO. MUST HAVE = quase certeza de que aconteceu (The ground is wet. It must have rained.). CAN'T HAVE / COULDN'T HAVE = quase certeza de que NÃO aconteceu (He can't have taken it — he was on holiday.). MIGHT / MAY / COULD HAVE = possibilidade (She might have missed the bus.). Na fala: must've, might've, could've. Cuidado com 'could have': também significa 'poderia ter (mas não fez)' — o contexto mostra.",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "~95% sim",
+          "must have + pp",
+          "Someone must have changed the settings."
+        ],
+        [
+          "~50%",
+          "might / may / could have + pp",
+          "The parts might have been damaged in transport."
+        ],
+        [
+          "~95% não",
+          "can't / couldn't have + pp",
+          "It can't have been the night shift — the line was off."
+        ],
+        [
+          "Passiva",
+          "must have been + pp",
+          "The box must have been opened."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The floor is wet near the tank. The valve must have been leaking all night.",
+        "pt": "O chão está molhado perto do tanque. A válvula deve ter vazado a noite toda."
+      },
+      {
+        "en": "The supplier might have sent the wrong batch.",
+        "pt": "O fornecedor pode ter mandado o lote errado."
+      },
+      {
+        "en": "Pedro can't have changed the settings. He doesn't have the password.",
+        "pt": "O Pedro não pode ter mudado a configuração. Ele não tem a senha."
+      },
+      {
+        "en": "The file isn't here. Someone must have deleted it by mistake.",
+        "pt": "O arquivo não está aqui. Alguém deve ter apagado por engano."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The mystery of the missing pallets",
+    "falas": [
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Twelve pallets of finished products are missing from the warehouse.",
+        "pt": "Doze paletes de produto acabado sumiram do armazém."
+      },
+      {
+        "personagem": "Security",
+        "voz": "b",
+        "en": "There's no sign of a break-in. The doors were locked this morning.",
+        "pt": "Não há sinal de arrombamento. As portas estavam trancadas hoje de manhã."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "So someone with a key must have taken them.",
+        "pt": "Então alguém com chave deve ter levado."
+      },
+      {
+        "personagem": "Logistics",
+        "voz": "a",
+        "en": "Wait. They might have been loaded onto the wrong truck yesterday. We had two trucks at the same time.",
+        "pt": "Espera. Podem ter sido carregados no caminhão errado ontem. Tínhamos dois caminhões ao mesmo tempo."
+      },
+      {
+        "personagem": "Security",
+        "voz": "b",
+        "en": "That's possible. It can't have been a theft at night — the cameras show nothing.",
+        "pt": "É possível. Não pode ter sido um roubo à noite — as câmeras não mostram nada."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "OK, let's call the transport company. There must be a logical explanation.",
+        "pt": "OK, vamos ligar para a transportadora. Deve haver uma explicação lógica."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How many pallets are missing?",
+        "opcoes": [
+          "Two",
+          "Twelve",
+          "Twenty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Is there a sign of a break-in?",
+        "opcoes": [
+          "Yes",
+          "No"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the logistics explanation?",
+        "opcoes": [
+          "They might have been loaded onto the wrong truck.",
+          "They were stolen.",
+          "They were never produced."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l2-e4",
+        "tipo": "multipla",
+        "enunciado": "Why can't it have been a theft at night?",
+        "opcoes": [
+          "The cameras show nothing.",
+          "The guard was there.",
+          "The pallets were too heavy."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u03l2-p1",
+      "tipo": "completar",
+      "frase": "Someone must ___ left the door open.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u03l2-p2",
+      "tipo": "completar",
+      "frase": "He can't have ___ it. He wasn't there. (visto)",
+      "respostas": [
+        "seen"
+      ]
+    },
+    {
+      "id": "b2u03l2-p3",
+      "tipo": "completar",
+      "frase": "The ground is wet. It must have ___. (chovido)",
+      "respostas": [
+        "rained"
+      ]
+    },
+    {
+      "id": "b2u03l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Possibilidade no passado:",
+      "opcoes": [
+        "She might have missed the bus.",
+        "She might missed the bus.",
+        "She might has missed the bus."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A caixa deve ter sido aberta\":",
+      "opcoes": [
+        "The box must have been opened.",
+        "The box must have opened been.",
+        "The box must be opened have."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l2-p6",
+      "tipo": "ordenar",
+      "frase": "There must be a logical explanation",
+      "traducao_pt": "Deve haver uma explicação lógica"
+    },
+    {
+      "id": "b2u03l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's check the CCTV footage.",
+      "aceitas": [
+        "Let us check the CCTV footage."
+      ]
+    },
+    {
+      "id": "b2u03l2-p8",
+      "tipo": "traduzir",
+      "pt": "Alguém deve ter apagado por engano.",
+      "respostas": [
+        "Someone must have deleted it by mistake.",
+        "Somebody must have deleted it by mistake.",
+        "Someone must've deleted it by mistake."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai apresentar 3 \"mistérios\" do trabalho (algo sumiu, algo quebrou, um número estranho). Deduza o que deve ter acontecido, o que pode ter acontecido e o que não pode ter acontecido.",
+    "papel_professor": "Apresente mistérios com pistas. Dê novas pistas conforme o aluno deduz. Exija must have / might have / can't have + particípio. Corrija.",
+    "abertura": "Mystery one: yesterday the line produced 2,000 units, but the system shows only 1,200. What might have happened?",
+    "abertura_pt": "Mistério um: ontem a linha produziu 2.000 unidades, mas o sistema mostra só 1.200. O que pode ter acontecido?"
+  },
+  "teste": [
+    {
+      "id": "b2u03l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Ele deve ter esquecido\":",
+      "opcoes": [
+        "He must have forgotten.",
+        "He must forgot.",
+        "He must have forgot."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l2-t2",
+      "tipo": "completar",
+      "frase": "There's no sign of a ___-in. (arrombamento)",
+      "respostas": [
+        "break"
+      ]
+    },
+    {
+      "id": "b2u03l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "A power surge might have damaged the board."
+    },
+    {
+      "id": "b2u03l2-t4",
+      "tipo": "traduzir",
+      "pt": "Poderia ter sido um pico de energia.",
+      "respostas": [
+        "It could have been a power surge.",
+        "It could've been a power surge.",
+        "It might have been a power surge."
+      ]
+    },
+    {
+      "id": "b2u03l2-t5",
+      "tipo": "ordenar",
+      "frase": "The driver might have taken the wrong road",
+      "traducao_pt": "O motorista pode ter pegado a estrada errada"
+    }
+  ]
+}

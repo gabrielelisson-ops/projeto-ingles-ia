@@ -288,6 +288,28 @@ export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown 
     ],
     prova: require('../../conteudo/b2/u02/prova.json'),
   },
+  {
+    meta: require('../../conteudo/b2/u03/unidade.json'),
+    aulas: [
+      require('../../conteudo/b2/u03/aula1.json'),
+      require('../../conteudo/b2/u03/aula2.json'),
+      require('../../conteudo/b2/u03/aula3.json'),
+      require('../../conteudo/b2/u03/aula4.json'),
+      require('../../conteudo/b2/u03/aula5.json'),
+    ],
+    prova: require('../../conteudo/b2/u03/prova.json'),
+  },
+  {
+    meta: require('../../conteudo/b2/u04/unidade.json'),
+    aulas: [
+      require('../../conteudo/b2/u04/aula1.json'),
+      require('../../conteudo/b2/u04/aula2.json'),
+      require('../../conteudo/b2/u04/aula3.json'),
+      require('../../conteudo/b2/u04/aula4.json'),
+      require('../../conteudo/b2/u04/aula5.json'),
+    ],
+    prova: require('../../conteudo/b2/u04/prova.json'),
+  },
 ];
 
 export const FINAIS_BRUTAS: unknown[] = [require('../../conteudo/a1/final.json'), require('../../conteudo/a2/final.json'), require('../../conteudo/b1/final.json')];

@@ -1,0 +1,354 @@
+{
+  "id": "b2-u04-l3",
+  "nivel": "B2",
+  "unidade": 4,
+  "numero": 3,
+  "titulo": "I'm used to working under pressure",
+  "objetivo_pt": "Diferenciar used to (passado) de be used to / get used to (estar / ficar acostumado).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar a que coisas você está acostumado e a que você ainda está se acostumando.",
+    "papel_professor": "Pergunte (Are you used to waking up early? Is there anything you're getting used to? What was hard to get used to in your job?). Ensine be/get used to + -ing. Corrija 'I'm used to wake up' → 'waking up'.",
+    "abertura": "Are you used to waking up early?",
+    "abertura_pt": "Você está acostumado a acordar cedo?"
+  },
+  "vocabulario": [
+    {
+      "id": "be-used-to",
+      "en": "be used to + -ing",
+      "pt": "estar acostumado a",
+      "emoji": "🙂",
+      "exemplo_en": "I'm used to working under pressure.",
+      "exemplo_pt": "Estou acostumado a trabalhar sob pressão."
+    },
+    {
+      "id": "get-used-to",
+      "en": "get used to + -ing",
+      "pt": "acostumar-se a",
+      "emoji": "🔄",
+      "exemplo_en": "I'm getting used to the new system.",
+      "exemplo_pt": "Estou me acostumando com o novo sistema."
+    },
+    {
+      "id": "not-used",
+      "en": "not be used to",
+      "pt": "não estar acostumado",
+      "emoji": "😬",
+      "exemplo_en": "I'm not used to speaking in public.",
+      "exemplo_pt": "Não estou acostumado a falar em público."
+    },
+    {
+      "id": "pressure",
+      "en": "under pressure",
+      "pt": "sob pressão",
+      "emoji": "🗜️",
+      "exemplo_en": "We work under pressure every day.",
+      "exemplo_pt": "Trabalhamos sob pressão todo dia."
+    },
+    {
+      "id": "adapt",
+      "en": "adapt (to)",
+      "pt": "adaptar-se (a)",
+      "emoji": "🦎",
+      "exemplo_en": "It took me a month to adapt.",
+      "exemplo_pt": "Levei um mês para me adaptar."
+    },
+    {
+      "id": "take-time",
+      "en": "it takes time",
+      "pt": "leva tempo",
+      "emoji": "⏳",
+      "exemplo_en": "It takes time to get used to it.",
+      "exemplo_pt": "Leva tempo para se acostumar."
+    },
+    {
+      "id": "routine",
+      "en": "routine",
+      "pt": "rotina",
+      "emoji": "🔁",
+      "exemplo_en": "I'm used to my routine.",
+      "exemplo_pt": "Estou acostumado à minha rotina."
+    },
+    {
+      "id": "culture",
+      "en": "company culture",
+      "pt": "cultura da empresa",
+      "emoji": "🏢",
+      "exemplo_en": "The company culture was very different.",
+      "exemplo_pt": "A cultura da empresa era muito diferente."
+    },
+    {
+      "id": "strange",
+      "en": "strange / weird at first",
+      "pt": "estranho no começo",
+      "emoji": "🤨",
+      "exemplo_en": "It felt strange at first.",
+      "exemplo_pt": "Pareceu estranho no começo."
+    },
+    {
+      "id": "comfortable",
+      "en": "comfortable (with)",
+      "pt": "à vontade (com)",
+      "emoji": "🛋️",
+      "exemplo_en": "I feel comfortable with the team now.",
+      "exemplo_pt": "Me sinto à vontade com a equipe agora."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Used to × be used to × get used to",
+    "explicacao_pt": "São três coisas DIFERENTES: 1) USED TO + VERBO = hábito no passado (I used to work nights = eu trabalhava à noite). 2) BE USED TO + -ING / substantivo = estar acostumado (I'm used to working nights = estou acostumado a trabalhar à noite). 3) GET USED TO + -ING / substantivo = acostumar-se, processo (I'm getting used to working nights = estou me acostumando). Em 2 e 3, o 'to' é preposição, por isso vem -ING. Funcionam em todos os tempos: I wasn't used to… / You'll get used to it.",
+    "tabela": {
+      "colunas": [
+        "Estrutura",
+        "Sentido",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "used to + verbo",
+          "hábito passado",
+          "I used to live alone."
+        ],
+        [
+          "be used to + -ing",
+          "acostumado (estado)",
+          "I'm used to living alone."
+        ],
+        [
+          "get used to + -ing",
+          "acostumar-se (processo)",
+          "I'm getting used to living alone."
+        ],
+        [
+          "will get used to",
+          "vai se acostumar",
+          "You'll get used to it."
+        ],
+        [
+          "wasn't used to",
+          "não estava acostumado",
+          "I wasn't used to the cold."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm used to working under pressure. In my last job, we had tight deadlines every week.",
+        "pt": "Estou acostumado a trabalhar sob pressão. No meu último emprego, tínhamos prazos apertados toda semana."
+      },
+      {
+        "en": "At first, I wasn't used to speaking English in meetings, but now I feel comfortable.",
+        "pt": "No começo, eu não estava acostumado a falar inglês em reuniões, mas agora me sinto à vontade."
+      },
+      {
+        "en": "It took me a few months to get used to the night shift.",
+        "pt": "Levei alguns meses para me acostumar com o turno da noite."
+      },
+      {
+        "en": "Don't worry. You'll get used to the new software quickly.",
+        "pt": "Não se preocupe. Você vai se acostumar rápido com o novo software."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Working abroad",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "You worked in Germany for three years. How was it?",
+        "pt": "Você trabalhou na Alemanha por três anos. Como foi?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Great, but at first it was hard. I wasn't used to the cold, and I had to get used to a very different company culture.",
+        "pt": "Ótimo, mas no começo foi difícil. Eu não estava acostumado ao frio e tive que me acostumar a uma cultura empresarial muito diferente."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "In what way?",
+        "pt": "De que forma?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "In Brazil, I used to have long meetings with a lot of discussion. There, meetings were short and very direct.",
+        "pt": "No Brasil, eu tinha reuniões longas com muita discussão. Lá, as reuniões eram curtas e muito diretas."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And did you get used to it?",
+        "pt": "E você se acostumou?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "b",
+        "en": "Yes, after a few months. Now I'm used to being direct and organized. I think that's one of my strengths.",
+        "pt": "Sim, depois de alguns meses. Agora estou acostumado a ser direto e organizado. Acho que é um dos meus pontos fortes."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How long did he work in Germany?",
+        "opcoes": [
+          "One year",
+          "Three years",
+          "Five years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What wasn't he used to?",
+        "opcoes": [
+          "The cold",
+          "The food",
+          "The language"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How were meetings in Germany?",
+        "opcoes": [
+          "Short and direct",
+          "Long with discussion",
+          "Very informal"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What is he used to now?",
+        "opcoes": [
+          "Being direct and organized",
+          "Having long meetings",
+          "Working alone"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u04l3-p1",
+      "tipo": "completar",
+      "frase": "I'm used to ___ under pressure. (trabalhar)",
+      "respostas": [
+        "working"
+      ]
+    },
+    {
+      "id": "b2u04l3-p2",
+      "tipo": "completar",
+      "frase": "I'm getting ___ to the new system.",
+      "respostas": [
+        "used"
+      ]
+    },
+    {
+      "id": "b2u04l3-p3",
+      "tipo": "completar",
+      "frase": "You'll ___ used to it. (vai se acostumar)",
+      "respostas": [
+        "get"
+      ]
+    },
+    {
+      "id": "b2u04l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Estou acostumado a acordar cedo\":",
+      "opcoes": [
+        "I used to wake up early.",
+        "I'm used to waking up early.",
+        "I'm used to wake up early."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u04l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Eu acordava cedo (antes, não mais)\":",
+      "opcoes": [
+        "I used to wake up early.",
+        "I'm used to waking up early."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l3-p6",
+      "tipo": "ordenar",
+      "frase": "It takes time to get used to it",
+      "traducao_pt": "Leva tempo para se acostumar"
+    },
+    {
+      "id": "b2u04l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It felt strange at first."
+    },
+    {
+      "id": "b2u04l3-p8",
+      "tipo": "traduzir",
+      "pt": "Levei um mês para me adaptar.",
+      "respostas": [
+        "It took me a month to adapt."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor uma grande mudança na sua vida (emprego novo, cidade nova, filho, turno diferente): o que você costumava fazer antes, o que foi difícil de se acostumar e a que você já está acostumado agora.",
+    "papel_professor": "Explore a mudança. Pergunte What did you use to…? What was hard to get used to? Are you used to it now? Corrija rigorosamente os três usos.",
+    "abertura": "Tell me about a big change in your life. What was different before?",
+    "abertura_pt": "Me fale de uma grande mudança na sua vida. O que era diferente antes?"
+  },
+  "teste": [
+    {
+      "id": "b2u04l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Não estou acostumado a falar em público\":",
+      "opcoes": [
+        "I'm not used to speaking in public.",
+        "I didn't use to speak in public.",
+        "I'm not used to speak in public."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l3-t2",
+      "tipo": "completar",
+      "frase": "I feel ___ with the team now. (à vontade)",
+      "respostas": [
+        "comfortable"
+      ]
+    },
+    {
+      "id": "b2u04l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm used to my routine.",
+      "aceitas": [
+        "I am used to my routine."
+      ]
+    },
+    {
+      "id": "b2u04l3-t4",
+      "tipo": "traduzir",
+      "pt": "A cultura da empresa era muito diferente.",
+      "respostas": [
+        "The company culture was very different."
+      ]
+    },
+    {
+      "id": "b2u04l3-t5",
+      "tipo": "ordenar",
+      "frase": "We work under pressure every day",
+      "traducao_pt": "Trabalhamos sob pressão todo dia"
+    }
+  ]
+}
