@@ -1,0 +1,365 @@
+{
+  "id": "b1-u07-l2",
+  "nivel": "B1",
+  "unidade": 7,
+  "numero": 2,
+  "titulo": "Bring up, put off, call off",
+  "objetivo_pt": "Usar phrasal verbs de reuniões e planejamento.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai falar sobre reuniões e planos. Use phrasal verbs como put off (adiar), call off (cancelar), bring up (levantar um assunto).",
+    "papel_professor": "Fale de reuniões (Have you ever had to call off a meeting? Do you bring up problems in meetings? What do you put off?). Ensine phrasal verbs de reunião.",
+    "abertura": "Do you often have meetings at work? Are they ever called off?",
+    "abertura_pt": "Você tem reuniões com frequência no trabalho? Elas às vezes são canceladas?"
+  },
+  "vocabulario": [
+    {
+      "id": "put-off",
+      "en": "put off",
+      "pt": "adiar",
+      "emoji": "⏭️",
+      "exemplo_en": "We put off the meeting until Friday.",
+      "exemplo_pt": "Adiamos a reunião para sexta."
+    },
+    {
+      "id": "call-off",
+      "en": "call off",
+      "pt": "cancelar",
+      "emoji": "❌",
+      "exemplo_en": "The visit was called off.",
+      "exemplo_pt": "A visita foi cancelada."
+    },
+    {
+      "id": "bring-up",
+      "en": "bring up",
+      "pt": "levantar (um assunto)",
+      "emoji": "🙋",
+      "exemplo_en": "I'd like to bring up the safety issue.",
+      "exemplo_pt": "Gostaria de levantar a questão da segurança."
+    },
+    {
+      "id": "go-over",
+      "en": "go over",
+      "pt": "revisar / repassar",
+      "emoji": "🔁",
+      "exemplo_en": "Let's go over the numbers.",
+      "exemplo_pt": "Vamos repassar os números."
+    },
+    {
+      "id": "point-out",
+      "en": "point out",
+      "pt": "apontar / observar",
+      "emoji": "👉",
+      "exemplo_en": "She pointed out a mistake in the report.",
+      "exemplo_pt": "Ela apontou um erro no relatório."
+    },
+    {
+      "id": "come-up-with",
+      "en": "come up with",
+      "pt": "ter / propor (uma ideia)",
+      "emoji": "💡",
+      "exemplo_en": "He came up with a great idea.",
+      "exemplo_pt": "Ele teve uma ótima ideia."
+    },
+    {
+      "id": "follow-up",
+      "en": "follow up (on)",
+      "pt": "dar seguimento / acompanhar",
+      "emoji": "📌",
+      "exemplo_en": "I'll follow up on this next week.",
+      "exemplo_pt": "Vou dar seguimento a isso semana que vem."
+    },
+    {
+      "id": "sum-up",
+      "en": "sum up",
+      "pt": "resumir",
+      "emoji": "📝",
+      "exemplo_en": "To sum up, we need more people.",
+      "exemplo_pt": "Resumindo, precisamos de mais gente."
+    },
+    {
+      "id": "hand-out",
+      "en": "hand out",
+      "pt": "distribuir",
+      "emoji": "📄",
+      "exemplo_en": "He handed out the agenda.",
+      "exemplo_pt": "Ele distribuiu a pauta."
+    },
+    {
+      "id": "move-on",
+      "en": "move on (to)",
+      "pt": "passar (para o próximo)",
+      "emoji": "➡️",
+      "exemplo_en": "Let's move on to the next point.",
+      "exemplo_pt": "Vamos passar para o próximo ponto."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Phrasal verbs de reuniões",
+    "explicacao_pt": "Na reunião: go over (repassar), bring up (levantar um assunto), point out (apontar), come up with (ter uma ideia), move on to (passar para), sum up (resumir), follow up on (dar seguimento). No planejamento: put off (adiar) = postpone, call off (cancelar) = cancel. Lembre a regra dos separáveis: put the meeting off / put it off; call the visit off / call it off. 'Come up with' e 'move on to' são inseparáveis.",
+    "tabela": {
+      "colunas": [
+        "Phrasal verb",
+        "Sinônimo formal",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "put off",
+          "postpone",
+          "Let's put it off until Monday."
+        ],
+        [
+          "call off",
+          "cancel",
+          "They called off the strike."
+        ],
+        [
+          "go over",
+          "review",
+          "Let's go over the results."
+        ],
+        [
+          "bring up",
+          "raise",
+          "He brought up an important point."
+        ],
+        [
+          "sum up",
+          "summarize",
+          "Can you sum up the decisions?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The director is sick, so we've put off the meeting until Thursday.",
+        "pt": "O diretor está doente, então adiamos a reunião para quinta."
+      },
+      {
+        "en": "Before we finish, I'd like to bring up the problem with the night shift.",
+        "pt": "Antes de terminar, gostaria de levantar o problema do turno da noite."
+      },
+      {
+        "en": "Can anyone come up with a cheaper solution?",
+        "pt": "Alguém consegue propor uma solução mais barata?"
+      },
+      {
+        "en": "OK, let's move on to the next point on the agenda.",
+        "pt": "OK, vamos passar para o próximo ponto da pauta."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The weekly meeting",
+    "falas": [
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "OK, everyone, let's start. First, let's go over last week's numbers.",
+        "pt": "OK, pessoal, vamos começar. Primeiro, vamos repassar os números da semana passada."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "Production was 5% below target, because the customer visit on Tuesday was called off and we changed the schedule twice.",
+        "pt": "A produção ficou 5% abaixo da meta, porque a visita do cliente na terça foi cancelada e mudamos a programação duas vezes."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "I see. Can we move on to the maintenance plan?",
+        "pt": "Entendo. Podemos passar para o plano de manutenção?"
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Yes. We need to stop line 1 for a day. We've put it off twice already.",
+        "pt": "Sim. Precisamos parar a linha 1 por um dia. Já adiamos duas vezes."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "Can I point out that we have a big order next week?",
+        "pt": "Posso observar que temos um pedido grande semana que vem?"
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Good point. Can anyone come up with a solution?",
+        "pt": "Bem lembrado. Alguém tem uma solução?"
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "We could do it on Sunday, with a small team.",
+        "pt": "Poderíamos fazer no domingo, com uma equipe pequena."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Great. I'll follow up on that with HR. To sum up: maintenance on Sunday.",
+        "pt": "Ótimo. Vou dar seguimento com o RH. Resumindo: manutenção no domingo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How much below target was production?",
+        "opcoes": [
+          "2%",
+          "5%",
+          "10%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What was called off?",
+        "opcoes": [
+          "A customer visit",
+          "The maintenance",
+          "A training"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How many times have they put off the maintenance?",
+        "opcoes": [
+          "Once",
+          "Twice",
+          "Three times"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07l2-e4",
+        "tipo": "multipla",
+        "enunciado": "When will they do the maintenance?",
+        "opcoes": [
+          "On Saturday",
+          "On Sunday",
+          "Next week"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u07l2-p1",
+      "tipo": "completar",
+      "frase": "We put ___ the meeting until Friday. (adiamos)",
+      "respostas": [
+        "off"
+      ]
+    },
+    {
+      "id": "b1u07l2-p2",
+      "tipo": "completar",
+      "frase": "Let's go ___ the numbers.",
+      "respostas": [
+        "over"
+      ]
+    },
+    {
+      "id": "b1u07l2-p3",
+      "tipo": "completar",
+      "frase": "He came up ___ a great idea.",
+      "respostas": [
+        "with"
+      ]
+    },
+    {
+      "id": "b1u07l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Cancelar\" (phrasal verb):",
+      "opcoes": [
+        "call off",
+        "call up",
+        "call out"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Gostaria de levantar uma questão\":",
+      "opcoes": [
+        "I'd like to bring up an issue.",
+        "I'd like to bring an issue on.",
+        "I'd like to raise up an issue."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l2-p6",
+      "tipo": "ordenar",
+      "frase": "Let's move on to the next point",
+      "traducao_pt": "Vamos passar para o próximo ponto"
+    },
+    {
+      "id": "b1u07l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She pointed out a mistake in the report."
+    },
+    {
+      "id": "b1u07l2-p8",
+      "tipo": "traduzir",
+      "pt": "Resumindo, precisamos de mais gente.",
+      "respostas": [
+        "To sum up, we need more people.",
+        "In summary, we need more people."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você vai conduzir uma reunião curta com o professor. Use: go over, move on to, bring up, come up with, put off/call off, follow up, sum up.",
+    "papel_professor": "O aluno é o coordenador. Participe como membro da equipe: traga um problema (bring up), sugira adiar algo, peça ideias. Ajude o aluno a usar os phrasal verbs e corrija.",
+    "abertura": "I'm ready for the meeting. What's the first point on the agenda?",
+    "abertura_pt": "Estou pronto para a reunião. Qual é o primeiro ponto da pauta?"
+  },
+  "teste": [
+    {
+      "id": "b1u07l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Vamos adiar para segunda\":",
+      "opcoes": [
+        "Let's put it off until Monday.",
+        "Let's put off it until Monday.",
+        "Let's call it off until Monday."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l2-t2",
+      "tipo": "completar",
+      "frase": "I'll follow ___ on this next week.",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "b1u07l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The visit was called off."
+    },
+    {
+      "id": "b1u07l2-t4",
+      "tipo": "traduzir",
+      "pt": "Ele distribuiu a pauta.",
+      "respostas": [
+        "He handed out the agenda."
+      ]
+    },
+    {
+      "id": "b1u07l2-t5",
+      "tipo": "ordenar",
+      "frase": "Can you sum up the decisions?",
+      "traducao_pt": "Você pode resumir as decisões?"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "b1-u08-l3",
+  "nivel": "B1",
+  "unidade": 8,
+  "numero": 3,
+  "titulo": "First, then, in the end",
+  "objetivo_pt": "Organizar uma narrativa com conectores de sequência e de tempo.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir para você contar uma história curta (uma viagem, um fim de semana) de forma organizada, com começo, meio e fim.",
+    "papel_professor": "Peça uma história e ensine conectores (At first, Then, After that, Later, Eventually, In the end, As soon as, Finally). Corrija a falta de conectores e os tempos verbais.",
+    "abertura": "Tell me about a memorable trip. How did it start?",
+    "abertura_pt": "Me conte sobre uma viagem marcante. Como começou?"
+  },
+  "vocabulario": [
+    {
+      "id": "at-first",
+      "en": "at first",
+      "pt": "no começo",
+      "emoji": "🌅",
+      "exemplo_en": "At first, everything was fine.",
+      "exemplo_pt": "No começo, tudo estava bem."
+    },
+    {
+      "id": "then-l3",
+      "en": "then / after that",
+      "pt": "depois / depois disso",
+      "emoji": "➡️",
+      "exemplo_en": "After that, we went to the hotel.",
+      "exemplo_pt": "Depois disso, fomos ao hotel."
+    },
+    {
+      "id": "later",
+      "en": "later / a few minutes later",
+      "pt": "mais tarde / alguns minutos depois",
+      "emoji": "⏩",
+      "exemplo_en": "A few minutes later, the police arrived.",
+      "exemplo_pt": "Alguns minutos depois, a polícia chegou."
+    },
+    {
+      "id": "eventually",
+      "en": "eventually",
+      "pt": "finalmente / por fim (depois de muito)",
+      "emoji": "🏁",
+      "exemplo_en": "Eventually, we found the problem.",
+      "exemplo_pt": "Por fim, achamos o problema."
+    },
+    {
+      "id": "in-the-end",
+      "en": "in the end",
+      "pt": "no fim",
+      "emoji": "🎬",
+      "exemplo_en": "In the end, everything was OK.",
+      "exemplo_pt": "No fim, deu tudo certo."
+    },
+    {
+      "id": "as-soon-as-l3",
+      "en": "as soon as",
+      "pt": "assim que",
+      "emoji": "⚡",
+      "exemplo_en": "As soon as I saw the smoke, I called 193.",
+      "exemplo_pt": "Assim que vi a fumaça, liguei para o 193."
+    },
+    {
+      "id": "luckily",
+      "en": "luckily / unfortunately",
+      "pt": "felizmente / infelizmente",
+      "emoji": "🍀",
+      "exemplo_en": "Luckily, nobody was hurt.",
+      "exemplo_pt": "Felizmente, ninguém se machucou."
+    },
+    {
+      "id": "during",
+      "en": "during",
+      "pt": "durante",
+      "emoji": "⏳",
+      "exemplo_en": "During the night, it rained a lot.",
+      "exemplo_pt": "Durante a noite, choveu muito."
+    },
+    {
+      "id": "the-next-day",
+      "en": "the next day / the day before",
+      "pt": "no dia seguinte / no dia anterior",
+      "emoji": "📆",
+      "exemplo_en": "The next day, we went back.",
+      "exemplo_pt": "No dia seguinte, voltamos."
+    },
+    {
+      "id": "turned-out-l3",
+      "en": "it turned out to be",
+      "pt": "acabou sendo",
+      "emoji": "🎭",
+      "exemplo_en": "It turned out to be the best trip ever.",
+      "exemplo_pt": "Acabou sendo a melhor viagem de todas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Conectores de narrativa",
+    "explicacao_pt": "Começo: At first, / In the beginning, / One day, … Sequência: Then, / After that, / Next, / A few minutes later, / The next day, … Simultaneidade: While…, / Meanwhile, / During + substantivo (during the meeting). Rapidez: As soon as…, / Suddenly, … Comentário: Luckily, / Unfortunately, / Surprisingly, … Fim: Eventually, (depois de muito esforço) / In the end, / Finally, … Atenção: 'at the end' = no final de algo (at the end of the day); 'in the end' = no fim das contas. 'Eventually' NÃO significa 'eventualmente' (= occasionally)!",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Conector",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Começo",
+          "At first,",
+          "At first, I was nervous."
+        ],
+        [
+          "Sequência",
+          "After that,",
+          "After that, we called the manager."
+        ],
+        [
+          "Rapidez",
+          "As soon as …",
+          "As soon as he arrived, we started."
+        ],
+        [
+          "Comentário",
+          "Luckily, / Unfortunately,",
+          "Unfortunately, the part was broken."
+        ],
+        [
+          "Fim",
+          "Eventually, / In the end,",
+          "In the end, we finished on time."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "At first, we thought it was a small problem.",
+        "pt": "No começo, achamos que era um problema pequeno."
+      },
+      {
+        "en": "As soon as we opened the machine, we saw the broken gear.",
+        "pt": "Assim que abrimos a máquina, vimos a engrenagem quebrada."
+      },
+      {
+        "en": "Unfortunately, we didn't have a spare one, so we had to wait.",
+        "pt": "Infelizmente, não tínhamos uma reserva, então tivemos que esperar."
+      },
+      {
+        "en": "Eventually, the part arrived and, in the end, we lost only one day.",
+        "pt": "Por fim, a peça chegou e, no fim das contas, perdemos só um dia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A trip to remember",
+    "falas": [
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "Last year, my wife and I went to Gramado for our anniversary.",
+        "pt": "Ano passado, minha esposa e eu fomos a Gramado no nosso aniversário de casamento."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "At first, everything was perfect. We were driving through the mountains and the weather was beautiful.",
+        "pt": "No começo, tudo estava perfeito. Estávamos dirigindo pelas montanhas e o tempo estava lindo."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "Suddenly, we heard a loud noise. We had a flat tire! Unfortunately, the spare tire was flat too. I had forgotten to check it.",
+        "pt": "De repente, ouvimos um barulho alto. O pneu furou! Infelizmente, o estepe estava murcho também. Eu tinha esquecido de verificar."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "We waited for two hours. Eventually, a farmer stopped and helped us. He took us to a small village.",
+        "pt": "Esperamos duas horas. Por fim, um fazendeiro parou e nos ajudou. Ele nos levou a uma pequena vila."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "While the mechanic was fixing the tires, the farmer's family invited us for dinner.",
+        "pt": "Enquanto o mecânico consertava os pneus, a família do fazendeiro nos convidou para jantar."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "b",
+        "en": "In the end, it turned out to be the best night of the trip!",
+        "pt": "No fim, acabou sendo a melhor noite da viagem!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Why did they go to Gramado?",
+        "opcoes": [
+          "For their anniversary",
+          "For work",
+          "For a wedding"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "A flat tire",
+          "No gas",
+          "A broken engine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What had he forgotten?",
+        "opcoes": [
+          "To check the spare tire",
+          "To book the hotel",
+          "To bring money"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What did the farmer's family do?",
+        "opcoes": [
+          "They invited them for dinner.",
+          "They fixed the car.",
+          "They called the police."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u08l3-p1",
+      "tipo": "completar",
+      "frase": "At ___, everything was fine. (no começo)",
+      "respostas": [
+        "first"
+      ]
+    },
+    {
+      "id": "b1u08l3-p2",
+      "tipo": "completar",
+      "frase": "As ___ as I saw the smoke, I called 193.",
+      "respostas": [
+        "soon"
+      ]
+    },
+    {
+      "id": "b1u08l3-p3",
+      "tipo": "completar",
+      "frase": "In the ___, everything was OK. (no fim)",
+      "respostas": [
+        "end"
+      ]
+    },
+    {
+      "id": "b1u08l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Eventually\" significa:",
+      "opcoes": [
+        "eventualmente / às vezes",
+        "por fim / finalmente"
+      ],
+      "correta": 1,
+      "explicacao_pt": "'Eventually' é um falso cognato: significa 'por fim, depois de muito tempo'."
+    },
+    {
+      "id": "b1u08l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Felizmente, ninguém se machucou\":",
+      "opcoes": [
+        "Luckily, nobody was hurt.",
+        "Lucky, nobody hurt.",
+        "Happily nobody was hurting."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l3-p6",
+      "tipo": "ordenar",
+      "frase": "A few minutes later the police arrived",
+      "traducao_pt": "Alguns minutos depois, a polícia chegou"
+    },
+    {
+      "id": "b1u08l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "During the night, it rained a lot.",
+      "aceitas": [
+        "During the night it rained a lot."
+      ]
+    },
+    {
+      "id": "b1u08l3-p8",
+      "tipo": "traduzir",
+      "pt": "No dia seguinte, voltamos.",
+      "respostas": [
+        "The next day, we went back.",
+        "The next day we went back.",
+        "The following day, we went back."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor uma história real (viagem, festa, problema no trabalho) com começo, meio e fim, usando pelo menos 5 conectores e os três tempos do passado.",
+    "papel_professor": "Ouça a história e faça perguntas para ela crescer (What happened next? How did you feel? What had happened before?). Ao final, dê um retorno sobre conectores e tempos.",
+    "abertura": "I love stories! Tell me one from your life — a trip, a party or a problem at work.",
+    "abertura_pt": "Adoro histórias! Me conte uma da sua vida — uma viagem, uma festa ou um problema no trabalho."
+  },
+  "teste": [
+    {
+      "id": "b1u08l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"No fim das contas\":",
+      "opcoes": [
+        "in the end",
+        "at the end",
+        "on the end"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l3-t2",
+      "tipo": "completar",
+      "frase": "___, the part was broken. (infelizmente)",
+      "respostas": [
+        "Unfortunately"
+      ]
+    },
+    {
+      "id": "b1u08l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Eventually, we found the problem.",
+      "aceitas": [
+        "Eventually we found the problem."
+      ]
+    },
+    {
+      "id": "b1u08l3-t4",
+      "tipo": "traduzir",
+      "pt": "Acabou sendo a melhor viagem de todas.",
+      "respostas": [
+        "It turned out to be the best trip ever.",
+        "It turned out to be the best trip of all."
+      ]
+    },
+    {
+      "id": "b1u08l3-t5",
+      "tipo": "ordenar",
+      "frase": "After that we went to the hotel",
+      "traducao_pt": "Depois disso, fomos ao hotel"
+    }
+  ]
+}

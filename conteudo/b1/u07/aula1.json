@@ -1,0 +1,355 @@
+{
+  "id": "b1-u07-l1",
+  "nivel": "B1",
+  "unidade": 7,
+  "numero": 1,
+  "titulo": "Set up, carry out, find out",
+  "objetivo_pt": "Entender e usar phrasal verbs comuns no trabalho.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai usar phrasal verbs em perguntas sobre o seu trabalho. Tente entender e responder usando o mesmo verbo.",
+    "papel_professor": "Use phrasal verbs de trabalho em perguntas (Who sets up the machines? Have you found out why…? When do you usually turn off…?). Explique o sentido quando o aluno não entender.",
+    "abertura": "Who sets up the machines at the start of the shift?",
+    "abertura_pt": "Quem prepara as máquinas no início do turno?"
+  },
+  "vocabulario": [
+    {
+      "id": "set-up-pv",
+      "en": "set up",
+      "pt": "montar / preparar / configurar",
+      "emoji": "⚙️",
+      "exemplo_en": "We set up the new line in two weeks.",
+      "exemplo_pt": "Montamos a nova linha em duas semanas."
+    },
+    {
+      "id": "carry-out",
+      "en": "carry out",
+      "pt": "realizar / executar",
+      "emoji": "🧪",
+      "exemplo_en": "We carried out a test last week.",
+      "exemplo_pt": "Realizamos um teste semana passada."
+    },
+    {
+      "id": "find-out",
+      "en": "find out",
+      "pt": "descobrir",
+      "emoji": "🕵️",
+      "exemplo_en": "Can you find out why the machine stopped?",
+      "exemplo_pt": "Você pode descobrir por que a máquina parou?"
+    },
+    {
+      "id": "fill-in",
+      "en": "fill in / fill out",
+      "pt": "preencher",
+      "emoji": "📝",
+      "exemplo_en": "Please fill in this form.",
+      "exemplo_pt": "Por favor, preencha este formulário."
+    },
+    {
+      "id": "turn-off-pv",
+      "en": "turn on / turn off",
+      "pt": "ligar / desligar",
+      "emoji": "🔌",
+      "exemplo_en": "Don't forget to turn off the compressor.",
+      "exemplo_pt": "Não esqueça de desligar o compressor."
+    },
+    {
+      "id": "pick-up",
+      "en": "pick up",
+      "pt": "pegar / buscar",
+      "emoji": "🚚",
+      "exemplo_en": "The truck picks up the orders at 5 p.m.",
+      "exemplo_pt": "O caminhão busca os pedidos às 17h."
+    },
+    {
+      "id": "look-into",
+      "en": "look into",
+      "pt": "investigar / analisar",
+      "emoji": "🔎",
+      "exemplo_en": "We'll look into the problem.",
+      "exemplo_pt": "Vamos analisar o problema."
+    },
+    {
+      "id": "deal-with",
+      "en": "deal with",
+      "pt": "lidar com / resolver",
+      "emoji": "🤹",
+      "exemplo_en": "She deals with customer complaints.",
+      "exemplo_pt": "Ela lida com as reclamações de clientes."
+    },
+    {
+      "id": "run-out-pv",
+      "en": "run out (of)",
+      "pt": "acabar / ficar sem",
+      "emoji": "🫙",
+      "exemplo_en": "We ran out of boxes.",
+      "exemplo_pt": "Ficamos sem caixas."
+    },
+    {
+      "id": "back-up-pv",
+      "en": "back up",
+      "pt": "fazer backup / apoiar",
+      "emoji": "💾",
+      "exemplo_en": "Back up your files every day.",
+      "exemplo_pt": "Faça backup dos seus arquivos todo dia."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Phrasal verbs",
+    "explicacao_pt": "Phrasal verb = verbo + partícula (up, out, off, in, on, into, with…). O sentido muitas vezes MUDA: find (achar) → find out (descobrir); carry (carregar) → carry out (realizar). Há dois tipos: SEPARÁVEIS — o objeto pode ir no meio: turn off the light / turn the light off; com pronome, SEMPRE no meio: turn it off (nunca 'turn off it'). INSEPARÁVEIS — o objeto vai depois: look into the problem, deal with customers. Dica: aprenda cada phrasal verb com um exemplo completo.",
+    "tabela": {
+      "colunas": [
+        "Phrasal verb",
+        "Separável?",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "turn off",
+          "sim",
+          "Turn it off."
+        ],
+        [
+          "fill in",
+          "sim",
+          "Fill it in, please."
+        ],
+        [
+          "set up",
+          "sim",
+          "We set it up yesterday."
+        ],
+        [
+          "look into",
+          "não",
+          "We will look into it."
+        ],
+        [
+          "deal with",
+          "não",
+          "I will deal with it."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We carried out a safety audit last month.",
+        "pt": "Realizamos uma auditoria de segurança mês passado."
+      },
+      {
+        "en": "Can you find out when the parts will arrive?",
+        "pt": "Você pode descobrir quando as peças vão chegar?"
+      },
+      {
+        "en": "The new printer is here. Can you set it up?",
+        "pt": "A impressora nova chegou. Você pode instalá-la?"
+      },
+      {
+        "en": "Don't worry, I'll deal with the customer.",
+        "pt": "Não se preocupe, eu resolvo com o cliente."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A busy morning",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Morning, Nina. Did you find out why line 2 stopped last night?",
+        "pt": "Bom dia, Nina. Você descobriu por que a linha 2 parou ontem à noite?"
+      },
+      {
+        "personagem": "Nina",
+        "voz": "b",
+        "en": "Yes. They ran out of film for the packing machine.",
+        "pt": "Sim. Acabou o filme da embaladora."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Again? Who deals with the orders for packing materials?",
+        "pt": "De novo? Quem cuida dos pedidos de material de embalagem?"
+      },
+      {
+        "personagem": "Nina",
+        "voz": "b",
+        "en": "Purchasing. I'll talk to them and look into it.",
+        "pt": "Compras. Vou falar com eles e analisar."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Thanks. And the new scale — has it been set up?",
+        "pt": "Obrigado. E a balança nova — já foi instalada?"
+      },
+      {
+        "personagem": "Nina",
+        "voz": "b",
+        "en": "Yes, the technician set it up yesterday. We're carrying out the first tests this afternoon.",
+        "pt": "Sim, o técnico instalou ontem. Vamos fazer os primeiros testes esta tarde."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Why did line 2 stop?",
+        "opcoes": [
+          "They ran out of film.",
+          "A machine broke.",
+          "There was a power cut."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Who deals with orders for packing materials?",
+        "opcoes": [
+          "Nina",
+          "Purchasing",
+          "The manager"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07l1-e3",
+        "tipo": "multipla",
+        "enunciado": "When was the scale set up?",
+        "opcoes": [
+          "Yesterday",
+          "Today",
+          "Last week"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l1-e4",
+        "tipo": "multipla",
+        "enunciado": "When will they carry out the first tests?",
+        "opcoes": [
+          "This afternoon",
+          "Tomorrow",
+          "Next week"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u07l1-p1",
+      "tipo": "completar",
+      "frase": "Can you find ___ why the machine stopped?",
+      "respostas": [
+        "out"
+      ]
+    },
+    {
+      "id": "b1u07l1-p2",
+      "tipo": "completar",
+      "frase": "Please fill ___ this form.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "b1u07l1-p3",
+      "tipo": "completar",
+      "frase": "She deals ___ customer complaints.",
+      "respostas": [
+        "with"
+      ]
+    },
+    {
+      "id": "b1u07l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Com pronome:",
+      "opcoes": [
+        "Turn off it.",
+        "Turn it off."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Com pronome, o objeto fica no meio do phrasal verb separável."
+    },
+    {
+      "id": "b1u07l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Realizamos um teste\":",
+      "opcoes": [
+        "We carried out a test.",
+        "We carried a test out of.",
+        "We made out a test."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l1-p6",
+      "tipo": "ordenar",
+      "frase": "We'll look into the problem",
+      "traducao_pt": "Vamos analisar o problema"
+    },
+    {
+      "id": "b1u07l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We ran out of boxes."
+    },
+    {
+      "id": "b1u07l1-p8",
+      "tipo": "traduzir",
+      "pt": "Faça backup dos seus arquivos todo dia.",
+      "respostas": [
+        "Back up your files every day."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor como foi um dia de trabalho recente usando pelo menos 5 phrasal verbs (set up, find out, deal with, run out, carry out, look into…).",
+    "papel_professor": "Peça o relato de um dia de trabalho. Estimule phrasal verbs com perguntas (Did you have to deal with anything difficult? Did you run out of anything?). Corrija posição do objeto.",
+    "abertura": "Tell me about a busy day you had recently at work.",
+    "abertura_pt": "Me conte sobre um dia corrido que você teve recentemente no trabalho."
+  },
+  "teste": [
+    {
+      "id": "b1u07l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Vou resolver isso\":",
+      "opcoes": [
+        "I'll deal with it.",
+        "I'll deal it with.",
+        "I'll deal it."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l1-t2",
+      "tipo": "completar",
+      "frase": "The truck picks ___ the orders at 5 p.m.",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "b1u07l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Don't forget to turn off the compressor.",
+      "aceitas": [
+        "Do not forget to turn off the compressor."
+      ]
+    },
+    {
+      "id": "b1u07l1-t4",
+      "tipo": "traduzir",
+      "pt": "Montamos a nova linha em duas semanas.",
+      "respostas": [
+        "We set up the new line in two weeks."
+      ]
+    },
+    {
+      "id": "b1u07l1-t5",
+      "tipo": "ordenar",
+      "frase": "Can you set it up?",
+      "traducao_pt": "Você pode instalá-la?"
+    }
+  ]
+}

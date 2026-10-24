@@ -1,0 +1,458 @@
+{
+  "id": "b1-final",
+  "nivel": "B1",
+  "unidade": 0,
+  "titulo": "Prova final do B1 — Intermediário",
+  "leitura": {
+    "texto": "CASE STUDY: HOW A SMALL PLANT SAVED ITS BIGGEST CUSTOMER\nTerra Verde is a family company in Paraná that makes plastic packaging for food. It was founded in 1994 and has 180 employees.\nIn March last year, the company was facing a serious problem. Its biggest customer, a dairy group, had complained three times about cracked yogurt cups. 'If the quality doesn't improve, we'll find another supplier,' they said. That customer represented 40% of Terra Verde's sales.\nThe quality manager, Sílvia Rocha, had worked at the company for fifteen years, but she had never seen a problem like that. 'At first, we thought the raw material was the cause,' she remembers. 'We changed the supplier, but the cracks continued.'\nSo the team decided to carry out a full investigation. For two weeks, operators recorded the temperature of the moulds every thirty minutes. Eventually, they found out that the cracks appeared only on the night shift. It turned out that the cooling system was being turned off at night to save energy — someone had changed the settings months before, and nobody had noticed.\nThe solution was simple: the settings were corrected, and now they can only be changed by maintenance. Since then, the company hasn't received a single complaint. In fact, the customer has increased its orders by 25%.\n'If we hadn't listened to the operators, we would never have found the cause,' says Sílvia. 'I wish we had more time for this kind of teamwork. We've been organizing monthly problem-solving meetings since then, and people enjoy taking part.'",
+    "perguntas": [
+      {
+        "id": "b1finpv-l1",
+        "tipo": "multipla",
+        "enunciado": "What does Terra Verde make?",
+        "opcoes": [
+          "Plastic packaging for food",
+          "Yogurt",
+          "Machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l2",
+        "tipo": "multipla",
+        "enunciado": "When was the company founded?",
+        "opcoes": [
+          "1984",
+          "1994",
+          "2004"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1finpv-l3",
+        "tipo": "multipla",
+        "enunciado": "What had the customer complained about?",
+        "opcoes": [
+          "Cracked yogurt cups",
+          "Late deliveries",
+          "High prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l4",
+        "tipo": "multipla",
+        "enunciado": "How much of Terra Verde's sales did the customer represent?",
+        "opcoes": [
+          "25%",
+          "40%",
+          "15%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1finpv-l5",
+        "tipo": "multipla",
+        "enunciado": "What did they think the cause was at first?",
+        "opcoes": [
+          "The raw material",
+          "The operators",
+          "The customer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l6",
+        "tipo": "multipla",
+        "enunciado": "How often did operators record the temperature?",
+        "opcoes": [
+          "Every thirty minutes",
+          "Every hour",
+          "Once a day"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l7",
+        "tipo": "multipla",
+        "enunciado": "When did the cracks appear?",
+        "opcoes": [
+          "Only on the night shift",
+          "Only in the morning",
+          "All the time"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l8",
+        "tipo": "multipla",
+        "enunciado": "What was the real cause?",
+        "opcoes": [
+          "The cooling system was being turned off at night.",
+          "The moulds were old.",
+          "The plastic was too cheap."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l9",
+        "tipo": "multipla",
+        "enunciado": "Why was the cooling system turned off?",
+        "opcoes": [
+          "To save energy",
+          "Because it was broken",
+          "By mistake of the customer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l10",
+        "tipo": "multipla",
+        "enunciado": "Who can change the settings now?",
+        "opcoes": [
+          "Only maintenance",
+          "Any operator",
+          "The quality manager"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l11",
+        "tipo": "multipla",
+        "enunciado": "How many complaints have they received since then?",
+        "opcoes": [
+          "None",
+          "One",
+          "Three"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l12",
+        "tipo": "multipla",
+        "enunciado": "By how much has the customer increased its orders?",
+        "opcoes": [
+          "15%",
+          "25%",
+          "40%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1finpv-l13",
+        "tipo": "multipla",
+        "enunciado": "How long had Sílvia worked at the company?",
+        "opcoes": [
+          "Five years",
+          "Fifteen years",
+          "Twenty-five years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1finpv-l14",
+        "tipo": "multipla",
+        "enunciado": "What does Sílvia wish?",
+        "opcoes": [
+          "That they had more time for teamwork",
+          "That she earned more",
+          "That the customer had left"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-l15",
+        "tipo": "multipla",
+        "enunciado": "What have they been organizing since then?",
+        "opcoes": [
+          "Monthly problem-solving meetings",
+          "Parties",
+          "English classes"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "So, Henrique, tell me about yourself. How long have you been working in logistics?",
+        "pt": "Então, Henrique, me fale de você. Há quanto tempo trabalha com logística?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "I've been working in logistics for nine years. I started as a warehouse assistant in 2017.",
+        "pt": "Trabalho com logística há nove anos. Comecei como auxiliar de armazém em 2017."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And what are you responsible for in your current job?",
+        "pt": "E do que você é responsável no emprego atual?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "I'm in charge of planning the deliveries. I really enjoy solving problems with routes and schedules.",
+        "pt": "Sou encarregado de planejar as entregas. Gosto muito de resolver problemas de rotas e horários."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Have you ever had to deal with a difficult situation?",
+        "pt": "Você já teve que lidar com uma situação difícil?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "Yes. Last year, while we were preparing a big order, our system went down. We had to do everything by hand.",
+        "pt": "Sim. Ano passado, enquanto preparávamos um pedido grande, nosso sistema caiu. Tivemos que fazer tudo à mão."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "What happened in the end?",
+        "pt": "O que aconteceu no fim?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "We managed to deliver on time. Luckily, I had printed the delivery list the day before.",
+        "pt": "Conseguimos entregar a tempo. Por sorte, eu tinha impresso a lista de entregas no dia anterior."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Great. And what would you do if a supplier couldn't deliver an important part?",
+        "pt": "Ótimo. E o que você faria se um fornecedor não pudesse entregar uma peça importante?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "First, I'd find out how long the delay would be. Then, I'd look for another supplier and inform the production team immediately.",
+        "pt": "Primeiro, descobriria quanto tempo seria o atraso. Depois, procuraria outro fornecedor e avisaria a produção imediatamente."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Why do you want to leave your current company?",
+        "pt": "Por que você quer sair da empresa atual?"
+      },
+      {
+        "personagem": "Henrique",
+        "voz": "b",
+        "en": "I like it there, but I wish I had more opportunities to grow. I'm interested in working with international shipments.",
+        "pt": "Gosto de lá, mas queria ter mais oportunidades de crescer. Tenho interesse em trabalhar com remessas internacionais."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1finpv-e1",
+        "tipo": "multipla",
+        "enunciado": "How long has Henrique been working in logistics?",
+        "opcoes": [
+          "Seven years",
+          "Nine years",
+          "Seventeen years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1finpv-e2",
+        "tipo": "multipla",
+        "enunciado": "What was his first job?",
+        "opcoes": [
+          "Warehouse assistant",
+          "Truck driver",
+          "Planner"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e3",
+        "tipo": "multipla",
+        "enunciado": "What is he in charge of now?",
+        "opcoes": [
+          "Planning the deliveries",
+          "Buying parts",
+          "Training people"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e4",
+        "tipo": "multipla",
+        "enunciado": "What happened while they were preparing a big order?",
+        "opcoes": [
+          "The system went down.",
+          "A truck crashed.",
+          "The customer canceled."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e5",
+        "tipo": "multipla",
+        "enunciado": "How did they do the work?",
+        "opcoes": [
+          "By hand",
+          "With a new system",
+          "They didn't do it."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e6",
+        "tipo": "multipla",
+        "enunciado": "Why were they able to deliver on time?",
+        "opcoes": [
+          "He had printed the delivery list the day before.",
+          "The system came back quickly.",
+          "The customer waited."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e7",
+        "tipo": "multipla",
+        "enunciado": "What would he do first if a supplier couldn't deliver?",
+        "opcoes": [
+          "Find out how long the delay would be",
+          "Cancel the order",
+          "Call the director"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e8",
+        "tipo": "multipla",
+        "enunciado": "Who would he inform immediately?",
+        "opcoes": [
+          "The production team",
+          "The customer",
+          "HR"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e9",
+        "tipo": "multipla",
+        "enunciado": "Why does he want to leave his company?",
+        "opcoes": [
+          "He wishes he had more opportunities to grow.",
+          "He hates his boss.",
+          "The salary is too low."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e10",
+        "tipo": "multipla",
+        "enunciado": "What is he interested in?",
+        "opcoes": [
+          "International shipments",
+          "Sales",
+          "Quality"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1finpv-e11",
+        "tipo": "ouvir_escrever",
+        "audio": "I've been working in logistics for nine years.",
+        "aceitas": [
+          "I have been working in logistics for nine years."
+        ]
+      },
+      {
+        "id": "b1finpv-e12",
+        "tipo": "ouvir_escrever",
+        "audio": "I really enjoy solving problems."
+      },
+      {
+        "id": "b1finpv-e13",
+        "tipo": "ouvir_escrever",
+        "audio": "While we were preparing a big order, our system went down."
+      },
+      {
+        "id": "b1finpv-e14",
+        "tipo": "ouvir_escrever",
+        "audio": "I had printed the delivery list the day before."
+      },
+      {
+        "id": "b1finpv-e15",
+        "tipo": "ouvir_escrever",
+        "audio": "I wish I had more opportunities to grow."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1finpv-w1",
+      "instrucao_pt": "Escreva sobre sua experiência profissional ou de vida: há quanto tempo faz algo, o que já conquistou e uma experiência marcante (present perfect × past simple).",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1finpv-w2",
+      "instrucao_pt": "Descreva como um produto ou serviço é feito, na voz passiva, com pelo menos 4 etapas.",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1finpv-w3",
+      "instrucao_pt": "Uma máquina importante quebrou. Escreva o que vai acontecer se não for consertada e proponha soluções (condicionais 0 e 1, unless).",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1finpv-w4",
+      "instrucao_pt": "Escreva sua opinião sobre um tema (ex.: trabalho remoto, semana de 4 dias) e o que você faria se fosse o diretor (condicional 2, wish).",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1finpv-w5",
+      "instrucao_pt": "Conte uma história ou relate um incidente usando past continuous, past simple, past perfect e conectores.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1finpv-s1",
+      "pergunta_en": "Tell me about your experience. What have you achieved so far, and how long have you been doing your job?",
+      "instrucao_pt": "Fale em voz alta com present perfect, for/since e o contínuo."
+    },
+    {
+      "id": "b1finpv-s2",
+      "pergunta_en": "Explain how something is made or how a process works in your company.",
+      "instrucao_pt": "Explique em voz alta usando a voz passiva e sequenciadores."
+    },
+    {
+      "id": "b1finpv-s3",
+      "pergunta_en": "What would you change in your life or job if you could? Why?",
+      "instrucao_pt": "Responda com a segunda condicional e wish."
+    },
+    {
+      "id": "b1finpv-s4",
+      "pergunta_en": "Some people say meetings are a waste of time. What's your opinion?",
+      "instrucao_pt": "Dê sua opinião, concorde em parte e apresente argumentos."
+    },
+    {
+      "id": "b1finpv-s5",
+      "pergunta_en": "Tell me about a time something unexpected happened at work or on a trip.",
+      "instrucao_pt": "Conte em voz alta com os tempos do passado e conectores."
+    }
+  ],
+  "foco_avaliacao": "Prova final do nível B1. Avalie todo o B1: present perfect (experiências, for/since, just/already/yet) e present perfect continuous, gerúndio × infinitivo, condicionais 0, 1 e 2, wish, voz passiva (presente, passado, com modais), phrasal verbs, dar opinião e concordar/discordar, past continuous e past perfect em narrativas. O aluno deve conseguir falar de experiências, explicar processos, resolver problemas e contar histórias com clareza. Compare com o esperado para B1, não com um nativo.",
+  "entrevista": {
+    "minutos": 5,
+    "papel_professor": "Você é o examinador da entrevista oral final do nível B1. Faça uma conversa natural de 5 minutos cobrindo: experiência de vida e trabalho (present perfect, for/since), uma situação-problema hipotética no trabalho (condicionais), uma opinião sobre um tema atual (concordar/discordar), e uma história pessoal (tempos do passado). Faça UMA pergunta por vez, no nível B1, com perguntas de continuação que peçam detalhes e justificativas (Why? Can you give an example? What would happen if…?). Não corrija durante a entrevista (correcoes sempre vazia).",
+    "abertura": "Hello, and welcome to your B1 final interview! To start, could you tell me a little about yourself and how long you've been doing your current job?",
+    "abertura_pt": "Olá e bem-vindo à entrevista final do B1! Para começar, poderia me contar um pouco sobre você e há quanto tempo faz o seu trabalho atual?"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "id": "b1-u08-l1",
+  "nivel": "B1",
+  "unidade": 8,
+  "numero": 1,
+  "titulo": "I was driving when…",
+  "objetivo_pt": "Usar o past continuous para o cenário de uma história e o passado simples para a ação que interrompe.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você estava fazendo em certos momentos. Use \"I was…ing\".",
+    "papel_professor": "Pergunte What were you doing at 8 p.m. yesterday? / when your phone rang? Ensine was/were + -ing e o contraste com past simple (when/while). Corrija 'I was drive'.",
+    "abertura": "What were you doing yesterday at eight in the evening?",
+    "abertura_pt": "O que você estava fazendo ontem às oito da noite?"
+  },
+  "vocabulario": [
+    {
+      "id": "was-ing",
+      "en": "was / were + -ing",
+      "pt": "estava (fazendo)",
+      "emoji": "🎞️",
+      "exemplo_en": "I was cooking at eight.",
+      "exemplo_pt": "Eu estava cozinhando às oito."
+    },
+    {
+      "id": "while",
+      "en": "while",
+      "pt": "enquanto",
+      "emoji": "⏸️",
+      "exemplo_en": "While I was working, it started to rain.",
+      "exemplo_pt": "Enquanto eu trabalhava, começou a chover."
+    },
+    {
+      "id": "when-l1",
+      "en": "when",
+      "pt": "quando",
+      "emoji": "⚡",
+      "exemplo_en": "I was driving when the phone rang.",
+      "exemplo_pt": "Eu estava dirigindo quando o telefone tocou."
+    },
+    {
+      "id": "suddenly",
+      "en": "suddenly",
+      "pt": "de repente",
+      "emoji": "💥",
+      "exemplo_en": "Suddenly, the lights went out.",
+      "exemplo_pt": "De repente, as luzes apagaram."
+    },
+    {
+      "id": "ring",
+      "en": "ring (rang, rung)",
+      "pt": "tocar (telefone)",
+      "emoji": "📞",
+      "exemplo_en": "The phone rang at midnight.",
+      "exemplo_pt": "O telefone tocou à meia-noite."
+    },
+    {
+      "id": "happen-l1",
+      "en": "happen (to)",
+      "pt": "acontecer (com)",
+      "emoji": "❗",
+      "exemplo_en": "What happened to you?",
+      "exemplo_pt": "O que aconteceu com você?"
+    },
+    {
+      "id": "notice",
+      "en": "notice",
+      "pt": "perceber / notar",
+      "emoji": "👀",
+      "exemplo_en": "I noticed a strange smell.",
+      "exemplo_pt": "Percebi um cheiro estranho."
+    },
+    {
+      "id": "power-cut",
+      "en": "power cut",
+      "pt": "queda de energia",
+      "emoji": "🔌",
+      "exemplo_en": "There was a power cut while we were working.",
+      "exemplo_pt": "Houve uma queda de energia enquanto trabalhávamos."
+    },
+    {
+      "id": "fall-l1",
+      "en": "fall (fell, fallen)",
+      "pt": "cair",
+      "emoji": "⬇️",
+      "exemplo_en": "He fell while he was climbing the ladder.",
+      "exemplo_pt": "Ele caiu enquanto subia a escada."
+    },
+    {
+      "id": "meanwhile",
+      "en": "meanwhile",
+      "pt": "enquanto isso",
+      "emoji": "🔀",
+      "exemplo_en": "Meanwhile, the others were waiting outside.",
+      "exemplo_pt": "Enquanto isso, os outros esperavam lá fora."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Past continuous × past simple",
+    "explicacao_pt": "PAST CONTINUOUS = WAS/WERE + -ING: ação em andamento num momento do passado (o cenário): At 8 p.m. I was cooking. PAST SIMPLE = ação curta e completa (o acontecimento). Juntos: I was driving (cenário) WHEN the phone rang (interrupção). WHILE + contínuo: While I was working, the alarm went off. Duas ações longas ao mesmo tempo: While I was cooking, my wife was watching TV. Verbos de estado (know, want, like) não vão no contínuo.",
+    "tabela": {
+      "colunas": [
+        "Cenário (contínuo)",
+        "Ação (simples)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "I was driving",
+          "when the phone rang.",
+          "Eu estava dirigindo quando o telefone tocou."
+        ],
+        [
+          "While we were working,",
+          "the lights went out.",
+          "Enquanto trabalhávamos, as luzes apagaram."
+        ],
+        [
+          "She was sleeping",
+          "when the alarm went off.",
+          "Ela dormia quando o alarme disparou."
+        ],
+        [
+          "What were you doing",
+          "when it happened?",
+          "O que você estava fazendo quando aconteceu?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I was having lunch when my boss called me.",
+        "pt": "Eu estava almoçando quando meu chefe me ligou."
+      },
+      {
+        "en": "While the operator was cleaning the machine, someone turned it on.",
+        "pt": "Enquanto o operador limpava a máquina, alguém a ligou."
+      },
+      {
+        "en": "It was raining and everybody was going home.",
+        "pt": "Estava chovendo e todos estavam indo para casa."
+      },
+      {
+        "en": "What were you doing when the fire alarm went off?",
+        "pt": "O que você estava fazendo quando o alarme de incêndio disparou?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The power cut",
+    "falas": [
+      {
+        "personagem": "Reporter",
+        "voz": "a",
+        "en": "Where were you when the power cut happened?",
+        "pt": "Onde você estava quando houve a queda de energia?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "I was working on line 3. We were filling bottles.",
+        "pt": "Eu estava trabalhando na linha 3. Estávamos enchendo garrafas."
+      },
+      {
+        "personagem": "Reporter",
+        "voz": "a",
+        "en": "What happened?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "Suddenly, all the lights went out and the machines stopped. Some bottles fell on the floor.",
+        "pt": "De repente, todas as luzes apagaram e as máquinas pararam. Algumas garrafas caíram no chão."
+      },
+      {
+        "personagem": "Reporter",
+        "voz": "a",
+        "en": "Was anyone hurt?",
+        "pt": "Alguém se machucou?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "No. While we were waiting in the dark, the supervisor was checking that everybody was OK. The power came back after twenty minutes.",
+        "pt": "Não. Enquanto esperávamos no escuro, o supervisor verificava se todos estavam bem. A energia voltou depois de vinte minutos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was the worker?",
+        "opcoes": [
+          "On line 3",
+          "In the office",
+          "At home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What were they doing?",
+        "opcoes": [
+          "Filling bottles",
+          "Having lunch",
+          "Cleaning"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What was the supervisor doing while they were waiting?",
+        "opcoes": [
+          "Checking that everybody was OK",
+          "Calling the electricity company",
+          "Repairing the machine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l1-e4",
+        "tipo": "multipla",
+        "enunciado": "When did the power come back?",
+        "opcoes": [
+          "After ten minutes",
+          "After twenty minutes",
+          "After two hours"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u08l1-p1",
+      "tipo": "completar",
+      "frase": "I was ___ when the phone rang. (dirigindo)",
+      "respostas": [
+        "driving"
+      ]
+    },
+    {
+      "id": "b1u08l1-p2",
+      "tipo": "completar",
+      "frase": "___ I was working, it started to rain. (enquanto)",
+      "respostas": [
+        "While"
+      ]
+    },
+    {
+      "id": "b1u08l1-p3",
+      "tipo": "completar",
+      "frase": "We ___ having lunch when he called. (estávamos)",
+      "respostas": [
+        "were"
+      ]
+    },
+    {
+      "id": "b1u08l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Ação que interrompe:",
+      "opcoes": [
+        "I was cooking when the lights went out.",
+        "I cooked when the lights were going out."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O que você estava fazendo?\":",
+      "opcoes": [
+        "What were you doing?",
+        "What did you doing?",
+        "What you were doing?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l1-p6",
+      "tipo": "ordenar",
+      "frase": "Suddenly the lights went out",
+      "traducao_pt": "De repente, as luzes apagaram"
+    },
+    {
+      "id": "b1u08l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I noticed a strange smell."
+    },
+    {
+      "id": "b1u08l1-p8",
+      "tipo": "traduzir",
+      "pt": "Ele caiu enquanto subia a escada.",
+      "respostas": [
+        "He fell while he was climbing the ladder.",
+        "He fell while climbing the ladder."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor um momento inesperado da sua vida (algo que aconteceu enquanto você estava fazendo outra coisa). Use was/were + -ing e o passado simples.",
+    "papel_professor": "Peça uma história curta de algo inesperado. Pergunte What were you doing when…? Where were you? What happened next? Corrija contínuo × simples.",
+    "abertura": "Tell me about a time something unexpected happened to you. What were you doing?",
+    "abertura_pt": "Me conte sobre uma vez em que algo inesperado aconteceu com você. O que você estava fazendo?"
+  },
+  "teste": [
+    {
+      "id": "b1u08l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"While I ___, my wife was watching TV.\"",
+      "opcoes": [
+        "was cooking",
+        "cooked",
+        "am cooking"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l1-t2",
+      "tipo": "completar",
+      "frase": "The phone ___ at midnight. (tocou)",
+      "respostas": [
+        "rang"
+      ]
+    },
+    {
+      "id": "b1u08l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What happened to you?"
+    },
+    {
+      "id": "b1u08l1-t4",
+      "tipo": "traduzir",
+      "pt": "Houve uma queda de energia enquanto trabalhávamos.",
+      "respostas": [
+        "There was a power cut while we were working."
+      ]
+    },
+    {
+      "id": "b1u08l1-t5",
+      "tipo": "ordenar",
+      "frase": "Meanwhile the others were waiting outside",
+      "traducao_pt": "Enquanto isso, os outros esperavam lá fora"
+    }
+  ]
+}

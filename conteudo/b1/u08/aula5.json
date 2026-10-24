@@ -1,0 +1,364 @@
+{
+  "id": "b1-u08-l5",
+  "nivel": "B1",
+  "unidade": 8,
+  "numero": 5,
+  "titulo": "Storytelling",
+  "objetivo_pt": "Contar uma história envolvente, juntando todos os tempos do passado e os conectores (revisão do B1).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: conte ao professor, em 3 frases, a coisa mais engraçada que já aconteceu com você.",
+    "papel_professor": "Peça uma história engraçada curta. Depois ensine técnicas para deixar a história interessante (You won't believe what happened…, It was so…, I couldn't believe it).",
+    "abertura": "What's the funniest thing that has ever happened to you?",
+    "abertura_pt": "Qual é a coisa mais engraçada que já aconteceu com você?"
+  },
+  "vocabulario": [
+    {
+      "id": "wont-believe",
+      "en": "You won't believe…",
+      "pt": "Você não vai acreditar…",
+      "emoji": "😲",
+      "exemplo_en": "You won't believe what happened yesterday!",
+      "exemplo_pt": "Você não vai acreditar no que aconteceu ontem!"
+    },
+    {
+      "id": "couldnt-believe",
+      "en": "I couldn't believe it",
+      "pt": "Eu não conseguia acreditar",
+      "emoji": "🤯",
+      "exemplo_en": "I couldn't believe my eyes.",
+      "exemplo_pt": "Não conseguia acreditar no que via."
+    },
+    {
+      "id": "so-such",
+      "en": "so + adj / such a + subst",
+      "pt": "tão / um(a) … tão",
+      "emoji": "🔆",
+      "exemplo_en": "It was such a beautiful day.",
+      "exemplo_pt": "Era um dia tão bonito."
+    },
+    {
+      "id": "embarrassed",
+      "en": "embarrassed",
+      "pt": "envergonhado / constrangido",
+      "emoji": "😳",
+      "exemplo_en": "I was so embarrassed!",
+      "exemplo_pt": "Fiquei tão envergonhado!"
+    },
+    {
+      "id": "relieved",
+      "en": "relieved",
+      "pt": "aliviado",
+      "emoji": "😮‍💨",
+      "exemplo_en": "We were relieved when he called.",
+      "exemplo_pt": "Ficamos aliviados quando ele ligou."
+    },
+    {
+      "id": "scared-l5",
+      "en": "scared / terrified",
+      "pt": "com medo / apavorado",
+      "emoji": "😨",
+      "exemplo_en": "I was terrified.",
+      "exemplo_pt": "Eu estava apavorado."
+    },
+    {
+      "id": "laugh",
+      "en": "laugh (at)",
+      "pt": "rir (de)",
+      "emoji": "😂",
+      "exemplo_en": "Everybody started laughing.",
+      "exemplo_pt": "Todo mundo começou a rir."
+    },
+    {
+      "id": "anyway",
+      "en": "anyway",
+      "pt": "enfim / de qualquer forma",
+      "emoji": "↪️",
+      "exemplo_en": "Anyway, in the end it was fine.",
+      "exemplo_pt": "Enfim, no fim deu tudo certo."
+    },
+    {
+      "id": "long-story",
+      "en": "to cut a long story short",
+      "pt": "resumindo a história",
+      "emoji": "✂️",
+      "exemplo_en": "To cut a long story short, we missed the flight.",
+      "exemplo_pt": "Resumindo a história, perdemos o voo."
+    },
+    {
+      "id": "moral",
+      "en": "the moral of the story",
+      "pt": "a moral da história",
+      "emoji": "📖",
+      "exemplo_en": "The moral of the story: always check your passport!",
+      "exemplo_pt": "A moral da história: sempre confira seu passaporte!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: contando histórias",
+    "explicacao_pt": "Uma boa história tem: 1) gancho — You won't believe what happened! 2) cenário — It was a Friday night. We were having dinner at… (past continuous) 3) eventos — Suddenly, the lights went out. (past simple + conectores) 4) explicações do 'antes' — I had forgotten… (past perfect) 5) sentimentos — I was so embarrassed / such a… 6) fim — In the end… / To cut a long story short… / The moral of the story is… SO + adjetivo (so funny) × SUCH (a) + adjetivo + substantivo (such a funny story).",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Gancho",
+          "You won't believe what happened!",
+          "Você não vai acreditar no que aconteceu!"
+        ],
+        [
+          "Cenário",
+          "We were waiting at the airport.",
+          "Estávamos esperando no aeroporto."
+        ],
+        [
+          "Evento + causa",
+          "I realized I had lost my passport.",
+          "Percebi que tinha perdido o passaporte."
+        ],
+        [
+          "Sentimento",
+          "I was so scared!",
+          "Fiquei com tanto medo!"
+        ],
+        [
+          "Fim",
+          "In the end, we caught the next flight.",
+          "No fim, pegamos o voo seguinte."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "You won't believe what happened at the Christmas party!",
+        "pt": "Você não vai acreditar no que aconteceu na festa de Natal!"
+      },
+      {
+        "en": "We were dancing when I noticed that the director was wearing the same shirt as me.",
+        "pt": "Estávamos dançando quando percebi que o diretor estava usando a mesma camisa que eu."
+      },
+      {
+        "en": "I was so embarrassed, but he thought it was such a funny coincidence.",
+        "pt": "Fiquei tão sem graça, mas ele achou uma coincidência tão engraçada."
+      },
+      {
+        "en": "To cut a long story short, we took a photo together and it's now on the company website!",
+        "pt": "Resumindo, tiramos uma foto juntos e ela está agora no site da empresa!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "You won't believe it!",
+    "falas": [
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "You won't believe what happened to me on my business trip!",
+        "pt": "Você não vai acreditar no que me aconteceu na viagem de negócios!"
+      },
+      {
+        "personagem": "Lu",
+        "voz": "b",
+        "en": "What? Tell me!",
+        "pt": "O quê? Me conta!"
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "I was presenting our products to a big client in Mexico. Everything was going so well.",
+        "pt": "Eu estava apresentando nossos produtos para um cliente grande no México. Estava tudo indo tão bem."
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "Suddenly, I realized I had brought the wrong USB drive. Instead of the presentation, there were photos of my holiday!",
+        "pt": "De repente, percebi que tinha trazido o pendrive errado. Em vez da apresentação, tinha fotos das minhas férias!"
+      },
+      {
+        "personagem": "Lu",
+        "voz": "b",
+        "en": "No way! What did you do?",
+        "pt": "Não acredito! O que você fez?"
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "I was so embarrassed. But the client started laughing and asked about the beach! Anyway, I did the presentation without slides.",
+        "pt": "Fiquei tão sem graça. Mas o cliente começou a rir e perguntou da praia! Enfim, fiz a apresentação sem slides."
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "To cut a long story short, we got the contract. The moral of the story: always check your files twice!",
+        "pt": "Resumindo, fechamos o contrato. A moral da história: sempre confira seus arquivos duas vezes!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was Gil?",
+        "opcoes": [
+          "In Mexico",
+          "In Chile",
+          "In the USA"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "He had brought the wrong USB drive.",
+          "He was late.",
+          "He had lost his passport."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How did the client react?",
+        "opcoes": [
+          "He started laughing.",
+          "He was angry.",
+          "He left the meeting."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What happened in the end?",
+        "opcoes": [
+          "They got the contract.",
+          "They lost the client.",
+          "Gil lost his job."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u08l5-p1",
+      "tipo": "completar",
+      "frase": "You won't ___ what happened!",
+      "respostas": [
+        "believe"
+      ]
+    },
+    {
+      "id": "b1u08l5-p2",
+      "tipo": "completar",
+      "frase": "It was ___ a beautiful day. (tão)",
+      "respostas": [
+        "such"
+      ]
+    },
+    {
+      "id": "b1u08l5-p3",
+      "tipo": "completar",
+      "frase": "To cut a long story ___, we missed the flight.",
+      "respostas": [
+        "short"
+      ]
+    },
+    {
+      "id": "b1u08l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "It was so a funny story.",
+        "It was such a funny story.",
+        "It was such funny story."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u08l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Fiquei tão envergonhado!\":",
+      "opcoes": [
+        "I was so embarrassed!",
+        "I was so pregnant!",
+        "I was such embarrassed!"
+      ],
+      "correta": 0,
+      "explicacao_pt": "'Embarrassed' = envergonhado. Cuidado: 'pregnant' = grávida!"
+    },
+    {
+      "id": "b1u08l5-p6",
+      "tipo": "ordenar",
+      "frase": "Everybody started laughing",
+      "traducao_pt": "Todo mundo começou a rir"
+    },
+    {
+      "id": "b1u08l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I couldn't believe my eyes.",
+      "aceitas": [
+        "I could not believe my eyes."
+      ]
+    },
+    {
+      "id": "b1u08l5-p8",
+      "tipo": "traduzir",
+      "pt": "Ficamos aliviados quando ele ligou.",
+      "respostas": [
+        "We were relieved when he called."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final do B1: conte ao professor uma história marcante da sua vida (engraçada, assustadora ou emocionante) com gancho, cenário, eventos, causas, sentimentos e um final. Ele vai reagir e fazer perguntas.",
+    "papel_professor": "Seja um ouvinte animado (No way! Really? What happened next?). Peça detalhes de sentimentos e causas. No fim, elogie e corrija os 2–3 erros mais importantes de tempos verbais e conectores.",
+    "abertura": "I've got a cup of coffee and I'm ready. Tell me your best story!",
+    "abertura_pt": "Peguei um café e estou pronto. Me conte sua melhor história!"
+  },
+  "teste": [
+    {
+      "id": "b1u08l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Cenário da história:",
+      "opcoes": [
+        "We were waiting at the airport.",
+        "We waited at the airport since.",
+        "We have waited at the airport."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l5-t2",
+      "tipo": "completar",
+      "frase": "___, in the end it was fine. (enfim)",
+      "respostas": [
+        "Anyway"
+      ]
+    },
+    {
+      "id": "b1u08l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I was terrified."
+    },
+    {
+      "id": "b1u08l5-t4",
+      "tipo": "traduzir",
+      "pt": "A moral da história: sempre confira seu passaporte!",
+      "respostas": [
+        "The moral of the story: always check your passport!",
+        "The moral of the story is: always check your passport!",
+        "The moral of the story: always check your passport."
+      ]
+    },
+    {
+      "id": "b1u08l5-t5",
+      "tipo": "ordenar",
+      "frase": "I realized I had lost my passport",
+      "traducao_pt": "Percebi que tinha perdido o passaporte"
+    }
+  ]
+}

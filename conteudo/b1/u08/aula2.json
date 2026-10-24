@@ -1,0 +1,361 @@
+{
+  "id": "b1-u08-l2",
+  "nivel": "B1",
+  "unidade": 8,
+  "numero": 2,
+  "titulo": "When I arrived, the meeting had started",
+  "objetivo_pt": "Usar o past perfect para algo que aconteceu antes de outra ação no passado.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar situações e perguntar o que já tinha acontecido antes. Use \"had + particípio\".",
+    "papel_professor": "Conte situações (When I got to the station, the train…; When the firemen arrived, the fire…). Ensine had + particípio e o contraste de ordem. Corrija.",
+    "abertura": "Have you ever arrived somewhere too late? What had happened when you got there?",
+    "abertura_pt": "Você já chegou atrasado em algum lugar? O que já tinha acontecido quando você chegou?"
+  },
+  "vocabulario": [
+    {
+      "id": "had-pp",
+      "en": "had + particípio",
+      "pt": "tinha (feito)",
+      "emoji": "⏮️",
+      "exemplo_en": "The train had left when I arrived.",
+      "exemplo_pt": "O trem já tinha partido quando cheguei."
+    },
+    {
+      "id": "already-pp",
+      "en": "had already",
+      "pt": "já tinha",
+      "emoji": "✅",
+      "exemplo_en": "The meeting had already started.",
+      "exemplo_pt": "A reunião já tinha começado."
+    },
+    {
+      "id": "by-the-time",
+      "en": "by the time",
+      "pt": "quando / até o momento em que",
+      "emoji": "⏱️",
+      "exemplo_en": "By the time we arrived, they had gone.",
+      "exemplo_pt": "Quando chegamos, eles já tinham ido."
+    },
+    {
+      "id": "before-l2",
+      "en": "before / after",
+      "pt": "antes / depois",
+      "emoji": "↔️",
+      "exemplo_en": "After he had checked everything, he left.",
+      "exemplo_pt": "Depois de verificar tudo, ele saiu."
+    },
+    {
+      "id": "realize",
+      "en": "realize",
+      "pt": "perceber / dar-se conta",
+      "emoji": "💡",
+      "exemplo_en": "I realized I had forgotten my badge.",
+      "exemplo_pt": "Percebi que tinha esquecido o crachá."
+    },
+    {
+      "id": "never-before",
+      "en": "had never … before",
+      "pt": "nunca tinha … antes",
+      "emoji": "🆕",
+      "exemplo_en": "I had never seen such a big machine before.",
+      "exemplo_pt": "Eu nunca tinha visto uma máquina tão grande."
+    },
+    {
+      "id": "leave-left",
+      "en": "leave (left, left)",
+      "pt": "partir / deixar",
+      "emoji": "🚉",
+      "exemplo_en": "The bus had left.",
+      "exemplo_pt": "O ônibus tinha partido."
+    },
+    {
+      "id": "arrive-l2",
+      "en": "get to / arrive at",
+      "pt": "chegar a",
+      "emoji": "📍",
+      "exemplo_en": "When I got to work, the line had stopped.",
+      "exemplo_pt": "Quando cheguei ao trabalho, a linha tinha parado."
+    },
+    {
+      "id": "turn-out",
+      "en": "it turned out (that)",
+      "pt": "acabou que / descobriu-se que",
+      "emoji": "🔍",
+      "exemplo_en": "It turned out that someone had changed the settings.",
+      "exemplo_pt": "Descobriu-se que alguém tinha mudado a configuração."
+    },
+    {
+      "id": "reason",
+      "en": "the reason was (that)",
+      "pt": "o motivo foi (que)",
+      "emoji": "❓",
+      "exemplo_en": "The reason was that nobody had ordered the parts.",
+      "exemplo_pt": "O motivo foi que ninguém tinha pedido as peças."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Past perfect",
+    "explicacao_pt": "Formação: HAD + PARTICÍPIO (igual para todas as pessoas). Usamos para uma ação que aconteceu ANTES de outra no passado: When I got to the station, the train had left. (1º o trem partiu, 2º eu cheguei.) Compare: When I arrived, the meeting started (começou quando cheguei) × When I arrived, the meeting had started (já tinha começado antes). Muito útil para explicar causas: The machine stopped because nobody had changed the oil. Expressões: by the time, already, never…before, it turned out that.",
+    "tabela": {
+      "colunas": [
+        "Ação mais antiga (past perfect)",
+        "Ação depois (past simple)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "The train had left",
+          "when I got to the station.",
+          "O trem tinha partido quando cheguei."
+        ],
+        [
+          "I had forgotten my keys,",
+          "so I called my wife.",
+          "Eu tinha esquecido as chaves, então liguei para minha esposa."
+        ],
+        [
+          "Nobody had changed the oil,",
+          "so the engine broke.",
+          "Ninguém tinha trocado o óleo, então o motor quebrou."
+        ],
+        [
+          "I'd never flown before",
+          "I went to Chile.",
+          "Eu nunca tinha voado antes de ir ao Chile."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "When I got to the meeting, they had already discussed the budget.",
+        "pt": "Quando cheguei à reunião, já tinham discutido o orçamento."
+      },
+      {
+        "en": "The machine stopped because someone had changed the settings.",
+        "pt": "A máquina parou porque alguém tinha mudado a configuração."
+      },
+      {
+        "en": "By the time the firefighters arrived, the workers had put out the fire.",
+        "pt": "Quando os bombeiros chegaram, os funcionários já tinham apagado o fogo."
+      },
+      {
+        "en": "I realized I had left my phone in the car.",
+        "pt": "Percebi que tinha deixado o celular no carro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A bad Monday",
+    "falas": [
+      {
+        "personagem": "Joaquim",
+        "voz": "a",
+        "en": "How was your Monday?",
+        "pt": "Como foi sua segunda?"
+      },
+      {
+        "personagem": "Patrícia",
+        "voz": "b",
+        "en": "Terrible! When I got to the bus stop, the bus had just left.",
+        "pt": "Terrível! Quando cheguei no ponto, o ônibus tinha acabado de passar."
+      },
+      {
+        "personagem": "Joaquim",
+        "voz": "a",
+        "en": "Oh no. Were you late for work?",
+        "pt": "Ah, não. Você chegou atrasada?"
+      },
+      {
+        "personagem": "Patrícia",
+        "voz": "b",
+        "en": "Yes, forty minutes. By the time I arrived, the safety meeting had already finished.",
+        "pt": "Sim, quarenta minutos. Quando cheguei, a reunião de segurança já tinha acabado."
+      },
+      {
+        "personagem": "Joaquim",
+        "voz": "a",
+        "en": "And then?",
+        "pt": "E depois?"
+      },
+      {
+        "personagem": "Patrícia",
+        "voz": "b",
+        "en": "Then I realized I had left my badge at home, so I couldn't enter the production area!",
+        "pt": "Depois percebi que tinha deixado o crachá em casa, então não pude entrar na área de produção!"
+      },
+      {
+        "personagem": "Joaquim",
+        "voz": "a",
+        "en": "What a day! What did you do?",
+        "pt": "Que dia! O que você fez?"
+      },
+      {
+        "personagem": "Patrícia",
+        "voz": "b",
+        "en": "Security gave me a temporary badge. I had never needed one before.",
+        "pt": "A segurança me deu um crachá provisório. Eu nunca tinha precisado de um antes."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What had happened when Patrícia got to the bus stop?",
+        "opcoes": [
+          "The bus had just left.",
+          "The bus was late.",
+          "It had started to rain."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How late was she?",
+        "opcoes": [
+          "Ten minutes",
+          "Forty minutes",
+          "Two hours"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u08l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What had finished when she arrived?",
+        "opcoes": [
+          "The safety meeting",
+          "Her shift",
+          "Lunch"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What had she left at home?",
+        "opcoes": [
+          "Her phone",
+          "Her badge",
+          "Her lunch"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u08l2-p1",
+      "tipo": "completar",
+      "frase": "The train ___ left when I arrived.",
+      "respostas": [
+        "had"
+      ]
+    },
+    {
+      "id": "b1u08l2-p2",
+      "tipo": "completar",
+      "frase": "I realized I had ___ my badge. (esquecido)",
+      "respostas": [
+        "forgotten"
+      ]
+    },
+    {
+      "id": "b1u08l2-p3",
+      "tipo": "completar",
+      "frase": "By the ___ we arrived, they had gone.",
+      "respostas": [
+        "time"
+      ]
+    },
+    {
+      "id": "b1u08l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"A reunião já tinha começado\" (antes de eu chegar):",
+      "opcoes": [
+        "When I arrived, the meeting started.",
+        "When I arrived, the meeting had started."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u08l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Eu nunca tinha visto isso antes\":",
+      "opcoes": [
+        "I had never seen it before.",
+        "I have never saw it before.",
+        "I never had see it before."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l2-p6",
+      "tipo": "ordenar",
+      "frase": "It turned out that someone had changed the settings",
+      "traducao_pt": "Descobriu-se que alguém tinha mudado a configuração"
+    },
+    {
+      "id": "b1u08l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "When I got to work, the line had stopped."
+    },
+    {
+      "id": "b1u08l2-p8",
+      "tipo": "traduzir",
+      "pt": "O motivo foi que ninguém tinha pedido as peças.",
+      "respostas": [
+        "The reason was that nobody had ordered the parts.",
+        "The reason was that no one had ordered the parts."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor sobre um dia em que tudo deu errado. Use o past perfect para explicar o que já tinha acontecido e as causas.",
+    "papel_professor": "Peça a história de um dia ruim. Pergunte What had happened? Why? Had you…? Corrija past perfect × past simple.",
+    "abertura": "Tell me about a day when everything went wrong. What happened first?",
+    "abertura_pt": "Me conte sobre um dia em que tudo deu errado. O que aconteceu primeiro?"
+  },
+  "teste": [
+    {
+      "id": "b1u08l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"The engine broke because nobody ___ the oil.\"",
+      "opcoes": [
+        "had changed",
+        "has changed",
+        "changes"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l2-t2",
+      "tipo": "completar",
+      "frase": "I'd never ___ before I went to Chile. (voado)",
+      "respostas": [
+        "flown"
+      ]
+    },
+    {
+      "id": "b1u08l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The meeting had already started."
+    },
+    {
+      "id": "b1u08l2-t4",
+      "tipo": "traduzir",
+      "pt": "Percebi que tinha deixado o celular no carro.",
+      "respostas": [
+        "I realized I had left my phone in the car.",
+        "I realised I had left my phone in the car.",
+        "I realized I'd left my phone in the car."
+      ]
+    },
+    {
+      "id": "b1u08l2-t5",
+      "tipo": "ordenar",
+      "frase": "The bus had just left",
+      "traducao_pt": "O ônibus tinha acabado de passar"
+    }
+  ]
+}

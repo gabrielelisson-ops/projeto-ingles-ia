@@ -1,0 +1,254 @@
+{
+  "id": "b1-u08-prova",
+  "nivel": "B1",
+  "unidade": 8,
+  "titulo": "Prova da Unidade 8 (B1) — Telling stories",
+  "leitura": {
+    "texto": "THE NIGHT THE RIVER CAME IN\nIt was 2 a.m. on a Sunday in January. Most of the night shift were working normally at the Santa Luzia textile plant. It had been raining for three days, but nobody was worried — the river had never flooded the factory before.\nAt about 2:15, a security guard was walking around the building when he noticed water under the warehouse door. At first, he thought it was a small leak. A few minutes later, the water was coming in fast.\nAs soon as he realized how serious it was, he called the shift supervisor, Dora Lins. Dora acted immediately. She stopped the machines, turned off the electricity in the lower area and sent everybody to the upper floor.\nMeanwhile, the maintenance team was trying to move the most expensive equipment to higher places. Unfortunately, they couldn't save everything: 400 rolls of fabric were damaged.\nThe firefighters arrived at 3:30. By then, all 60 workers were safe on the upper floor. Luckily, nobody was injured.\nIt turned out that a wall near the river had collapsed during the storm. The factory was closed for two weeks. In the end, Dora received an award for her quick thinking. 'I was terrified,' she said, 'but I had done the emergency training only a month before. That made all the difference.'",
+    "perguntas": [
+      {
+        "id": "b1u08pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What time did the incident start?",
+        "opcoes": [
+          "Around 2 a.m.",
+          "Around 10 p.m.",
+          "Around 6 a.m."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How long had it been raining?",
+        "opcoes": [
+          "One day",
+          "Three days",
+          "A week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u08pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Had the river flooded the factory before?",
+        "opcoes": [
+          "Yes, many times.",
+          "No, never."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u08pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What was the security guard doing when he noticed the water?",
+        "opcoes": [
+          "Walking around the building",
+          "Sleeping",
+          "Working on a machine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What did Dora do first?",
+        "opcoes": [
+          "She stopped the machines.",
+          "She called the firefighters.",
+          "She went home."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How many rolls of fabric were damaged?",
+        "opcoes": [
+          "60",
+          "400",
+          "4,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u08pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What had caused the flood?",
+        "opcoes": [
+          "A wall near the river had collapsed.",
+          "A pipe had broken.",
+          "Someone had left a door open."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Why did Dora act well, according to her?",
+        "opcoes": [
+          "She had done the emergency training a month before.",
+          "She had worked there for 20 years.",
+          "She is a firefighter."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Why were you so late yesterday?",
+        "pt": "Por que você chegou tão atrasado ontem?"
+      },
+      {
+        "personagem": "Márcio",
+        "voz": "b",
+        "en": "You won't believe it. I was driving to the airport when my car broke down on the highway.",
+        "pt": "Você não vai acreditar. Eu estava dirigindo para o aeroporto quando meu carro quebrou na rodovia."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Oh no! What had happened?",
+        "pt": "Ah, não! O que tinha acontecido?"
+      },
+      {
+        "personagem": "Márcio",
+        "voz": "b",
+        "en": "The engine had overheated. I hadn't checked the water for months.",
+        "pt": "O motor tinha superaquecido. Eu não verificava a água fazia meses."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "So what did you do?",
+        "pt": "E o que você fez?"
+      },
+      {
+        "personagem": "Márcio",
+        "voz": "b",
+        "en": "At first, I tried to call a taxi, but my phone battery was almost dead. Eventually, a truck driver stopped and took me to the next gas station.",
+        "pt": "No começo, tentei chamar um táxi, mas a bateria do celular estava quase acabando. Por fim, um caminhoneiro parou e me levou ao próximo posto."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Did you catch your flight?",
+        "pt": "Você pegou o voo?"
+      },
+      {
+        "personagem": "Márcio",
+        "voz": "b",
+        "en": "No. By the time I got to the airport, it had already left. In the end, I took the next one, four hours later.",
+        "pt": "Não. Quando cheguei ao aeroporto, ele já tinha partido. No fim, peguei o seguinte, quatro horas depois."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was Márcio going?",
+        "opcoes": [
+          "To the airport",
+          "To work",
+          "To the beach"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What happened to his car?",
+        "opcoes": [
+          "It broke down.",
+          "It was stolen.",
+          "It crashed."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Why had the engine overheated?",
+        "opcoes": [
+          "He hadn't checked the water for months.",
+          "It was very hot.",
+          "He was driving too fast."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why couldn't he call a taxi?",
+        "opcoes": [
+          "His phone battery was almost dead.",
+          "There were no taxis.",
+          "He had no money."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Who helped him?",
+        "opcoes": [
+          "A truck driver",
+          "A police officer",
+          "His friend"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Did he catch his flight?",
+        "opcoes": [
+          "Yes, just in time.",
+          "No, it had already left."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u08pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I was driving to the airport when my car broke down."
+      },
+      {
+        "id": "b1u08pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "By the time I got to the airport, it had already left."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u08pv-w1",
+      "instrucao_pt": "Escreva uma história real ou inventada (uma viagem, um dia difícil) usando past continuous, past simple, past perfect e pelo menos 4 conectores.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b1u08pv-w2",
+      "instrucao_pt": "Escreva um relatório curto de incidente: contexto, o que aconteceu, a causa (past perfect), o que foi feito e uma ação para evitar que aconteça de novo.",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u08pv-s1",
+      "pergunta_en": "Tell me about a time when something went wrong, but in the end it was OK.",
+      "instrucao_pt": "Conte em voz alta com conectores e tempos do passado."
+    },
+    {
+      "id": "b1u08pv-s2",
+      "pergunta_en": "You saw a small accident at work. Report it to the safety technician.",
+      "instrucao_pt": "Relate em voz alta: contexto, fatos, causa e ações."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Past continuous (cenário) × past simple (eventos), when/while, past perfect (ação anterior, causas), conectores de narrativa (at first, as soon as, eventually, in the end, luckily), relatório de incidente, so/such, contar uma história organizada."
+}
