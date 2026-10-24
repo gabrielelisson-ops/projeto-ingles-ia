@@ -1,0 +1,358 @@
+{
+  "id": "b1-u04-l2",
+  "nivel": "B1",
+  "unidade": 4,
+  "numero": 2,
+  "titulo": "If we don't fix it, we'll lose the order",
+  "objetivo_pt": "Usar a primeira condicional para consequências prováveis no futuro (if + presente, will).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você vai fazer em várias situações possíveis. Use \"If…, I'll…\".",
+    "papel_professor": "Pergunte situações futuras possíveis (What will you do if it rains on Saturday? If you get a bonus? If the supplier doesn't deliver?). Corrija 'If it will rain' → 'If it rains'.",
+    "abertura": "What will you do if it rains this weekend?",
+    "abertura_pt": "O que você vai fazer se chover neste fim de semana?"
+  },
+  "vocabulario": [
+    {
+      "id": "if-will",
+      "en": "if … will",
+      "pt": "se … vai",
+      "emoji": "🔮",
+      "exemplo_en": "If it rains, I'll stay at home.",
+      "exemplo_pt": "Se chover, vou ficar em casa."
+    },
+    {
+      "id": "lose-order",
+      "en": "lose an order / a customer",
+      "pt": "perder um pedido / cliente",
+      "emoji": "💸",
+      "exemplo_en": "If we're late again, we'll lose the customer.",
+      "exemplo_pt": "Se atrasarmos de novo, vamos perder o cliente."
+    },
+    {
+      "id": "miss-deadline",
+      "en": "miss the deadline",
+      "pt": "perder o prazo",
+      "emoji": "⏰",
+      "exemplo_en": "We'll miss the deadline if we don't hurry.",
+      "exemplo_pt": "Vamos perder o prazo se não nos apressarmos."
+    },
+    {
+      "id": "fine",
+      "en": "fine / penalty",
+      "pt": "multa",
+      "emoji": "🧾",
+      "exemplo_en": "If we deliver late, we'll pay a penalty.",
+      "exemplo_pt": "Se entregarmos atrasado, pagaremos multa."
+    },
+    {
+      "id": "breakdown",
+      "en": "breakdown / break down",
+      "pt": "quebra / quebrar (máquina)",
+      "emoji": "💥",
+      "exemplo_en": "If the press breaks down, we'll have a problem.",
+      "exemplo_pt": "Se a prensa quebrar, teremos um problema."
+    },
+    {
+      "id": "spare-part",
+      "en": "spare part",
+      "pt": "peça de reposição",
+      "emoji": "🔩",
+      "exemplo_en": "If we don't have the spare part, we'll have to wait.",
+      "exemplo_pt": "Se não tivermos a peça de reposição, teremos que esperar."
+    },
+    {
+      "id": "stock",
+      "en": "stock / out of stock",
+      "pt": "estoque / sem estoque",
+      "emoji": "📦",
+      "exemplo_en": "If we run out of stock, the line will stop.",
+      "exemplo_pt": "Se o estoque acabar, a linha vai parar."
+    },
+    {
+      "id": "run-out",
+      "en": "run out of",
+      "pt": "ficar sem / acabar",
+      "emoji": "🫙",
+      "exemplo_en": "We're running out of labels.",
+      "exemplo_pt": "As etiquetas estão acabando."
+    },
+    {
+      "id": "probably",
+      "en": "probably",
+      "pt": "provavelmente",
+      "emoji": "🤔",
+      "exemplo_en": "If he calls, I'll probably be in a meeting.",
+      "exemplo_pt": "Se ele ligar, provavelmente estarei em reunião."
+    },
+    {
+      "id": "as-soon-as",
+      "en": "as soon as",
+      "pt": "assim que",
+      "emoji": "⚡",
+      "exemplo_en": "I'll call you as soon as the truck arrives.",
+      "exemplo_pt": "Te ligo assim que o caminhão chegar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Primeira condicional",
+    "explicacao_pt": "Estrutura: IF + presente simples, WILL + verbo. Usamos para situações POSSÍVEIS no futuro e suas consequências: If the supplier doesn't deliver, we'll stop the line. Nunca use 'will' depois de 'if' (If it will rain ✗ → If it rains ✓). O mesmo vale para when, as soon as, before, after, until falando do futuro: I'll call you when I arrive. No lugar de will, podemos usar may/might (talvez), can, should ou imperativo: If you see Rui, tell him to call me.",
+    "tabela": {
+      "colunas": [
+        "If + presente",
+        "will + verbo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "If we don't fix it today,",
+          "we'll lose the order.",
+          "Se não consertarmos hoje, vamos perder o pedido."
+        ],
+        [
+          "If the parts arrive,",
+          "we'll start on Monday.",
+          "Se as peças chegarem, começamos na segunda."
+        ],
+        [
+          "If you're late again,",
+          "you'll get a warning.",
+          "Se você atrasar de novo, vai levar advertência."
+        ],
+        [
+          "When I get the results,",
+          "I'll send them to you.",
+          "Quando eu tiver os resultados, te mando."
+        ],
+        [
+          "If you need help,",
+          "call me.",
+          "Se precisar de ajuda, me ligue."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If we run out of raw material, the line will stop.",
+        "pt": "Se a matéria-prima acabar, a linha vai parar."
+      },
+      {
+        "en": "I'll send you the report as soon as I finish it.",
+        "pt": "Te mando o relatório assim que terminar."
+      },
+      {
+        "en": "If the machine breaks down again, we might need a new one.",
+        "pt": "Se a máquina quebrar de novo, talvez precisemos de uma nova."
+      },
+      {
+        "en": "If the customer complains, we'll replace the products.",
+        "pt": "Se o cliente reclamar, vamos trocar os produtos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An urgent problem",
+    "falas": [
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "We've got a problem. The main press broke down an hour ago.",
+        "pt": "Temos um problema. A prensa principal quebrou há uma hora."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Can maintenance fix it today?",
+        "pt": "A manutenção consegue consertar hoje?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Only if they find the spare part. If it's not in stock, they'll have to order it from Germany.",
+        "pt": "Só se acharem a peça de reposição. Se não estiver no estoque, terão que pedir da Alemanha."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "And if they order it from Germany?",
+        "pt": "E se pedirem da Alemanha?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "It'll take a week. If we stop for a week, we'll miss the deadline for the Volpe order.",
+        "pt": "Vai levar uma semana. Se pararmos uma semana, vamos perder o prazo do pedido da Volpe."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "OK. If that happens, we'll move the job to the old press. Call me as soon as you know.",
+        "pt": "OK. Se isso acontecer, passamos o trabalho para a prensa antiga. Me ligue assim que souber."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04l2-e1",
+        "tipo": "multipla",
+        "enunciado": "When did the press break down?",
+        "opcoes": [
+          "An hour ago",
+          "Yesterday",
+          "Last week"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Where will they order the part from if it is not in stock?",
+        "opcoes": [
+          "China",
+          "Germany",
+          "Italy"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How long will it take?",
+        "opcoes": [
+          "A day",
+          "A week",
+          "A month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the manager's plan B?",
+        "opcoes": [
+          "Moving the job to the old press",
+          "Canceling the order",
+          "Buying a new press"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u04l2-p1",
+      "tipo": "completar",
+      "frase": "If it rains, I ___ stay at home.",
+      "respostas": [
+        "will"
+      ]
+    },
+    {
+      "id": "b1u04l2-p2",
+      "tipo": "completar",
+      "frase": "We're running ___ of labels.",
+      "respostas": [
+        "out"
+      ]
+    },
+    {
+      "id": "b1u04l2-p3",
+      "tipo": "completar",
+      "frase": "I'll call you as soon as the truck ___. (chegar)",
+      "respostas": [
+        "arrives"
+      ]
+    },
+    {
+      "id": "b1u04l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "If it will rain, we'll cancel.",
+        "If it rains, we'll cancel.",
+        "If it rains, we cancel will."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Depois de 'if' usamos o presente, não 'will'."
+    },
+    {
+      "id": "b1u04l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Se entregarmos atrasado, pagaremos multa\":",
+      "opcoes": [
+        "If we deliver late, we'll pay a penalty.",
+        "If we will deliver late, we pay a penalty.",
+        "If we delivered late, we'll pay a penalty."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l2-p6",
+      "tipo": "ordenar",
+      "frase": "If the press breaks down we'll have a problem",
+      "traducao_pt": "Se a prensa quebrar, teremos um problema"
+    },
+    {
+      "id": "b1u04l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "If you need help, call me."
+    },
+    {
+      "id": "b1u04l2-p8",
+      "tipo": "traduzir",
+      "pt": "Se não tivermos a peça, teremos que esperar.",
+      "respostas": [
+        "If we don't have the part, we'll have to wait.",
+        "If we don't have the part, we will have to wait."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você e o professor estão diante de um problema na produção. Discutam as consequências possíveis de cada decisão com \"If we…, we'll…\".",
+    "papel_professor": "Apresente um problema (the main supplier can't deliver steel for two weeks). Discuta opções com o aluno: If we buy from another supplier, … If we wait, … Corrija first conditional.",
+    "abertura": "Bad news: our main supplier can't deliver steel for two weeks. What will happen if we wait?",
+    "abertura_pt": "Má notícia: nosso fornecedor principal não pode entregar aço por duas semanas. O que vai acontecer se esperarmos?"
+  },
+  "teste": [
+    {
+      "id": "b1u04l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"I'll tell him when he ___.\"",
+      "opcoes": [
+        "will arrive",
+        "arrives",
+        "arrived"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u04l2-t2",
+      "tipo": "completar",
+      "frase": "If we run out ___ stock, the line will stop.",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "b1u04l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We'll miss the deadline if we don't hurry.",
+      "aceitas": [
+        "We will miss the deadline if we do not hurry."
+      ]
+    },
+    {
+      "id": "b1u04l2-t4",
+      "tipo": "traduzir",
+      "pt": "Se o cliente reclamar, vamos trocar os produtos.",
+      "respostas": [
+        "If the customer complains, we'll replace the products.",
+        "If the customer complains, we will replace the products."
+      ]
+    },
+    {
+      "id": "b1u04l2-t5",
+      "tipo": "ordenar",
+      "frase": "I'll send you the report as soon as I finish",
+      "traducao_pt": "Te mando o relatório assim que terminar"
+    }
+  ]
+}

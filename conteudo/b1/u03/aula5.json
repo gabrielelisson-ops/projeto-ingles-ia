@@ -1,0 +1,369 @@
+{
+  "id": "b1-u03-l5",
+  "nivel": "B1",
+  "unidade": 3,
+  "numero": 5,
+  "titulo": "Training a new operator",
+  "objetivo_pt": "Explicar um procedimento de trabalho a um colega novo, juntando gerúndio, infinitivo e imperativo.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: explique ao professor como fazer uma tarefa simples do seu dia a dia (fazer café, ligar um equipamento). Use \"First… Then… Remember to… Avoid…ing\".",
+    "papel_professor": "Peça uma explicação passo a passo. Ensine sequenciadores e lembretes (Remember to…, Make sure you…, Avoid…ing, Don't forget to…).",
+    "abertura": "Imagine I'm new here. Can you explain how to make coffee with this machine?",
+    "abertura_pt": "Imagine que eu sou novo aqui. Pode explicar como fazer café com esta máquina?"
+  },
+  "vocabulario": [
+    {
+      "id": "make-sure",
+      "en": "make sure (that)",
+      "pt": "garantir / ter certeza",
+      "emoji": "✅",
+      "exemplo_en": "Make sure the guard is closed.",
+      "exemplo_pt": "Garanta que a proteção está fechada."
+    },
+    {
+      "id": "first-then",
+      "en": "first / then / after that / finally",
+      "pt": "primeiro / depois / em seguida / por fim",
+      "emoji": "🔢",
+      "exemplo_en": "First, check the oil. Then, start the motor.",
+      "exemplo_pt": "Primeiro, verifique o óleo. Depois, ligue o motor."
+    },
+    {
+      "id": "set-up",
+      "en": "set up",
+      "pt": "preparar / configurar",
+      "emoji": "⚙️",
+      "exemplo_en": "It takes ten minutes to set up the machine.",
+      "exemplo_pt": "Leva dez minutos para preparar a máquina."
+    },
+    {
+      "id": "adjust",
+      "en": "adjust",
+      "pt": "ajustar",
+      "emoji": "🔧",
+      "exemplo_en": "Adjust the speed if necessary.",
+      "exemplo_pt": "Ajuste a velocidade se necessário."
+    },
+    {
+      "id": "load",
+      "en": "load / unload",
+      "pt": "carregar / descarregar",
+      "emoji": "📥",
+      "exemplo_en": "Load the material into the hopper.",
+      "exemplo_pt": "Carregue o material no funil."
+    },
+    {
+      "id": "press-button",
+      "en": "press (the button)",
+      "pt": "apertar (o botão)",
+      "emoji": "🔘",
+      "exemplo_en": "Press the green button to start.",
+      "exemplo_pt": "Aperte o botão verde para ligar."
+    },
+    {
+      "id": "sample",
+      "en": "take a sample",
+      "pt": "tirar uma amostra",
+      "emoji": "🧪",
+      "exemplo_en": "Take a sample every hour.",
+      "exemplo_pt": "Tire uma amostra a cada hora."
+    },
+    {
+      "id": "record",
+      "en": "record / fill in",
+      "pt": "registrar / preencher",
+      "emoji": "📋",
+      "exemplo_en": "Fill in the checklist at the end of the shift.",
+      "exemplo_pt": "Preencha o checklist no fim do turno."
+    },
+    {
+      "id": "in-case",
+      "en": "in case of",
+      "pt": "em caso de",
+      "emoji": "🚨",
+      "exemplo_en": "In case of problems, call the line leader.",
+      "exemplo_pt": "Em caso de problemas, chame o líder de linha."
+    },
+    {
+      "id": "get-used",
+      "en": "get used to + -ing",
+      "pt": "acostumar-se a",
+      "emoji": "🙂",
+      "exemplo_en": "You'll get used to working here.",
+      "exemplo_pt": "Você vai se acostumar a trabalhar aqui."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Explicando um procedimento",
+    "explicacao_pt": "Use imperativo + sequenciadores: First, … Then, … After that, … Finally, … Para lembretes: Remember to + verbo, Don't forget to + verbo, Make sure (that) + frase. Para proibições e cuidados: Avoid + -ing, Never + verbo, Be careful not to + verbo. Para o objetivo: to + verbo (Press the button to start). Para condições: If…, In case of… Para encorajar: Don't worry. You'll get used to it.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Sequência",
+          "First / Then / Finally",
+          "First, put on your gloves."
+        ],
+        [
+          "Lembrete",
+          "Remember to …",
+          "Remember to record the batch number."
+        ],
+        [
+          "Garantir",
+          "Make sure …",
+          "Make sure the area is clean."
+        ],
+        [
+          "Cuidado",
+          "Avoid …ing / Be careful not to …",
+          "Be careful not to touch the blade."
+        ],
+        [
+          "Objetivo",
+          "… to + verbo",
+          "Press the red button to stop."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "First, set up the machine. Then, load the material and press the green button to start.",
+        "pt": "Primeiro, prepare a máquina. Depois, carregue o material e aperte o botão verde para ligar."
+      },
+      {
+        "en": "Make sure the safety guard is closed before starting.",
+        "pt": "Garanta que a proteção está fechada antes de ligar."
+      },
+      {
+        "en": "Avoid touching the moulds. They're very hot.",
+        "pt": "Evite tocar nos moldes. Estão muito quentes."
+      },
+      {
+        "en": "Don't worry if it's slow at first. You'll get used to it.",
+        "pt": "Não se preocupe se no começo for devagar. Você vai se acostumar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Your first day",
+    "falas": [
+      {
+        "personagem": "Trainer",
+        "voz": "a",
+        "en": "Welcome, Caio. Today I'm going to show you how to operate the injection machine.",
+        "pt": "Bem-vindo, Caio. Hoje vou te mostrar como operar a injetora."
+      },
+      {
+        "personagem": "Trainer",
+        "voz": "a",
+        "en": "First, make sure you're wearing your gloves and glasses. Then check that the hopper is full.",
+        "pt": "Primeiro, garanta que está usando luvas e óculos. Depois, verifique se o funil está cheio."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "OK. And how do I start it?",
+        "pt": "OK. E como eu ligo?"
+      },
+      {
+        "personagem": "Trainer",
+        "voz": "a",
+        "en": "Close the door and press the green button. Avoid opening the door while it's running: the machine stops automatically.",
+        "pt": "Feche a porta e aperte o botão verde. Evite abrir a porta enquanto funciona: a máquina para automaticamente."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "Do I need to check the parts?",
+        "pt": "Preciso verificar as peças?"
+      },
+      {
+        "personagem": "Trainer",
+        "voz": "a",
+        "en": "Yes. Take a sample every thirty minutes and remember to write the results on the checklist.",
+        "pt": "Sim. Tire uma amostra a cada trinta minutos e lembre de anotar os resultados no checklist."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "It's a lot of information!",
+        "pt": "É muita informação!"
+      },
+      {
+        "personagem": "Trainer",
+        "voz": "a",
+        "en": "Don't worry. You'll get used to it in a few days.",
+        "pt": "Não se preocupe. Você vai se acostumar em poucos dias."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What machine is Caio learning to use?",
+        "opcoes": [
+          "An injection machine",
+          "A forklift",
+          "A press"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What happens if he opens the door while it's running?",
+        "opcoes": [
+          "It stops automatically.",
+          "It goes faster.",
+          "Nothing."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How often should he take a sample?",
+        "opcoes": [
+          "Every hour",
+          "Every thirty minutes",
+          "Once a shift"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l5-e4",
+        "tipo": "multipla",
+        "enunciado": "Where does he write the results?",
+        "opcoes": [
+          "On the checklist",
+          "In an e-mail",
+          "On the machine"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u03l5-p1",
+      "tipo": "completar",
+      "frase": "___ sure the guard is closed. (garanta)",
+      "respostas": [
+        "Make"
+      ]
+    },
+    {
+      "id": "b1u03l5-p2",
+      "tipo": "completar",
+      "frase": "Avoid ___ the moulds. (tocar)",
+      "respostas": [
+        "touching"
+      ]
+    },
+    {
+      "id": "b1u03l5-p3",
+      "tipo": "completar",
+      "frase": "You'll get used to ___ here. (trabalhar)",
+      "respostas": [
+        "working"
+      ]
+    },
+    {
+      "id": "b1u03l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Aperte o botão vermelho para parar\":",
+      "opcoes": [
+        "Press the red button to stop.",
+        "Press the red button for stop.",
+        "Press the red button stopping."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Tome cuidado para não tocar na lâmina\":",
+      "opcoes": [
+        "Be careful not to touch the blade.",
+        "Be careful to not touching the blade.",
+        "Be careful don't touch of the blade."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l5-p6",
+      "tipo": "ordenar",
+      "frase": "Take a sample every hour",
+      "traducao_pt": "Tire uma amostra a cada hora"
+    },
+    {
+      "id": "b1u03l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "In case of problems, call the line leader.",
+      "aceitas": [
+        "In case of problems call the line leader."
+      ]
+    },
+    {
+      "id": "b1u03l5-p8",
+      "tipo": "traduzir",
+      "pt": "Preencha o checklist no fim do turno.",
+      "respostas": [
+        "Fill in the checklist at the end of the shift.",
+        "Fill out the checklist at the end of the shift."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: treine o professor como se ele fosse um funcionário novo. Explique passo a passo uma tarefa do seu trabalho, com lembretes e cuidados de segurança.",
+    "papel_professor": "Faça o papel de funcionário novo, um pouco inseguro. Faça perguntas (What do I do first? What if…? Do I have to…?). Corrija imperativo, remember to, avoid -ing, make sure.",
+    "abertura": "Hi! It's my first day. I'm a bit nervous. What do I have to do?",
+    "abertura_pt": "Oi! É meu primeiro dia. Estou um pouco nervoso. O que eu tenho que fazer?"
+  },
+  "teste": [
+    {
+      "id": "b1u03l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Sequência correta:",
+      "opcoes": [
+        "First, … Then, … Finally, …",
+        "Finally, … First, … Then, …",
+        "Then, … Finally, … First, …"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l5-t2",
+      "tipo": "completar",
+      "frase": "Don't forget ___ record the batch number.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Adjust the speed if necessary."
+    },
+    {
+      "id": "b1u03l5-t4",
+      "tipo": "traduzir",
+      "pt": "Carregue o material no funil.",
+      "respostas": [
+        "Load the material into the hopper.",
+        "Load the material in the hopper."
+      ]
+    },
+    {
+      "id": "b1u03l5-t5",
+      "tipo": "ordenar",
+      "frase": "Don't worry, you'll get used to it",
+      "traducao_pt": "Não se preocupe, você vai se acostumar"
+    }
+  ]
+}

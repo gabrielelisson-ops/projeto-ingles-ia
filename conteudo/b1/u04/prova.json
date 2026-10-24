@@ -1,0 +1,262 @@
+{
+  "id": "b1-u04-prova",
+  "nivel": "B1",
+  "unidade": 4,
+  "titulo": "Prova da Unidade 4 (B1) — Production problems",
+  "leitura": {
+    "texto": "INCIDENT REPORT — LINE 3 (Bottling)\nDate: 14 March\nWhat happened: Between 8 a.m. and 11 a.m., line 3 stopped six times. Each time, bottles got stuck at the entrance of the labeling machine. Operators removed the bottles by hand and restarted the line.\nInvestigation: The maintenance team found that one of the guide rails was loose. When the rail moves, the bottles turn and get stuck. We also found that the screws were worn. If the rail vibrates for a long time, the screws get loose again.\nImmediate action: We tightened the rail and replaced the worn screws at 11:15. Since then, the line has run without stops.\nRisks: If we don't check the rails regularly, the problem will come back. Also, operators must not remove bottles by hand unless the machine is completely stopped, otherwise they can hurt their hands.\nAction plan:\n1. Check all guide rails at the start of every shift (responsible: line leaders).\n2. Buy spare screws in case the problem happens on other lines (responsible: purchasing).\n3. Retrain operators on the lockout procedure by 30 March (responsible: safety).",
+    "perguntas": [
+      {
+        "id": "b1u04pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many times did line 3 stop?",
+        "opcoes": [
+          "Three",
+          "Six",
+          "Eleven"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Where did the bottles get stuck?",
+        "opcoes": [
+          "At the labeling machine",
+          "At the filling machine",
+          "In the warehouse"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What was loose?",
+        "opcoes": [
+          "A guide rail",
+          "A bottle",
+          "A label"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What happens when the rail vibrates for a long time?",
+        "opcoes": [
+          "The screws get loose.",
+          "The bottles break.",
+          "The line goes faster."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-l5",
+        "tipo": "multipla",
+        "enunciado": "When did they fix the problem?",
+        "opcoes": [
+          "At 8:00",
+          "At 11:15",
+          "The next day"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-l6",
+        "tipo": "multipla",
+        "enunciado": "When can operators remove bottles by hand?",
+        "opcoes": [
+          "Only when the machine is completely stopped",
+          "Any time",
+          "Never"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Who will check the rails every shift?",
+        "opcoes": [
+          "Maintenance",
+          "Line leaders",
+          "Purchasing"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Why will purchasing buy spare screws?",
+        "opcoes": [
+          "In case the problem happens on other lines",
+          "Because they are cheap",
+          "For a new line"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Hi, Teo. Has the resin for next week arrived?",
+        "pt": "Oi, Teo. A resina da semana que vem chegou?"
+      },
+      {
+        "personagem": "Teo",
+        "voz": "b",
+        "en": "Not yet. The supplier says it'll arrive on Thursday, unless there's a strike at the port.",
+        "pt": "Ainda não. O fornecedor diz que chega na quinta, a não ser que haja greve no porto."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "A strike? If it doesn't arrive by Friday, we'll have to stop line 2.",
+        "pt": "Greve? Se não chegar até sexta, vamos ter que parar a linha 2."
+      },
+      {
+        "personagem": "Teo",
+        "voz": "b",
+        "en": "I know. How about buying some resin from the local distributor in case it's late?",
+        "pt": "Eu sei. Que tal comprar um pouco de resina do distribuidor local caso atrase?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "It's 20% more expensive…",
+        "pt": "É 20% mais caro…"
+      },
+      {
+        "personagem": "Teo",
+        "voz": "b",
+        "en": "Yes, but if we stop the line, it'll cost much more.",
+        "pt": "Sim, mas se pararmos a linha, vai custar muito mais."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "True. OK, order two tons, as long as they can deliver on Wednesday.",
+        "pt": "Verdade. OK, peça duas toneladas, desde que entreguem na quarta."
+      },
+      {
+        "personagem": "Teo",
+        "voz": "b",
+        "en": "Great. I'll call them now and I'll let you know as soon as they confirm.",
+        "pt": "Ótimo. Vou ligar agora e te aviso assim que confirmarem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04pv-e1",
+        "tipo": "multipla",
+        "enunciado": "When should the resin arrive?",
+        "opcoes": [
+          "On Tuesday",
+          "On Thursday",
+          "On Friday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What could delay it?",
+        "opcoes": [
+          "A strike at the port",
+          "Bad weather",
+          "A holiday"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What will happen if it doesn't arrive by Friday?",
+        "opcoes": [
+          "They will stop line 2.",
+          "They will close the factory.",
+          "Nothing."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How much more expensive is the local distributor?",
+        "opcoes": [
+          "10%",
+          "20%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How much resin will they order?",
+        "opcoes": [
+          "One ton",
+          "Two tons",
+          "Ten tons"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04pv-e6",
+        "tipo": "multipla",
+        "enunciado": "On what condition?",
+        "opcoes": [
+          "If they can deliver on Wednesday",
+          "If the price is lower",
+          "If the boss agrees"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "If we stop the line, it'll cost much more.",
+        "aceitas": [
+          "If we stop the line, it will cost much more."
+        ]
+      },
+      {
+        "id": "b1u04pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I'll let you know as soon as they confirm.",
+        "aceitas": [
+          "I will let you know as soon as they confirm."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u04pv-w1",
+      "instrucao_pt": "Descreva um problema (de trabalho ou de casa): o que acontece, quando acontece e a causa provável.",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u04pv-w2",
+      "instrucao_pt": "Escreva duas soluções para esse problema e as consequências de cada uma (If we…, we'll…; unless; as long as).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u04pv-s1",
+      "pergunta_en": "What happens in your company (or home) when something important breaks down?",
+      "instrucao_pt": "Responda em voz alta com zero conditional e when."
+    },
+    {
+      "id": "b1u04pv-s2",
+      "pergunta_en": "Our main supplier is going to be late. What should we do? What will happen if…?",
+      "instrucao_pt": "Proponha soluções em voz alta com first conditional."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Condicional zero (fatos e regras), primeira condicional (if + presente, will; nunca will depois de if), when/as soon as/unless/as long as/in case/otherwise, vocabulário de defeitos (leak, worn, loose, stuck, root cause), propor e avaliar soluções."
+}

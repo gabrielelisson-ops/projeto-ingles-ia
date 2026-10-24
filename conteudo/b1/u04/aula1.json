@@ -1,0 +1,348 @@
+{
+  "id": "b1-u04-l1",
+  "nivel": "B1",
+  "unidade": 4,
+  "numero": 1,
+  "titulo": "If you heat water…",
+  "objetivo_pt": "Usar a condicional zero para fatos e regras gerais (if + presente, presente).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que sempre acontece em certas situações. Responda com \"If…, …\" no presente.",
+    "papel_professor": "Pergunte fatos gerais (What happens if you don't sleep? What happens if the machine overheats? What do you do if you're late?). Ensine zero conditional.",
+    "abertura": "What happens if you don't sleep enough?",
+    "abertura_pt": "O que acontece se você não dorme o suficiente?"
+  },
+  "vocabulario": [
+    {
+      "id": "if",
+      "en": "if",
+      "pt": "se",
+      "emoji": "❔",
+      "exemplo_en": "If you press this button, the machine stops.",
+      "exemplo_pt": "Se você aperta este botão, a máquina para."
+    },
+    {
+      "id": "when-z",
+      "en": "when",
+      "pt": "quando",
+      "emoji": "🕒",
+      "exemplo_en": "When the light is red, the line stops.",
+      "exemplo_pt": "Quando a luz fica vermelha, a linha para."
+    },
+    {
+      "id": "heat",
+      "en": "heat / cool",
+      "pt": "aquecer / resfriar",
+      "emoji": "🌡️",
+      "exemplo_en": "If you heat ice, it melts.",
+      "exemplo_pt": "Se você aquece o gelo, ele derrete."
+    },
+    {
+      "id": "melt",
+      "en": "melt / freeze",
+      "pt": "derreter / congelar",
+      "emoji": "🧊",
+      "exemplo_en": "Water freezes at zero degrees.",
+      "exemplo_pt": "A água congela a zero grau."
+    },
+    {
+      "id": "overheat",
+      "en": "overheat",
+      "pt": "superaquecer",
+      "emoji": "🔥",
+      "exemplo_en": "If the motor overheats, it switches off.",
+      "exemplo_pt": "Se o motor superaquece, ele desliga."
+    },
+    {
+      "id": "pressure",
+      "en": "pressure",
+      "pt": "pressão",
+      "emoji": "🎚️",
+      "exemplo_en": "If the pressure is too high, the valve opens.",
+      "exemplo_pt": "Se a pressão está alta demais, a válvula abre."
+    },
+    {
+      "id": "alarm",
+      "en": "alarm goes off",
+      "pt": "alarme dispara",
+      "emoji": "🚨",
+      "exemplo_en": "When the alarm goes off, everybody leaves.",
+      "exemplo_pt": "Quando o alarme dispara, todos saem."
+    },
+    {
+      "id": "automatically",
+      "en": "automatically",
+      "pt": "automaticamente",
+      "emoji": "🤖",
+      "exemplo_en": "The door opens automatically.",
+      "exemplo_pt": "A porta abre automaticamente."
+    },
+    {
+      "id": "rust",
+      "en": "rust",
+      "pt": "enferrujar / ferrugem",
+      "emoji": "🟤",
+      "exemplo_en": "Iron rusts if it gets wet.",
+      "exemplo_pt": "O ferro enferruja se molha."
+    },
+    {
+      "id": "happen",
+      "en": "What happens if…?",
+      "pt": "O que acontece se…?",
+      "emoji": "❓",
+      "exemplo_en": "What happens if we mix them?",
+      "exemplo_pt": "O que acontece se misturarmos?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Condicional zero",
+    "explicacao_pt": "Estrutura: IF + presente simples, presente simples. Usamos para fatos científicos, regras e coisas que SEMPRE acontecem: If you heat ice, it melts. If the pressure is too high, the valve opens. 'If' pode ser trocado por 'when' (quando = sempre que), com o mesmo sentido: When the alarm goes off, we leave. A ordem pode inverter (sem vírgula): The machine stops if you open the door.",
+    "tabela": {
+      "colunas": [
+        "If + presente",
+        "Resultado (presente)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "If you heat water to 100°C,",
+          "it boils.",
+          "Se você aquece a água a 100°C, ela ferve."
+        ],
+        [
+          "If the motor overheats,",
+          "it switches off.",
+          "Se o motor superaquece, ele desliga."
+        ],
+        [
+          "When the light is red,",
+          "the line stops.",
+          "Quando a luz fica vermelha, a linha para."
+        ],
+        [
+          "If you open the door,",
+          "the machine stops.",
+          "Se você abre a porta, a máquina para."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If the temperature goes above 80 degrees, the alarm goes off.",
+        "pt": "Se a temperatura passa de 80 graus, o alarme dispara."
+      },
+      {
+        "en": "Plastic gets soft when you heat it.",
+        "pt": "O plástico amolece quando você o aquece."
+      },
+      {
+        "en": "If I drink coffee at night, I can't sleep.",
+        "pt": "Se eu tomo café à noite, não consigo dormir."
+      },
+      {
+        "en": "What happens if the sensor doesn't detect the box? — The conveyor stops.",
+        "pt": "O que acontece se o sensor não detecta a caixa? — A esteira para."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "How the safety system works",
+    "falas": [
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Let me explain the safety system of this oven.",
+        "pt": "Vou explicar o sistema de segurança deste forno."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "If the temperature goes above 250 degrees, a red light comes on.",
+        "pt": "Se a temperatura passa de 250 graus, uma luz vermelha acende."
+      },
+      {
+        "personagem": "Trainee",
+        "voz": "b",
+        "en": "And what happens if it keeps rising?",
+        "pt": "E o que acontece se continuar subindo?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "If it reaches 280, the gas switches off automatically and the alarm goes off.",
+        "pt": "Se chega a 280, o gás desliga automaticamente e o alarme dispara."
+      },
+      {
+        "personagem": "Trainee",
+        "voz": "b",
+        "en": "What do we do when the alarm goes off?",
+        "pt": "O que fazemos quando o alarme dispara?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "You call maintenance and you don't open the oven door. If you open it, the hot air comes out.",
+        "pt": "Vocês chamam a manutenção e não abrem a porta do forno. Se abrirem, o ar quente sai."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What happens above 250 degrees?",
+        "opcoes": [
+          "A red light comes on.",
+          "The gas switches off.",
+          "Nothing."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l1-e2",
+        "tipo": "multipla",
+        "enunciado": "At what temperature does the gas switch off?",
+        "opcoes": [
+          "250",
+          "280",
+          "300"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What should they do when the alarm goes off?",
+        "opcoes": [
+          "Open the door",
+          "Call maintenance",
+          "Go home"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l1-e4",
+        "tipo": "multipla",
+        "enunciado": "Why shouldn't they open the door?",
+        "opcoes": [
+          "The hot air comes out.",
+          "It is locked.",
+          "The alarm stops."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u04l1-p1",
+      "tipo": "completar",
+      "frase": "If you heat ice, it ___. (derrete)",
+      "respostas": [
+        "melts"
+      ]
+    },
+    {
+      "id": "b1u04l1-p2",
+      "tipo": "completar",
+      "frase": "If the motor overheats, it ___ off. (desliga)",
+      "respostas": [
+        "switches"
+      ]
+    },
+    {
+      "id": "b1u04l1-p3",
+      "tipo": "completar",
+      "frase": "When the alarm ___ off, everybody leaves.",
+      "respostas": [
+        "goes"
+      ]
+    },
+    {
+      "id": "b1u04l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Condicional zero correta:",
+      "opcoes": [
+        "If you open the door, the machine stops.",
+        "If you will open the door, the machine stops.",
+        "If you opened the door, the machine stop."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Água congela a zero grau\":",
+      "opcoes": [
+        "Water freezes at zero degrees.",
+        "Water freeze in zero degree.",
+        "The water is freezing at zero."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l1-p6",
+      "tipo": "ordenar",
+      "frase": "Iron rusts if it gets wet",
+      "traducao_pt": "O ferro enferruja se molha"
+    },
+    {
+      "id": "b1u04l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "What happens if we mix them?"
+    },
+    {
+      "id": "b1u04l1-p8",
+      "tipo": "traduzir",
+      "pt": "Se a pressão está alta demais, a válvula abre.",
+      "respostas": [
+        "If the pressure is too high, the valve opens."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor como funciona algum equipamento ou sistema que você conhece (carro, máquina, ar-condicionado): o que acontece se/quando…",
+    "papel_professor": "Peça a explicação de um sistema. Faça perguntas What happens if…? What do you do when…? Corrija zero conditional (presente nas duas partes).",
+    "abertura": "Tell me about a machine or system you know well. What happens if something goes wrong?",
+    "abertura_pt": "Me fale de uma máquina ou sistema que você conhece bem. O que acontece se algo dá errado?"
+  },
+  "teste": [
+    {
+      "id": "b1u04l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"If you don't sleep, you ___ tired.\"",
+      "opcoes": [
+        "get",
+        "will got",
+        "got"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l1-t2",
+      "tipo": "completar",
+      "frase": "What ___ if we mix them? (acontece)",
+      "respostas": [
+        "happens"
+      ]
+    },
+    {
+      "id": "b1u04l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The door opens automatically."
+    },
+    {
+      "id": "b1u04l1-t4",
+      "tipo": "traduzir",
+      "pt": "Quando a luz fica vermelha, a linha para.",
+      "respostas": [
+        "When the light is red, the line stops.",
+        "When the light turns red, the line stops."
+      ]
+    },
+    {
+      "id": "b1u04l1-t5",
+      "tipo": "ordenar",
+      "frase": "If the motor overheats it switches off",
+      "traducao_pt": "Se o motor superaquece, ele desliga"
+    }
+  ]
+}
