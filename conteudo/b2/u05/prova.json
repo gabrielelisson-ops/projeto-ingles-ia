@@ -1,0 +1,262 @@
+{
+  "id": "b2-u05-prova",
+  "nivel": "B2",
+  "unidade": 5,
+  "titulo": "Prova da Unidade 5 (B2) — Production meetings",
+  "leitura": {
+    "texto": "MINUTES — Monthly Operations Meeting\nChair: Fernanda Luz (Plant Manager)\n1. Safety\nThere was one lost-time accident in October, which is the first one this year. An operator whose glove got caught in a conveyor injured his hand. The investigation, which was completed on 4 November, found that the emergency stop on that conveyor was too far from the operator. Countermeasure: maintenance will install extra emergency stops on all conveyors by 30 November.\n2. Quality\nCustomer complaints fell to 6, most of which were about damaged packaging. The new pallet wrapping machine, which arrived in September, has helped a lot.\n3. Delivery\nOn-time delivery was 91%, which is below the 95% target. Most delays happened on line 4, where the old filling machine stopped eleven times. Rogério, who leads maintenance, said that the machine needs a full overhaul. The overhaul, which will cost about 180,000 reais, was approved.\n4. Other business\nThe planner raised the issue of holiday schedules. Fernanda interrupted to say that it would be discussed with HR in a separate meeting.\nAction points:\n- Rogério: install emergency stops by 30 Nov; plan the line 4 overhaul by 15 Dec.\n- Planning: update the December schedule by next Friday.\n- Fernanda: circulate the minutes and escalate the budget to the director.",
+    "perguntas": [
+      {
+        "id": "b2u05pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many lost-time accidents were there in October?",
+        "opcoes": [
+          "None",
+          "One",
+          "Two"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What did the investigation find?",
+        "opcoes": [
+          "The emergency stop was too far from the operator.",
+          "The operator was tired.",
+          "The glove was too big."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What is the countermeasure?",
+        "opcoes": [
+          "Installing extra emergency stops on all conveyors",
+          "Buying new gloves",
+          "Firing the operator"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What were most complaints about?",
+        "opcoes": [
+          "Damaged packaging",
+          "Late delivery",
+          "Wrong products"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What was on-time delivery?",
+        "opcoes": [
+          "85%",
+          "91%",
+          "95%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Where did most delays happen?",
+        "opcoes": [
+          "On line 4",
+          "On line 1",
+          "In the warehouse"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-l7",
+        "tipo": "multipla",
+        "enunciado": "How much will the overhaul cost?",
+        "opcoes": [
+          "About 18,000 reais",
+          "About 180,000 reais",
+          "About 1.8 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What will happen to the holiday schedule issue?",
+        "opcoes": [
+          "It will be discussed with HR separately.",
+          "It was decided in the meeting.",
+          "It was canceled."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "OK, let's get started. The purpose of this meeting is to decide what to do about the late supplier.",
+        "pt": "OK, vamos começar. O objetivo desta reunião é decidir o que fazer com o fornecedor atrasado."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "The supplier, whose contract ends in March, has been late four times this quarter.",
+        "pt": "O fornecedor, cujo contrato termina em março, atrasou quatro vezes este trimestre."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "Sorry to interrupt, but it's actually five times. There was another delay yesterday.",
+        "pt": "Desculpe interromper, mas na verdade foram cinco vezes. Houve outro atraso ontem."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Right, five. The company that offered us a new proposal is 6% more expensive, but they're closer.",
+        "pt": "Certo, cinco. A empresa que nos fez uma nova proposta é 6% mais cara, mas fica mais perto."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "a",
+        "en": "If I could just come in here — the extra cost would be less than the cost of stopping the line.",
+        "pt": "Se eu puder entrar aqui — o custo extra seria menor que o custo de parar a linha."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Good point. So, to sum up, we've agreed to test the new supplier for three months.",
+        "pt": "Bom ponto. Então, resumindo, concordamos em testar o novo fornecedor por três meses."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Paulo will prepare the contract by next Wednesday, and Ana will inform the current supplier.",
+        "pt": "O Paulo vai preparar o contrato até a próxima quarta, e a Ana vai informar o fornecedor atual."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "I'll circulate the minutes today. Thanks, everyone.",
+        "pt": "Distribuo a ata hoje. Obrigado a todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the purpose of the meeting?",
+        "opcoes": [
+          "To decide what to do about the late supplier",
+          "To plan the holidays",
+          "To discuss salaries"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-e2",
+        "tipo": "multipla",
+        "enunciado": "When does the supplier's contract end?",
+        "opcoes": [
+          "In January",
+          "In March",
+          "In June"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How many times has the supplier been late?",
+        "opcoes": [
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How much more expensive is the new company?",
+        "opcoes": [
+          "3%",
+          "6%",
+          "10%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What did they agree to do?",
+        "opcoes": [
+          "Test the new supplier for three months",
+          "Keep the current supplier",
+          "Stop the line"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What will Paulo do?",
+        "opcoes": [
+          "Prepare the contract",
+          "Inform the current supplier",
+          "Circulate the minutes"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Sorry to interrupt, but it's actually five times.",
+        "aceitas": [
+          "Sorry to interrupt, but it is actually five times."
+        ]
+      },
+      {
+        "id": "b2u05pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "So, to sum up, we've agreed to test the new supplier.",
+        "aceitas": [
+          "So, to sum up, we have agreed to test the new supplier."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u05pv-w1",
+      "instrucao_pt": "Escreva o relatório curto dos \"números da semana\" da sua área, usando pelo menos 4 relative clauses (who, which, whose, where, \", which\").",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u05pv-w2",
+      "instrucao_pt": "Escreva a ata de uma reunião: o objetivo, as decisões e pelo menos 3 ações com responsável e prazo.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u05pv-s1",
+      "pergunta_en": "Open and run the first part of a daily production meeting: safety, quality and delivery.",
+      "instrucao_pt": "Fale em voz alta como se estivesse conduzindo a reunião."
+    },
+    {
+      "id": "b2u05pv-s2",
+      "pergunta_en": "A colleague keeps talking about a different topic. Interrupt politely, bring the meeting back on track and sum up the decisions.",
+      "instrucao_pt": "Use as expressões de controle de reunião."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Relative clauses definidoras (who/which/that/where/whose/when; omissão do pronome objeto) e não definidoras (vírgulas, nunca that, ', which' = o que, most of which), interromper e controlar a conversa (Sorry to interrupt, If I could just…, Getting back to…), resumir e definir ações (X will… by…), conduzir reunião diária (SQDC, escalate, countermeasure)."
+}

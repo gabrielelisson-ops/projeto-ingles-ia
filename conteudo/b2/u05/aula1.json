@@ -1,0 +1,358 @@
+{
+  "id": "b2-u05-l1",
+  "nivel": "B2",
+  "unidade": 5,
+  "numero": 1,
+  "titulo": "The machine that broke",
+  "objetivo_pt": "Usar relative clauses definidoras (who, which, that, where, whose) para identificar pessoas e coisas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever pessoas e coisas do trabalho. Defina-as com \"the person who…\", \"the machine that…\", \"the place where…\".",
+    "papel_professor": "Peça definições (What's a supervisor? → A person who…; What's a warehouse? → A place where…). Ensine who/which/that/where/whose. Corrija 'the man which' → 'the man who'.",
+    "abertura": "How would you explain to a child what a supervisor is?",
+    "abertura_pt": "Como você explicaria a uma criança o que é um supervisor?"
+  },
+  "vocabulario": [
+    {
+      "id": "who",
+      "en": "who",
+      "pt": "que (pessoas)",
+      "emoji": "🧑",
+      "exemplo_en": "The operator who found the defect was Ana.",
+      "exemplo_pt": "A operadora que achou o defeito foi a Ana."
+    },
+    {
+      "id": "which",
+      "en": "which",
+      "pt": "que (coisas)",
+      "emoji": "📦",
+      "exemplo_en": "The machine which broke is new.",
+      "exemplo_pt": "A máquina que quebrou é nova."
+    },
+    {
+      "id": "that",
+      "en": "that",
+      "pt": "que (pessoas e coisas)",
+      "emoji": "🔗",
+      "exemplo_en": "The order that we received yesterday is urgent.",
+      "exemplo_pt": "O pedido que recebemos ontem é urgente."
+    },
+    {
+      "id": "where",
+      "en": "where",
+      "pt": "onde",
+      "emoji": "📍",
+      "exemplo_en": "This is the area where accidents happen most.",
+      "exemplo_pt": "Esta é a área onde mais acontecem acidentes."
+    },
+    {
+      "id": "whose",
+      "en": "whose",
+      "pt": "cujo(a)",
+      "emoji": "🔑",
+      "exemplo_en": "The worker whose badge was lost got a new one.",
+      "exemplo_pt": "O funcionário cujo crachá foi perdido ganhou um novo."
+    },
+    {
+      "id": "when-rel",
+      "en": "when",
+      "pt": "em que (tempo)",
+      "emoji": "🗓️",
+      "exemplo_en": "Monday is the day when we do maintenance.",
+      "exemplo_pt": "Segunda é o dia em que fazemos manutenção."
+    },
+    {
+      "id": "item",
+      "en": "item / agenda item",
+      "pt": "ponto (da pauta)",
+      "emoji": "📋",
+      "exemplo_en": "The first item is the budget.",
+      "exemplo_pt": "O primeiro ponto é o orçamento."
+    },
+    {
+      "id": "downtime",
+      "en": "downtime",
+      "pt": "tempo de parada",
+      "emoji": "⏸️",
+      "exemplo_en": "The machine that caused the downtime was the press.",
+      "exemplo_pt": "A máquina que causou a parada foi a prensa."
+    },
+    {
+      "id": "output",
+      "en": "output",
+      "pt": "produção (volume produzido)",
+      "emoji": "📈",
+      "exemplo_en": "The line whose output is lowest is line 3.",
+      "exemplo_pt": "A linha cuja produção é a mais baixa é a linha 3."
+    },
+    {
+      "id": "bottleneck-l1",
+      "en": "bottleneck",
+      "pt": "gargalo",
+      "emoji": "🍾",
+      "exemplo_en": "The station that limits the line is the bottleneck.",
+      "exemplo_pt": "A estação que limita a linha é o gargalo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Relative clauses definidoras",
+    "explicacao_pt": "Servem para dizer EXATAMENTE de quem ou do quê estamos falando. WHO = pessoas; WHICH = coisas; THAT = pessoas ou coisas (mais informal, muito comum); WHERE = lugares; WHOSE = posse (cujo); WHEN = tempo. Sem vírgulas. Quando o pronome é OBJETO da frase, pode ser omitido: The order (that) we received is urgent. Mas quando é SUJEITO, é obrigatório: The machine that broke… (não 'The machine broke…'). Não repita o pronome: The man who I met him ✗ → The man who I met ✓.",
+    "tabela": {
+      "colunas": [
+        "Pronome",
+        "Uso",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "who / that",
+          "pessoas",
+          "The technician who fixed it is on holiday."
+        ],
+        [
+          "which / that",
+          "coisas",
+          "The part which failed was cheap."
+        ],
+        [
+          "where",
+          "lugares",
+          "The room where we meet is small."
+        ],
+        [
+          "whose",
+          "posse",
+          "The client whose order was late called."
+        ],
+        [
+          "(omitido)",
+          "objeto",
+          "The report (that) you sent was great."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The operator who reported the problem deserves a prize.",
+        "pt": "A operadora que relatou o problema merece um prêmio."
+      },
+      {
+        "en": "The parts that arrived yesterday are out of spec.",
+        "pt": "As peças que chegaram ontem estão fora de especificação."
+      },
+      {
+        "en": "This is the station where most of the defects happen.",
+        "pt": "Esta é a estação onde acontece a maioria dos defeitos."
+      },
+      {
+        "en": "The supplier whose prices were lowest had the worst quality.",
+        "pt": "O fornecedor cujos preços eram os mais baixos tinha a pior qualidade."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Who's who?",
+    "falas": [
+      {
+        "personagem": "New engineer",
+        "voz": "a",
+        "en": "I'm new here. Can you tell me who everybody is?",
+        "pt": "Sou novo aqui. Pode me dizer quem é quem?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "Sure. The woman who's talking on the phone is Lívia. She's the planner who organizes the weekly schedule.",
+        "pt": "Claro. A mulher que está falando ao telefone é a Lívia. Ela é a planejadora que organiza a programação semanal."
+      },
+      {
+        "personagem": "New engineer",
+        "voz": "a",
+        "en": "And the man by the window?",
+        "pt": "E o homem perto da janela?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "That's Bruno, the technician whose team maintains the presses.",
+        "pt": "Esse é o Bruno, o técnico cuja equipe faz manutenção das prensas."
+      },
+      {
+        "personagem": "New engineer",
+        "voz": "a",
+        "en": "Where do we have the daily meeting?",
+        "pt": "Onde fazemos a reunião diária?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "In the room where the big screen is. It's the place where we look at the numbers every morning at 7:30.",
+        "pt": "Na sala onde fica a tela grande. É o lugar onde vemos os números toda manhã às 7h30."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Who is Lívia?",
+        "opcoes": [
+          "The planner who organizes the schedule",
+          "The technician",
+          "The director"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What does Bruno's team do?",
+        "opcoes": [
+          "Maintains the presses",
+          "Organizes the schedule",
+          "Cleans the factory"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Where is the daily meeting?",
+        "opcoes": [
+          "In the room where the big screen is",
+          "In the canteen",
+          "On the shop floor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What time is the daily meeting?",
+        "opcoes": [
+          "At 7:00",
+          "At 7:30",
+          "At 8:00"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u05l1-p1",
+      "tipo": "completar",
+      "frase": "The operator ___ found the defect was Ana.",
+      "respostas": [
+        "who",
+        "that"
+      ]
+    },
+    {
+      "id": "b2u05l1-p2",
+      "tipo": "completar",
+      "frase": "This is the area ___ accidents happen most.",
+      "respostas": [
+        "where"
+      ]
+    },
+    {
+      "id": "b2u05l1-p3",
+      "tipo": "completar",
+      "frase": "The worker ___ badge was lost got a new one.",
+      "respostas": [
+        "whose"
+      ]
+    },
+    {
+      "id": "b2u05l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "The machine which broke it is new.",
+        "The machine which broke is new.",
+        "The machine broke is new."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u05l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Pronome que pode ser omitido:",
+      "opcoes": [
+        "The report that you sent was great.",
+        "The technician who fixed it is here."
+      ],
+      "correta": 0,
+      "explicacao_pt": "Quando o pronome é objeto (you sent the report), pode ser omitido."
+    },
+    {
+      "id": "b2u05l1-p6",
+      "tipo": "ordenar",
+      "frase": "Monday is the day when we do maintenance",
+      "traducao_pt": "Segunda é o dia em que fazemos manutenção"
+    },
+    {
+      "id": "b2u05l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The first item is the budget."
+    },
+    {
+      "id": "b2u05l1-p8",
+      "tipo": "traduzir",
+      "pt": "A máquina que causou a parada foi a prensa.",
+      "respostas": [
+        "The machine that caused the downtime was the press.",
+        "The machine which caused the downtime was the press.",
+        "The machine that caused the stop was the press."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Jogo de definições: o professor diz uma palavra do trabalho e você define usando who, which/that, where ou whose. Depois inverta: você diz a definição e ele adivinha.",
+    "papel_professor": "Dê palavras (forklift, warehouse, line leader, scrap, bottleneck, canteen). O aluno define com relative clauses. Depois ele dá definições para você adivinhar. Corrija.",
+    "abertura": "Let's play. Define this word for me: 'warehouse'.",
+    "abertura_pt": "Vamos jogar. Defina esta palavra para mim: \"warehouse\"."
+  },
+  "teste": [
+    {
+      "id": "b2u05l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Para pessoas:",
+      "opcoes": [
+        "who",
+        "which",
+        "where"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l1-t2",
+      "tipo": "completar",
+      "frase": "The station ___ limits the line is the bottleneck.",
+      "respostas": [
+        "that",
+        "which"
+      ]
+    },
+    {
+      "id": "b2u05l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The technician who fixed it is on holiday."
+    },
+    {
+      "id": "b2u05l1-t4",
+      "tipo": "traduzir",
+      "pt": "O pedido que recebemos ontem é urgente.",
+      "respostas": [
+        "The order that we received yesterday is urgent.",
+        "The order we received yesterday is urgent.",
+        "The order which we received yesterday is urgent."
+      ]
+    },
+    {
+      "id": "b2u05l1-t5",
+      "tipo": "ordenar",
+      "frase": "The room where we meet is small",
+      "traducao_pt": "A sala onde nos reunimos é pequena"
+    }
+  ]
+}

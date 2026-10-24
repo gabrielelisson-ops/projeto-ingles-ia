@@ -1,0 +1,358 @@
+{
+  "id": "b2-u05-l5",
+  "nivel": "B2",
+  "unidade": 5,
+  "numero": 5,
+  "titulo": "Running the daily meeting",
+  "objetivo_pt": "Conduzir uma reunião de produção completa (abertura, números, problemas, decisões e ações).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: descreva ao professor a melhor e a pior reunião de que você já participou. O que as tornou boas ou ruins?",
+    "papel_professor": "Peça a melhor e a pior reunião. Ensine a abertura de reunião (Let's get started. The purpose of this meeting is… We have 15 minutes.) e o formato da reunião diária (safety, quality, delivery, cost).",
+    "abertura": "What's the worst meeting you've ever been to? What made it so bad?",
+    "abertura_pt": "Qual foi a pior reunião de que você já participou? O que a tornou tão ruim?"
+  },
+  "vocabulario": [
+    {
+      "id": "get-started",
+      "en": "Let's get started",
+      "pt": "Vamos começar",
+      "emoji": "▶️",
+      "exemplo_en": "OK, let's get started.",
+      "exemplo_pt": "OK, vamos começar."
+    },
+    {
+      "id": "purpose",
+      "en": "the purpose of this meeting",
+      "pt": "o objetivo desta reunião",
+      "emoji": "🎯",
+      "exemplo_en": "The purpose of this meeting is to plan the audit.",
+      "exemplo_pt": "O objetivo desta reunião é planejar a auditoria."
+    },
+    {
+      "id": "agenda-l5",
+      "en": "agenda",
+      "pt": "pauta",
+      "emoji": "📋",
+      "exemplo_en": "Let's go through the agenda.",
+      "exemplo_pt": "Vamos passar pela pauta."
+    },
+    {
+      "id": "sqdc",
+      "en": "safety, quality, delivery, cost",
+      "pt": "segurança, qualidade, entrega, custo",
+      "emoji": "🧭",
+      "exemplo_en": "We always start with safety.",
+      "exemplo_pt": "Sempre começamos pela segurança."
+    },
+    {
+      "id": "on-target",
+      "en": "on target / off target",
+      "pt": "dentro / fora da meta",
+      "emoji": "🎯",
+      "exemplo_en": "Delivery is on target.",
+      "exemplo_pt": "A entrega está dentro da meta."
+    },
+    {
+      "id": "escalate",
+      "en": "escalate",
+      "pt": "escalar (levar ao superior)",
+      "emoji": "⬆️",
+      "exemplo_en": "If it isn't solved today, we'll escalate it.",
+      "exemplo_pt": "Se não for resolvido hoje, vamos escalar."
+    },
+    {
+      "id": "countermeasure",
+      "en": "countermeasure",
+      "pt": "contramedida",
+      "emoji": "🛡️",
+      "exemplo_en": "What is the countermeasure?",
+      "exemplo_pt": "Qual é a contramedida?"
+    },
+    {
+      "id": "keep-short",
+      "en": "Let's keep it short",
+      "pt": "Vamos ser breves",
+      "emoji": "⏱️",
+      "exemplo_en": "Let's keep it short — fifteen minutes.",
+      "exemplo_pt": "Vamos ser breves — quinze minutos."
+    },
+    {
+      "id": "any-other",
+      "en": "any other business (AOB)",
+      "pt": "outros assuntos",
+      "emoji": "📎",
+      "exemplo_en": "Any other business?",
+      "exemplo_pt": "Mais algum assunto?"
+    },
+    {
+      "id": "same-time",
+      "en": "same time tomorrow",
+      "pt": "mesmo horário amanhã",
+      "emoji": "🔁",
+      "exemplo_en": "Same time tomorrow. Thanks!",
+      "exemplo_pt": "Mesmo horário amanhã. Obrigado!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura da reunião diária",
+    "explicacao_pt": "ABERTURA: Good morning. Let's get started. The purpose of this meeting is… Let's keep it short. NÚMEROS (SQDC): Safety — any incidents? Quality — scrap was…, which is… Delivery — we're on/off target. Cost — overtime was… PROBLEMAS: Line 3, which stopped twice, … The root cause seems to be… The countermeasure is… CONTROLE: Sorry to interrupt… / Getting back to… DECISÕES E AÇÕES: So, we've agreed to… X will… by… If it isn't solved, we'll escalate it. FECHAMENTO: Any other business? Same time tomorrow.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Abertura",
+          "Let's get started. Let's keep it short.",
+          "Vamos começar. Vamos ser breves."
+        ],
+        [
+          "Segurança",
+          "Any safety incidents yesterday?",
+          "Algum incidente de segurança ontem?"
+        ],
+        [
+          "Problema",
+          "Line 3, which stopped twice, …",
+          "A linha 3, que parou duas vezes, …"
+        ],
+        [
+          "Ação",
+          "Bruno will check it by noon.",
+          "O Bruno vai verificar até o meio-dia."
+        ],
+        [
+          "Fim",
+          "Any other business? Same time tomorrow.",
+          "Mais algum assunto? Mesmo horário amanhã."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Good morning, everyone. Let's get started. We have fifteen minutes.",
+        "pt": "Bom dia a todos. Vamos começar. Temos quinze minutos."
+      },
+      {
+        "en": "Safety first: we had one near miss, which was reported by the night shift.",
+        "pt": "Segurança primeiro: tivemos um quase acidente, que foi relatado pelo turno da noite."
+      },
+      {
+        "en": "Delivery is off target because of line 3, which stopped for four hours.",
+        "pt": "A entrega está fora da meta por causa da linha 3, que parou por quatro horas."
+      },
+      {
+        "en": "If the supplier doesn't answer by noon, we'll escalate it to the director.",
+        "pt": "Se o fornecedor não responder até o meio-dia, vamos escalar para o diretor."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The daily meeting",
+    "falas": [
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Good morning, everyone. Let's get started — fifteen minutes. Safety first. Any incidents?",
+        "pt": "Bom dia a todos. Vamos começar — quinze minutos. Segurança primeiro. Algum incidente?"
+      },
+      {
+        "personagem": "Operator",
+        "voz": "b",
+        "en": "One near miss. A forklift almost hit a pallet near door 2, where the light isn't working.",
+        "pt": "Um quase acidente. Uma empilhadeira quase bateu num palete perto da porta 2, onde a luz não está funcionando."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "OK. Maintenance will fix the light today. Quality?",
+        "pt": "OK. A manutenção vai consertar a luz hoje. Qualidade?"
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "Scrap was 2.1%, which is on target.",
+        "pt": "O refugo foi 2,1%, o que está dentro da meta."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Good. Delivery?",
+        "pt": "Bom. Entrega?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "We're off target. The Mendes order, which should have left yesterday, is still here. The truck didn't come.",
+        "pt": "Estamos fora da meta. O pedido da Mendes, que deveria ter saído ontem, ainda está aqui. O caminhão não veio."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "If the transport company doesn't answer by ten, we'll escalate it. Any other business? No? Same time tomorrow. Thanks!",
+        "pt": "Se a transportadora não responder até as dez, vamos escalar. Mais algum assunto? Não? Mesmo horário amanhã. Obrigado!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How long is the meeting?",
+        "opcoes": [
+          "Ten minutes",
+          "Fifteen minutes",
+          "An hour"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Why did the near miss happen?",
+        "opcoes": [
+          "The light near door 2 isn't working.",
+          "The forklift was too fast.",
+          "The pallet was broken."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Was scrap on target?",
+        "opcoes": [
+          "Yes",
+          "No"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l5-e4",
+        "tipo": "multipla",
+        "enunciado": "Why is delivery off target?",
+        "opcoes": [
+          "The truck didn't come.",
+          "The order wasn't ready.",
+          "The client canceled."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u05l5-p1",
+      "tipo": "completar",
+      "frase": "Let's get ___. (começar)",
+      "respostas": [
+        "started"
+      ]
+    },
+    {
+      "id": "b2u05l5-p2",
+      "tipo": "completar",
+      "frase": "The ___ of this meeting is to plan the audit. (objetivo)",
+      "respostas": [
+        "purpose"
+      ]
+    },
+    {
+      "id": "b2u05l5-p3",
+      "tipo": "completar",
+      "frase": "If it isn't solved today, we'll ___ it. (escalar)",
+      "respostas": [
+        "escalate"
+      ]
+    },
+    {
+      "id": "b2u05l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Vamos ser breves\":",
+      "opcoes": [
+        "Let's keep it short.",
+        "Let's do it small.",
+        "Let's be brief time."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A entrega está dentro da meta\":",
+      "opcoes": [
+        "Delivery is on target.",
+        "Delivery is in the target.",
+        "Delivery is inside goal."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l5-p6",
+      "tipo": "ordenar",
+      "frase": "Let's go through the agenda",
+      "traducao_pt": "Vamos passar pela pauta"
+    },
+    {
+      "id": "b2u05l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "What is the countermeasure?"
+    },
+    {
+      "id": "b2u05l5-p8",
+      "tipo": "traduzir",
+      "pt": "Mais algum assunto?",
+      "respostas": [
+        "Any other business?",
+        "Anything else?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: conduza a reunião diária de produção com o professor (que vai fazer o papel de vários participantes). Siga o formato segurança-qualidade-entrega-custo, controle o tempo, resolva um problema com ação e responsável e encerre.",
+    "papel_professor": "Faça o papel de vários participantes (operator, quality, planner). Traga um problema real. Saia do assunto uma vez. O aluno deve conduzir com as estruturas da unidade. No fim, dê retorno sobre liderança e linguagem.",
+    "abertura": "Good morning! I'm the planner today. I'm ready when you are.",
+    "abertura_pt": "Bom dia! Hoje sou o planejador. Estou pronto quando você estiver."
+  },
+  "teste": [
+    {
+      "id": "b2u05l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Ordem da reunião diária (SQDC):",
+      "opcoes": [
+        "Safety, Quality, Delivery, Cost",
+        "Cost, Delivery, Quality, Safety",
+        "Quality, Safety, Cost, Delivery"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l5-t2",
+      "tipo": "completar",
+      "frase": "Same time ___. Thanks! (amanhã)",
+      "respostas": [
+        "tomorrow"
+      ]
+    },
+    {
+      "id": "b2u05l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We always start with safety."
+    },
+    {
+      "id": "b2u05l5-t4",
+      "tipo": "traduzir",
+      "pt": "O objetivo desta reunião é planejar a auditoria.",
+      "respostas": [
+        "The purpose of this meeting is to plan the audit."
+      ]
+    },
+    {
+      "id": "b2u05l5-t5",
+      "tipo": "ordenar",
+      "frase": "Delivery is off target because of line 3",
+      "traducao_pt": "A entrega está fora da meta por causa da linha 3"
+    }
+  ]
+}

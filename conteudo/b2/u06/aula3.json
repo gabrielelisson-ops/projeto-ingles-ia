@@ -1,0 +1,363 @@
+{
+  "id": "b2-u06-l3",
+  "nivel": "B2",
+  "unidade": 6,
+  "numero": 3,
+  "titulo": "That's not quite what we had in mind",
+  "objetivo_pt": "Recusar, discordar e pressionar numa negociação sem perder a cordialidade.",
+  "aquecimento": {
+    "situacao_pt": "O professor (fornecedor) vai fazer propostas ruins. Recuse com educação e pressione por algo melhor.",
+    "papel_professor": "Faça propostas ruins (price increase of 12%, longer lead time). O aluno recusa diplomaticamente (That's not quite what we had in mind. I'm afraid we can't accept…) e justifica. Ensine pressão educada.",
+    "abertura": "Unfortunately, we need to increase our prices by 12% from next month.",
+    "abertura_pt": "Infelizmente, precisamos aumentar nossos preços em 12% a partir do próximo mês."
+  },
+  "vocabulario": [
+    {
+      "id": "in-mind",
+      "en": "That's not quite what we had in mind",
+      "pt": "Não é bem o que tínhamos em mente",
+      "emoji": "🤔",
+      "exemplo_en": "That's not quite what we had in mind.",
+      "exemplo_pt": "Não é bem o que tínhamos em mente."
+    },
+    {
+      "id": "cant-accept",
+      "en": "I'm afraid we can't accept that",
+      "pt": "Receio que não possamos aceitar",
+      "emoji": "🚫",
+      "exemplo_en": "I'm afraid we can't accept that increase.",
+      "exemplo_pt": "Receio que não possamos aceitar esse aumento."
+    },
+    {
+      "id": "difficult-for-us",
+      "en": "That would be difficult for us",
+      "pt": "Isso seria difícil para nós",
+      "emoji": "😓",
+      "exemplo_en": "A 12% increase would be very difficult for us.",
+      "exemplo_pt": "Um aumento de 12% seria muito difícil para nós."
+    },
+    {
+      "id": "competitors",
+      "en": "competitors / other offers",
+      "pt": "concorrentes / outras ofertas",
+      "emoji": "🏁",
+      "exemplo_en": "We've received other offers.",
+      "exemplo_pt": "Recebemos outras ofertas."
+    },
+    {
+      "id": "justify",
+      "en": "justify",
+      "pt": "justificar",
+      "emoji": "⚖️",
+      "exemplo_en": "Can you justify this increase?",
+      "exemplo_pt": "Vocês podem justificar este aumento?"
+    },
+    {
+      "id": "long-term",
+      "en": "long-term relationship",
+      "pt": "relacionamento de longo prazo",
+      "emoji": "🌳",
+      "exemplo_en": "We value our long-term relationship.",
+      "exemplo_pt": "Valorizamos nosso relacionamento de longo prazo."
+    },
+    {
+      "id": "bottom-line",
+      "en": "bottom line / final offer",
+      "pt": "limite / oferta final",
+      "emoji": "🔚",
+      "exemplo_en": "What's your bottom line?",
+      "exemplo_pt": "Qual é o seu limite?"
+    },
+    {
+      "id": "walk-away",
+      "en": "walk away",
+      "pt": "desistir (do negócio)",
+      "emoji": "🚶",
+      "exemplo_en": "If the price is too high, we'll have to walk away.",
+      "exemplo_pt": "Se o preço for alto demais, teremos que desistir."
+    },
+    {
+      "id": "room",
+      "en": "room for negotiation",
+      "pt": "margem para negociação",
+      "emoji": "🧩",
+      "exemplo_en": "Is there any room for negotiation?",
+      "exemplo_pt": "Há margem para negociação?"
+    },
+    {
+      "id": "appreciate",
+      "en": "I appreciate that, but…",
+      "pt": "Agradeço / entendo, mas…",
+      "emoji": "🙂",
+      "exemplo_en": "I appreciate your position, but we need a better offer.",
+      "exemplo_pt": "Entendo sua posição, mas precisamos de uma oferta melhor."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Recusar e pressionar com diplomacia",
+    "explicacao_pt": "RECUSAR: I'm afraid we can't accept that. / That's not quite what we had in mind. / That would be difficult for us. RECONHECER antes de discordar: I appreciate that, but… / I understand your position, however… PEDIR JUSTIFICATIVA: Could you explain how you arrived at that figure? PRESSIONAR: We've received other offers. / We value our relationship, but… / Is there any room for negotiation? LIMITE: What's your bottom line? / This is our final offer. / Otherwise, we'll have to look at other options. Evite 'No!' seco ou 'That's ridiculous'.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Expressão",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Recusar",
+          "I'm afraid we can't…",
+          "I'm afraid we can't accept a 12% increase."
+        ],
+        [
+          "Reconhecer",
+          "I appreciate that, but…",
+          "I appreciate your costs have risen, but…"
+        ],
+        [
+          "Justificativa",
+          "Could you explain…?",
+          "Could you explain the reason for the increase?"
+        ],
+        [
+          "Pressão",
+          "We've received other offers.",
+          "We've received other offers which are lower."
+        ],
+        [
+          "Limite",
+          "What's your bottom line?",
+          "What's the best you can do?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I appreciate that your costs have gone up, but a 12% increase would be very difficult for us.",
+        "pt": "Entendo que seus custos subiram, mas um aumento de 12% seria muito difícil para nós."
+      },
+      {
+        "en": "Could you explain how you arrived at that figure?",
+        "pt": "Poderia explicar como chegaram a esse número?"
+      },
+      {
+        "en": "We value our long-term relationship, but we've received offers that are 8% lower.",
+        "pt": "Valorizamos nosso relacionamento de longo prazo, mas recebemos ofertas 8% menores."
+      },
+      {
+        "en": "If that's your final offer, I'm afraid we'll have to look at other options.",
+        "pt": "Se essa é sua oferta final, receio que teremos que avaliar outras opções."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A price increase",
+    "falas": [
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "As you know, raw material costs have gone up a lot. We need to increase our prices by 12%.",
+        "pt": "Como vocês sabem, os custos de matéria-prima subiram muito. Precisamos aumentar nossos preços em 12%."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "I appreciate that, but I'm afraid 12% is not quite what we had in mind. Could you explain how you arrived at that figure?",
+        "pt": "Entendo, mas receio que 12% não seja bem o que tínhamos em mente. Poderia explicar como chegaram a esse número?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "Steel is 15% more expensive than last year, and energy is up 10%.",
+        "pt": "O aço está 15% mais caro que ano passado, e a energia subiu 10%."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "I understand. But we've received other offers that are lower than your current price. We value our relationship, so is there any room for negotiation?",
+        "pt": "Entendo. Mas recebemos outras ofertas menores que o seu preço atual. Valorizamos nosso relacionamento, então há alguma margem para negociação?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "We could go down to 8%, but that's our bottom line.",
+        "pt": "Poderíamos baixar para 8%, mas esse é o nosso limite."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Eight percent would still be difficult. Would you consider 5% now and another 3% in six months?",
+        "pt": "Oito por cento ainda seria difícil. Vocês considerariam 5% agora e mais 3% em seis meses?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "That could work. Let me talk to my director.",
+        "pt": "Isso pode funcionar. Deixe-me falar com meu diretor."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How much does the supplier want to increase prices?",
+        "opcoes": [
+          "8%",
+          "10%",
+          "12%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u06l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How much more expensive is steel?",
+        "opcoes": [
+          "10%",
+          "15%",
+          "20%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the supplier's bottom line?",
+        "opcoes": [
+          "5%",
+          "8%",
+          "12%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the buyer's proposal?",
+        "opcoes": [
+          "5% now and 3% in six months",
+          "No increase",
+          "12% in a year"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u06l3-p1",
+      "tipo": "completar",
+      "frase": "That's not quite what we had in ___.",
+      "respostas": [
+        "mind"
+      ]
+    },
+    {
+      "id": "b2u06l3-p2",
+      "tipo": "completar",
+      "frase": "I'm ___ we can't accept that. (receio)",
+      "respostas": [
+        "afraid"
+      ]
+    },
+    {
+      "id": "b2u06l3-p3",
+      "tipo": "completar",
+      "frase": "Is there any ___ for negotiation? (margem)",
+      "respostas": [
+        "room"
+      ]
+    },
+    {
+      "id": "b2u06l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Recusa diplomática:",
+      "opcoes": [
+        "I appreciate that, but a 12% increase would be difficult for us.",
+        "That's ridiculous. No way."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Qual é o seu limite?\":",
+      "opcoes": [
+        "What's your bottom line?",
+        "What's your bottom level?",
+        "Where is your limit line?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l3-p6",
+      "tipo": "ordenar",
+      "frase": "We value our long-term relationship",
+      "traducao_pt": "Valorizamos nosso relacionamento de longo prazo"
+    },
+    {
+      "id": "b2u06l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We've received other offers.",
+      "aceitas": [
+        "We have received other offers."
+      ]
+    },
+    {
+      "id": "b2u06l3-p8",
+      "tipo": "traduzir",
+      "pt": "Se o preço for alto demais, teremos que desistir.",
+      "respostas": [
+        "If the price is too high, we'll have to walk away.",
+        "If the price is too high, we will have to walk away."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor (fornecedor) anuncia um aumento de preço e um prazo maior. Negocie com firmeza e cordialidade: reconheça, peça justificativa, pressione com alternativas e faça uma contraproposta.",
+    "papel_professor": "Anuncie aumento de 10% e prazo de 8 semanas. Resista às primeiras tentativas. Ceda só com boas justificativas e trocas. Corrija hedging e condicionais. No fim, comente a estratégia do aluno.",
+    "abertura": "I'm calling to inform you that, from next month, our prices will go up by 10% and our lead time will be eight weeks.",
+    "abertura_pt": "Estou ligando para informar que, a partir do próximo mês, nossos preços vão subir 10% e nosso prazo será de oito semanas."
+  },
+  "teste": [
+    {
+      "id": "b2u06l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Pedir justificativa:",
+      "opcoes": [
+        "Could you explain how you arrived at that figure?",
+        "Why you want more money?",
+        "Explain me the number."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l3-t2",
+      "tipo": "completar",
+      "frase": "Can you ___ this increase? (justificar)",
+      "respostas": [
+        "justify"
+      ]
+    },
+    {
+      "id": "b2u06l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I appreciate your position, but we need a better offer."
+    },
+    {
+      "id": "b2u06l3-t4",
+      "tipo": "traduzir",
+      "pt": "Recebemos outras ofertas.",
+      "respostas": [
+        "We've received other offers.",
+        "We have received other offers.",
+        "We received other offers."
+      ]
+    },
+    {
+      "id": "b2u06l3-t5",
+      "tipo": "ordenar",
+      "frase": "That would be difficult for us",
+      "traducao_pt": "Isso seria difícil para nós"
+    }
+  ]
+}

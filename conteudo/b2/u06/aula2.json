@@ -1,0 +1,364 @@
+{
+  "id": "b2-u06-l2",
+  "nivel": "B2",
+  "unidade": 6,
+  "numero": 2,
+  "titulo": "If you order more, we can…",
+  "objetivo_pt": "Fazer propostas condicionais e trocas (concessões) numa negociação.",
+  "aquecimento": {
+    "situacao_pt": "O professor é o fornecedor e vai fazer propostas condicionais. Responda com contrapropostas: \"If you…, we could…\".",
+    "papel_professor": "Proponha trocas (If you order 10,000 units, we can give you 4%.). O aluno responde com contrapropostas condicionais (We could agree to that if you…; Providing that…). Ensine as long as, provided that, on condition that.",
+    "abertura": "If you order 10,000 units, we can give you a 4% discount. What do you think?",
+    "abertura_pt": "Se vocês pedirem 10.000 unidades, podemos dar 4% de desconto. O que acha?"
+  },
+  "vocabulario": [
+    {
+      "id": "if-we-can",
+      "en": "If you…, we can / could…",
+      "pt": "Se vocês…, podemos…",
+      "emoji": "🔁",
+      "exemplo_en": "If you pay in advance, we can lower the price.",
+      "exemplo_pt": "Se pagarem adiantado, podemos baixar o preço."
+    },
+    {
+      "id": "provided",
+      "en": "provided (that) / providing",
+      "pt": "desde que",
+      "emoji": "🤝",
+      "exemplo_en": "We can deliver in four weeks, provided that you confirm today.",
+      "exemplo_pt": "Podemos entregar em quatro semanas, desde que confirmem hoje."
+    },
+    {
+      "id": "on-condition",
+      "en": "on condition that",
+      "pt": "com a condição de que",
+      "emoji": "📜",
+      "exemplo_en": "We agree on condition that the price is fixed for a year.",
+      "exemplo_pt": "Concordamos com a condição de que o preço seja fixo por um ano."
+    },
+    {
+      "id": "in-exchange",
+      "en": "in exchange for / in return",
+      "pt": "em troca de",
+      "emoji": "🔄",
+      "exemplo_en": "We'll offer free shipping in exchange for a two-year contract.",
+      "exemplo_pt": "Ofereceremos frete grátis em troca de um contrato de dois anos."
+    },
+    {
+      "id": "concession",
+      "en": "concession / make a concession",
+      "pt": "concessão / ceder",
+      "emoji": "🎁",
+      "exemplo_en": "We're ready to make a concession.",
+      "exemplo_pt": "Estamos prontos para ceder em algo."
+    },
+    {
+      "id": "counter-offer",
+      "en": "counter-offer",
+      "pt": "contraproposta",
+      "emoji": "↩️",
+      "exemplo_en": "Here's our counter-offer.",
+      "exemplo_pt": "Aqui está nossa contraproposta."
+    },
+    {
+      "id": "volume-l2",
+      "en": "volume / minimum order",
+      "pt": "volume / pedido mínimo",
+      "emoji": "📦",
+      "exemplo_en": "The minimum order is 5,000 units.",
+      "exemplo_pt": "O pedido mínimo é de 5.000 unidades."
+    },
+    {
+      "id": "in-advance",
+      "en": "in advance",
+      "pt": "adiantado / com antecedência",
+      "emoji": "⏩",
+      "exemplo_en": "Can you pay 30% in advance?",
+      "exemplo_pt": "Vocês podem pagar 30% adiantado?"
+    },
+    {
+      "id": "meet-halfway",
+      "en": "meet halfway",
+      "pt": "chegar a um meio-termo",
+      "emoji": "🤝",
+      "exemplo_en": "Let's meet halfway: 19 dollars.",
+      "exemplo_pt": "Vamos chegar a um meio-termo: 19 dólares."
+    },
+    {
+      "id": "deal",
+      "en": "deal",
+      "pt": "acordo / negócio",
+      "emoji": "🤝",
+      "exemplo_en": "It's a deal!",
+      "exemplo_pt": "Negócio fechado!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Propostas condicionais",
+    "explicacao_pt": "Negociação é troca: 'Se você…, nós…'. PRIMEIRA CONDICIONAL (proposta real, firme): If you order more, we'll give you a discount. SEGUNDA CONDICIONAL (proposta hipotética, mais suave, para testar): If we ordered 20,000 units, would you lower the price? CONECTORES: provided (that) / providing / as long as / on condition that (= desde que). UNLESS = a não ser que. Em troca: in exchange for + subst/-ing. Use a 2ª condicional para explorar sem se comprometer.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Proposta firme",
+          "If you…, we'll…",
+          "If you sign today, we'll include the training."
+        ],
+        [
+          "Proposta hipotética",
+          "If we…, would you…?",
+          "If we paid in advance, would you give us 5%?"
+        ],
+        [
+          "Condição",
+          "provided that / as long as",
+          "We'll accept, provided that delivery is in May."
+        ],
+        [
+          "Troca",
+          "in exchange for",
+          "Free shipping in exchange for a longer contract."
+        ],
+        [
+          "Meio-termo",
+          "Let's meet halfway.",
+          "Let's meet halfway on the price."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If you increase the order to 15,000 units, we'll give you a 6% discount.",
+        "pt": "Se aumentarem o pedido para 15.000 unidades, damos 6% de desconto."
+      },
+      {
+        "en": "If we signed a two-year contract, would you fix the price?",
+        "pt": "Se assinássemos um contrato de dois anos, vocês fixariam o preço?"
+      },
+      {
+        "en": "We can accept those terms, provided that you guarantee delivery in four weeks.",
+        "pt": "Podemos aceitar essas condições, desde que garantam entrega em quatro semanas."
+      },
+      {
+        "en": "We'd be happy to pay 30% in advance in exchange for a better price.",
+        "pt": "Pagaríamos com prazer 30% adiantado em troca de um preço melhor."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Trading concessions",
+    "falas": [
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "We've checked with production. We can reduce the lead time to six weeks.",
+        "pt": "Verificamos com a produção. Podemos reduzir o prazo para seis semanas."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "That's good news. And the price? If we ordered 20,000 units a year, would you consider 18 dollars?",
+        "pt": "Boa notícia. E o preço? Se pedíssemos 20.000 unidades por ano, vocês considerariam 18 dólares?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "Eighteen is too low, I'm afraid. But if you sign a two-year contract, we could offer 19.50.",
+        "pt": "Dezoito é baixo demais, receio. Mas se assinarem um contrato de dois anos, poderíamos oferecer 19,50."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Hmm. Let's meet halfway: 19 dollars, provided that the price is fixed for the two years.",
+        "pt": "Hmm. Vamos chegar a um meio-termo: 19 dólares, desde que o preço seja fixo pelos dois anos."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "We can accept 19, on condition that you pay 20% in advance.",
+        "pt": "Podemos aceitar 19, com a condição de que paguem 20% adiantado."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "I'll need to check with our finance department, but I think we have a deal.",
+        "pt": "Vou precisar verificar com nosso financeiro, mas acho que temos um acordo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the new lead time?",
+        "opcoes": [
+          "Four weeks",
+          "Six weeks",
+          "Eight weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What did the supplier offer for a two-year contract?",
+        "opcoes": [
+          "18 dollars",
+          "19.50 dollars",
+          "21 dollars"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the final price?",
+        "opcoes": [
+          "18 dollars",
+          "19 dollars",
+          "19.50 dollars"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the supplier's condition?",
+        "opcoes": [
+          "Paying 20% in advance",
+          "Ordering 50,000 units",
+          "A five-year contract"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u06l2-p1",
+      "tipo": "completar",
+      "frase": "If you pay in advance, we ___ lower the price.",
+      "respostas": [
+        "can",
+        "could",
+        "'ll",
+        "will"
+      ]
+    },
+    {
+      "id": "b2u06l2-p2",
+      "tipo": "completar",
+      "frase": "We can deliver in four weeks, ___ that you confirm today. (desde que)",
+      "respostas": [
+        "provided",
+        "providing"
+      ]
+    },
+    {
+      "id": "b2u06l2-p3",
+      "tipo": "completar",
+      "frase": "Let's meet ___: 19 dollars. (meio-termo)",
+      "respostas": [
+        "halfway"
+      ]
+    },
+    {
+      "id": "b2u06l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Proposta hipotética (para testar):",
+      "opcoes": [
+        "If we ordered more, would you lower the price?",
+        "If we will order more, you lower the price?",
+        "If we order more, you would lowered the price?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Em troca de um contrato maior\":",
+      "opcoes": [
+        "in exchange for a longer contract",
+        "in change of a longer contract",
+        "in return to longer contract"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l2-p6",
+      "tipo": "ordenar",
+      "frase": "Here's our counter-offer",
+      "traducao_pt": "Aqui está nossa contraproposta"
+    },
+    {
+      "id": "b2u06l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The minimum order is 5,000 units.",
+      "aceitas": [
+        "The minimum order is five thousand units."
+      ]
+    },
+    {
+      "id": "b2u06l2-p8",
+      "tipo": "traduzir",
+      "pt": "Negócio fechado!",
+      "respostas": [
+        "It's a deal!",
+        "It's a deal.",
+        "Deal!"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Negocie com o professor (fornecedor) o preço, o prazo e as condições de pagamento de um produto. Faça pelo menos 3 propostas condicionais e chegue a um meio-termo.",
+    "papel_professor": "Seja um fornecedor firme mas razoável. Comece com preço alto, aceite concessões só em troca de algo (volume, contrato, pagamento). Corrija condicionais e hedging. No fim, resuma o acordo.",
+    "abertura": "Our standard price is 25 reais per unit, with a lead time of five weeks and payment in 30 days. What do you think?",
+    "abertura_pt": "Nosso preço padrão é 25 reais por unidade, com prazo de cinco semanas e pagamento em 30 dias. O que acha?"
+  },
+  "teste": [
+    {
+      "id": "b2u06l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Com a condição de que o preço seja fixo\":",
+      "opcoes": [
+        "on condition that the price is fixed",
+        "in condition of the price is fixed",
+        "with condition the price fixed"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l2-t2",
+      "tipo": "completar",
+      "frase": "We're ready to make a ___. (concessão)",
+      "respostas": [
+        "concession"
+      ]
+    },
+    {
+      "id": "b2u06l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Can you pay thirty percent in advance?",
+      "aceitas": [
+        "Can you pay 30% in advance?"
+      ]
+    },
+    {
+      "id": "b2u06l2-t4",
+      "tipo": "traduzir",
+      "pt": "Se assinássemos um contrato de dois anos, vocês fixariam o preço?",
+      "respostas": [
+        "If we signed a two-year contract, would you fix the price?"
+      ]
+    },
+    {
+      "id": "b2u06l2-t5",
+      "tipo": "ordenar",
+      "frase": "If you sign today we'll include the training",
+      "traducao_pt": "Se assinarem hoje, incluímos o treinamento"
+    }
+  ]
+}
