@@ -1,0 +1,340 @@
+{
+  "id": "a2-u01-l5",
+  "nivel": "A2",
+  "unidade": 1,
+  "numero": 5,
+  "titulo": "My weekend story",
+  "objetivo_pt": "Contar uma história completa do fim de semana em ordem, com conectores (first, then, after that).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga em 3 frases o que você fez ontem, na ordem em que aconteceu.",
+    "papel_professor": "Peça ao aluno para contar o dia de ontem em ordem. Ajude com first, then, after that, finally. Corrija o passado.",
+    "abertura": "What did you do yesterday, from morning to night?",
+    "abertura_pt": "O que você fez ontem, da manhã até a noite?"
+  },
+  "vocabulario": [
+    {
+      "id": "first",
+      "en": "first",
+      "pt": "primeiro",
+      "emoji": "1️⃣",
+      "exemplo_en": "First, I had breakfast.",
+      "exemplo_pt": "Primeiro, tomei café."
+    },
+    {
+      "id": "then",
+      "en": "then",
+      "pt": "então / depois",
+      "emoji": "➡️",
+      "exemplo_en": "Then I walked to work.",
+      "exemplo_pt": "Depois fui a pé para o trabalho."
+    },
+    {
+      "id": "after-that",
+      "en": "after that",
+      "pt": "depois disso",
+      "emoji": "⏭️",
+      "exemplo_en": "After that, we watched TV.",
+      "exemplo_pt": "Depois disso, vimos TV."
+    },
+    {
+      "id": "finally",
+      "en": "finally",
+      "pt": "finalmente / por fim",
+      "emoji": "🏁",
+      "exemplo_en": "Finally, I went to bed.",
+      "exemplo_pt": "Por fim, fui dormir."
+    },
+    {
+      "id": "in-the-end",
+      "en": "in the end",
+      "pt": "no fim",
+      "emoji": "🔚",
+      "exemplo_en": "In the end, it was a great day.",
+      "exemplo_pt": "No fim, foi um ótimo dia."
+    },
+    {
+      "id": "suddenly",
+      "en": "suddenly",
+      "pt": "de repente",
+      "emoji": "⚡",
+      "exemplo_en": "Suddenly, it started to rain.",
+      "exemplo_pt": "De repente, começou a chover."
+    },
+    {
+      "id": "fun",
+      "en": "fun",
+      "pt": "divertido",
+      "emoji": "🎉",
+      "exemplo_en": "The party was fun.",
+      "exemplo_pt": "A festa foi divertida."
+    },
+    {
+      "id": "boring",
+      "en": "boring",
+      "pt": "chato / entediante",
+      "emoji": "😴",
+      "exemplo_en": "The movie was boring.",
+      "exemplo_pt": "O filme foi chato."
+    },
+    {
+      "id": "barbecue",
+      "en": "barbecue",
+      "pt": "churrasco",
+      "emoji": "🍖",
+      "exemplo_en": "We had a barbecue on Sunday.",
+      "exemplo_pt": "Fizemos churrasco no domingo."
+    },
+    {
+      "id": "invite",
+      "en": "invite",
+      "pt": "convidar",
+      "emoji": "💌",
+      "exemplo_en": "My boss invited us to dinner.",
+      "exemplo_pt": "Meu chefe nos convidou para jantar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: contar uma história no passado",
+    "explicacao_pt": "Para contar uma história: use was/were para descrever (It was sunny, We were tired), verbos no passado para as ações (We cooked, we played) e conectores para dar ordem: first, then, after that, finally, in the end. 'Suddenly' cria surpresa. Lembre: did/didn't em perguntas e negativas (We didn't stay late).",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Conectores",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Começo",
+          "first, on Saturday morning",
+          "First, we cleaned the house."
+        ],
+        [
+          "Meio",
+          "then, after that",
+          "Then we invited some friends."
+        ],
+        [
+          "Surpresa",
+          "suddenly",
+          "Suddenly, it started to rain!"
+        ],
+        [
+          "Fim",
+          "finally, in the end",
+          "In the end, we had a great time."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "On Saturday, we invited some friends for a barbecue.",
+        "pt": "No sábado, convidamos alguns amigos para um churrasco."
+      },
+      {
+        "en": "First, my husband cooked the meat. Then we played cards.",
+        "pt": "Primeiro, meu marido assou a carne. Depois jogamos cartas."
+      },
+      {
+        "en": "Suddenly, it started to rain, so we stayed inside.",
+        "pt": "De repente, começou a chover, então ficamos dentro de casa."
+      },
+      {
+        "en": "In the end, it was really fun.",
+        "pt": "No fim, foi muito divertido."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A rainy barbecue",
+    "falas": [
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "How was the barbecue on Saturday?",
+        "pt": "Como foi o churrasco no sábado?"
+      },
+      {
+        "personagem": "Davi",
+        "voz": "b",
+        "en": "Funny story! First, we invited twenty people.",
+        "pt": "História engraçada! Primeiro, convidamos vinte pessoas."
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "Twenty? Wow.",
+        "pt": "Vinte? Nossa."
+      },
+      {
+        "personagem": "Davi",
+        "voz": "b",
+        "en": "Then I cooked the meat and everybody arrived. After that, suddenly, it started to rain!",
+        "pt": "Depois assei a carne e todo mundo chegou. Depois disso, de repente, começou a chover!"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "Oh no! What did you do?",
+        "pt": "Ah não! O que vocês fizeram?"
+      },
+      {
+        "personagem": "Davi",
+        "voz": "b",
+        "en": "We moved everything to the garage. In the end, it was really fun.",
+        "pt": "Levamos tudo para a garagem. No fim, foi muito divertido."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many people did Davi invite?",
+        "opcoes": [
+          "Ten",
+          "Twenty",
+          "Thirty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What happened suddenly?",
+        "opcoes": [
+          "The meat burned",
+          "It started to rain",
+          "Nobody arrived"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did they go?",
+        "opcoes": [
+          "To the garage",
+          "To a restaurant",
+          "Home"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u01l5-p1",
+      "tipo": "completar",
+      "frase": "___, I had breakfast. Then I went to work. (primeiro)",
+      "respostas": [
+        "First"
+      ]
+    },
+    {
+      "id": "a2u01l5-p2",
+      "tipo": "completar",
+      "frase": "We ___ some friends. (invite)",
+      "respostas": [
+        "invited"
+      ]
+    },
+    {
+      "id": "a2u01l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"De repente\":",
+      "opcoes": [
+        "finally",
+        "suddenly",
+        "then"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l5-p4",
+      "tipo": "multipla",
+      "enunciado": "O filme foi chato:",
+      "opcoes": [
+        "The movie was boring.",
+        "The movie was bored.",
+        "The movie were boring."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u01l5-p5",
+      "tipo": "completar",
+      "frase": "___ the end, it was a great day.",
+      "respostas": [
+        "In"
+      ]
+    },
+    {
+      "id": "a2u01l5-p6",
+      "tipo": "ordenar",
+      "frase": "After that we watched TV",
+      "traducao_pt": "Depois disso, vimos TV"
+    },
+    {
+      "id": "a2u01l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Suddenly, it started to rain.",
+      "aceitas": [
+        "Suddenly it started to rain."
+      ]
+    },
+    {
+      "id": "a2u01l5-p8",
+      "tipo": "traduzir",
+      "pt": "Fizemos churrasco no domingo.",
+      "respostas": [
+        "We had a barbecue on Sunday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: conte a história do seu último fim de semana do começo ao fim (pelo menos 5 frases, com first, then, after that, finally).",
+    "papel_professor": "Ouça a história do fim de semana do aluno e faça perguntas de continuação (What happened next? How was it? Who was there?). Corrija até 2 erros de passado por resposta.",
+    "abertura": "I love stories! Tell me about your last weekend, from the beginning.",
+    "abertura_pt": "Adoro histórias! Me conte sobre seu último fim de semana, do começo."
+  },
+  "teste": [
+    {
+      "id": "a2u01l5-t1",
+      "tipo": "completar",
+      "frase": "___, I went to bed. (por fim)",
+      "respostas": [
+        "Finally"
+      ]
+    },
+    {
+      "id": "a2u01l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"A festa foi divertida\":",
+      "opcoes": [
+        "The party was fun.",
+        "The party was funny day.",
+        "The party were fun."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u01l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My boss invited us to dinner."
+    },
+    {
+      "id": "a2u01l5-t4",
+      "tipo": "traduzir",
+      "pt": "Depois disso, nós vimos TV.",
+      "respostas": [
+        "After that, we watched TV.",
+        "After that we watched TV."
+      ]
+    },
+    {
+      "id": "a2u01l5-t5",
+      "tipo": "ordenar",
+      "frase": "Then I walked to work",
+      "traducao_pt": "Depois fui a pé para o trabalho"
+    }
+  ]
+}

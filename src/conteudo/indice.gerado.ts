@@ -90,6 +90,28 @@ export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown 
     ],
     prova: require('../../conteudo/a1/u08/prova.json'),
   },
+  {
+    meta: require('../../conteudo/a2/u01/unidade.json'),
+    aulas: [
+      require('../../conteudo/a2/u01/aula1.json'),
+      require('../../conteudo/a2/u01/aula2.json'),
+      require('../../conteudo/a2/u01/aula3.json'),
+      require('../../conteudo/a2/u01/aula4.json'),
+      require('../../conteudo/a2/u01/aula5.json'),
+    ],
+    prova: require('../../conteudo/a2/u01/prova.json'),
+  },
+  {
+    meta: require('../../conteudo/a2/u02/unidade.json'),
+    aulas: [
+      require('../../conteudo/a2/u02/aula1.json'),
+      require('../../conteudo/a2/u02/aula2.json'),
+      require('../../conteudo/a2/u02/aula3.json'),
+      require('../../conteudo/a2/u02/aula4.json'),
+      require('../../conteudo/a2/u02/aula5.json'),
+    ],
+    prova: require('../../conteudo/a2/u02/prova.json'),
+  },
 ];
 
 export const FINAIS_BRUTAS: unknown[] = [require('../../conteudo/a1/final.json')];

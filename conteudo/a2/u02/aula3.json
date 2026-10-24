@@ -1,0 +1,340 @@
+{
+  "id": "a2-u02-l3",
+  "nivel": "A2",
+  "unidade": 2,
+  "numero": 3,
+  "titulo": "My first job",
+  "objetivo_pt": "Contar a história da sua carreira: primeiro emprego, mudanças e conquistas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre o seu primeiro emprego. Use o passado: \"My first job was…\".",
+    "papel_professor": "Pergunte sobre o primeiro emprego do aluno: o que era, quanto tempo ficou, o que aprendeu, quando mudou. Use began, got, left, became. Corrija o passado.",
+    "abertura": "What was your first job?",
+    "abertura_pt": "Qual foi seu primeiro emprego?"
+  },
+  "vocabulario": [
+    {
+      "id": "first-job",
+      "en": "first job",
+      "pt": "primeiro emprego",
+      "emoji": "💼",
+      "exemplo_en": "My first job was at a bakery.",
+      "exemplo_pt": "Meu primeiro emprego foi numa padaria."
+    },
+    {
+      "id": "began",
+      "en": "begin → began",
+      "pt": "começar → começou",
+      "emoji": "▶️",
+      "exemplo_en": "I began working at sixteen.",
+      "exemplo_pt": "Comecei a trabalhar aos dezesseis."
+    },
+    {
+      "id": "left",
+      "en": "leave → left",
+      "pt": "sair / deixar → saiu",
+      "emoji": "🚪",
+      "exemplo_en": "I left that company in 2015.",
+      "exemplo_pt": "Saí daquela empresa em 2015."
+    },
+    {
+      "id": "became",
+      "en": "become → became",
+      "pt": "tornar-se → tornou-se",
+      "emoji": "⭐",
+      "exemplo_en": "She became a supervisor.",
+      "exemplo_pt": "Ela virou supervisora."
+    },
+    {
+      "id": "learned",
+      "en": "learn → learned",
+      "pt": "aprender → aprendeu",
+      "emoji": "🧠",
+      "exemplo_en": "I learned a lot there.",
+      "exemplo_pt": "Aprendi muito lá."
+    },
+    {
+      "id": "got-job",
+      "en": "get a job → got a job",
+      "pt": "conseguir um emprego",
+      "emoji": "✅",
+      "exemplo_en": "He got a job at a factory.",
+      "exemplo_pt": "Ele conseguiu um emprego numa fábrica."
+    },
+    {
+      "id": "hire",
+      "en": "hire",
+      "pt": "contratar",
+      "emoji": "🤝",
+      "exemplo_en": "They hired me in 2012.",
+      "exemplo_pt": "Me contrataram em 2012."
+    },
+    {
+      "id": "promoted",
+      "en": "get promoted",
+      "pt": "ser promovido",
+      "emoji": "📈",
+      "exemplo_en": "I got promoted last year.",
+      "exemplo_pt": "Fui promovido ano passado."
+    },
+    {
+      "id": "course",
+      "en": "course / degree",
+      "pt": "curso / faculdade (diploma)",
+      "emoji": "🎓",
+      "exemplo_en": "I took a technical course.",
+      "exemplo_pt": "Fiz um curso técnico."
+    },
+    {
+      "id": "for-years",
+      "en": "for … years",
+      "pt": "por … anos",
+      "emoji": "⏳",
+      "exemplo_en": "I worked there for five years.",
+      "exemplo_pt": "Trabalhei lá por cinco anos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Contar a carreira no passado",
+    "explicacao_pt": "Para contar sua trajetória, use o passado simples com datas e duração. Datas: in 2010, when I was 18. Duração terminada: for five years (por cinco anos). Verbos úteis (muitos irregulares): begin → began, leave → left, become → became, get → got, take → took (a course). 'Get promoted' = ser promovido (I got promoted). Atenção: 'I worked there FOR five years' (duração) × 'I started IN 2010' (momento).",
+    "tabela": {
+      "colunas": [
+        "Ideia",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Começar",
+          "I began / started + -ing",
+          "I started working at 17."
+        ],
+        [
+          "Duração",
+          "for + tempo",
+          "I worked there for three years."
+        ],
+        [
+          "Momento",
+          "in + ano / when…",
+          "In 2014, I left the company."
+        ],
+        [
+          "Mudança",
+          "became / got promoted",
+          "I became a technician."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My first job was at a supermarket. I worked there for two years.",
+        "pt": "Meu primeiro emprego foi num supermercado. Trabalhei lá por dois anos."
+      },
+      {
+        "en": "Then I took a technical course and got a job at a factory.",
+        "pt": "Depois fiz um curso técnico e consegui emprego numa fábrica."
+      },
+      {
+        "en": "In 2018, I became a team leader.",
+        "pt": "Em 2018, me tornei líder de equipe."
+      },
+      {
+        "en": "Why did you leave? — The pay was low.",
+        "pt": "Por que você saiu? — O salário era baixo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A supervisor's story",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "So, Carla, how did your career begin?",
+        "pt": "Então, Carla, como começou sua carreira?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "My first job was in a textile factory. I was eighteen.",
+        "pt": "Meu primeiro emprego foi numa fábrica têxtil. Eu tinha dezoito anos."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "How long did you stay there?",
+        "pt": "Quanto tempo você ficou lá?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "For four years. I learned a lot about quality control.",
+        "pt": "Por quatro anos. Aprendi muito sobre controle de qualidade."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And then?",
+        "pt": "E depois?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "b",
+        "en": "I took an engineering course at night. In 2016, a car parts company hired me, and two years later I became a supervisor.",
+        "pt": "Fiz um curso de engenharia à noite. Em 2016, uma empresa de autopeças me contratou e, dois anos depois, virei supervisora."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was Carla's first job?",
+        "opcoes": [
+          "In a textile factory",
+          "In a car parts company",
+          "In a supermarket"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How long did she stay there?",
+        "opcoes": [
+          "Two years",
+          "Four years",
+          "Eighteen years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02l3-e3",
+        "tipo": "multipla",
+        "enunciado": "When did she become a supervisor?",
+        "opcoes": [
+          "In 2016",
+          "In 2018",
+          "In 2014"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u02l3-p1",
+      "tipo": "completar",
+      "frase": "I ___ working at sixteen. (begin)",
+      "respostas": [
+        "began"
+      ]
+    },
+    {
+      "id": "a2u02l3-p2",
+      "tipo": "completar",
+      "frase": "She ___ a manager in 2019. (become)",
+      "respostas": [
+        "became"
+      ]
+    },
+    {
+      "id": "a2u02l3-p3",
+      "tipo": "completar",
+      "frase": "I worked there ___ three years.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "a2u02l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"leave\":",
+      "opcoes": [
+        "leaved",
+        "left",
+        "lefted"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Fui promovido\":",
+      "opcoes": [
+        "I got promoted.",
+        "I was promote.",
+        "I promoted."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u02l3-p6",
+      "tipo": "ordenar",
+      "frase": "They hired me in 2012",
+      "traducao_pt": "Me contrataram em 2012"
+    },
+    {
+      "id": "a2u02l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I learned a lot there.",
+      "aceitas": [
+        "I learnt a lot there."
+      ]
+    },
+    {
+      "id": "a2u02l3-p8",
+      "tipo": "traduzir",
+      "pt": "Meu primeiro emprego foi numa padaria.",
+      "respostas": [
+        "My first job was at a bakery.",
+        "My first job was in a bakery."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Entrevista de emprego simples: o professor pergunta sobre sua carreira. Conte seus empregos anteriores, quanto tempo ficou e o que aprendeu.",
+    "papel_professor": "Faça o papel de entrevistador. Pergunte pela trajetória profissional do aluno: primeiro emprego, quanto tempo ficou, por que saiu, cursos, promoções. Uma pergunta de cada vez.",
+    "abertura": "Thank you for coming. Let's start with your career. What was your first job?",
+    "abertura_pt": "Obrigado por vir. Vamos começar pela sua carreira. Qual foi seu primeiro emprego?"
+  },
+  "teste": [
+    {
+      "id": "a2u02l3-t1",
+      "tipo": "completar",
+      "frase": "He ___ a job at a factory. (get)",
+      "respostas": [
+        "got"
+      ]
+    },
+    {
+      "id": "a2u02l3-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Por cinco anos\":",
+      "opcoes": [
+        "since five years",
+        "for five years",
+        "during five years ago"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I took a technical course."
+    },
+    {
+      "id": "a2u02l3-t4",
+      "tipo": "traduzir",
+      "pt": "Eu saí da empresa em 2015.",
+      "respostas": [
+        "I left the company in 2015."
+      ]
+    },
+    {
+      "id": "a2u02l3-t5",
+      "tipo": "ordenar",
+      "frase": "I became a team leader",
+      "traducao_pt": "Me tornei líder de equipe"
+    }
+  ]
+}

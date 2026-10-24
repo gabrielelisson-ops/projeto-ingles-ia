@@ -1,0 +1,347 @@
+{
+  "id": "a2-u01-l3",
+  "nivel": "A2",
+  "unidade": 1,
+  "numero": 3,
+  "titulo": "I didn't work on Saturday",
+  "objetivo_pt": "Fazer perguntas e negativas no passado com did e didn't.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar se você fez algumas coisas ontem. Responda com \"Yes, I did\" ou \"No, I didn't\".",
+    "papel_professor": "Pergunte com Did you…? sobre coisas de ontem (Did you cook? Did you watch TV? Did you work late?). Corrija 'Did you watched' → 'Did you watch'.",
+    "abertura": "Did you work late yesterday?",
+    "abertura_pt": "Você trabalhou até tarde ontem?"
+  },
+  "vocabulario": [
+    {
+      "id": "did-q",
+      "en": "Did…?",
+      "pt": "(pergunta no passado)",
+      "emoji": "❓",
+      "exemplo_en": "Did you call the supplier?",
+      "exemplo_pt": "Você ligou para o fornecedor?"
+    },
+    {
+      "id": "didnt",
+      "en": "didn't",
+      "pt": "não (passado)",
+      "emoji": "🚫",
+      "exemplo_en": "I didn't watch the game.",
+      "exemplo_pt": "Não assisti ao jogo."
+    },
+    {
+      "id": "call",
+      "en": "call",
+      "pt": "ligar / chamar",
+      "emoji": "📞",
+      "exemplo_en": "Did she call you?",
+      "exemplo_pt": "Ela te ligou?"
+    },
+    {
+      "id": "answer",
+      "en": "answer",
+      "pt": "responder / atender",
+      "emoji": "📲",
+      "exemplo_en": "He didn't answer the phone.",
+      "exemplo_pt": "Ele não atendeu o telefone."
+    },
+    {
+      "id": "finish-q",
+      "en": "finish",
+      "pt": "terminar",
+      "emoji": "🏁",
+      "exemplo_en": "Did you finish the report?",
+      "exemplo_pt": "Você terminou o relatório?"
+    },
+    {
+      "id": "start-q",
+      "en": "start",
+      "pt": "começar",
+      "emoji": "▶️",
+      "exemplo_en": "The meeting didn't start on time.",
+      "exemplo_pt": "A reunião não começou na hora."
+    },
+    {
+      "id": "arrive",
+      "en": "arrive",
+      "pt": "chegar",
+      "emoji": "🚪",
+      "exemplo_en": "What time did you arrive?",
+      "exemplo_pt": "Que horas você chegou?"
+    },
+    {
+      "id": "order",
+      "en": "order",
+      "pt": "pedir / encomendar",
+      "emoji": "📦",
+      "exemplo_en": "Did we order the parts?",
+      "exemplo_pt": "Nós pedimos as peças?"
+    },
+    {
+      "id": "check-q",
+      "en": "check",
+      "pt": "verificar",
+      "emoji": "✅",
+      "exemplo_en": "I didn't check my email.",
+      "exemplo_pt": "Não verifiquei meu e-mail."
+    },
+    {
+      "id": "rain",
+      "en": "rain",
+      "pt": "chover",
+      "emoji": "🌧️",
+      "exemplo_en": "It didn't rain on Sunday.",
+      "exemplo_pt": "Não choveu no domingo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Did e didn't no passado",
+    "explicacao_pt": "Para perguntar no passado: DID + pessoa + verbo na forma básica: Did you work? (nunca 'Did you worked?'). Negativa: DIDN'T + verbo básico: I didn't work. Ou seja, o passado fica no 'did' e o verbo volta ao normal. Respostas curtas: Yes, I did. / No, she didn't. Com palavras de pergunta: What did you do? Where did they go? What time did it start?",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Afirmativa",
+          "verbo + ed",
+          "She called."
+        ],
+        [
+          "Negativa",
+          "didn't + verbo",
+          "She didn't call."
+        ],
+        [
+          "Pergunta",
+          "Did + pessoa + verbo?",
+          "Did she call?"
+        ],
+        [
+          "Resposta",
+          "Yes, she did. / No, she didn't.",
+          "No, she didn't."
+        ],
+        [
+          "Com palavra",
+          "What/When… + did…?",
+          "When did she call?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Did you finish the report? — Not yet. I didn't have time.",
+        "pt": "Você terminou o relatório? — Ainda não. Não tive tempo."
+      },
+      {
+        "en": "The supplier didn't answer my email.",
+        "pt": "O fornecedor não respondeu meu e-mail."
+      },
+      {
+        "en": "What time did the meeting start?",
+        "pt": "Que horas a reunião começou?"
+      },
+      {
+        "en": "Did it rain yesterday? — Yes, it did.",
+        "pt": "Choveu ontem? — Sim."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A problem with an order",
+    "falas": [
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "Did you call the supplier yesterday?",
+        "pt": "Você ligou para o fornecedor ontem?"
+      },
+      {
+        "personagem": "Jon",
+        "voz": "b",
+        "en": "Yes, I did, but nobody answered.",
+        "pt": "Sim, liguei, mas ninguém atendeu."
+      },
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "Did you send an email?",
+        "pt": "Você mandou um e-mail?"
+      },
+      {
+        "personagem": "Jon",
+        "voz": "b",
+        "en": "Yes. I emailed them at four, but they didn't reply.",
+        "pt": "Sim. Mandei e-mail às quatro, mas eles não responderam."
+      },
+      {
+        "personagem": "Mara",
+        "voz": "a",
+        "en": "Hmm. The parts didn't arrive this morning.",
+        "pt": "Hmm. As peças não chegaram hoje de manhã."
+      },
+      {
+        "personagem": "Jon",
+        "voz": "b",
+        "en": "I know. I'll call again now.",
+        "pt": "Eu sei. Vou ligar de novo agora."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Did anybody answer the phone?",
+        "opcoes": [
+          "Yes, the manager.",
+          "No, nobody answered."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l3-e2",
+        "tipo": "multipla",
+        "enunciado": "When did Jon send the email?",
+        "opcoes": [
+          "At four",
+          "At nine",
+          "This morning"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the problem?",
+        "opcoes": [
+          "The parts didn't arrive.",
+          "The email was wrong.",
+          "The phone was broken."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u01l3-p1",
+      "tipo": "completar",
+      "frase": "___ you finish the report?",
+      "respostas": [
+        "Did"
+      ]
+    },
+    {
+      "id": "a2u01l3-p2",
+      "tipo": "completar",
+      "frase": "I ___ watch the game. (negativa)",
+      "respostas": [
+        "didn't",
+        "did not"
+      ]
+    },
+    {
+      "id": "a2u01l3-p3",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "Did you called me?",
+        "Did you call me?",
+        "Do you called me?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "She didn't answered.",
+        "She didn't answer.",
+        "She don't answered."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l3-p5",
+      "tipo": "completar",
+      "frase": "What time ___ you arrive?",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "a2u01l3-p6",
+      "tipo": "ordenar",
+      "frase": "The meeting didn't start on time",
+      "traducao_pt": "A reunião não começou na hora"
+    },
+    {
+      "id": "a2u01l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Did we order the parts?"
+    },
+    {
+      "id": "a2u01l3-p8",
+      "tipo": "traduzir",
+      "pt": "Não choveu no domingo.",
+      "respostas": [
+        "It didn't rain on Sunday.",
+        "It did not rain on Sunday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O gerente quer saber se as tarefas de ontem foram feitas. Responda com did/didn't e explique o que aconteceu.",
+    "papel_professor": "Faça o papel de gerente perguntando sobre as tarefas de ontem (Did you check the machines? Did you call the client? Did the parts arrive?). O aluno responde com did/didn't e explica.",
+    "abertura": "Good morning. Let's check yesterday's tasks. Did you call the client?",
+    "abertura_pt": "Bom dia. Vamos ver as tarefas de ontem. Você ligou para o cliente?"
+  },
+  "teste": [
+    {
+      "id": "a2u01l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Você ligou para ela?\"",
+      "opcoes": [
+        "Did you call her?",
+        "Did you called her?",
+        "You called her?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u01l3-t2",
+      "tipo": "completar",
+      "frase": "No, I ___.",
+      "respostas": [
+        "didn't",
+        "did not"
+      ]
+    },
+    {
+      "id": "a2u01l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I didn't check my email.",
+      "aceitas": [
+        "I did not check my email."
+      ]
+    },
+    {
+      "id": "a2u01l3-t4",
+      "tipo": "traduzir",
+      "pt": "A que horas você chegou?",
+      "respostas": [
+        "What time did you arrive?",
+        "When did you arrive?"
+      ]
+    },
+    {
+      "id": "a2u01l3-t5",
+      "tipo": "ordenar",
+      "frase": "Did it rain yesterday?",
+      "traducao_pt": "Choveu ontem?"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "id": "a2-u02-l5",
+  "nivel": "A2",
+  "unidade": 2,
+  "numero": 5,
+  "titulo": "My life story",
+  "objetivo_pt": "Contar a história da sua vida em ordem, juntando tudo da unidade.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga 3 datas importantes da sua vida e o que aconteceu (ex.: In 2010, I got married).",
+    "papel_professor": "Peça ao aluno 3 datas importantes e o que aconteceu. Corrija in + ano e o passado irregular.",
+    "abertura": "Tell me three important years in your life. What happened?",
+    "abertura_pt": "Me diga três anos importantes da sua vida. O que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "important",
+      "en": "important",
+      "pt": "importante",
+      "emoji": "⭐",
+      "exemplo_en": "It was an important year.",
+      "exemplo_pt": "Foi um ano importante."
+    },
+    {
+      "id": "happen",
+      "en": "happen → happened",
+      "pt": "acontecer",
+      "emoji": "✨",
+      "exemplo_en": "What happened in 2010?",
+      "exemplo_pt": "O que aconteceu em 2010?"
+    },
+    {
+      "id": "change",
+      "en": "change",
+      "pt": "mudar / mudança",
+      "emoji": "🔄",
+      "exemplo_en": "My life changed a lot.",
+      "exemplo_pt": "Minha vida mudou muito."
+    },
+    {
+      "id": "decide",
+      "en": "decide",
+      "pt": "decidir",
+      "emoji": "🤔",
+      "exemplo_en": "I decided to study English.",
+      "exemplo_pt": "Decidi estudar inglês."
+    },
+    {
+      "id": "dream",
+      "en": "dream",
+      "pt": "sonho",
+      "emoji": "💭",
+      "exemplo_en": "My dream was to travel.",
+      "exemplo_pt": "Meu sonho era viajar."
+    },
+    {
+      "id": "proud",
+      "en": "proud of",
+      "pt": "orgulhoso de",
+      "emoji": "😊",
+      "exemplo_en": "I'm proud of my family.",
+      "exemplo_pt": "Tenho orgulho da minha família."
+    },
+    {
+      "id": "difficult",
+      "en": "difficult / easy",
+      "pt": "difícil / fácil",
+      "emoji": "⚖️",
+      "exemplo_en": "It was a difficult time.",
+      "exemplo_pt": "Foi uma época difícil."
+    },
+    {
+      "id": "finish-school",
+      "en": "finish school",
+      "pt": "terminar a escola",
+      "emoji": "🎓",
+      "exemplo_en": "I finished school in 2004.",
+      "exemplo_pt": "Terminei a escola em 2004."
+    },
+    {
+      "id": "retire",
+      "en": "retire",
+      "pt": "aposentar-se",
+      "emoji": "🏖️",
+      "exemplo_en": "My father retired last year.",
+      "exemplo_pt": "Meu pai se aposentou ano passado."
+    },
+    {
+      "id": "since-then",
+      "en": "since then",
+      "pt": "desde então",
+      "emoji": "➡️",
+      "exemplo_en": "Since then, I have lived here.",
+      "exemplo_pt": "Desde então, moro aqui."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: contar a sua história",
+    "explicacao_pt": "Junte tudo: was/were (I was born…, It was difficult), regulares (moved, decided, started) e irregulares (grew up, met, became, got), did/didn't (I didn't finish college), datas (in 2010, when I was 20) e conectores (then, after that, two years later, finally). Uma boa história tem começo (nascimento, infância), meio (estudos, trabalho, família) e hoje.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Começo",
+          "I was born in Salvador in 1987.",
+          "Nasci em Salvador em 1987."
+        ],
+        [
+          "Estudos",
+          "I finished school in 2005 and took a course.",
+          "Terminei a escola em 2005 e fiz um curso."
+        ],
+        [
+          "Trabalho",
+          "In 2008, I got my first job.",
+          "Em 2008, consegui meu primeiro emprego."
+        ],
+        [
+          "Família",
+          "Two years later, I met my wife.",
+          "Dois anos depois, conheci minha esposa."
+        ],
+        [
+          "Hoje",
+          "Now I'm a supervisor and I'm studying English.",
+          "Hoje sou supervisor e estou estudando inglês."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I grew up in a big family. We didn't have much money, but we were happy.",
+        "pt": "Cresci numa família grande. Não tínhamos muito dinheiro, mas éramos felizes."
+      },
+      {
+        "en": "In 2012, I decided to change my career.",
+        "pt": "Em 2012, decidi mudar de carreira."
+      },
+      {
+        "en": "It was difficult, but I'm proud of it.",
+        "pt": "Foi difícil, mas tenho orgulho disso."
+      },
+      {
+        "en": "My father worked for 35 years and retired last year.",
+        "pt": "Meu pai trabalhou 35 anos e se aposentou ano passado."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Grandpa's story",
+    "falas": [
+      {
+        "personagem": "Kid",
+        "voz": "a",
+        "en": "Grandpa, tell me about your life!",
+        "pt": "Vovô, me conte sobre a sua vida!"
+      },
+      {
+        "personagem": "Grandpa",
+        "voz": "b",
+        "en": "Well, I was born on a farm in 1950. I had seven brothers and sisters.",
+        "pt": "Bem, nasci numa fazenda em 1950. Eu tinha sete irmãos."
+      },
+      {
+        "personagem": "Kid",
+        "voz": "a",
+        "en": "Seven? Wow! Did you go to school?",
+        "pt": "Sete? Nossa! Você foi à escola?"
+      },
+      {
+        "personagem": "Grandpa",
+        "voz": "b",
+        "en": "Yes, but I left school at fourteen and worked with my father.",
+        "pt": "Sim, mas saí da escola aos catorze e trabalhei com meu pai."
+      },
+      {
+        "personagem": "Kid",
+        "voz": "a",
+        "en": "When did you meet Grandma?",
+        "pt": "Quando você conheceu a vovó?"
+      },
+      {
+        "personagem": "Grandpa",
+        "voz": "b",
+        "en": "In 1972, at a dance. We got married a year later and moved to the city.",
+        "pt": "Em 1972, num baile. Nos casamos um ano depois e nos mudamos para a cidade."
+      },
+      {
+        "personagem": "Kid",
+        "voz": "a",
+        "en": "That's a great story!",
+        "pt": "Que história linda!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02l5-e1",
+        "tipo": "multipla",
+        "enunciado": "When was Grandpa born?",
+        "opcoes": [
+          "1950",
+          "1915",
+          "1972"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02l5-e2",
+        "tipo": "multipla",
+        "enunciado": "When did he leave school?",
+        "opcoes": [
+          "At fourteen",
+          "At forty",
+          "At eighteen"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did he meet Grandma?",
+        "opcoes": [
+          "At school",
+          "At a dance",
+          "On the farm"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u02l5-p1",
+      "tipo": "completar",
+      "frase": "What ___ in 2010? (happen)",
+      "respostas": [
+        "happened"
+      ]
+    },
+    {
+      "id": "a2u02l5-p2",
+      "tipo": "completar",
+      "frase": "I'm proud ___ my family.",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "a2u02l5-p3",
+      "tipo": "completar",
+      "frase": "I ___ to study English. (decide)",
+      "respostas": [
+        "decided"
+      ]
+    },
+    {
+      "id": "a2u02l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Meu pai se aposentou\":",
+      "opcoes": [
+        "My father retired.",
+        "My father retreated.",
+        "My father is retire."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u02l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Ordem correta:",
+      "opcoes": [
+        "In 1972 we met at a dance.",
+        "We in 1972 met at a dance.",
+        "At a dance in met we 1972."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u02l5-p6",
+      "tipo": "ordenar",
+      "frase": "My life changed a lot",
+      "traducao_pt": "Minha vida mudou muito"
+    },
+    {
+      "id": "a2u02l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It was a difficult time."
+    },
+    {
+      "id": "a2u02l5-p8",
+      "tipo": "traduzir",
+      "pt": "Meu sonho era viajar.",
+      "respostas": [
+        "My dream was to travel."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: conte a história da sua vida em pelo menos 6 frases, do nascimento até hoje.",
+    "papel_professor": "Ouça a história de vida do aluno e faça perguntas de continuação (What happened next? Why did you decide…? How did you feel?). Corrija até 2 erros de passado por resposta e elogie o esforço.",
+    "abertura": "I'd love to hear your life story. Let's start at the beginning: where were you born?",
+    "abertura_pt": "Adoraria ouvir a história da sua vida. Vamos começar do começo: onde você nasceu?"
+  },
+  "teste": [
+    {
+      "id": "a2u02l5-t1",
+      "tipo": "completar",
+      "frase": "We ___ married a year later. (get)",
+      "respostas": [
+        "got"
+      ]
+    },
+    {
+      "id": "a2u02l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Desde então\":",
+      "opcoes": [
+        "since then",
+        "after now",
+        "from that"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u02l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I finished school in 2004."
+    },
+    {
+      "id": "a2u02l5-t4",
+      "tipo": "traduzir",
+      "pt": "Foi um ano importante.",
+      "respostas": [
+        "It was an important year."
+      ]
+    },
+    {
+      "id": "a2u02l5-t5",
+      "tipo": "ordenar",
+      "frase": "I decided to change my career",
+      "traducao_pt": "Decidi mudar de carreira"
+    }
+  ]
+}

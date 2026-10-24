@@ -1,0 +1,352 @@
+{
+  "id": "a2-u02-l1",
+  "nivel": "A2",
+  "unidade": 2,
+  "numero": 1,
+  "titulo": "I went, I saw, I ate",
+  "objetivo_pt": "Usar os verbos irregulares mais comuns no passado: go, have, eat, see, come, get.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você fez ontem. Use verbos irregulares: went, had, ate, saw.",
+    "papel_professor": "Pergunte o que o aluno fez ontem (Where did you go? What did you eat? Did you see anyone?). Corrija formas como \"goed\", \"eated\" → went, ate.",
+    "abertura": "Yesterday I went to the market and had lunch with a friend. What about you?",
+    "abertura_pt": "Ontem fui ao mercado e almocei com um amigo. E você?"
+  },
+  "vocabulario": [
+    {
+      "id": "went",
+      "en": "go → went",
+      "pt": "ir → foi",
+      "emoji": "🚶",
+      "exemplo_en": "We went to the beach.",
+      "exemplo_pt": "Fomos à praia."
+    },
+    {
+      "id": "had",
+      "en": "have → had",
+      "pt": "ter / comer → teve / comeu",
+      "emoji": "🍽️",
+      "exemplo_en": "I had lunch at noon.",
+      "exemplo_pt": "Almocei ao meio-dia."
+    },
+    {
+      "id": "ate",
+      "en": "eat → ate",
+      "pt": "comer → comeu",
+      "emoji": "🍕",
+      "exemplo_en": "She ate pizza.",
+      "exemplo_pt": "Ela comeu pizza."
+    },
+    {
+      "id": "saw",
+      "en": "see → saw",
+      "pt": "ver → viu",
+      "emoji": "👀",
+      "exemplo_en": "I saw my old boss.",
+      "exemplo_pt": "Vi meu antigo chefe."
+    },
+    {
+      "id": "came",
+      "en": "come → came",
+      "pt": "vir → veio",
+      "emoji": "🏠",
+      "exemplo_en": "They came home late.",
+      "exemplo_pt": "Eles chegaram em casa tarde."
+    },
+    {
+      "id": "got",
+      "en": "get → got",
+      "pt": "conseguir / receber / ficar → conseguiu",
+      "emoji": "📩",
+      "exemplo_en": "I got a message.",
+      "exemplo_pt": "Recebi uma mensagem."
+    },
+    {
+      "id": "made",
+      "en": "make → made",
+      "pt": "fazer → fez",
+      "emoji": "🎂",
+      "exemplo_en": "My mother made a cake.",
+      "exemplo_pt": "Minha mãe fez um bolo."
+    },
+    {
+      "id": "took",
+      "en": "take → took",
+      "pt": "pegar / levar → pegou",
+      "emoji": "🚌",
+      "exemplo_en": "I took the bus.",
+      "exemplo_pt": "Peguei o ônibus."
+    },
+    {
+      "id": "bought",
+      "en": "buy → bought",
+      "pt": "comprar → comprou",
+      "emoji": "🛍️",
+      "exemplo_en": "We bought new shoes.",
+      "exemplo_pt": "Compramos sapatos novos."
+    },
+    {
+      "id": "drank",
+      "en": "drink → drank",
+      "pt": "beber → bebeu",
+      "emoji": "🥤",
+      "exemplo_en": "He drank a lot of water.",
+      "exemplo_pt": "Ele bebeu muita água."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Verbos irregulares no passado",
+    "explicacao_pt": "Muitos verbos comuns não usam -ed: cada um tem uma forma própria de passado, que é preciso decorar: go → went, have → had, eat → ate, see → saw, come → came, get → got, make → made, take → took, buy → bought, drink → drank. A forma é igual para todas as pessoas (I went, she went). Na negativa e na pergunta, volta para a forma básica com did: I didn't go. Did you eat?",
+    "tabela": {
+      "colunas": [
+        "Verbo",
+        "Passado",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "go",
+          "went",
+          "I went to work."
+        ],
+        [
+          "have",
+          "had",
+          "We had dinner."
+        ],
+        [
+          "eat",
+          "ate",
+          "She ate fish."
+        ],
+        [
+          "see",
+          "saw",
+          "I saw a movie."
+        ],
+        [
+          "come",
+          "came",
+          "He came late."
+        ],
+        [
+          "buy",
+          "bought",
+          "They bought a car."
+        ],
+        [
+          "take",
+          "took",
+          "I took a taxi."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Last Sunday we went to my uncle's farm.",
+        "pt": "No domingo passado fomos ao sítio do meu tio."
+      },
+      {
+        "en": "I had a big breakfast and took the bus to work.",
+        "pt": "Tomei um café da manhã reforçado e peguei o ônibus para o trabalho."
+      },
+      {
+        "en": "Did you buy the tickets? — Yes, I bought them online.",
+        "pt": "Você comprou os ingressos? — Sim, comprei pela internet."
+      },
+      {
+        "en": "We didn't eat meat. We ate vegetables.",
+        "pt": "Não comemos carne. Comemos verduras."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A day in the city",
+    "falas": [
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "What did you do on Saturday?",
+        "pt": "O que você fez no sábado?"
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "I went to the city center with my son. We took the subway.",
+        "pt": "Fui ao centro com meu filho. Pegamos o metrô."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Nice. Did you buy anything?",
+        "pt": "Legal. Comprou alguma coisa?"
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "Yes, I bought a new phone. Then we had lunch at a Japanese restaurant.",
+        "pt": "Sim, comprei um celular novo. Depois almoçamos num restaurante japonês."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Did your son like it?",
+        "pt": "Seu filho gostou?"
+      },
+      {
+        "personagem": "Ben",
+        "voz": "b",
+        "en": "He loved it! He ate twenty pieces of sushi!",
+        "pt": "Ele amou! Comeu vinte peças de sushi!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How did they go to the city center?",
+        "opcoes": [
+          "By bus",
+          "By subway",
+          "By car"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What did Ben buy?",
+        "opcoes": [
+          "A phone",
+          "Shoes",
+          "A book"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How many pieces of sushi did his son eat?",
+        "opcoes": [
+          "Ten",
+          "Twelve",
+          "Twenty"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u02l1-p1",
+      "tipo": "completar",
+      "frase": "We ___ to the beach. (go)",
+      "respostas": [
+        "went"
+      ]
+    },
+    {
+      "id": "a2u02l1-p2",
+      "tipo": "completar",
+      "frase": "She ___ a cake. (make)",
+      "respostas": [
+        "made"
+      ]
+    },
+    {
+      "id": "a2u02l1-p3",
+      "tipo": "completar",
+      "frase": "I ___ my old friend at the mall. (see)",
+      "respostas": [
+        "saw"
+      ]
+    },
+    {
+      "id": "a2u02l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"eat\":",
+      "opcoes": [
+        "eated",
+        "ate",
+        "eaten"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I didn't went.",
+        "I didn't go.",
+        "I don't went."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l1-p6",
+      "tipo": "ordenar",
+      "frase": "We bought new shoes",
+      "traducao_pt": "Compramos sapatos novos"
+    },
+    {
+      "id": "a2u02l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I took the bus to work."
+    },
+    {
+      "id": "a2u02l1-p8",
+      "tipo": "traduzir",
+      "pt": "Ele bebeu muita água.",
+      "respostas": [
+        "He drank a lot of water."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor um dia em que você saiu de casa: aonde foi, o que comeu, o que comprou, quem viu.",
+    "papel_professor": "Peça ao aluno para contar um passeio recente. Faça perguntas com verbos irregulares (Where did you go? What did you buy? What did you eat? Who did you see?). Corrija formas irregulares.",
+    "abertura": "Tell me about a nice day out you had recently. Where did you go?",
+    "abertura_pt": "Me conte sobre um passeio legal que você fez recentemente. Aonde você foi?"
+  },
+  "teste": [
+    {
+      "id": "a2u02l1-t1",
+      "tipo": "completar",
+      "frase": "They ___ home late. (come)",
+      "respostas": [
+        "came"
+      ]
+    },
+    {
+      "id": "a2u02l1-t2",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"buy\":",
+      "opcoes": [
+        "buyed",
+        "bought",
+        "brought"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I got a message from my boss."
+    },
+    {
+      "id": "a2u02l1-t4",
+      "tipo": "traduzir",
+      "pt": "Nós almoçamos ao meio-dia.",
+      "respostas": [
+        "We had lunch at noon.",
+        "We had lunch at twelve."
+      ]
+    },
+    {
+      "id": "a2u02l1-t5",
+      "tipo": "ordenar",
+      "frase": "We didn't eat meat",
+      "traducao_pt": "Não comemos carne"
+    }
+  ]
+}
