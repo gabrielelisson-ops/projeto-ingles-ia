@@ -1,0 +1,364 @@
+{
+  "id": "b1-u02-l2",
+  "nivel": "B1",
+  "unidade": 2,
+  "numero": 2,
+  "titulo": "Just, already, yet",
+  "objetivo_pt": "Falar do que já foi feito, acabou de ser feito ou ainda não foi feito.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre suas tarefas de hoje. Diga o que você já fez (already), acabou de fazer (just) e ainda não fez (not… yet).",
+    "papel_professor": "Pergunte sobre tarefas do dia (Have you had lunch yet? Have you checked your e-mails?). Ensine just/already/yet e a posição na frase.",
+    "abertura": "Have you had lunch yet?",
+    "abertura_pt": "Você já almoçou?"
+  },
+  "vocabulario": [
+    {
+      "id": "just",
+      "en": "just",
+      "pt": "acabou de",
+      "emoji": "⚡",
+      "exemplo_en": "I've just finished the report.",
+      "exemplo_pt": "Acabei de terminar o relatório."
+    },
+    {
+      "id": "already",
+      "en": "already",
+      "pt": "já",
+      "emoji": "✅",
+      "exemplo_en": "I've already sent the e-mail.",
+      "exemplo_pt": "Já enviei o e-mail."
+    },
+    {
+      "id": "yet-q",
+      "en": "yet (pergunta)",
+      "pt": "já (em pergunta)",
+      "emoji": "❓",
+      "exemplo_en": "Have you called the supplier yet?",
+      "exemplo_pt": "Você já ligou para o fornecedor?"
+    },
+    {
+      "id": "not-yet",
+      "en": "not … yet",
+      "pt": "ainda não",
+      "emoji": "⏳",
+      "exemplo_en": "I haven't finished yet.",
+      "exemplo_pt": "Ainda não terminei."
+    },
+    {
+      "id": "still",
+      "en": "still",
+      "pt": "ainda",
+      "emoji": "🕰️",
+      "exemplo_en": "He still hasn't answered.",
+      "exemplo_pt": "Ele ainda não respondeu."
+    },
+    {
+      "id": "send-sent",
+      "en": "send (sent, sent)",
+      "pt": "enviar",
+      "emoji": "📤",
+      "exemplo_en": "Have you sent the invoice?",
+      "exemplo_pt": "Você enviou a nota fiscal?"
+    },
+    {
+      "id": "arrive-del",
+      "en": "arrive",
+      "pt": "chegar",
+      "emoji": "📦",
+      "exemplo_en": "The parts have just arrived.",
+      "exemplo_pt": "As peças acabaram de chegar."
+    },
+    {
+      "id": "check",
+      "en": "check",
+      "pt": "verificar",
+      "emoji": "🔍",
+      "exemplo_en": "I've already checked the stock.",
+      "exemplo_pt": "Já verifiquei o estoque."
+    },
+    {
+      "id": "to-do",
+      "en": "to-do list",
+      "pt": "lista de tarefas",
+      "emoji": "📝",
+      "exemplo_en": "What's on your to-do list today?",
+      "exemplo_pt": "O que tem na sua lista de tarefas hoje?"
+    },
+    {
+      "id": "deadline",
+      "en": "deadline",
+      "pt": "prazo",
+      "emoji": "⏰",
+      "exemplo_en": "The deadline is tomorrow.",
+      "exemplo_pt": "O prazo é amanhã."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Just, already, yet",
+    "explicacao_pt": "Os três usam o present perfect. JUST (acabou de) e ALREADY (já) ficam ENTRE have e o particípio: I've just arrived. I've already eaten. YET fica no FINAL, em perguntas (= já?) e negativas (= ainda): Have you finished yet? I haven't finished yet. STILL + negativa = 'ainda não', com ênfase de demora: He still hasn't paid. Em português dizemos 'Já almoçou?' — em inglês: Have you had lunch yet? (não 'already' na pergunta comum).",
+    "tabela": {
+      "colunas": [
+        "Palavra",
+        "Posição",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "just",
+          "have + just + particípio",
+          "I've just called him."
+        ],
+        [
+          "already",
+          "have + already + particípio",
+          "She's already left."
+        ],
+        [
+          "yet (pergunta)",
+          "final da frase",
+          "Has the truck arrived yet?"
+        ],
+        [
+          "not … yet",
+          "final da frase",
+          "It hasn't arrived yet."
+        ],
+        [
+          "still + negativa",
+          "antes de haven't",
+          "They still haven't paid."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Have you sent the samples yet? — Yes, I've already sent them.",
+        "pt": "Você já enviou as amostras? — Sim, já enviei."
+      },
+      {
+        "en": "The truck has just arrived. Can you help unload it?",
+        "pt": "O caminhão acabou de chegar. Pode ajudar a descarregar?"
+      },
+      {
+        "en": "I haven't checked the stock yet. I'll do it after lunch.",
+        "pt": "Ainda não verifiquei o estoque. Faço depois do almoço."
+      },
+      {
+        "en": "The supplier still hasn't sent the invoice.",
+        "pt": "O fornecedor ainda não mandou a nota."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Before the audit",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "The auditors arrive tomorrow. Have you printed the procedures yet?",
+        "pt": "Os auditores chegam amanhã. Você já imprimiu os procedimentos?"
+      },
+      {
+        "personagem": "Sofia",
+        "voz": "b",
+        "en": "Yes, I've already printed them. They're on your desk.",
+        "pt": "Sim, já imprimi. Estão na sua mesa."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Great. And have the operators signed the training records?",
+        "pt": "Ótimo. E os operadores assinaram os registros de treinamento?"
+      },
+      {
+        "personagem": "Sofia",
+        "voz": "b",
+        "en": "Most of them. The night shift hasn't signed yet.",
+        "pt": "A maioria. O turno da noite ainda não assinou."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "OK. What about the calibration certificates?",
+        "pt": "OK. E os certificados de calibração?"
+      },
+      {
+        "personagem": "Sofia",
+        "voz": "b",
+        "en": "The lab has just sent them. I've just received the e-mail.",
+        "pt": "O laboratório acabou de mandar. Acabei de receber o e-mail."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Perfect. So only the night shift is missing.",
+        "pt": "Perfeito. Então só falta o turno da noite."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Has Sofia printed the procedures?",
+        "opcoes": [
+          "Yes, already.",
+          "No, not yet."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Who hasn't signed the training records yet?",
+        "opcoes": [
+          "The day shift",
+          "The night shift",
+          "The auditors"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l2-e3",
+        "tipo": "multipla",
+        "enunciado": "When did the lab send the certificates?",
+        "opcoes": [
+          "Last week",
+          "Just now",
+          "Tomorrow"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l2-e4",
+        "tipo": "multipla",
+        "enunciado": "When do the auditors arrive?",
+        "opcoes": [
+          "Today",
+          "Tomorrow",
+          "Next week"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u02l2-p1",
+      "tipo": "completar",
+      "frase": "I've ___ finished the report. (acabei de)",
+      "respostas": [
+        "just"
+      ]
+    },
+    {
+      "id": "b1u02l2-p2",
+      "tipo": "completar",
+      "frase": "I've ___ sent the e-mail. (já)",
+      "respostas": [
+        "already"
+      ]
+    },
+    {
+      "id": "b1u02l2-p3",
+      "tipo": "completar",
+      "frase": "I haven't finished ___. (ainda)",
+      "respostas": [
+        "yet"
+      ]
+    },
+    {
+      "id": "b1u02l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Você já ligou para o fornecedor?\":",
+      "opcoes": [
+        "Have you called the supplier yet?",
+        "Did you already call yet the supplier?",
+        "You have called the supplier already yet?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Posição correta:",
+      "opcoes": [
+        "I've already checked the stock.",
+        "I've checked already the stock.",
+        "I already have checked yet the stock."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l2-p6",
+      "tipo": "ordenar",
+      "frase": "The parts have just arrived",
+      "traducao_pt": "As peças acabaram de chegar"
+    },
+    {
+      "id": "b1u02l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "He still hasn't answered.",
+      "aceitas": [
+        "He still has not answered."
+      ]
+    },
+    {
+      "id": "b1u02l2-p8",
+      "tipo": "traduzir",
+      "pt": "Ainda não terminei.",
+      "respostas": [
+        "I haven't finished yet.",
+        "I have not finished yet."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor é seu chefe e vai conferir a sua lista de tarefas antes de uma visita importante. Diga o que já fez, o que acabou de fazer e o que ainda não fez.",
+    "papel_professor": "Faça o papel de chefe checando tarefas antes da visita de um cliente: Have you… yet? (booked the room, prepared the samples, cleaned the area, sent the agenda). Corrija posição de just/already/yet.",
+    "abertura": "Our client is visiting tomorrow. Let's check the list. Have you booked the meeting room yet?",
+    "abertura_pt": "Nosso cliente visita amanhã. Vamos ver a lista. Você já reservou a sala de reunião?"
+  },
+  "teste": [
+    {
+      "id": "b1u02l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"O caminhão acabou de chegar\":",
+      "opcoes": [
+        "The truck has just arrived.",
+        "The truck just has arrived yet.",
+        "The truck arrived already just."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l2-t2",
+      "tipo": "completar",
+      "frase": "Has the truck arrived ___? (já)",
+      "respostas": [
+        "yet"
+      ]
+    },
+    {
+      "id": "b1u02l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I've already checked the stock.",
+      "aceitas": [
+        "I have already checked the stock."
+      ]
+    },
+    {
+      "id": "b1u02l2-t4",
+      "tipo": "traduzir",
+      "pt": "O prazo é amanhã.",
+      "respostas": [
+        "The deadline is tomorrow."
+      ]
+    },
+    {
+      "id": "b1u02l2-t5",
+      "tipo": "ordenar",
+      "frase": "What's on your to-do list today?",
+      "traducao_pt": "O que tem na sua lista de tarefas hoje?"
+    }
+  ]
+}

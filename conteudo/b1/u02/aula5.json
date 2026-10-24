@@ -1,0 +1,357 @@
+{
+  "id": "b1-u02-l5",
+  "nivel": "B1",
+  "unidade": 2,
+  "numero": 5,
+  "titulo": "An update e-mail",
+  "objetivo_pt": "Escrever e falar uma atualização de projeto, juntando for/since, just/already/yet e o contínuo.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: conte ao professor como está um projeto ou meta pessoal sua (estudo, academia, reforma): há quanto tempo, o que já fez e o que falta.",
+    "papel_professor": "Peça a atualização de um projeto pessoal. Pergunte How long have you been…? What have you done so far? What haven't you done yet? Corrija tempos.",
+    "abertura": "Do you have a personal project at the moment? How is it going?",
+    "abertura_pt": "Você tem algum projeto pessoal no momento? Como está indo?"
+  },
+  "vocabulario": [
+    {
+      "id": "update",
+      "en": "update",
+      "pt": "atualização",
+      "emoji": "🔄",
+      "exemplo_en": "Here's a quick update on the project.",
+      "exemplo_pt": "Segue uma atualização rápida do projeto."
+    },
+    {
+      "id": "status",
+      "en": "status",
+      "pt": "situação",
+      "emoji": "🚦",
+      "exemplo_en": "What's the status of the order?",
+      "exemplo_pt": "Qual é a situação do pedido?"
+    },
+    {
+      "id": "complete",
+      "en": "complete / completed",
+      "pt": "concluir / concluído",
+      "emoji": "✔️",
+      "exemplo_en": "We've completed phase one.",
+      "exemplo_pt": "Concluímos a fase um."
+    },
+    {
+      "id": "pending",
+      "en": "pending",
+      "pt": "pendente",
+      "emoji": "⏸️",
+      "exemplo_en": "Two tasks are still pending.",
+      "exemplo_pt": "Duas tarefas ainda estão pendentes."
+    },
+    {
+      "id": "next-steps",
+      "en": "next steps",
+      "pt": "próximos passos",
+      "emoji": "👣",
+      "exemplo_en": "The next steps are testing and training.",
+      "exemplo_pt": "Os próximos passos são testes e treinamento."
+    },
+    {
+      "id": "delay",
+      "en": "delay / delayed",
+      "pt": "atraso / atrasado",
+      "emoji": "🐢",
+      "exemplo_en": "There has been a delay in the delivery.",
+      "exemplo_pt": "Houve um atraso na entrega."
+    },
+    {
+      "id": "expect",
+      "en": "expect",
+      "pt": "esperar (prever)",
+      "emoji": "🔮",
+      "exemplo_en": "We expect to finish by May.",
+      "exemplo_pt": "Esperamos terminar até maio."
+    },
+    {
+      "id": "by-date",
+      "en": "by (+ data)",
+      "pt": "até (no máximo)",
+      "emoji": "📅",
+      "exemplo_en": "Please reply by Friday.",
+      "exemplo_pt": "Por favor, responda até sexta."
+    },
+    {
+      "id": "let-know",
+      "en": "let someone know",
+      "pt": "avisar alguém",
+      "emoji": "📣",
+      "exemplo_en": "I'll let you know if anything changes.",
+      "exemplo_pt": "Te aviso se algo mudar."
+    },
+    {
+      "id": "attached",
+      "en": "attached",
+      "pt": "em anexo",
+      "emoji": "📎",
+      "exemplo_en": "I've attached the report.",
+      "exemplo_pt": "Anexei o relatório."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura de uma atualização",
+    "explicacao_pt": "Uma boa atualização tem: 1) contexto — We've been working on the new line since March. 2) o que já foi feito — We've already installed the machines. We've just finished the tests. 3) o que falta — We haven't trained the operators yet. 4) problemas — There has been a delay in… 5) próximos passos e prazo — We expect to start production by June. 6) fechamento — I'll let you know if anything changes. Use 'by + data' para prazo máximo (by Friday = até sexta).",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase modelo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Contexto",
+          "We've been working on … since …",
+          "Estamos trabalhando em … desde …"
+        ],
+        [
+          "Feito",
+          "We've already … / We've just …",
+          "Já … / Acabamos de …"
+        ],
+        [
+          "Falta",
+          "We haven't … yet.",
+          "Ainda não …"
+        ],
+        [
+          "Problema",
+          "There has been a delay in …",
+          "Houve um atraso em …"
+        ],
+        [
+          "Próximos passos",
+          "We expect to … by …",
+          "Esperamos … até …"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We've been working on the new warehouse system for two months.",
+        "pt": "Estamos trabalhando no novo sistema do armazém há dois meses."
+      },
+      {
+        "en": "We've already trained 40 people, and we've just started the tests.",
+        "pt": "Já treinamos 40 pessoas e acabamos de começar os testes."
+      },
+      {
+        "en": "We haven't received the new scanners yet. There has been a delay at customs.",
+        "pt": "Ainda não recebemos os novos leitores. Houve um atraso na alfândega."
+      },
+      {
+        "en": "We expect to go live by the end of the month. I'll let you know if anything changes.",
+        "pt": "Esperamos entrar em operação até o fim do mês. Aviso se algo mudar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A voice message from the project leader",
+    "falas": [
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "Hi, Marta. Quick update on the solar panel project.",
+        "pt": "Oi, Marta. Atualização rápida do projeto de painéis solares."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "We've been working on the roof since Monday. The team has already installed sixty panels.",
+        "pt": "Estamos trabalhando no telhado desde segunda. A equipe já instalou sessenta painéis."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "We've just received the inverters, so we can start the electrical work tomorrow.",
+        "pt": "Acabamos de receber os inversores, então podemos começar a parte elétrica amanhã."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "We haven't installed the last forty panels yet, because it's been raining a lot.",
+        "pt": "Ainda não instalamos os últimos quarenta painéis porque tem chovido muito."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "We expect to finish everything by the twentieth. I've attached the photos to the e-mail.",
+        "pt": "Esperamos terminar tudo até o dia vinte. Anexei as fotos no e-mail."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "a",
+        "en": "I'll let you know if there are any more delays. Bye!",
+        "pt": "Te aviso se houver mais atrasos. Tchau!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Since when have they been working on the roof?",
+        "opcoes": [
+          "Since Monday",
+          "Since last month",
+          "Since yesterday"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How many panels have they installed?",
+        "opcoes": [
+          "Forty",
+          "Sixty",
+          "A hundred"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Why haven't they finished?",
+        "opcoes": [
+          "It has been raining.",
+          "The panels are broken.",
+          "There are no workers."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l5-e4",
+        "tipo": "multipla",
+        "enunciado": "When do they expect to finish?",
+        "opcoes": [
+          "By the tenth",
+          "By the twentieth",
+          "Next year"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u02l5-p1",
+      "tipo": "completar",
+      "frase": "We've ___ phase one. (concluímos)",
+      "respostas": [
+        "completed"
+      ]
+    },
+    {
+      "id": "b1u02l5-p2",
+      "tipo": "completar",
+      "frase": "Please reply ___ Friday. (até)",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u02l5-p3",
+      "tipo": "completar",
+      "frase": "I've ___ the report. (anexei)",
+      "respostas": [
+        "attached"
+      ]
+    },
+    {
+      "id": "b1u02l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Te aviso se algo mudar\":",
+      "opcoes": [
+        "I'll let you know if anything changes.",
+        "I'll let you to know if something change.",
+        "I let you know when anything will change."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Houve um atraso na entrega\":",
+      "opcoes": [
+        "There has been a delay in the delivery.",
+        "There was been a delay of delivery.",
+        "It has a delay in the delivery."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l5-p6",
+      "tipo": "ordenar",
+      "frase": "Two tasks are still pending",
+      "traducao_pt": "Duas tarefas ainda estão pendentes"
+    },
+    {
+      "id": "b1u02l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We expect to finish by May."
+    },
+    {
+      "id": "b1u02l5-p8",
+      "tipo": "traduzir",
+      "pt": "Qual é a situação do pedido?",
+      "respostas": [
+        "What's the status of the order?",
+        "What is the status of the order?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: dê ao professor (seu gerente) uma atualização completa de um projeto (real ou inventado): desde quando, o que já foi feito, o que falta, um problema e o prazo.",
+    "papel_professor": "Faça o papel de gerente pedindo atualização de projeto. Pergunte How long…? What have you done so far? Is there anything pending? Any delays? When do you expect to finish? Corrija tempos e 'by'.",
+    "abertura": "Hi! I've got five minutes. Can you give me a quick update on your project?",
+    "abertura_pt": "Oi! Tenho cinco minutos. Pode me dar uma atualização rápida do seu projeto?"
+  },
+  "teste": [
+    {
+      "id": "b1u02l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Estrutura correta:",
+      "opcoes": [
+        "We've been working on it since March.",
+        "We work on it since March.",
+        "We are working on it since March."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l5-t2",
+      "tipo": "completar",
+      "frase": "We haven't trained the operators ___. (ainda)",
+      "respostas": [
+        "yet"
+      ]
+    },
+    {
+      "id": "b1u02l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Here's a quick update on the project.",
+      "aceitas": [
+        "Here is a quick update on the project."
+      ]
+    },
+    {
+      "id": "b1u02l5-t4",
+      "tipo": "traduzir",
+      "pt": "Os próximos passos são testes e treinamento.",
+      "respostas": [
+        "The next steps are testing and training.",
+        "The next steps are tests and training."
+      ]
+    },
+    {
+      "id": "b1u02l5-t5",
+      "tipo": "ordenar",
+      "frase": "We've just started the tests",
+      "traducao_pt": "Acabamos de começar os testes"
+    }
+  ]
+}

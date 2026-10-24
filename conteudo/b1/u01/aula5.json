@@ -1,0 +1,371 @@
+{
+  "id": "b1-u01-l5",
+  "nivel": "B1",
+  "unidade": 1,
+  "numero": 5,
+  "titulo": "The best thing I've ever done",
+  "objetivo_pt": "Usar superlativo + present perfect (the best… I've ever…) e revisar a unidade.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: qual é o melhor lugar que você já visitou? E a melhor comida que você já comeu?",
+    "papel_professor": "Pergunte superlativos com ever: the best place you've ever visited, the worst job you've ever had, the most difficult thing you've ever done. Peça detalhes no passado.",
+    "abertura": "What's the best place you've ever visited?",
+    "abertura_pt": "Qual é o melhor lugar que você já visitou?"
+  },
+  "vocabulario": [
+    {
+      "id": "best-ever",
+      "en": "the best … I've ever …",
+      "pt": "o melhor … que eu já …",
+      "emoji": "🥇",
+      "exemplo_en": "It's the best film I've ever seen.",
+      "exemplo_pt": "É o melhor filme que já vi."
+    },
+    {
+      "id": "worst-ever",
+      "en": "the worst … I've ever …",
+      "pt": "o pior … que eu já …",
+      "emoji": "👎",
+      "exemplo_en": "That was the worst job I've ever had.",
+      "exemplo_pt": "Aquele foi o pior emprego que já tive."
+    },
+    {
+      "id": "most-difficult",
+      "en": "the most difficult",
+      "pt": "o mais difícil",
+      "emoji": "🧗",
+      "exemplo_en": "It's the most difficult thing I've ever done.",
+      "exemplo_pt": "É a coisa mais difícil que já fiz."
+    },
+    {
+      "id": "proud",
+      "en": "proud of",
+      "pt": "orgulhoso de",
+      "emoji": "😊",
+      "exemplo_en": "I'm proud of my team.",
+      "exemplo_pt": "Tenho orgulho da minha equipe."
+    },
+    {
+      "id": "challenge",
+      "en": "challenge",
+      "pt": "desafio",
+      "emoji": "⛰️",
+      "exemplo_en": "Learning English is a big challenge.",
+      "exemplo_pt": "Aprender inglês é um grande desafio."
+    },
+    {
+      "id": "decision",
+      "en": "decision",
+      "pt": "decisão",
+      "emoji": "⚖️",
+      "exemplo_en": "It was the best decision I've ever made.",
+      "exemplo_pt": "Foi a melhor decisão que já tomei."
+    },
+    {
+      "id": "make-decision",
+      "en": "make a decision",
+      "pt": "tomar uma decisão",
+      "emoji": "🤔",
+      "exemplo_en": "We made the decision together.",
+      "exemplo_pt": "Tomamos a decisão juntos."
+    },
+    {
+      "id": "scary",
+      "en": "scary / exciting",
+      "pt": "assustador / emocionante",
+      "emoji": "😱",
+      "exemplo_en": "My first flight was scary but exciting.",
+      "exemplo_pt": "Meu primeiro voo foi assustador mas emocionante."
+    },
+    {
+      "id": "unforgettable",
+      "en": "unforgettable",
+      "pt": "inesquecível",
+      "emoji": "💫",
+      "exemplo_en": "Our wedding was unforgettable.",
+      "exemplo_pt": "Nosso casamento foi inesquecível."
+    },
+    {
+      "id": "regret",
+      "en": "regret",
+      "pt": "arrepender-se",
+      "emoji": "😔",
+      "exemplo_en": "I've never regretted it.",
+      "exemplo_pt": "Nunca me arrependi."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Superlativo + present perfect",
+    "explicacao_pt": "Estrutura: THE + superlativo + substantivo + (THAT) + I'VE EVER + particípio. It's the best book I've ever read. She's the nicest person I've ever met. Para coisas que já terminaram, pode usar o passado: It was the best trip I've ever had. Revisão da unidade: present perfect (experiência, quantas vezes, período não terminado) × passado simples (quando aconteceu).",
+    "tabela": {
+      "colunas": [
+        "Começo",
+        "Final",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "the best …",
+          "I've ever seen",
+          "the best film I've ever seen"
+        ],
+        [
+          "the worst …",
+          "I've ever had",
+          "the worst day I've ever had"
+        ],
+        [
+          "the most + adj …",
+          "I've ever done",
+          "the most difficult thing I've ever done"
+        ],
+        [
+          "the nicest …",
+          "I've ever met",
+          "the nicest boss I've ever met"
+        ],
+        [
+          "the first time…",
+          "I've …",
+          "It's the first time I've tried it."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Moving to another city was the best decision we've ever made.",
+        "pt": "Mudar de cidade foi a melhor decisão que já tomamos."
+      },
+      {
+        "en": "This is the most modern plant I've ever visited.",
+        "pt": "Esta é a fábrica mais moderna que já visitei."
+      },
+      {
+        "en": "It was the scariest experience I've ever had. I was stuck in an elevator for two hours.",
+        "pt": "Foi a experiência mais assustadora que já tive. Fiquei preso num elevador por duas horas."
+      },
+      {
+        "en": "I've never regretted changing jobs.",
+        "pt": "Nunca me arrependi de mudar de emprego."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Proud moments",
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Today on the company podcast: proud moments. Elisa, what's the best thing you've ever done at work?",
+        "pt": "Hoje no podcast da empresa: momentos de orgulho. Elisa, qual é a melhor coisa que você já fez no trabalho?"
+      },
+      {
+        "personagem": "Elisa",
+        "voz": "b",
+        "en": "Probably the safety project. Two years ago we redesigned the press area.",
+        "pt": "Provavelmente o projeto de segurança. Há dois anos redesenhamos a área das prensas."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "And what were the results?",
+        "pt": "E quais foram os resultados?"
+      },
+      {
+        "personagem": "Elisa",
+        "voz": "b",
+        "en": "We haven't had a single accident since then. I'm really proud of the team.",
+        "pt": "Não tivemos nenhum acidente desde então. Tenho muito orgulho da equipe."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "What's the most difficult challenge you've ever faced?",
+        "pt": "Qual é o desafio mais difícil que você já enfrentou?"
+      },
+      {
+        "personagem": "Elisa",
+        "voz": "b",
+        "en": "Giving my first presentation in English! I was so nervous, but it went well.",
+        "pt": "Fazer minha primeira apresentação em inglês! Estava muito nervosa, mas foi bem."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Any regrets?",
+        "pt": "Algum arrependimento?"
+      },
+      {
+        "personagem": "Elisa",
+        "voz": "b",
+        "en": "No. Joining this company was the best decision I've ever made.",
+        "pt": "Não. Entrar nesta empresa foi a melhor decisão que já tomei."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Elisa's proudest project?",
+        "opcoes": [
+          "A safety project",
+          "A sales project",
+          "A new product"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l5-e2",
+        "tipo": "multipla",
+        "enunciado": "When did they redesign the press area?",
+        "opcoes": [
+          "Last month",
+          "Two years ago",
+          "Five years ago"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What was her most difficult challenge?",
+        "opcoes": [
+          "Her first presentation in English",
+          "Changing jobs",
+          "Moving house"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What was the best decision she's ever made?",
+        "opcoes": [
+          "Joining the company",
+          "Learning Spanish",
+          "Moving abroad"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u01l5-p1",
+      "tipo": "completar",
+      "frase": "It's the best film I've ___ seen.",
+      "respostas": [
+        "ever"
+      ]
+    },
+    {
+      "id": "b1u01l5-p2",
+      "tipo": "completar",
+      "frase": "It's the ___ difficult thing I've ever done.",
+      "respostas": [
+        "most"
+      ]
+    },
+    {
+      "id": "b1u01l5-p3",
+      "tipo": "completar",
+      "frase": "I'm proud ___ my team.",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "b1u01l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Foi a melhor decisão que já tomei\":",
+      "opcoes": [
+        "It was the best decision I've ever made.",
+        "It was the best decision I've ever did.",
+        "It was the better decision I ever made."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Nunca me arrependi\":",
+      "opcoes": [
+        "I've never regretted it.",
+        "I never have regret it.",
+        "I didn't never regret it."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l5-p6",
+      "tipo": "ordenar",
+      "frase": "Learning English is a big challenge",
+      "traducao_pt": "Aprender inglês é um grande desafio"
+    },
+    {
+      "id": "b1u01l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She's the nicest person I've ever met.",
+      "aceitas": [
+        "She is the nicest person I have ever met."
+      ]
+    },
+    {
+      "id": "b1u01l5-p8",
+      "tipo": "traduzir",
+      "pt": "Nosso casamento foi inesquecível.",
+      "respostas": [
+        "Our wedding was unforgettable."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: conte ao professor o momento de que você mais se orgulha (no trabalho ou na vida). Use present perfect para a experiência e o passado simples para os detalhes.",
+    "papel_professor": "Entreviste o aluno como num podcast: proudest moment, most difficult challenge, best decision, any regrets. Peça detalhes no passado. Corrija tempos e superlativos.",
+    "abertura": "Welcome to the podcast! What's the thing you're most proud of in your life?",
+    "abertura_pt": "Bem-vindo ao podcast! Qual é a coisa de que você mais se orgulha na vida?"
+  },
+  "teste": [
+    {
+      "id": "b1u01l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"This is the most modern plant I ___.\"",
+      "opcoes": [
+        "'ve ever visited",
+        "ever visit",
+        "visited ever"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l5-t2",
+      "tipo": "completar",
+      "frase": "That was the ___ job I've ever had. (pior)",
+      "respostas": [
+        "worst"
+      ]
+    },
+    {
+      "id": "b1u01l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It was the best decision I've ever made.",
+      "aceitas": [
+        "It was the best decision I have ever made."
+      ]
+    },
+    {
+      "id": "b1u01l5-t4",
+      "tipo": "traduzir",
+      "pt": "Tenho orgulho da minha equipe.",
+      "respostas": [
+        "I'm proud of my team.",
+        "I am proud of my team."
+      ]
+    },
+    {
+      "id": "b1u01l5-t5",
+      "tipo": "ordenar",
+      "frase": "We made the decision together",
+      "traducao_pt": "Tomamos a decisão juntos"
+    }
+  ]
+}

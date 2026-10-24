@@ -1,0 +1,371 @@
+{
+  "id": "b1-u01-l1",
+  "nivel": "B1",
+  "unidade": 1,
+  "numero": 1,
+  "titulo": "Have you ever…?",
+  "objetivo_pt": "Perguntar e contar experiências de vida com o present perfect (ever/never).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre coisas que você já fez (ou nunca fez) na vida. Responda com \"I have…\" ou \"I have never…\".",
+    "papel_professor": "Pergunte experiências com Have you ever…? (been abroad, eaten sushi, worked at night, driven a truck). Ensine 'I've…/I've never…'. Corrija 'I have went' → 'I have gone/been'.",
+    "abertura": "Have you ever been to another country?",
+    "abertura_pt": "Você já foi para outro país?"
+  },
+  "vocabulario": [
+    {
+      "id": "ever",
+      "en": "ever",
+      "pt": "alguma vez / já",
+      "emoji": "❓",
+      "exemplo_en": "Have you ever been to Chile?",
+      "exemplo_pt": "Você já foi ao Chile?"
+    },
+    {
+      "id": "never",
+      "en": "never",
+      "pt": "nunca",
+      "emoji": "🚫",
+      "exemplo_en": "I've never eaten sushi.",
+      "exemplo_pt": "Nunca comi sushi."
+    },
+    {
+      "id": "been",
+      "en": "been (to)",
+      "pt": "ido / estado (em)",
+      "emoji": "✈️",
+      "exemplo_en": "I've been to Argentina twice.",
+      "exemplo_pt": "Já fui à Argentina duas vezes."
+    },
+    {
+      "id": "once-twice",
+      "en": "once / twice / three times",
+      "pt": "uma vez / duas vezes / três vezes",
+      "emoji": "🔁",
+      "exemplo_en": "I've flown only once.",
+      "exemplo_pt": "Só voei uma vez."
+    },
+    {
+      "id": "try",
+      "en": "try",
+      "pt": "experimentar / tentar",
+      "emoji": "🍣",
+      "exemplo_en": "Have you ever tried Japanese food?",
+      "exemplo_pt": "Você já experimentou comida japonesa?"
+    },
+    {
+      "id": "meet-famous",
+      "en": "meet someone famous",
+      "pt": "conhecer alguém famoso",
+      "emoji": "🌟",
+      "exemplo_en": "I've never met anyone famous.",
+      "exemplo_pt": "Nunca conheci ninguém famoso."
+    },
+    {
+      "id": "win",
+      "en": "win / won",
+      "pt": "ganhar / ganhou",
+      "emoji": "🏆",
+      "exemplo_en": "Have you ever won a prize?",
+      "exemplo_pt": "Você já ganhou um prêmio?"
+    },
+    {
+      "id": "lose-lost",
+      "en": "lose / lost",
+      "pt": "perder / perdido",
+      "emoji": "🔎",
+      "exemplo_en": "I've lost my phone three times.",
+      "exemplo_pt": "Já perdi meu celular três vezes."
+    },
+    {
+      "id": "experience",
+      "en": "experience",
+      "pt": "experiência",
+      "emoji": "🧭",
+      "exemplo_en": "It was a great experience.",
+      "exemplo_pt": "Foi uma ótima experiência."
+    },
+    {
+      "id": "in-my-life",
+      "en": "in my life",
+      "pt": "na minha vida",
+      "emoji": "🌱",
+      "exemplo_en": "I've never been so happy in my life.",
+      "exemplo_pt": "Nunca estive tão feliz na minha vida."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present perfect para experiências",
+    "explicacao_pt": "Formação: HAVE/HAS + particípio (3ª forma do verbo). I have (I've) worked. She has (She's) been. Use para experiências de vida SEM dizer quando: I've been to Peru. Pergunta: Have you ever + particípio? Resposta curta: Yes, I have. / No, I haven't. NEVER = nunca (I've never…). Particípios regulares terminam em -ed (worked); irregulares precisam ser decorados: be→been, go→gone/been, eat→eaten, see→seen, do→done, drive→driven, fly→flown, meet→met, win→won.",
+    "tabela": {
+      "colunas": [
+        "Verbo",
+        "Passado",
+        "Particípio"
+      ],
+      "linhas": [
+        [
+          "be",
+          "was/were",
+          "been"
+        ],
+        [
+          "eat",
+          "ate",
+          "eaten"
+        ],
+        [
+          "see",
+          "saw",
+          "seen"
+        ],
+        [
+          "drive",
+          "drove",
+          "driven"
+        ],
+        [
+          "fly",
+          "flew",
+          "flown"
+        ],
+        [
+          "meet",
+          "met",
+          "met"
+        ],
+        [
+          "do",
+          "did",
+          "done"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Have you ever worked at night? — Yes, I have. For two years.",
+        "pt": "Você já trabalhou à noite? — Sim. Por dois anos."
+      },
+      {
+        "en": "She's never driven a truck.",
+        "pt": "Ela nunca dirigiu um caminhão."
+      },
+      {
+        "en": "We've been to Rio three times.",
+        "pt": "Já fomos ao Rio três vezes."
+      },
+      {
+        "en": "Have they ever met the CEO? — No, they haven't.",
+        "pt": "Eles já conheceram o presidente? — Não."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Getting to know a new colleague",
+    "falas": [
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "So, Diego, have you ever worked in a factory before?",
+        "pt": "Então, Diego, você já trabalhou numa fábrica antes?"
+      },
+      {
+        "personagem": "Diego",
+        "voz": "b",
+        "en": "Yes, I have. I've worked in two factories: a food plant and a paper mill.",
+        "pt": "Sim. Já trabalhei em duas fábricas: uma de alimentos e uma de papel."
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "Interesting! Have you ever driven a forklift?",
+        "pt": "Interessante! Você já dirigiu empilhadeira?"
+      },
+      {
+        "personagem": "Diego",
+        "voz": "b",
+        "en": "No, I haven't. But I'd like to take the course.",
+        "pt": "Não. Mas gostaria de fazer o curso."
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "And have you ever been abroad?",
+        "pt": "E você já foi para o exterior?"
+      },
+      {
+        "personagem": "Diego",
+        "voz": "b",
+        "en": "Only once. I've been to Paraguay. What about you?",
+        "pt": "Só uma vez. Fui ao Paraguai. E você?"
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "I've never left Brazil, but I've visited almost every state!",
+        "pt": "Nunca saí do Brasil, mas já visitei quase todos os estados!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How many factories has Diego worked in?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Has Diego ever driven a forklift?",
+        "opcoes": [
+          "Yes, he has.",
+          "No, he hasn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Which country has Diego been to?",
+        "opcoes": [
+          "Paraguay",
+          "Argentina",
+          "Chile"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l1-e4",
+        "tipo": "multipla",
+        "enunciado": "Has Paula ever been abroad?",
+        "opcoes": [
+          "Yes, many times.",
+          "No, she has never left Brazil."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u01l1-p1",
+      "tipo": "completar",
+      "frase": "Have you ___ been to Chile? (alguma vez)",
+      "respostas": [
+        "ever"
+      ]
+    },
+    {
+      "id": "b1u01l1-p2",
+      "tipo": "completar",
+      "frase": "I've ___ eaten sushi. (nunca)",
+      "respostas": [
+        "never"
+      ]
+    },
+    {
+      "id": "b1u01l1-p3",
+      "tipo": "completar",
+      "frase": "She has ___ a truck. (dirigido)",
+      "respostas": [
+        "driven"
+      ]
+    },
+    {
+      "id": "b1u01l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Resposta curta para \"Have you ever flown?\":",
+      "opcoes": [
+        "Yes, I have.",
+        "Yes, I did.",
+        "Yes, I flown."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I have went to Peru.",
+        "I have been to Peru.",
+        "I have be to Peru."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l1-p6",
+      "tipo": "ordenar",
+      "frase": "Have you ever won a prize?",
+      "traducao_pt": "Você já ganhou um prêmio?"
+    },
+    {
+      "id": "b1u01l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I've lost my phone three times.",
+      "aceitas": [
+        "I have lost my phone three times."
+      ]
+    },
+    {
+      "id": "b1u01l1-p8",
+      "tipo": "traduzir",
+      "pt": "Nunca conheci ninguém famoso.",
+      "respostas": [
+        "I've never met anyone famous.",
+        "I have never met anyone famous."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Jogo \"Have you ever…?\": você e o professor fazem perguntas um ao outro sobre experiências. Faça pelo menos 4 perguntas.",
+    "papel_professor": "Jogue 'Have you ever…?'. Alterne perguntas e respostas. Quando o aluno disser 'yes', peça um detalhe (When? Where?), mas ainda não ensine o contraste com o passado (próxima aula). Corrija particípios.",
+    "abertura": "Let's play a game! Have you ever slept in a tent?",
+    "abertura_pt": "Vamos jogar! Você já dormiu numa barraca?"
+  },
+  "teste": [
+    {
+      "id": "b1u01l1-t1",
+      "tipo": "completar",
+      "frase": "They've ___ to Rio twice. (ido)",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b1u01l1-t2",
+      "tipo": "multipla",
+      "enunciado": "Particípio de \"see\":",
+      "opcoes": [
+        "saw",
+        "seen",
+        "seed"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Have you ever tried Japanese food?"
+    },
+    {
+      "id": "b1u01l1-t4",
+      "tipo": "traduzir",
+      "pt": "Você já trabalhou à noite?",
+      "respostas": [
+        "Have you ever worked at night?",
+        "Have you ever worked nights?"
+      ]
+    },
+    {
+      "id": "b1u01l1-t5",
+      "tipo": "ordenar",
+      "frase": "I've flown only once",
+      "traducao_pt": "Só voei uma vez"
+    }
+  ]
+}

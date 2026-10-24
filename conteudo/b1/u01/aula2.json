@@ -1,0 +1,359 @@
+{
+  "id": "b1-u01-l2",
+  "nivel": "B1",
+  "unidade": 1,
+  "numero": 2,
+  "titulo": "When did you do it?",
+  "objetivo_pt": "Diferenciar present perfect (experiência) e passado simples (quando aconteceu).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar se você já fez algo e depois pedir detalhes: quando, onde, com quem.",
+    "papel_professor": "Faça Have you ever…? e, quando o aluno disser sim, pergunte When did you…? Where did you…? Mostre a troca: experiência → present perfect; detalhe com tempo → past simple.",
+    "abertura": "Have you ever had an accident at work?",
+    "abertura_pt": "Você já teve algum acidente no trabalho?"
+  },
+  "vocabulario": [
+    {
+      "id": "last-year",
+      "en": "last year / in 2019",
+      "pt": "ano passado / em 2019",
+      "emoji": "📅",
+      "exemplo_en": "I went to Peru in 2019.",
+      "exemplo_pt": "Fui ao Peru em 2019."
+    },
+    {
+      "id": "ago",
+      "en": "ago",
+      "pt": "atrás",
+      "emoji": "⏪",
+      "exemplo_en": "I started this job five years ago.",
+      "exemplo_pt": "Comecei neste emprego há cinco anos."
+    },
+    {
+      "id": "when-did",
+      "en": "When did you…?",
+      "pt": "Quando você…?",
+      "emoji": "🕒",
+      "exemplo_en": "When did you go there?",
+      "exemplo_pt": "Quando você foi lá?"
+    },
+    {
+      "id": "how-was",
+      "en": "How was it?",
+      "pt": "Como foi?",
+      "emoji": "🙂",
+      "exemplo_en": "How was the trip?",
+      "exemplo_pt": "Como foi a viagem?"
+    },
+    {
+      "id": "enjoy",
+      "en": "enjoy",
+      "pt": "curtir / gostar",
+      "emoji": "😄",
+      "exemplo_en": "Did you enjoy it?",
+      "exemplo_pt": "Você gostou?"
+    },
+    {
+      "id": "amazing",
+      "en": "amazing / awful",
+      "pt": "incrível / horrível",
+      "emoji": "🤩",
+      "exemplo_en": "The food was amazing.",
+      "exemplo_pt": "A comida estava incrível."
+    },
+    {
+      "id": "take-course",
+      "en": "take a course",
+      "pt": "fazer um curso",
+      "emoji": "🎓",
+      "exemplo_en": "I took a welding course last year.",
+      "exemplo_pt": "Fiz um curso de solda ano passado."
+    },
+    {
+      "id": "promoted",
+      "en": "get promoted",
+      "pt": "ser promovido",
+      "emoji": "📈",
+      "exemplo_en": "She got promoted in March.",
+      "exemplo_pt": "Ela foi promovida em março."
+    },
+    {
+      "id": "move",
+      "en": "move (house/city)",
+      "pt": "mudar (de casa/cidade)",
+      "emoji": "🏠",
+      "exemplo_en": "We moved to Curitiba in 2020.",
+      "exemplo_pt": "Mudamos para Curitiba em 2020."
+    },
+    {
+      "id": "yet-time",
+      "en": "at that time",
+      "pt": "naquela época",
+      "emoji": "🕰️",
+      "exemplo_en": "At that time, I lived with my parents.",
+      "exemplo_pt": "Naquela época, eu morava com meus pais."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present perfect × passado simples",
+    "explicacao_pt": "PRESENT PERFECT = a experiência, sem tempo definido: I've been to Peru. PASSADO SIMPLES = quando você diz ou pergunta QUANDO (yesterday, last year, in 2019, two years ago, when I was a child): I went to Peru in 2019. Numa conversa, é comum começar com o present perfect e mudar para o passado nos detalhes: Have you ever been to Peru? — Yes, I have. I went there in 2019. — Did you like it? — Yes, it was amazing. Erro comum: 'I have been to Peru last year' (errado!) → 'I went to Peru last year'.",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Tempo verbal",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Experiência (sem quando)",
+          "present perfect",
+          "I've worked in Chile."
+        ],
+        [
+          "Com quando",
+          "past simple",
+          "I worked in Chile in 2018."
+        ],
+        [
+          "Pergunta geral",
+          "Have you ever…?",
+          "Have you ever been promoted?"
+        ],
+        [
+          "Pergunta de detalhe",
+          "When / Where did…?",
+          "When did you get promoted?"
+        ],
+        [
+          "Palavras do passado",
+          "yesterday, ago, last…, in 2019",
+          "I moved two years ago."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Have you ever taken a course abroad? — Yes, I took a course in Spain in 2021.",
+        "pt": "Você já fez curso no exterior? — Sim, fiz um curso na Espanha em 2021."
+      },
+      {
+        "en": "I've met the director. I met him at the Christmas party.",
+        "pt": "Já conheci o diretor. Conheci na festa de Natal."
+      },
+      {
+        "en": "She's been promoted twice. The last time was in March.",
+        "pt": "Ela já foi promovida duas vezes. A última foi em março."
+      },
+      {
+        "en": "We've never moved. We've always lived in this house.",
+        "pt": "Nunca nos mudamos. Sempre moramos nesta casa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A story from the past",
+    "falas": [
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Have you ever lost your luggage at an airport?",
+        "pt": "Você já perdeu a bagagem num aeroporto?"
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "Yes, I have, unfortunately. It happened three years ago in Lisbon.",
+        "pt": "Sim, infelizmente. Aconteceu há três anos em Lisboa."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Oh no! What did you do?",
+        "pt": "Ah, não! O que você fez?"
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "I went to the airline desk and filled in a form. They found it two days later.",
+        "pt": "Fui ao balcão da companhia e preenchi um formulário. Encontraram dois dias depois."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Two days! What did you wear?",
+        "pt": "Dois dias! O que você vestiu?"
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "I bought some clothes. The airline paid for them, luckily.",
+        "pt": "Comprei umas roupas. A companhia pagou, por sorte."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "I've never lost my luggage, but I've missed a flight once.",
+        "pt": "Nunca perdi a bagagem, mas já perdi um voo uma vez."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01l2-e1",
+        "tipo": "multipla",
+        "enunciado": "When did Bruno lose his luggage?",
+        "opcoes": [
+          "Last year",
+          "Three years ago",
+          "Two days ago"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Where did it happen?",
+        "opcoes": [
+          "In Lisbon",
+          "In Madrid",
+          "In São Paulo"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l2-e3",
+        "tipo": "multipla",
+        "enunciado": "When did they find it?",
+        "opcoes": [
+          "The same day",
+          "Two days later",
+          "Never"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l2-e4",
+        "tipo": "multipla",
+        "enunciado": "Who paid for the clothes?",
+        "opcoes": [
+          "Bruno",
+          "The airline",
+          "Ana"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u01l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ to Peru in 2019. (fui)",
+      "respostas": [
+        "went"
+      ]
+    },
+    {
+      "id": "b1u01l2-p2",
+      "tipo": "completar",
+      "frase": "I've ___ to Peru. (já fui)",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b1u01l2-p3",
+      "tipo": "completar",
+      "frase": "When ___ you get promoted?",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "b1u01l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I have moved last year.",
+        "I moved last year."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Com 'last year' (tempo definido) usamos o passado simples."
+    },
+    {
+      "id": "b1u01l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "Have you ever seen snow?",
+        "Did you ever seen snow?",
+        "Have you ever saw snow?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l2-p6",
+      "tipo": "ordenar",
+      "frase": "I started this job five years ago",
+      "traducao_pt": "Comecei neste emprego há cinco anos"
+    },
+    {
+      "id": "b1u01l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "How was the trip?"
+    },
+    {
+      "id": "b1u01l2-p8",
+      "tipo": "traduzir",
+      "pt": "Fiz um curso de solda ano passado.",
+      "respostas": [
+        "I took a welding course last year.",
+        "I did a welding course last year."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor 3 experiências marcantes da sua vida (present perfect) e dê os detalhes de cada uma (passado simples: quando, onde, como foi).",
+    "papel_professor": "Peça experiências marcantes e depois detalhes (When did…? What happened? How did you feel?). Corrija mistura de tempos (ex: 'I have gone there in 2019').",
+    "abertura": "Tell me about something amazing that you've done in your life.",
+    "abertura_pt": "Me conte algo incrível que você já fez na vida."
+  },
+  "teste": [
+    {
+      "id": "b1u01l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"I ___ the director at the party last week.\"",
+      "opcoes": [
+        "have met",
+        "met",
+        "meet"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l2-t2",
+      "tipo": "completar",
+      "frase": "She's ___ promoted twice. (sido)",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b1u01l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "When did you go there?"
+    },
+    {
+      "id": "b1u01l2-t4",
+      "tipo": "traduzir",
+      "pt": "Mudamos para Curitiba em 2020.",
+      "respostas": [
+        "We moved to Curitiba in 2020."
+      ]
+    },
+    {
+      "id": "b1u01l2-t5",
+      "tipo": "ordenar",
+      "frase": "I've never lost my luggage",
+      "traducao_pt": "Nunca perdi minha bagagem"
+    }
+  ]
+}

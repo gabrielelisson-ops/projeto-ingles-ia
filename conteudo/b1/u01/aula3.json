@@ -1,0 +1,361 @@
+{
+  "id": "b1-u01-l3",
+  "nivel": "B1",
+  "unidade": 1,
+  "numero": 3,
+  "titulo": "Gone or been?",
+  "objetivo_pt": "Usar been × gone, how many times e expressões como \"the first time\".",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar quantas vezes você fez certas coisas. Responda com once, twice, three times, many times.",
+    "papel_professor": "Pergunte How many times have you…? (been to the beach this year, changed jobs, moved house). Mostre a diferença been (foi e voltou) × gone (foi e está lá).",
+    "abertura": "How many times have you changed jobs?",
+    "abertura_pt": "Quantas vezes você já mudou de emprego?"
+  },
+  "vocabulario": [
+    {
+      "id": "been-gone",
+      "en": "been × gone",
+      "pt": "foi e voltou × foi e está lá",
+      "emoji": "↔️",
+      "exemplo_en": "She's gone to the bank. She'll be back soon.",
+      "exemplo_pt": "Ela foi ao banco. Já volta."
+    },
+    {
+      "id": "how-many-times",
+      "en": "How many times…?",
+      "pt": "Quantas vezes…?",
+      "emoji": "🔢",
+      "exemplo_en": "How many times have you been to Rio?",
+      "exemplo_pt": "Quantas vezes você já foi ao Rio?"
+    },
+    {
+      "id": "many-times",
+      "en": "many times / several times",
+      "pt": "muitas vezes / várias vezes",
+      "emoji": "🔁",
+      "exemplo_en": "I've done it several times.",
+      "exemplo_pt": "Já fiz isso várias vezes."
+    },
+    {
+      "id": "first-time",
+      "en": "It's the first time I've…",
+      "pt": "É a primeira vez que eu…",
+      "emoji": "1️⃣",
+      "exemplo_en": "It's the first time I've used this machine.",
+      "exemplo_pt": "É a primeira vez que uso esta máquina."
+    },
+    {
+      "id": "change-jobs",
+      "en": "change jobs",
+      "pt": "mudar de emprego",
+      "emoji": "🔄",
+      "exemplo_en": "He's changed jobs three times.",
+      "exemplo_pt": "Ele já mudou de emprego três vezes."
+    },
+    {
+      "id": "visit",
+      "en": "visit",
+      "pt": "visitar",
+      "emoji": "🏛️",
+      "exemplo_en": "We've visited that supplier twice.",
+      "exemplo_pt": "Já visitamos esse fornecedor duas vezes."
+    },
+    {
+      "id": "break-arm",
+      "en": "break (broke, broken)",
+      "pt": "quebrar",
+      "emoji": "🦴",
+      "exemplo_en": "I've broken my arm once.",
+      "exemplo_pt": "Já quebrei o braço uma vez."
+    },
+    {
+      "id": "fall-asleep",
+      "en": "fall asleep",
+      "pt": "pegar no sono",
+      "emoji": "😴",
+      "exemplo_en": "I've fallen asleep on the bus many times.",
+      "exemplo_pt": "Já dormi no ônibus muitas vezes."
+    },
+    {
+      "id": "forget",
+      "en": "forget (forgot, forgotten)",
+      "pt": "esquecer",
+      "emoji": "🤦",
+      "exemplo_en": "I've forgotten my badge twice this week.",
+      "exemplo_pt": "Esqueci meu crachá duas vezes esta semana."
+    },
+    {
+      "id": "so-far-l3",
+      "en": "so far",
+      "pt": "até agora",
+      "emoji": "📍",
+      "exemplo_en": "I've had three meetings so far today.",
+      "exemplo_pt": "Tive três reuniões até agora hoje."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Been × gone e quantas vezes",
+    "explicacao_pt": "BEEN TO = foi e voltou (experiência): He's been to Japan (já esteve lá). GONE TO = foi e ainda está lá ou a caminho: He's gone to Japan (está lá agora). Para contar: once, twice, three times, many times, several times. Pergunta: How many times have you…? Com períodos que ainda não acabaram (today, this week, this year), usamos present perfect: I've had three coffees today. Depois de 'It's the first/second time…' usamos present perfect: It's the first time I've been here.",
+    "tabela": {
+      "colunas": [
+        "Frase",
+        "Sentido",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "She's been to the bank.",
+          "foi e voltou",
+          "Ela foi ao banco (já voltou)."
+        ],
+        [
+          "She's gone to the bank.",
+          "ainda não voltou",
+          "Ela foi ao banco (está lá)."
+        ],
+        [
+          "I've called him twice today.",
+          "período não terminou",
+          "Liguei para ele duas vezes hoje."
+        ],
+        [
+          "It's the first time I've flown.",
+          "primeira vez",
+          "É a primeira vez que voo."
+        ],
+        [
+          "How many times have you…?",
+          "contagem",
+          "Quantas vezes você já…?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where's Marta? — She's gone to lunch.",
+        "pt": "Cadê a Marta? — Foi almoçar."
+      },
+      {
+        "en": "I've been to that restaurant many times. It's great.",
+        "pt": "Já fui a esse restaurante muitas vezes. É ótimo."
+      },
+      {
+        "en": "It's the first time I've given a presentation in English.",
+        "pt": "É a primeira vez que faço uma apresentação em inglês."
+      },
+      {
+        "en": "The machine has stopped four times this week.",
+        "pt": "A máquina já parou quatro vezes esta semana."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Where is everybody?",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Where's Tiago? I need the production report.",
+        "pt": "Cadê o Tiago? Preciso do relatório de produção."
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "He's gone to the warehouse. He'll be back in ten minutes.",
+        "pt": "Ele foi ao armazém. Volta em dez minutos."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "And Carla?",
+        "pt": "E a Carla?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "She's gone to São Paulo for a training course. She's back on Monday.",
+        "pt": "Ela foi a São Paulo fazer um treinamento. Volta na segunda."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Has line 3 stopped again?",
+        "pt": "A linha 3 parou de novo?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Yes, it's stopped three times today. The maintenance team has been there twice.",
+        "pt": "Sim, parou três vezes hoje. A manutenção já foi lá duas vezes."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Three times! It's the first time I've seen so many stops in one day.",
+        "pt": "Três vezes! É a primeira vez que vejo tantas paradas num dia."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is Tiago?",
+        "opcoes": [
+          "In the warehouse",
+          "In São Paulo",
+          "At home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l3-e2",
+        "tipo": "multipla",
+        "enunciado": "When is Carla back?",
+        "opcoes": [
+          "Today",
+          "On Monday",
+          "Next month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How many times has line 3 stopped today?",
+        "opcoes": [
+          "Twice",
+          "Three times",
+          "Four times"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l3-e4",
+        "tipo": "multipla",
+        "enunciado": "How many times has maintenance been there?",
+        "opcoes": [
+          "Once",
+          "Twice",
+          "Three times"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u01l3-p1",
+      "tipo": "completar",
+      "frase": "He's ___ to the bank. He's not here. (foi)",
+      "respostas": [
+        "gone"
+      ]
+    },
+    {
+      "id": "b1u01l3-p2",
+      "tipo": "completar",
+      "frase": "I've ___ to Japan twice. (estive)",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b1u01l3-p3",
+      "tipo": "completar",
+      "frase": "How many ___ have you changed jobs?",
+      "respostas": [
+        "times"
+      ]
+    },
+    {
+      "id": "b1u01l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"É a primeira vez que uso esta máquina\":",
+      "opcoes": [
+        "It's the first time I use this machine.",
+        "It's the first time I've used this machine."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Já esqueci meu crachá duas vezes esta semana\":",
+      "opcoes": [
+        "I've forgotten my badge twice this week.",
+        "I forgot my badge twice next week.",
+        "I've forgot my badge twice."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l3-p6",
+      "tipo": "ordenar",
+      "frase": "I've had three meetings so far today",
+      "traducao_pt": "Tive três reuniões até agora hoje"
+    },
+    {
+      "id": "b1u01l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She's gone to lunch.",
+      "aceitas": [
+        "She has gone to lunch."
+      ]
+    },
+    {
+      "id": "b1u01l3-p8",
+      "tipo": "traduzir",
+      "pt": "Já quebrei o braço uma vez.",
+      "respostas": [
+        "I've broken my arm once.",
+        "I have broken my arm once."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai perguntar \"How many times…?\" sobre várias coisas da sua vida e do trabalho. Responda e faça perguntas de volta.",
+    "papel_professor": "Pergunte How many times have you… (been to the doctor this year, been late this month, flown, changed address). Use também 'It's the first time…'. Corrija been/gone e particípios.",
+    "abertura": "How many times have you been late for work this month?",
+    "abertura_pt": "Quantas vezes você chegou atrasado ao trabalho este mês?"
+  },
+  "teste": [
+    {
+      "id": "b1u01l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Ela foi ao banco (e ainda não voltou)\":",
+      "opcoes": [
+        "She's been to the bank.",
+        "She's gone to the bank."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l3-t2",
+      "tipo": "completar",
+      "frase": "I've ___ asleep on the bus many times. (pegado no sono)",
+      "respostas": [
+        "fallen"
+      ]
+    },
+    {
+      "id": "b1u01l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "How many times have you been to Rio?"
+    },
+    {
+      "id": "b1u01l3-t4",
+      "tipo": "traduzir",
+      "pt": "Já visitamos esse fornecedor duas vezes.",
+      "respostas": [
+        "We've visited that supplier twice.",
+        "We have visited that supplier twice."
+      ]
+    },
+    {
+      "id": "b1u01l3-t5",
+      "tipo": "ordenar",
+      "frase": "It's the first time I've flown",
+      "traducao_pt": "É a primeira vez que voo"
+    }
+  ]
+}
