@@ -26,6 +26,8 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^22.20.5",
     "@types/react": "~19.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~58.0.4",
     "jest": "^30.5.2",
     "jest-expo": "~58.0.12",
     "tsx": "^4.23.15",
@@ -37,8 +39,9 @@
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "conteudo:indice": "node scripts/gerar-indice.js",
-    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && jest",
-    "gerar": "tsx scripts/gerar-conteudo.ts"
+    "verificar": "node scripts/gerar-indice.js && tsc --noEmit && eslint src testes scripts && jest",
+    "gerar": "tsx scripts/gerar-conteudo.ts",
+    "lint": "eslint src testes scripts"
   },
   "private": true,
   "jest": {

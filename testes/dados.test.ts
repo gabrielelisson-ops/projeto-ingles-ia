@@ -2,12 +2,13 @@
  * Testa o SQL de verdade usando o SQLite embutido no Node,
  * no lugar do SQLite do celular (mesma linguagem SQL).
  */
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { DatabaseSync } = require('node:sqlite');
 import { migrar, type Banco, type Valor } from '../src/dados/banco';
 import * as repo from '../src/dados/repositorio';
 import { statusCurso } from '../src/logica/desbloqueio';
 import { DIA_MS } from '../src/logica/sm2';
+
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { DatabaseSync } = require('node:sqlite');
 
 function bancoDeTeste(): Banco {
   const d = new DatabaseSync(':memory:');

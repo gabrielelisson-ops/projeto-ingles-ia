@@ -1,5 +1,4 @@
 // ARQUIVO GERADO por scripts/gerar-indice.js — não edite à mão.
-/* eslint-disable */
 export const CURRICULO_BRUTO: unknown = require('../../conteudo/curriculo.json');
 
 export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown }[] = [

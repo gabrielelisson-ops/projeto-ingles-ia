@@ -2,7 +2,7 @@
  * Configurações: chave da IA, voz (sotaque e velocidade), modelos da IA,
  * nomes dos perfis e erros nos arquivos de conteúdo.
  */
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Linking, StyleSheet, TextInput } from 'react-native';
 import * as repo from '../dados/repositorio';
 import { MODELO_VALIDO, useApp } from '../estado/AppContext';
@@ -24,7 +24,6 @@ export default function Configuracoes() {
   const [ma, setMa] = useState(prefs.modelos.avaliacao);
   const [msgModelo, setMsgModelo] = useState<string | null>(null);
 
-  useEffect(() => setNomes(Object.fromEntries(perfis.map((p) => [p.id, p.nome]))), [perfis]);
 
   async function guardar() {
     try {
@@ -111,17 +110,17 @@ export default function Configuracoes() {
           <Linha key={p.id}>
             <TextInput
               style={[st.entrada, { flex: 1 }]}
-              value={nomes[p.id] ?? ''}
+              value={nomes[p.id] ?? p.nome}
               onChangeText={(t) => setNomes({ ...nomes, [p.id]: t })}
               maxLength={repo.NOME_MAX}
             />
             <Botao
               tipo="secundario"
               titulo="Salvar"
-              desativado={(nomes[p.id] ?? '') === p.nome}
+              desativado={(nomes[p.id] ?? p.nome).trim() === p.nome}
               onPress={async () => {
                 try {
-                  await repo.renomearPerfil(db, p.id, nomes[p.id] ?? '');
+                  await repo.renomearPerfil(db, p.id, nomes[p.id] ?? p.nome);
                   await recarregar();
                   setMsgPerfil('Nome salvo.');
                 } catch (e) {

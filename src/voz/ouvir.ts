@@ -3,7 +3,7 @@
  * Uso: segurar o botão chama iniciar(); soltar chama parar(). O texto final
  * chega em onFinal, junto com quantos segundos o aluno falou.
  */
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { ExpoSpeechRecognitionModule, useSpeechRecognitionEvent } from 'expo-speech-recognition';
 import { pararFala } from './falar';
 
@@ -26,7 +26,9 @@ export function useReconhecimento(onFinal: (texto: string, segundos: number) => 
   const ativo = useRef(false);
   const soltou = useRef(false);
   const callback = useRef(onFinal);
-  callback.current = onFinal;
+  useEffect(() => {
+    callback.current = onFinal;
+  });
 
   useSpeechRecognitionEvent('result', (ev) => {
     const t = ev.results[0]?.transcript ?? '';

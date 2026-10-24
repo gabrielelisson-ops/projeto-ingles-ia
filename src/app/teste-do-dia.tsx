@@ -3,7 +3,7 @@
  * O sorteio muda a cada dia. Não altera o desbloqueio; os erros vão para a revisão.
  */
 import { router } from 'expo-router';
-import { useMemo, useRef, useState } from 'react';
+import { useState } from 'react';
 import { aulasConcluidas } from '../conteudo/curso';
 import * as repo from '../dados/repositorio';
 import { useApp } from '../estado/AppContext';
@@ -11,19 +11,19 @@ import { diaLocal, embaralhar, sementeDeTexto } from '../logica/estatisticas';
 import { respostaCerta } from '../logica/respostas';
 import { Aviso, Botao, Paragrafo, Tela, Titulo } from '../ui/base';
 import { SequenciaExercicios } from '../ui/Exercicio';
+import { segundosDesde, useInicio } from '../ui/useInicio';
 
 export default function TesteDoDia() {
   const { curso, progresso, db, perfil, nivel } = useApp();
   const [fim, setFim] = useState<number | null>(null);
-  const inicio = useRef(Date.now());
+  const inicio = useInicio();
 
-  const lista = useMemo(() => {
+  // Sorteia só ao abrir a tela (a semente muda a cada dia).
+  const [lista] = useState(() => {
     const aulas = aulasConcluidas(curso, progresso.aulasConcluidas);
     const todos = aulas.flatMap((a) => [...a.pratica, ...a.teste]);
     return embaralhar(todos, sementeDeTexto(`${perfil?.id}-${diaLocal(Date.now())}`)).slice(0, 5);
-    // Sorteia só ao abrir a tela.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  });
 
   if (lista.length === 0) {
     return (
@@ -46,7 +46,7 @@ export default function TesteDoDia() {
             onFim={async (rs) => {
               setFim(rs.filter((r) => r.acertou).length);
               if (!perfil) return;
-              await repo.registrarAtividade(db, perfil.id, { segundosEstudo: (Date.now() - inicio.current) / 1000 });
+              await repo.registrarAtividade(db, perfil.id, { segundosEstudo: segundosDesde(inicio) });
               await repo.adicionarRevisao(
                 db,
                 perfil.id,

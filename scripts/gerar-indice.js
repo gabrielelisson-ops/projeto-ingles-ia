@@ -52,7 +52,6 @@ for (const nivel of NIVEIS) {
 }
 
 const codigo = `// ARQUIVO GERADO por scripts/gerar-indice.js — não edite à mão.
-/* eslint-disable */
 export const CURRICULO_BRUTO: unknown = ${req(path.join(CONTEUDO, 'curriculo.json'))};
 
 export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown }[] = [

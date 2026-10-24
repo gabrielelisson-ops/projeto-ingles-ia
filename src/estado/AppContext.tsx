@@ -55,7 +55,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [prefs, setPrefs] = useState<Preferencias>(PREFS_PADRAO);
   const [chave, setChave] = useState('');
   const [progresso, setProgresso] = useState<Progresso>(vazio);
-  const [agora, setAgora] = useState(Date.now());
+  const [agora, setAgora] = useState(() => Date.now());
   const [pronto, setPronto] = useState(false);
 
   const perfil = perfis.find((p) => p.id === perfilId) ?? null;
