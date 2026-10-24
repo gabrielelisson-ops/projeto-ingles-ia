@@ -1,0 +1,74 @@
+{
+  "niveis": [
+    {
+      "nivel": "A1",
+      "nome_pt": "Básico 1",
+      "unidades": [
+        { "numero": 1, "tema": "Hello!", "tema_pt": "Apresentações", "gramatica_pt": "Verbo to be (I, you, he, she, it), pronomes, alfabeto, a/an com profissões" },
+        { "numero": 2, "tema": "Personal information", "tema_pt": "Dados pessoais e números", "gramatica_pt": "To be completo (negativa e pergunta), números 0–100, idade, telefone, e-mail" },
+        { "numero": 3, "tema": "My family", "tema_pt": "Família", "gramatica_pt": "Possessivos (my, your, his, her, our, their), 's, have" },
+        { "numero": 4, "tema": "My day", "tema_pt": "Horas e minha rotina", "gramatica_pt": "Presente simples (I, you, we, they), horas, at/on/in para tempo" },
+        { "numero": 5, "tema": "Their day", "tema_pt": "A rotina dos outros e o trabalho", "gramatica_pt": "Presente simples com he/she/it (-s), do/does, advérbios de frequência" },
+        { "numero": 6, "tema": "Home and city", "tema_pt": "Casa, cidade e local de trabalho", "gramatica_pt": "There is/there are, a/an/some/any, preposições de lugar" },
+        { "numero": 7, "tema": "Food and drink", "tema_pt": "Comida e bebida", "gramatica_pt": "Contáveis e incontáveis, like/love/hate + -ing, would like" },
+        { "numero": 8, "tema": "Shopping", "tema_pt": "Compras e roupas", "gramatica_pt": "How much/how many, this/that/these/those, cores, preços, Can I…?" }
+      ]
+    },
+    {
+      "nivel": "A2",
+      "nome_pt": "Básico 2",
+      "unidades": [
+        { "numero": 1, "tema": "Last weekend", "tema_pt": "Meu fim de semana", "gramatica_pt": "Was/were, passado simples com verbos regulares" },
+        { "numero": 2, "tema": "Life stories", "tema_pt": "Histórias da vida", "gramatica_pt": "Passado simples com irregulares, did em perguntas e negativas" },
+        { "numero": 3, "tema": "Right now", "tema_pt": "O que está acontecendo agora", "gramatica_pt": "Present continuous × presente simples" },
+        { "numero": 4, "tema": "Plans", "tema_pt": "Planos", "gramatica_pt": "Going to, present continuous para futuro" },
+        { "numero": 5, "tema": "Predictions", "tema_pt": "Previsões e o clima", "gramatica_pt": "Will, will × going to" },
+        { "numero": 6, "tema": "Comparing products", "tema_pt": "Comparando produtos e fornecedores", "gramatica_pt": "Comparativos e superlativos, as … as" },
+        { "numero": 7, "tema": "Travel", "tema_pt": "Direções e viagens (aeroporto, hotel)", "gramatica_pt": "Imperativo, preposições de movimento, transportes" },
+        { "numero": 8, "tema": "Health and safety", "tema_pt": "Saúde e segurança no trabalho", "gramatica_pt": "Can/could, should, must/have to, partes do corpo, EPIs" }
+      ]
+    },
+    {
+      "nivel": "B1",
+      "nome_pt": "Intermediário 1",
+      "unidades": [
+        { "numero": 1, "tema": "Experiences", "tema_pt": "Experiências", "gramatica_pt": "Present perfect (ever/never) × passado simples" },
+        { "numero": 2, "tema": "So far", "tema_pt": "Até agora: metas e resultados", "gramatica_pt": "For/since/just/already/yet, introdução ao present perfect continuous" },
+        { "numero": 3, "tema": "On the shop floor", "tema_pt": "Trabalho na fábrica", "gramatica_pt": "Gerúndio × infinitivo, funções e turnos" },
+        { "numero": 4, "tema": "Production problems", "tema_pt": "Problemas na produção", "gramatica_pt": "Condicionais 0 e 1, when/unless" },
+        { "numero": 5, "tema": "What if", "tema_pt": "Sonhos e hipóteses", "gramatica_pt": "Condicional 2, wish (presente)" },
+        { "numero": 6, "tema": "How it's made", "tema_pt": "Processos industriais", "gramatica_pt": "Voz passiva (presente e passado), sequência de processo" },
+        { "numero": 7, "tema": "Opinions", "tema_pt": "Opiniões em reuniões", "gramatica_pt": "Phrasal verbs comuns, concordar e discordar" },
+        { "numero": 8, "tema": "Telling stories", "tema_pt": "Contando histórias e relatando incidentes", "gramatica_pt": "Past continuous, past perfect, conectores de sequência" }
+      ]
+    },
+    {
+      "nivel": "B2",
+      "nome_pt": "Intermediário 2",
+      "unidades": [
+        { "numero": 1, "tema": "Regrets", "tema_pt": "Arrependimentos e lições aprendidas", "gramatica_pt": "Condicional 3, condicionais mistas, wish/if only (passado)" },
+        { "numero": 2, "tema": "Reporting", "tema_pt": "Ele disse que…", "gramatica_pt": "Reported speech (afirmações, perguntas, pedidos)" },
+        { "numero": 3, "tema": "Deductions", "tema_pt": "Deve ter sido… (investigando causas)", "gramatica_pt": "Modais de dedução: must/might/can't have" },
+        { "numero": 4, "tema": "Job interviews", "tema_pt": "Entrevista de emprego", "gramatica_pt": "Perguntas indiretas, used to / be used to" },
+        { "numero": 5, "tema": "Production meetings", "tema_pt": "Reuniões de produção", "gramatica_pt": "Relative clauses, interromper com educação, resumir decisões" },
+        { "numero": 6, "tema": "Supplier negotiation", "tema_pt": "Negociação com fornecedores", "gramatica_pt": "Propostas condicionais, hedging (Would you consider…?)" },
+        { "numero": 7, "tema": "Formal e-mails and reports", "tema_pt": "E-mails formais e relatórios", "gramatica_pt": "Registro formal, conectores (however, therefore, despite)" },
+        { "numero": 8, "tema": "Continuous improvement", "tema_pt": "Análise de falhas e melhoria contínua", "gramatica_pt": "Future continuous/perfect, causativo (have something done)" }
+      ]
+    },
+    {
+      "nivel": "C1",
+      "nome_pt": "Avançado",
+      "unidades": [
+        { "numero": 1, "tema": "Emphasis", "tema_pt": "Dando ênfase", "gramatica_pt": "Inversões (Never have I…), cleft sentences (What I need is…)" },
+        { "numero": 2, "tema": "Idioms", "tema_pt": "Expressões idiomáticas", "gramatica_pt": "Idioms e collocations" },
+        { "numero": 3, "tema": "Presentations", "tema_pt": "Apresentações", "gramatica_pt": "Estrutura, sinalização, nominalização" },
+        { "numero": 4, "tema": "Debates", "tema_pt": "Debates", "gramatica_pt": "Argumentação, concessão (Admittedly…, Granted…)" },
+        { "numero": 5, "tema": "Corporate English", "tema_pt": "Inglês corporativo", "gramatica_pt": "Estratégia, KPIs, relatórios, participle clauses" },
+        { "numero": 6, "tema": "Supply chain", "tema_pt": "Indústria e supply chain", "gramatica_pt": "Lead time, bottleneck, inventory; passiva avançada" },
+        { "numero": 7, "tema": "Production planning", "tema_pt": "Planejamento de produção", "gramatica_pt": "S&OP, MRP, capacidade; probabilidade (likely to, bound to)" },
+        { "numero": 8, "tema": "Register and nuance", "tema_pt": "Registro e nuances", "gramatica_pt": "Formal × informal, tom diplomático, suavizar críticas" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "a1-u01-l1",
+  "nivel": "A1",
+  "unidade": 1,
+  "numero": 1,
+  "titulo": "Hi, I'm…",
+  "objetivo_pt": "Cumprimentar as pessoas, dizer seu nome e perguntar o nome de alguém usando I am e you are.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai te cumprimentar. Responda com 'Hello' ou 'Hi' e diga seu nome. Pode falar devagar!",
+    "papel_professor": "Cumprimente o aluno de forma simpática e pergunte o nome dele. Use só hello, hi, good morning, I am, you are, my name is. No máximo 2 frases curtas por resposta.",
+    "abertura": "Hello! I'm your English teacher. What's your name?"
+  },
+  "vocabulario": [
+    { "id": "hello", "en": "hello", "pt": "olá", "emoji": "👋", "exemplo_en": "Hello! I'm Paula.", "exemplo_pt": "Olá! Eu sou a Paula." },
+    { "id": "hi", "en": "hi", "pt": "oi", "emoji": "🙋", "exemplo_en": "Hi, Marcos!", "exemplo_pt": "Oi, Marcos!" },
+    { "id": "good-morning", "en": "good morning", "pt": "bom dia", "emoji": "🌅", "exemplo_en": "Good morning, everybody.", "exemplo_pt": "Bom dia, pessoal." },
+    { "id": "good-afternoon", "en": "good afternoon", "pt": "boa tarde", "emoji": "☀️", "exemplo_en": "Good afternoon, Mr. Lima.", "exemplo_pt": "Boa tarde, Sr. Lima." },
+    { "id": "good-evening", "en": "good evening", "pt": "boa noite (ao chegar)", "emoji": "🌆", "exemplo_en": "Good evening! Welcome.", "exemplo_pt": "Boa noite! Bem-vindo." },
+    { "id": "good-night", "en": "good night", "pt": "boa noite (ao sair ou dormir)", "emoji": "🌙", "exemplo_en": "Good night, see you tomorrow.", "exemplo_pt": "Boa noite, até amanhã." },
+    { "id": "goodbye", "en": "goodbye / bye", "pt": "tchau", "emoji": "🚶", "exemplo_en": "Bye, Julia!", "exemplo_pt": "Tchau, Júlia!" },
+    { "id": "name", "en": "name", "pt": "nome", "emoji": "🏷️", "exemplo_en": "My name is Rafael.", "exemplo_pt": "Meu nome é Rafael." },
+    { "id": "i-am", "en": "I am (I'm)", "pt": "eu sou / eu estou", "emoji": "🙂", "exemplo_en": "I'm from São Paulo.", "exemplo_pt": "Eu sou de São Paulo." },
+    { "id": "you-are", "en": "you are (you're)", "pt": "você é / você está", "emoji": "👉", "exemplo_en": "You're my new colleague.", "exemplo_pt": "Você é meu novo colega." },
+    { "id": "nice-to-meet-you", "en": "nice to meet you", "pt": "prazer em conhecer você", "emoji": "🤝", "exemplo_en": "Nice to meet you, Carla.", "exemplo_pt": "Prazer em te conhecer, Carla." },
+    { "id": "thank-you", "en": "thank you / thanks", "pt": "obrigado(a)", "emoji": "🙏", "exemplo_en": "Thank you, teacher!", "exemplo_pt": "Obrigado, professor!" }
+  ],
+  "gramatica": {
+    "titulo": "Verbo to be: I am / you are",
+    "explicacao_pt": "Em inglês, 'ser' e 'estar' são o mesmo verbo: to be. Com 'I' (eu) usamos 'am'; com 'you' (você) usamos 'are'. Na fala, quase sempre juntamos as palavras: I am vira I'm, you are vira you're. 'I' é sempre escrito com letra maiúscula. Para dizer o nome, use 'I'm Ana' ou 'My name is Ana'. Atenção: 'good evening' é para chegar; 'good night' é para ir embora ou dormir.",
+    "tabela": {
+      "colunas": ["Forma completa", "Forma curta", "Português"],
+      "linhas": [
+        ["I am", "I'm", "eu sou / estou"],
+        ["you are", "you're", "você é / está"]
+      ]
+    },
+    "exemplos": [
+      { "en": "I'm Gabriel.", "pt": "Eu sou o Gabriel." },
+      { "en": "You're very kind.", "pt": "Você é muito gentil." },
+      { "en": "I am at work.", "pt": "Eu estou no trabalho." },
+      { "en": "My name is Lúcia.", "pt": "Meu nome é Lúcia." }
+    ]
+  },
+  "escuta": {
+    "titulo": "First day at the training course",
+    "falas": [
+      { "personagem": "Ana", "voz": "a", "en": "Good morning! Is this the English class?", "pt": "Bom dia! Esta é a aula de inglês?" },
+      { "personagem": "Tom", "voz": "b", "en": "Yes, it is. Hi, I'm Tom. I'm the teacher.", "pt": "Sim, é. Oi, eu sou o Tom. Eu sou o professor." },
+      { "personagem": "Ana", "voz": "a", "en": "Hello, Tom. I'm Ana.", "pt": "Olá, Tom. Eu sou a Ana." },
+      { "personagem": "Tom", "voz": "b", "en": "Nice to meet you, Ana.", "pt": "Prazer em te conhecer, Ana." },
+      { "personagem": "Ana", "voz": "a", "en": "Nice to meet you too.", "pt": "O prazer é meu." },
+      { "personagem": "Tom", "voz": "b", "en": "You're early! Sit down, please.", "pt": "Você chegou cedo! Sente-se, por favor." },
+      { "personagem": "Ana", "voz": "a", "en": "Thank you!", "pt": "Obrigada!" }
+    ],
+    "perguntas": [
+      { "id": "a1u01l1-e1", "tipo": "multipla", "enunciado": "Who is the teacher?", "opcoes": ["Ana", "Tom", "Paula"], "correta": 1, "explicacao_pt": "Tom diz: 'I'm the teacher'." },
+      { "id": "a1u01l1-e2", "tipo": "multipla", "enunciado": "What time of day is it?", "opcoes": ["Morning", "Afternoon", "Night"], "correta": 0, "explicacao_pt": "Ana começa com 'Good morning', então é de manhã." },
+      { "id": "a1u01l1-e3", "tipo": "multipla", "enunciado": "What does Ana say at the end?", "opcoes": ["Goodbye!", "Good night!", "Thank you!"], "correta": 2 }
+    ]
+  },
+  "pratica": [
+    { "id": "a1u01l1-p1", "tipo": "completar", "frase": "Hello! I ___ Marina.", "respostas": ["am", "'m"], "dica_pt": "Com 'I' usamos…", "explicacao_pt": "I + am: I am Marina (ou I'm Marina)." },
+    { "id": "a1u01l1-p2", "tipo": "completar", "frase": "You ___ my teacher.", "respostas": ["are", "'re"], "explicacao_pt": "You + are: You are my teacher." },
+    { "id": "a1u01l1-p3", "tipo": "multipla", "enunciado": "São 15h e você chega numa reunião. O que diz?", "opcoes": ["Good morning", "Good afternoon", "Good night"], "correta": 1, "explicacao_pt": "Da hora do almoço até o fim da tarde: good afternoon." },
+    { "id": "a1u01l1-p4", "tipo": "ordenar", "frase": "Nice to meet you", "traducao_pt": "Prazer em te conhecer" },
+    { "id": "a1u01l1-p5", "tipo": "ordenar", "frase": "My name is Pedro", "traducao_pt": "Meu nome é Pedro" },
+    { "id": "a1u01l1-p6", "tipo": "ouvir_escrever", "audio": "Good evening.", "explicacao_pt": "Good evening = boa noite, ao chegar." },
+    { "id": "a1u01l1-p7", "tipo": "traduzir", "pt": "Oi, eu sou a Carla.", "respostas": ["Hi, I am Carla.", "Hello, I am Carla.", "Hi, my name is Carla.", "Hello, my name is Carla."] },
+    { "id": "a1u01l1-p8", "tipo": "multipla", "enunciado": "Você vai embora do trabalho às 22h. O que diz?", "opcoes": ["Good evening", "Good night", "Good morning"], "correta": 1, "explicacao_pt": "Ao sair à noite: good night." }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está no primeiro dia de um curso. O professor faz o papel de um colega novo. Cumprimente, diga seu nome e pergunte o nome dele.",
+    "papel_professor": "Faça o papel de um colega novo chamado Sam, no primeiro dia de um curso. Cumprimente, diga seu nome, pergunte o nome do aluno e diga 'Nice to meet you'. Use só I am, you are, my name is e cumprimentos.",
+    "abertura": "Hi! I'm Sam. I'm new here. What's your name?"
+  },
+  "teste": [
+    { "id": "a1u01l1-t1", "tipo": "completar", "frase": "I ___ from Brazil.", "respostas": ["am", "'m"] },
+    { "id": "a1u01l1-t2", "tipo": "multipla", "enunciado": "Qual é a forma curta de 'you are'?", "opcoes": ["you's", "you're", "your"], "correta": 1, "explicacao_pt": "you are = you're. 'your' significa 'seu/sua'." },
+    { "id": "a1u01l1-t3", "tipo": "ouvir_escrever", "audio": "Nice to meet you." },
+    { "id": "a1u01l1-t4", "tipo": "traduzir", "pt": "Bom dia!", "respostas": ["Good morning!"] },
+    { "id": "a1u01l1-t5", "tipo": "ordenar", "frase": "You are my friend", "traducao_pt": "Você é meu amigo" }
+  ]
+}

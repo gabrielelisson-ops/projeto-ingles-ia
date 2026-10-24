@@ -1,0 +1,83 @@
+{
+  "id": "a1-u01-l4",
+  "nivel": "A1",
+  "unidade": 1,
+  "numero": 4,
+  "titulo": "What do you do?",
+  "objetivo_pt": "Dizer sua profissão e perguntar a de outras pessoas, usando a e an corretamente.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você faz. Responda com 'I'm a…' ou 'I'm an…' e a sua profissão.",
+    "papel_professor": "Pergunte a profissão do aluno ('What do you do?'). Se ele não souber a palavra em inglês, ensine. Pergunte onde ele trabalha de forma simples. Corrija a/an se necessário.",
+    "abertura": "Hello! I'm a teacher. What do you do?"
+  },
+  "vocabulario": [
+    { "id": "engineer", "en": "engineer", "pt": "engenheiro(a)", "emoji": "👷", "exemplo_en": "She's an engineer.", "exemplo_pt": "Ela é engenheira." },
+    { "id": "operator", "en": "machine operator", "pt": "operador(a) de máquina", "emoji": "⚙️", "exemplo_en": "He's a machine operator.", "exemplo_pt": "Ele é operador de máquina." },
+    { "id": "technician", "en": "technician", "pt": "técnico(a)", "emoji": "🔧", "exemplo_en": "I'm a maintenance technician.", "exemplo_pt": "Sou técnico de manutenção." },
+    { "id": "manager", "en": "manager", "pt": "gerente", "emoji": "💼", "exemplo_en": "Is she the manager?", "exemplo_pt": "Ela é a gerente?" },
+    { "id": "supervisor", "en": "supervisor", "pt": "supervisor(a)", "emoji": "📋", "exemplo_en": "He's a production supervisor.", "exemplo_pt": "Ele é supervisor de produção." },
+    { "id": "accountant", "en": "accountant", "pt": "contador(a)", "emoji": "🧮", "exemplo_en": "My wife is an accountant.", "exemplo_pt": "Minha esposa é contadora." },
+    { "id": "nurse", "en": "nurse", "pt": "enfermeiro(a)", "emoji": "🩺", "exemplo_en": "She's a nurse at a hospital.", "exemplo_pt": "Ela é enfermeira num hospital." },
+    { "id": "teacher", "en": "teacher", "pt": "professor(a)", "emoji": "🧑‍🏫", "exemplo_en": "You're a good teacher.", "exemplo_pt": "Você é um bom professor." },
+    { "id": "student", "en": "student", "pt": "estudante", "emoji": "🎓", "exemplo_en": "I'm a student.", "exemplo_pt": "Eu sou estudante." },
+    { "id": "driver", "en": "driver", "pt": "motorista", "emoji": "🚚", "exemplo_en": "He's a truck driver.", "exemplo_pt": "Ele é motorista de caminhão." },
+    { "id": "factory", "en": "factory", "pt": "fábrica", "emoji": "🏭", "exemplo_en": "I work in a factory.", "exemplo_pt": "Eu trabalho numa fábrica." },
+    { "id": "office", "en": "office", "pt": "escritório", "emoji": "🏢", "exemplo_en": "She works in an office.", "exemplo_pt": "Ela trabalha num escritório." }
+  ],
+  "gramatica": {
+    "titulo": "A e an com profissões",
+    "explicacao_pt": "Em português dizemos 'Sou engenheiro', sem artigo. Em inglês, com profissões, o artigo é obrigatório: I'm AN engineer. Use 'a' antes de som de consoante (a teacher, a nurse, a driver) e 'an' antes de som de vogal (an engineer, an accountant, an operator). O que importa é o SOM, não a letra: 'a university student' (som de 'iú'). Para perguntar a profissão: 'What do you do?' ou 'What's your job?'. Para dizer onde trabalha: 'I work in a factory / in an office'.",
+    "tabela": {
+      "colunas": ["Artigo", "Quando", "Exemplos"],
+      "linhas": [
+        ["a", "som de consoante", "a teacher, a manager, a driver"],
+        ["an", "som de vogal", "an engineer, an operator, an accountant"]
+      ]
+    },
+    "exemplos": [
+      { "en": "What do you do? — I'm an engineer.", "pt": "O que você faz? — Sou engenheiro." },
+      { "en": "He's a technician. He works in a factory.", "pt": "Ele é técnico. Ele trabalha numa fábrica." },
+      { "en": "What's your job? — I'm a supervisor.", "pt": "Qual é seu trabalho? — Sou supervisor." },
+      { "en": "She's an accountant in an office.", "pt": "Ela é contadora num escritório." }
+    ]
+  },
+  "escuta": {
+    "titulo": "New people at work",
+    "falas": [
+      { "personagem": "Rita", "voz": "a", "en": "Hi, I'm Rita. Are you new here?", "pt": "Oi, sou a Rita. Você é novo aqui?" },
+      { "personagem": "Jack", "voz": "b", "en": "Yes, I am. I'm Jack. Nice to meet you.", "pt": "Sim, sou. Sou o Jack. Prazer." },
+      { "personagem": "Rita", "voz": "a", "en": "Nice to meet you. What do you do, Jack?", "pt": "Prazer. O que você faz, Jack?" },
+      { "personagem": "Jack", "voz": "b", "en": "I'm an electrician. I'm in the maintenance team.", "pt": "Sou eletricista. Estou na equipe de manutenção." },
+      { "personagem": "Rita", "voz": "a", "en": "Great! I'm a production supervisor.", "pt": "Ótimo! Sou supervisora de produção." },
+      { "personagem": "Jack", "voz": "b", "en": "And who is he?", "pt": "E quem é ele?" },
+      { "personagem": "Rita", "voz": "a", "en": "That's Leo. He's an engineer. He's very nice.", "pt": "Aquele é o Leo. Ele é engenheiro. Ele é muito legal." }
+    ],
+    "perguntas": [
+      { "id": "a1u01l4-e1", "tipo": "multipla", "enunciado": "What does Jack do?", "opcoes": ["He's an engineer.", "He's an electrician.", "He's a supervisor."], "correta": 1 },
+      { "id": "a1u01l4-e2", "tipo": "multipla", "enunciado": "Rita is…", "opcoes": ["a production supervisor", "a nurse", "new at work"], "correta": 0 },
+      { "id": "a1u01l4-e3", "tipo": "multipla", "enunciado": "Leo is…", "opcoes": ["an electrician", "a manager", "an engineer"], "correta": 2 }
+    ]
+  },
+  "pratica": [
+    { "id": "a1u01l4-p1", "tipo": "completar", "frase": "She's ___ engineer.", "respostas": ["an"], "explicacao_pt": "engineer começa com som de vogal → an." },
+    { "id": "a1u01l4-p2", "tipo": "completar", "frase": "He's ___ truck driver.", "respostas": ["a"], "explicacao_pt": "truck começa com som de consoante → a." },
+    { "id": "a1u01l4-p3", "tipo": "multipla", "enunciado": "Qual está correto?", "opcoes": ["I'm engineer.", "I'm an engineer.", "I'm a engineer."], "correta": 1, "explicacao_pt": "Profissão sempre com artigo, e 'an' antes de vogal." },
+    { "id": "a1u01l4-p4", "tipo": "multipla", "enunciado": "Qual está correto?", "opcoes": ["a university student", "an university student"], "correta": 0, "explicacao_pt": "'university' começa com som de 'iú' (consoante) → a." },
+    { "id": "a1u01l4-p5", "tipo": "ordenar", "frase": "What do you do?", "traducao_pt": "O que você faz (profissão)?" },
+    { "id": "a1u01l4-p6", "tipo": "ordenar", "frase": "I work in a factory", "traducao_pt": "Eu trabalho numa fábrica" },
+    { "id": "a1u01l4-p7", "tipo": "ouvir_escrever", "audio": "He's a machine operator.", "aceitas": ["He is a machine operator."] },
+    { "id": "a1u01l4-p8", "tipo": "traduzir", "pt": "Ela é contadora.", "respostas": ["She is an accountant.", "She's an accountant."] }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está num evento da empresa e conhece uma pessoa nova. Pergunte a profissão dela e conte a sua.",
+    "papel_professor": "Faça o papel de Chris, um técnico de qualidade (quality technician) num evento da empresa. Pergunte o nome e a profissão do aluno, conte a sua e pergunte se ele trabalha numa fábrica ou num escritório.",
+    "abertura": "Hi there! I'm Chris. I'm a quality technician. And you? What do you do?"
+  },
+  "teste": [
+    { "id": "a1u01l4-t1", "tipo": "completar", "frase": "I'm ___ accountant.", "respostas": ["an"] },
+    { "id": "a1u01l4-t2", "tipo": "multipla", "enunciado": "'Fábrica' em inglês:", "opcoes": ["office", "factory", "fabric"], "correta": 1, "explicacao_pt": "Cuidado: 'fabric' é tecido!" },
+    { "id": "a1u01l4-t3", "tipo": "ouvir_escrever", "audio": "What do you do?" },
+    { "id": "a1u01l4-t4", "tipo": "traduzir", "pt": "Eu sou técnico.", "respostas": ["I am a technician.", "I'm a technician."] },
+    { "id": "a1u01l4-t5", "tipo": "ordenar", "frase": "She works in an office", "traducao_pt": "Ela trabalha num escritório" }
+  ]
+}

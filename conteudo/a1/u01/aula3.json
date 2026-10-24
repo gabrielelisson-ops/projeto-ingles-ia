@@ -1,0 +1,90 @@
+{
+  "id": "a1-u01-l3",
+  "nivel": "A1",
+  "unidade": 1,
+  "numero": 3,
+  "titulo": "Spell it, please",
+  "objetivo_pt": "Falar o alfabeto em inglês, soletrar seu nome e e-mail e pedir para alguém repetir.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir para você soletrar seu nome. Fale as letras uma por uma, em inglês.",
+    "papel_professor": "Pergunte o nome do aluno e peça para ele soletrar ('How do you spell it?'). Confirme as letras. Se ele errar letras difíceis (E/I, G/J, H, R, W, Y), corrija com gentileza.",
+    "abertura": "Hello! What's your first name? How do you spell it?"
+  },
+  "vocabulario": [
+    { "id": "letter", "en": "letter", "pt": "letra", "emoji": "🔤", "exemplo_en": "A is the first letter.", "exemplo_pt": "A é a primeira letra." },
+    { "id": "spell", "en": "spell", "pt": "soletrar", "emoji": "🗣️", "exemplo_en": "Can you spell your name?", "exemplo_pt": "Você pode soletrar seu nome?" },
+    { "id": "first-name", "en": "first name", "pt": "primeiro nome", "emoji": "🪪", "exemplo_en": "My first name is Bruno.", "exemplo_pt": "Meu primeiro nome é Bruno." },
+    { "id": "last-name", "en": "last name / surname", "pt": "sobrenome", "emoji": "📛", "exemplo_en": "My last name is Souza.", "exemplo_pt": "Meu sobrenome é Souza." },
+    { "id": "how-do-you-spell", "en": "How do you spell it?", "pt": "Como se soletra?", "emoji": "❓", "exemplo_en": "Silva? How do you spell it?", "exemplo_pt": "Silva? Como se soletra?" },
+    { "id": "double", "en": "double", "pt": "duplo (duas letras iguais)", "emoji": "✌️", "exemplo_en": "Anna: A, double N, A.", "exemplo_pt": "Anna: A, dois N, A." },
+    { "id": "email", "en": "email address", "pt": "endereço de e-mail", "emoji": "📧", "exemplo_en": "What's your email address?", "exemplo_pt": "Qual é o seu e-mail?" },
+    { "id": "at", "en": "at (@)", "pt": "arroba", "emoji": "🌀", "exemplo_en": "bruno at mail dot com", "exemplo_pt": "bruno arroba mail ponto com" },
+    { "id": "dot", "en": "dot (.)", "pt": "ponto (em e-mail e site)", "emoji": "⚫", "exemplo_en": "It's dot com.", "exemplo_pt": "É ponto com." },
+    { "id": "again", "en": "again", "pt": "de novo", "emoji": "🔁", "exemplo_en": "Sorry, can you say that again?", "exemplo_pt": "Desculpe, pode repetir?" },
+    { "id": "slowly", "en": "slowly", "pt": "devagar", "emoji": "🐢", "exemplo_en": "Please speak slowly.", "exemplo_pt": "Por favor, fale devagar." }
+  ],
+  "gramatica": {
+    "titulo": "O alfabeto e as letras que confundem",
+    "explicacao_pt": "Algumas letras em inglês têm o som de outra letra em português, e isso causa muita confusão para brasileiros. A letra E soa como o nosso 'i' (í). A letra I soa como 'ai'. G soa como 'dji' e J como 'djei'. H soa como 'eitch'. R soa como 'ar'. W é 'dâbliu' e Y é 'uai'. Para letras repetidas, diga 'double': Anna = A, double N, A. Também usamos 'What's…?' (= What is) para perguntar: What's your name? What's your email address?",
+    "tabela": {
+      "colunas": ["Letra", "Som aproximado", "Cuidado com"],
+      "linhas": [
+        ["A", "ei", "não é 'a'"],
+        ["E", "í", "parece o nosso I"],
+        ["I", "ai", "parece 'ai'"],
+        ["G", "dji", "não confunda com J"],
+        ["J", "djei", "não confunda com G"],
+        ["H", "eitch", "nunca 'agá'"],
+        ["R", "ar", "som de 'ar'"],
+        ["W", "dâbliu", "'double U'"],
+        ["Y", "uai", "não é 'ípsilon'"]
+      ]
+    },
+    "exemplos": [
+      { "en": "What's your last name? — Rocha. R-O-C-H-A.", "pt": "Qual é seu sobrenome? — Rocha. R-O-C-H-A." },
+      { "en": "My email is lia at mail dot com.", "pt": "Meu e-mail é lia arroba mail ponto com." },
+      { "en": "Sorry, again, please.", "pt": "Desculpe, de novo, por favor." },
+      { "en": "Is it double S? — Yes, it is.", "pt": "É com dois S? — Sim." }
+    ]
+  },
+  "escuta": {
+    "titulo": "At the hotel reception",
+    "falas": [
+      { "personagem": "Receptionist", "voz": "a", "en": "Good evening. What's your name, please?", "pt": "Boa noite. Qual é seu nome, por favor?" },
+      { "personagem": "Felipe", "voz": "b", "en": "Good evening. I'm Felipe Garcia.", "pt": "Boa noite. Sou Felipe Garcia." },
+      { "personagem": "Receptionist", "voz": "a", "en": "How do you spell your first name?", "pt": "Como se soletra seu primeiro nome?" },
+      { "personagem": "Felipe", "voz": "b", "en": "F, E, L, I, P, E.", "pt": "F, E, L, I, P, E." },
+      { "personagem": "Receptionist", "voz": "a", "en": "Sorry, can you say that again slowly?", "pt": "Desculpe, pode repetir devagar?" },
+      { "personagem": "Felipe", "voz": "b", "en": "Sure. F... E... L... I... P... E.", "pt": "Claro. F... E... L... I... P... E." },
+      { "personagem": "Receptionist", "voz": "a", "en": "Thank you. And your email address?", "pt": "Obrigada. E seu e-mail?" },
+      { "personagem": "Felipe", "voz": "b", "en": "It's felipe at mail dot com.", "pt": "É felipe arroba mail ponto com." }
+    ],
+    "perguntas": [
+      { "id": "a1u01l3-e1", "tipo": "multipla", "enunciado": "What is his last name?", "opcoes": ["Felipe", "Garcia", "Mail"], "correta": 1 },
+      { "id": "a1u01l3-e2", "tipo": "multipla", "enunciado": "Why does Felipe spell his name again?", "opcoes": ["The receptionist asks him to repeat", "He is wrong", "It is his email"], "correta": 0, "explicacao_pt": "A recepcionista diz: 'Can you say that again slowly?'" },
+      { "id": "a1u01l3-e3", "tipo": "multipla", "enunciado": "What's his email address?", "opcoes": ["garcia@mail.com", "felipe@mail.com", "felipe@garcia.com"], "correta": 1 }
+    ]
+  },
+  "pratica": [
+    { "id": "a1u01l3-p1", "tipo": "multipla", "enunciado": "Qual letra soa como 'i' em português?", "opcoes": ["I", "E", "Y"], "correta": 1, "explicacao_pt": "Em inglês, a letra E soa como 'í'." },
+    { "id": "a1u01l3-p2", "tipo": "multipla", "enunciado": "Como se diz o símbolo @ em inglês?", "opcoes": ["dot", "at", "and"], "correta": 1 },
+    { "id": "a1u01l3-p3", "tipo": "completar", "frase": "___ your email address?", "respostas": ["What's", "What is"], "explicacao_pt": "What's = What is." },
+    { "id": "a1u01l3-p4", "tipo": "ordenar", "frase": "How do you spell it?", "traducao_pt": "Como se soletra?" },
+    { "id": "a1u01l3-p5", "tipo": "ordenar", "frase": "Can you say that again?", "traducao_pt": "Você pode repetir?" },
+    { "id": "a1u01l3-p6", "tipo": "ouvir_escrever", "audio": "Please speak slowly." },
+    { "id": "a1u01l3-p7", "tipo": "traduzir", "pt": "Meu sobrenome é Costa.", "respostas": ["My last name is Costa.", "My surname is Costa."] },
+    { "id": "a1u01l3-p8", "tipo": "multipla", "enunciado": "'Emma' se soletra:", "opcoes": ["E, M, A", "E, double M, A", "I, double M, A"], "correta": 1 }
+  ],
+  "conversa": {
+    "situacao_pt": "Você está fazendo check-in num hotel nos Estados Unidos. O recepcionista vai pedir seu nome, sobrenome e e-mail. Soletre e peça para repetir se não entender.",
+    "papel_professor": "Faça o papel de um recepcionista de hotel. Peça o primeiro nome, o sobrenome (pedindo para soletrar) e o e-mail. Repita as letras para confirmar. Se o aluno pedir, fale mais devagar.",
+    "abertura": "Good evening! Welcome to the hotel. What's your last name, please?"
+  },
+  "teste": [
+    { "id": "a1u01l3-t1", "tipo": "multipla", "enunciado": "Qual letra soa como 'ai'?", "opcoes": ["A", "E", "I"], "correta": 2 },
+    { "id": "a1u01l3-t2", "tipo": "completar", "frase": "How do you ___ your name?", "respostas": ["spell"] },
+    { "id": "a1u01l3-t3", "tipo": "ouvir_escrever", "audio": "What's your email address?", "aceitas": ["What is your email address?"] },
+    { "id": "a1u01l3-t4", "tipo": "traduzir", "pt": "De novo, por favor.", "respostas": ["Again, please.", "Again please."] },
+    { "id": "a1u01l3-t5", "tipo": "multipla", "enunciado": "Em e-mail, o '.' se diz:", "opcoes": ["dot", "point", "at"], "correta": 0 }
+  ]
+}

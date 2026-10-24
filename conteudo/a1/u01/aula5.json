@@ -1,0 +1,84 @@
+{
+  "id": "a1-u01-l5",
+  "nivel": "A1",
+  "unidade": 1,
+  "numero": 5,
+  "titulo": "This is my colleague",
+  "objetivo_pt": "Apresentar outra pessoa, perguntar como alguém está e responder, juntando tudo da unidade.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como você está. Responda com 'I'm fine', 'I'm great' ou 'I'm tired' e pergunte de volta: 'And you?'",
+    "papel_professor": "Pergunte como o aluno está ('How are you?') e responda quando ele perguntar. Depois pergunte o nome de alguém da família ou do trabalho dele. Use I'm fine, great, tired, so-so, this is.",
+    "abertura": "Good morning! How are you today?"
+  },
+  "vocabulario": [
+    { "id": "how-are-you", "en": "How are you?", "pt": "Como você está?", "emoji": "💬", "exemplo_en": "Hi, Paulo! How are you?", "exemplo_pt": "Oi, Paulo! Como você está?" },
+    { "id": "fine", "en": "fine", "pt": "bem", "emoji": "👍", "exemplo_en": "I'm fine, thanks.", "exemplo_pt": "Estou bem, obrigado." },
+    { "id": "great", "en": "great", "pt": "ótimo", "emoji": "😃", "exemplo_en": "I'm great today!", "exemplo_pt": "Estou ótimo hoje!" },
+    { "id": "so-so", "en": "so-so", "pt": "mais ou menos", "emoji": "😐", "exemplo_en": "I'm so-so.", "exemplo_pt": "Estou mais ou menos." },
+    { "id": "tired", "en": "tired", "pt": "cansado(a)", "emoji": "😴", "exemplo_en": "I'm tired after work.", "exemplo_pt": "Estou cansado depois do trabalho." },
+    { "id": "and-you", "en": "And you?", "pt": "E você?", "emoji": "🔄", "exemplo_en": "I'm fine. And you?", "exemplo_pt": "Estou bem. E você?" },
+    { "id": "this-is", "en": "This is…", "pt": "Este(a) é…", "emoji": "👉", "exemplo_en": "This is my wife, Carol.", "exemplo_pt": "Esta é minha esposa, Carol." },
+    { "id": "colleague", "en": "colleague", "pt": "colega de trabalho", "emoji": "🧑‍🤝‍🧑", "exemplo_en": "This is my colleague, Igor.", "exemplo_pt": "Este é meu colega, Igor." },
+    { "id": "friend", "en": "friend", "pt": "amigo(a)", "emoji": "🫂", "exemplo_en": "She's my friend.", "exemplo_pt": "Ela é minha amiga." },
+    { "id": "wife-husband", "en": "wife / husband", "pt": "esposa / marido", "emoji": "💑", "exemplo_en": "He's my husband.", "exemplo_pt": "Ele é meu marido." },
+    { "id": "see-you", "en": "See you later!", "pt": "Até mais!", "emoji": "👋", "exemplo_en": "Bye! See you later!", "exemplo_pt": "Tchau! Até mais!" }
+  ],
+  "gramatica": {
+    "titulo": "Revisão do to be + apresentar alguém",
+    "explicacao_pt": "Para apresentar uma pessoa, use 'This is…' (este é / esta é): This is my colleague, Ana. Para responder perguntas de sim ou não com to be, use respostas curtas: 'Are you tired?' — 'Yes, I am.' / 'No, I'm not.' Atenção: na resposta curta afirmativa NÃO usamos contração: diga 'Yes, I am', nunca 'Yes, I'm'. 'How are you?' é uma pergunta de cortesia: a resposta comum é 'I'm fine, thanks. And you?'",
+    "tabela": {
+      "colunas": ["Pergunta", "Sim", "Não"],
+      "linhas": [
+        ["Are you tired?", "Yes, I am.", "No, I'm not."],
+        ["Is he your colleague?", "Yes, he is.", "No, he isn't."],
+        ["Is she your wife?", "Yes, she is.", "No, she isn't."],
+        ["Is it your car?", "Yes, it is.", "No, it isn't."]
+      ]
+    },
+    "exemplos": [
+      { "en": "This is my husband, Davi.", "pt": "Este é meu marido, Davi." },
+      { "en": "How are you? — I'm great, thanks. And you?", "pt": "Como você está? — Ótimo, obrigado. E você?" },
+      { "en": "Is she an engineer? — Yes, she is.", "pt": "Ela é engenheira? — Sim, é." },
+      { "en": "Are you from Rio? — No, I'm not. I'm from Belém.", "pt": "Você é do Rio? — Não. Sou de Belém." }
+    ]
+  },
+  "escuta": {
+    "titulo": "Meeting a colleague's wife",
+    "falas": [
+      { "personagem": "Bruno", "voz": "a", "en": "Hi, Mark! How are you?", "pt": "Oi, Mark! Como você está?" },
+      { "personagem": "Mark", "voz": "b", "en": "I'm fine, thanks. And you?", "pt": "Estou bem, obrigado. E você?" },
+      { "personagem": "Bruno", "voz": "a", "en": "I'm great. Mark, this is my wife, Helena.", "pt": "Estou ótimo. Mark, esta é minha esposa, Helena." },
+      { "personagem": "Mark", "voz": "b", "en": "Nice to meet you, Helena. Are you an engineer too?", "pt": "Prazer, Helena. Você também é engenheira?" },
+      { "personagem": "Bruno", "voz": "a", "en": "No, she isn't. She's a nurse.", "pt": "Não, ela não é. Ela é enfermeira." },
+      { "personagem": "Mark", "voz": "b", "en": "Oh, nice! Is it a big hospital?", "pt": "Ah, legal! É um hospital grande?" },
+      { "personagem": "Bruno", "voz": "a", "en": "Yes, it is. Well, we're late. See you later, Mark!", "pt": "Sim, é. Bom, estamos atrasados. Até mais, Mark!" }
+    ],
+    "perguntas": [
+      { "id": "a1u01l5-e1", "tipo": "multipla", "enunciado": "Who is Helena?", "opcoes": ["Mark's wife", "Bruno's wife", "Bruno's colleague"], "correta": 1 },
+      { "id": "a1u01l5-e2", "tipo": "multipla", "enunciado": "Is Helena an engineer?", "opcoes": ["Yes, she is.", "No, she isn't."], "correta": 1, "explicacao_pt": "Bruno diz: 'No, she isn't. She's a nurse.'" },
+      { "id": "a1u01l5-e3", "tipo": "multipla", "enunciado": "How is Mark?", "opcoes": ["He's tired.", "He's fine.", "He's so-so."], "correta": 1 }
+    ]
+  },
+  "pratica": [
+    { "id": "a1u01l5-p1", "tipo": "completar", "frase": "___ is my colleague, Rui.", "respostas": ["This"], "explicacao_pt": "Para apresentar alguém: This is…" },
+    { "id": "a1u01l5-p2", "tipo": "multipla", "enunciado": "'Are you tired?' — resposta correta:", "opcoes": ["Yes, I'm.", "Yes, I am.", "Yes, I are."], "correta": 1, "explicacao_pt": "Resposta curta afirmativa sem contração: Yes, I am." },
+    { "id": "a1u01l5-p3", "tipo": "completar", "frase": "Is she your wife? — No, she ___.", "respostas": ["isn't", "is not"] },
+    { "id": "a1u01l5-p4", "tipo": "ordenar", "frase": "I'm fine thanks and you?", "traducao_pt": "Estou bem, obrigado, e você?" },
+    { "id": "a1u01l5-p5", "tipo": "ouvir_escrever", "audio": "This is my friend.", "aceitas": ["This is my friend"] },
+    { "id": "a1u01l5-p6", "tipo": "traduzir", "pt": "Como você está?", "respostas": ["How are you?"] },
+    { "id": "a1u01l5-p7", "tipo": "traduzir", "pt": "Este é meu marido.", "respostas": ["This is my husband."] },
+    { "id": "a1u01l5-p8", "tipo": "multipla", "enunciado": "'Colleague' significa:", "opcoes": ["colégio", "colega de trabalho", "coleção"], "correta": 1 }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: você encontra um conhecido na rua. Cumprimente, pergunte como ele está e apresente sua esposa ou marido (ou um colega). Diga a profissão dela/dele e de onde é.",
+    "papel_professor": "Faça o papel de Alex, um conhecido do aluno que o encontra na rua. Pergunte como ele está, e quando ele apresentar alguém, pergunte a profissão e de onde a pessoa é. Use tudo da unidade: to be, a/an, This is, How are you, respostas curtas.",
+    "abertura": "Hey! Good to see you! How are you?"
+  },
+  "teste": [
+    { "id": "a1u01l5-t1", "tipo": "completar", "frase": "Is he an engineer? — Yes, he ___.", "respostas": ["is"] },
+    { "id": "a1u01l5-t2", "tipo": "multipla", "enunciado": "Para apresentar sua esposa:", "opcoes": ["This is my wife.", "She my wife.", "Is my wife."], "correta": 0 },
+    { "id": "a1u01l5-t3", "tipo": "ouvir_escrever", "audio": "See you later!" },
+    { "id": "a1u01l5-t4", "tipo": "traduzir", "pt": "Eu estou cansado.", "respostas": ["I am tired.", "I'm tired."] },
+    { "id": "a1u01l5-t5", "tipo": "ordenar", "frase": "Are you from Brazil?", "traducao_pt": "Você é do Brasil?" }
+  ]
+}
