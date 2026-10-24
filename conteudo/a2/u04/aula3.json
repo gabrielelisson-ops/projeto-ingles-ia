@@ -1,0 +1,347 @@
+{
+  "id": "a2-u04-l3",
+  "nivel": "A2",
+  "unidade": 4,
+  "numero": 3,
+  "titulo": "Making arrangements",
+  "objetivo_pt": "Convidar, aceitar e recusar convites e combinar hora e lugar.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai te convidar para algo. Aceite ou recuse com educação e combinem os detalhes.",
+    "papel_professor": "Convide o aluno para algo (jantar, jogo, churrasco). Ensine Would you like to…? / I'd love to / Sorry, I can't, I'm… / How about…? Combinem hora e lugar.",
+    "abertura": "We're having a barbecue on Sunday. Would you like to come?",
+    "abertura_pt": "Vamos fazer um churrasco no domingo. Você gostaria de vir?"
+  },
+  "vocabulario": [
+    {
+      "id": "would-you-like-to",
+      "en": "Would you like to…?",
+      "pt": "Você gostaria de…?",
+      "emoji": "🙋",
+      "exemplo_en": "Would you like to have dinner with us?",
+      "exemplo_pt": "Gostaria de jantar com a gente?"
+    },
+    {
+      "id": "id-love-to",
+      "en": "I'd love to!",
+      "pt": "Eu adoraria!",
+      "emoji": "😍",
+      "exemplo_en": "Dinner? I'd love to!",
+      "exemplo_pt": "Jantar? Eu adoraria!"
+    },
+    {
+      "id": "sorry-cant",
+      "en": "Sorry, I can't.",
+      "pt": "Desculpe, não posso.",
+      "emoji": "😕",
+      "exemplo_en": "Sorry, I can't. I'm working.",
+      "exemplo_pt": "Desculpe, não posso. Vou trabalhar."
+    },
+    {
+      "id": "how-about",
+      "en": "How about…?",
+      "pt": "Que tal…?",
+      "emoji": "💡",
+      "exemplo_en": "How about Saturday?",
+      "exemplo_pt": "Que tal sábado?"
+    },
+    {
+      "id": "lets",
+      "en": "Let's…",
+      "pt": "Vamos…",
+      "emoji": "👉",
+      "exemplo_en": "Let's meet at seven.",
+      "exemplo_pt": "Vamos nos encontrar às sete."
+    },
+    {
+      "id": "pick-up",
+      "en": "pick you up",
+      "pt": "te buscar",
+      "emoji": "🚗",
+      "exemplo_en": "I'll pick you up at six.",
+      "exemplo_pt": "Te pego às seis."
+    },
+    {
+      "id": "where-meet",
+      "en": "Where shall we meet?",
+      "pt": "Onde nos encontramos?",
+      "emoji": "📍",
+      "exemplo_en": "Where shall we meet? — At the station.",
+      "exemplo_pt": "Onde nos encontramos? — Na estação."
+    },
+    {
+      "id": "sounds-good",
+      "en": "Sounds good!",
+      "pt": "Parece bom! / Combinado!",
+      "emoji": "👍",
+      "exemplo_en": "Seven at the restaurant? — Sounds good!",
+      "exemplo_pt": "Sete no restaurante? — Combinado!"
+    },
+    {
+      "id": "another-time",
+      "en": "another time",
+      "pt": "outro dia",
+      "emoji": "🔁",
+      "exemplo_en": "Maybe another time.",
+      "exemplo_pt": "Talvez outro dia."
+    },
+    {
+      "id": "bring",
+      "en": "bring",
+      "pt": "trazer",
+      "emoji": "🎁",
+      "exemplo_en": "Can I bring something?",
+      "exemplo_pt": "Posso levar alguma coisa?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Convites e combinações",
+    "explicacao_pt": "Convidar: Would you like to + verbo? (Would you like to come?) ou Do you want to…? (mais informal). Aceitar: I'd love to! / Sure, that sounds great. Recusar com educação: Sorry, I can't. I'm + -ing (desculpa + compromisso): Sorry, I can't. I'm visiting my mother. Sugerir: How about + dia/hora? / Let's + verbo (Let's meet at seven). Combinar: Where shall we meet? / I'll pick you up at six.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Convidar",
+          "Would you like to come to dinner?",
+          "Gostaria de vir jantar?"
+        ],
+        [
+          "Aceitar",
+          "I'd love to! What time?",
+          "Adoraria! Que horas?"
+        ],
+        [
+          "Recusar",
+          "Sorry, I can't. I'm working that day.",
+          "Desculpe, não posso. Trabalho nesse dia."
+        ],
+        [
+          "Sugerir",
+          "How about Friday instead?",
+          "Que tal sexta, então?"
+        ],
+        [
+          "Combinar",
+          "Let's meet at the station at eight.",
+          "Vamos nos encontrar na estação às oito."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Would you like to watch the game at our house? — I'd love to!",
+        "pt": "Quer ver o jogo na nossa casa? — Adoraria!"
+      },
+      {
+        "en": "Sorry, I can't on Saturday. I'm working. How about Sunday?",
+        "pt": "Desculpe, sábado não posso. Vou trabalhar. Que tal domingo?"
+      },
+      {
+        "en": "Great. Can I bring something? — Just bring a dessert.",
+        "pt": "Ótimo. Posso levar algo? — Só uma sobremesa."
+      },
+      {
+        "en": "I'll pick you up at seven. — Sounds good!",
+        "pt": "Te pego às sete. — Combinado!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An invitation",
+    "falas": [
+      {
+        "personagem": "Igor",
+        "voz": "a",
+        "en": "Hey, Fran! We're having a small party on Saturday. Would you like to come?",
+        "pt": "Ei, Fran! Vamos fazer uma festinha no sábado. Quer vir?"
+      },
+      {
+        "personagem": "Fran",
+        "voz": "b",
+        "en": "Oh, sorry, I can't on Saturday. I'm visiting my grandmother.",
+        "pt": "Ah, desculpe, sábado não posso. Vou visitar minha avó."
+      },
+      {
+        "personagem": "Igor",
+        "voz": "a",
+        "en": "No problem. How about lunch on Sunday?",
+        "pt": "Sem problema. Que tal um almoço no domingo?"
+      },
+      {
+        "personagem": "Fran",
+        "voz": "b",
+        "en": "I'd love to! Where shall we meet?",
+        "pt": "Adoraria! Onde nos encontramos?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "a",
+        "en": "Let's meet at the Italian restaurant at one.",
+        "pt": "Vamos nos encontrar no restaurante italiano à uma."
+      },
+      {
+        "personagem": "Fran",
+        "voz": "b",
+        "en": "Sounds good. See you on Sunday!",
+        "pt": "Combinado. Até domingo!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Why can't Fran go on Saturday?",
+        "opcoes": [
+          "She's working.",
+          "She's visiting her grandmother.",
+          "She's traveling."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What do they decide to do?",
+        "opcoes": [
+          "Have lunch on Sunday",
+          "Go to the party",
+          "Watch a movie"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What time are they meeting?",
+        "opcoes": [
+          "At noon",
+          "At one",
+          "At seven"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u04l3-p1",
+      "tipo": "completar",
+      "frase": "Would you like ___ come?",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "a2u04l3-p2",
+      "tipo": "completar",
+      "frase": "I'd ___ to! (adoraria)",
+      "respostas": [
+        "love"
+      ]
+    },
+    {
+      "id": "a2u04l3-p3",
+      "tipo": "completar",
+      "frase": "How ___ Friday? (que tal)",
+      "respostas": [
+        "about"
+      ]
+    },
+    {
+      "id": "a2u04l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Recusar com educação:",
+      "opcoes": [
+        "No. I don't want.",
+        "Sorry, I can't. I'm working.",
+        "I can't go because no."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u04l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Combinado!\"",
+      "opcoes": [
+        "Sounds good!",
+        "Sounds well!",
+        "Good sound!"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l3-p6",
+      "tipo": "ordenar",
+      "frase": "Let's meet at the station",
+      "traducao_pt": "Vamos nos encontrar na estação"
+    },
+    {
+      "id": "a2u04l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I'll pick you up at six.",
+      "aceitas": [
+        "I will pick you up at six."
+      ]
+    },
+    {
+      "id": "a2u04l3-p8",
+      "tipo": "traduzir",
+      "pt": "Posso levar alguma coisa?",
+      "respostas": [
+        "Can I bring something?",
+        "Can I bring anything?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Convide o professor para um programa (jantar, jogo, churrasco). Ele vai recusar uma vez; sugira outro dia e combinem hora e lugar.",
+    "papel_professor": "Quando o aluno convidar, recuse o primeiro dia com uma desculpa (Sorry, I can't. I'm…). Aceite a segunda sugestão e combinem hora e lugar. Pergunte se pode levar algo.",
+    "abertura": "Hi! What's up?",
+    "abertura_pt": "Oi! E aí?"
+  },
+  "teste": [
+    {
+      "id": "a2u04l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Gostaria de jantar com a gente?\"",
+      "opcoes": [
+        "Would you like to have dinner with us?",
+        "Do you like to have dinner with us?",
+        "You would like dinner with us?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l3-t2",
+      "tipo": "completar",
+      "frase": "Sorry, I ___. I'm working.",
+      "respostas": [
+        "can't",
+        "cannot"
+      ]
+    },
+    {
+      "id": "a2u04l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Where shall we meet?"
+    },
+    {
+      "id": "a2u04l3-t4",
+      "tipo": "traduzir",
+      "pt": "Talvez outro dia.",
+      "respostas": [
+        "Maybe another time.",
+        "Maybe another day."
+      ]
+    },
+    {
+      "id": "a2u04l3-t5",
+      "tipo": "ordenar",
+      "frase": "I'd love to come",
+      "traducao_pt": "Eu adoraria ir"
+    }
+  ]
+}

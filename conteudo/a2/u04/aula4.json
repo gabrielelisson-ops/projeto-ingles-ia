@@ -1,0 +1,355 @@
+{
+  "id": "a2-u04-l4",
+  "nivel": "A2",
+  "unidade": 4,
+  "numero": 4,
+  "titulo": "Plans at work",
+  "objetivo_pt": "Falar de planos e projetos no trabalho para as próximas semanas.",
+  "aquecimento": {
+    "situacao_pt": "O professor é seu colega novo e quer saber os planos da equipe para o próximo mês.",
+    "papel_professor": "Pergunte sobre os planos da equipe do aluno para o próximo mês (projetos, treinamentos, mudanças, metas). Use going to e present continuous para datas marcadas.",
+    "abertura": "I'm new on the team. What are we going to work on next month?",
+    "abertura_pt": "Sou novo na equipe. No que vamos trabalhar mês que vem?"
+  },
+  "vocabulario": [
+    {
+      "id": "project",
+      "en": "project",
+      "pt": "projeto",
+      "emoji": "📁",
+      "exemplo_en": "We're going to start a new project.",
+      "exemplo_pt": "Vamos começar um projeto novo."
+    },
+    {
+      "id": "install",
+      "en": "install",
+      "pt": "instalar",
+      "emoji": "🔩",
+      "exemplo_en": "They're going to install a new line.",
+      "exemplo_pt": "Eles vão instalar uma linha nova."
+    },
+    {
+      "id": "reduce",
+      "en": "reduce",
+      "pt": "reduzir",
+      "emoji": "📉",
+      "exemplo_en": "We're going to reduce waste.",
+      "exemplo_pt": "Vamos reduzir o desperdício."
+    },
+    {
+      "id": "increase",
+      "en": "increase",
+      "pt": "aumentar",
+      "emoji": "📈",
+      "exemplo_en": "We're going to increase production.",
+      "exemplo_pt": "Vamos aumentar a produção."
+    },
+    {
+      "id": "goal",
+      "en": "goal / target",
+      "pt": "meta / objetivo",
+      "emoji": "🎯",
+      "exemplo_en": "Our goal is 1,000 parts a day.",
+      "exemplo_pt": "Nossa meta é 1.000 peças por dia."
+    },
+    {
+      "id": "training-w",
+      "en": "training",
+      "pt": "treinamento",
+      "emoji": "👷",
+      "exemplo_en": "There's going to be a safety training.",
+      "exemplo_pt": "Vai ter um treinamento de segurança."
+    },
+    {
+      "id": "deadline",
+      "en": "deadline",
+      "pt": "prazo",
+      "emoji": "⏰",
+      "exemplo_en": "The deadline is next Friday.",
+      "exemplo_pt": "O prazo é sexta que vem."
+    },
+    {
+      "id": "change-w",
+      "en": "change",
+      "pt": "mudar / mudança",
+      "emoji": "🔄",
+      "exemplo_en": "We're going to change the layout.",
+      "exemplo_pt": "Vamos mudar o layout."
+    },
+    {
+      "id": "hire-w",
+      "en": "hire",
+      "pt": "contratar",
+      "emoji": "🤝",
+      "exemplo_en": "The company is going to hire five people.",
+      "exemplo_pt": "A empresa vai contratar cinco pessoas."
+    },
+    {
+      "id": "launch",
+      "en": "launch",
+      "pt": "lançar",
+      "emoji": "🚀",
+      "exemplo_en": "We're launching the new product in May.",
+      "exemplo_pt": "Vamos lançar o produto novo em maio."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Going to × present continuous: revisão no trabalho",
+    "explicacao_pt": "No trabalho: GOING TO para planos e decisões já tomadas (We're going to reduce waste by 10%). PRESENT CONTINUOUS + data para o que já está na agenda (We're launching the product on May 3rd). 'There is going to be…' = vai ter/vai haver (There's going to be a training). Para metas: Our goal is to + verbo.",
+    "tabela": {
+      "colunas": [
+        "Ideia",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Plano",
+          "going to",
+          "We're going to install a new line."
+        ],
+        [
+          "Agenda",
+          "present continuous + data",
+          "The auditors are coming on Monday."
+        ],
+        [
+          "Vai haver",
+          "there's going to be",
+          "There's going to be a meeting."
+        ],
+        [
+          "Meta",
+          "our goal is to…",
+          "Our goal is to reduce waste."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Next month we're going to change the layout of the warehouse.",
+        "pt": "Mês que vem vamos mudar o layout do almoxarifado."
+      },
+      {
+        "en": "There's going to be a safety training on Thursday.",
+        "pt": "Vai ter um treinamento de segurança na quinta."
+      },
+      {
+        "en": "The company is going to hire five operators.",
+        "pt": "A empresa vai contratar cinco operadores."
+      },
+      {
+        "en": "Our goal is to produce 1,200 parts a day.",
+        "pt": "Nossa meta é produzir 1.200 peças por dia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The team meeting",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "OK, team. Here are our plans for next month.",
+        "pt": "OK, equipe. Aqui estão nossos planos para o mês que vem."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "First, we're going to install a new packing machine.",
+        "pt": "Primeiro, vamos instalar uma nova máquina de embalagem."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "When is it arriving?",
+        "pt": "Quando ela chega?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "It's arriving on the fifth. The technicians are installing it on the sixth and seventh.",
+        "pt": "Chega no dia cinco. Os técnicos vão instalar nos dias seis e sete."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "Are we going to stop production?",
+        "pt": "Vamos parar a produção?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Only for two days. And there's going to be a training for everybody.",
+        "pt": "Só por dois dias. E vai ter um treinamento para todo mundo."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "What's our goal with the new machine?",
+        "pt": "Qual é nossa meta com a máquina nova?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "We're going to increase packing by thirty percent.",
+        "pt": "Vamos aumentar a embalagem em trinta por cento."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What are they going to install?",
+        "opcoes": [
+          "A packing machine",
+          "A new line",
+          "A conveyor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l4-e2",
+        "tipo": "multipla",
+        "enunciado": "When is the machine arriving?",
+        "opcoes": [
+          "On the fifth",
+          "On the sixth",
+          "On the seventh"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How long are they going to stop production?",
+        "opcoes": [
+          "One day",
+          "Two days",
+          "One week"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u04l4-p1",
+      "tipo": "completar",
+      "frase": "We're going to ___ waste. (reduzir)",
+      "respostas": [
+        "reduce"
+      ]
+    },
+    {
+      "id": "a2u04l4-p2",
+      "tipo": "completar",
+      "frase": "There's going to ___ a training.",
+      "respostas": [
+        "be"
+      ]
+    },
+    {
+      "id": "a2u04l4-p3",
+      "tipo": "completar",
+      "frase": "The ___ is next Friday. (prazo)",
+      "respostas": [
+        "deadline"
+      ]
+    },
+    {
+      "id": "a2u04l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Nossa meta é aumentar a produção\":",
+      "opcoes": [
+        "Our goal is to increase production.",
+        "Our goal is increase production.",
+        "Our goal increase the production."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Data na agenda: \"Vamos lançar em maio\":",
+      "opcoes": [
+        "We launch in May.",
+        "We're launching in May."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u04l4-p6",
+      "tipo": "ordenar",
+      "frase": "The company is going to hire five people",
+      "traducao_pt": "A empresa vai contratar cinco pessoas"
+    },
+    {
+      "id": "a2u04l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We're going to change the layout.",
+      "aceitas": [
+        "We are going to change the layout."
+      ]
+    },
+    {
+      "id": "a2u04l4-p8",
+      "tipo": "traduzir",
+      "pt": "Vamos começar um projeto novo.",
+      "respostas": [
+        "We're going to start a new project.",
+        "We are going to start a new project."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor (seu novo gerente) os planos da sua área para o próximo mês: um projeto, uma data marcada e uma meta.",
+    "papel_professor": "Faça o papel de gerente novo. Peça ao aluno os planos da área: projetos, datas marcadas, metas, treinamentos. Pergunte When…? Why…? How…?",
+    "abertura": "Hi, I'm the new production manager. Tell me about your area's plans for next month.",
+    "abertura_pt": "Oi, sou o novo gerente de produção. Me fale dos planos da sua área para o mês que vem."
+  },
+  "teste": [
+    {
+      "id": "a2u04l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Vai ter uma reunião\":",
+      "opcoes": [
+        "There's going to be a meeting.",
+        "It's going to have a meeting.",
+        "Will have a meeting."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l4-t2",
+      "tipo": "completar",
+      "frase": "We're going to ___ production. (aumentar)",
+      "respostas": [
+        "increase"
+      ]
+    },
+    {
+      "id": "a2u04l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our goal is 1,000 parts a day.",
+      "aceitas": [
+        "Our goal is one thousand parts a day.",
+        "Our goal is 1000 parts a day."
+      ]
+    },
+    {
+      "id": "a2u04l4-t4",
+      "tipo": "traduzir",
+      "pt": "O prazo é sexta que vem.",
+      "respostas": [
+        "The deadline is next Friday."
+      ]
+    },
+    {
+      "id": "a2u04l4-t5",
+      "tipo": "ordenar",
+      "frase": "We're launching the new product in May",
+      "traducao_pt": "Vamos lançar o produto novo em maio"
+    }
+  ]
+}

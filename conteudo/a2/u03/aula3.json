@@ -1,0 +1,347 @@
+{
+  "id": "a2-u03-l3",
+  "nivel": "A2",
+  "unidade": 3,
+  "numero": 3,
+  "titulo": "What is happening on the line?",
+  "objetivo_pt": "Descrever o que está acontecendo no trabalho agora: máquinas, pessoas e problemas.",
+  "aquecimento": {
+    "situacao_pt": "O professor é seu supervisor ligando para a fábrica. Explique o que está acontecendo agora na sua área.",
+    "papel_professor": "Faça o papel de supervisor ligando para saber o que está acontecendo na linha (Is the machine working? What are the operators doing? Is anyone checking the parts?).",
+    "abertura": "Hi, it's your supervisor. What's happening on the line right now?",
+    "abertura_pt": "Oi, aqui é seu supervisor. O que está acontecendo na linha agora?"
+  },
+  "vocabulario": [
+    {
+      "id": "running",
+      "en": "running",
+      "pt": "funcionando (máquina)",
+      "emoji": "⚙️",
+      "exemplo_en": "Machine two is running well.",
+      "exemplo_pt": "A máquina dois está funcionando bem."
+    },
+    {
+      "id": "fixing",
+      "en": "fixing",
+      "pt": "consertando",
+      "emoji": "🔧",
+      "exemplo_en": "The technician is fixing the belt.",
+      "exemplo_pt": "O técnico está consertando a correia."
+    },
+    {
+      "id": "checking",
+      "en": "checking",
+      "pt": "verificando",
+      "emoji": "✅",
+      "exemplo_en": "Ana is checking the parts.",
+      "exemplo_pt": "Ana está verificando as peças."
+    },
+    {
+      "id": "loading",
+      "en": "loading",
+      "pt": "carregando",
+      "emoji": "🚚",
+      "exemplo_en": "They are loading the truck.",
+      "exemplo_pt": "Eles estão carregando o caminhão."
+    },
+    {
+      "id": "making-noise",
+      "en": "making a strange noise",
+      "pt": "fazendo um barulho estranho",
+      "emoji": "🔊",
+      "exemplo_en": "The motor is making a strange noise.",
+      "exemplo_pt": "O motor está fazendo um barulho estranho."
+    },
+    {
+      "id": "leaking",
+      "en": "leaking",
+      "pt": "vazando",
+      "emoji": "💧",
+      "exemplo_en": "A pipe is leaking oil.",
+      "exemplo_pt": "Um cano está vazando óleo."
+    },
+    {
+      "id": "stopped-c",
+      "en": "stopped",
+      "pt": "parada (máquina)",
+      "emoji": "⛔",
+      "exemplo_en": "Line three is stopped.",
+      "exemplo_pt": "A linha três está parada."
+    },
+    {
+      "id": "training",
+      "en": "training",
+      "pt": "treinando",
+      "emoji": "👷",
+      "exemplo_en": "We're training two new operators.",
+      "exemplo_pt": "Estamos treinando dois operadores novos."
+    },
+    {
+      "id": "waiting-parts",
+      "en": "waiting for parts",
+      "pt": "esperando peças",
+      "emoji": "📦",
+      "exemplo_en": "We're waiting for parts from the supplier.",
+      "exemplo_pt": "Estamos esperando peças do fornecedor."
+    },
+    {
+      "id": "belt",
+      "en": "belt / conveyor",
+      "pt": "correia / esteira",
+      "emoji": "🔄",
+      "exemplo_en": "The conveyor is moving slowly.",
+      "exemplo_pt": "A esteira está andando devagar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present continuous no trabalho",
+    "explicacao_pt": "No trabalho usamos muito o present continuous para relatar a situação AGORA: The machine is running. The technician is fixing it. We're waiting for parts. Para máquinas paradas usamos 'is stopped' (adjetivo) ou 'isn't working' (não está funcionando). Pergunte com: What's happening? Is it working? Who is checking…? Why is it making that noise?",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "What's happening?",
+          "Line two is stopped.",
+          "A linha dois está parada."
+        ],
+        [
+          "Is the machine working?",
+          "No, it isn't. It's leaking oil.",
+          "Não. Está vazando óleo."
+        ],
+        [
+          "Who is fixing it?",
+          "Marcos is fixing it.",
+          "Marcos está consertando."
+        ],
+        [
+          "What are you waiting for?",
+          "We're waiting for parts.",
+          "Estamos esperando peças."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The conveyor is moving slowly today.",
+        "pt": "A esteira está andando devagar hoje."
+      },
+      {
+        "en": "We're loading the trucks for tomorrow's delivery.",
+        "pt": "Estamos carregando os caminhões para a entrega de amanhã."
+      },
+      {
+        "en": "Machine four isn't working. The technician is checking it.",
+        "pt": "A máquina quatro não está funcionando. O técnico está verificando."
+      },
+      {
+        "en": "Why is the motor making that noise?",
+        "pt": "Por que o motor está fazendo esse barulho?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A call from the supervisor",
+    "falas": [
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Hi, Leo. What's happening on line two?",
+        "pt": "Oi, Leo. O que está acontecendo na linha dois?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Machine three isn't working. It's leaking oil.",
+        "pt": "A máquina três não está funcionando. Está vazando óleo."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Is anyone fixing it?",
+        "pt": "Alguém está consertando?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Yes, Marcos is checking it now. He thinks it's a pipe.",
+        "pt": "Sim, o Marcos está verificando agora. Ele acha que é um cano."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "OK. And the other machines?",
+        "pt": "OK. E as outras máquinas?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "They're running, but we're producing more slowly.",
+        "pt": "Estão funcionando, mas estamos produzindo mais devagar."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "Thanks. Call me in an hour, please.",
+        "pt": "Obrigado. Me ligue daqui a uma hora, por favor."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the problem?",
+        "opcoes": [
+          "Machine three is leaking oil.",
+          "The conveyor is stopped.",
+          "There are no operators."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Who is checking the machine?",
+        "opcoes": [
+          "Leo",
+          "Marcos",
+          "The supervisor"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What about the other machines?",
+        "opcoes": [
+          "They aren't working.",
+          "They're running, but production is slower.",
+          "They're stopped."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u03l3-p1",
+      "tipo": "completar",
+      "frase": "The technician is ___ the belt. (fix)",
+      "respostas": [
+        "fixing"
+      ]
+    },
+    {
+      "id": "a2u03l3-p2",
+      "tipo": "completar",
+      "frase": "We're waiting ___ parts.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "a2u03l3-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Vazando\":",
+      "opcoes": [
+        "leaving",
+        "leaking",
+        "loading"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"A máquina não está funcionando\":",
+      "opcoes": [
+        "The machine isn't working.",
+        "The machine doesn't working.",
+        "The machine not working."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l3-p5",
+      "tipo": "completar",
+      "frase": "___ is happening on line two?",
+      "respostas": [
+        "What"
+      ]
+    },
+    {
+      "id": "a2u03l3-p6",
+      "tipo": "ordenar",
+      "frase": "They are loading the truck",
+      "traducao_pt": "Eles estão carregando o caminhão"
+    },
+    {
+      "id": "a2u03l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The motor is making a strange noise."
+    },
+    {
+      "id": "a2u03l3-p8",
+      "tipo": "traduzir",
+      "pt": "Estamos treinando dois operadores novos.",
+      "respostas": [
+        "We're training two new operators.",
+        "We are training two new operators."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Relate a situação da sua área de trabalho agora para o professor (máquinas, pessoas, tarefas e um problema).",
+    "papel_professor": "Faça o papel de gerente de outra unidade ligando para saber o status da área do aluno. Pergunte o que está acontecendo, quem está fazendo o quê e se há problemas. Use present continuous.",
+    "abertura": "Hello! I'm calling from the other plant. How are things in your area right now?",
+    "abertura_pt": "Olá! Estou ligando da outra unidade. Como estão as coisas na sua área agora?"
+  },
+  "teste": [
+    {
+      "id": "a2u03l3-t1",
+      "tipo": "completar",
+      "frase": "Ana is ___ the parts. (check)",
+      "respostas": [
+        "checking"
+      ]
+    },
+    {
+      "id": "a2u03l3-t2",
+      "tipo": "multipla",
+      "enunciado": "\"A linha três está parada\":",
+      "opcoes": [
+        "Line three is stopped.",
+        "Line three is stopping.",
+        "Line three stops."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We're waiting for parts from the supplier.",
+      "aceitas": [
+        "We are waiting for parts from the supplier."
+      ]
+    },
+    {
+      "id": "a2u03l3-t4",
+      "tipo": "traduzir",
+      "pt": "O que está acontecendo?",
+      "respostas": [
+        "What's happening?",
+        "What is happening?"
+      ]
+    },
+    {
+      "id": "a2u03l3-t5",
+      "tipo": "ordenar",
+      "frase": "The conveyor is moving slowly",
+      "traducao_pt": "A esteira está andando devagar"
+    }
+  ]
+}

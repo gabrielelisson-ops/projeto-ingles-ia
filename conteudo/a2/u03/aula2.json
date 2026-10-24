@@ -1,0 +1,350 @@
+{
+  "id": "a2-u03-l2",
+  "nivel": "A2",
+  "unidade": 3,
+  "numero": 2,
+  "titulo": "Every day or right now?",
+  "objetivo_pt": "Diferenciar presente simples (rotina) e present continuous (agora).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você faz normalmente e o que está fazendo agora. Compare as duas coisas.",
+    "papel_professor": "Faça perguntas contrastando rotina e agora (What do you usually do on Saturdays? What are you doing now?). Corrija a mistura dos tempos.",
+    "abertura": "What do you usually do on Saturday mornings? And what are you doing now?",
+    "abertura_pt": "O que você costuma fazer no sábado de manhã? E o que está fazendo agora?"
+  },
+  "vocabulario": [
+    {
+      "id": "usually-c",
+      "en": "usually",
+      "pt": "geralmente",
+      "emoji": "🔁",
+      "exemplo_en": "I usually take the bus.",
+      "exemplo_pt": "Geralmente pego o ônibus."
+    },
+    {
+      "id": "today",
+      "en": "today",
+      "pt": "hoje",
+      "emoji": "📅",
+      "exemplo_en": "Today I'm driving.",
+      "exemplo_pt": "Hoje estou dirigindo."
+    },
+    {
+      "id": "this-week",
+      "en": "this week",
+      "pt": "esta semana",
+      "emoji": "🗓️",
+      "exemplo_en": "This week I'm working nights.",
+      "exemplo_pt": "Esta semana estou trabalhando à noite."
+    },
+    {
+      "id": "every-day-c",
+      "en": "every day",
+      "pt": "todo dia",
+      "emoji": "📆",
+      "exemplo_en": "I drink coffee every day.",
+      "exemplo_pt": "Bebo café todo dia."
+    },
+    {
+      "id": "normally",
+      "en": "normally",
+      "pt": "normalmente",
+      "emoji": "✔️",
+      "exemplo_en": "Normally, she starts at eight.",
+      "exemplo_pt": "Normalmente, ela começa às oito."
+    },
+    {
+      "id": "instead",
+      "en": "instead",
+      "pt": "em vez disso",
+      "emoji": "🔀",
+      "exemplo_en": "He's working from home instead.",
+      "exemplo_pt": "Em vez disso, ele está trabalhando de casa."
+    },
+    {
+      "id": "cover",
+      "en": "cover for",
+      "pt": "substituir / cobrir alguém",
+      "emoji": "🦸",
+      "exemplo_en": "I'm covering for a colleague.",
+      "exemplo_pt": "Estou cobrindo um colega."
+    },
+    {
+      "id": "on-vacation",
+      "en": "on vacation",
+      "pt": "de férias",
+      "emoji": "🏖️",
+      "exemplo_en": "My boss is on vacation.",
+      "exemplo_pt": "Meu chefe está de férias."
+    },
+    {
+      "id": "these-days",
+      "en": "these days",
+      "pt": "hoje em dia / ultimamente",
+      "emoji": "📱",
+      "exemplo_en": "I'm reading a lot these days.",
+      "exemplo_pt": "Estou lendo muito ultimamente."
+    },
+    {
+      "id": "always-c",
+      "en": "always",
+      "pt": "sempre",
+      "emoji": "💯",
+      "exemplo_en": "She always arrives early.",
+      "exemplo_pt": "Ela sempre chega cedo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Presente simples × present continuous",
+    "explicacao_pt": "PRESENTE SIMPLES = rotina, hábitos, verdades (I work in a factory; she usually drives). PRESENT CONTINUOUS = o que está acontecendo agora ou é temporário (I'm working from home this week; she's driving now). Palavras-pista: simples → every day, usually, always, never, on Mondays. Contínuo → now, right now, at the moment, today, this week. Alguns verbos quase nunca vão para -ing: like, love, want, need, know, understand (diga 'I need help', não 'I'm needing').",
+    "tabela": {
+      "colunas": [
+        "Tempo",
+        "Uso",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Presente simples",
+          "rotina / hábito",
+          "I usually work days."
+        ],
+        [
+          "Present continuous",
+          "agora / temporário",
+          "This week I'm working nights."
+        ],
+        [
+          "Pistas (simples)",
+          "every day, usually, always",
+          "She always drives."
+        ],
+        [
+          "Pistas (contínuo)",
+          "now, today, this week",
+          "Today she's taking the bus."
+        ],
+        [
+          "Verbos de estado",
+          "like, want, need, know",
+          "I want coffee (não I'm wanting)."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I usually start at seven, but today I'm starting at nine.",
+        "pt": "Geralmente começo às sete, mas hoje vou começar às nove."
+      },
+      {
+        "en": "My boss is on vacation, so I'm covering for him.",
+        "pt": "Meu chefe está de férias, então estou cobrindo ele."
+      },
+      {
+        "en": "She doesn't usually work on Saturdays, but she's working today.",
+        "pt": "Ela normalmente não trabalha aos sábados, mas hoje está trabalhando."
+      },
+      {
+        "en": "I need a break. I don't understand this report.",
+        "pt": "Preciso de uma pausa. Não estou entendendo este relatório."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A different week",
+    "falas": [
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "Hi, Rosa! You're here early. Are you working the morning shift?",
+        "pt": "Oi, Rosa! Você chegou cedo. Está no turno da manhã?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "Yes, only this week. I usually work in the afternoon.",
+        "pt": "Sim, só esta semana. Normalmente trabalho à tarde."
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "Why are you changing?",
+        "pt": "Por que você está mudando?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "Ana is on vacation, so I'm covering for her.",
+        "pt": "A Ana está de férias, então estou cobrindo ela."
+      },
+      {
+        "personagem": "Gil",
+        "voz": "a",
+        "en": "And who is taking your kids to school?",
+        "pt": "E quem está levando seus filhos à escola?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "My husband. He normally works from home, so it's OK.",
+        "pt": "Meu marido. Ele normalmente trabalha de casa, então tudo bem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03l2-e1",
+        "tipo": "multipla",
+        "enunciado": "When does Rosa usually work?",
+        "opcoes": [
+          "In the morning",
+          "In the afternoon",
+          "At night"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Why is she changing shifts?",
+        "opcoes": [
+          "She wants more money.",
+          "Ana is on vacation.",
+          "Her kids are sick."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Who is taking the kids to school this week?",
+        "opcoes": [
+          "Rosa",
+          "Her husband",
+          "Ana"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u03l2-p1",
+      "tipo": "completar",
+      "frase": "I usually ___ the bus. (take)",
+      "respostas": [
+        "take"
+      ]
+    },
+    {
+      "id": "a2u03l2-p2",
+      "tipo": "completar",
+      "frase": "Today I'm ___ my car. (drive)",
+      "respostas": [
+        "driving"
+      ]
+    },
+    {
+      "id": "a2u03l2-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Ela sempre chega cedo\":",
+      "opcoes": [
+        "She is always arriving early.",
+        "She always arrives early.",
+        "She always arriving early."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I'm needing help.",
+        "I need help.",
+        "I needing help."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Need é verbo de estado."
+    },
+    {
+      "id": "a2u03l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Esta semana estou trabalhando à noite\":",
+      "opcoes": [
+        "This week I work nights.",
+        "This week I'm working nights.",
+        "This week I working nights."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l2-p6",
+      "tipo": "ordenar",
+      "frase": "My boss is on vacation",
+      "traducao_pt": "Meu chefe está de férias"
+    },
+    {
+      "id": "a2u03l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm covering for a colleague.",
+      "aceitas": [
+        "I am covering for a colleague."
+      ]
+    },
+    {
+      "id": "a2u03l2-p8",
+      "tipo": "traduzir",
+      "pt": "Eu bebo café todo dia.",
+      "respostas": [
+        "I drink coffee every day."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Compare a sua rotina normal com algo diferente que está acontecendo nesta semana ou neste mês.",
+    "papel_professor": "Pergunte sobre a rotina normal do aluno e o que está diferente esta semana/mês (férias de alguém, obra, projeto novo). Corrija o uso do simples × contínuo.",
+    "abertura": "Is this a normal week for you, or is something different happening?",
+    "abertura_pt": "Esta é uma semana normal para você, ou está acontecendo algo diferente?"
+  },
+  "teste": [
+    {
+      "id": "a2u03l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Rotina: \"Eu trabalho numa fábrica\":",
+      "opcoes": [
+        "I'm working in a factory.",
+        "I work in a factory."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l2-t2",
+      "tipo": "completar",
+      "frase": "Right now she ___ talking on the phone.",
+      "respostas": [
+        "is",
+        "'s"
+      ]
+    },
+    {
+      "id": "a2u03l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I usually take the bus."
+    },
+    {
+      "id": "a2u03l2-t4",
+      "tipo": "traduzir",
+      "pt": "Hoje estou dirigindo.",
+      "respostas": [
+        "Today I'm driving.",
+        "Today I am driving.",
+        "I'm driving today."
+      ]
+    },
+    {
+      "id": "a2u03l2-t5",
+      "tipo": "ordenar",
+      "frase": "She doesn't usually work on Saturdays",
+      "traducao_pt": "Ela normalmente não trabalha aos sábados"
+    }
+  ]
+}

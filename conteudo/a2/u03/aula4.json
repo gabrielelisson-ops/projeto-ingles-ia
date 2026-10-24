@@ -1,0 +1,347 @@
+{
+  "id": "a2-u03-l4",
+  "nivel": "A2",
+  "unidade": 3,
+  "numero": 4,
+  "titulo": "Describing a picture",
+  "objetivo_pt": "Descrever uma cena ou foto: quem são as pessoas, onde estão e o que estão fazendo.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever uma cena. Depois, descreva você uma cena da sua janela ou de uma foto que você tem.",
+    "papel_professor": "Descreva uma cena de praia curta em present continuous e peça ao aluno para descrever o que vê pela janela ou numa foto do celular (people, wearing, doing, in the background).",
+    "abertura": "Imagine a beach. Some kids are playing, a man is selling ice cream… Now, what can you see from your window?",
+    "abertura_pt": "Imagine uma praia. Algumas crianças estão brincando, um homem está vendendo sorvete… Agora, o que você vê pela sua janela?"
+  },
+  "vocabulario": [
+    {
+      "id": "in-the-picture",
+      "en": "in the picture",
+      "pt": "na foto / na imagem",
+      "emoji": "🖼️",
+      "exemplo_en": "In the picture, two men are talking.",
+      "exemplo_pt": "Na foto, dois homens estão conversando."
+    },
+    {
+      "id": "background",
+      "en": "in the background",
+      "pt": "ao fundo",
+      "emoji": "🌄",
+      "exemplo_en": "In the background, there is a mountain.",
+      "exemplo_pt": "Ao fundo, há uma montanha."
+    },
+    {
+      "id": "foreground",
+      "en": "in the foreground",
+      "pt": "em primeiro plano",
+      "emoji": "🔍",
+      "exemplo_en": "In the foreground, a dog is sleeping.",
+      "exemplo_pt": "Em primeiro plano, um cachorro está dormindo."
+    },
+    {
+      "id": "smiling",
+      "en": "smiling",
+      "pt": "sorrindo",
+      "emoji": "😊",
+      "exemplo_en": "Everybody is smiling.",
+      "exemplo_pt": "Todo mundo está sorrindo."
+    },
+    {
+      "id": "holding",
+      "en": "holding",
+      "pt": "segurando",
+      "emoji": "✋",
+      "exemplo_en": "She is holding a baby.",
+      "exemplo_pt": "Ela está segurando um bebê."
+    },
+    {
+      "id": "sitting",
+      "en": "sitting / standing",
+      "pt": "sentado / em pé",
+      "emoji": "🪑",
+      "exemplo_en": "He is sitting on a bench.",
+      "exemplo_pt": "Ele está sentado num banco."
+    },
+    {
+      "id": "looking-at",
+      "en": "looking at",
+      "pt": "olhando para",
+      "emoji": "👀",
+      "exemplo_en": "They are looking at the sea.",
+      "exemplo_pt": "Eles estão olhando para o mar."
+    },
+    {
+      "id": "selling",
+      "en": "selling / buying",
+      "pt": "vendendo / comprando",
+      "emoji": "🛒",
+      "exemplo_en": "A woman is selling fruit.",
+      "exemplo_pt": "Uma mulher está vendendo frutas."
+    },
+    {
+      "id": "crowded",
+      "en": "crowded / empty",
+      "pt": "cheio / vazio",
+      "emoji": "👥",
+      "exemplo_en": "The beach is crowded.",
+      "exemplo_pt": "A praia está cheia."
+    },
+    {
+      "id": "on-the-left",
+      "en": "on the left / on the right",
+      "pt": "à esquerda / à direita",
+      "emoji": "↔️",
+      "exemplo_en": "On the left, a boy is running.",
+      "exemplo_pt": "À esquerda, um menino está correndo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrever uma cena",
+    "explicacao_pt": "Para descrever uma foto: diga onde (In the picture… / On the left… / In the background…), use there is/are para o que existe e o present continuous para o que as pessoas estão fazendo: A woman is holding a baby. Two kids are playing. Para posição do corpo: sitting (sentado), standing (em pé), lying (deitado). Para roupas: He's wearing a red cap.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Lugar",
+          "In the picture / On the left",
+          "On the right, there is a café."
+        ],
+        [
+          "O que existe",
+          "there is / there are",
+          "There are a lot of people."
+        ],
+        [
+          "Ação",
+          "is / are + -ing",
+          "Two men are talking."
+        ],
+        [
+          "Roupa",
+          "is wearing",
+          "She is wearing a hat."
+        ],
+        [
+          "Posição",
+          "sitting / standing / lying",
+          "A dog is lying on the sand."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "In the picture, a family is having a picnic in the park.",
+        "pt": "Na foto, uma família está fazendo piquenique no parque."
+      },
+      {
+        "en": "On the left, a man is sitting on a bench and reading.",
+        "pt": "À esquerda, um homem está sentado num banco lendo."
+      },
+      {
+        "en": "In the background, some kids are playing soccer.",
+        "pt": "Ao fundo, algumas crianças estão jogando futebol."
+      },
+      {
+        "en": "Everybody is smiling. It looks like a sunny day.",
+        "pt": "Todo mundo está sorrindo. Parece um dia de sol."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A photo on the phone",
+    "falas": [
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Look at this photo from our trip!",
+        "pt": "Olha esta foto da nossa viagem!"
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "Nice! Where are you?",
+        "pt": "Legal! Onde vocês estão?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "We're at a market in Lisbon. On the left, my husband is buying cheese.",
+        "pt": "Estamos num mercado em Lisboa. À esquerda, meu marido está comprando queijo."
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "And who is the woman on the right?",
+        "pt": "E quem é a mulher à direita?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "That's the seller. She's holding a big fish!",
+        "pt": "É a vendedora. Ela está segurando um peixe enorme!"
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "Ha! And you're smiling in the background.",
+        "pt": "Ha! E você está sorrindo ao fundo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Where are they in the photo?",
+        "opcoes": [
+          "At a beach",
+          "At a market in Lisbon",
+          "At a restaurant"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is her husband doing?",
+        "opcoes": [
+          "Buying cheese",
+          "Holding a fish",
+          "Smiling"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Who is holding a fish?",
+        "opcoes": [
+          "Ana",
+          "Her husband",
+          "The seller"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u03l4-p1",
+      "tipo": "completar",
+      "frase": "In the ___, there is a mountain. (ao fundo)",
+      "respostas": [
+        "background"
+      ]
+    },
+    {
+      "id": "a2u03l4-p2",
+      "tipo": "completar",
+      "frase": "She is ___ a baby. (segurando)",
+      "respostas": [
+        "holding"
+      ]
+    },
+    {
+      "id": "a2u03l4-p3",
+      "tipo": "completar",
+      "frase": "He's ___ on a bench. (sentado)",
+      "respostas": [
+        "sitting"
+      ]
+    },
+    {
+      "id": "a2u03l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"A praia está cheia\":",
+      "opcoes": [
+        "The beach is full of people.",
+        "The beach is crowded.",
+        "As duas"
+      ],
+      "correta": 2
+    },
+    {
+      "id": "a2u03l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"À direita\":",
+      "opcoes": [
+        "in the right",
+        "on the right",
+        "at right"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l4-p6",
+      "tipo": "ordenar",
+      "frase": "Two men are talking",
+      "traducao_pt": "Dois homens estão conversando"
+    },
+    {
+      "id": "a2u03l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "They are looking at the sea."
+    },
+    {
+      "id": "a2u03l4-p8",
+      "tipo": "traduzir",
+      "pt": "Todo mundo está sorrindo.",
+      "respostas": [
+        "Everybody is smiling.",
+        "Everyone is smiling."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Escolha uma foto no seu celular (de família, viagem ou trabalho) e descreva para o professor: onde, quem, o que estão fazendo e vestindo.",
+    "papel_professor": "Peça ao aluno para descrever uma foto. Faça perguntas: Who is on the left? What is he wearing? What are they doing? Corrija present continuous e preposições de lugar.",
+    "abertura": "Choose a photo on your phone and describe it to me. Where was it taken?",
+    "abertura_pt": "Escolha uma foto no seu celular e descreva para mim. Onde ela foi tirada?"
+  },
+  "teste": [
+    {
+      "id": "a2u03l4-t1",
+      "tipo": "completar",
+      "frase": "A woman is ___ fruit. (vendendo)",
+      "respostas": [
+        "selling"
+      ]
+    },
+    {
+      "id": "a2u03l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Ele está usando um boné vermelho\":",
+      "opcoes": [
+        "He's wearing a red cap.",
+        "He's using a red cap.",
+        "He wears red a cap."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In the picture, two men are talking.",
+      "aceitas": [
+        "In the picture two men are talking."
+      ]
+    },
+    {
+      "id": "a2u03l4-t4",
+      "tipo": "traduzir",
+      "pt": "Ao fundo, há uma montanha.",
+      "respostas": [
+        "In the background, there is a mountain.",
+        "In the background there is a mountain.",
+        "In the background, there's a mountain."
+      ]
+    },
+    {
+      "id": "a2u03l4-t5",
+      "tipo": "ordenar",
+      "frase": "Everybody is smiling",
+      "traducao_pt": "Todo mundo está sorrindo"
+    }
+  ]
+}

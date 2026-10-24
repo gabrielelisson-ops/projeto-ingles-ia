@@ -1,0 +1,347 @@
+{
+  "id": "a2-u03-l5",
+  "nivel": "A2",
+  "unidade": 3,
+  "numero": 5,
+  "titulo": "Can I call you back?",
+  "objetivo_pt": "Atender uma ligação, explicar o que está fazendo e combinar de ligar de volta.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: o professor liga para você. Explique que está ocupado e o que está fazendo.",
+    "papel_professor": "Ligue para o aluno. Ele deve explicar que está ocupado (I'm driving / I'm in a meeting) e propor ligar depois. Ensine 'Can I call you back?'.",
+    "abertura": "Hi! Do you have a minute to talk?",
+    "abertura_pt": "Oi! Você tem um minuto para conversar?"
+  },
+  "vocabulario": [
+    {
+      "id": "call-back",
+      "en": "call back",
+      "pt": "ligar de volta",
+      "emoji": "🔁",
+      "exemplo_en": "Can I call you back later?",
+      "exemplo_pt": "Posso te ligar de volta mais tarde?"
+    },
+    {
+      "id": "in-a-meeting",
+      "en": "in a meeting",
+      "pt": "em reunião",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "Sorry, I'm in a meeting.",
+      "exemplo_pt": "Desculpe, estou em reunião."
+    },
+    {
+      "id": "bad-time",
+      "en": "It's a bad time",
+      "pt": "é uma hora ruim",
+      "emoji": "⏰",
+      "exemplo_en": "It's a bad time. I'm driving.",
+      "exemplo_pt": "É uma hora ruim. Estou dirigindo."
+    },
+    {
+      "id": "hold-on",
+      "en": "hold on",
+      "pt": "espere um pouco (ao telefone)",
+      "emoji": "✋",
+      "exemplo_en": "Hold on, please.",
+      "exemplo_pt": "Espere um pouco, por favor."
+    },
+    {
+      "id": "hear",
+      "en": "hear",
+      "pt": "ouvir",
+      "emoji": "👂",
+      "exemplo_en": "I can't hear you well.",
+      "exemplo_pt": "Não estou te ouvindo bem."
+    },
+    {
+      "id": "speak-up",
+      "en": "speak up",
+      "pt": "falar mais alto",
+      "emoji": "📢",
+      "exemplo_en": "Can you speak up, please?",
+      "exemplo_pt": "Pode falar mais alto, por favor?"
+    },
+    {
+      "id": "message",
+      "en": "leave a message",
+      "pt": "deixar recado",
+      "emoji": "📝",
+      "exemplo_en": "Can I leave a message?",
+      "exemplo_pt": "Posso deixar um recado?"
+    },
+    {
+      "id": "in-ten-minutes",
+      "en": "in ten minutes",
+      "pt": "daqui a dez minutos",
+      "emoji": "⏱️",
+      "exemplo_en": "I'll call you in ten minutes.",
+      "exemplo_pt": "Te ligo daqui a dez minutos."
+    },
+    {
+      "id": "breaking-up",
+      "en": "You're breaking up",
+      "pt": "a ligação está cortando",
+      "emoji": "📶",
+      "exemplo_en": "Sorry, you're breaking up.",
+      "exemplo_pt": "Desculpe, a ligação está cortando."
+    },
+    {
+      "id": "no-problem",
+      "en": "No problem",
+      "pt": "sem problema",
+      "emoji": "👍",
+      "exemplo_en": "No problem. Talk later!",
+      "exemplo_pt": "Sem problema. Falamos depois!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: ao telefone",
+    "explicacao_pt": "Ao telefone usamos muito o present continuous para explicar a situação: I'm driving. I'm in a meeting (be + lugar). I'm having lunch. E o presente simples para fatos: I don't hear you well → mais natural 'I can't hear you'. Frases essenciais: Can I call you back? / I'll call you in ten minutes. / Hold on, please. / You're breaking up. / Can you speak up?",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Ocupado",
+          "Sorry, I'm in a meeting.",
+          "Desculpe, estou em reunião."
+        ],
+        [
+          "Dirigindo",
+          "I'm driving. Can I call you back?",
+          "Estou dirigindo. Posso te ligar depois?"
+        ],
+        [
+          "Esperar",
+          "Hold on a second, please.",
+          "Espere um segundo, por favor."
+        ],
+        [
+          "Sinal ruim",
+          "You're breaking up.",
+          "A ligação está cortando."
+        ],
+        [
+          "Prometer",
+          "I'll call you in ten minutes.",
+          "Te ligo em dez minutos."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Hi, Bruno. Sorry, I'm driving right now. Can I call you back?",
+        "pt": "Oi, Bruno. Desculpe, estou dirigindo agora. Posso te ligar de volta?"
+      },
+      {
+        "en": "Hold on, please. I'm looking for the order number.",
+        "pt": "Espere, por favor. Estou procurando o número do pedido."
+      },
+      {
+        "en": "I can't hear you. Can you speak up?",
+        "pt": "Não estou te ouvindo. Pode falar mais alto?"
+      },
+      {
+        "en": "No problem. Call me when you're free.",
+        "pt": "Sem problema. Me liga quando estiver livre."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A busy moment",
+    "falas": [
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "Hi, Clara. It's Tom. Do you have a minute?",
+        "pt": "Oi, Clara. É o Tom. Você tem um minuto?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "Hi, Tom. Sorry, it's a bad time. I'm in the factory and it's very noisy.",
+        "pt": "Oi, Tom. Desculpe, é uma hora ruim. Estou na fábrica e está muito barulhento."
+      },
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "No problem. It's about the order for Monday.",
+        "pt": "Sem problema. É sobre o pedido de segunda."
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "Sorry, I can't hear you. You're breaking up.",
+        "pt": "Desculpe, não estou te ouvindo. A ligação está cortando."
+      },
+      {
+        "personagem": "Tom",
+        "voz": "a",
+        "en": "The ORDER for MONDAY!",
+        "pt": "O PEDIDO de SEGUNDA!"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "OK, I'm going to my office now. I'll call you back in ten minutes.",
+        "pt": "OK, estou indo para minha sala agora. Te ligo de volta em dez minutos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is Clara?",
+        "opcoes": [
+          "In her office",
+          "In the factory",
+          "In her car"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the call about?",
+        "opcoes": [
+          "A meeting",
+          "The order for Monday",
+          "A new machine"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l5-e3",
+        "tipo": "multipla",
+        "enunciado": "When will she call back?",
+        "opcoes": [
+          "In ten minutes",
+          "Tomorrow",
+          "In one hour"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u03l5-p1",
+      "tipo": "completar",
+      "frase": "Can I call you ___ later?",
+      "respostas": [
+        "back"
+      ]
+    },
+    {
+      "id": "a2u03l5-p2",
+      "tipo": "completar",
+      "frase": "Sorry, I'm ___ a meeting.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "a2u03l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Espere um pouco\":",
+      "opcoes": [
+        "Hold on.",
+        "Hold up.",
+        "Wait off."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"A ligação está cortando\":",
+      "opcoes": [
+        "You're breaking up.",
+        "You're breaking down.",
+        "The phone is broking."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l5-p5",
+      "tipo": "completar",
+      "frase": "Can you speak ___, please? (mais alto)",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "a2u03l5-p6",
+      "tipo": "ordenar",
+      "frase": "I'll call you in ten minutes",
+      "traducao_pt": "Te ligo em dez minutos"
+    },
+    {
+      "id": "a2u03l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Sorry, it's a bad time.",
+      "aceitas": [
+        "Sorry, it is a bad time.",
+        "Sorry it's a bad time."
+      ]
+    },
+    {
+      "id": "a2u03l5-p8",
+      "tipo": "traduzir",
+      "pt": "Posso deixar um recado?",
+      "respostas": [
+        "Can I leave a message?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: o professor liga num momento ruim. Explique o que você está fazendo, peça para falar mais alto, anote o recado e combine de ligar de volta.",
+    "papel_professor": "Ligue para o aluno num momento ruim. Fale sobre um assunto de trabalho (entrega atrasada). Teste: deixe a ligação 'cortar' uma vez e veja se ele usa You're breaking up / Can you speak up. Combine a ligação de volta.",
+    "abertura": "Hello? Hi! It's Mike from the warehouse. Are you busy right now?",
+    "abertura_pt": "Alô? Oi! É o Mike do almoxarifado. Você está ocupado agora?"
+  },
+  "teste": [
+    {
+      "id": "a2u03l5-t1",
+      "tipo": "completar",
+      "frase": "I can't ___ you well. (ouvir)",
+      "respostas": [
+        "hear"
+      ]
+    },
+    {
+      "id": "a2u03l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Estou dirigindo, posso te ligar depois?\"",
+      "opcoes": [
+        "I'm driving. Can I call you back?",
+        "I drive. Can I call you back?",
+        "I'm drive. Can I back call you?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Hold on, please."
+    },
+    {
+      "id": "a2u03l5-t4",
+      "tipo": "traduzir",
+      "pt": "Sem problema. Falamos depois!",
+      "respostas": [
+        "No problem. Talk later!",
+        "No problem. Talk to you later!",
+        "No problem, talk later!"
+      ]
+    },
+    {
+      "id": "a2u03l5-t5",
+      "tipo": "ordenar",
+      "frase": "Can you speak up please?",
+      "traducao_pt": "Pode falar mais alto, por favor?"
+    }
+  ]
+}

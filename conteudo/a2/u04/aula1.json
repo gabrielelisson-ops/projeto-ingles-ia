@@ -1,0 +1,344 @@
+{
+  "id": "a2-u04-l1",
+  "nivel": "A2",
+  "unidade": 4,
+  "numero": 1,
+  "titulo": "I'm going to travel",
+  "objetivo_pt": "Falar de planos e intenções com going to.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar seus planos para o fim de semana. Use \"I'm going to…\".",
+    "papel_professor": "Pergunte sobre os planos do aluno para o fim de semana e as próximas férias. Use going to. Corrija \"I going to\" → \"I'm going to\".",
+    "abertura": "What are you going to do this weekend?",
+    "abertura_pt": "O que você vai fazer neste fim de semana?"
+  },
+  "vocabulario": [
+    {
+      "id": "going-to",
+      "en": "be going to",
+      "pt": "ir + verbo (intenção)",
+      "emoji": "🎯",
+      "exemplo_en": "I'm going to visit my parents.",
+      "exemplo_pt": "Vou visitar meus pais."
+    },
+    {
+      "id": "tomorrow",
+      "en": "tomorrow",
+      "pt": "amanhã",
+      "emoji": "📅",
+      "exemplo_en": "I'm going to call him tomorrow.",
+      "exemplo_pt": "Vou ligar para ele amanhã."
+    },
+    {
+      "id": "next-week",
+      "en": "next week / next month",
+      "pt": "semana que vem / mês que vem",
+      "emoji": "🗓️",
+      "exemplo_en": "We're going to travel next month.",
+      "exemplo_pt": "Vamos viajar mês que vem."
+    },
+    {
+      "id": "tonight",
+      "en": "tonight",
+      "pt": "hoje à noite",
+      "emoji": "🌙",
+      "exemplo_en": "What are you going to do tonight?",
+      "exemplo_pt": "O que você vai fazer hoje à noite?"
+    },
+    {
+      "id": "soon",
+      "en": "soon",
+      "pt": "em breve",
+      "emoji": "⏩",
+      "exemplo_en": "They're going to move soon.",
+      "exemplo_pt": "Eles vão se mudar em breve."
+    },
+    {
+      "id": "plan",
+      "en": "plan",
+      "pt": "plano / planejar",
+      "emoji": "📝",
+      "exemplo_en": "What are your plans for the holidays?",
+      "exemplo_pt": "Quais são seus planos para as férias?"
+    },
+    {
+      "id": "paint",
+      "en": "paint",
+      "pt": "pintar",
+      "emoji": "🎨",
+      "exemplo_en": "We're going to paint the kitchen.",
+      "exemplo_pt": "Vamos pintar a cozinha."
+    },
+    {
+      "id": "save-money",
+      "en": "save money",
+      "pt": "economizar dinheiro",
+      "emoji": "💰",
+      "exemplo_en": "I'm going to save money for a car.",
+      "exemplo_pt": "Vou economizar para um carro."
+    },
+    {
+      "id": "learn-to",
+      "en": "learn to",
+      "pt": "aprender a",
+      "emoji": "🧠",
+      "exemplo_en": "She's going to learn to drive.",
+      "exemplo_pt": "Ela vai aprender a dirigir."
+    },
+    {
+      "id": "not-going",
+      "en": "not going to",
+      "pt": "não vai (plano)",
+      "emoji": "🙅",
+      "exemplo_en": "I'm not going to work on Saturday.",
+      "exemplo_pt": "Não vou trabalhar no sábado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Going to para planos",
+    "explicacao_pt": "Para planos e intenções, use AM/IS/ARE + GOING TO + verbo: I'm going to travel. She's going to buy a car. Negativa: I'm not going to work. Pergunta: Are you going to come? What are you going to do? Na fala rápida, 'going to' soa como 'gonna' — você vai ouvir muito, mas escreva 'going to'. Marcadores: tomorrow, tonight, next week, next year, soon.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Afirmativa",
+          "be + going to + verbo",
+          "We're going to paint the house."
+        ],
+        [
+          "Negativa",
+          "be + not going to + verbo",
+          "He isn't going to come."
+        ],
+        [
+          "Pergunta",
+          "Be + pessoa + going to…?",
+          "Are you going to travel?"
+        ],
+        [
+          "Com palavra",
+          "What/Where… + be + going to…?",
+          "What are you going to do?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm going to visit my sister next weekend.",
+        "pt": "Vou visitar minha irmã no fim de semana que vem."
+      },
+      {
+        "en": "We aren't going to travel this year. We're going to save money.",
+        "pt": "Não vamos viajar este ano. Vamos economizar."
+      },
+      {
+        "en": "Are you going to watch the game tonight? — Of course!",
+        "pt": "Você vai ver o jogo hoje à noite? — Claro!"
+      },
+      {
+        "en": "What is she going to study? — Engineering.",
+        "pt": "O que ela vai estudar? — Engenharia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Holiday plans",
+    "falas": [
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "So, what are you going to do in the holidays?",
+        "pt": "Então, o que você vai fazer nas férias?"
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "We're going to drive to the south. My wife wants to see the mountains.",
+        "pt": "Vamos de carro para o sul. Minha esposa quer ver as montanhas."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Are you going to stay at a hotel?",
+        "pt": "Vocês vão ficar num hotel?"
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "No, we're going to rent a small house. It's cheaper.",
+        "pt": "Não, vamos alugar uma casinha. É mais barato."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Sounds great. I'm not going to travel. I'm going to paint my apartment!",
+        "pt": "Parece ótimo. Eu não vou viajar. Vou pintar meu apartamento!"
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "That's a good plan too.",
+        "pt": "Também é um bom plano."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is Caio going to travel?",
+        "opcoes": [
+          "To the beach",
+          "To the south",
+          "To another country"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where are they going to stay?",
+        "opcoes": [
+          "At a hotel",
+          "In a small rented house",
+          "With friends"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Nina going to do?",
+        "opcoes": [
+          "Travel",
+          "Paint her apartment",
+          "Work"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u04l1-p1",
+      "tipo": "completar",
+      "frase": "I'm ___ to visit my parents.",
+      "respostas": [
+        "going"
+      ]
+    },
+    {
+      "id": "a2u04l1-p2",
+      "tipo": "completar",
+      "frase": "She ___ going to buy a car.",
+      "respostas": [
+        "is",
+        "'s"
+      ]
+    },
+    {
+      "id": "a2u04l1-p3",
+      "tipo": "completar",
+      "frase": "We ___ going to travel this year. (negativa)",
+      "respostas": [
+        "aren't",
+        "are not",
+        "'re not"
+      ]
+    },
+    {
+      "id": "a2u04l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I going to study.",
+        "I'm going to study.",
+        "I'm going study."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u04l1-p5",
+      "tipo": "completar",
+      "frase": "What ___ you going to do tonight?",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "a2u04l1-p6",
+      "tipo": "ordenar",
+      "frase": "We're going to paint the kitchen",
+      "traducao_pt": "Vamos pintar a cozinha"
+    },
+    {
+      "id": "a2u04l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "They're going to move soon.",
+      "aceitas": [
+        "They are going to move soon."
+      ]
+    },
+    {
+      "id": "a2u04l1-p8",
+      "tipo": "traduzir",
+      "pt": "Vou economizar dinheiro.",
+      "respostas": [
+        "I'm going to save money.",
+        "I am going to save money."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor 3 planos seus: para o fim de semana, para as férias e para o ano.",
+    "papel_professor": "Pergunte sobre planos de curto, médio e longo prazo (this weekend, next vacation, next year). Faça perguntas de continuação (Why? Who with?). Use going to.",
+    "abertura": "Let's talk about plans! What are you going to do this weekend?",
+    "abertura_pt": "Vamos falar de planos! O que você vai fazer neste fim de semana?"
+  },
+  "teste": [
+    {
+      "id": "a2u04l1-t1",
+      "tipo": "completar",
+      "frase": "He is going ___ learn to drive.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "a2u04l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Você vai vir?\"",
+      "opcoes": [
+        "Are you going to come?",
+        "Do you going to come?",
+        "You going to come?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm not going to work on Saturday.",
+      "aceitas": [
+        "I am not going to work on Saturday."
+      ]
+    },
+    {
+      "id": "a2u04l1-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos viajar mês que vem.",
+      "respostas": [
+        "We're going to travel next month.",
+        "We are going to travel next month."
+      ]
+    },
+    {
+      "id": "a2u04l1-t5",
+      "tipo": "ordenar",
+      "frase": "What are your plans for the holidays?",
+      "traducao_pt": "Quais são seus planos para as férias?"
+    }
+  ]
+}

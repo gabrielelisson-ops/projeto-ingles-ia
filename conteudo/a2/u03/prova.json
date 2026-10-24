@@ -1,0 +1,255 @@
+{
+  "id": "a2-u03-prova",
+  "nivel": "A2",
+  "unidade": 3,
+  "titulo": "Prova da Unidade 3 (A2) — Right now",
+  "leitura": {
+    "texto": "Hi Laura,\nI'm writing this email from the airport. My flight is late, so I'm sitting in a café and drinking a coffee. Lots of people are waiting at the gate, and some kids are playing on the floor. I usually travel on Mondays, but this week I'm going to the supplier on Thursday because their manager is on vacation. At the moment, the factory team is testing the new machine. Pedro is coordinating everything, and he's sending me photos every hour. Everything is going well! I don't usually like airports, but today I'm enjoying the break.\nTalk soon,\nRafa",
+    "perguntas": [
+      {
+        "id": "a2u03pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Where is Rafa?",
+        "opcoes": [
+          "At the factory",
+          "At the airport",
+          "At home"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Why is he in a café?",
+        "opcoes": [
+          "His flight is late.",
+          "He is hungry.",
+          "He is meeting Laura."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What are some kids doing?",
+        "opcoes": [
+          "Sleeping",
+          "Playing on the floor",
+          "Eating"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-l4",
+        "tipo": "multipla",
+        "enunciado": "When does Rafa usually travel?",
+        "opcoes": [
+          "On Mondays",
+          "On Thursdays",
+          "On Fridays"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why is he traveling on Thursday this week?",
+        "opcoes": [
+          "The supplier's manager is on vacation.",
+          "His flight changed.",
+          "He is sick."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What is the factory team doing?",
+        "opcoes": [
+          "Testing the new machine",
+          "Waiting for parts",
+          "Cleaning"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What is Pedro doing?",
+        "opcoes": [
+          "Sending photos every hour",
+          "Flying to the supplier",
+          "Drinking coffee"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Does Rafa usually like airports?",
+        "opcoes": [
+          "Yes, he does.",
+          "No, he doesn't."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Hello, maintenance. Leo speaking.",
+        "pt": "Alô, manutenção. Leo falando."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Hi, Leo. It's Bia from line four. The conveyor is moving very slowly.",
+        "pt": "Oi, Leo. É a Bia da linha quatro. A esteira está andando muito devagar."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Is it making any noise?",
+        "pt": "Está fazendo algum barulho?"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Yes, a strange noise. And the operators are waiting. We aren't producing anything.",
+        "pt": "Sim, um barulho estranho. E os operadores estão esperando. Não estamos produzindo nada."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "OK. I'm fixing a motor on line one right now. Can I call you back in fifteen minutes?",
+        "pt": "OK. Estou consertando um motor na linha um agora. Posso te ligar em quinze minutos?"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Fifteen? Please come faster!",
+        "pt": "Quinze? Por favor, venha mais rápido!"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "OK, OK. I'm sending a technician now.",
+        "pt": "OK, OK. Estou mandando um técnico agora."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where does Bia work?",
+        "opcoes": [
+          "Maintenance",
+          "Line four",
+          "Line one"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the problem?",
+        "opcoes": [
+          "The conveyor is moving very slowly.",
+          "The machine is leaking oil.",
+          "There is no electricity."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What are the operators doing?",
+        "opcoes": [
+          "Working",
+          "Waiting",
+          "Fixing the conveyor"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What is Leo doing right now?",
+        "opcoes": [
+          "Fixing a motor on line one",
+          "Having lunch",
+          "Driving"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03pv-e5",
+        "tipo": "multipla",
+        "enunciado": "When does Leo want to call back?",
+        "opcoes": [
+          "In five minutes",
+          "In fifteen minutes",
+          "Tomorrow"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What does Leo do in the end?",
+        "opcoes": [
+          "He calls the manager.",
+          "He sends a technician.",
+          "He goes home."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "We aren't producing anything.",
+        "aceitas": [
+          "We are not producing anything."
+        ]
+      },
+      {
+        "id": "a2u03pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I'm sending a technician now.",
+        "aceitas": [
+          "I am sending a technician now."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u03pv-w1",
+      "instrucao_pt": "Descreva o que está acontecendo agora ao seu redor (onde você está, o que as pessoas estão fazendo, o tempo).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u03pv-w2",
+      "instrucao_pt": "Compare sua rotina normal com algo diferente desta semana (use usually e this week).",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u03pv-s1",
+      "pergunta_en": "What are you doing right now, and what are the people around you doing?",
+      "instrucao_pt": "Descreva em voz alta a situação agora (present continuous)."
+    },
+    {
+      "id": "a2u03pv-s2",
+      "pergunta_en": "What do you usually do on weekdays, and what is different this week?",
+      "instrucao_pt": "Compare em voz alta rotina e semana atual (simples × contínuo)."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Present continuous (am/is/are + -ing, negativa e pergunta, ortografia do -ing), contraste com o presente simples (rotina × agora, verbos de estado), descrever cenas e situações no trabalho, frases ao telefone."
+}
