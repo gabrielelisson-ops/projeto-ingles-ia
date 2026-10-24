@@ -1,0 +1,356 @@
+{
+  "id": "a2-u06-l5",
+  "nivel": "A2",
+  "unidade": 6,
+  "numero": 5,
+  "titulo": "Which one should we buy?",
+  "objetivo_pt": "Comparar opções e recomendar uma escolha no trabalho, juntando tudo da unidade.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: compare rapidamente dois celulares ou dois carros que você conhece e diga qual é melhor.",
+    "papel_professor": "Peça ao aluno uma comparação rápida de dois produtos e uma recomendação (I think … is the best option because…).",
+    "abertura": "Quick! Two phones: which one is better and why?",
+    "abertura_pt": "Rápido! Dois celulares: qual é melhor e por quê?"
+  },
+  "vocabulario": [
+    {
+      "id": "option",
+      "en": "option",
+      "pt": "opção",
+      "emoji": "🔢",
+      "exemplo_en": "We have three options.",
+      "exemplo_pt": "Temos três opções."
+    },
+    {
+      "id": "recommend-c",
+      "en": "I recommend…",
+      "pt": "eu recomendo…",
+      "emoji": "👍",
+      "exemplo_en": "I recommend option B.",
+      "exemplo_pt": "Recomendo a opção B."
+    },
+    {
+      "id": "advantage",
+      "en": "advantage / disadvantage",
+      "pt": "vantagem / desvantagem",
+      "emoji": "⚖️",
+      "exemplo_en": "The main advantage is the price.",
+      "exemplo_pt": "A principal vantagem é o preço."
+    },
+    {
+      "id": "cost-c",
+      "en": "cost",
+      "pt": "custo / custar",
+      "emoji": "💵",
+      "exemplo_en": "It costs less in the long term.",
+      "exemplo_pt": "Custa menos a longo prazo."
+    },
+    {
+      "id": "warranty",
+      "en": "warranty",
+      "pt": "garantia",
+      "emoji": "📜",
+      "exemplo_en": "It has a longer warranty.",
+      "exemplo_pt": "Tem uma garantia mais longa."
+    },
+    {
+      "id": "maintenance",
+      "en": "maintenance",
+      "pt": "manutenção",
+      "emoji": "🔧",
+      "exemplo_en": "Maintenance is cheaper.",
+      "exemplo_pt": "A manutenção é mais barata."
+    },
+    {
+      "id": "energy",
+      "en": "energy consumption",
+      "pt": "consumo de energia",
+      "emoji": "🔌",
+      "exemplo_en": "It uses less energy.",
+      "exemplo_pt": "Usa menos energia."
+    },
+    {
+      "id": "long-term",
+      "en": "in the long term",
+      "pt": "a longo prazo",
+      "emoji": "📅",
+      "exemplo_en": "It's better in the long term.",
+      "exemplo_pt": "É melhor a longo prazo."
+    },
+    {
+      "id": "worth",
+      "en": "worth it",
+      "pt": "vale a pena",
+      "emoji": "💎",
+      "exemplo_en": "It's more expensive, but it's worth it.",
+      "exemplo_pt": "É mais caro, mas vale a pena."
+    },
+    {
+      "id": "budget",
+      "en": "budget",
+      "pt": "orçamento",
+      "emoji": "📊",
+      "exemplo_en": "It's within our budget.",
+      "exemplo_pt": "Está dentro do nosso orçamento."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: comparar e recomendar",
+    "explicacao_pt": "Para comparar opções e recomendar: use comparativos (cheaper, more reliable), superlativos (the best option, the most efficient), as…as (as good as) e conectores: but (mas), however (porém), so (então), because (porque). Para recomendar: I recommend + opção / I think … is the best choice because… / It's more expensive, but it's worth it.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Comparar",
+          "Option A is cheaper than option B.",
+          "A opção A é mais barata que a B."
+        ],
+        [
+          "Superlativo",
+          "Option C is the most efficient.",
+          "A opção C é a mais eficiente."
+        ],
+        [
+          "Igualdade",
+          "B isn't as reliable as C.",
+          "B não é tão confiável quanto C."
+        ],
+        [
+          "Recomendar",
+          "I recommend option C because…",
+          "Recomendo a opção C porque…"
+        ],
+        [
+          "Custo × benefício",
+          "It's more expensive, but it's worth it.",
+          "É mais cara, mas vale a pena."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Option A is the cheapest, but the maintenance is very expensive.",
+        "pt": "A opção A é a mais barata, mas a manutenção é muito cara."
+      },
+      {
+        "en": "Option B isn't as fast as option C.",
+        "pt": "A opção B não é tão rápida quanto a C."
+      },
+      {
+        "en": "I recommend option C. It's the most efficient and it uses less energy.",
+        "pt": "Recomendo a opção C. É a mais eficiente e usa menos energia."
+      },
+      {
+        "en": "It's more expensive now, but it's cheaper in the long term.",
+        "pt": "É mais cara agora, mas é mais barata a longo prazo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Buying a new compressor",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "We need a new air compressor. What are the options?",
+        "pt": "Precisamos de um compressor de ar novo. Quais são as opções?"
+      },
+      {
+        "personagem": "Tech",
+        "voz": "b",
+        "en": "There are three. Model A is the cheapest, but it's the noisiest.",
+        "pt": "Há três. O modelo A é o mais barato, mas é o mais barulhento."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "And model B?",
+        "pt": "E o modelo B?"
+      },
+      {
+        "personagem": "Tech",
+        "voz": "b",
+        "en": "B is more expensive than A, but it uses less energy and the warranty is longer.",
+        "pt": "O B é mais caro que o A, mas usa menos energia e a garantia é mais longa."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "What about C?",
+        "pt": "E o C?"
+      },
+      {
+        "personagem": "Tech",
+        "voz": "b",
+        "en": "C is the most expensive. It isn't much better than B.",
+        "pt": "O C é o mais caro. Não é muito melhor que o B."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "So what do you recommend?",
+        "pt": "Então, o que você recomenda?"
+      },
+      {
+        "personagem": "Tech",
+        "voz": "b",
+        "en": "I recommend B. It's the best option for our budget.",
+        "pt": "Recomendo o B. É a melhor opção para o nosso orçamento."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Which model is the cheapest?",
+        "opcoes": [
+          "A",
+          "B",
+          "C"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What are the advantages of model B?",
+        "opcoes": [
+          "It is the cheapest.",
+          "It uses less energy and has a longer warranty.",
+          "It is the most powerful."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the technician recommend?",
+        "opcoes": [
+          "Model A",
+          "Model B",
+          "Model C"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u06l5-p1",
+      "tipo": "completar",
+      "frase": "I ___ option B. (recomendo)",
+      "respostas": [
+        "recommend"
+      ]
+    },
+    {
+      "id": "a2u06l5-p2",
+      "tipo": "completar",
+      "frase": "It's more expensive, but it's ___ it. (vale a pena)",
+      "respostas": [
+        "worth"
+      ]
+    },
+    {
+      "id": "a2u06l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Garantia\":",
+      "opcoes": [
+        "guarantee only",
+        "warranty",
+        "warrant"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l5-p4",
+      "tipo": "completar",
+      "frase": "It's within our ___. (orçamento)",
+      "respostas": [
+        "budget"
+      ]
+    },
+    {
+      "id": "a2u06l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A melhor opção\":",
+      "opcoes": [
+        "the better option",
+        "the best option",
+        "the most good option"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l5-p6",
+      "tipo": "ordenar",
+      "frase": "It uses less energy",
+      "traducao_pt": "Usa menos energia"
+    },
+    {
+      "id": "a2u06l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's better in the long term.",
+      "aceitas": [
+        "It is better in the long term."
+      ]
+    },
+    {
+      "id": "a2u06l5-p8",
+      "tipo": "traduzir",
+      "pt": "A principal vantagem é o preço.",
+      "respostas": [
+        "The main advantage is the price."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: a empresa vai comprar algo novo (máquina, software ou veículo). Compare três opções (invente os dados) e faça uma recomendação para o professor, que é o diretor.",
+    "papel_professor": "Faça o papel de diretor. Peça ao aluno para comparar três opções e recomendar uma. Questione a escolha (Why not the cheapest one? Is it worth it?). Corrija comparativos e superlativos.",
+    "abertura": "Good morning. I hear you have a recommendation for our new purchase. What are the options?",
+    "abertura_pt": "Bom dia. Soube que você tem uma recomendação para a nossa nova compra. Quais são as opções?"
+  },
+  "teste": [
+    {
+      "id": "a2u06l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"É a mais eficiente\":",
+      "opcoes": [
+        "It's the most efficient.",
+        "It's the efficientest.",
+        "It's more efficient of all."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u06l5-t2",
+      "tipo": "completar",
+      "frase": "The ___ is cheaper. (manutenção)",
+      "respostas": [
+        "maintenance"
+      ]
+    },
+    {
+      "id": "a2u06l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I recommend option C."
+    },
+    {
+      "id": "a2u06l5-t4",
+      "tipo": "traduzir",
+      "pt": "Temos três opções.",
+      "respostas": [
+        "We have three options."
+      ]
+    },
+    {
+      "id": "a2u06l5-t5",
+      "tipo": "ordenar",
+      "frase": "It's more expensive but it's worth it",
+      "traducao_pt": "É mais caro, mas vale a pena"
+    }
+  ]
+}

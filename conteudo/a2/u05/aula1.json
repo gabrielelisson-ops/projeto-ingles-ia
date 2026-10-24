@@ -1,0 +1,348 @@
+{
+  "id": "a2-u05-l1",
+  "nivel": "A2",
+  "unidade": 5,
+  "numero": 1,
+  "titulo": "It will be sunny",
+  "objetivo_pt": "Falar do tempo e fazer previsões com will.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre o tempo hoje e amanhã. Use \"It will be…\", \"It's going to rain\".",
+    "papel_professor": "Pergunte sobre o tempo de hoje e a previsão para amanhã e o fim de semana na cidade do aluno. Use will/won't e vocabulário de clima.",
+    "abertura": "How's the weather today where you are? And what about tomorrow?",
+    "abertura_pt": "Como está o tempo hoje aí? E amanhã?"
+  },
+  "vocabulario": [
+    {
+      "id": "sunny",
+      "en": "sunny",
+      "pt": "ensolarado",
+      "emoji": "☀️",
+      "exemplo_en": "It will be sunny tomorrow.",
+      "exemplo_pt": "Amanhã vai fazer sol."
+    },
+    {
+      "id": "cloudy",
+      "en": "cloudy",
+      "pt": "nublado",
+      "emoji": "☁️",
+      "exemplo_en": "It was cloudy all day.",
+      "exemplo_pt": "Ficou nublado o dia todo."
+    },
+    {
+      "id": "rainy",
+      "en": "rainy / rain",
+      "pt": "chuvoso / chuva",
+      "emoji": "🌧️",
+      "exemplo_en": "It will rain in the afternoon.",
+      "exemplo_pt": "Vai chover à tarde."
+    },
+    {
+      "id": "windy",
+      "en": "windy",
+      "pt": "com vento",
+      "emoji": "💨",
+      "exemplo_en": "It's very windy today.",
+      "exemplo_pt": "Está ventando muito hoje."
+    },
+    {
+      "id": "hot-cold",
+      "en": "hot / warm / cool / cold",
+      "pt": "quente / morno / fresco / frio",
+      "emoji": "🌡️",
+      "exemplo_en": "It will be cold at night.",
+      "exemplo_pt": "Vai fazer frio à noite."
+    },
+    {
+      "id": "storm",
+      "en": "storm",
+      "pt": "tempestade",
+      "emoji": "⛈️",
+      "exemplo_en": "There will be a storm tonight.",
+      "exemplo_pt": "Vai ter uma tempestade hoje à noite."
+    },
+    {
+      "id": "degrees",
+      "en": "degrees",
+      "pt": "graus",
+      "emoji": "🌡️",
+      "exemplo_en": "It will be 30 degrees.",
+      "exemplo_pt": "Vai fazer 30 graus."
+    },
+    {
+      "id": "forecast",
+      "en": "weather forecast",
+      "pt": "previsão do tempo",
+      "emoji": "📺",
+      "exemplo_en": "The forecast says it will rain.",
+      "exemplo_pt": "A previsão diz que vai chover."
+    },
+    {
+      "id": "wont",
+      "en": "won't (will not)",
+      "pt": "não vai",
+      "emoji": "🚫",
+      "exemplo_en": "It won't rain today.",
+      "exemplo_pt": "Hoje não vai chover."
+    },
+    {
+      "id": "umbrella",
+      "en": "umbrella",
+      "pt": "guarda-chuva",
+      "emoji": "☂️",
+      "exemplo_en": "Take an umbrella!",
+      "exemplo_pt": "Leve um guarda-chuva!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Will para previsões",
+    "explicacao_pt": "WILL + verbo serve para previsões e opiniões sobre o futuro: It will rain tomorrow. I think it will be hot. A forma é igual para todas as pessoas, e a forma curta é 'll (It'll be cold). Negativa: WON'T (will not): It won't rain. Pergunta: Will it be sunny? — Yes, it will. / No, it won't. Para o tempo: It's sunny/cloudy/windy (adjetivos) e It rains / It's raining (verbo). 'There will be a storm' = vai ter uma tempestade.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Afirmativa",
+          "will + verbo",
+          "It will be hot."
+        ],
+        [
+          "Forma curta",
+          "'ll",
+          "It'll rain later."
+        ],
+        [
+          "Negativa",
+          "won't + verbo",
+          "It won't be cold."
+        ],
+        [
+          "Pergunta",
+          "Will + sujeito + verbo?",
+          "Will it rain?"
+        ],
+        [
+          "Resposta",
+          "Yes, it will. / No, it won't.",
+          "No, it won't."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The forecast says it will be 32 degrees tomorrow.",
+        "pt": "A previsão diz que vai fazer 32 graus amanhã."
+      },
+      {
+        "en": "Take a jacket. It'll be cold tonight.",
+        "pt": "Leve um casaco. Vai fazer frio hoje à noite."
+      },
+      {
+        "en": "Will it rain on Saturday? — I don't think so.",
+        "pt": "Vai chover no sábado? — Acho que não."
+      },
+      {
+        "en": "There will be a storm in the evening.",
+        "pt": "Vai ter uma tempestade à noitinha."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The weather forecast",
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Good morning! Here is the weather for the weekend.",
+        "pt": "Bom dia! Aqui está o tempo para o fim de semana."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "On Saturday, it will be sunny and hot, around 31 degrees.",
+        "pt": "No sábado, vai fazer sol e calor, por volta de 31 graus."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "But on Sunday, it will be cloudy, and there will be storms in the afternoon.",
+        "pt": "Mas no domingo, vai ficar nublado e vai ter tempestades à tarde."
+      },
+      {
+        "personagem": "Woman",
+        "voz": "b",
+        "en": "Did you hear that? Let's go to the beach on Saturday, not Sunday.",
+        "pt": "Você ouviu? Vamos à praia no sábado, não no domingo."
+      },
+      {
+        "personagem": "Man",
+        "voz": "a",
+        "en": "Good idea. And on Sunday we'll stay at home and watch movies.",
+        "pt": "Boa ideia. E no domingo ficamos em casa vendo filmes."
+      },
+      {
+        "personagem": "Woman",
+        "voz": "b",
+        "en": "Perfect. I won't forget the sunscreen!",
+        "pt": "Perfeito. Não vou esquecer o protetor solar!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How will the weather be on Saturday?",
+        "opcoes": [
+          "Cloudy",
+          "Sunny and hot",
+          "Rainy"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What will happen on Sunday afternoon?",
+        "opcoes": [
+          "Storms",
+          "Snow",
+          "Sun"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05l1-e3",
+        "tipo": "multipla",
+        "enunciado": "When will they go to the beach?",
+        "opcoes": [
+          "On Saturday",
+          "On Sunday",
+          "Next week"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u05l1-p1",
+      "tipo": "completar",
+      "frase": "It ___ be sunny tomorrow.",
+      "respostas": [
+        "will"
+      ]
+    },
+    {
+      "id": "a2u05l1-p2",
+      "tipo": "completar",
+      "frase": "It ___ rain today. (negativa)",
+      "respostas": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "a2u05l1-p3",
+      "tipo": "completar",
+      "frase": "___ it be cold tonight?",
+      "respostas": [
+        "Will"
+      ]
+    },
+    {
+      "id": "a2u05l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Nublado\":",
+      "opcoes": [
+        "cloudy",
+        "cloud",
+        "clouding"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Vai ter uma tempestade\":",
+      "opcoes": [
+        "There will be a storm.",
+        "It will have a storm.",
+        "Will a storm."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l1-p6",
+      "tipo": "ordenar",
+      "frase": "It'll be cold at night",
+      "traducao_pt": "Vai fazer frio à noite"
+    },
+    {
+      "id": "a2u05l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The forecast says it will rain."
+    },
+    {
+      "id": "a2u05l1-p8",
+      "tipo": "traduzir",
+      "pt": "Leve um guarda-chuva!",
+      "respostas": [
+        "Take an umbrella!"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você vai viajar e quer saber como estará o tempo. O professor é o recepcionista do hotel no destino. Pergunte a previsão e o que levar.",
+    "papel_professor": "Faça o papel de recepcionista de hotel em Gramado no inverno. Responda à previsão (frio, 5 graus à noite, talvez chuva no domingo) e recomende o que levar. Use will/won't.",
+    "abertura": "Hello, Gramado Mountain Hotel. How can I help you?",
+    "abertura_pt": "Alô, Gramado Mountain Hotel. Como posso ajudar?"
+  },
+  "teste": [
+    {
+      "id": "a2u05l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Vai fazer 30 graus\":",
+      "opcoes": [
+        "It will be 30 degrees.",
+        "It will make 30 degrees.",
+        "It will do 30 degrees."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l1-t2",
+      "tipo": "completar",
+      "frase": "Will it rain? — No, it ___.",
+      "respostas": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "a2u05l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It's very windy today.",
+      "aceitas": [
+        "It is very windy today."
+      ]
+    },
+    {
+      "id": "a2u05l1-t4",
+      "tipo": "traduzir",
+      "pt": "Amanhã vai fazer sol.",
+      "respostas": [
+        "It will be sunny tomorrow.",
+        "Tomorrow it will be sunny.",
+        "It'll be sunny tomorrow."
+      ]
+    },
+    {
+      "id": "a2u05l1-t5",
+      "tipo": "ordenar",
+      "frase": "Will it rain on Saturday?",
+      "traducao_pt": "Vai chover no sábado?"
+    }
+  ]
+}

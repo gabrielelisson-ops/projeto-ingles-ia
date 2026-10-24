@@ -1,0 +1,252 @@
+{
+  "id": "a2-u06-prova",
+  "nivel": "A2",
+  "unidade": 6,
+  "titulo": "Prova da Unidade 6 (A2) — Comparing products",
+  "leitura": {
+    "texto": "Choosing a new forklift\nOur warehouse needs a new forklift, and we compared three models. The Lift 200 is the cheapest: it costs R$ 90,000. However, it is the oldest design and it uses diesel, so it is noisier and more expensive to maintain. The Lift 300 costs R$ 120,000. It is electric, so it is quieter and cleaner than the Lift 200, and the maintenance is much cheaper. The Lift 400 is the most expensive (R$ 150,000) and the most modern. It is a little faster than the 300, but it isn't as easy to repair, because the parts come from Japan. Our recommendation is the Lift 300: it isn't the cheapest, but it is the best option for our budget in the long term.",
+    "perguntas": [
+      {
+        "id": "a2u06pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Which forklift is the cheapest?",
+        "opcoes": [
+          "Lift 200",
+          "Lift 300",
+          "Lift 400"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Why is the Lift 200 noisier?",
+        "opcoes": [
+          "It is electric.",
+          "It uses diesel.",
+          "It is new."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How much is the Lift 300?",
+        "opcoes": [
+          "R$ 90,000",
+          "R$ 120,000",
+          "R$ 150,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What are the advantages of the Lift 300 over the 200?",
+        "opcoes": [
+          "Quieter, cleaner and cheaper maintenance",
+          "Faster and cheaper",
+          "Older and stronger"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Which one is the most modern?",
+        "opcoes": [
+          "Lift 200",
+          "Lift 300",
+          "Lift 400"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a2u06pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why is the Lift 400 not as easy to repair?",
+        "opcoes": [
+          "The parts come from Japan.",
+          "It uses diesel.",
+          "It is too big."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Which model do they recommend?",
+        "opcoes": [
+          "Lift 200",
+          "Lift 300",
+          "Lift 400"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Why do they recommend it?",
+        "opcoes": [
+          "It's the cheapest.",
+          "It's the best option for the budget in the long term.",
+          "It's the fastest."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "I'm choosing a new phone. Can you help me?",
+        "pt": "Estou escolhendo um celular novo. Pode me ajudar?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Sure. What are the options?",
+        "pt": "Claro. Quais são as opções?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "The X5 and the Z10. The X5 is cheaper, but the Z10 has a better camera.",
+        "pt": "O X5 e o Z10. O X5 é mais barato, mas o Z10 tem uma câmera melhor."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "What about the battery?",
+        "pt": "E a bateria?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "The battery is the same. Both last two days.",
+        "pt": "A bateria é igual. As duas duram dois dias."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Is the X5 as fast as the Z10?",
+        "pt": "O X5 é tão rápido quanto o Z10?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "No, it isn't as fast. But I only use it for messages and photos.",
+        "pt": "Não, não é tão rápido. Mas eu só uso para mensagens e fotos."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Photos? Then the Z10 is the best choice for you!",
+        "pt": "Fotos? Então o Z10 é a melhor escolha para você!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Which phone is cheaper?",
+        "opcoes": [
+          "The X5",
+          "The Z10"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Which phone has a better camera?",
+        "opcoes": [
+          "The X5",
+          "The Z10"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How long do the batteries last?",
+        "opcoes": [
+          "One day",
+          "Two days",
+          "Three days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Is the X5 as fast as the Z10?",
+        "opcoes": [
+          "Yes",
+          "No, it isn't as fast."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does Ana use her phone for?",
+        "opcoes": [
+          "Games and videos",
+          "Messages and photos",
+          "Work emails"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What does Leo recommend?",
+        "opcoes": [
+          "The X5",
+          "The Z10"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "The battery is the same."
+      },
+      {
+        "id": "a2u06pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Is the X5 as fast as the Z10?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u06pv-w1",
+      "instrucao_pt": "Compare duas cidades, dois carros ou dois empregos que você conhece (use comparativos e as…as).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u06pv-w2",
+      "instrucao_pt": "Escreva uma recomendação de compra para a sua empresa: compare 3 opções e diga qual é a melhor e por quê (use superlativos).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u06pv-s1",
+      "pergunta_en": "Compare your city with another city you know.",
+      "instrucao_pt": "Compare em voz alta duas cidades (bigger, more expensive, as…as)."
+    },
+    {
+      "id": "a2u06pv-s2",
+      "pergunta_en": "What is the best place you have visited? Why?",
+      "instrucao_pt": "Fale em voz alta sobre o melhor lugar que você já visitou, usando superlativos."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Comparativos de adjetivos curtos (-er, -ier, dobrar consoante) e longos (more/less), irregulares (better, worse), superlativos (the -est, the most, the least, the best, the worst), as…as / not as…as, the same as, different from, recomendar uma opção."
+}

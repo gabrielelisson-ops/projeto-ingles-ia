@@ -1,0 +1,258 @@
+{
+  "id": "a2-u05-prova",
+  "nivel": "A2",
+  "unidade": 5,
+  "titulo": "Prova da Unidade 5 (A2) — Predictions",
+  "leitura": {
+    "texto": "Weekend weather and road report\nFriday will be hot and sunny in the whole state, with temperatures around 33 degrees. On Saturday morning, it will still be sunny, but there will be strong winds in the afternoon. Experts think that heavy storms will arrive on Saturday night, especially on the coast. Sunday will probably be cloudy and cool, around 22 degrees, but it won't rain much. Drivers: the highway to the beach will be very busy on Friday evening, so leave early or travel on Saturday morning. The police say there will be extra officers on the roads. If you are going to the mountains, take a jacket: it will be cold at night.",
+    "perguntas": [
+      {
+        "id": "a2u05pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How will the weather be on Friday?",
+        "opcoes": [
+          "Cold and cloudy",
+          "Hot and sunny",
+          "Rainy"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What will happen on Saturday afternoon?",
+        "opcoes": [
+          "Strong winds",
+          "Snow",
+          "Heavy rain"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05pv-l3",
+        "tipo": "multipla",
+        "enunciado": "When will the storms arrive?",
+        "opcoes": [
+          "Friday morning",
+          "Saturday night",
+          "Sunday afternoon"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Where will the storms be especially strong?",
+        "opcoes": [
+          "In the mountains",
+          "On the coast",
+          "In the city"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How will Sunday probably be?",
+        "opcoes": [
+          "Hot and sunny",
+          "Cloudy and cool",
+          "Stormy"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-l6",
+        "tipo": "multipla",
+        "enunciado": "When will the highway be very busy?",
+        "opcoes": [
+          "Friday evening",
+          "Saturday morning",
+          "Sunday night"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What does the report recommend for drivers?",
+        "opcoes": [
+          "Travel on Friday evening",
+          "Leave early or travel on Saturday morning",
+          "Stay at home"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Why take a jacket to the mountains?",
+        "opcoes": [
+          "It will rain.",
+          "It will be cold at night.",
+          "It will be windy."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "Look at these numbers. We're going to miss the deadline for the Japanese client.",
+        "pt": "Olha esses números. Vamos perder o prazo do cliente japonês."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "Really? How many parts do we still need?",
+        "pt": "Sério? Quantas peças ainda precisamos?"
+      },
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "Three thousand. And the client is visiting us on Thursday.",
+        "pt": "Três mil. E o cliente vem nos visitar na quinta."
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "OK. I'll talk to the manager about overtime.",
+        "pt": "OK. Vou falar com o gerente sobre hora extra."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "Good. Do you think the team will accept?",
+        "pt": "Ótimo. Você acha que a equipe vai aceitar?"
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "I think so. Most of them want extra money before Christmas.",
+        "pt": "Acho que sim. A maioria quer um dinheiro extra antes do Natal."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "a",
+        "en": "Shall I prepare the new schedule?",
+        "pt": "Quer que eu prepare a nova escala?"
+      },
+      {
+        "personagem": "Caio",
+        "voz": "b",
+        "en": "Yes, please. I promise I'll give you an answer by five.",
+        "pt": "Sim, por favor. Prometo que te dou uma resposta até as cinco."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the problem?",
+        "opcoes": [
+          "They're going to miss a deadline.",
+          "A machine is broken.",
+          "The client is angry."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How many parts do they still need?",
+        "opcoes": [
+          "Three hundred",
+          "Three thousand",
+          "Thirteen thousand"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When is the client visiting?",
+        "opcoes": [
+          "On Tuesday",
+          "On Thursday",
+          "On Friday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What will Caio talk to the manager about?",
+        "opcoes": [
+          "A new machine",
+          "Overtime",
+          "The client"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Does Caio think the team will accept?",
+        "opcoes": [
+          "Yes, he thinks so.",
+          "No, he doesn't think so."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What will Rita prepare?",
+        "opcoes": [
+          "A report",
+          "The new schedule",
+          "A presentation"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I'll talk to the manager about overtime.",
+        "aceitas": [
+          "I will talk to the manager about overtime."
+        ]
+      },
+      {
+        "id": "a2u05pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Shall I prepare the new schedule?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u05pv-w1",
+      "instrucao_pt": "Escreva a previsão do tempo para a sua cidade no próximo fim de semana (use will, won't e there will be).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u05pv-w2",
+      "instrucao_pt": "Escreva 3 a 5 previsões sobre o seu trabalho ou a sua vida no próximo ano (use I think, probably, I don't think).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u05pv-s1",
+      "pergunta_en": "What do you think the world will be like in 2050?",
+      "instrucao_pt": "Faça em voz alta 3 previsões sobre o futuro, com I think/I don't think."
+    },
+    {
+      "id": "a2u05pv-s2",
+      "pergunta_en": "Your colleague says: 'I'm so busy and this box is very heavy!' What do you say?",
+      "instrucao_pt": "Ofereça ajuda em voz alta usando I'll ou Shall I…?"
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Will/won't para previsões, opiniões (I think / I don't think…will, probably, definitely), decisões na hora, ofertas e promessas (I'll…, Shall I…?), diferença entre will e going to (plano, evidência), vocabulário de clima e previsões no trabalho."
+}

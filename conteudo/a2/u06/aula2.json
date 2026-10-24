@@ -1,0 +1,340 @@
+{
+  "id": "a2-u06-l2",
+  "nivel": "A2",
+  "unidade": 6,
+  "numero": 2,
+  "titulo": "More reliable, less expensive",
+  "objetivo_pt": "Comparar com adjetivos longos (more / less + adjetivo).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir para você comparar duas opções no trabalho. Use \"more … than\" e \"less … than\".",
+    "papel_professor": "Peça para o aluno comparar dois fornecedores, dois softwares, duas rotas. Use more/less + adjetivo longo (expensive, reliable, comfortable, efficient). Corrija 'expensiver' → 'more expensive'.",
+    "abertura": "Imagine two suppliers: one in China and one in Brazil. Which one is more reliable?",
+    "abertura_pt": "Imagine dois fornecedores: um na China e um no Brasil. Qual é mais confiável?"
+  },
+  "vocabulario": [
+    {
+      "id": "expensive",
+      "en": "more expensive",
+      "pt": "mais caro",
+      "emoji": "💰",
+      "exemplo_en": "The German parts are more expensive.",
+      "exemplo_pt": "As peças alemãs são mais caras."
+    },
+    {
+      "id": "reliable",
+      "en": "reliable",
+      "pt": "confiável",
+      "emoji": "🛡️",
+      "exemplo_en": "This supplier is more reliable.",
+      "exemplo_pt": "Este fornecedor é mais confiável."
+    },
+    {
+      "id": "efficient",
+      "en": "efficient",
+      "pt": "eficiente",
+      "emoji": "⚙️",
+      "exemplo_en": "The new line is more efficient.",
+      "exemplo_pt": "A linha nova é mais eficiente."
+    },
+    {
+      "id": "comfortable",
+      "en": "comfortable",
+      "pt": "confortável",
+      "emoji": "🛋️",
+      "exemplo_en": "These boots are more comfortable.",
+      "exemplo_pt": "Estas botas são mais confortáveis."
+    },
+    {
+      "id": "modern",
+      "en": "modern",
+      "pt": "moderno",
+      "emoji": "🆕",
+      "exemplo_en": "Their factory is more modern.",
+      "exemplo_pt": "A fábrica deles é mais moderna."
+    },
+    {
+      "id": "difficult-c",
+      "en": "difficult",
+      "pt": "difícil",
+      "emoji": "🧩",
+      "exemplo_en": "English is more difficult than Spanish for me.",
+      "exemplo_pt": "Inglês é mais difícil que espanhol para mim."
+    },
+    {
+      "id": "less",
+      "en": "less … than",
+      "pt": "menos … que",
+      "emoji": "➖",
+      "exemplo_en": "This model is less expensive.",
+      "exemplo_pt": "Este modelo é menos caro."
+    },
+    {
+      "id": "quality",
+      "en": "quality",
+      "pt": "qualidade",
+      "emoji": "🏅",
+      "exemplo_en": "Their quality is higher.",
+      "exemplo_pt": "A qualidade deles é maior."
+    },
+    {
+      "id": "delivery",
+      "en": "delivery time",
+      "pt": "prazo de entrega",
+      "emoji": "🚚",
+      "exemplo_en": "Their delivery time is longer.",
+      "exemplo_pt": "O prazo de entrega deles é maior."
+    },
+    {
+      "id": "much-better",
+      "en": "much better / a little better",
+      "pt": "muito melhor / um pouco melhor",
+      "emoji": "📶",
+      "exemplo_en": "The new software is much faster.",
+      "exemplo_pt": "O software novo é muito mais rápido."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Comparativos com adjetivos longos",
+    "explicacao_pt": "Com adjetivos de duas ou mais sílabas (exceto os terminados em -y), use MORE + adjetivo + THAN: more expensive than, more reliable than. Para o contrário, LESS + adjetivo: less expensive (menos caro). Para intensificar: MUCH (muito) ou A LITTLE / A BIT (um pouco) antes do comparativo: much cheaper, a little more expensive. Nunca use -er com adjetivos longos (expensiver ✗).",
+    "tabela": {
+      "colunas": [
+        "Adjetivo",
+        "Comparativo",
+        "Intensidade"
+      ],
+      "linhas": [
+        [
+          "expensive",
+          "more expensive than",
+          "much more expensive"
+        ],
+        [
+          "reliable",
+          "more reliable than",
+          "a little more reliable"
+        ],
+        [
+          "efficient",
+          "less efficient than",
+          "much less efficient"
+        ],
+        [
+          "cheap (curto)",
+          "cheaper than",
+          "much cheaper"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The Brazilian supplier is more expensive, but it's more reliable.",
+        "pt": "O fornecedor brasileiro é mais caro, mas é mais confiável."
+      },
+      {
+        "en": "The new boots are much more comfortable than the old ones.",
+        "pt": "As botas novas são muito mais confortáveis que as antigas."
+      },
+      {
+        "en": "This process is less efficient than the old one.",
+        "pt": "Este processo é menos eficiente que o antigo."
+      },
+      {
+        "en": "Their delivery time is a little longer.",
+        "pt": "O prazo de entrega deles é um pouco maior."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Comparing two suppliers",
+    "falas": [
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "So, which supplier do you prefer, Tecno or Alfa?",
+        "pt": "Então, qual fornecedor você prefere, Tecno ou Alfa?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "Alfa is cheaper, but Tecno is much more reliable.",
+        "pt": "A Alfa é mais barata, mas a Tecno é muito mais confiável."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "What about delivery time?",
+        "pt": "E o prazo de entrega?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "Tecno is faster. Alfa takes three weeks, Tecno takes ten days.",
+        "pt": "A Tecno é mais rápida. A Alfa leva três semanas, a Tecno leva dez dias."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "And quality?",
+        "pt": "E a qualidade?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "Tecno's parts are better. Last year, Alfa's parts had more problems.",
+        "pt": "As peças da Tecno são melhores. Ano passado, as peças da Alfa tiveram mais problemas."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "OK. Tecno is more expensive, but I think it's the better choice.",
+        "pt": "OK. A Tecno é mais cara, mas acho que é a melhor escolha."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Which supplier is cheaper?",
+        "opcoes": [
+          "Tecno",
+          "Alfa"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How long does Tecno take to deliver?",
+        "opcoes": [
+          "Ten days",
+          "Three weeks",
+          "One month"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Which supplier do they choose?",
+        "opcoes": [
+          "Alfa",
+          "Tecno"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u06l2-p1",
+      "tipo": "completar",
+      "frase": "This supplier is ___ reliable than that one.",
+      "respostas": [
+        "more"
+      ]
+    },
+    {
+      "id": "a2u06l2-p2",
+      "tipo": "completar",
+      "frase": "The German parts are more ___. (caro)",
+      "respostas": [
+        "expensive"
+      ]
+    },
+    {
+      "id": "a2u06l2-p3",
+      "tipo": "completar",
+      "frase": "This model is ___ expensive. (menos)",
+      "respostas": [
+        "less"
+      ]
+    },
+    {
+      "id": "a2u06l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "expensiver",
+        "more expensive",
+        "most expensiver"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Muito mais barato\":",
+      "opcoes": [
+        "much cheaper",
+        "very cheaper",
+        "more cheaper"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u06l2-p6",
+      "tipo": "ordenar",
+      "frase": "The new line is more efficient",
+      "traducao_pt": "A linha nova é mais eficiente"
+    },
+    {
+      "id": "a2u06l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "These boots are more comfortable."
+    },
+    {
+      "id": "a2u06l2-p8",
+      "tipo": "traduzir",
+      "pt": "O prazo de entrega deles é maior.",
+      "respostas": [
+        "Their delivery time is longer."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você precisa escolher entre dois fornecedores (invente os dados ou use os do professor). Compare preço, qualidade, prazo e confiabilidade, e decida.",
+    "papel_professor": "Apresente dois fornecedores: SupraParts (R$ 10/peça, entrega em 30 dias, 2% de defeitos) e BrasilMetal (R$ 12/peça, 10 dias, 0,5% de defeitos). Peça ao aluno para comparar e escolher. Corrija comparativos.",
+    "abertura": "We need a new supplier for screws. I have two options. Can you help me compare them?",
+    "abertura_pt": "Precisamos de um novo fornecedor de parafusos. Tenho duas opções. Pode me ajudar a comparar?"
+  },
+  "teste": [
+    {
+      "id": "a2u06l2-t1",
+      "tipo": "completar",
+      "frase": "The new software is ___ faster. (muito)",
+      "respostas": [
+        "much"
+      ]
+    },
+    {
+      "id": "a2u06l2-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Mais confortável\":",
+      "opcoes": [
+        "comfortabler",
+        "more comfortable",
+        "most comfortable"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "This supplier is more reliable."
+    },
+    {
+      "id": "a2u06l2-t4",
+      "tipo": "traduzir",
+      "pt": "A fábrica deles é mais moderna.",
+      "respostas": [
+        "Their factory is more modern."
+      ]
+    },
+    {
+      "id": "a2u06l2-t5",
+      "tipo": "ordenar",
+      "frase": "English is more difficult than Spanish",
+      "traducao_pt": "Inglês é mais difícil que espanhol"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "a2-u06-l4",
+  "nivel": "A2",
+  "unidade": 6,
+  "numero": 4,
+  "titulo": "As good as, not as cheap as",
+  "objetivo_pt": "Comparar com as … as (tão … quanto) e not as … as.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai comparar coisas parecidas. Diga se são iguais (as … as) ou diferentes (not as … as).",
+    "papel_professor": "Peça comparações de igualdade (Is your English as good as last year? Is coffee in Brazil as expensive as in Europe?). Ensine as…as / not as…as / the same as.",
+    "abertura": "Is life in your city as expensive as in São Paulo?",
+    "abertura_pt": "A vida na sua cidade é tão cara quanto em São Paulo?"
+  },
+  "vocabulario": [
+    {
+      "id": "as-as",
+      "en": "as … as",
+      "pt": "tão … quanto",
+      "emoji": "🟰",
+      "exemplo_en": "This car is as fast as that one.",
+      "exemplo_pt": "Este carro é tão rápido quanto aquele."
+    },
+    {
+      "id": "not-as",
+      "en": "not as … as",
+      "pt": "não tão … quanto",
+      "emoji": "≠",
+      "exemplo_en": "It isn't as cheap as before.",
+      "exemplo_pt": "Não é tão barato quanto antes."
+    },
+    {
+      "id": "same",
+      "en": "the same as",
+      "pt": "o mesmo que / igual a",
+      "emoji": "👯",
+      "exemplo_en": "My phone is the same as yours.",
+      "exemplo_pt": "Meu celular é igual ao seu."
+    },
+    {
+      "id": "similar",
+      "en": "similar to",
+      "pt": "parecido com",
+      "emoji": "🔁",
+      "exemplo_en": "This model is similar to the old one.",
+      "exemplo_pt": "Este modelo é parecido com o antigo."
+    },
+    {
+      "id": "different",
+      "en": "different from",
+      "pt": "diferente de",
+      "emoji": "🔀",
+      "exemplo_en": "The new process is very different from the old one.",
+      "exemplo_pt": "O processo novo é bem diferente do antigo."
+    },
+    {
+      "id": "strong",
+      "en": "strong",
+      "pt": "forte",
+      "emoji": "💪",
+      "exemplo_en": "Steel is as strong as this new material.",
+      "exemplo_pt": "O aço é tão forte quanto este material novo."
+    },
+    {
+      "id": "light-c",
+      "en": "light / heavy",
+      "pt": "leve / pesado",
+      "emoji": "🪶",
+      "exemplo_en": "Aluminum isn't as heavy as steel.",
+      "exemplo_pt": "O alumínio não é tão pesado quanto o aço."
+    },
+    {
+      "id": "price-c",
+      "en": "price",
+      "pt": "preço",
+      "emoji": "💲",
+      "exemplo_en": "The price is the same.",
+      "exemplo_pt": "O preço é o mesmo."
+    },
+    {
+      "id": "size",
+      "en": "size",
+      "pt": "tamanho",
+      "emoji": "📏",
+      "exemplo_en": "They're the same size.",
+      "exemplo_pt": "Eles têm o mesmo tamanho."
+    },
+    {
+      "id": "durable",
+      "en": "durable",
+      "pt": "durável",
+      "emoji": "🛡️",
+      "exemplo_en": "Plastic isn't as durable as metal.",
+      "exemplo_pt": "O plástico não é tão durável quanto o metal."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Comparações de igualdade",
+    "explicacao_pt": "AS + adjetivo + AS = tão … quanto (igual): The new machine is as fast as the old one. NOT AS + adjetivo + AS = não tão … quanto (menos): Plastic isn't as durable as metal (= metal is more durable). THE SAME AS = igual a; SIMILAR TO = parecido com; DIFFERENT FROM = diferente de. Com nomes: the same size / the same price.",
+    "tabela": {
+      "colunas": [
+        "Ideia",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Igual",
+          "as … as",
+          "It's as strong as steel."
+        ],
+        [
+          "Menos",
+          "not as … as",
+          "It isn't as heavy as steel."
+        ],
+        [
+          "Igual (nome)",
+          "the same + nome",
+          "They're the same price."
+        ],
+        [
+          "Parecido",
+          "similar to",
+          "It's similar to the old one."
+        ],
+        [
+          "Diferente",
+          "different from",
+          "It's different from ours."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The Chinese supplier isn't as reliable as the Brazilian one.",
+        "pt": "O fornecedor chinês não é tão confiável quanto o brasileiro."
+      },
+      {
+        "en": "This new material is as strong as steel, but much lighter.",
+        "pt": "Este material novo é tão forte quanto o aço, mas muito mais leve."
+      },
+      {
+        "en": "My salary is the same as last year.",
+        "pt": "Meu salário é o mesmo do ano passado."
+      },
+      {
+        "en": "Their system is very different from ours.",
+        "pt": "O sistema deles é muito diferente do nosso."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Testing a new material",
+    "falas": [
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "We tested the new plastic material this week.",
+        "pt": "Testamos o material plástico novo esta semana."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "And? Is it as strong as aluminum?",
+        "pt": "E aí? É tão forte quanto o alumínio?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Almost. It isn't as strong, but it's much lighter and cheaper.",
+        "pt": "Quase. Não é tão forte, mas é muito mais leve e mais barato."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Is it as durable as aluminum?",
+        "pt": "É tão durável quanto o alumínio?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "No, it isn't. It lasts about five years. Aluminum lasts fifteen.",
+        "pt": "Não. Dura uns cinco anos. O alumínio dura quinze."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Hmm. So it's good for some products, but not for all.",
+        "pt": "Hmm. Então é bom para alguns produtos, mas não para todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Is the plastic as strong as aluminum?",
+        "opcoes": [
+          "Yes, exactly.",
+          "Almost, but it isn't as strong."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What are the advantages of the plastic?",
+        "opcoes": [
+          "Lighter and cheaper",
+          "Stronger and more durable",
+          "Heavier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How long does the plastic last?",
+        "opcoes": [
+          "Five years",
+          "Fifteen years",
+          "Fifty years"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u06l4-p1",
+      "tipo": "completar",
+      "frase": "This car is ___ fast as that one.",
+      "respostas": [
+        "as"
+      ]
+    },
+    {
+      "id": "a2u06l4-p2",
+      "tipo": "completar",
+      "frase": "It isn't as cheap ___ before.",
+      "respostas": [
+        "as"
+      ]
+    },
+    {
+      "id": "a2u06l4-p3",
+      "tipo": "completar",
+      "frase": "My phone is the same ___ yours.",
+      "respostas": [
+        "as"
+      ]
+    },
+    {
+      "id": "a2u06l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Diferente de\":",
+      "opcoes": [
+        "different of",
+        "different from",
+        "different than of"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O plástico não é tão durável quanto o metal\" significa:",
+      "opcoes": [
+        "O metal é mais durável.",
+        "O plástico é mais durável.",
+        "São iguais."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u06l4-p6",
+      "tipo": "ordenar",
+      "frase": "They're the same size",
+      "traducao_pt": "Eles têm o mesmo tamanho"
+    },
+    {
+      "id": "a2u06l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "This model is similar to the old one."
+    },
+    {
+      "id": "a2u06l4-p8",
+      "tipo": "traduzir",
+      "pt": "O preço é o mesmo.",
+      "respostas": [
+        "The price is the same."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Compare o Brasil com outro país que você conhece (ou imagina): comida, preços, clima, trânsito. Use as…as e not as…as.",
+    "papel_professor": "Converse comparando o Brasil com o Canadá (você é canadense). Pergunte e responda: Is the food as good as…? Is it as expensive as…? Incentive as…as / not as…as / different from.",
+    "abertura": "I'm from Canada. Do you think Brazil is as cold as Canada? Ha!",
+    "abertura_pt": "Sou do Canadá. Você acha que o Brasil é tão frio quanto o Canadá? Ha!"
+  },
+  "teste": [
+    {
+      "id": "a2u06l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Tão forte quanto o aço\":",
+      "opcoes": [
+        "as strong as steel",
+        "so strong as steel",
+        "as stronger as steel"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u06l4-t2",
+      "tipo": "completar",
+      "frase": "The new process is very different ___ the old one.",
+      "respostas": [
+        "from"
+      ]
+    },
+    {
+      "id": "a2u06l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Aluminum isn't as heavy as steel.",
+      "aceitas": [
+        "Aluminum is not as heavy as steel."
+      ]
+    },
+    {
+      "id": "a2u06l4-t4",
+      "tipo": "traduzir",
+      "pt": "Meu celular é igual ao seu.",
+      "respostas": [
+        "My phone is the same as yours."
+      ]
+    },
+    {
+      "id": "a2u06l4-t5",
+      "tipo": "ordenar",
+      "frase": "It isn't as cheap as before",
+      "traducao_pt": "Não é tão barato quanto antes"
+    }
+  ]
+}
