@@ -3,7 +3,7 @@
  * palavras aprendidas, notas das provas e pontos fracos.
  * Também lista os certificados de nível e gera o PDF de cada um.
  */
-import { useFocusEffect } from 'expo-router';
+import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { acharProva } from '../conteudo/curso';
@@ -11,7 +11,7 @@ import * as repo from '../dados/repositorio';
 import { useApp } from '../estado/AppContext';
 import { percentualDoNivel } from '../logica/desbloqueio';
 import { diaLocal, sequenciaDeDias } from '../logica/estatisticas';
-import { NOMES_PARTES, type Parte } from '../logica/notas';
+import { calcularPontosFracos, type PontosFracos } from '../logica/pontosFracos';
 import { Aviso, Botao, Cartao, Paragrafo, Subtitulo, Tela, Titulo } from '../ui/base';
 import { compartilharCertificado } from '../ui/certificado';
 import { dataCurta } from '../ui/formato';
@@ -25,6 +25,7 @@ type Dados = {
   revisaoHoje: number;
   tentativas: repo.TentativaSalva[];
   erros: repo.Correcao[];
+  aulas: { aula_id: string; acertos: number }[];
 };
 
 export default function Painel() {
@@ -46,6 +47,7 @@ export default function Painel() {
           revisaoHoje: rev.vencidos,
           tentativas: await repo.listarTentativas(db, perfil.id),
           erros: await repo.errosFrequentes(db, perfil.id, 5),
+          aulas: await repo.listarAulasFeitas(db, perfil.id),
         });
       })();
     }, [db, perfil]),
@@ -54,13 +56,7 @@ export default function Painel() {
   if (!perfil || !d) return <Tela>{null}</Tela>;
   const nivelEstr = estrutura.find((n) => n.nivel === nivel)!;
 
-  // Pontos fracos: partes da prova que ficaram abaixo de 70 mais vezes.
-  const contagem: Partial<Record<Parte, number>> = {};
-  for (const t of d.tentativas) {
-    const pf = (t.detalhes as { pontosFracos?: unknown })?.pontosFracos;
-    if (Array.isArray(pf)) for (const p of pf) if (p in NOMES_PARTES) contagem[p as Parte] = (contagem[p as Parte] ?? 0) + 1;
-  }
-  const fracos = (Object.keys(contagem) as Parte[]).sort((a, b) => contagem[b]! - contagem[a]!);
+  const fracos: PontosFracos = calcularPontosFracos(curso, d.tentativas, d.aulas);
 
   // Certificados: a primeira aprovação em cada prova final (a lista vem da mais nova para a mais antiga).
   const certificados = new Map<string, repo.TentativaSalva>();
@@ -93,10 +89,25 @@ export default function Painel() {
 
       <Cartao>
         <Subtitulo>🎯 Pontos fracos</Subtitulo>
-        {fracos.length === 0 && d.erros.length === 0 && <Paragrafo suave>Ainda não há dados suficientes.</Paragrafo>}
-        {fracos.map((p) => (
-          <Paragrafo key={p}>
-            • {NOMES_PARTES[p]} (abaixo de 70 em {contagem[p]} prova{contagem[p] === 1 ? '' : 's'})
+        {fracos.habilidades.length === 0 && fracos.gramatica.length === 0 && d.erros.length === 0 && (
+          <Paragrafo suave>Ainda não há dados suficientes. Faça aulas e provas para ver seus pontos fracos aqui.</Paragrafo>
+        )}
+        {fracos.habilidades.length > 0 && <Paragrafo suave>Habilidades (média nas provas):</Paragrafo>}
+        {fracos.habilidades.map((h) => (
+          <View key={h.parte} style={st.barraLinha}>
+            <Text style={st.barraNome}>
+              {h.fraca ? '⚠️' : '✅'} {h.nome}
+            </Text>
+            <View style={st.barraFundo}>
+              <View style={[st.barraCheia, { width: `${h.media}%`, backgroundColor: h.fraca ? cores.erro : cores.sucesso }]} />
+            </View>
+            <Text style={st.barraValor}>{h.media}</Text>
+          </View>
+        ))}
+        {fracos.gramatica.length > 0 && <Paragrafo suave>Gramática para revisar:</Paragrafo>}
+        {fracos.gramatica.map((g) => (
+          <Paragrafo key={g.tema}>
+            • <Text style={{ fontWeight: '700' }}>{g.tema}</Text> — {g.motivo}
           </Paragrafo>
         ))}
         {d.erros.length > 0 && <Paragrafo suave>Erros que mais se repetem:</Paragrafo>}
@@ -132,7 +143,8 @@ export default function Painel() {
 
       <Cartao>
         <Subtitulo>🔁 Revisão</Subtitulo>
-        <Paragrafo>{d.revisaoHoje} item(ns) para revisar hoje. A tela de revisão diária chega na Fase 3.</Paragrafo>
+        <Paragrafo>{d.revisaoHoje} item(ns) para revisar hoje.</Paragrafo>
+        <Botao tipo="secundario" titulo="Revisar agora" onPress={() => router.push('/revisao')} />
       </Cartao>
     </Tela>
   );
@@ -152,4 +164,9 @@ const st = StyleSheet.create({
   numero: { width: '47%', backgroundColor: cores.cartao, borderRadius: 14, padding: espaco.g, borderWidth: 1, borderColor: cores.borda },
   valor: { fontSize: 26, fontWeight: '800', color: cores.texto },
   rotulo: { fontSize: 14, color: cores.suave },
+  barraLinha: { flexDirection: 'row', alignItems: 'center', gap: espaco.m },
+  barraNome: { width: 150, fontSize: 15, color: cores.texto },
+  barraFundo: { flex: 1, height: 10, borderRadius: 5, backgroundColor: cores.borda, overflow: 'hidden' },
+  barraCheia: { height: 10 },
+  barraValor: { width: 32, textAlign: 'right', fontWeight: '700', color: cores.texto },
 });

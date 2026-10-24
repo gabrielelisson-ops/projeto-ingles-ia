@@ -5,7 +5,10 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { migrar, type Banco } from '../dados/banco';
 import { garantirPerfisIniciais } from '../dados/repositorio';
 import { AppProvider } from '../estado/AppContext';
+import { configurarExibicaoDeNotificacoes } from '../ui/lembrete';
 import { cores } from '../ui/tema';
+
+configurarExibicaoDeNotificacoes();
 
 async function iniciarBanco(db: unknown) {
   const b = db as Banco;
@@ -32,6 +35,10 @@ export default function Layout() {
             <Stack.Screen name="prova/[id]" options={{ title: 'Prova' }} />
             <Stack.Screen name="teste-do-dia" options={{ title: 'Teste rápido do dia' }} />
             <Stack.Screen name="painel" options={{ title: 'Meu progresso' }} />
+            <Stack.Screen name="praticar" options={{ title: 'Praticar' }} />
+            <Stack.Screen name="revisao" options={{ title: 'Revisão do dia' }} />
+            <Stack.Screen name="pronuncia" options={{ title: 'Pronúncia' }} />
+            <Stack.Screen name="conversa/[id]" options={{ title: 'Conversa' }} />
             <Stack.Screen name="configuracoes" options={{ title: 'Configurações' }} />
           </Stack>
         </AppProvider>

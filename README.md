@@ -4,6 +4,15 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 
 ## O que já funciona
 
+### Fase 3
+- **Revisão diária** (repetição espaçada, SM-2): palavras das aulas, frases erradas e erros corrigidos pelo professor voltam nos dias certos. O botão "Revisão" na tela inicial mostra quantos cartões há para hoje.
+- **Pronúncia**: leia uma frase em voz alta; o app compara com o que o reconhecimento de voz entendeu e destaca em vermelho as palavras não reconhecidas. A nota é aproximada.
+- **Conversa livre** sobre qualquer assunto, ajustada ao seu nível atual.
+- **8 roleplays**: entrevista de emprego, reunião de trabalho, restaurante, aeroporto, hotel, médico, ligação telefônica e negociação com fornecedor (editáveis em `conteudo/roleplays.json`).
+- **Pontos fracos** em "Meu progresso": média de cada habilidade nas provas (leitura, escuta, escrita, fala), temas de gramática com dificuldade e erros que mais se repetem.
+- **Backup**: em Configurações, "Exportar backup" gera um arquivo JSON com o progresso de todos os perfis (sem a chave da IA); "Importar backup" valida o arquivo antes e só troca os dados se estiver tudo certo.
+- **Lembrete diário**: notificação no horário que você escolher (Configurações).
+
 ### Fase 2
 - **Nível A1 completo**: 8 unidades (40 aulas + 8 provas), conteúdo original, com bastante situação de trabalho na indústria.
 - **Prova final do A1**: 40 questões (leitura, escuta, escrita e fala) + **entrevista oral de 5 minutos** com o professor de IA (vale metade da nota de fala). Aprovação com 70 libera o próximo nível.
