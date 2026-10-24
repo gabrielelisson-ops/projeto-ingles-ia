@@ -3,18 +3,21 @@
  * nomes dos perfis e erros nos arquivos de conteúdo.
  */
 import { useEffect, useState } from 'react';
-import { Linking, StyleSheet, TextInput } from 'react-native';
+import { Alert, Linking, StyleSheet, TextInput } from 'react-native';
+import { importarBackup } from '../dados/backup';
 import * as repo from '../dados/repositorio';
 import { MODELO_VALIDO, useApp } from '../estado/AppContext';
 import { apagarChave, mascararChave, salvarChave } from '../ia/chave';
 import { ErroIA } from '../ia/gemini';
 import { MODELOS_PADRAO, testarChave } from '../ia/professor';
 import { falar } from '../voz/falar';
+import { compartilharBackup, escolherBackup } from '../ui/arquivoBackup';
+import { aplicarLembrete } from '../ui/lembrete';
 import { Aviso, Botao, Cartao, Linha, Paragrafo, Subtitulo, Tela } from '../ui/base';
 import { cores, espaco, raio } from '../ui/tema';
 
 export default function Configuracoes() {
-  const { chave, recarregarChave, prefs, salvarPrefs, perfis, db, recarregar, curso } = useApp();
+  const { chave, recarregarChave, prefs, salvarPrefs, perfis, db, recarregar, recarregarTudo, curso } = useApp();
   const [novaChave, setNovaChave] = useState('');
   const [msgChave, setMsgChave] = useState<{ tipo: 'sucesso' | 'erro'; texto: string } | null>(null);
   const [testando, setTestando] = useState(false);
@@ -23,8 +26,74 @@ export default function Configuracoes() {
   const [mc, setMc] = useState(prefs.modelos.conversa);
   const [ma, setMa] = useState(prefs.modelos.avaliacao);
   const [msgModelo, setMsgModelo] = useState<string | null>(null);
+  const [lembreteAtivo, setLembreteAtivo] = useState(false);
+  const [lembreteHora, setLembreteHora] = useState('19:30');
+  const [msgLembrete, setMsgLembrete] = useState<{ tipo: 'sucesso' | 'erro'; texto: string } | null>(null);
+  const [msgBackup, setMsgBackup] = useState<{ tipo: 'sucesso' | 'erro' | 'info'; texto: string } | null>(null);
+  const [ocupado, setOcupado] = useState(false);
 
-  useEffect(() => setNomes(Object.fromEntries(perfis.map((p) => [p.id, p.nome]))), [perfis]);
+  useEffect(() => {
+    (async () => {
+      const ativo = await repo.lerConfig(db, 'lembrete_ativo');
+      const hora = await repo.lerConfig(db, 'lembrete_hora');
+      setLembreteAtivo(ativo === '1');
+      if (hora) setLembreteHora(hora);
+    })();
+  }, [db]);
+
+  async function salvarLembrete(ativo: boolean) {
+    setMsgLembrete(null);
+    try {
+      await aplicarLembrete(ativo, lembreteHora);
+      await repo.gravarConfig(db, 'lembrete_ativo', ativo ? '1' : '0');
+      await repo.gravarConfig(db, 'lembrete_hora', lembreteHora.trim());
+      setLembreteAtivo(ativo);
+      setMsgLembrete({ tipo: 'sucesso', texto: ativo ? `Lembrete ligado: todo dia às ${lembreteHora.trim()}.` : 'Lembrete desligado.' });
+    } catch (e) {
+      setMsgLembrete({ tipo: 'erro', texto: (e as Error).message });
+    }
+  }
+
+  async function exportar() {
+    setMsgBackup(null);
+    setOcupado(true);
+    try {
+      await compartilharBackup(db);
+      setMsgBackup({ tipo: 'sucesso', texto: 'Backup criado. Guarde o arquivo num lugar seguro (Drive, e-mail para você mesmo…).' });
+    } catch (e) {
+      setMsgBackup({ tipo: 'erro', texto: (e as Error).message || 'Não foi possível criar o backup.' });
+    } finally {
+      setOcupado(false);
+    }
+  }
+
+  async function importar() {
+    setMsgBackup(null);
+    const r = await escolherBackup().catch(() => ({ ok: false as const, erro: 'Não foi possível ler o arquivo.' }));
+    if (!r) return;
+    if (!r.ok) return setMsgBackup({ tipo: 'erro', texto: r.erro });
+    Alert.alert(
+      'Substituir o progresso deste celular?',
+      `O backup contém: ${r.resumo}.\n\nTodo o progresso atual deste celular será trocado pelo do arquivo. A chave da IA não muda.`,
+      [
+        { text: 'Cancelar', style: 'cancel' },
+        {
+          text: 'Substituir',
+          style: 'destructive',
+          onPress: async () => {
+            try {
+              await importarBackup(db, r.backup);
+              await recarregarTudo();
+              setMsgBackup({ tipo: 'sucesso', texto: 'Backup restaurado! Escolha o perfil na tela inicial.' });
+            } catch {
+              setMsgBackup({ tipo: 'erro', texto: 'A restauração falhou e nada foi alterado.' });
+            }
+          },
+        },
+      ],
+    );
+  }
+
 
   async function guardar() {
     try {
@@ -111,17 +180,17 @@ export default function Configuracoes() {
           <Linha key={p.id}>
             <TextInput
               style={[st.entrada, { flex: 1 }]}
-              value={nomes[p.id] ?? ''}
+              value={nomes[p.id] ?? p.nome}
               onChangeText={(t) => setNomes({ ...nomes, [p.id]: t })}
               maxLength={repo.NOME_MAX}
             />
             <Botao
               tipo="secundario"
               titulo="Salvar"
-              desativado={(nomes[p.id] ?? '') === p.nome}
+              desativado={(nomes[p.id] ?? p.nome).trim() === p.nome}
               onPress={async () => {
                 try {
-                  await repo.renomearPerfil(db, p.id, nomes[p.id] ?? '');
+                  await repo.renomearPerfil(db, p.id, nomes[p.id] ?? p.nome);
                   await recarregar();
                   setMsgPerfil('Nome salvo.');
                 } catch (e) {
@@ -165,6 +234,31 @@ export default function Configuracoes() {
           />
         </Linha>
         {msgModelo && <Paragrafo suave>{msgModelo}</Paragrafo>}
+      </Cartao>
+
+      <Cartao>
+        <Subtitulo>⏰ Lembrete diário</Subtitulo>
+        <Paragrafo suave>Uma notificação por dia, no horário escolhido, para não perder a sequência. Funciona sem internet.</Paragrafo>
+        <Paragrafo>Horário (ex.: 07:30)</Paragrafo>
+        <TextInput style={st.entrada} value={lembreteHora} onChangeText={setLembreteHora} keyboardType="numbers-and-punctuation" maxLength={5} />
+        <Linha>
+          <Botao titulo={lembreteAtivo ? 'Atualizar horário' : 'Ligar lembrete'} onPress={() => salvarLembrete(true)} />
+          {lembreteAtivo && <Botao tipo="secundario" titulo="Desligar" onPress={() => salvarLembrete(false)} />}
+        </Linha>
+        {msgLembrete && <Aviso tipo={msgLembrete.tipo} texto={msgLembrete.texto} />}
+      </Cartao>
+
+      <Cartao>
+        <Subtitulo>💾 Backup do progresso</Subtitulo>
+        <Paragrafo suave>
+          Salve um arquivo com o progresso, as notas e as revisões de todos os perfis deste celular. Use para trocar de celular ou se precisar
+          reinstalar o app. A chave da IA não vai no arquivo.
+        </Paragrafo>
+        <Linha>
+          <Botao titulo="Exportar backup" onPress={exportar} carregando={ocupado} />
+          <Botao tipo="secundario" titulo="Importar backup" onPress={importar} />
+        </Linha>
+        {msgBackup && <Aviso tipo={msgBackup.tipo} texto={msgBackup.texto} />}
       </Cartao>
 
       <Cartao>

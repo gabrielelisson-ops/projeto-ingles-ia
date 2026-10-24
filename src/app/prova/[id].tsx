@@ -25,6 +25,7 @@ import { Dialogo } from '../../ui/Dialogo';
 import { SequenciaExercicios, type ResultadoExercicio } from '../../ui/Exercicio';
 import { quando } from '../../ui/formato';
 import { cores, espaco, raio } from '../../ui/tema';
+import { segundosDesde, useInicio } from '../../ui/useInicio';
 
 type Etapa = 'intro' | 'leitura' | 'escuta' | 'escrita' | 'fala' | 'entrevista' | 'resultado';
 
@@ -43,8 +44,9 @@ export default function TelaProva() {
   const [erroEntrevista, setErroEntrevista] = useState<string | null>(null);
   const [transcricao, setTranscricao] = useState('');
   const [msgCertificado, setMsgCertificado] = useState<string | null>(null);
+  const [liberaEm, setLiberaEm] = useState(0);
   const segundosFala = useRef(0);
-  const inicio = useRef(Date.now());
+  const inicio = useInicio();
 
   useEffect(() => () => pararFala(), []);
 
@@ -86,9 +88,11 @@ export default function TelaProva() {
       fala: falaFinal.map((e) => e.nota),
       entrevista: ent?.nota,
     });
+    const agora = Date.now();
     setResultado(r);
+    setLiberaEm(agora + ESPERA_REPROVACAO_MS);
     setEtapa('resultado');
-    await repo.registrarTentativa(db, perfil.id, prova.id, { nota: r.nota, aprovado: r.aprovado, data: Date.now() }, {
+    await repo.registrarTentativa(db, perfil.id, prova.id, { nota: r.nota, aprovado: r.aprovado, data: agora }, {
       partes: r.partes,
       pontosFracos: r.pontosFracos,
       feedback: [...escrita, ...falaFinal].map((e) => e.feedback_pt),
@@ -102,7 +106,7 @@ export default function TelaProva() {
       perfil.id,
       erros.map((e) => ({ item_id: `e:${e.certo.toLowerCase().slice(0, 100)}`, tipo: 'erro' as const, frente: e.certo, verso: e.explicacao_pt })),
     );
-    await repo.registrarAtividade(db, perfil.id, { segundosFala: segundosFala.current, segundosEstudo: (Date.now() - inicio.current) / 1000 });
+    await repo.registrarAtividade(db, perfil.id, { segundosFala: segundosFala.current, segundosEstudo: segundosDesde(inicio) });
     await recarregar();
   }
 
@@ -323,7 +327,7 @@ export default function TelaProva() {
               <Paragrafo>Parabéns, {perfil.nome}! O próximo nível já está liberado na trilha.</Paragrafo>
               <Botao titulo="📄 Gerar certificado em PDF" onPress={gerarCertificado} />
               {msgCertificado && <Aviso tipo="erro" texto={msgCertificado} />}
-              <Paragrafo suave>Você também encontra seus certificados em "Meu progresso".</Paragrafo>
+              <Paragrafo suave>Você também encontra seus certificados em “Meu progresso”.</Paragrafo>
             </Cartao>
           )}
           {!resultado.aprovado && (
@@ -340,7 +344,7 @@ export default function TelaProva() {
                     • Errou: {r.exercicio.tipo === 'multipla' ? r.exercicio.enunciado : 'ditado'}
                   </Paragrafo>
                 ))}
-              <Aviso tipo="info" texto={`Nova tentativa liberada em ${quando(Date.now() + ESPERA_REPROVACAO_MS)}.`} />
+              <Aviso tipo="info" texto={`Nova tentativa liberada em ${quando(liberaEm)}.`} />
             </Cartao>
           )}
           <Botao titulo="Voltar à trilha" onPress={() => router.back()} />
@@ -447,7 +451,10 @@ function ParteFala({
   const [resposta, setResposta] = useState('');
   const [gravacoes, setGravacoes] = useState(0);
   const { carregando, erro, rodar } = useAvaliacao();
-  useEffect(() => ouvir(pergunta), []); // eslint-disable-line react-hooks/exhaustive-deps
+  // Chaves: o efeito não pode devolver a Promise da fala (o React a trataria como limpeza).
+  useEffect(() => {
+    ouvir(pergunta);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <>
       <Subtitulo>

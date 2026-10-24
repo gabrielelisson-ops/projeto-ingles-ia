@@ -211,3 +211,7 @@ export async function contarPalavras(db: Banco, perfilId: number): Promise<numbe
   const r = await db.getFirstAsync<{ n: number }>("SELECT COUNT(*) AS n FROM revisao WHERE perfil_id = ? AND tipo = 'palavra'", [perfilId]);
   return r?.n ?? 0;
 }
+
+export async function listarAulasFeitas(db: Banco, perfilId: number): Promise<{ aula_id: string; acertos: number }[]> {
+  return db.getAllAsync('SELECT aula_id, acertos FROM aulas_concluidas WHERE perfil_id = ?', [perfilId]);
+}

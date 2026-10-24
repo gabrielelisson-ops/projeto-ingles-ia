@@ -53,9 +53,10 @@ export function ConversaProfessor({
   const [mostrar, setMostrar] = useState<'traducao' | 'dica' | null>(null);
   const segundos = useRef(0);
   const correcoes = useRef<repo.Correcao[]>([]);
-  const ultimoTexto = useRef<string | null>(null);
-  const inicio = useRef(Date.now());
-  const [agora, setAgora] = useState(Date.now());
+  // Última fala do aluno que ficou sem resposta (para o botão "Tentar de novo").
+  const [pendente, setPendente] = useState<string | null>(null);
+  const [inicio] = useState(() => Date.now());
+  const [agora, setAgora] = useState(() => Date.now());
 
   useEffect(() => {
     if (!entrevistaMin) return;
@@ -66,7 +67,7 @@ export function ConversaProfessor({
   const opcoes = { nivel, sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade };
   const turnos = falas.filter((f) => f.papel === 'aluno').length;
   const ultimaDoProfessor = [...falas].reverse().find((f) => f.papel === 'professor');
-  const segundosPassados = Math.floor((agora - inicio.current) / 1000);
+  const segundosPassados = Math.floor((agora - inicio) / 1000);
   const tempoOk = !entrevistaMin || segundosPassados >= entrevistaMin * 60 || turnos >= 10;
   const podeConcluir = turnos >= minTurnos && tempoOk;
   const fim = (): FimConversa => ({
@@ -92,7 +93,7 @@ export function ConversaProfessor({
     setErro(null);
     setMostrar(null);
     setCarregando(true);
-    ultimoTexto.current = texto;
+    setPendente(texto);
     try {
       const erros = await repo.errosFrequentes(db, perfil.id);
       const r = await falarComProfessor(
@@ -101,7 +102,7 @@ export function ConversaProfessor({
         { nome: perfil.nome, nivel, atividade, tema, vocabulario, gramatica, papel: conversa.papel_professor, errosAnteriores: erros },
         historico.map(({ papel, texto: t }) => ({ papel, texto: t })),
       );
-      ultimoTexto.current = null;
+      setPendente(null);
       // A correção fica "pendurada" na fala do aluno que tinha o erro.
       const comCorrecao = historico.map((f, i) => (i === historico.length - 1 ? { ...f, correcoes: r.correcoes } : f));
       setFalas([...comCorrecao, { papel: 'professor', texto: r.resposta, traducao: r.traducao_pt, dica: r.dica }]);
@@ -116,10 +117,8 @@ export function ConversaProfessor({
   }
 
   const tentarDeNovo = () => {
-    const t = ultimoTexto.current;
-    if (!t) return;
-    const semUltima = falas.slice(0, -1);
-    void enviar(t, 0, semUltima);
+    if (!pendente) return;
+    void enviar(pendente, 0, falas.slice(0, -1));
   };
 
   return (
@@ -159,7 +158,7 @@ export function ConversaProfessor({
         <Cartao>
           <Aviso tipo="erro" texto={erro} />
           <Linha>
-            {ultimoTexto.current && <Botao titulo="Tentar de novo" onPress={tentarDeNovo} />}
+            {pendente && <Botao titulo="Tentar de novo" onPress={tentarDeNovo} />}
             {!entrevistaMin && <Botao tipo="texto" titulo="Pular esta etapa" onPress={() => onConcluir(fim())} />}
           </Linha>
         </Cartao>

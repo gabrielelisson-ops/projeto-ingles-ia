@@ -5,18 +5,20 @@
  * aparece em Configurações › "Conteúdo", para você corrigir o JSON.
  */
 import type { EstruturaNivel } from '../logica/desbloqueio';
-import { CURRICULO_BRUTO, FINAIS_BRUTAS, UNIDADES_BRUTAS } from './indice.gerado';
+import { CURRICULO_BRUTO, FINAIS_BRUTAS, ROLEPLAYS_BRUTOS, UNIDADES_BRUTAS } from './indice.gerado';
 import {
   CurriculoSchema,
   descreverErros,
   NIVEIS,
   ProvaSchema,
+  RoleplaysSchema,
   UnidadeMetaSchema,
   UnidadeSchema,
   type Aula,
   type Curriculo,
   type Nivel,
   type Prova,
+  type Roleplay,
   type Unidade,
 } from './schema';
 
@@ -25,6 +27,7 @@ export type Curso = {
   unidades: Unidade[];
   /** Provas finais por nível (Fase 2). */
   finais: Partial<Record<Nivel, Prova>>;
+  roleplays: Roleplay[];
   erros: string[];
 };
 
@@ -32,6 +35,7 @@ export function montarCurso(
   curriculoBruto: unknown,
   unidadesBrutas: readonly { meta: unknown; aulas: unknown[]; prova: unknown }[],
   finaisBrutas: readonly unknown[] = [],
+  roleplaysBrutos: unknown = { roleplays: [] },
 ): Curso {
   const erros: string[] = [];
   const curr = CurriculoSchema.safeParse(curriculoBruto);
@@ -52,12 +56,14 @@ export function montarCurso(
     if (r.success) finais[r.data.nivel] = r.data;
     else erros.push(...descreverErros(r.error).map((e) => `prova final: ${e}`));
   }
-  return { curriculo: curr.data, unidades, finais, erros };
+  const rp = RoleplaysSchema.safeParse(roleplaysBrutos);
+  if (!rp.success) erros.push(...descreverErros(rp.error).map((e) => `roleplays.json: ${e}`));
+  return { curriculo: curr.data, unidades, finais, roleplays: rp.success ? rp.data.roleplays : [], erros };
 }
 
 let cache: Curso | null = null;
 export function curso(): Curso {
-  if (!cache) cache = montarCurso(CURRICULO_BRUTO, UNIDADES_BRUTAS, FINAIS_BRUTAS);
+  if (!cache) cache = montarCurso(CURRICULO_BRUTO, UNIDADES_BRUTAS, FINAIS_BRUTAS, ROLEPLAYS_BRUTOS);
   return cache;
 }
 

@@ -10,7 +10,7 @@ const CHAVE = 'AIzaTESTE_chave_falsa_1234567890abcdef';
 
 type Chamada = { url: string; headers: Record<string, string>; body: any };
 
-function fakeFetch(respostas: Array<{ status: number; json?: unknown; text?: string }>) {
+function fakeFetch(respostas: { status: number; json?: unknown; text?: string }[]) {
   const chamadas: Chamada[] = [];
   const fn = (async (url: string, init: RequestInit) => {
     chamadas.push({ url, headers: init.headers as Record<string, string>, body: JSON.parse(init.body as string) });
@@ -168,4 +168,14 @@ test('avaliador aceita texto longo da entrevista quando o limite é maior', asyn
   const { fn, chamadas } = fakeFetch([gemini({ gramatica: 6, vocabulario: 6, fluencia: 6, pronuncia: 6, feedback_pt: 'ok', erros: [] })]);
   await avaliarResposta(CHAVE, MODELOS_PADRAO, { nivel: 'A1', parte: 'fala', foco: '', tarefa: 'entrevista' }, 'a'.repeat(5000), fn, 6000);
   expect(chamadas[0]!.body.contents[0].parts[0].text.length).toBeGreaterThan(5000);
+});
+
+test('modelo com nome errado (404) ou sobrecarregado (503): tenta o outro modelo', async () => {
+  const { fn, chamadas } = fakeFetch([{ status: 404 }, gemini({ resposta: 'Hello! How are you?' })]);
+  expect((await falarComProfessor(CHAVE, MODELOS_PADRAO, contexto, historico, fn)).resposta).toBe('Hello! How are you?');
+  expect(chamadas).toHaveLength(2);
+  const dois = fakeFetch([{ status: 503 }, { status: 503 }]);
+  await expect(falarComProfessor(CHAVE, MODELOS_PADRAO, contexto, historico, dois.fn)).rejects.toMatchObject({ tipo: 'indisponivel' });
+  const naoAcha = fakeFetch([{ status: 404 }, { status: 404 }]);
+  await expect(falarComProfessor(CHAVE, MODELOS_PADRAO, contexto, historico, naoAcha.fn)).rejects.toMatchObject({ tipo: 'modelo' });
 });

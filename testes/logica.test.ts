@@ -13,6 +13,7 @@ import { corrigir, normalizar, respostaCerta, respostaIgual } from '../src/logic
 import { DIA_MS, novoCartao, revisar } from '../src/logica/sm2';
 import { diaLocal, embaralhar, sequenciaDeDias } from '../src/logica/estatisticas';
 import type { Exercicio } from '../src/conteudo/schema';
+import { esc, htmlCertificado } from '../src/logica/certificado';
 
 // ---------- Estrutura de exemplo: A1 com 2 unidades prontas, A2 com 1 ----------
 
@@ -262,7 +263,6 @@ describe('painel', () => {
 
 // ---------- Fase 2: prova final e certificado ----------
 
-import { esc, htmlCertificado } from '../src/logica/certificado';
 
 describe('prova final e certificado', () => {
   test('entrevista vale metade da parte de fala', () => {

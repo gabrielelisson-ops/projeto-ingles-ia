@@ -33,6 +33,8 @@ type Valor = {
   status: Map<string, Status>;
   nivel: Nivel;
   recarregar: () => Promise<void>;
+  /** Relê tudo do banco (depois de importar um backup). */
+  recarregarTudo: () => Promise<void>;
   pronto: boolean;
 };
 
@@ -55,7 +57,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [prefs, setPrefs] = useState<Preferencias>(PREFS_PADRAO);
   const [chave, setChave] = useState('');
   const [progresso, setProgresso] = useState<Progresso>(vazio);
-  const [agora, setAgora] = useState(Date.now());
+  const [agora, setAgora] = useState(() => Date.now());
   const [pronto, setPronto] = useState(false);
 
   const perfil = perfis.find((p) => p.id === perfilId) ?? null;
@@ -67,28 +69,34 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setAgora(Date.now());
   }, [db, perfilId]);
 
-  useEffect(() => {
-    (async () => {
-      const lista = await repo.listarPerfis(db);
-      setPerfis(lista);
-      const ativo = Number(await repo.lerConfig(db, 'perfil_ativo'));
-      if (lista.some((p) => p.id === ativo)) setPerfilId(ativo);
-      const sot = await repo.lerConfig(db, 'sotaque');
-      const vel = Number(await repo.lerConfig(db, 'ajuste_velocidade'));
-      const mc = await repo.lerConfig(db, 'modelo_conversa');
-      const ma = await repo.lerConfig(db, 'modelo_avaliacao');
-      setPrefs({
-        sotaque: sot === 'en-GB' ? 'en-GB' : 'en-US',
-        ajusteVelocidade: vel >= 0.6 && vel <= 1.4 ? vel : 1,
-        modelos: {
-          conversa: mc && MODELO_VALIDO.test(mc) ? mc : MODELOS_PADRAO.conversa,
-          avaliacao: ma && MODELO_VALIDO.test(ma) ? ma : MODELOS_PADRAO.avaliacao,
-        },
-      });
-      setChave(await lerChave().catch(() => ''));
-      setPronto(true);
-    })();
+  const recarregarTudo = useCallback(async () => {
+    const lista = await repo.listarPerfis(db);
+    setPerfis(lista);
+    const ativo = Number(await repo.lerConfig(db, 'perfil_ativo'));
+    // Depois de importar um backup, o perfil ativo pode não existir mais.
+    setPerfilId(lista.some((p) => p.id === ativo) ? ativo : null);
+    const sot = await repo.lerConfig(db, 'sotaque');
+    const vel = Number(await repo.lerConfig(db, 'ajuste_velocidade'));
+    const mc = await repo.lerConfig(db, 'modelo_conversa');
+    const ma = await repo.lerConfig(db, 'modelo_avaliacao');
+    setPrefs({
+      sotaque: sot === 'en-GB' ? 'en-GB' : 'en-US',
+      ajusteVelocidade: vel >= 0.6 && vel <= 1.4 ? vel : 1,
+      modelos: {
+        conversa: mc && MODELO_VALIDO.test(mc) ? mc : MODELOS_PADRAO.conversa,
+        avaliacao: ma && MODELO_VALIDO.test(ma) ? ma : MODELOS_PADRAO.avaliacao,
+      },
+    });
+    setChave(await lerChave().catch(() => ''));
+    if (lista.some((p) => p.id === ativo)) setProgresso(await repo.carregarProgresso(db, ativo));
+    setPronto(true);
   }, [db]);
+
+  useEffect(() => {
+    // O estado só muda depois de ler o banco (assíncrono); a regra não percebe isso.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    void recarregarTudo();
+  }, [recarregarTudo]);
 
   useEffect(() => {
     if (perfilId == null) return;
@@ -145,6 +153,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     status,
     nivel,
     recarregar,
+    recarregarTudo,
     pronto,
   };
   return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;

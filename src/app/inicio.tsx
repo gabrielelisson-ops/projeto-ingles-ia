@@ -22,12 +22,14 @@ export default function Inicio() {
   const app = useApp();
   const { perfil, curso, estrutura, status, progresso, nivel, db, recarregar } = app;
   const [seq, setSeq] = useState(0);
+  const [revisar, setRevisar] = useState(0);
   const [aberto, setAberto] = useState<string>(nivel);
 
   useFocusEffect(
     useCallback(() => {
       void recarregar();
       if (perfil) repo.resumoAtividade(db, perfil.id).then((r) => setSeq(sequenciaDeDias(r.dias, diaLocal(Date.now()))));
+      if (perfil) repo.contarRevisao(db, perfil.id).then((r) => setRevisar(r.vencidos));
     }, [perfil?.id]), // eslint-disable-line react-hooks/exhaustive-deps
   );
 
@@ -77,6 +79,15 @@ export default function Inicio() {
         )}
       </Cartao>
 
+      <Linha>
+        <Botao tipo="secundario" titulo="🗣️ Praticar" onPress={() => router.push('/praticar')} style={{ flex: 1 }} />
+        <Botao
+          tipo={revisar > 0 ? 'primario' : 'secundario'}
+          titulo={revisar > 0 ? `🔁 Revisão (${revisar})` : '🔁 Revisão'}
+          onPress={() => router.push('/revisao')}
+          style={{ flex: 1 }}
+        />
+      </Linha>
       <Linha>
         <Botao tipo="secundario" titulo="⚡ Teste do dia" onPress={() => router.push('/teste-do-dia')} style={{ flex: 1 }} />
         <Botao tipo="secundario" titulo="📊 Progresso" onPress={() => router.push('/painel')} style={{ flex: 1 }} />

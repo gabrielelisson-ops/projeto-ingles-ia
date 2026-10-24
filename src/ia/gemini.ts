@@ -12,7 +12,7 @@ export const MODELO_AVALIACAO_PADRAO = 'gemini-flash-latest';
 const URL_BASE = 'https://generativelanguage.googleapis.com/v1beta/models/';
 const TEMPO_LIMITE_MS = 30_000;
 
-export type TipoErroIA = 'sem_chave' | 'chave_invalida' | 'limite' | 'rede' | 'resposta_invalida' | 'bloqueado';
+export type TipoErroIA = 'sem_chave' | 'chave_invalida' | 'limite' | 'modelo' | 'indisponivel' | 'rede' | 'resposta_invalida' | 'bloqueado';
 
 export class ErroIA extends Error {
   constructor(
@@ -27,6 +27,8 @@ export const MENSAGENS_ERRO: Record<TipoErroIA, string> = {
   sem_chave: 'Falta a chave da IA. Vá em Configurações e cole sua chave do Google AI Studio.',
   chave_invalida: 'A chave da IA não foi aceita. Confira em Configurações se ela foi colada inteira.',
   limite: 'O limite grátis de hoje da IA acabou. Ele volta amanhã (por volta das 4h–5h da manhã no Brasil).',
+  modelo: 'O modelo da IA não foi encontrado (o Google pode ter mudado o nome). Em Configurações › Modelos, toque em "Restaurar padrão" ou informe o nome novo.',
+  indisponivel: 'A IA do Google está sobrecarregada agora. Espere um minuto e tente de novo.',
   rede: 'Sem conexão com a IA. Confira a internet e tente de novo.',
   resposta_invalida: 'A IA respondeu de um jeito inesperado. Tente de novo.',
   bloqueado: 'A IA recusou responder a esta mensagem. Tente falar de outro jeito.',
@@ -86,6 +88,8 @@ async function chamar<T>(p: PedidoIA<T>, modelo: string): Promise<T> {
     if (resp.status !== 400 || /api[_ ]?key/i.test(corpo)) throw new ErroIA('chave_invalida', MENSAGENS_ERRO.chave_invalida);
     throw new ErroIA('resposta_invalida', MENSAGENS_ERRO.resposta_invalida);
   }
+  if (resp.status === 404) throw new ErroIA('modelo', MENSAGENS_ERRO.modelo);
+  if (resp.status >= 500) throw new ErroIA('indisponivel', MENSAGENS_ERRO.indisponivel);
   if (!resp.ok) throw new ErroIA('rede', MENSAGENS_ERRO.rede);
 
   const dados = (await resp.json().catch(() => null)) as {
@@ -122,7 +126,8 @@ export async function pedirJSON<T>(p: PedidoIA<T>): Promise<T> {
         ultimo = e;
         if (!(e instanceof ErroIA)) throw e;
         if (e.tipo === 'resposta_invalida' && tentativa === 0) continue;
-        if (e.tipo === 'limite') break; // passa para o próximo modelo
+        // Sem limite, modelo inexistente ou sobrecarregado: tenta o próximo modelo.
+        if (e.tipo === 'limite' || e.tipo === 'modelo' || e.tipo === 'indisponivel') break;
         throw e;
       }
     }

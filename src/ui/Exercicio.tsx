@@ -57,10 +57,8 @@ export function Exercicio({
     [ex],
   );
 
+  // Cada exercício monta um componente novo (key), então só precisa tocar o áudio.
   useEffect(() => {
-    setTexto('');
-    setOrdem([]);
-    setResultado(null);
     const audio = ex.tipo === 'ouvir_escrever' || ex.tipo === 'multipla' ? ex.audio : undefined;
     if (audio) void falar(audio, { nivel, sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -123,7 +121,7 @@ export function Exercicio({
 
       {ex.tipo === 'ordenar' && (
         <>
-          {ex.traducao_pt && <Paragrafo suave>"{ex.traducao_pt}"</Paragrafo>}
+          {ex.traducao_pt && <Paragrafo suave>“{ex.traducao_pt}”</Paragrafo>}
           <View style={[st.linhaPalavras, st.resposta]}>
             {ordem.map((idx, pos) => (
               <Pressable key={pos} onPress={respondido ? undefined : () => setOrdem(ordem.filter((_, i) => i !== pos))} style={st.ficha}>

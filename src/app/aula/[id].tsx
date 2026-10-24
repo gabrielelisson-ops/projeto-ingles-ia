@@ -3,7 +3,7 @@
  * aquecimento → vocabulário → gramática → escuta → prática → conversa → teste rápido → resumo.
  */
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { acharAula } from '../../conteudo/curso';
 import * as repo from '../../dados/repositorio';
@@ -17,6 +17,7 @@ import { ConversaProfessor } from '../../ui/ConversaProfessor';
 import { Dialogo } from '../../ui/Dialogo';
 import { SequenciaExercicios, type ResultadoExercicio } from '../../ui/Exercicio';
 import { cores, espaco } from '../../ui/tema';
+import { segundosDesde, useInicio } from '../../ui/useInicio';
 
 const ETAPAS = ['Aquecimento', 'Vocabulário', 'Gramática', 'Escuta', 'Prática', 'Conversa', 'Teste rápido', 'Resumo'] as const;
 
@@ -31,7 +32,7 @@ export default function TelaAula() {
   const [teste, setTeste] = useState<{ acertos: number; tentativa: number } | null>(null);
   const [tentativa, setTentativa] = useState(0);
   const [escutaFeita, setEscutaFeita] = useState(false);
-  const inicio = useRef(Date.now());
+  const inicio = useInicio();
 
   useEffect(() => () => pararFala(), []);
 
@@ -82,7 +83,7 @@ export default function TelaAula() {
     setTeste({ acertos, tentativa });
     if (testeRapidoAprovado(acertos, rs.length) && perfil) {
       await repo.concluirAula(db, perfil.id, aula.id, acertos);
-      await repo.registrarAtividade(db, perfil.id, { segundosEstudo: (Date.now() - inicio.current) / 1000 });
+      await repo.registrarAtividade(db, perfil.id, { segundosEstudo: segundosDesde(inicio) });
       // Vocabulário e erros da aula entram na fila de revisão espaçada.
       await repo.adicionarRevisao(db, perfil.id, [
         ...aula.vocabulario.map((v) => ({ item_id: `w:${v.id}`, tipo: 'palavra' as const, frente: v.en, verso: v.pt, emoji: v.emoji })),

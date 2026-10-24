@@ -249,6 +249,19 @@ export const CurriculoSchema = z.object({
 });
 export type Curriculo = z.infer<typeof CurriculoSchema>;
 
+// ---------- Roleplays ----------
+
+export const RoleplaySchema = ConversaSchema.extend({
+  id,
+  emoji: texto(16),
+  titulo_pt: texto(60),
+});
+export type Roleplay = z.infer<typeof RoleplaySchema>;
+
+export const RoleplaysSchema = z
+  .object({ roleplays: z.array(RoleplaySchema).max(40) })
+  .refine((r) => new Set(r.roleplays.map((x) => x.id)).size === r.roleplays.length, { message: 'roleplays com id repetido' });
+
 // ---------- Auxiliares ----------
 
 /** Garante que nenhum exercício repete o mesmo id dentro do arquivo. */

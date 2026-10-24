@@ -42,7 +42,13 @@
           ]
         }
       ],
-      "expo-sharing"
+      "expo-sharing",
+      [
+        "expo-notifications",
+        {
+          "color": "#2F6BFF"
+        }
+      ]
     ],
     "scheme": "inglesia"
   }

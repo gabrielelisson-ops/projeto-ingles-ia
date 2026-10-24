@@ -52,7 +52,6 @@ for (const nivel of NIVEIS) {
 }
 
 const codigo = `// ARQUIVO GERADO por scripts/gerar-indice.js — não edite à mão.
-/* eslint-disable */
 export const CURRICULO_BRUTO: unknown = ${req(path.join(CONTEUDO, 'curriculo.json'))};
 
 export const UNIDADES_BRUTAS: { meta: unknown; aulas: unknown[]; prova: unknown }[] = [
@@ -60,6 +59,8 @@ ${unidades.join('\n')}
 ];
 
 export const FINAIS_BRUTAS: unknown[] = [${finais.join(', ')}];
+
+export const ROLEPLAYS_BRUTOS: unknown = ${fs.existsSync(path.join(CONTEUDO, 'roleplays.json')) ? req(path.join(CONTEUDO, 'roleplays.json')) : '{ roleplays: [] }'};
 `;
 
 fs.writeFileSync(SAIDA, codigo);
