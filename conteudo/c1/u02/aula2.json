@@ -1,0 +1,357 @@
+{
+  "id": "c1-u02-l2",
+  "nivel": "C1",
+  "unidade": 2,
+  "numero": 2,
+  "titulo": "Make a decision, do business",
+  "objetivo_pt": "Usar collocations naturais (combinações fixas de palavras) com make, do, take, have e outros verbos.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer substantivos. Diga qual verbo combina: make, do, take ou have? (a decision, business, a risk, a look…)",
+    "papel_professor": "Dê substantivos (a decision, research, a risk, a break, progress, damage, a mistake, an effort, part, responsibility) e peça o verbo certo. Explique as tendências. Corrija 'do a decision' → 'make a decision'.",
+    "abertura": "Which verb goes with 'a decision': make or do?",
+    "abertura_pt": "Qual verbo vai com \"a decision\": make ou do?"
+  },
+  "vocabulario": [
+    {
+      "id": "make-decision",
+      "en": "make a decision / progress / an effort",
+      "pt": "tomar uma decisão / progredir / esforçar-se",
+      "emoji": "✅",
+      "exemplo_en": "We made good progress this week.",
+      "exemplo_pt": "Fizemos bom progresso esta semana."
+    },
+    {
+      "id": "do-business",
+      "en": "do business / research / damage",
+      "pt": "fazer negócios / pesquisa / causar dano",
+      "emoji": "🏢",
+      "exemplo_en": "We do business with 20 countries.",
+      "exemplo_pt": "Fazemos negócios com 20 países."
+    },
+    {
+      "id": "take-risk",
+      "en": "take a risk / responsibility / action",
+      "pt": "correr um risco / assumir responsabilidade / agir",
+      "emoji": "🎲",
+      "exemplo_en": "We need to take action now.",
+      "exemplo_pt": "Precisamos agir agora."
+    },
+    {
+      "id": "have-look",
+      "en": "have a look / a word / a chat",
+      "pt": "dar uma olhada / trocar uma palavra / bater papo",
+      "emoji": "👀",
+      "exemplo_en": "Can I have a word with you?",
+      "exemplo_pt": "Posso falar com você um instante?"
+    },
+    {
+      "id": "meet-deadline",
+      "en": "meet a deadline / a target / a need",
+      "pt": "cumprir prazo / atingir meta / atender uma necessidade",
+      "emoji": "⏰",
+      "exemplo_en": "We met all our targets.",
+      "exemplo_pt": "Atingimos todas as nossas metas."
+    },
+    {
+      "id": "raise-issue",
+      "en": "raise an issue / a question / awareness",
+      "pt": "levantar uma questão / conscientizar",
+      "emoji": "🙋",
+      "exemplo_en": "I'd like to raise an issue.",
+      "exemplo_pt": "Gostaria de levantar uma questão."
+    },
+    {
+      "id": "pay-attention",
+      "en": "pay attention / a visit / a compliment",
+      "pt": "prestar atenção / fazer uma visita / elogiar",
+      "emoji": "👂",
+      "exemplo_en": "Pay attention to the details.",
+      "exemplo_pt": "Preste atenção aos detalhes."
+    },
+    {
+      "id": "reach-agreement-l2",
+      "en": "reach an agreement / a conclusion",
+      "pt": "chegar a um acordo / uma conclusão",
+      "emoji": "🤝",
+      "exemplo_en": "We reached a conclusion.",
+      "exemplo_pt": "Chegamos a uma conclusão."
+    },
+    {
+      "id": "strong-l2",
+      "en": "strong / heavy / high",
+      "pt": "forte / pesado / alto (adj. + subst.)",
+      "emoji": "💪",
+      "exemplo_en": "heavy traffic, strong coffee, high risk",
+      "exemplo_pt": "trânsito pesado, café forte, risco alto"
+    },
+    {
+      "id": "bitterly",
+      "en": "bitterly disappointed / highly unlikely",
+      "pt": "profundamente decepcionado / altamente improvável",
+      "emoji": "📉",
+      "exemplo_en": "It's highly unlikely.",
+      "exemplo_pt": "É altamente improvável."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Collocations",
+    "explicacao_pt": "Collocations são palavras que 'andam juntas' por costume. Errar não impede a compreensão, mas soa estrangeiro. Tendências: MAKE = criar/produzir/decidir (make a decision, a mistake, progress, an effort, a profit, a complaint). DO = tarefas, trabalho, atividade geral (do business, research, damage, your best, a job). TAKE = assumir/aceitar (take a risk, responsibility, action, part, place, advantage). HAVE = experiências (have a look, a break, a word, a meeting). Também ADJETIVO + SUBSTANTIVO (heavy rain, strong opinion, high price, deep concern) e ADVÉRBIO + ADJETIVO (highly unlikely, deeply concerned, fully aware, bitterly disappointed).",
+    "tabela": {
+      "colunas": [
+        "Verbo",
+        "Collocations",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "make",
+          "a decision, a mistake, progress, a profit",
+          "We made a profit this year."
+        ],
+        [
+          "do",
+          "business, research, damage, your best",
+          "The storm did a lot of damage."
+        ],
+        [
+          "take",
+          "a risk, action, responsibility, part",
+          "She took responsibility for the error."
+        ],
+        [
+          "have",
+          "a look, a break, a word, a chat",
+          "Let's have a short break."
+        ],
+        [
+          "adv + adj",
+          "highly unlikely, fully aware",
+          "I'm fully aware of the risks."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We need to make a decision by Friday, but we don't want to take any unnecessary risks.",
+        "pt": "Precisamos tomar uma decisão até sexta, mas não queremos correr riscos desnecessários."
+      },
+      {
+        "en": "The flood did serious damage to the warehouse.",
+        "pt": "A enchente causou sérios danos ao armazém."
+      },
+      {
+        "en": "The manager took full responsibility for the delay.",
+        "pt": "O gerente assumiu total responsabilidade pelo atraso."
+      },
+      {
+        "en": "It's highly unlikely that we'll meet the deadline without extra help.",
+        "pt": "É altamente improvável que cumpramos o prazo sem ajuda extra."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The review meeting",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Let's have a look at the results. Did we meet our targets this quarter?",
+        "pt": "Vamos dar uma olhada nos resultados. Atingimos nossas metas este trimestre?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Most of them. We made good progress on quality, but we didn't meet the delivery target.",
+        "pt": "A maioria. Fizemos bom progresso em qualidade, mas não atingimos a meta de entrega."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Why not?",
+        "pt": "Por que não?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Heavy rain did a lot of damage to the main road, and two trucks were delayed. I take full responsibility for not having a plan B.",
+        "pt": "Chuvas fortes causaram muitos danos à estrada principal, e dois caminhões atrasaram. Assumo total responsabilidade por não ter um plano B."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "I appreciate that. What action are you going to take?",
+        "pt": "Agradeço. Que ação você vai tomar?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "We're doing some research on alternative routes, and we'll make a decision by Friday.",
+        "pt": "Estamos pesquisando rotas alternativas e vamos tomar uma decisão até sexta."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Where did they make good progress?",
+        "opcoes": [
+          "Quality",
+          "Delivery",
+          "Sales"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Which target did they miss?",
+        "opcoes": [
+          "Delivery",
+          "Quality",
+          "Safety"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What did damage to the road?",
+        "opcoes": [
+          "Heavy rain",
+          "A strike",
+          "An accident"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the manager researching?",
+        "opcoes": [
+          "Alternative routes",
+          "New suppliers",
+          "New trucks"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u02l2-p1",
+      "tipo": "completar",
+      "frase": "We need to ___ a decision by Friday.",
+      "respostas": [
+        "make"
+      ]
+    },
+    {
+      "id": "c1u02l2-p2",
+      "tipo": "completar",
+      "frase": "We ___ business with 20 countries.",
+      "respostas": [
+        "do"
+      ]
+    },
+    {
+      "id": "c1u02l2-p3",
+      "tipo": "completar",
+      "frase": "We need to ___ action now.",
+      "respostas": [
+        "take"
+      ]
+    },
+    {
+      "id": "c1u02l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Collocation correta:",
+      "opcoes": [
+        "do a mistake",
+        "make a mistake",
+        "take a mistake"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "c1u02l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Trânsito pesado\":",
+      "opcoes": [
+        "heavy traffic",
+        "strong traffic",
+        "big traffic"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l2-p6",
+      "tipo": "ordenar",
+      "frase": "Can I have a word with you?",
+      "traducao_pt": "Posso falar com você um instante?"
+    },
+    {
+      "id": "c1u02l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm fully aware of the risks.",
+      "aceitas": [
+        "I am fully aware of the risks."
+      ]
+    },
+    {
+      "id": "c1u02l2-p8",
+      "tipo": "traduzir",
+      "pt": "Ela assumiu a responsabilidade pelo erro.",
+      "respostas": [
+        "She took responsibility for the error.",
+        "She took responsibility for the mistake."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor sobre um trimestre ou ano de trabalho usando muitas collocations (make progress, meet a target, take action, do research, raise an issue…). Ele vai anotar e depois revisar quais você acertou.",
+    "papel_professor": "Ouça e faça perguntas que exijam collocations (What decisions did you make? Did you take any risks?). No fim, liste as collocations usadas e corrija as erradas.",
+    "abertura": "Tell me about the last few months at work. What went well, and what didn't?",
+    "abertura_pt": "Me conte sobre os últimos meses no trabalho. O que deu certo e o que não deu?"
+  },
+  "teste": [
+    {
+      "id": "c1u02l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Collocation correta:",
+      "opcoes": [
+        "take a break",
+        "make a break",
+        "do a break"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l2-t2",
+      "tipo": "completar",
+      "frase": "It's ___ unlikely. (altamente)",
+      "respostas": [
+        "highly"
+      ]
+    },
+    {
+      "id": "c1u02l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The storm did a lot of damage."
+    },
+    {
+      "id": "c1u02l2-t4",
+      "tipo": "traduzir",
+      "pt": "Chegamos a uma conclusão.",
+      "respostas": [
+        "We reached a conclusion.",
+        "We came to a conclusion."
+      ]
+    },
+    {
+      "id": "c1u02l2-t5",
+      "tipo": "ordenar",
+      "frase": "Pay attention to the details",
+      "traducao_pt": "Preste atenção aos detalhes"
+    }
+  ]
+}

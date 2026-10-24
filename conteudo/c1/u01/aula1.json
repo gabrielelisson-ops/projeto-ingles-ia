@@ -1,0 +1,357 @@
+{
+  "id": "c1-u01-l1",
+  "nivel": "C1",
+  "unidade": 1,
+  "numero": 1,
+  "titulo": "What we need is…",
+  "objetivo_pt": "Dar ênfase com cleft sentences com what (What I need is…, What happened was…).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer afirmações. Reformule-as dando ênfase com \"What I… is/was…\".",
+    "papel_professor": "Dê frases neutras (We need more time. The price worries me. They changed the supplier.) e peça versões com what-cleft. Ensine também 'What happened was…' e 'What we did was (to)…'. Corrija concordância.",
+    "abertura": "Rephrase this with emphasis: 'We need better communication.'",
+    "abertura_pt": "Reformule com ênfase: \"Precisamos de melhor comunicação.\""
+  },
+  "vocabulario": [
+    {
+      "id": "what-cleft",
+      "en": "What I need is…",
+      "pt": "O que eu preciso é…",
+      "emoji": "🎯",
+      "exemplo_en": "What we need is a clear plan.",
+      "exemplo_pt": "O que precisamos é de um plano claro."
+    },
+    {
+      "id": "what-happened",
+      "en": "What happened was (that)…",
+      "pt": "O que aconteceu foi que…",
+      "emoji": "💥",
+      "exemplo_en": "What happened was that the system crashed.",
+      "exemplo_pt": "O que aconteceu foi que o sistema caiu."
+    },
+    {
+      "id": "what-we-did",
+      "en": "What we did was (to)…",
+      "pt": "O que fizemos foi…",
+      "emoji": "🛠️",
+      "exemplo_en": "What we did was redesign the layout.",
+      "exemplo_pt": "O que fizemos foi redesenhar o layout."
+    },
+    {
+      "id": "all-i-want",
+      "en": "All I want is…",
+      "pt": "Tudo o que eu quero é…",
+      "emoji": "🙏",
+      "exemplo_en": "All I want is a straight answer.",
+      "exemplo_pt": "Tudo o que quero é uma resposta direta."
+    },
+    {
+      "id": "the-thing-is",
+      "en": "The thing is…",
+      "pt": "O problema é que… / A questão é…",
+      "emoji": "🤔",
+      "exemplo_en": "The thing is, we don't have the budget.",
+      "exemplo_pt": "A questão é que não temos orçamento."
+    },
+    {
+      "id": "the-reason-why",
+      "en": "The reason why… is that…",
+      "pt": "O motivo pelo qual… é que…",
+      "emoji": "❓",
+      "exemplo_en": "The reason why we failed is that we rushed.",
+      "exemplo_pt": "O motivo pelo qual falhamos é que nos apressamos."
+    },
+    {
+      "id": "concern",
+      "en": "concern / be concerned about",
+      "pt": "preocupação / estar preocupado com",
+      "emoji": "😟",
+      "exemplo_en": "What concerns me is the deadline.",
+      "exemplo_pt": "O que me preocupa é o prazo."
+    },
+    {
+      "id": "crucial",
+      "en": "crucial / key",
+      "pt": "crucial / fundamental",
+      "emoji": "🔑",
+      "exemplo_en": "What is crucial is customer trust.",
+      "exemplo_pt": "O que é crucial é a confiança do cliente."
+    },
+    {
+      "id": "underlying",
+      "en": "underlying issue",
+      "pt": "questão de fundo",
+      "emoji": "🌊",
+      "exemplo_en": "What we need to address is the underlying issue.",
+      "exemplo_pt": "O que precisamos tratar é a questão de fundo."
+    },
+    {
+      "id": "point-is",
+      "en": "The point is…",
+      "pt": "A questão é… / O ponto é…",
+      "emoji": "📌",
+      "exemplo_en": "The point is that quality comes first.",
+      "exemplo_pt": "O ponto é que a qualidade vem em primeiro lugar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Cleft sentences com WHAT",
+    "explicacao_pt": "Cleft sentence = 'dividir' a frase para dar ênfase a uma parte. Com WHAT: WHAT + sujeito + verbo + IS/WAS + parte enfatizada. We need more time → What we need is more time. The price worries me → What worries me is the price. Para ações: What we did was (to) change the supplier. / What happened was (that) the line stopped. Variações: All I want is… / The thing is… / The reason why… is that… / The person who… / The place where… O verbo 'be' concorda com o tempo do contexto (is/was).",
+    "tabela": {
+      "colunas": [
+        "Neutro",
+        "Com ênfase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "We need more time.",
+          "What we need is more time.",
+          "O que precisamos é de mais tempo."
+        ],
+        [
+          "The cost worries me.",
+          "What worries me is the cost.",
+          "O que me preocupa é o custo."
+        ],
+        [
+          "We changed the supplier.",
+          "What we did was change the supplier.",
+          "O que fizemos foi trocar o fornecedor."
+        ],
+        [
+          "The line stopped.",
+          "What happened was that the line stopped.",
+          "O que aconteceu foi que a linha parou."
+        ],
+        [
+          "I only want an answer.",
+          "All I want is an answer.",
+          "Tudo que quero é uma resposta."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "What really concerns me is the lack of communication between shifts.",
+        "pt": "O que realmente me preocupa é a falta de comunicação entre os turnos."
+      },
+      {
+        "en": "What we did was involve the operators from day one.",
+        "pt": "O que fizemos foi envolver os operadores desde o primeiro dia."
+      },
+      {
+        "en": "The reason why the project succeeded is that everyone was committed.",
+        "pt": "O motivo pelo qual o projeto deu certo é que todos estavam comprometidos."
+      },
+      {
+        "en": "The thing is, we can't afford another delay.",
+        "pt": "A questão é que não podemos nos dar ao luxo de outro atraso."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A frank conversation",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "I've read the report, but I'm still not sure what went wrong.",
+        "pt": "Li o relatório, mas ainda não tenho certeza do que deu errado."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "What happened was that we underestimated the complexity of the new software.",
+        "pt": "O que aconteceu foi que subestimamos a complexidade do novo software."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And the delays?",
+        "pt": "E os atrasos?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "The reason why we were late is that the supplier changed their team halfway through.",
+        "pt": "O motivo pelo qual atrasamos é que o fornecedor trocou a equipe no meio do caminho."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "OK. What concerns me now is the budget. We're 20% over.",
+        "pt": "OK. O que me preocupa agora é o orçamento. Estamos 20% acima."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "I understand. What we've done is renegotiate the remaining payments. All we need is two more months.",
+        "pt": "Entendo. O que fizemos foi renegociar os pagamentos restantes. Tudo de que precisamos é mais dois meses."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What happened, according to the manager?",
+        "opcoes": [
+          "They underestimated the complexity of the software.",
+          "The team was lazy.",
+          "The budget was cut."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Why were they late?",
+        "opcoes": [
+          "The supplier changed their team.",
+          "The software was free.",
+          "The director changed the plan."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What concerns the director now?",
+        "opcoes": [
+          "The budget",
+          "The team",
+          "The customers"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l1-e4",
+        "tipo": "multipla",
+        "enunciado": "How much more time does the manager need?",
+        "opcoes": [
+          "Two weeks",
+          "Two months",
+          "Six months"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u01l1-p1",
+      "tipo": "completar",
+      "frase": "___ we need is a clear plan.",
+      "respostas": [
+        "What"
+      ]
+    },
+    {
+      "id": "c1u01l1-p2",
+      "tipo": "completar",
+      "frase": "What happened ___ that the system crashed.",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "c1u01l1-p3",
+      "tipo": "completar",
+      "frase": "___ I want is a straight answer. (tudo o que)",
+      "respostas": [
+        "All"
+      ]
+    },
+    {
+      "id": "c1u01l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Ênfase em \"The cost worries me\":",
+      "opcoes": [
+        "What worries me is the cost.",
+        "What the cost worries is me.",
+        "It worries me what the cost."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O que fizemos foi redesenhar o layout\":",
+      "opcoes": [
+        "What we did was redesign the layout.",
+        "What we did it was redesigning the layout.",
+        "What did we was redesign the layout."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l1-p6",
+      "tipo": "ordenar",
+      "frase": "What is crucial is customer trust",
+      "traducao_pt": "O que é crucial é a confiança do cliente"
+    },
+    {
+      "id": "c1u01l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The thing is, we don't have the budget.",
+      "aceitas": [
+        "The thing is, we do not have the budget."
+      ]
+    },
+    {
+      "id": "c1u01l1-p8",
+      "tipo": "traduzir",
+      "pt": "O motivo pelo qual falhamos é que nos apressamos.",
+      "respostas": [
+        "The reason why we failed is that we rushed.",
+        "The reason we failed is that we rushed."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você vai explicar ao professor (seu diretor) um problema sério e como pretende resolvê-lo, usando pelo menos 5 cleft sentences (What happened was…, What concerns me is…, What we need is…, The reason why…).",
+    "papel_professor": "Faça o papel de diretor exigente. Faça perguntas que provoquem ênfase (So what exactly went wrong? What's the real issue here?). Corrija estrutura e concordância das cleft sentences.",
+    "abertura": "I've heard there's a problem in your area. What exactly is going on?",
+    "abertura_pt": "Soube que há um problema na sua área. O que exatamente está acontecendo?"
+  },
+  "teste": [
+    {
+      "id": "c1u01l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Ênfase correta:",
+      "opcoes": [
+        "What concerns me is the deadline.",
+        "What concerns me are the deadline.",
+        "What me concerns is the deadline."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l1-t2",
+      "tipo": "completar",
+      "frase": "The ___ is that quality comes first. (ponto)",
+      "respostas": [
+        "point"
+      ]
+    },
+    {
+      "id": "c1u01l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What we need to address is the underlying issue."
+    },
+    {
+      "id": "c1u01l1-t4",
+      "tipo": "traduzir",
+      "pt": "O que realmente me preocupa é a falta de comunicação.",
+      "respostas": [
+        "What really concerns me is the lack of communication.",
+        "What really worries me is the lack of communication."
+      ]
+    },
+    {
+      "id": "c1u01l1-t5",
+      "tipo": "ordenar",
+      "frase": "What we did was involve the operators",
+      "traducao_pt": "O que fizemos foi envolver os operadores"
+    }
+  ]
+}

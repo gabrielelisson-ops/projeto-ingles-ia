@@ -1,0 +1,352 @@
+{
+  "id": "c1-u01-l5",
+  "nivel": "C1",
+  "unidade": 1,
+  "numero": 5,
+  "titulo": "Making an impact",
+  "objetivo_pt": "Combinar os recursos de ênfase para convencer e impactar numa apresentação ou discurso.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: pense numa palestra ou discurso que te marcou. O que tornou aquele orador convincente?",
+    "papel_professor": "Peça um exemplo de discurso marcante. Ensine técnicas retóricas (regra de três, perguntas retóricas, contraste, repetição) junto com cleft sentences e inversão.",
+    "abertura": "Think of a speech or presentation that really impressed you. What made it so powerful?",
+    "abertura_pt": "Pense num discurso ou apresentação que te impressionou muito. O que o tornou tão poderoso?"
+  },
+  "vocabulario": [
+    {
+      "id": "rhetorical",
+      "en": "rhetorical question",
+      "pt": "pergunta retórica",
+      "emoji": "❓",
+      "exemplo_en": "What do our customers really want? Quality.",
+      "exemplo_pt": "O que nossos clientes realmente querem? Qualidade."
+    },
+    {
+      "id": "rule-three",
+      "en": "rule of three",
+      "pt": "regra de três (lista de três)",
+      "emoji": "3️⃣",
+      "exemplo_en": "Faster, safer and cheaper.",
+      "exemplo_pt": "Mais rápido, mais seguro e mais barato."
+    },
+    {
+      "id": "contrast-l5",
+      "en": "contrast",
+      "pt": "contraste",
+      "emoji": "⚖️",
+      "exemplo_en": "It's not about working harder; it's about working smarter.",
+      "exemplo_pt": "Não se trata de trabalhar mais; trata-se de trabalhar melhor."
+    },
+    {
+      "id": "repetition",
+      "en": "repetition",
+      "pt": "repetição",
+      "emoji": "🔁",
+      "exemplo_en": "We will improve. We will grow. We will win.",
+      "exemplo_pt": "Vamos melhorar. Vamos crescer. Vamos vencer."
+    },
+    {
+      "id": "compelling",
+      "en": "compelling / persuasive",
+      "pt": "convincente / persuasivo",
+      "emoji": "🧲",
+      "exemplo_en": "She made a compelling argument.",
+      "exemplo_pt": "Ela apresentou um argumento convincente."
+    },
+    {
+      "id": "call-to-action",
+      "en": "call to action",
+      "pt": "chamada para ação",
+      "emoji": "📣",
+      "exemplo_en": "End with a clear call to action.",
+      "exemplo_pt": "Termine com uma chamada clara para a ação."
+    },
+    {
+      "id": "let-me-be-clear",
+      "en": "Let me be clear",
+      "pt": "Deixe-me ser claro",
+      "emoji": "🔎",
+      "exemplo_en": "Let me be clear: safety is not negotiable.",
+      "exemplo_pt": "Deixe-me ser claro: segurança não é negociável."
+    },
+    {
+      "id": "make-no-mistake",
+      "en": "Make no mistake",
+      "pt": "Não se engane",
+      "emoji": "⚠️",
+      "exemplo_en": "Make no mistake, this will be a difficult year.",
+      "exemplo_pt": "Não se enganem, este será um ano difícil."
+    },
+    {
+      "id": "above-all",
+      "en": "above all",
+      "pt": "acima de tudo",
+      "emoji": "🔝",
+      "exemplo_en": "Above all, we need trust.",
+      "exemplo_pt": "Acima de tudo, precisamos de confiança."
+    },
+    {
+      "id": "bottom-line-l5",
+      "en": "The bottom line is…",
+      "pt": "No fim das contas… / O essencial é…",
+      "emoji": "📌",
+      "exemplo_en": "The bottom line is that we must change.",
+      "exemplo_pt": "O essencial é que precisamos mudar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Juntando os recursos de ênfase",
+    "explicacao_pt": "Para impactar: 1) CLEFT com what/it: What we need is… / It was our people who… 2) INVERSÃO (com moderação): Never have we… / Not only… but also… 3) DO enfático: We do care. 4) REGRA DE TRÊS: safer, faster, cheaper. 5) CONTRASTE: It's not about X; it's about Y. 6) PERGUNTA RETÓRICA seguida de resposta. 7) EXPRESSÕES: Let me be clear… / Make no mistake… / Above all… / The bottom line is… 8) CHAMADA PARA AÇÃO no final. Atenção: exagero vira caricatura — use 3 ou 4 recursos por fala.",
+    "tabela": {
+      "colunas": [
+        "Recurso",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Cleft",
+          "What we need now is courage.",
+          "O que precisamos agora é de coragem."
+        ],
+        [
+          "Inversão",
+          "Never have we been so close to our goal.",
+          "Nunca estivemos tão perto da meta."
+        ],
+        [
+          "Contraste",
+          "It's not about cost; it's about value.",
+          "Não é sobre custo; é sobre valor."
+        ],
+        [
+          "Regra de três",
+          "Simpler, faster, safer.",
+          "Mais simples, mais rápido, mais seguro."
+        ],
+        [
+          "Fechamento",
+          "The bottom line is: we can do this.",
+          "O essencial é: nós conseguimos."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Let me be clear: what our customers want is reliability, not just low prices.",
+        "pt": "Deixe-me ser claro: o que nossos clientes querem é confiabilidade, não apenas preço baixo."
+      },
+      {
+        "en": "Never before have we had such an opportunity to grow.",
+        "pt": "Nunca antes tivemos tamanha oportunidade de crescer."
+      },
+      {
+        "en": "It's not about working longer hours; it's about working smarter.",
+        "pt": "Não se trata de trabalhar mais horas; trata-se de trabalhar de forma mais inteligente."
+      },
+      {
+        "en": "The bottom line is this: if we don't change now, someone else will take our place.",
+        "pt": "O essencial é isto: se não mudarmos agora, alguém tomará nosso lugar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A call to action",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Why are we here today? Because our market is changing faster than ever.",
+        "pt": "Por que estamos aqui hoje? Porque nosso mercado está mudando mais rápido do que nunca."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Make no mistake: our competitors are investing heavily in automation.",
+        "pt": "Não se enganem: nossos concorrentes estão investindo pesado em automação."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "But what will make the difference is not technology. It's our people.",
+        "pt": "Mas o que vai fazer a diferença não é a tecnologia. São as nossas pessoas."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Never have I worked with a team as talented as this one. Not only do you know the process, but you also care about the customer.",
+        "pt": "Nunca trabalhei com uma equipe tão talentosa quanto esta. Vocês não só conhecem o processo, como também se importam com o cliente."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "So what I'm asking you today is simple: share your ideas, challenge the old ways, and help us build the future.",
+        "pt": "Então o que estou pedindo hoje é simples: compartilhem suas ideias, questionem os velhos jeitos e nos ajudem a construir o futuro."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "The bottom line is: we will succeed — together.",
+        "pt": "O essencial é: vamos vencer — juntos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Why are they there, according to the director?",
+        "opcoes": [
+          "The market is changing faster than ever.",
+          "There is a crisis.",
+          "There is a party."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What are competitors investing in?",
+        "opcoes": [
+          "Automation",
+          "Marketing",
+          "New offices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What will make the difference?",
+        "opcoes": [
+          "Their people",
+          "Technology",
+          "Lower prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l5-e4",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT part of the call to action?",
+        "opcoes": [
+          "Reduce salaries",
+          "Share your ideas",
+          "Challenge the old ways"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u01l5-p1",
+      "tipo": "completar",
+      "frase": "Let me be ___: safety is not negotiable.",
+      "respostas": [
+        "clear"
+      ]
+    },
+    {
+      "id": "c1u01l5-p2",
+      "tipo": "completar",
+      "frase": "Make no ___, this will be a difficult year.",
+      "respostas": [
+        "mistake"
+      ]
+    },
+    {
+      "id": "c1u01l5-p3",
+      "tipo": "completar",
+      "frase": "The bottom ___ is that we must change.",
+      "respostas": [
+        "line"
+      ]
+    },
+    {
+      "id": "c1u01l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Contraste retórico:",
+      "opcoes": [
+        "It's not about working harder; it's about working smarter.",
+        "It's working harder and smarter too also.",
+        "Working is harder than smarter."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Regra de três:",
+      "opcoes": [
+        "Faster, safer and cheaper.",
+        "Fast and safe.",
+        "Faster."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l5-p6",
+      "tipo": "ordenar",
+      "frase": "End with a clear call to action",
+      "traducao_pt": "Termine com uma chamada clara para a ação"
+    },
+    {
+      "id": "c1u01l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She made a compelling argument."
+    },
+    {
+      "id": "c1u01l5-p8",
+      "tipo": "traduzir",
+      "pt": "Acima de tudo, precisamos de confiança.",
+      "respostas": [
+        "Above all, we need trust."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: faça um discurso motivacional de 2 minutos para a sua equipe (o professor) sobre um desafio importante. Use cleft sentences, uma inversão, do enfático, contraste, regra de três e termine com uma chamada para ação.",
+    "papel_professor": "Ouça como plateia. Depois dê retorno detalhado: quais recursos de ênfase foram usados, quais funcionaram, onde houve exagero, e corrija os erros de estrutura.",
+    "abertura": "The team is ready and waiting. Whenever you're ready, the floor is yours.",
+    "abertura_pt": "A equipe está pronta e esperando. Quando estiver pronto, a palavra é sua."
+  },
+  "teste": [
+    {
+      "id": "c1u01l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Pergunta retórica:",
+      "opcoes": [
+        "What do our customers really want? Reliability.",
+        "Do you want coffee?",
+        "Where is the meeting room?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l5-t2",
+      "tipo": "completar",
+      "frase": "___ all, we need trust. (acima de)",
+      "respostas": [
+        "Above"
+      ]
+    },
+    {
+      "id": "c1u01l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We will improve. We will grow. We will win."
+    },
+    {
+      "id": "c1u01l5-t4",
+      "tipo": "traduzir",
+      "pt": "O que precisamos agora é de coragem.",
+      "respostas": [
+        "What we need now is courage."
+      ]
+    },
+    {
+      "id": "c1u01l5-t5",
+      "tipo": "ordenar",
+      "frase": "It's not about cost it's about value",
+      "traducao_pt": "Não é sobre custo, é sobre valor"
+    }
+  ]
+}

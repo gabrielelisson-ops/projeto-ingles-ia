@@ -1,0 +1,354 @@
+{
+  "id": "c1-u01-l4",
+  "nivel": "C1",
+  "unidade": 1,
+  "numero": 4,
+  "titulo": "I do understand, but…",
+  "objetivo_pt": "Usar recursos de ênfase do dia a dia: do/does/did enfático, advérbios intensificadores e entonação.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai duvidar do que você diz. Reforce com o \"do\" enfático: \"I DO understand\", \"We DID send it\".",
+    "papel_professor": "Duvide do aluno (I don't think you checked the data. You don't really care about safety.). Ensine do/does/did enfático e intensificadores (really, absolutely, by far, the very). Mostre a entonação no auxiliar.",
+    "abertura": "I don't think you really read the report.",
+    "abertura_pt": "Acho que você não leu o relatório de verdade."
+  },
+  "vocabulario": [
+    {
+      "id": "do-emph",
+      "en": "I do + verbo",
+      "pt": "eu realmente / sim, eu…",
+      "emoji": "💪",
+      "exemplo_en": "I do understand your concern.",
+      "exemplo_pt": "Eu realmente entendo sua preocupação."
+    },
+    {
+      "id": "did-emph",
+      "en": "We did + verbo",
+      "pt": "nós de fato…",
+      "emoji": "✅",
+      "exemplo_en": "We did send the e-mail — on Monday.",
+      "exemplo_pt": "Nós enviamos sim o e-mail — na segunda."
+    },
+    {
+      "id": "absolutely",
+      "en": "absolutely / totally",
+      "pt": "absolutamente / totalmente",
+      "emoji": "💯",
+      "exemplo_en": "I'm absolutely sure.",
+      "exemplo_pt": "Tenho absoluta certeza."
+    },
+    {
+      "id": "by-far",
+      "en": "by far",
+      "pt": "de longe",
+      "emoji": "🏆",
+      "exemplo_en": "It is by far the best option.",
+      "exemplo_pt": "É de longe a melhor opção."
+    },
+    {
+      "id": "the-very",
+      "en": "the very (best / first / last)",
+      "pt": "o(a) mais… mesmo / o próprio",
+      "emoji": "⭐",
+      "exemplo_en": "This is the very last chance.",
+      "exemplo_pt": "Esta é a última chance mesmo."
+    },
+    {
+      "id": "indeed",
+      "en": "indeed",
+      "pt": "de fato / realmente",
+      "emoji": "👌",
+      "exemplo_en": "The results were very good indeed.",
+      "exemplo_pt": "Os resultados foram muito bons, de fato."
+    },
+    {
+      "id": "whatsoever",
+      "en": "at all / whatsoever",
+      "pt": "de jeito nenhum / nenhum mesmo",
+      "emoji": "🚫",
+      "exemplo_en": "There is no evidence whatsoever.",
+      "exemplo_pt": "Não há evidência nenhuma."
+    },
+    {
+      "id": "such-so",
+      "en": "such / so",
+      "pt": "tão / tal",
+      "emoji": "🔆",
+      "exemplo_en": "It was such a relief.",
+      "exemplo_pt": "Foi um alívio tão grande."
+    },
+    {
+      "id": "even",
+      "en": "even",
+      "pt": "até / mesmo",
+      "emoji": "🤯",
+      "exemplo_en": "Even the director was surprised.",
+      "exemplo_pt": "Até o diretor ficou surpreso."
+    },
+    {
+      "id": "really-l4",
+      "en": "really / genuinely",
+      "pt": "realmente / genuinamente",
+      "emoji": "❤️",
+      "exemplo_en": "We genuinely value your feedback.",
+      "exemplo_pt": "Valorizamos genuinamente seu retorno."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Ênfase no dia a dia",
+    "explicacao_pt": "1) DO/DOES/DID ENFÁTICO + verbo base: contradiz uma dúvida ou reforça (I do understand. She does work hard. We did send it.). Na fala, o auxiliar é acentuado. 2) INTENSIFICADORES: absolutely/totally (com adjetivos fortes: absolutely essential), really, by far + superlativo (by far the best), the very + superlativo/first/last, indeed (no fim: very good indeed). 3) NEGATIVA ENFÁTICA: at all / whatsoever (no doubt whatsoever). 4) SUCH a + adj + subst / SO + adj. 5) EVEN para surpresa. 6) Imperativo enfático: Do sit down. Do let me know.",
+    "tabela": {
+      "colunas": [
+        "Recurso",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "do enfático",
+          "I do agree with you.",
+          "Eu concordo sim com você."
+        ],
+        [
+          "did enfático",
+          "We did check it twice.",
+          "Nós verificamos sim, duas vezes."
+        ],
+        [
+          "by far",
+          "This is by far our best year.",
+          "Este é de longe nosso melhor ano."
+        ],
+        [
+          "whatsoever",
+          "There was no risk whatsoever.",
+          "Não houve risco algum."
+        ],
+        [
+          "Imperativo",
+          "Do let me know if you need help.",
+          "Por favor, me avise se precisar de ajuda."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I do understand your frustration, but we did follow the procedure.",
+        "pt": "Eu entendo sim sua frustração, mas nós seguimos o procedimento."
+      },
+      {
+        "en": "This is by far the most important decision we'll make this year.",
+        "pt": "Esta é de longe a decisão mais importante que tomaremos este ano."
+      },
+      {
+        "en": "There is no evidence whatsoever that the operators made a mistake.",
+        "pt": "Não há evidência nenhuma de que os operadores erraram."
+      },
+      {
+        "en": "Do let me know if there's anything I can do to help.",
+        "pt": "Por favor, me avise se houver algo que eu possa fazer para ajudar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A misunderstanding with a client",
+    "falas": [
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "Your team never answered our e-mail about the samples.",
+        "pt": "Sua equipe nunca respondeu nosso e-mail sobre as amostras."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "b",
+        "en": "I'm sorry you feel that way, but we did answer it. I sent the reply myself on Tuesday.",
+        "pt": "Lamento que pense assim, mas nós respondemos sim. Eu mesmo enviei a resposta na terça."
+      },
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "Well, we didn't receive anything.",
+        "pt": "Bom, não recebemos nada."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "b",
+        "en": "I do understand your frustration. It may have gone to your spam folder. I'll resend it right now.",
+        "pt": "Entendo sim sua frustração. Pode ter ido para a pasta de spam. Vou reenviar agora mesmo."
+      },
+      {
+        "personagem": "Client",
+        "voz": "a",
+        "en": "OK. These samples are by far the most important for our new product.",
+        "pt": "OK. Estas amostras são de longe as mais importantes para nosso novo produto."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "b",
+        "en": "Absolutely. There's no doubt whatsoever about their priority. Do call me directly if anything else is missing.",
+        "pt": "Com certeza. Não há dúvida nenhuma sobre a prioridade delas. Por favor, me ligue diretamente se faltar algo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the client complaining about?",
+        "opcoes": [
+          "No answer to their e-mail",
+          "Late delivery",
+          "Wrong price"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l4-e2",
+        "tipo": "multipla",
+        "enunciado": "When did the account manager send the reply?",
+        "opcoes": [
+          "On Monday",
+          "On Tuesday",
+          "He didn't send it."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Where might the e-mail have gone?",
+        "opcoes": [
+          "To the spam folder",
+          "To another client",
+          "To the director"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the account manager ask the client to do?",
+        "opcoes": [
+          "Call him directly if anything is missing",
+          "Send a new e-mail",
+          "Wait a week"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u01l4-p1",
+      "tipo": "completar",
+      "frase": "I ___ understand your concern. (enfático)",
+      "respostas": [
+        "do"
+      ]
+    },
+    {
+      "id": "c1u01l4-p2",
+      "tipo": "completar",
+      "frase": "We ___ send the e-mail — on Monday. (enfático, passado)",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "c1u01l4-p3",
+      "tipo": "completar",
+      "frase": "It is by ___ the best option. (de longe)",
+      "respostas": [
+        "far"
+      ]
+    },
+    {
+      "id": "c1u01l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Negativa enfática:",
+      "opcoes": [
+        "There is no evidence whatsoever.",
+        "There is no evidence whatever it.",
+        "There is not evidence at none."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Ela trabalha sim, e muito\":",
+      "opcoes": [
+        "She does work hard.",
+        "She do works hard.",
+        "She does works hard."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l4-p6",
+      "tipo": "ordenar",
+      "frase": "This is the very last chance",
+      "traducao_pt": "Esta é a última chance mesmo"
+    },
+    {
+      "id": "c1u01l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The results were very good indeed."
+    },
+    {
+      "id": "c1u01l4-p8",
+      "tipo": "traduzir",
+      "pt": "Até o diretor ficou surpreso.",
+      "respostas": [
+        "Even the director was surprised."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai acusar sua equipe injustamente de várias coisas (não ter testado, não ter avisado, não se importar com qualidade). Defenda-se com firmeza e educação usando do/did enfático e intensificadores.",
+    "papel_professor": "Faça acusações injustas. O aluno se defende com do/did enfático, by far, whatsoever, absolutely, indeed. Pressione um pouco. No fim, comente a firmeza e a educação da defesa.",
+    "abertura": "Honestly, I don't think your team tested the product before shipping it.",
+    "abertura_pt": "Sinceramente, acho que sua equipe não testou o produto antes de enviar."
+  },
+  "teste": [
+    {
+      "id": "c1u01l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Imperativo enfático e educado:",
+      "opcoes": [
+        "Do let me know if you need help.",
+        "Let me know do if you need.",
+        "Does let me know."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l4-t2",
+      "tipo": "completar",
+      "frase": "I'm ___ sure. (absolutamente)",
+      "respostas": [
+        "absolutely",
+        "totally"
+      ]
+    },
+    {
+      "id": "c1u01l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We genuinely value your feedback."
+    },
+    {
+      "id": "c1u01l4-t4",
+      "tipo": "traduzir",
+      "pt": "Foi um alívio tão grande.",
+      "respostas": [
+        "It was such a relief.",
+        "It was such a big relief."
+      ]
+    },
+    {
+      "id": "c1u01l4-t5",
+      "tipo": "ordenar",
+      "frase": "I do agree with you",
+      "traducao_pt": "Eu concordo sim com você"
+    }
+  ]
+}

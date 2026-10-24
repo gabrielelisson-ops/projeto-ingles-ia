@@ -1,0 +1,358 @@
+{
+  "id": "c1-u02-l3",
+  "nivel": "C1",
+  "unidade": 2,
+  "numero": 3,
+  "titulo": "The ball is in their court",
+  "objetivo_pt": "Usar idioms de negociação, decisão e risco.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever situações de negociação. Comente usando idioms: the ball is in their court, a long shot, sit on the fence…",
+    "papel_professor": "Descreva situações (We sent our final offer. Nobody wants to decide. It's a risky plan.). Ensine idioms de negociação e decisão. Peça uso contextualizado.",
+    "abertura": "We've sent our final offer to the supplier. Now we just have to wait. How would you describe that with an idiom?",
+    "abertura_pt": "Enviamos nossa oferta final ao fornecedor. Agora só temos que esperar. Como você descreveria isso com uma expressão?"
+  },
+  "vocabulario": [
+    {
+      "id": "ball-court",
+      "en": "the ball is in their court",
+      "pt": "a bola está com eles (é a vez deles)",
+      "emoji": "🎾",
+      "exemplo_en": "We've made our offer. The ball is in their court now.",
+      "exemplo_pt": "Fizemos nossa oferta. Agora é com eles."
+    },
+    {
+      "id": "long-shot",
+      "en": "a long shot",
+      "pt": "uma aposta improvável",
+      "emoji": "🎯",
+      "exemplo_en": "It's a long shot, but let's try.",
+      "exemplo_pt": "É improvável, mas vamos tentar."
+    },
+    {
+      "id": "fence",
+      "en": "sit on the fence",
+      "pt": "ficar em cima do muro",
+      "emoji": "🧱",
+      "exemplo_en": "Stop sitting on the fence and decide!",
+      "exemplo_pt": "Pare de ficar em cima do muro e decida!"
+    },
+    {
+      "id": "bite-bullet",
+      "en": "bite the bullet",
+      "pt": "encarar algo difícil",
+      "emoji": "😬",
+      "exemplo_en": "We'll have to bite the bullet and cut costs.",
+      "exemplo_pt": "Vamos ter que encarar e cortar custos."
+    },
+    {
+      "id": "cards-table",
+      "en": "put your cards on the table",
+      "pt": "abrir o jogo",
+      "emoji": "🃏",
+      "exemplo_en": "Let me put my cards on the table.",
+      "exemplo_pt": "Deixe-me abrir o jogo."
+    },
+    {
+      "id": "middle-ground",
+      "en": "find middle ground",
+      "pt": "achar um meio-termo",
+      "emoji": "⚖️",
+      "exemplo_en": "Let's try to find some middle ground.",
+      "exemplo_pt": "Vamos tentar achar um meio-termo."
+    },
+    {
+      "id": "deal-breaker",
+      "en": "a deal-breaker",
+      "pt": "algo que inviabiliza o acordo",
+      "emoji": "💔",
+      "exemplo_en": "The payment terms are a deal-breaker for us.",
+      "exemplo_pt": "As condições de pagamento inviabilizam o acordo para nós."
+    },
+    {
+      "id": "play-safe",
+      "en": "play it safe",
+      "pt": "jogar no seguro",
+      "emoji": "🛡️",
+      "exemplo_en": "Let's play it safe and order extra stock.",
+      "exemplo_pt": "Vamos jogar no seguro e pedir estoque extra."
+    },
+    {
+      "id": "eggs-basket",
+      "en": "put all your eggs in one basket",
+      "pt": "colocar todos os ovos na mesma cesta",
+      "emoji": "🧺",
+      "exemplo_en": "Don't put all your eggs in one basket — use two suppliers.",
+      "exemplo_pt": "Não coloque todos os ovos na mesma cesta — use dois fornecedores."
+    },
+    {
+      "id": "back-burner",
+      "en": "put something on the back burner",
+      "pt": "deixar algo em segundo plano",
+      "emoji": "🔥",
+      "exemplo_en": "We've put the project on the back burner.",
+      "exemplo_pt": "Deixamos o projeto em segundo plano."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Idioms de negociação e decisão",
+    "explicacao_pt": "Muitos idioms vêm de esportes e jogos (the ball is in their court, a long shot, put your cards on the table, play it safe). Outros, do cotidiano (sit on the fence, put all your eggs in one basket, on the back burner). Uso: reuniões e conversas profissionais; em documentos formais, prefira o sentido literal (The proposal has been postponed em vez de put on the back burner). Atenção às preposições fixas: IN their court, ON the fence, ON the table, ON the back burner, IN one basket.",
+    "tabela": {
+      "colunas": [
+        "Idiom",
+        "Sentido",
+        "Equivalente formal"
+      ],
+      "linhas": [
+        [
+          "the ball is in their court",
+          "a decisão é deles",
+          "We are awaiting their response."
+        ],
+        [
+          "a long shot",
+          "improvável",
+          "It is unlikely to succeed."
+        ],
+        [
+          "sit on the fence",
+          "não tomar posição",
+          "remain undecided"
+        ],
+        [
+          "a deal-breaker",
+          "inviabiliza o acordo",
+          "an unacceptable condition"
+        ],
+        [
+          "on the back burner",
+          "em segundo plano",
+          "postponed / deprioritized"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We've made a fair offer. The ball is in their court now.",
+        "pt": "Fizemos uma oferta justa. Agora a decisão é deles."
+      },
+      {
+        "en": "Getting a contract with Toyota is a long shot, but it's worth trying.",
+        "pt": "Conseguir um contrato com a Toyota é improvável, mas vale tentar."
+      },
+      {
+        "en": "Relying on a single supplier is like putting all your eggs in one basket.",
+        "pt": "Depender de um único fornecedor é como colocar todos os ovos na mesma cesta."
+      },
+      {
+        "en": "A lead time of twelve weeks is a deal-breaker for us.",
+        "pt": "Um prazo de doze semanas inviabiliza o acordo para nós."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "After the negotiation",
+    "falas": [
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "So, how did it go with the Chinese supplier?",
+        "pt": "E aí, como foi com o fornecedor chinês?"
+      },
+      {
+        "personagem": "Negotiator",
+        "voz": "b",
+        "en": "I put my cards on the table: we need delivery in six weeks, or there's no deal. The lead time is a deal-breaker.",
+        "pt": "Abri o jogo: precisamos de entrega em seis semanas, ou não há acordo. O prazo é inegociável."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "And their answer?",
+        "pt": "E a resposta deles?"
+      },
+      {
+        "personagem": "Negotiator",
+        "voz": "b",
+        "en": "They're sitting on the fence. They said they'd check with the factory. So the ball is in their court.",
+        "pt": "Estão em cima do muro. Disseram que vão verificar com a fábrica. Então a bola está com eles."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Honestly, I think it's a long shot. We shouldn't put all our eggs in one basket.",
+        "pt": "Sinceramente, acho improvável. Não deveríamos colocar todos os ovos na mesma cesta."
+      },
+      {
+        "personagem": "Negotiator",
+        "voz": "b",
+        "en": "Agreed. Let's play it safe and keep talking to the local supplier too.",
+        "pt": "Concordo. Vamos jogar no seguro e continuar conversando com o fornecedor local também."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the deal-breaker?",
+        "opcoes": [
+          "The lead time",
+          "The price",
+          "The quality"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How long can delivery take, at most?",
+        "opcoes": [
+          "Four weeks",
+          "Six weeks",
+          "Twelve weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the supplier doing?",
+        "opcoes": [
+          "Sitting on the fence",
+          "Accepting the deal",
+          "Refusing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What do they decide to do?",
+        "opcoes": [
+          "Keep talking to the local supplier too",
+          "Cancel everything",
+          "Accept any lead time"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u02l3-p1",
+      "tipo": "completar",
+      "frase": "The ball is in their ___ now.",
+      "respostas": [
+        "court"
+      ]
+    },
+    {
+      "id": "c1u02l3-p2",
+      "tipo": "completar",
+      "frase": "It's a long ___, but let's try.",
+      "respostas": [
+        "shot"
+      ]
+    },
+    {
+      "id": "c1u02l3-p3",
+      "tipo": "completar",
+      "frase": "Stop sitting on the ___ and decide!",
+      "respostas": [
+        "fence"
+      ]
+    },
+    {
+      "id": "c1u02l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Abrir o jogo\":",
+      "opcoes": [
+        "put your cards on the table",
+        "show your game",
+        "open the cards"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Equivalente formal de \"put on the back burner\":",
+      "opcoes": [
+        "postponed",
+        "burned",
+        "heated"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l3-p6",
+      "tipo": "ordenar",
+      "frase": "Let's play it safe and order extra stock",
+      "traducao_pt": "Vamos jogar no seguro e pedir estoque extra"
+    },
+    {
+      "id": "c1u02l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We'll have to bite the bullet and cut costs.",
+      "aceitas": [
+        "We will have to bite the bullet and cut costs."
+      ]
+    },
+    {
+      "id": "c1u02l3-p8",
+      "tipo": "traduzir",
+      "pt": "Vamos tentar achar um meio-termo.",
+      "respostas": [
+        "Let's try to find some middle ground.",
+        "Let's try to find a middle ground.",
+        "Let us try to find some middle ground."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Discuta com o professor uma decisão difícil da sua empresa ou da sua vida (mudar de fornecedor, de emprego, de cidade), usando idioms de risco e decisão.",
+    "papel_professor": "Explore a decisão com perguntas (Is it a long shot? Are you playing it safe? What's the deal-breaker?). Use idioms também. Corrija preposições e forma fixa.",
+    "abertura": "Is there a difficult decision you or your company are facing right now?",
+    "abertura_pt": "Há alguma decisão difícil que você ou sua empresa estejam enfrentando agora?"
+  },
+  "teste": [
+    {
+      "id": "c1u02l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Inviabiliza o acordo\":",
+      "opcoes": [
+        "a deal-breaker",
+        "a deal-maker",
+        "a broken deal"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l3-t2",
+      "tipo": "completar",
+      "frase": "We've put the project on the back ___.",
+      "respostas": [
+        "burner"
+      ]
+    },
+    {
+      "id": "c1u02l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Let me put my cards on the table."
+    },
+    {
+      "id": "c1u02l3-t4",
+      "tipo": "traduzir",
+      "pt": "Não coloque todos os ovos na mesma cesta.",
+      "respostas": [
+        "Don't put all your eggs in one basket.",
+        "Do not put all your eggs in one basket."
+      ]
+    },
+    {
+      "id": "c1u02l3-t5",
+      "tipo": "ordenar",
+      "frase": "We've made our offer and the ball is in their court",
+      "traducao_pt": "Fizemos nossa oferta e agora é com eles"
+    }
+  ]
+}

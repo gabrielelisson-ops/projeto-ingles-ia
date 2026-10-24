@@ -1,0 +1,261 @@
+{
+  "id": "c1-u02-prova",
+  "nivel": "C1",
+  "unidade": 2,
+  "titulo": "Prova da Unidade 2 (C1) — Idioms",
+  "leitura": {
+    "texto": "WHY YOUR IDIOMS MIGHT BE HURTING YOUR CAREER\nNative speakers are often the hardest people to understand in international meetings. That is the surprising conclusion of a survey of 1,200 managers from 30 countries. More than 60% said they found it easier to communicate with other non-native speakers than with British or American colleagues.\nThe main reason? Idioms. 'When a native speaker says \"let's touch base\" or \"that's a long shot\", many of us simply get lost,' says Ji-woo Park, a Korean engineer who works for a German company. 'And we don't always ask, because we don't want to look stupid.'\nThe consequences can be serious. In one case described in the survey, a British manager told an Indian supplier that a delivery date was 'a bit of a stretch'. The supplier understood that the date was fine. It wasn't — and the order arrived two weeks late.\nExperts recommend that native and fluent speakers adapt their English. 'Collocations are fine — they're the natural way to speak,' explains communication trainer Laura Smith. 'But idioms should be used carefully. If you do use one, rephrase it: \"We're back to square one — in other words, we need to start again.\"'\nFor learners, the advice is different. 'Learn the most common idioms so that you understand them,' says Smith. 'But don't feel you have to use them to sound fluent. Clear, accurate English is far more impressive than a sentence full of idioms.'",
+    "perguntas": [
+      {
+        "id": "c1u02pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many managers were surveyed?",
+        "opcoes": [
+          "300",
+          "1,200",
+          "6,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What did more than 60% say?",
+        "opcoes": [
+          "It was easier to communicate with other non-native speakers.",
+          "Native speakers are the easiest to understand.",
+          "They never use English."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What is the main reason for the difficulty?",
+        "opcoes": [
+          "Idioms",
+          "Accents",
+          "Grammar"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Why don't non-native speakers always ask?",
+        "opcoes": [
+          "They don't want to look stupid.",
+          "They have no time.",
+          "They understand everything."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What did the Indian supplier understand by \"a bit of a stretch\"?",
+        "opcoes": [
+          "That the date was fine",
+          "That the date was impossible",
+          "That they needed a discount"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What was the consequence?",
+        "opcoes": [
+          "The order arrived two weeks late.",
+          "The order was canceled.",
+          "The price went up."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What does Laura Smith say about collocations?",
+        "opcoes": [
+          "They're fine — the natural way to speak.",
+          "They should be avoided.",
+          "They are too informal."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What is her advice for learners?",
+        "opcoes": [
+          "Understand common idioms, but focus on clear English.",
+          "Use as many idioms as possible.",
+          "Never learn idioms."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "So, in a nutshell, where are we with the new supplier?",
+        "pt": "Então, em poucas palavras, onde estamos com o novo fornecedor?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Well, we've put our cards on the table. We need delivery in five weeks — anything longer is a deal-breaker.",
+        "pt": "Bom, abrimos o jogo. Precisamos de entrega em cinco semanas — qualquer prazo maior inviabiliza o acordo."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And did they accept?",
+        "pt": "E eles aceitaram?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Not yet. They're sitting on the fence, so the ball is in their court.",
+        "pt": "Ainda não. Estão em cima do muro, então a bola está com eles."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "What if they say no?",
+        "pt": "E se disserem não?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Then we're back to square one. But I don't want to put all our eggs in one basket, so I've kept talking to two other suppliers.",
+        "pt": "Aí voltamos à estaca zero. Mas não quero colocar todos os ovos na mesma cesta, então continuei conversando com outros dois fornecedores."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Good thinking. Can you give me a ballpark figure for the savings?",
+        "pt": "Bem pensado. Pode me dar uma estimativa da economia?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Around 300,000 reais a year, if everything goes well. Honestly, it's a long shot, but it's worth trying.",
+        "pt": "Uns 300.000 reais por ano, se tudo der certo. Sinceramente, é improvável, mas vale a pena tentar."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the maximum acceptable delivery time?",
+        "opcoes": [
+          "Three weeks",
+          "Five weeks",
+          "Eight weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Have the suppliers accepted?",
+        "opcoes": [
+          "Yes",
+          "Not yet"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What will happen if they say no?",
+        "opcoes": [
+          "They'll be back to square one.",
+          "They will accept any lead time.",
+          "The project will be canceled."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why has the buyer kept talking to other suppliers?",
+        "opcoes": [
+          "He doesn't want to put all his eggs in one basket.",
+          "They are cheaper.",
+          "The director asked him to."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What are the estimated savings?",
+        "opcoes": [
+          "30,000 reais a year",
+          "300,000 reais a year",
+          "3 million reais a year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02pv-e6",
+        "tipo": "multipla",
+        "enunciado": "How does the buyer see the chances of success?",
+        "opcoes": [
+          "It's a long shot.",
+          "It's certain.",
+          "It's impossible."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "They're sitting on the fence, so the ball is in their court.",
+        "aceitas": [
+          "They are sitting on the fence, so the ball is in their court."
+        ]
+      },
+      {
+        "id": "c1u02pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I don't want to put all our eggs in one basket.",
+        "aceitas": [
+          "I do not want to put all our eggs in one basket."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u02pv-w1",
+      "instrucao_pt": "Escreva sobre um projeto ou situação de trabalho usando pelo menos 4 idioms e 4 collocations naturais.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "c1u02pv-w2",
+      "instrucao_pt": "Reescreva o parágrafo anterior em plain English para um colega estrangeiro, explicando ou substituindo os idioms.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u02pv-s1",
+      "pergunta_en": "Describe a colleague you admire and a difficult situation at work, using idioms naturally.",
+      "instrucao_pt": "Fale em voz alta usando idioms de pessoas e situações."
+    },
+    {
+      "id": "c1u02pv-s2",
+      "pergunta_en": "You are in a call with an international team and someone does not understand your idiom. Rephrase and explain.",
+      "instrucao_pt": "Use In other words, What I mean is, Let me rephrase."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Idioms de trabalho (back to square one, on the same page, drop the ball, cut corners, in a nutshell, ballpark figure), de negociação e decisão (the ball is in their court, a long shot, sit on the fence, deal-breaker, play it safe, eggs in one basket, back burner), de pessoas e situações (go the extra mile, the last straw, blessing in disguise, steep learning curve), collocations (make/do/take/have, adv + adj), reformulação e plain English."
+}

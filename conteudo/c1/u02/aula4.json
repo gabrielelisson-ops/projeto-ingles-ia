@@ -1,0 +1,353 @@
+{
+  "id": "c1-u02-l4",
+  "nivel": "C1",
+  "unidade": 2,
+  "numero": 4,
+  "titulo": "A blessing in disguise",
+  "objetivo_pt": "Usar idioms de sentimentos, pessoas e situações (para descrever colegas e eventos).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever pessoas e situações. Use idioms para comentar: a breath of fresh air, under the weather, the last straw…",
+    "papel_professor": "Descreva pessoas/situações (The new manager is full of new ideas. I'm feeling a bit sick. That was the third delay this month!). Ensine idioms de pessoas e emoções. Corrija.",
+    "abertura": "Our new manager is full of energy and new ideas. Everybody loves her. How could you describe her with an idiom?",
+    "abertura_pt": "Nossa nova gerente é cheia de energia e ideias novas. Todo mundo a adora. Como você a descreveria com uma expressão?"
+  },
+  "vocabulario": [
+    {
+      "id": "fresh-air",
+      "en": "a breath of fresh air",
+      "pt": "um sopro de ar fresco (algo novo e bom)",
+      "emoji": "🌬️",
+      "exemplo_en": "The new manager is a breath of fresh air.",
+      "exemplo_pt": "A nova gerente é um sopro de renovação."
+    },
+    {
+      "id": "under-weather",
+      "en": "under the weather",
+      "pt": "indisposto",
+      "emoji": "🤧",
+      "exemplo_en": "I'm feeling a bit under the weather.",
+      "exemplo_pt": "Estou me sentindo meio indisposto."
+    },
+    {
+      "id": "last-straw",
+      "en": "the last straw",
+      "pt": "a gota d'água",
+      "emoji": "💧",
+      "exemplo_en": "That delay was the last straw.",
+      "exemplo_pt": "Aquele atraso foi a gota d'água."
+    },
+    {
+      "id": "piece-cake",
+      "en": "a piece of cake",
+      "pt": "moleza",
+      "emoji": "🍰",
+      "exemplo_en": "The test was a piece of cake.",
+      "exemplo_pt": "A prova foi moleza."
+    },
+    {
+      "id": "hit-nail",
+      "en": "hit the nail on the head",
+      "pt": "acertar em cheio",
+      "emoji": "🔨",
+      "exemplo_en": "You've hit the nail on the head.",
+      "exemplo_pt": "Você acertou em cheio."
+    },
+    {
+      "id": "blessing",
+      "en": "a blessing in disguise",
+      "pt": "há males que vêm para bem",
+      "emoji": "🎁",
+      "exemplo_en": "Losing that client was a blessing in disguise.",
+      "exemplo_pt": "Perder aquele cliente foi um mal que veio para bem."
+    },
+    {
+      "id": "pull-weight",
+      "en": "pull your weight",
+      "pt": "fazer a sua parte",
+      "emoji": "🏋️",
+      "exemplo_en": "Everyone needs to pull their weight.",
+      "exemplo_pt": "Todos precisam fazer a sua parte."
+    },
+    {
+      "id": "go-extra-mile",
+      "en": "go the extra mile",
+      "pt": "fazer mais do que o esperado",
+      "emoji": "🏃",
+      "exemplo_en": "She always goes the extra mile for customers.",
+      "exemplo_pt": "Ela sempre faz mais do que o esperado pelos clientes."
+    },
+    {
+      "id": "once-blue-moon",
+      "en": "once in a blue moon",
+      "pt": "muito raramente",
+      "emoji": "🌕",
+      "exemplo_en": "He visits the plant once in a blue moon.",
+      "exemplo_pt": "Ele visita a fábrica muito raramente."
+    },
+    {
+      "id": "steep-learning",
+      "en": "a steep learning curve",
+      "pt": "uma curva de aprendizado íngreme",
+      "emoji": "📈",
+      "exemplo_en": "The new system has a steep learning curve.",
+      "exemplo_pt": "O novo sistema tem uma curva de aprendizado íngreme."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Idioms de pessoas e situações",
+    "explicacao_pt": "Para elogiar: go the extra mile, a breath of fresh air, hit the nail on the head, pull your weight. Para críticas suaves: not pull your weight, drop the ball. Para situações: the last straw (gota d'água), a blessing in disguise, a piece of cake, a steep learning curve, once in a blue moon. Saúde: under the weather. Cuidado com o registro: 'a piece of cake' é informal; 'a steep learning curve' serve até em relatórios. E com a cultura: idioms podem confundir colegas não nativos — numa reunião internacional, use com moderação e explique se necessário.",
+    "tabela": {
+      "colunas": [
+        "Idiom",
+        "Sentido",
+        "Registro"
+      ],
+      "linhas": [
+        [
+          "go the extra mile",
+          "fazer além do esperado",
+          "neutro"
+        ],
+        [
+          "a steep learning curve",
+          "muito a aprender rápido",
+          "neutro/formal"
+        ],
+        [
+          "the last straw",
+          "gota d'água",
+          "neutro"
+        ],
+        [
+          "under the weather",
+          "indisposto",
+          "informal"
+        ],
+        [
+          "a piece of cake",
+          "muito fácil",
+          "informal"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our new supplier always goes the extra mile — they even send technicians on Saturdays.",
+        "pt": "Nosso novo fornecedor sempre faz mais do que o esperado — até manda técnicos aos sábados."
+      },
+      {
+        "en": "The third late delivery this month was the last straw, so we changed suppliers.",
+        "pt": "A terceira entrega atrasada do mês foi a gota d'água, então trocamos de fornecedor."
+      },
+      {
+        "en": "The new ERP has a steep learning curve, but it will save us a lot of time.",
+        "pt": "O novo ERP tem uma curva de aprendizado íngreme, mas vai nos economizar muito tempo."
+      },
+      {
+        "en": "When you said the real problem was communication, you hit the nail on the head.",
+        "pt": "Quando você disse que o problema real era comunicação, acertou em cheio."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Talking about colleagues",
+    "falas": [
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "How's the new team leader on the night shift?",
+        "pt": "Como está o novo líder do turno da noite?"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Honestly, she's a breath of fresh air. She always goes the extra mile and listens to everybody.",
+        "pt": "Sinceramente, ela é um sopro de renovação. Sempre faz mais do que o esperado e ouve todo mundo."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "That's great. The last one hardly ever came to the shop floor.",
+        "pt": "Que ótimo. O último quase nunca vinha ao chão de fábrica."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "I know, once in a blue moon! And some people weren't pulling their weight, which was the last straw for the director.",
+        "pt": "Eu sei, muito de vez em quando! E algumas pessoas não estavam fazendo a sua parte, o que foi a gota d'água para o diretor."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Well, changing the leader was a blessing in disguise.",
+        "pt": "Bom, trocar o líder foi um mal que veio para bem."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Exactly. It's been a steep learning curve for her, but she's doing really well.",
+        "pt": "Exatamente. Tem sido uma curva de aprendizado íngreme para ela, mas está indo muito bem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How does Bia describe the new team leader?",
+        "opcoes": [
+          "A breath of fresh air",
+          "A piece of cake",
+          "Under the weather"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How often did the last leader come to the shop floor?",
+        "opcoes": [
+          "Every day",
+          "Very rarely",
+          "Twice a week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What was the last straw for the director?",
+        "opcoes": [
+          "Some people weren't pulling their weight.",
+          "A big accident",
+          "Low sales"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l4-e4",
+        "tipo": "multipla",
+        "enunciado": "How has it been for the new leader?",
+        "opcoes": [
+          "A steep learning curve",
+          "Very easy",
+          "Terrible"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u02l4-p1",
+      "tipo": "completar",
+      "frase": "I'm feeling a bit under the ___.",
+      "respostas": [
+        "weather"
+      ]
+    },
+    {
+      "id": "c1u02l4-p2",
+      "tipo": "completar",
+      "frase": "That delay was the last ___.",
+      "respostas": [
+        "straw"
+      ]
+    },
+    {
+      "id": "c1u02l4-p3",
+      "tipo": "completar",
+      "frase": "She always goes the extra ___ for customers.",
+      "respostas": [
+        "mile"
+      ]
+    },
+    {
+      "id": "c1u02l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Você acertou em cheio\":",
+      "opcoes": [
+        "You've hit the nail on the head.",
+        "You've hit the head on the nail.",
+        "You've nailed the head."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Muito raramente\":",
+      "opcoes": [
+        "once in a blue moon",
+        "one time in blue moon",
+        "once a blue month"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l4-p6",
+      "tipo": "ordenar",
+      "frase": "Everyone needs to pull their weight",
+      "traducao_pt": "Todos precisam fazer a sua parte"
+    },
+    {
+      "id": "c1u02l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The test was a piece of cake."
+    },
+    {
+      "id": "c1u02l4-p8",
+      "tipo": "traduzir",
+      "pt": "Perder aquele cliente foi um mal que veio para bem.",
+      "respostas": [
+        "Losing that client was a blessing in disguise.",
+        "Losing that customer was a blessing in disguise."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Descreva ao professor 3 pessoas com quem você trabalha ou trabalhou (sem nomes reais) e uma situação marcante, usando idioms de pessoas e situações.",
+    "papel_professor": "Ouça as descrições e faça perguntas. Use idioms nas suas reações. Corrija a forma fixa dos idioms e aponte quando o registro não combina.",
+    "abertura": "Tell me about some of the people you've worked with — the best and the most difficult.",
+    "abertura_pt": "Me fale de algumas pessoas com quem você já trabalhou — as melhores e as mais difíceis."
+  },
+  "teste": [
+    {
+      "id": "c1u02l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Registro mais adequado para um relatório:",
+      "opcoes": [
+        "a steep learning curve",
+        "a piece of cake",
+        "under the weather"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l4-t2",
+      "tipo": "completar",
+      "frase": "The new manager is a breath of fresh ___.",
+      "respostas": [
+        "air"
+      ]
+    },
+    {
+      "id": "c1u02l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "He visits the plant once in a blue moon."
+    },
+    {
+      "id": "c1u02l4-t4",
+      "tipo": "traduzir",
+      "pt": "O novo sistema tem uma curva de aprendizado íngreme.",
+      "respostas": [
+        "The new system has a steep learning curve."
+      ]
+    },
+    {
+      "id": "c1u02l4-t5",
+      "tipo": "ordenar",
+      "frase": "You've hit the nail on the head",
+      "traducao_pt": "Você acertou em cheio"
+    }
+  ]
+}
