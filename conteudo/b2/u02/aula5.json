@@ -1,0 +1,363 @@
+{
+  "id": "b2-u02-l5",
+  "nivel": "B2",
+  "unidade": 2,
+  "numero": 5,
+  "titulo": "Passing on the message",
+  "objetivo_pt": "Transmitir recados e resumir conversas para quem não estava presente (revisão de reported speech).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: conte ao professor algo interessante que alguém te disse esta semana, usando reported speech.",
+    "papel_professor": "Peça algo que alguém disse recentemente. Corrija said/told, backshift e reporting verbs. Ensine a passar recados (She wanted me to tell you that…).",
+    "abertura": "Did anyone tell you anything interesting this week?",
+    "abertura_pt": "Alguém te contou algo interessante esta semana?"
+  },
+  "vocabulario": [
+    {
+      "id": "message",
+      "en": "message / leave a message",
+      "pt": "recado / deixar recado",
+      "emoji": "📝",
+      "exemplo_en": "Can I leave a message?",
+      "exemplo_pt": "Posso deixar um recado?"
+    },
+    {
+      "id": "pass-on",
+      "en": "pass on (a message)",
+      "pt": "transmitir (um recado)",
+      "emoji": "📨",
+      "exemplo_en": "I'll pass on the message.",
+      "exemplo_pt": "Vou passar o recado."
+    },
+    {
+      "id": "wanted-me",
+      "en": "wanted me to tell you",
+      "pt": "queria que eu te dissesse",
+      "emoji": "🗨️",
+      "exemplo_en": "She wanted me to tell you that the meeting is canceled.",
+      "exemplo_pt": "Ela queria que eu te dissesse que a reunião foi cancelada."
+    },
+    {
+      "id": "apparently",
+      "en": "apparently",
+      "pt": "pelo visto / aparentemente",
+      "emoji": "🤷",
+      "exemplo_en": "Apparently, the director is leaving.",
+      "exemplo_pt": "Pelo visto, o diretor vai sair."
+    },
+    {
+      "id": "according-l5",
+      "en": "according to",
+      "pt": "segundo",
+      "emoji": "🗣️",
+      "exemplo_en": "According to Paulo, the price will go up.",
+      "exemplo_pt": "Segundo o Paulo, o preço vai subir."
+    },
+    {
+      "id": "rumor",
+      "en": "rumor / gossip",
+      "pt": "boato / fofoca",
+      "emoji": "🤫",
+      "exemplo_en": "It's just a rumor.",
+      "exemplo_pt": "É só um boato."
+    },
+    {
+      "id": "get-back",
+      "en": "get back to someone",
+      "pt": "retornar para alguém",
+      "emoji": "🔁",
+      "exemplo_en": "He said he'd get back to you tomorrow.",
+      "exemplo_pt": "Ele disse que te retornaria amanhã."
+    },
+    {
+      "id": "urgent-l5",
+      "en": "as soon as possible (ASAP)",
+      "pt": "o mais rápido possível",
+      "emoji": "⚡",
+      "exemplo_en": "She asked you to call her ASAP.",
+      "exemplo_pt": "Ela pediu para você ligar o mais rápido possível."
+    },
+    {
+      "id": "summary",
+      "en": "summary / summarize",
+      "pt": "resumo / resumir",
+      "emoji": "📄",
+      "exemplo_en": "Here's a quick summary of the call.",
+      "exemplo_pt": "Aqui vai um resumo rápido da ligação."
+    },
+    {
+      "id": "in-short",
+      "en": "in short",
+      "pt": "em resumo",
+      "emoji": "✂️",
+      "exemplo_en": "In short, they want a lower price.",
+      "exemplo_pt": "Em resumo, eles querem um preço menor."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Passando recados",
+    "explicacao_pt": "Quando a informação ainda é verdadeira, o backshift é OPCIONAL, principalmente com verbo de relato no presente: She says the meeting is canceled. / He said he's coming tomorrow (ainda vale). Para passar recados: X called. He said that… / He asked if… / He wants you to + verbo / She wanted me to tell you that… Para fofoca e informação incerta: Apparently,… / According to…, … / I heard that… Para resumir: In short,… / Basically,…",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Ainda verdadeiro",
+          "said + presente",
+          "He said he's coming tomorrow."
+        ],
+        [
+          "Verbo no presente",
+          "says + presente",
+          "She says the order is ready."
+        ],
+        [
+          "Pedido",
+          "wants you to + verbo",
+          "He wants you to call him back."
+        ],
+        [
+          "Informação incerta",
+          "Apparently, …",
+          "Apparently, the plant will close."
+        ],
+        [
+          "Resumo",
+          "In short, …",
+          "In short, they need more time."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Rui called while you were out. He said the parts had arrived and asked if you could check them today.",
+        "pt": "O Rui ligou enquanto você estava fora. Disse que as peças tinham chegado e perguntou se você poderia verificá-las hoje."
+      },
+      {
+        "en": "The director wants you to send her the report before Friday.",
+        "pt": "A diretora quer que você mande o relatório antes de sexta."
+      },
+      {
+        "en": "Apparently, they're going to open a new line next year.",
+        "pt": "Pelo visto, vão abrir uma linha nova ano que vem."
+      },
+      {
+        "en": "In short, the client is happy, but they want us to reduce the lead time.",
+        "pt": "Em resumo, o cliente está satisfeito, mas quer que reduzamos o prazo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Messages while you were out",
+    "falas": [
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "Welcome back! You had three calls while you were in the meeting.",
+        "pt": "Bem-vindo de volta! Você teve três ligações enquanto estava na reunião."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "OK, go ahead.",
+        "pt": "OK, pode falar."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "First, Mr. Tanaka from the Japanese client. He said they had received the samples and that they were very happy with the quality.",
+        "pt": "Primeiro, o Sr. Tanaka, do cliente japonês. Disse que tinham recebido as amostras e que estavam muito satisfeitos com a qualidade."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "He asked if we could send a price proposal by Wednesday.",
+        "pt": "Perguntou se poderíamos mandar uma proposta de preço até quarta."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "Then, Dona Célia from HR. She wanted me to remind you that the performance reviews are due on Friday.",
+        "pt": "Depois, a Dona Célia do RH. Pediu que eu te lembrasse que as avaliações de desempenho vencem na sexta."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "And finally, the maintenance supervisor. Apparently, the compressor broke again. He wants you to call him back ASAP.",
+        "pt": "E por fim, o supervisor de manutenção. Pelo visto, o compressor quebrou de novo. Ele quer que você retorne o mais rápido possível."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Thanks. I'll call maintenance first.",
+        "pt": "Obrigado. Vou ligar para a manutenção primeiro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many calls did the manager have?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What did Mr. Tanaka think of the samples?",
+        "opcoes": [
+          "They were very happy with the quality.",
+          "They had problems.",
+          "They hadn't received them."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l5-e3",
+        "tipo": "multipla",
+        "enunciado": "When are the performance reviews due?",
+        "opcoes": [
+          "Wednesday",
+          "Friday",
+          "Monday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What broke again?",
+        "opcoes": [
+          "The compressor",
+          "The printer",
+          "The forklift"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u02l5-p1",
+      "tipo": "completar",
+      "frase": "I'll pass ___ the message.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "b2u02l5-p2",
+      "tipo": "completar",
+      "frase": "She wanted me ___ tell you that the meeting is canceled.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b2u02l5-p3",
+      "tipo": "completar",
+      "frase": "___, the director is leaving. (pelo visto)",
+      "respostas": [
+        "Apparently"
+      ]
+    },
+    {
+      "id": "b2u02l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Ele quer que você ligue de volta\":",
+      "opcoes": [
+        "He wants you to call him back.",
+        "He wants that you call him back.",
+        "He wants you call back him."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Informação que ainda vale:",
+      "opcoes": [
+        "He said he's coming tomorrow.",
+        "He said he will came tomorrow."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l5-p6",
+      "tipo": "ordenar",
+      "frase": "He said he'd get back to you tomorrow",
+      "traducao_pt": "Ele disse que te retornaria amanhã"
+    },
+    {
+      "id": "b2u02l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's just a rumor.",
+      "aceitas": [
+        "It is just a rumor.",
+        "It's just a rumour."
+      ]
+    },
+    {
+      "id": "b2u02l5-p8",
+      "tipo": "traduzir",
+      "pt": "Em resumo, eles querem um preço menor.",
+      "respostas": [
+        "In short, they want a lower price.",
+        "In summary, they want a lower price."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: você é o assistente. O professor vai voltar de uma viagem e perguntar quais recados chegaram. Passe pelo menos 4 recados de pessoas diferentes (afirmações, perguntas, pedidos e um boato).",
+    "papel_professor": "Faça o papel de chefe que voltou de viagem. Pergunte Did anyone call? What did they want? Did they ask anything? Faça perguntas de detalhe. Corrija reported speech e reporting verbs.",
+    "abertura": "Hi! I'm back from São Paulo. Did anything happen while I was away? Any messages?",
+    "abertura_pt": "Oi! Voltei de São Paulo. Aconteceu algo enquanto eu estava fora? Algum recado?"
+  },
+  "teste": [
+    {
+      "id": "b2u02l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Recado com pergunta:",
+      "opcoes": [
+        "He asked if you could call him.",
+        "He asked could you call him?",
+        "He asked did you call him."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l5-t2",
+      "tipo": "completar",
+      "frase": "___ to Paulo, the price will go up. (segundo)",
+      "respostas": [
+        "According"
+      ]
+    },
+    {
+      "id": "b2u02l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Can I leave a message?"
+    },
+    {
+      "id": "b2u02l5-t4",
+      "tipo": "traduzir",
+      "pt": "Aqui vai um resumo rápido da ligação.",
+      "respostas": [
+        "Here's a quick summary of the call.",
+        "Here is a quick summary of the call."
+      ]
+    },
+    {
+      "id": "b2u02l5-t5",
+      "tipo": "ordenar",
+      "frase": "She asked you to call her ASAP",
+      "traducao_pt": "Ela pediu para você ligar o mais rápido possível"
+    }
+  ]
+}

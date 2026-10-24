@@ -1,0 +1,363 @@
+{
+  "id": "b2-u02-l2",
+  "nivel": "B2",
+  "unidade": 2,
+  "numero": 2,
+  "titulo": "He asked me if…",
+  "objetivo_pt": "Relatar perguntas (yes/no e com palavras interrogativas).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer perguntas e depois pedir que você relate: \"You asked me if…\" / \"You asked me where…\".",
+    "papel_professor": "Faça perguntas e peça o relato (Do you like coffee? → You asked me if I liked coffee). Ensine if/whether e ordem afirmativa. Corrija 'He asked me where was I' → 'where I was'.",
+    "abertura": "Where do you live? — OK, now report my question: what did I ask you?",
+    "abertura_pt": "Onde você mora? — OK, agora relate minha pergunta: o que eu te perguntei?"
+  },
+  "vocabulario": [
+    {
+      "id": "ask-if",
+      "en": "ask if / whether",
+      "pt": "perguntar se",
+      "emoji": "❓",
+      "exemplo_en": "She asked if I was free.",
+      "exemplo_pt": "Ela perguntou se eu estava livre."
+    },
+    {
+      "id": "ask-wh",
+      "en": "ask where / when / why…",
+      "pt": "perguntar onde / quando / por que…",
+      "emoji": "🔎",
+      "exemplo_en": "He asked me where I worked.",
+      "exemplo_pt": "Ele me perguntou onde eu trabalhava."
+    },
+    {
+      "id": "wonder",
+      "en": "wonder (if)",
+      "pt": "imaginar / se perguntar (se)",
+      "emoji": "🤔",
+      "exemplo_en": "I was wondering if you could help me.",
+      "exemplo_pt": "Eu estava pensando se você poderia me ajudar."
+    },
+    {
+      "id": "want-know",
+      "en": "want to know",
+      "pt": "querer saber",
+      "emoji": "🧐",
+      "exemplo_en": "The client wanted to know when we could deliver.",
+      "exemplo_pt": "O cliente queria saber quando poderíamos entregar."
+    },
+    {
+      "id": "inquire",
+      "en": "inquire / enquire",
+      "pt": "indagar / pedir informação",
+      "emoji": "📨",
+      "exemplo_en": "They inquired about our prices.",
+      "exemplo_pt": "Pediram informações sobre nossos preços."
+    },
+    {
+      "id": "reply",
+      "en": "reply / answer",
+      "pt": "responder",
+      "emoji": "↩️",
+      "exemplo_en": "He replied that he didn't know.",
+      "exemplo_pt": "Ele respondeu que não sabia."
+    },
+    {
+      "id": "whether-or",
+      "en": "whether … or not",
+      "pt": "se … ou não",
+      "emoji": "⚖️",
+      "exemplo_en": "She asked whether we were coming or not.",
+      "exemplo_pt": "Ela perguntou se íamos ou não."
+    },
+    {
+      "id": "interviewer",
+      "en": "interviewer",
+      "pt": "entrevistador",
+      "emoji": "🎤",
+      "exemplo_en": "The interviewer asked why I wanted the job.",
+      "exemplo_pt": "O entrevistador perguntou por que eu queria o emprego."
+    },
+    {
+      "id": "survey",
+      "en": "survey",
+      "pt": "pesquisa (questionário)",
+      "emoji": "📋",
+      "exemplo_en": "The survey asked if we were satisfied.",
+      "exemplo_pt": "A pesquisa perguntou se estávamos satisfeitos."
+    },
+    {
+      "id": "respond",
+      "en": "respond",
+      "pt": "responder (formal)",
+      "emoji": "📝",
+      "exemplo_en": "Most employees responded positively.",
+      "exemplo_pt": "A maioria dos funcionários respondeu positivamente."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Reported speech: perguntas",
+    "explicacao_pt": "Perguntas relatadas viram AFIRMATIVAS (sem do/does/did e sem inversão) e não têm ponto de interrogação. YES/NO → ASK + IF/WHETHER: \"Are you free?\" → She asked if I was free. WH- → ASK + palavra interrogativa + sujeito + verbo: \"Where do you work?\" → He asked me where I worked. (Não: 'where did I work'.) O backshift continua: \"When will you finish?\" → She asked when I would finish. Verbos: ask, want to know, wonder, inquire.",
+    "tabela": {
+      "colunas": [
+        "Pergunta direta",
+        "Pergunta relatada",
+        "Regra"
+      ],
+      "linhas": [
+        [
+          "\"Are you free?\"",
+          "She asked if I was free.",
+          "yes/no → if"
+        ],
+        [
+          "\"Where do you work?\"",
+          "He asked me where I worked.",
+          "sem do, ordem afirmativa"
+        ],
+        [
+          "\"Why did you leave?\"",
+          "They asked why I had left.",
+          "did leave → had left"
+        ],
+        [
+          "\"Can you help me?\"",
+          "She asked if I could help her.",
+          "can → could"
+        ],
+        [
+          "\"When will it arrive?\"",
+          "He wanted to know when it would arrive.",
+          "will → would"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "\"Have you worked with robots?\" → The interviewer asked if I had worked with robots.",
+        "pt": "\"Você já trabalhou com robôs?\" → O entrevistador perguntou se eu já tinha trabalhado com robôs."
+      },
+      {
+        "en": "\"How long will the repair take?\" → The manager asked how long the repair would take.",
+        "pt": "\"Quanto tempo vai levar o conserto?\" → O gerente perguntou quanto tempo levaria o conserto."
+      },
+      {
+        "en": "\"Do you offer discounts?\" → The client wanted to know whether we offered discounts.",
+        "pt": "\"Vocês dão desconto?\" → O cliente queria saber se dávamos desconto."
+      },
+      {
+        "en": "\"Why is the line stopped?\" → The director asked why the line was stopped.",
+        "pt": "\"Por que a linha está parada?\" → O diretor perguntou por que a linha estava parada."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "After the interview",
+    "falas": [
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "So, how was the interview? What did they ask you?",
+        "pt": "E aí, como foi a entrevista? O que perguntaram?"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "First, the HR manager asked me why I wanted to change jobs.",
+        "pt": "Primeiro, a gerente de RH perguntou por que eu queria mudar de emprego."
+      },
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "And what did you say?",
+        "pt": "E o que você disse?"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "I said I was looking for new challenges. Then the plant manager asked me if I had ever led a team.",
+        "pt": "Disse que estava buscando novos desafios. Depois o gerente da fábrica perguntou se eu já tinha liderado uma equipe."
+      },
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "Did they ask anything in English?",
+        "pt": "Perguntaram algo em inglês?"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "Yes! The director asked me how I would reduce scrap on a production line. And at the end, they wanted to know when I could start.",
+        "pt": "Sim! O diretor me perguntou como eu reduziria o refugo numa linha de produção. E no final, quiseram saber quando eu poderia começar."
+      },
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "That's a very good sign!",
+        "pt": "É um ótimo sinal!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What did the HR manager ask?",
+        "opcoes": [
+          "Why he wanted to change jobs",
+          "How old he was",
+          "Where he lived"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What did the plant manager ask?",
+        "opcoes": [
+          "If he had ever led a team",
+          "If he spoke Spanish",
+          "If he had a car"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the director ask in English?",
+        "opcoes": [
+          "How he would reduce scrap",
+          "Why he liked the company",
+          "What his salary was"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What did they want to know at the end?",
+        "opcoes": [
+          "When he could start",
+          "If he had questions",
+          "His phone number"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u02l2-p1",
+      "tipo": "completar",
+      "frase": "\"Are you free?\" → She asked ___ I was free.",
+      "respostas": [
+        "if",
+        "whether"
+      ]
+    },
+    {
+      "id": "b2u02l2-p2",
+      "tipo": "completar",
+      "frase": "\"Where do you work?\" → He asked me where I ___.",
+      "respostas": [
+        "worked"
+      ]
+    },
+    {
+      "id": "b2u02l2-p3",
+      "tipo": "completar",
+      "frase": "\"When will it arrive?\" → She asked when it ___ arrive.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b2u02l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "He asked me where was I.",
+        "He asked me where I was.",
+        "He asked me where did I was."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u02l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Do you offer discounts?\" → They wanted to know…",
+      "opcoes": [
+        "if we offered discounts.",
+        "do we offer discounts?",
+        "if did we offer discounts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l2-p6",
+      "tipo": "ordenar",
+      "frase": "I was wondering if you could help me",
+      "traducao_pt": "Eu estava pensando se você poderia me ajudar"
+    },
+    {
+      "id": "b2u02l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The interviewer asked why I wanted the job."
+    },
+    {
+      "id": "b2u02l2-p8",
+      "tipo": "traduzir",
+      "pt": "Ela perguntou se íamos ou não.",
+      "respostas": [
+        "She asked whether we were coming or not.",
+        "She asked whether or not we were coming.",
+        "She asked if we were coming or not."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor sobre uma entrevista, consulta médica ou reunião que você teve. Relate as perguntas que fizeram e o que você respondeu.",
+    "papel_professor": "Peça o relato de uma situação com perguntas (entrevista, médico, cliente). Pergunte What else did they ask? What did you reply? Corrija ordem das palavras e backshift.",
+    "abertura": "Think of a job interview, a doctor's appointment or a difficult meeting. What questions did they ask you?",
+    "abertura_pt": "Pense numa entrevista de emprego, consulta médica ou reunião difícil. Que perguntas te fizeram?"
+  },
+  "teste": [
+    {
+      "id": "b2u02l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Why is the line stopped?\" → The director asked…",
+      "opcoes": [
+        "why the line was stopped.",
+        "why was the line stopped.",
+        "why is the line stopped?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l2-t2",
+      "tipo": "completar",
+      "frase": "He ___ that he didn't know. (respondeu)",
+      "respostas": [
+        "replied",
+        "answered"
+      ]
+    },
+    {
+      "id": "b2u02l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The client wanted to know when we could deliver."
+    },
+    {
+      "id": "b2u02l2-t4",
+      "tipo": "traduzir",
+      "pt": "Ele me perguntou onde eu trabalhava.",
+      "respostas": [
+        "He asked me where I worked.",
+        "He asked me where I was working."
+      ]
+    },
+    {
+      "id": "b2u02l2-t5",
+      "tipo": "ordenar",
+      "frase": "The survey asked if we were satisfied",
+      "traducao_pt": "A pesquisa perguntou se estávamos satisfeitos"
+    }
+  ]
+}
