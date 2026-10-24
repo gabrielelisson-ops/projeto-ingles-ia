@@ -1,0 +1,256 @@
+{
+  "id": "b1-u06-prova",
+  "nivel": "B1",
+  "unidade": 6,
+  "titulo": "Prova da Unidade 6 (B1) — How it's made",
+  "leitura": {
+    "texto": "HOW OUR CHOCOLATE IS MADE\nCacau Real was founded in 1931 in Ilhéus, Bahia, by a family of cocoa farmers. The first chocolate bars were made by hand in the family kitchen. In 1968, a modern factory was built, and today 25 tons of chocolate are produced every day.\nThe cocoa beans are grown on small farms in the south of Bahia. After harvest, they are fermented for six days and dried in the sun.\nAt the factory, the beans are cleaned and roasted at 130 degrees. Then they are broken into small pieces, called nibs. The nibs are ground into a thick paste, which is mixed with sugar, milk powder and cocoa butter.\nOnce the mixture is ready, it is heated and cooled several times. This process is called tempering, and it must be controlled very carefully: if the temperature is wrong, the chocolate loses its shine.\nFinally, the chocolate is poured into moulds, cooled and wrapped. Every batch is tested in the lab, and batches that are out of spec can't be sold.\nOur chocolate is sold in Brazil and exported to twelve countries.",
+    "perguntas": [
+      {
+        "id": "b1u06pv-l1",
+        "tipo": "multipla",
+        "enunciado": "When was Cacau Real founded?",
+        "opcoes": [
+          "1931",
+          "1968",
+          "2001"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How were the first bars made?",
+        "opcoes": [
+          "By machines",
+          "By hand",
+          "In Europe"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How much chocolate is produced every day?",
+        "opcoes": [
+          "12 tons",
+          "25 tons",
+          "130 tons"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-l4",
+        "tipo": "multipla",
+        "enunciado": "How long are the beans fermented?",
+        "opcoes": [
+          "Two days",
+          "Six days",
+          "Twelve days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-l5",
+        "tipo": "multipla",
+        "enunciado": "At what temperature are the beans roasted?",
+        "opcoes": [
+          "100 degrees",
+          "130 degrees",
+          "300 degrees"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What are \"nibs\"?",
+        "opcoes": [
+          "Small pieces of cocoa beans",
+          "Chocolate bars",
+          "Moulds"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What happens if the tempering temperature is wrong?",
+        "opcoes": [
+          "The chocolate loses its shine.",
+          "The chocolate melts.",
+          "Nothing."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What happens to batches that are out of spec?",
+        "opcoes": [
+          "They can't be sold.",
+          "They are exported.",
+          "They are sold cheaper."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "What is this machine used for?",
+        "pt": "Para que serve esta máquina?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "It's used for cutting the steel sheets. They're cut with a laser.",
+        "pt": "É usada para cortar as chapas de aço. São cortadas a laser."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Where were these machines made?",
+        "pt": "Onde estas máquinas foram fabricadas?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "They were made in Japan. They were installed three years ago.",
+        "pt": "Foram fabricadas no Japão. Foram instaladas há três anos."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "And what happens after cutting?",
+        "pt": "E o que acontece depois do corte?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "The pieces are bent, welded and painted. Then they're sent to the assembly line.",
+        "pt": "As peças são dobradas, soldadas e pintadas. Depois são mandadas para a linha de montagem."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "Are the pieces checked?",
+        "pt": "As peças são verificadas?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "Yes. The first piece of each batch must be measured, and every hundredth piece is checked by the quality team.",
+        "pt": "Sim. A primeira peça de cada lote deve ser medida, e a cada cem peças uma é verificada pela equipe de qualidade."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the machine used for?",
+        "opcoes": [
+          "Painting",
+          "Cutting steel sheets",
+          "Welding"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How are the sheets cut?",
+        "opcoes": [
+          "With a saw",
+          "With a laser",
+          "By hand"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Where were the machines made?",
+        "opcoes": [
+          "Germany",
+          "Japan",
+          "Brazil"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-e4",
+        "tipo": "multipla",
+        "enunciado": "When were they installed?",
+        "opcoes": [
+          "Last year",
+          "Three years ago",
+          "Ten years ago"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Where are the pieces sent after painting?",
+        "opcoes": [
+          "To the warehouse",
+          "To the assembly line",
+          "To the customer"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Which piece of each batch must be measured?",
+        "opcoes": [
+          "The first",
+          "The last",
+          "Every piece"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "They were installed three years ago."
+      },
+      {
+        "id": "b1u06pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "The first piece of each batch must be measured."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u06pv-w1",
+      "instrucao_pt": "Descreva como um produto (da sua empresa ou que você conhece) é feito, etapa por etapa, na voz passiva.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b1u06pv-w2",
+      "instrucao_pt": "Conte a história de uma empresa ou cidade usando a passiva no passado (was founded, was built, was bought…).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u06pv-s1",
+      "pergunta_en": "Explain how a product you know is made, from the raw material to the customer.",
+      "instrucao_pt": "Explique em voz alta usando a passiva e sequenciadores."
+    },
+    {
+      "id": "b1u06pv-s2",
+      "pergunta_en": "How is quality controlled in your company or in a place you know?",
+      "instrucao_pt": "Use passiva com modais (must be checked, can't be sold)."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Voz passiva no presente (is/are + particípio), no passado (was/were + particípio), com modais (must be, can't be, should be), com by; made of/from, used for + -ing; descrever processos com sequenciadores (First, Then, Once, Finally); vocabulário de qualidade."
+}

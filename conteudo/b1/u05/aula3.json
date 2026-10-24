@@ -1,0 +1,356 @@
+{
+  "id": "b1-u05-l3",
+  "nivel": "B1",
+  "unidade": 5,
+  "numero": 3,
+  "titulo": "I wish I had more time",
+  "objetivo_pt": "Expressar desejos sobre o presente com wish e if only.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você gostaria que fosse diferente na sua vida agora. Use \"I wish I…\".",
+    "papel_professor": "Pergunte o que o aluno gostaria que fosse diferente (job, house, city, skills). Ensine wish + passado para o presente. Corrija 'I wish I have' → 'I wish I had'.",
+    "abertura": "Is there anything you wish were different in your life right now?",
+    "abertura_pt": "Tem algo que você gostaria que fosse diferente na sua vida agora?"
+  },
+  "vocabulario": [
+    {
+      "id": "wish",
+      "en": "I wish…",
+      "pt": "Eu queria que… / Quem dera…",
+      "emoji": "🌠",
+      "exemplo_en": "I wish I had more time.",
+      "exemplo_pt": "Queria ter mais tempo."
+    },
+    {
+      "id": "if-only",
+      "en": "If only…",
+      "pt": "Se ao menos…",
+      "emoji": "🙏",
+      "exemplo_en": "If only I could speak English well!",
+      "exemplo_pt": "Se ao menos eu falasse bem inglês!"
+    },
+    {
+      "id": "wish-were",
+      "en": "I wish it were…",
+      "pt": "Queria que fosse…",
+      "emoji": "☀️",
+      "exemplo_en": "I wish it were Friday.",
+      "exemplo_pt": "Queria que fosse sexta."
+    },
+    {
+      "id": "wish-could",
+      "en": "I wish I could…",
+      "pt": "Queria poder…",
+      "emoji": "🕊️",
+      "exemplo_en": "I wish I could travel more.",
+      "exemplo_pt": "Queria poder viajar mais."
+    },
+    {
+      "id": "free-time",
+      "en": "free time",
+      "pt": "tempo livre",
+      "emoji": "⏳",
+      "exemplo_en": "I wish I had more free time.",
+      "exemplo_pt": "Queria ter mais tempo livre."
+    },
+    {
+      "id": "commute",
+      "en": "commute",
+      "pt": "trajeto casa–trabalho",
+      "emoji": "🚌",
+      "exemplo_en": "My commute takes two hours.",
+      "exemplo_pt": "Meu trajeto leva duas horas."
+    },
+    {
+      "id": "closer",
+      "en": "closer to",
+      "pt": "mais perto de",
+      "emoji": "📍",
+      "exemplo_en": "I wish I lived closer to work.",
+      "exemplo_pt": "Queria morar mais perto do trabalho."
+    },
+    {
+      "id": "fluent",
+      "en": "fluent",
+      "pt": "fluente",
+      "emoji": "🗣️",
+      "exemplo_en": "I wish I were fluent in English.",
+      "exemplo_pt": "Queria ser fluente em inglês."
+    },
+    {
+      "id": "instead",
+      "en": "instead of",
+      "pt": "em vez de",
+      "emoji": "🔄",
+      "exemplo_en": "I wish I worked days instead of nights.",
+      "exemplo_pt": "Queria trabalhar de dia em vez de à noite."
+    },
+    {
+      "id": "wish-luck",
+      "en": "I wish you luck",
+      "pt": "Te desejo sorte",
+      "emoji": "🍀",
+      "exemplo_en": "I wish you luck in your new job!",
+      "exemplo_pt": "Te desejo sorte no emprego novo!"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Wish e if only (presente)",
+    "explicacao_pt": "Para desejos IRREAIS sobre o presente, usamos WISH + passado (igual à segunda condicional): I wish I had a car (não tenho). I wish I lived near the beach (não moro). Com 'be': I wish I were / it were… Com habilidade: I wish I could + verbo. IF ONLY é mais forte e emocional: If only I had more time! Atenção: para desejar algo a alguém usamos wish + substantivo: I wish you luck / a happy birthday. Para desejos possíveis no futuro, use HOPE: I hope it doesn't rain tomorrow.",
+    "tabela": {
+      "colunas": [
+        "Realidade",
+        "Desejo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "I don't have a car.",
+          "I wish I had a car.",
+          "Queria ter um carro."
+        ],
+        [
+          "I live far from work.",
+          "I wish I lived closer.",
+          "Queria morar mais perto."
+        ],
+        [
+          "I can't swim.",
+          "I wish I could swim.",
+          "Queria saber nadar."
+        ],
+        [
+          "It's Monday.",
+          "I wish it were Friday.",
+          "Queria que fosse sexta."
+        ],
+        [
+          "(futuro possível)",
+          "I hope it doesn't rain.",
+          "Espero que não chova."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I wish I spoke English as well as my manager.",
+        "pt": "Queria falar inglês tão bem quanto meu gerente."
+      },
+      {
+        "en": "My commute is so long. If only I lived closer to the factory!",
+        "pt": "Meu trajeto é tão longo. Se ao menos eu morasse mais perto da fábrica!"
+      },
+      {
+        "en": "I wish I could spend more time with my kids.",
+        "pt": "Queria poder passar mais tempo com meus filhos."
+      },
+      {
+        "en": "I hope you get the job. I wish you luck!",
+        "pt": "Espero que você consiga o emprego. Boa sorte!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Monday morning",
+    "falas": [
+      {
+        "personagem": "Cláudio",
+        "voz": "a",
+        "en": "Ugh, I wish it were Friday.",
+        "pt": "Ah, queria que fosse sexta."
+      },
+      {
+        "personagem": "Fernanda",
+        "voz": "b",
+        "en": "Me too. I'm so tired. I wish I didn't have to start at six.",
+        "pt": "Eu também. Estou tão cansada. Queria não ter que começar às seis."
+      },
+      {
+        "personagem": "Cláudio",
+        "voz": "a",
+        "en": "How long is your commute?",
+        "pt": "Quanto tempo é seu trajeto?"
+      },
+      {
+        "personagem": "Fernanda",
+        "voz": "b",
+        "en": "An hour and a half each way. If only I had a car!",
+        "pt": "Uma hora e meia para cada lado. Se ao menos eu tivesse carro!"
+      },
+      {
+        "personagem": "Cláudio",
+        "voz": "a",
+        "en": "I have a car, but I wish I could use public transport. The traffic is terrible.",
+        "pt": "Eu tenho carro, mas queria poder usar transporte público. O trânsito é terrível."
+      },
+      {
+        "personagem": "Fernanda",
+        "voz": "b",
+        "en": "Funny. We always want what we don't have!",
+        "pt": "Engraçado. Sempre queremos o que não temos!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What day does Cláudio wish it were?",
+        "opcoes": [
+          "Monday",
+          "Friday",
+          "Sunday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What time does Fernanda start work?",
+        "opcoes": [
+          "At six",
+          "At seven",
+          "At eight"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How long is her commute each way?",
+        "opcoes": [
+          "Thirty minutes",
+          "An hour",
+          "An hour and a half"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b1u05l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What does Cláudio wish?",
+        "opcoes": [
+          "That he had a car",
+          "That he could use public transport",
+          "That he lived abroad"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u05l3-p1",
+      "tipo": "completar",
+      "frase": "I wish I ___ more time. (tivesse)",
+      "respostas": [
+        "had"
+      ]
+    },
+    {
+      "id": "b1u05l3-p2",
+      "tipo": "completar",
+      "frase": "I wish I ___ swim. (soubesse/pudesse)",
+      "respostas": [
+        "could"
+      ]
+    },
+    {
+      "id": "b1u05l3-p3",
+      "tipo": "completar",
+      "frase": "I wish it ___ Friday.",
+      "respostas": [
+        "were",
+        "was"
+      ]
+    },
+    {
+      "id": "b1u05l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Desejo irreal no presente:",
+      "opcoes": [
+        "I wish I have a car.",
+        "I wish I had a car.",
+        "I wish I will have a car."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u05l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Desejo possível para amanhã:",
+      "opcoes": [
+        "I hope it doesn't rain tomorrow.",
+        "I wish it doesn't rain tomorrow."
+      ],
+      "correta": 0,
+      "explicacao_pt": "Para algo possível no futuro, usamos 'hope'."
+    },
+    {
+      "id": "b1u05l3-p6",
+      "tipo": "ordenar",
+      "frase": "I wish I lived closer to work",
+      "traducao_pt": "Queria morar mais perto do trabalho"
+    },
+    {
+      "id": "b1u05l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "My commute takes two hours."
+    },
+    {
+      "id": "b1u05l3-p8",
+      "tipo": "traduzir",
+      "pt": "Te desejo sorte no emprego novo!",
+      "respostas": [
+        "I wish you luck in your new job!",
+        "I wish you luck in your new job.",
+        "Good luck in your new job!"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Diga ao professor 4 desejos sobre a sua vida atual (I wish…/If only…) e explique o motivo de cada um.",
+    "papel_professor": "Peça 4 desejos e o motivo (Why? What would be different?). Ligue wish e second conditional: If I had…, I would… Corrija wish + passado, were, could e hope × wish.",
+    "abertura": "Tell me four things you wish were different in your life. Let's start with your job.",
+    "abertura_pt": "Me diga quatro coisas que você queria que fossem diferentes na sua vida. Vamos começar pelo trabalho."
+  },
+  "teste": [
+    {
+      "id": "b1u05l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Queria ser fluente em inglês\":",
+      "opcoes": [
+        "I wish I were fluent in English.",
+        "I wish I am fluent in English.",
+        "I hope I was fluent in English."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l3-t2",
+      "tipo": "completar",
+      "frase": "If ___ I could speak English well! (ao menos)",
+      "respostas": [
+        "only"
+      ]
+    },
+    {
+      "id": "b1u05l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I wish I could travel more."
+    },
+    {
+      "id": "b1u05l3-t4",
+      "tipo": "traduzir",
+      "pt": "Queria trabalhar de dia em vez de à noite.",
+      "respostas": [
+        "I wish I worked days instead of nights.",
+        "I wish I worked during the day instead of at night."
+      ]
+    },
+    {
+      "id": "b1u05l3-t5",
+      "tipo": "ordenar",
+      "frase": "I wish I had more free time",
+      "traducao_pt": "Queria ter mais tempo livre"
+    }
+  ]
+}

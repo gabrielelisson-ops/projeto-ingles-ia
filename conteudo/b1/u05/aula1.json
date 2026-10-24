@@ -1,0 +1,347 @@
+{
+  "id": "b1-u05-l1",
+  "nivel": "B1",
+  "unidade": 5,
+  "numero": 1,
+  "titulo": "If I won the lottery…",
+  "objetivo_pt": "Falar de situações imaginárias com a segunda condicional (if + passado, would).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer perguntas imaginárias. Responda com \"If I…, I would…\".",
+    "papel_professor": "Pergunte hipóteses (What would you do if you won the lottery? If you didn't have to work? If you could live anywhere?). Ensine second conditional. Corrija 'If I would have' → 'If I had'.",
+    "abertura": "What would you do if you won the lottery?",
+    "abertura_pt": "O que você faria se ganhasse na loteria?"
+  },
+  "vocabulario": [
+    {
+      "id": "would",
+      "en": "would",
+      "pt": "(verbo no futuro do pretérito: -ria)",
+      "emoji": "💭",
+      "exemplo_en": "I would travel around the world.",
+      "exemplo_pt": "Eu viajaria pelo mundo."
+    },
+    {
+      "id": "if-past",
+      "en": "if + past",
+      "pt": "se + (imperfeito do subjuntivo)",
+      "emoji": "🌈",
+      "exemplo_en": "If I had more time, I would study more.",
+      "exemplo_pt": "Se eu tivesse mais tempo, estudaria mais."
+    },
+    {
+      "id": "lottery",
+      "en": "win the lottery",
+      "pt": "ganhar na loteria",
+      "emoji": "🎰",
+      "exemplo_en": "If I won the lottery, I'd buy a farm.",
+      "exemplo_pt": "Se eu ganhasse na loteria, compraria uma fazenda."
+    },
+    {
+      "id": "rich",
+      "en": "rich / poor",
+      "pt": "rico / pobre",
+      "emoji": "💰",
+      "exemplo_en": "If I were rich, I'd help my family.",
+      "exemplo_pt": "Se eu fosse rico, ajudaria minha família."
+    },
+    {
+      "id": "anywhere",
+      "en": "anywhere",
+      "pt": "qualquer lugar",
+      "emoji": "🗺️",
+      "exemplo_en": "If you could live anywhere, where would you live?",
+      "exemplo_pt": "Se você pudesse morar em qualquer lugar, onde moraria?"
+    },
+    {
+      "id": "give-up",
+      "en": "give up",
+      "pt": "largar / desistir",
+      "emoji": "🏳️",
+      "exemplo_en": "I wouldn't give up my job.",
+      "exemplo_pt": "Eu não largaria meu emprego."
+    },
+    {
+      "id": "retire",
+      "en": "retire / retirement",
+      "pt": "aposentar-se / aposentadoria",
+      "emoji": "🏖️",
+      "exemplo_en": "If I could, I'd retire early.",
+      "exemplo_pt": "Se eu pudesse, me aposentaria cedo."
+    },
+    {
+      "id": "dream",
+      "en": "dream",
+      "pt": "sonho / sonhar",
+      "emoji": "✨",
+      "exemplo_en": "My dream is to have my own business.",
+      "exemplo_pt": "Meu sonho é ter meu próprio negócio."
+    },
+    {
+      "id": "own-business",
+      "en": "own business",
+      "pt": "negócio próprio",
+      "emoji": "🏪",
+      "exemplo_en": "If I had money, I'd open my own business.",
+      "exemplo_pt": "Se eu tivesse dinheiro, abriria meu próprio negócio."
+    },
+    {
+      "id": "imagine",
+      "en": "imagine",
+      "pt": "imaginar",
+      "emoji": "🧠",
+      "exemplo_en": "Imagine you had a free year.",
+      "exemplo_pt": "Imagine que você tivesse um ano livre."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Segunda condicional",
+    "explicacao_pt": "Estrutura: IF + passado simples, WOULD + verbo. Usamos para situações IMAGINÁRIAS ou pouco prováveis no presente/futuro: If I won the lottery, I would buy a house. (Eu não ganhei, é imaginação.) O passado aqui NÃO fala do passado: fala do imaginário. Com 'be', o mais correto é WERE para todas as pessoas: If I were you… If he were rich… Contração: I would = I'd. Negativa: wouldn't. COULD = would be able to (If I had a car, I could visit you). Compare: If it rains, I'll stay (possível) × If I lived in Paris, I'd walk a lot (imaginário).",
+    "tabela": {
+      "colunas": [
+        "If + passado",
+        "would + verbo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "If I had more money,",
+          "I'd buy a bigger house.",
+          "Se eu tivesse mais dinheiro, compraria uma casa maior."
+        ],
+        [
+          "If I were you,",
+          "I'd accept the offer.",
+          "Se eu fosse você, aceitaria a proposta."
+        ],
+        [
+          "If we didn't have to work,",
+          "we'd travel more.",
+          "Se não tivéssemos que trabalhar, viajaríamos mais."
+        ],
+        [
+          "If she spoke English,",
+          "she could work abroad.",
+          "Se ela falasse inglês, poderia trabalhar fora."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If I didn't have to work tomorrow, I'd stay up late.",
+        "pt": "Se eu não tivesse que trabalhar amanhã, ficaria acordado até tarde."
+      },
+      {
+        "en": "What would you do if you lost your job?",
+        "pt": "O que você faria se perdesse o emprego?"
+      },
+      {
+        "en": "If I were the director, I'd give everybody a bonus.",
+        "pt": "Se eu fosse o diretor, daria um bônus a todos."
+      },
+      {
+        "en": "If we lived closer to work, we wouldn't spend so much time in traffic.",
+        "pt": "Se morássemos mais perto do trabalho, não perderíamos tanto tempo no trânsito."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A dream interview",
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Today's question: what would you do if you won ten million reais?",
+        "pt": "Pergunta de hoje: o que você faria se ganhasse dez milhões de reais?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "First, I'd buy a house for my parents. Then I'd travel to Japan with my husband.",
+        "pt": "Primeiro, compraria uma casa para meus pais. Depois viajaria ao Japão com meu marido."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Would you give up your job?",
+        "pt": "Você largaria o emprego?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "No, I wouldn't. I love my job. But I'd work fewer hours.",
+        "pt": "Não. Amo meu emprego. Mas trabalharia menos horas."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "And if you could change one thing in your city?",
+        "pt": "E se você pudesse mudar uma coisa na sua cidade?"
+      },
+      {
+        "personagem": "Rosa",
+        "voz": "b",
+        "en": "I'd improve public transport. If the buses were better, people wouldn't use their cars so much.",
+        "pt": "Melhoraria o transporte público. Se os ônibus fossem melhores, as pessoas não usariam tanto o carro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What would Rosa buy first?",
+        "opcoes": [
+          "A car",
+          "A house for her parents",
+          "A farm"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where would she travel?",
+        "opcoes": [
+          "Japan",
+          "Italy",
+          "Canada"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Would she give up her job?",
+        "opcoes": [
+          "Yes, she would.",
+          "No, but she'd work fewer hours."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What would she change in her city?",
+        "opcoes": [
+          "Public transport",
+          "The parks",
+          "The schools"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u05l1-p1",
+      "tipo": "completar",
+      "frase": "If I had more time, I ___ study more.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b1u05l1-p2",
+      "tipo": "completar",
+      "frase": "If I ___ rich, I'd help my family. (fosse)",
+      "respostas": [
+        "were",
+        "was"
+      ]
+    },
+    {
+      "id": "b1u05l1-p3",
+      "tipo": "completar",
+      "frase": "If I won the lottery, I'd ___ a farm. (compraria)",
+      "respostas": [
+        "buy"
+      ]
+    },
+    {
+      "id": "b1u05l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "If I would have money, I'd travel.",
+        "If I had money, I'd travel.",
+        "If I have money, I'd travel."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u05l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Se eu fosse você, aceitaria\":",
+      "opcoes": [
+        "If I were you, I'd accept.",
+        "If I am you, I accept.",
+        "If I was you, I will accept."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l1-p6",
+      "tipo": "ordenar",
+      "frase": "I wouldn't give up my job",
+      "traducao_pt": "Eu não largaria meu emprego"
+    },
+    {
+      "id": "b1u05l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "My dream is to have my own business."
+    },
+    {
+      "id": "b1u05l1-p8",
+      "tipo": "traduzir",
+      "pt": "Se você pudesse morar em qualquer lugar, onde moraria?",
+      "respostas": [
+        "If you could live anywhere, where would you live?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Responda as perguntas imaginárias do professor e faça pelo menos 2 perguntas \"What would you do if…?\" para ele.",
+    "papel_professor": "Faça perguntas imaginárias variadas (If you were invisible for a day? If you could speak any language? If you were the president?). Peça perguntas do aluno. Corrija second conditional.",
+    "abertura": "Let's imagine! If you could have any job in the world, what would you choose?",
+    "abertura_pt": "Vamos imaginar! Se você pudesse ter qualquer emprego do mundo, qual escolheria?"
+  },
+  "teste": [
+    {
+      "id": "b1u05l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Situação imaginária:",
+      "opcoes": [
+        "If I lived in Paris, I'd walk a lot.",
+        "If I live in Paris, I'll walk a lot."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l1-t2",
+      "tipo": "completar",
+      "frase": "If I could, I'd ___ early. (aposentaria)",
+      "respostas": [
+        "retire"
+      ]
+    },
+    {
+      "id": "b1u05l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What would you do if you lost your job?"
+    },
+    {
+      "id": "b1u05l1-t4",
+      "tipo": "traduzir",
+      "pt": "Se eu tivesse dinheiro, abriria meu próprio negócio.",
+      "respostas": [
+        "If I had money, I'd open my own business.",
+        "If I had money, I would open my own business."
+      ]
+    },
+    {
+      "id": "b1u05l1-t5",
+      "tipo": "ordenar",
+      "frase": "Imagine you had a free year",
+      "traducao_pt": "Imagine que você tivesse um ano livre"
+    }
+  ]
+}

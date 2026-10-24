@@ -1,0 +1,357 @@
+{
+  "id": "b1-u05-l4",
+  "nivel": "B1",
+  "unidade": 5,
+  "numero": 4,
+  "titulo": "What would happen if…?",
+  "objetivo_pt": "Usar a segunda condicional para analisar cenários hipotéticos no trabalho.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai propor cenários hipotéticos na sua empresa (\"What would happen if…?\"). Analise as consequências.",
+    "papel_professor": "Proponha cenários (What would happen if we worked four days a week? If we closed the night shift? If we doubled production?). Ensine to analisar consequências com would/might/could.",
+    "abertura": "What would happen if your company worked only four days a week?",
+    "abertura_pt": "O que aconteceria se sua empresa trabalhasse só quatro dias por semana?"
+  },
+  "vocabulario": [
+    {
+      "id": "scenario",
+      "en": "scenario",
+      "pt": "cenário",
+      "emoji": "🎬",
+      "exemplo_en": "Let's imagine a different scenario.",
+      "exemplo_pt": "Vamos imaginar um cenário diferente."
+    },
+    {
+      "id": "might-would",
+      "en": "might / could",
+      "pt": "poderia (talvez)",
+      "emoji": "🤷",
+      "exemplo_en": "Productivity might increase.",
+      "exemplo_pt": "A produtividade talvez aumentasse."
+    },
+    {
+      "id": "double",
+      "en": "double / halve",
+      "pt": "dobrar / reduzir à metade",
+      "emoji": "✖️",
+      "exemplo_en": "If we doubled production, we would need more people.",
+      "exemplo_pt": "Se dobrássemos a produção, precisaríamos de mais gente."
+    },
+    {
+      "id": "hire",
+      "en": "hire / fire",
+      "pt": "contratar / demitir",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "We would have to hire twenty people.",
+      "exemplo_pt": "Teríamos que contratar vinte pessoas."
+    },
+    {
+      "id": "automate",
+      "en": "automate / automation",
+      "pt": "automatizar / automação",
+      "emoji": "🤖",
+      "exemplo_en": "If we automated the packing, we would save time.",
+      "exemplo_pt": "Se automatizássemos a embalagem, economizaríamos tempo."
+    },
+    {
+      "id": "save",
+      "en": "save (money / time)",
+      "pt": "economizar",
+      "emoji": "🐷",
+      "exemplo_en": "We would save a lot of energy.",
+      "exemplo_pt": "Economizaríamos muita energia."
+    },
+    {
+      "id": "investment",
+      "en": "investment",
+      "pt": "investimento",
+      "emoji": "📈",
+      "exemplo_en": "It would need a big investment.",
+      "exemplo_pt": "Exigiria um grande investimento."
+    },
+    {
+      "id": "impact",
+      "en": "impact",
+      "pt": "impacto",
+      "emoji": "💥",
+      "exemplo_en": "What would the impact be?",
+      "exemplo_pt": "Qual seria o impacto?"
+    },
+    {
+      "id": "workforce",
+      "en": "workforce / staff",
+      "pt": "mão de obra / pessoal",
+      "emoji": "👥",
+      "exemplo_en": "We would need to train the workforce.",
+      "exemplo_pt": "Precisaríamos treinar a mão de obra."
+    },
+    {
+      "id": "in-theory",
+      "en": "in theory / in practice",
+      "pt": "na teoria / na prática",
+      "emoji": "📚",
+      "exemplo_en": "In theory it's a good idea, but in practice it's difficult.",
+      "exemplo_pt": "Na teoria é uma boa ideia, mas na prática é difícil."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Analisando cenários",
+    "explicacao_pt": "Para cenários IMAGINÁRIOS ou pouco prováveis: If we automated the line, we would save money. Use MIGHT / COULD no lugar de would quando não tem certeza: If we closed the night shift, we might lose customers. Pergunta: What would happen if…? / What would the impact be? Para cenários REAIS e prováveis, continue com a primeira condicional (If the supplier is late, we'll…). A escolha mostra o quanto você acha possível: If we get the contract, we'll hire (prováveis) × If we got a contract with Toyota, we'd hire 100 people (sonho).",
+    "tabela": {
+      "colunas": [
+        "Probabilidade",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Provável",
+          "if + presente, will",
+          "If sales grow, we'll hire."
+        ],
+        [
+          "Imaginário",
+          "if + passado, would",
+          "If we doubled sales, we'd need a new plant."
+        ],
+        [
+          "Incerto",
+          "… might / could",
+          "If we raised prices, we might lose clients."
+        ],
+        [
+          "Pergunta",
+          "What would happen if …?",
+          "What would happen if we closed on Fridays?"
+        ],
+        [
+          "Impacto",
+          "The impact would be …",
+          "The impact would be huge."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If we automated the packing area, we would save about two hours a day.",
+        "pt": "Se automatizássemos a área de embalagem, economizaríamos umas duas horas por dia."
+      },
+      {
+        "en": "If we closed the night shift, we might not deliver on time.",
+        "pt": "Se fechássemos o turno da noite, talvez não entregássemos a tempo."
+      },
+      {
+        "en": "It would need a big investment, but it would pay for itself in two years.",
+        "pt": "Exigiria um grande investimento, mas se pagaria em dois anos."
+      },
+      {
+        "en": "In theory, a four-day week would be great, but in practice our customers need us every day.",
+        "pt": "Na teoria, uma semana de quatro dias seria ótima, mas na prática nossos clientes precisam de nós todo dia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Brainstorming session",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Let's imagine. What would happen if we installed solar panels on the roof?",
+        "pt": "Vamos imaginar. O que aconteceria se instalássemos painéis solares no telhado?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "We would save about 30% of our energy costs.",
+        "pt": "Economizaríamos uns 30% dos custos de energia."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "How much would it cost?",
+        "pt": "Quanto custaria?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "Around two million. It would pay for itself in about five years.",
+        "pt": "Uns dois milhões. Se pagaria em uns cinco anos."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "a",
+        "en": "If we did it this year, we might not have money for the new packing machine.",
+        "pt": "Se fizéssemos este ano, talvez não tivéssemos dinheiro para a nova embaladora."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Good point. In theory both projects are great, but we need to choose. Let's compare the impact of each one.",
+        "pt": "Bem lembrado. Na teoria os dois projetos são ótimos, mas precisamos escolher. Vamos comparar o impacto de cada um."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What project are they imagining?",
+        "opcoes": [
+          "Solar panels",
+          "A new warehouse",
+          "A new office"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How much energy cost would they save?",
+        "opcoes": [
+          "10%",
+          "30%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l4-e3",
+        "tipo": "multipla",
+        "enunciado": "When would it pay for itself?",
+        "opcoes": [
+          "In two years",
+          "In about five years",
+          "In ten years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What is Finance worried about?",
+        "opcoes": [
+          "Money for the packing machine",
+          "The weather",
+          "The workers"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u05l4-p1",
+      "tipo": "completar",
+      "frase": "If we automated the packing, we ___ save time.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b1u05l4-p2",
+      "tipo": "completar",
+      "frase": "We would have to ___ twenty people. (contratar)",
+      "respostas": [
+        "hire"
+      ]
+    },
+    {
+      "id": "b1u05l4-p3",
+      "tipo": "completar",
+      "frase": "What ___ happen if we closed on Fridays?",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b1u05l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Cenário incerto:",
+      "opcoes": [
+        "If we raised prices, we might lose clients.",
+        "If we raise prices, we might lost clients.",
+        "If we would raise prices, we lose clients."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Exigiria um grande investimento\":",
+      "opcoes": [
+        "It would need a big investment.",
+        "It will need big investment.",
+        "It would needs a big investment."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l4-p6",
+      "tipo": "ordenar",
+      "frase": "What would the impact be?",
+      "traducao_pt": "Qual seria o impacto?"
+    },
+    {
+      "id": "b1u05l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We would save a lot of energy."
+    },
+    {
+      "id": "b1u05l4-p8",
+      "tipo": "traduzir",
+      "pt": "Precisaríamos treinar a mão de obra.",
+      "respostas": [
+        "We would need to train the workforce.",
+        "We'd need to train the workforce.",
+        "We would need to train the staff."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça um brainstorming com o professor: proponha uma mudança grande na sua empresa (ou cidade) e analisem juntos o que aconteceria (custos, vantagens, riscos).",
+    "papel_professor": "Peça uma ideia de mudança grande. Pergunte What would happen if…? How much would it cost? Who would…? What might go wrong? Contraste com first conditional quando for algo real. Corrija.",
+    "abertura": "If you were the director of your company for one day, what big change would you make?",
+    "abertura_pt": "Se você fosse o diretor da sua empresa por um dia, que grande mudança faria?"
+  },
+  "teste": [
+    {
+      "id": "b1u05l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Algo provável (real):",
+      "opcoes": [
+        "If we get the contract, we'll hire.",
+        "If we got the contract, we'd hire."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l4-t2",
+      "tipo": "completar",
+      "frase": "Productivity ___ increase. (talvez)",
+      "respostas": [
+        "might"
+      ]
+    },
+    {
+      "id": "b1u05l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In theory it's a good idea.",
+      "aceitas": [
+        "In theory it is a good idea."
+      ]
+    },
+    {
+      "id": "b1u05l4-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos imaginar um cenário diferente.",
+      "respostas": [
+        "Let's imagine a different scenario.",
+        "Let us imagine a different scenario."
+      ]
+    },
+    {
+      "id": "b1u05l4-t5",
+      "tipo": "ordenar",
+      "frase": "We would save about two hours a day",
+      "traducao_pt": "Economizaríamos umas duas horas por dia"
+    }
+  ]
+}
