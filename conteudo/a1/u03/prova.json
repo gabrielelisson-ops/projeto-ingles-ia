@@ -1,0 +1,255 @@
+{
+  "id": "a1-u03-prova",
+  "nivel": "A1",
+  "unidade": 3,
+  "titulo": "Prova da Unidade 3 — My family",
+  "leitura": {
+    "texto": "Hi! I'm Bruna. I'm thirty-five and I live in Joinville with my husband, Hugo, and our two children. Our son, Enzo, is nine and our daughter, Mel, is four. Hugo is a mechanic. His workshop is near our house. I'm a production planner in a factory. My parents live in Blumenau. My father's name is Ivo and my mother's name is Nair. They have a small farm. My brother, Caio, doesn't have children, but he has three dogs! His wife, Lu, is a vet. Their house is very big.",
+    "perguntas": [
+      {
+        "id": "a1u03pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Where does Bruna live?",
+        "opcoes": [
+          "Blumenau",
+          "Joinville",
+          "On a farm"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many children does Bruna have?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How old is Mel?",
+        "opcoes": [
+          "Nine",
+          "Four",
+          "Fourteen"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What is Hugo's job?",
+        "opcoes": [
+          "He is a mechanic.",
+          "He is a vet.",
+          "He is a planner."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What is Bruna's father's name?",
+        "opcoes": [
+          "Caio",
+          "Ivo",
+          "Hugo"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What do her parents have?",
+        "opcoes": [
+          "A workshop",
+          "A small farm",
+          "Three dogs"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Does Caio have children?",
+        "opcoes": [
+          "Yes, he does.",
+          "No, he doesn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Who is Lu?",
+        "opcoes": [
+          "Bruna's sister",
+          "Caio's wife",
+          "Bruna's mother"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "Is this your family, Ravi?",
+        "pt": "Esta é sua família, Ravi?"
+      },
+      {
+        "personagem": "Ravi",
+        "voz": "b",
+        "en": "Yes. This is my wife, Priya. She's a teacher.",
+        "pt": "Sim. Esta é minha esposa, Priya. Ela é professora."
+      },
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "And the children?",
+        "pt": "E as crianças?"
+      },
+      {
+        "personagem": "Ravi",
+        "voz": "b",
+        "en": "Our sons, Dev and Arjun. Dev is twelve and Arjun is eight.",
+        "pt": "Nossos filhos, Dev e Arjun. Dev tem doze e Arjun tem oito."
+      },
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "Do they have a pet?",
+        "pt": "Eles têm um animal de estimação?"
+      },
+      {
+        "personagem": "Ravi",
+        "voz": "b",
+        "en": "Yes, they have a cat. Its name is Tiger.",
+        "pt": "Sim, eles têm um gato. O nome dele é Tiger."
+      },
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "Ha! And who's the old man?",
+        "pt": "Ha! E quem é o senhor?"
+      },
+      {
+        "personagem": "Ravi",
+        "voz": "b",
+        "en": "He's my wife's father. He lives with us.",
+        "pt": "É o pai da minha esposa. Ele mora com a gente."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u03pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Priya's job?",
+        "opcoes": [
+          "She is a teacher.",
+          "She is a nurse.",
+          "She is a doctor."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How many sons does Ravi have?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How old is Arjun?",
+        "opcoes": [
+          "Twelve",
+          "Eight",
+          "Eighteen"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What pet do they have?",
+        "opcoes": [
+          "A dog",
+          "A cat",
+          "A bird"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What is the pet's name?",
+        "opcoes": [
+          "Tiger",
+          "Dev",
+          "Priya"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Who is the old man?",
+        "opcoes": [
+          "Ravi's father",
+          "Priya's father",
+          "Ravi's uncle"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "He lives with us."
+      },
+      {
+        "id": "a1u03pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Our sons are Dev and Arjun."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u03pv-w1",
+      "instrucao_pt": "Descreva sua família: quem são, nomes, idades e profissões (use my, his/her e have).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u03pv-w2",
+      "instrucao_pt": "Escreva sobre a família de outra pessoa (amigo ou parente) usando 's e his/her/their.",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u03pv-s1",
+      "pergunta_en": "Tell me about your family. How many people are in your family?",
+      "instrucao_pt": "Fale em voz alta sobre sua família: quantas pessoas, nomes e idades."
+    },
+    {
+      "id": "a1u03pv-s2",
+      "pergunta_en": "Do you have brothers or sisters? Tell me about one of them.",
+      "instrucao_pt": "Fale de um irmão, irmã ou primo: nome, idade, profissão e onde mora (use his/her)."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Membros da família, possessivos (my, your, his, her, its, our, their), 's de posse, have/has (afirmativa, negativa, pergunta), live in. Avalie se o aluno usa his/her conforme o dono e has com he/she."
+}

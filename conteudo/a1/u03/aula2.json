@@ -1,0 +1,358 @@
+{
+  "id": "a1-u03-l2",
+  "nivel": "A1",
+  "unidade": 3,
+  "numero": 2,
+  "titulo": "His name, her job",
+  "objetivo_pt": "Usar his, her, our e their para falar da família e dos colegas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre a profissão de pessoas da sua família. Responda com \"His job is…\" ou \"Her name is…\".",
+    "papel_professor": "Pergunte o nome e a profissão do pai, da mãe e de um irmão do aluno. Incentive o uso de his/her. Corrija \"his\" × \"her\" com gentileza.",
+    "abertura": "Tell me about your father. What's his name?",
+    "abertura_pt": "Me fale do seu pai. Qual é o nome dele?"
+  },
+  "vocabulario": [
+    {
+      "id": "his",
+      "en": "his",
+      "pt": "dele",
+      "emoji": "👨",
+      "exemplo_en": "His name is Carlos.",
+      "exemplo_pt": "O nome dele é Carlos."
+    },
+    {
+      "id": "her",
+      "en": "her",
+      "pt": "dela",
+      "emoji": "👩",
+      "exemplo_en": "Her job is interesting.",
+      "exemplo_pt": "O trabalho dela é interessante."
+    },
+    {
+      "id": "our",
+      "en": "our",
+      "pt": "nosso(a)",
+      "emoji": "🏠",
+      "exemplo_en": "Our house is small.",
+      "exemplo_pt": "Nossa casa é pequena."
+    },
+    {
+      "id": "their",
+      "en": "their",
+      "pt": "deles / delas",
+      "emoji": "👥",
+      "exemplo_en": "Their children are at school.",
+      "exemplo_pt": "Os filhos deles estão na escola."
+    },
+    {
+      "id": "its",
+      "en": "its",
+      "pt": "dele/dela (coisa ou animal)",
+      "emoji": "🐶",
+      "exemplo_en": "The dog is happy. Its name is Max.",
+      "exemplo_pt": "O cachorro está feliz. O nome dele é Max."
+    },
+    {
+      "id": "job",
+      "en": "job",
+      "pt": "trabalho / emprego",
+      "emoji": "💼",
+      "exemplo_en": "What's her job?",
+      "exemplo_pt": "Qual é o trabalho dela?"
+    },
+    {
+      "id": "husband",
+      "en": "husband",
+      "pt": "marido",
+      "emoji": "🤵",
+      "exemplo_en": "Her husband is a chef.",
+      "exemplo_pt": "O marido dela é chef."
+    },
+    {
+      "id": "wife",
+      "en": "wife",
+      "pt": "esposa",
+      "emoji": "👰",
+      "exemplo_en": "His wife is a doctor.",
+      "exemplo_pt": "A esposa dele é médica."
+    },
+    {
+      "id": "cousin",
+      "en": "cousin",
+      "pt": "primo / prima",
+      "emoji": "🧑‍🤝‍🧑",
+      "exemplo_en": "My cousin lives in Lisbon.",
+      "exemplo_pt": "Meu primo mora em Lisboa."
+    },
+    {
+      "id": "uncle-aunt",
+      "en": "uncle / aunt",
+      "pt": "tio / tia",
+      "emoji": "🧔",
+      "exemplo_en": "My aunt is a teacher.",
+      "exemplo_pt": "Minha tia é professora."
+    }
+  ],
+  "gramatica": {
+    "titulo": "His, her, our, their",
+    "explicacao_pt": "Em português, 'dele' e 'dela' vêm depois (o carro dele). Em inglês, o possessivo vem ANTES e depende de quem é o DONO, não da coisa: Carlos → HIS wife (a esposa dele). Ana → HER husband (o marido dela). Nós → OUR. Eles/elas → THEIR. Coisas e animais → ITS. Não confunda: 'its' (dele, de coisa) × 'it's' (it is).",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Possessivo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "I",
+          "my",
+          "my car"
+        ],
+        [
+          "you",
+          "your",
+          "your job"
+        ],
+        [
+          "he",
+          "his",
+          "his wife"
+        ],
+        [
+          "she",
+          "her",
+          "her husband"
+        ],
+        [
+          "it",
+          "its",
+          "its name"
+        ],
+        [
+          "we",
+          "our",
+          "our children"
+        ],
+        [
+          "they",
+          "their",
+          "their house"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Paulo is married. His wife is Rosa.",
+        "pt": "Paulo é casado. A esposa dele é Rosa."
+      },
+      {
+        "en": "Rosa is a manager. Her office is big.",
+        "pt": "Rosa é gerente. O escritório dela é grande."
+      },
+      {
+        "en": "We're from Natal. Our city is beautiful.",
+        "pt": "Somos de Natal. Nossa cidade é linda."
+      },
+      {
+        "en": "They have a son. Their son is ten.",
+        "pt": "Eles têm um filho. O filho deles tem dez anos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "New neighbors",
+    "falas": [
+      {
+        "personagem": "Elena",
+        "voz": "a",
+        "en": "Hi! We're your new neighbors. I'm Elena and this is my husband, Omar.",
+        "pt": "Oi! Somos seus novos vizinhos. Sou Elena e este é meu marido, Omar."
+      },
+      {
+        "personagem": "Rafa",
+        "voz": "b",
+        "en": "Welcome! Nice to meet you. What do you do?",
+        "pt": "Bem-vindos! Prazer. O que vocês fazem?"
+      },
+      {
+        "personagem": "Elena",
+        "voz": "a",
+        "en": "I'm a doctor. Omar is a chef. His restaurant is on Green Street.",
+        "pt": "Sou médica. Omar é chef. O restaurante dele fica na Rua Green."
+      },
+      {
+        "personagem": "Rafa",
+        "voz": "b",
+        "en": "Great! And are they your children?",
+        "pt": "Que ótimo! E eles são seus filhos?"
+      },
+      {
+        "personagem": "Elena",
+        "voz": "a",
+        "en": "Yes. Our son is Adam and our daughter is Lina.",
+        "pt": "Sim. Nosso filho é Adam e nossa filha é Lina."
+      },
+      {
+        "personagem": "Rafa",
+        "voz": "b",
+        "en": "My wife and I have a daughter too. Her name is Sofia.",
+        "pt": "Eu e minha esposa também temos uma filha. O nome dela é Sofia."
+      },
+      {
+        "personagem": "Elena",
+        "voz": "a",
+        "en": "Lovely! Their names are similar!",
+        "pt": "Que lindo! Os nomes delas são parecidos!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u03l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Omar's job?",
+        "opcoes": [
+          "He is a doctor.",
+          "He is a chef.",
+          "He is a teacher."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u03l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is Omar's restaurant?",
+        "opcoes": [
+          "On Green Street",
+          "On Park Street",
+          "Next to the school"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u03l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Rafa's daughter's name?",
+        "opcoes": [
+          "Lina",
+          "Sofia",
+          "Elena"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u03l2-p1",
+      "tipo": "completar",
+      "frase": "Carlos is married. ___ wife is Ana.",
+      "respostas": [
+        "His"
+      ]
+    },
+    {
+      "id": "a1u03l2-p2",
+      "tipo": "completar",
+      "frase": "Ana is a nurse. ___ hospital is big.",
+      "respostas": [
+        "Her"
+      ]
+    },
+    {
+      "id": "a1u03l2-p3",
+      "tipo": "completar",
+      "frase": "We have a dog. ___ dog is Max.",
+      "respostas": [
+        "Our"
+      ]
+    },
+    {
+      "id": "a1u03l2-p4",
+      "tipo": "completar",
+      "frase": "They are teachers. ___ school is new.",
+      "respostas": [
+        "Their"
+      ]
+    },
+    {
+      "id": "a1u03l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O carro dela\" em inglês:",
+      "opcoes": [
+        "his car",
+        "her car",
+        "she car"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l2-p6",
+      "tipo": "ordenar",
+      "frase": "Her husband is a chef",
+      "traducao_pt": "O marido dela é chef"
+    },
+    {
+      "id": "a1u03l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "What's his job?",
+      "aceitas": [
+        "What is his job?"
+      ]
+    },
+    {
+      "id": "a1u03l2-p8",
+      "tipo": "traduzir",
+      "pt": "O nome dele é Pedro.",
+      "respostas": [
+        "His name is Pedro.",
+        "His name's Pedro."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Fale de duas pessoas que você conhece (um homem e uma mulher): o nome, a profissão e a família delas, usando his e her.",
+    "papel_professor": "Peça ao aluno para falar de um colega de trabalho e de uma amiga. Pergunte \"What's his/her job? Is he/she married? What's his wife's name?\". Corrija his/her.",
+    "abertura": "Tell me about a colleague from work. What's his or her name?",
+    "abertura_pt": "Me fale de um colega do trabalho. Qual é o nome dele ou dela?"
+  },
+  "teste": [
+    {
+      "id": "a1u03l2-t1",
+      "tipo": "completar",
+      "frase": "Marta is my aunt. ___ son is my cousin.",
+      "respostas": [
+        "Her"
+      ]
+    },
+    {
+      "id": "a1u03l2-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Deles\" em inglês:",
+      "opcoes": [
+        "there",
+        "their",
+        "they"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u03l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our house is small."
+    },
+    {
+      "id": "a1u03l2-t4",
+      "tipo": "traduzir",
+      "pt": "A esposa dele é médica.",
+      "respostas": [
+        "His wife is a doctor."
+      ]
+    },
+    {
+      "id": "a1u03l2-t5",
+      "tipo": "ordenar",
+      "frase": "Their children are at school",
+      "traducao_pt": "Os filhos deles estão na escola"
+    }
+  ]
+}

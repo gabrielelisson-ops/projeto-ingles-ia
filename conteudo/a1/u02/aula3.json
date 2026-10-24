@@ -1,0 +1,355 @@
+{
+  "id": "a1-u02-l3",
+  "nivel": "A1",
+  "unidade": 2,
+  "numero": 3,
+  "titulo": "No, I'm not",
+  "objetivo_pt": "Usar o to be na negativa (not, isn't, aren't) e com we, you (plural) e they.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer algumas coisas sobre você que estão erradas. Corrija com \"No, I'm not. I'm…\"",
+    "papel_professor": "Faça afirmações erradas e simpáticas sobre o aluno (Are you American? Are you twenty?). Incentive respostas com No, I'm not / We aren't.",
+    "abertura": "Hello! You're from Canada, right?",
+    "abertura_pt": "Olá! Você é do Canadá, certo?"
+  },
+  "vocabulario": [
+    {
+      "id": "we",
+      "en": "we",
+      "pt": "nós",
+      "emoji": "👫",
+      "exemplo_en": "We're Brazilian.",
+      "exemplo_pt": "Nós somos brasileiros."
+    },
+    {
+      "id": "they",
+      "en": "they",
+      "pt": "eles / elas",
+      "emoji": "👥",
+      "exemplo_en": "They're engineers.",
+      "exemplo_pt": "Eles são engenheiros."
+    },
+    {
+      "id": "you-plural",
+      "en": "you (plural)",
+      "pt": "vocês",
+      "emoji": "🫵",
+      "exemplo_en": "You're my team.",
+      "exemplo_pt": "Vocês são minha equipe."
+    },
+    {
+      "id": "not",
+      "en": "not",
+      "pt": "não",
+      "emoji": "🚫",
+      "exemplo_en": "I'm not tired.",
+      "exemplo_pt": "Não estou cansado."
+    },
+    {
+      "id": "isnt",
+      "en": "isn't (is not)",
+      "pt": "não é / não está",
+      "emoji": "❌",
+      "exemplo_en": "He isn't here.",
+      "exemplo_pt": "Ele não está aqui."
+    },
+    {
+      "id": "arent",
+      "en": "aren't (are not)",
+      "pt": "não são / não estão",
+      "emoji": "⛔",
+      "exemplo_en": "They aren't late.",
+      "exemplo_pt": "Eles não estão atrasados."
+    },
+    {
+      "id": "married",
+      "en": "married",
+      "pt": "casado(a)",
+      "emoji": "💍",
+      "exemplo_en": "We're married.",
+      "exemplo_pt": "Nós somos casados."
+    },
+    {
+      "id": "single",
+      "en": "single",
+      "pt": "solteiro(a)",
+      "emoji": "🙋",
+      "exemplo_en": "She isn't married. She's single.",
+      "exemplo_pt": "Ela não é casada. É solteira."
+    },
+    {
+      "id": "late",
+      "en": "late",
+      "pt": "atrasado(a)",
+      "emoji": "⏰",
+      "exemplo_en": "Sorry, I'm late.",
+      "exemplo_pt": "Desculpe, estou atrasado."
+    },
+    {
+      "id": "here",
+      "en": "here",
+      "pt": "aqui",
+      "emoji": "📍",
+      "exemplo_en": "The manager isn't here today.",
+      "exemplo_pt": "O gerente não está aqui hoje."
+    }
+  ],
+  "gramatica": {
+    "titulo": "To be completo e a forma negativa",
+    "explicacao_pt": "Agora o verbo to be completo: I am, you are, he/she/it is, we are, you are (vocês), they are. Para negar, coloque NOT depois do verbo: I am not (I'm not), he is not (he isn't), they are not (they aren't). Atenção: 'I amn't' não existe! Diga sempre I'm not. 'They' serve para eles, elas e também para coisas no plural.",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Afirmativa",
+        "Negativa"
+      ],
+      "linhas": [
+        [
+          "I",
+          "I'm",
+          "I'm not"
+        ],
+        [
+          "you",
+          "you're",
+          "you aren't"
+        ],
+        [
+          "he / she / it",
+          "he's / she's / it's",
+          "he isn't / she isn't / it isn't"
+        ],
+        [
+          "we",
+          "we're",
+          "we aren't"
+        ],
+        [
+          "they",
+          "they're",
+          "they aren't"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We aren't late. We're early!",
+        "pt": "Não estamos atrasados. Estamos adiantados!"
+      },
+      {
+        "en": "I'm not American. I'm Brazilian.",
+        "pt": "Não sou americano. Sou brasileiro."
+      },
+      {
+        "en": "They aren't in the office. They're in the factory.",
+        "pt": "Eles não estão no escritório. Estão na fábrica."
+      },
+      {
+        "en": "It isn't my phone.",
+        "pt": "Não é o meu telefone."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Wrong information",
+    "falas": [
+      {
+        "personagem": "Anna",
+        "voz": "a",
+        "en": "Hello. Are you Mr. and Mrs. Lopes?",
+        "pt": "Olá. Vocês são o Sr. e a Sra. Lopes?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "No, we aren't. We're Mr. and Mrs. Costa.",
+        "pt": "Não, não somos. Somos o Sr. e a Sra. Costa."
+      },
+      {
+        "personagem": "Anna",
+        "voz": "a",
+        "en": "Oh, sorry! Are you from Portugal?",
+        "pt": "Ah, desculpe! Vocês são de Portugal?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "No, we aren't Portuguese. We're Brazilian, from Recife.",
+        "pt": "Não, não somos portugueses. Somos brasileiros, de Recife."
+      },
+      {
+        "personagem": "Anna",
+        "voz": "a",
+        "en": "OK. Your room isn't ready. It's ten minutes.",
+        "pt": "OK. O quarto de vocês não está pronto. São dez minutos."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "No problem. We aren't in a hurry.",
+        "pt": "Sem problema. Não estamos com pressa."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u02l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Their last name is…",
+        "opcoes": [
+          "Lopes",
+          "Costa",
+          "Recife"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Are they Portuguese?",
+        "opcoes": [
+          "Yes, they are.",
+          "No, they aren't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Is the room ready?",
+        "opcoes": [
+          "Yes, it is.",
+          "No, it isn't."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u02l3-p1",
+      "tipo": "completar",
+      "frase": "We ___ from Chile. We're from Brazil.",
+      "respostas": [
+        "aren't",
+        "are not"
+      ]
+    },
+    {
+      "id": "a1u02l3-p2",
+      "tipo": "completar",
+      "frase": "He ___ an engineer. He's a technician.",
+      "respostas": [
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "a1u02l3-p3",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I amn't tired.",
+        "I'm not tired.",
+        "I isn't tired."
+      ],
+      "correta": 1,
+      "explicacao_pt": "'I amn't' não existe."
+    },
+    {
+      "id": "a1u02l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Eles\" e \"elas\" em inglês:",
+      "opcoes": [
+        "they",
+        "we",
+        "he"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a1u02l3-p5",
+      "tipo": "ordenar",
+      "frase": "They aren't in the office",
+      "traducao_pt": "Eles não estão no escritório"
+    },
+    {
+      "id": "a1u02l3-p6",
+      "tipo": "ouvir_escrever",
+      "audio": "We're married.",
+      "aceitas": [
+        "We are married."
+      ]
+    },
+    {
+      "id": "a1u02l3-p7",
+      "tipo": "traduzir",
+      "pt": "Ela não é casada.",
+      "respostas": [
+        "She isn't married.",
+        "She is not married.",
+        "She's not married."
+      ]
+    },
+    {
+      "id": "a1u02l3-p8",
+      "tipo": "completar",
+      "frase": "You ___ my team. Welcome!",
+      "respostas": [
+        "are",
+        "'re"
+      ],
+      "explicacao_pt": "Vocês = you + are."
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Um recepcionista confunde você com outra pessoa. Corrija as informações erradas (nome, cidade, profissão) usando a negativa.",
+    "papel_professor": "Faça o papel de um recepcionista que confunde o aluno com outra pessoa. Diga informações erradas (nome, cidade, profissão, se é casado) e deixe o aluno corrigir com isn't/aren't/I'm not.",
+    "abertura": "Good afternoon! You are Mr. Smith, the engineer from London, right?",
+    "abertura_pt": "Boa tarde! Você é o Sr. Smith, o engenheiro de Londres, certo?"
+  },
+  "teste": [
+    {
+      "id": "a1u02l3-t1",
+      "tipo": "completar",
+      "frase": "They ___ late. They're early.",
+      "respostas": [
+        "aren't",
+        "are not"
+      ]
+    },
+    {
+      "id": "a1u02l3-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Nós somos\" em inglês:",
+      "opcoes": [
+        "We is",
+        "We are",
+        "We am"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u02l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "He isn't here.",
+      "aceitas": [
+        "He is not here.",
+        "He's not here."
+      ]
+    },
+    {
+      "id": "a1u02l3-t4",
+      "tipo": "traduzir",
+      "pt": "Eu não sou americano.",
+      "respostas": [
+        "I'm not American.",
+        "I am not American."
+      ]
+    },
+    {
+      "id": "a1u02l3-t5",
+      "tipo": "ordenar",
+      "frase": "It isn't my phone",
+      "traducao_pt": "Não é o meu telefone"
+    }
+  ]
+}

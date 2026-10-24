@@ -1,0 +1,342 @@
+{
+  "id": "a1-u04-l4",
+  "nivel": "A1",
+  "unidade": 4,
+  "numero": 4,
+  "titulo": "Do you work on Saturdays?",
+  "objetivo_pt": "Fazer perguntas e negativas no presente simples com do e don't.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer perguntas de sim ou não sobre sua rotina. Responda com \"Yes, I do\" ou \"No, I don't\".",
+    "papel_professor": "Faça perguntas com Do you…? sobre a rotina do aluno (Do you work on Saturdays? Do you drink coffee?). Incentive respostas curtas e uma informação a mais.",
+    "abertura": "Quick question: do you drink coffee in the morning?",
+    "abertura_pt": "Pergunta rápida: você bebe café de manhã?"
+  },
+  "vocabulario": [
+    {
+      "id": "do",
+      "en": "do (pergunta)",
+      "pt": "(auxiliar de pergunta)",
+      "emoji": "❓",
+      "exemplo_en": "Do you work here?",
+      "exemplo_pt": "Você trabalha aqui?"
+    },
+    {
+      "id": "dont",
+      "en": "don't",
+      "pt": "não (presente)",
+      "emoji": "🙅",
+      "exemplo_en": "I don't work on Sunday.",
+      "exemplo_pt": "Eu não trabalho no domingo."
+    },
+    {
+      "id": "work",
+      "en": "work",
+      "pt": "trabalhar",
+      "emoji": "🛠️",
+      "exemplo_en": "We work in shifts.",
+      "exemplo_pt": "Trabalhamos em turnos."
+    },
+    {
+      "id": "drink",
+      "en": "drink",
+      "pt": "beber",
+      "emoji": "🥤",
+      "exemplo_en": "I don't drink coffee.",
+      "exemplo_pt": "Eu não bebo café."
+    },
+    {
+      "id": "eat",
+      "en": "eat",
+      "pt": "comer",
+      "emoji": "🍎",
+      "exemplo_en": "Do you eat breakfast?",
+      "exemplo_pt": "Você toma café da manhã?"
+    },
+    {
+      "id": "study",
+      "en": "study",
+      "pt": "estudar",
+      "emoji": "📚",
+      "exemplo_en": "We study English at night.",
+      "exemplo_pt": "Estudamos inglês à noite."
+    },
+    {
+      "id": "watch",
+      "en": "watch",
+      "pt": "assistir",
+      "emoji": "📺",
+      "exemplo_en": "They don't watch TV.",
+      "exemplo_pt": "Eles não assistem TV."
+    },
+    {
+      "id": "play",
+      "en": "play",
+      "pt": "jogar / brincar",
+      "emoji": "⚽",
+      "exemplo_en": "Do you play soccer?",
+      "exemplo_pt": "Você joga futebol?"
+    },
+    {
+      "id": "drive",
+      "en": "drive",
+      "pt": "dirigir",
+      "emoji": "🚗",
+      "exemplo_en": "I drive to work.",
+      "exemplo_pt": "Eu vou dirigindo para o trabalho."
+    },
+    {
+      "id": "sleep",
+      "en": "sleep",
+      "pt": "dormir",
+      "emoji": "💤",
+      "exemplo_en": "I sleep seven hours.",
+      "exemplo_pt": "Eu durmo sete horas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Do e don't no presente simples",
+    "explicacao_pt": "Para perguntar no presente simples (com I, you, we, they), coloque DO no começo: Do you work on Saturdays? Resposta curta: Yes, I do. / No, I don't. Para negar, coloque DON'T (do not) antes do verbo: I don't drink coffee. Com palavras de pergunta: What time DO you start? Where DO they live? Atenção: não use to be junto com outro verbo — diga 'I work', não 'I am work'.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Pergunta",
+          "Do + pessoa + verbo?",
+          "Do you work on Saturdays?"
+        ],
+        [
+          "Resposta",
+          "Yes, I do. / No, I don't.",
+          "No, I don't."
+        ],
+        [
+          "Negativa",
+          "pessoa + don't + verbo",
+          "We don't work on Sundays."
+        ],
+        [
+          "Com palavra",
+          "What/Where/When + do…?",
+          "What time do you start?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Do they live near here? — Yes, they do.",
+        "pt": "Eles moram perto daqui? — Sim."
+      },
+      {
+        "en": "I don't drive. I take the bus.",
+        "pt": "Não dirijo. Pego ônibus."
+      },
+      {
+        "en": "What time do you finish work?",
+        "pt": "A que horas você termina o trabalho?"
+      },
+      {
+        "en": "Where do you have lunch? — In the cafeteria.",
+        "pt": "Onde você almoça? — No refeitório."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Job interview questions",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "So, Pedro, do you live near the factory?",
+        "pt": "Então, Pedro, você mora perto da fábrica?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "Yes, I do. I live ten minutes from here.",
+        "pt": "Sim. Moro a dez minutos daqui."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Good. Do you drive?",
+        "pt": "Ótimo. Você dirige?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "No, I don't. I walk or I take the bus.",
+        "pt": "Não. Vou a pé ou de ônibus."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "We work in shifts. Do you work at night?",
+        "pt": "Trabalhamos em turnos. Você trabalha à noite?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "Yes, no problem. I don't have children, so I'm flexible.",
+        "pt": "Sim, sem problema. Não tenho filhos, então sou flexível."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Does Pedro live near the factory?",
+        "opcoes": [
+          "Yes, ten minutes away.",
+          "No, he lives far.",
+          "We don't know."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How does Pedro go to work?",
+        "opcoes": [
+          "He drives.",
+          "He walks or takes the bus.",
+          "By bike."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Can Pedro work at night?",
+        "opcoes": [
+          "Yes",
+          "No"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u04l4-p1",
+      "tipo": "completar",
+      "frase": "___ you work on Saturdays?",
+      "respostas": [
+        "Do"
+      ]
+    },
+    {
+      "id": "a1u04l4-p2",
+      "tipo": "completar",
+      "frase": "I ___ drink coffee. (negativa)",
+      "respostas": [
+        "don't",
+        "do not"
+      ]
+    },
+    {
+      "id": "a1u04l4-p3",
+      "tipo": "completar",
+      "frase": "Do they live here? — Yes, they ___.",
+      "respostas": [
+        "do"
+      ]
+    },
+    {
+      "id": "a1u04l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I am work at a factory.",
+        "I work at a factory.",
+        "I working at a factory."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Não junte am com outro verbo."
+    },
+    {
+      "id": "a1u04l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "What time you start?",
+        "What time do you start?",
+        "What time are you start?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l4-p6",
+      "tipo": "ordenar",
+      "frase": "We don't work on Sundays",
+      "traducao_pt": "Não trabalhamos aos domingos"
+    },
+    {
+      "id": "a1u04l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Where do you have lunch?"
+    },
+    {
+      "id": "a1u04l4-p8",
+      "tipo": "traduzir",
+      "pt": "Você dirige?",
+      "respostas": [
+        "Do you drive?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Entrevista simples: o professor faz o papel de entrevistador e pergunta sobre sua rotina. Depois faça 2 perguntas para ele sobre o trabalho (horário, turnos).",
+    "papel_professor": "Faça o papel de entrevistador de emprego de uma fábrica. Pergunte com Do you…? e What time do you…? sobre rotina, transporte e turnos. Depois peça ao aluno para fazer perguntas (What time do we start? Do we work on Saturdays?) e responda.",
+    "abertura": "Welcome to the interview. First question: do you live near here?",
+    "abertura_pt": "Bem-vindo à entrevista. Primeira pergunta: você mora perto daqui?"
+  },
+  "teste": [
+    {
+      "id": "a1u04l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Você joga futebol?\"",
+      "opcoes": [
+        "You play soccer?",
+        "Do you play soccer?",
+        "Are you play soccer?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l4-t2",
+      "tipo": "completar",
+      "frase": "No, I ___.",
+      "respostas": [
+        "don't",
+        "do not"
+      ]
+    },
+    {
+      "id": "a1u04l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I don't drive.",
+      "aceitas": [
+        "I do not drive."
+      ]
+    },
+    {
+      "id": "a1u04l4-t4",
+      "tipo": "traduzir",
+      "pt": "A que horas você começa?",
+      "respostas": [
+        "What time do you start?",
+        "When do you start?"
+      ]
+    },
+    {
+      "id": "a1u04l4-t5",
+      "tipo": "ordenar",
+      "frase": "Do they work at night?",
+      "traducao_pt": "Eles trabalham à noite?"
+    }
+  ]
+}

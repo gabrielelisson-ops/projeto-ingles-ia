@@ -1,0 +1,261 @@
+{
+  "id": "a1-u02-prova",
+  "nivel": "A1",
+  "unidade": 2,
+  "titulo": "Prova da Unidade 2 — Personal information",
+  "leitura": {
+    "texto": "VISITOR FORM. Name: Paulo Mendes. Age: 45. Company: Norte Steel. City: Belém, Brazil. Phone: 91 9 8820 4417. Email: paulo.mendes at nortesteel dot com. Meeting with: Ms. Clara Wu, the quality manager. Paulo isn't American. He's Brazilian. He's married and his wife, Rita, is forty-two. They aren't from São Paulo. They're from Belém. Today Ms. Wu isn't in her office. She's in the factory, in building twelve.",
+    "perguntas": [
+      {
+        "id": "a1u02pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How old is Paulo?",
+        "opcoes": [
+          "42",
+          "45",
+          "54"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What's Paulo's company?",
+        "opcoes": [
+          "Norte Steel",
+          "Belém Steel",
+          "Wu Steel"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Who is Clara Wu?",
+        "opcoes": [
+          "Paulo's wife",
+          "The quality manager",
+          "A visitor"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Is Paulo American?",
+        "opcoes": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How old is Rita?",
+        "opcoes": [
+          "42",
+          "45",
+          "24"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Where are Paulo and Rita from?",
+        "opcoes": [
+          "São Paulo",
+          "Belém",
+          "The United States"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Where is Ms. Wu today?",
+        "opcoes": [
+          "In her office",
+          "In the factory",
+          "In Belém"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What is the building number?",
+        "opcoes": [
+          "Two",
+          "Twelve",
+          "Twenty"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Hello! Are you the new technicians?",
+        "pt": "Olá! Vocês são os técnicos novos?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Yes, we are. I'm Leo and this is Dan.",
+        "pt": "Sim, somos. Eu sou o Leo e este é o Dan."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Welcome! Are you from Brazil?",
+        "pt": "Bem-vindos! Vocês são do Brasil?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "I'm from Brazil, but Dan isn't. He's from Canada.",
+        "pt": "Eu sou do Brasil, mas o Dan não. Ele é do Canadá."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "How old are you, Dan?",
+        "pt": "Quantos anos você tem, Dan?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "He's twenty-three. I'm thirty.",
+        "pt": "Ele tem vinte e três. Eu tenho trinta."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Great. What's your phone number, Leo?",
+        "pt": "Ótimo. Qual é o seu telefone, Leo?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "It's seven, seven, five, oh, nine, one, six.",
+        "pt": "É 7, 7, 5, 0, 9, 1, 6."
+      },
+      {
+        "personagem": "Nina",
+        "voz": "a",
+        "en": "Thanks. Your badges are ready. Your room is number fifteen.",
+        "pt": "Obrigada. Os crachás estão prontos. A sala de vocês é a quinze."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u02pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Who are Leo and Dan?",
+        "opcoes": [
+          "Managers",
+          "New technicians",
+          "Visitors"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is Dan from?",
+        "opcoes": [
+          "Brazil",
+          "Canada",
+          "The United States"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-e3",
+        "tipo": "multipla",
+        "enunciado": "How old is Dan?",
+        "opcoes": [
+          "23",
+          "30",
+          "33"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How old is Leo?",
+        "opcoes": [
+          "13",
+          "30",
+          "23"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What is Leo's phone number?",
+        "opcoes": [
+          "7750916",
+          "7705916",
+          "7750961"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u02pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is their room number?",
+        "opcoes": [
+          "Fifty",
+          "Fifteen",
+          "Five"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u02pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Your badges are ready."
+      },
+      {
+        "id": "a1u02pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Are you from Brazil?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a1u02pv-w1",
+      "instrucao_pt": "Escreva seus dados pessoais em frases completas: nome, idade, cidade, profissão e se é casado(a).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a1u02pv-w2",
+      "instrucao_pt": "Escreva 2 a 4 frases NEGATIVAS e corretas sobre você ou sua família (ex.: I'm not American).",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a1u02pv-s1",
+      "pergunta_en": "How old are you, and where are you from?",
+      "instrucao_pt": "Responda em voz alta com sua idade (usando \"I'm\") e de onde você é."
+    },
+    {
+      "id": "a1u02pv-s2",
+      "pergunta_en": "What's your phone number? You can invent one.",
+      "instrucao_pt": "Diga um número de telefone (pode inventar), algarismo por algarismo, e seu e-mail."
+    }
+  ],
+  "foco_avaliacao": "Nível A1 iniciante. Verbo to be completo (afirmativa, negativa, perguntas e respostas curtas), números 0–100, idade com to be (não \"have years\"), telefone e e-mail, perguntas com what/where/who/how old."
+}

@@ -1,0 +1,340 @@
+{
+  "id": "a1-u04-l3",
+  "nivel": "A1",
+  "unidade": 4,
+  "numero": 3,
+  "titulo": "On Monday, at night",
+  "objetivo_pt": "Falar dos dias da semana e usar at, on e in com tempo.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você faz em alguns dias da semana. Use \"On Monday…\", \"On weekends…\".",
+    "papel_professor": "Pergunte o que o aluno faz em dias diferentes (on Monday, on Saturday, on weekends) e em partes do dia (in the morning, at night). Corrija at/on/in.",
+    "abertura": "What do you do on Saturdays?",
+    "abertura_pt": "O que você faz aos sábados?"
+  },
+  "vocabulario": [
+    {
+      "id": "monday",
+      "en": "Monday",
+      "pt": "segunda-feira",
+      "emoji": "1️⃣",
+      "exemplo_en": "I go to the gym on Monday.",
+      "exemplo_pt": "Eu vou à academia na segunda."
+    },
+    {
+      "id": "tuesday",
+      "en": "Tuesday",
+      "pt": "terça-feira",
+      "emoji": "2️⃣",
+      "exemplo_en": "We have a meeting on Tuesday.",
+      "exemplo_pt": "Temos uma reunião na terça."
+    },
+    {
+      "id": "wednesday",
+      "en": "Wednesday",
+      "pt": "quarta-feira",
+      "emoji": "3️⃣",
+      "exemplo_en": "I play soccer on Wednesday.",
+      "exemplo_pt": "Jogo futebol na quarta."
+    },
+    {
+      "id": "thursday",
+      "en": "Thursday",
+      "pt": "quinta-feira",
+      "emoji": "4️⃣",
+      "exemplo_en": "They work late on Thursday.",
+      "exemplo_pt": "Eles trabalham até tarde na quinta."
+    },
+    {
+      "id": "friday",
+      "en": "Friday",
+      "pt": "sexta-feira",
+      "emoji": "5️⃣",
+      "exemplo_en": "We have pizza on Friday.",
+      "exemplo_pt": "Comemos pizza na sexta."
+    },
+    {
+      "id": "saturday",
+      "en": "Saturday",
+      "pt": "sábado",
+      "emoji": "6️⃣",
+      "exemplo_en": "I visit my parents on Saturday.",
+      "exemplo_pt": "Visito meus pais no sábado."
+    },
+    {
+      "id": "sunday",
+      "en": "Sunday",
+      "pt": "domingo",
+      "emoji": "7️⃣",
+      "exemplo_en": "We relax on Sunday.",
+      "exemplo_pt": "Nós descansamos no domingo."
+    },
+    {
+      "id": "morning",
+      "en": "in the morning",
+      "pt": "de manhã",
+      "emoji": "🌅",
+      "exemplo_en": "I study in the morning.",
+      "exemplo_pt": "Eu estudo de manhã."
+    },
+    {
+      "id": "afternoon-evening",
+      "en": "in the afternoon / in the evening",
+      "pt": "à tarde / à noitinha",
+      "emoji": "🌇",
+      "exemplo_en": "We walk in the evening.",
+      "exemplo_pt": "Caminhamos à noitinha."
+    },
+    {
+      "id": "at-night",
+      "en": "at night",
+      "pt": "à noite",
+      "emoji": "🌙",
+      "exemplo_en": "I watch TV at night.",
+      "exemplo_pt": "Assisto TV à noite."
+    }
+  ],
+  "gramatica": {
+    "titulo": "At, on e in com tempo",
+    "explicacao_pt": "AT para horas e para 'night': at 7:00, at noon, at night. ON para dias: on Monday, on Sunday, on weekends (americano). IN para partes do dia, meses e anos: in the morning, in the afternoon, in the evening, in July, in 2026. Dias da semana sempre com letra maiúscula: Monday. Dica: 'every' não usa preposição: every day, every Monday.",
+    "tabela": {
+      "colunas": [
+        "Preposição",
+        "Usa com",
+        "Exemplos"
+      ],
+      "linhas": [
+        [
+          "at",
+          "horas, night",
+          "at six, at noon, at night"
+        ],
+        [
+          "on",
+          "dias",
+          "on Monday, on weekends"
+        ],
+        [
+          "in",
+          "partes do dia, meses, anos",
+          "in the morning, in May, in 2026"
+        ],
+        [
+          "(nada)",
+          "every / this / next",
+          "every day, this Friday"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I work on Monday, Tuesday and Wednesday.",
+        "pt": "Trabalho na segunda, terça e quarta."
+      },
+      {
+        "en": "We play soccer on Sunday morning.",
+        "pt": "Jogamos futebol no domingo de manhã."
+      },
+      {
+        "en": "I study English in the evening.",
+        "pt": "Estudo inglês à noitinha."
+      },
+      {
+        "en": "They work every day, at night.",
+        "pt": "Eles trabalham todo dia, à noite."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Planning a visit",
+    "falas": [
+      {
+        "personagem": "Maya",
+        "voz": "a",
+        "en": "Can we visit the factory this week?",
+        "pt": "Podemos visitar a fábrica esta semana?"
+      },
+      {
+        "personagem": "Otto",
+        "voz": "b",
+        "en": "Sure. On Monday we have a big meeting. Tuesday is better.",
+        "pt": "Claro. Na segunda temos uma reunião grande. Terça é melhor."
+      },
+      {
+        "personagem": "Maya",
+        "voz": "a",
+        "en": "Tuesday in the morning?",
+        "pt": "Terça de manhã?"
+      },
+      {
+        "personagem": "Otto",
+        "voz": "b",
+        "en": "Yes, at nine o'clock. In the afternoon I'm in the office.",
+        "pt": "Sim, às nove. À tarde estou no escritório."
+      },
+      {
+        "personagem": "Maya",
+        "voz": "a",
+        "en": "Perfect. And on Friday? Do you work on Friday?",
+        "pt": "Perfeito. E na sexta? Vocês trabalham na sexta?"
+      },
+      {
+        "personagem": "Otto",
+        "voz": "b",
+        "en": "Yes, but only in the morning.",
+        "pt": "Sim, mas só de manhã."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a1u04l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Why is Monday not good?",
+        "opcoes": [
+          "There is a big meeting.",
+          "The factory is closed.",
+          "Otto is at home."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a1u04l3-e2",
+        "tipo": "multipla",
+        "enunciado": "When is the visit?",
+        "opcoes": [
+          "Monday at nine",
+          "Tuesday at nine",
+          "Friday morning"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a1u04l3-e3",
+        "tipo": "multipla",
+        "enunciado": "When do they work on Friday?",
+        "opcoes": [
+          "All day",
+          "In the morning",
+          "At night"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a1u04l3-p1",
+      "tipo": "completar",
+      "frase": "I study ___ the morning.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "a1u04l3-p2",
+      "tipo": "completar",
+      "frase": "We have a meeting ___ Tuesday.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u04l3-p3",
+      "tipo": "completar",
+      "frase": "I watch TV ___ night.",
+      "respostas": [
+        "at"
+      ]
+    },
+    {
+      "id": "a1u04l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual dia vem depois de Wednesday?",
+      "opcoes": [
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "on every day",
+        "every day",
+        "in every day"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a1u04l3-p6",
+      "tipo": "ordenar",
+      "frase": "We relax on Sunday",
+      "traducao_pt": "Nós descansamos no domingo"
+    },
+    {
+      "id": "a1u04l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I go to the gym on Monday."
+    },
+    {
+      "id": "a1u04l3-p8",
+      "tipo": "traduzir",
+      "pt": "Eu trabalho de segunda a sexta.",
+      "respostas": [
+        "I work from Monday to Friday.",
+        "I work Monday to Friday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Combine um horário com o professor para uma reunião na semana. Proponha dias e horários e confirme.",
+    "papel_professor": "Faça o papel de colega tentando marcar uma reunião. Diga que alguns dias não dá (I have a meeting on Monday). Negocie dia, parte do dia e hora usando at/on/in.",
+    "abertura": "We need a meeting this week. Are you free on Monday?",
+    "abertura_pt": "Precisamos de uma reunião esta semana. Você está livre na segunda?"
+  },
+  "teste": [
+    {
+      "id": "a1u04l3-t1",
+      "tipo": "completar",
+      "frase": "The meeting is ___ Friday.",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "a1u04l3-t2",
+      "tipo": "completar",
+      "frase": "I go to bed ___ eleven.",
+      "respostas": [
+        "at"
+      ]
+    },
+    {
+      "id": "a1u04l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We play soccer on Saturday."
+    },
+    {
+      "id": "a1u04l3-t4",
+      "tipo": "traduzir",
+      "pt": "Eu estudo à noite.",
+      "respostas": [
+        "I study at night.",
+        "I study in the evening."
+      ]
+    },
+    {
+      "id": "a1u04l3-t5",
+      "tipo": "multipla",
+      "enunciado": "Qual dia é \"quinta-feira\"?",
+      "opcoes": [
+        "Tuesday",
+        "Thursday",
+        "Thirsday"
+      ],
+      "correta": 1
+    }
+  ]
+}
