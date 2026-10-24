@@ -1,0 +1,344 @@
+{
+  "id": "a2-u05-l2",
+  "nivel": "A2",
+  "unidade": 5,
+  "numero": 2,
+  "titulo": "I think it will…",
+  "objetivo_pt": "Dar opiniões sobre o futuro com I think…will, I don't think…will, probably.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sua opinião sobre o futuro (jogos, tecnologia, trabalho). Use \"I think…will\" ou \"I don't think…will\".",
+    "papel_professor": "Peça previsões e opiniões do aluno (Who will win the next game? Will cars fly in 2050? Will robots do our jobs?). Ensine I think…will / I don't think…will / probably. Corrija 'I think won't' → 'I don't think…will'.",
+    "abertura": "Who do you think will win the next World Cup?",
+    "abertura_pt": "Quem você acha que vai ganhar a próxima Copa do Mundo?"
+  },
+  "vocabulario": [
+    {
+      "id": "i-think",
+      "en": "I think … will",
+      "pt": "acho que … vai",
+      "emoji": "🤔",
+      "exemplo_en": "I think Brazil will win.",
+      "exemplo_pt": "Acho que o Brasil vai ganhar."
+    },
+    {
+      "id": "i-dont-think",
+      "en": "I don't think … will",
+      "pt": "acho que … não vai",
+      "emoji": "🙅",
+      "exemplo_en": "I don't think it will rain.",
+      "exemplo_pt": "Acho que não vai chover."
+    },
+    {
+      "id": "probably",
+      "en": "probably",
+      "pt": "provavelmente",
+      "emoji": "📊",
+      "exemplo_en": "Prices will probably go up.",
+      "exemplo_pt": "Os preços provavelmente vão subir."
+    },
+    {
+      "id": "definitely",
+      "en": "definitely",
+      "pt": "com certeza",
+      "emoji": "💯",
+      "exemplo_en": "She'll definitely get the job.",
+      "exemplo_pt": "Ela com certeza vai conseguir o emprego."
+    },
+    {
+      "id": "maybe-w",
+      "en": "maybe / perhaps",
+      "pt": "talvez",
+      "emoji": "🤷",
+      "exemplo_en": "Maybe it will be cheaper.",
+      "exemplo_pt": "Talvez fique mais barato."
+    },
+    {
+      "id": "future",
+      "en": "in the future",
+      "pt": "no futuro",
+      "emoji": "🔮",
+      "exemplo_en": "In the future, cars will drive themselves.",
+      "exemplo_pt": "No futuro, os carros vão dirigir sozinhos."
+    },
+    {
+      "id": "robots",
+      "en": "robots",
+      "pt": "robôs",
+      "emoji": "🤖",
+      "exemplo_en": "Robots will do dangerous jobs.",
+      "exemplo_pt": "Robôs vão fazer trabalhos perigosos."
+    },
+    {
+      "id": "go-up",
+      "en": "go up / go down",
+      "pt": "subir / cair (preços)",
+      "emoji": "📈",
+      "exemplo_en": "Fuel prices will go down.",
+      "exemplo_pt": "O preço do combustível vai cair."
+    },
+    {
+      "id": "win-lose",
+      "en": "win / lose",
+      "pt": "ganhar / perder",
+      "emoji": "🏆",
+      "exemplo_en": "They won't lose the game.",
+      "exemplo_pt": "Eles não vão perder o jogo."
+    },
+    {
+      "id": "sure",
+      "en": "I'm sure",
+      "pt": "tenho certeza",
+      "emoji": "✅",
+      "exemplo_en": "I'm sure you'll pass the test.",
+      "exemplo_pt": "Tenho certeza de que você vai passar na prova."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Opiniões sobre o futuro",
+    "explicacao_pt": "Para opinião sobre o futuro: I THINK + sujeito + WILL: I think it will rain. Para opinião negativa, o inglês prefere negar o 'think': I DON'T THINK it will rain (e não 'I think it won't rain'). Grau de certeza: definitely (com certeza) > probably (provavelmente) > maybe/perhaps (talvez). Posição: will + definitely/probably + verbo (It will probably rain), mas probably won't (It probably won't rain).",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "100%",
+          "She'll definitely win.",
+          "Ela com certeza vai ganhar."
+        ],
+        [
+          "80%",
+          "It'll probably rain.",
+          "Provavelmente vai chover."
+        ],
+        [
+          "50%",
+          "Maybe it will rain.",
+          "Talvez chova."
+        ],
+        [
+          "20%",
+          "It probably won't rain.",
+          "Provavelmente não vai chover."
+        ],
+        [
+          "Opinião negativa",
+          "I don't think he'll come.",
+          "Acho que ele não vem."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I think robots will do a lot of jobs in the future.",
+        "pt": "Acho que os robôs vão fazer muitos trabalhos no futuro."
+      },
+      {
+        "en": "I don't think prices will go down this year.",
+        "pt": "Acho que os preços não vão cair este ano."
+      },
+      {
+        "en": "Don't worry. You'll definitely pass the interview.",
+        "pt": "Não se preocupe. Com certeza você vai passar na entrevista."
+      },
+      {
+        "en": "The new machine will probably arrive late.",
+        "pt": "A máquina nova provavelmente vai chegar atrasada."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Talking about the future",
+    "falas": [
+      {
+        "personagem": "Eva",
+        "voz": "a",
+        "en": "Do you think robots will take our jobs?",
+        "pt": "Você acha que os robôs vão pegar nossos empregos?"
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "Some jobs, probably. But I don't think they'll take all of them.",
+        "pt": "Alguns empregos, provavelmente. Mas acho que não vão pegar todos."
+      },
+      {
+        "personagem": "Eva",
+        "voz": "a",
+        "en": "Which jobs will change?",
+        "pt": "Quais empregos vão mudar?"
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "Dangerous jobs, I think. Robots will do the heavy work, and people will control the robots.",
+        "pt": "Os perigosos, eu acho. Robôs vão fazer o trabalho pesado e as pessoas vão controlar os robôs."
+      },
+      {
+        "personagem": "Eva",
+        "voz": "a",
+        "en": "So we'll need new skills.",
+        "pt": "Então vamos precisar de novas habilidades."
+      },
+      {
+        "personagem": "Max",
+        "voz": "b",
+        "en": "Definitely. That's why I'm studying programming!",
+        "pt": "Com certeza. É por isso que estou estudando programação!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Does Max think robots will take all jobs?",
+        "opcoes": [
+          "Yes",
+          "No, he doesn't think so."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Which jobs does he think will change?",
+        "opcoes": [
+          "Office jobs",
+          "Dangerous jobs",
+          "Teaching jobs"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Max studying?",
+        "opcoes": [
+          "Engineering",
+          "Programming",
+          "English"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u05l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ it will rain. (acho)",
+      "respostas": [
+        "think"
+      ]
+    },
+    {
+      "id": "a2u05l2-p2",
+      "tipo": "multipla",
+      "enunciado": "Opinião negativa natural:",
+      "opcoes": [
+        "I think he won't come.",
+        "I don't think he'll come."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l2-p3",
+      "tipo": "completar",
+      "frase": "It will ___ rain. (provavelmente)",
+      "respostas": [
+        "probably"
+      ]
+    },
+    {
+      "id": "a2u05l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Os preços vão subir\":",
+      "opcoes": [
+        "Prices will go up.",
+        "Prices will go down.",
+        "Prices will up."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l2-p5",
+      "tipo": "completar",
+      "frase": "I'm ___ you'll pass the test. (tenho certeza)",
+      "respostas": [
+        "sure"
+      ]
+    },
+    {
+      "id": "a2u05l2-p6",
+      "tipo": "ordenar",
+      "frase": "Robots will do dangerous jobs",
+      "traducao_pt": "Robôs vão fazer trabalhos perigosos"
+    },
+    {
+      "id": "a2u05l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "She'll definitely get the job.",
+      "aceitas": [
+        "She will definitely get the job."
+      ]
+    },
+    {
+      "id": "a2u05l2-p8",
+      "tipo": "traduzir",
+      "pt": "No futuro, os carros vão dirigir sozinhos.",
+      "respostas": [
+        "In the future, cars will drive themselves.",
+        "In the future cars will drive themselves."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Debate leve: o professor faz previsões sobre o futuro (trabalho, tecnologia, cidade). Diga se você concorda e dê a sua opinião.",
+    "papel_professor": "Faça 3 previsões polêmicas e leves (In 2040, nobody will drive. Everybody will work from home. Brazil will win the next World Cup.). Pergunte se o aluno concorda e por quê. Incentive I think / I don't think / probably.",
+    "abertura": "Here's my first prediction: in 2040, nobody will drive cars. Do you agree?",
+    "abertura_pt": "Aqui está minha primeira previsão: em 2040, ninguém vai dirigir carros. Você concorda?"
+  },
+  "teste": [
+    {
+      "id": "a2u05l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Talvez fique mais barato\":",
+      "opcoes": [
+        "Maybe it will be cheaper.",
+        "Maybe it will cheaper.",
+        "Maybe will be it cheaper."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l2-t2",
+      "tipo": "completar",
+      "frase": "I ___ think it will rain. (negativa)",
+      "respostas": [
+        "don't",
+        "do not"
+      ]
+    },
+    {
+      "id": "a2u05l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Fuel prices will go down."
+    },
+    {
+      "id": "a2u05l2-t4",
+      "tipo": "traduzir",
+      "pt": "Acho que o Brasil vai ganhar.",
+      "respostas": [
+        "I think Brazil will win."
+      ]
+    },
+    {
+      "id": "a2u05l2-t5",
+      "tipo": "ordenar",
+      "frase": "They won't lose the game",
+      "traducao_pt": "Eles não vão perder o jogo"
+    }
+  ]
+}

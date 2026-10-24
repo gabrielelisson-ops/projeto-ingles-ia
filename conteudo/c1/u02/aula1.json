@@ -1,0 +1,358 @@
+{
+  "id": "c1-u02-l1",
+  "nivel": "C1",
+  "unidade": 2,
+  "numero": 1,
+  "titulo": "Back to square one",
+  "objetivo_pt": "Entender e usar idioms comuns sobre trabalho, projetos e problemas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai usar idioms em frases sobre trabalho. Tente adivinhar o sentido pelo contexto e depois use você mesmo.",
+    "papel_professor": "Use idioms em contexto (We're back to square one. Let's call it a day. It's a win-win. We need to think outside the box.). Peça que o aluno deduza o sentido e use num exemplo próprio.",
+    "abertura": "The test failed again, so we're back to square one. What do you think that means?",
+    "abertura_pt": "O teste falhou de novo, então voltamos à estaca zero. O que você acha que significa?"
+  },
+  "vocabulario": [
+    {
+      "id": "square-one",
+      "en": "back to square one",
+      "pt": "de volta à estaca zero",
+      "emoji": "🔙",
+      "exemplo_en": "The client rejected the design. We're back to square one.",
+      "exemplo_pt": "O cliente rejeitou o projeto. Voltamos à estaca zero."
+    },
+    {
+      "id": "call-day",
+      "en": "call it a day",
+      "pt": "encerrar o dia (de trabalho)",
+      "emoji": "🌙",
+      "exemplo_en": "It's late. Let's call it a day.",
+      "exemplo_pt": "Está tarde. Vamos encerrar por hoje."
+    },
+    {
+      "id": "outside-box",
+      "en": "think outside the box",
+      "pt": "pensar fora da caixa",
+      "emoji": "📦",
+      "exemplo_en": "We need to think outside the box.",
+      "exemplo_pt": "Precisamos pensar fora da caixa."
+    },
+    {
+      "id": "same-page",
+      "en": "on the same page",
+      "pt": "em sintonia / alinhados",
+      "emoji": "📄",
+      "exemplo_en": "Let's make sure we're all on the same page.",
+      "exemplo_pt": "Vamos garantir que estamos todos alinhados."
+    },
+    {
+      "id": "ball-rolling",
+      "en": "get the ball rolling",
+      "pt": "dar o pontapé inicial",
+      "emoji": "⚽",
+      "exemplo_en": "Let's get the ball rolling with a quick meeting.",
+      "exemplo_pt": "Vamos dar o pontapé inicial com uma reunião rápida."
+    },
+    {
+      "id": "cut-corners",
+      "en": "cut corners",
+      "pt": "pegar atalhos (fazer malfeito)",
+      "emoji": "✂️",
+      "exemplo_en": "We can't cut corners on safety.",
+      "exemplo_pt": "Não podemos pegar atalhos com segurança."
+    },
+    {
+      "id": "drop-ball",
+      "en": "drop the ball",
+      "pt": "vacilar / deixar a peteca cair",
+      "emoji": "🏐",
+      "exemplo_en": "Someone dropped the ball with the order.",
+      "exemplo_pt": "Alguém vacilou com o pedido."
+    },
+    {
+      "id": "nutshell",
+      "en": "in a nutshell",
+      "pt": "em poucas palavras",
+      "emoji": "🥜",
+      "exemplo_en": "In a nutshell, the project is late and over budget.",
+      "exemplo_pt": "Em poucas palavras, o projeto está atrasado e acima do orçamento."
+    },
+    {
+      "id": "ballpark",
+      "en": "a ballpark figure",
+      "pt": "um número aproximado",
+      "emoji": "🔢",
+      "exemplo_en": "Can you give me a ballpark figure?",
+      "exemplo_pt": "Pode me dar um número aproximado?"
+    },
+    {
+      "id": "hands-full",
+      "en": "have your hands full",
+      "pt": "estar atolado (de trabalho)",
+      "emoji": "🤹",
+      "exemplo_en": "I've got my hands full this week.",
+      "exemplo_pt": "Estou atolado esta semana."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Idioms: como aprender e usar",
+    "explicacao_pt": "Idiom = expressão cujo sentido não é a soma das palavras (back to square one ≠ 'voltar ao quadrado um'). Dicas: 1) aprenda o idiom DENTRO de uma frase completa; 2) observe se é formal ou informal (a maioria é neutra ou informal — evite em e-mails muito formais); 3) não altere as palavras (é 'think outside the box', não 'think out of the box' — embora exista, é menos comum); 4) ajuste apenas o verbo ao tempo e ao sujeito (He dropped the ball). Muitos têm equivalentes em português (cut corners ≈ fazer nas coxas / pegar atalho).",
+    "tabela": {
+      "colunas": [
+        "Idiom",
+        "Sentido",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "back to square one",
+          "recomeçar do zero",
+          "We're back to square one."
+        ],
+        [
+          "on the same page",
+          "alinhados",
+          "Are we on the same page?"
+        ],
+        [
+          "drop the ball",
+          "falhar numa responsabilidade",
+          "The supplier dropped the ball."
+        ],
+        [
+          "cut corners",
+          "fazer algo malfeito para economizar",
+          "Never cut corners on quality."
+        ],
+        [
+          "in a nutshell",
+          "resumindo",
+          "In a nutshell, we need more time."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The prototype failed the safety test, so we're back to square one.",
+        "pt": "O protótipo reprovou no teste de segurança, então voltamos à estaca zero."
+      },
+      {
+        "en": "Before we start, let's make sure we're all on the same page about the goals.",
+        "pt": "Antes de começar, vamos garantir que estamos todos alinhados quanto aos objetivos."
+      },
+      {
+        "en": "We can't afford to cut corners on food safety.",
+        "pt": "Não podemos nos dar ao luxo de pegar atalhos com segurança alimentar."
+      },
+      {
+        "en": "I don't need an exact number — just a ballpark figure.",
+        "pt": "Não preciso de um número exato — só uma estimativa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A Friday afternoon",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "So, in a nutshell, where are we with the new packaging?",
+        "pt": "Então, em poucas palavras, onde estamos com a nova embalagem?"
+      },
+      {
+        "personagem": "Designer",
+        "voz": "b",
+        "en": "Honestly, we're back to square one. The client didn't like any of the three designs.",
+        "pt": "Sinceramente, voltamos à estaca zero. O cliente não gostou de nenhum dos três designs."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Hmm. I think we need to think outside the box this time. Can you get the ball rolling on Monday?",
+        "pt": "Hmm. Acho que precisamos pensar fora da caixa desta vez. Pode dar o pontapé inicial na segunda?"
+      },
+      {
+        "personagem": "Designer",
+        "voz": "b",
+        "en": "Sure, but I've got my hands full with the catalog until Tuesday.",
+        "pt": "Claro, mas estou atolado com o catálogo até terça."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "OK, Wednesday then. And let's meet the client first to make sure we're on the same page.",
+        "pt": "OK, quarta então. E vamos encontrar o cliente antes para garantir que estamos alinhados."
+      },
+      {
+        "personagem": "Designer",
+        "voz": "b",
+        "en": "Good idea. Can we call it a day now? It's almost seven.",
+        "pt": "Boa ideia. Podemos encerrar por hoje? São quase sete."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Why are they back to square one?",
+        "opcoes": [
+          "The client didn't like any of the designs.",
+          "The budget was cut.",
+          "The designer quit."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Why can't the designer start on Monday?",
+        "opcoes": [
+          "He has his hands full with the catalog.",
+          "He is on holiday.",
+          "He is sick."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l1-e3",
+        "tipo": "multipla",
+        "enunciado": "When will he start?",
+        "opcoes": [
+          "On Monday",
+          "On Wednesday",
+          "Next week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02l1-e4",
+        "tipo": "multipla",
+        "enunciado": "Why will they meet the client first?",
+        "opcoes": [
+          "To make sure they're on the same page",
+          "To ask for more money",
+          "To cancel the project"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u02l1-p1",
+      "tipo": "completar",
+      "frase": "We're back to square ___.",
+      "respostas": [
+        "one"
+      ]
+    },
+    {
+      "id": "c1u02l1-p2",
+      "tipo": "completar",
+      "frase": "It's late. Let's call it a ___.",
+      "respostas": [
+        "day"
+      ]
+    },
+    {
+      "id": "c1u02l1-p3",
+      "tipo": "completar",
+      "frase": "Let's make sure we're on the same ___.",
+      "respostas": [
+        "page"
+      ]
+    },
+    {
+      "id": "c1u02l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Alguém vacilou com o pedido\":",
+      "opcoes": [
+        "Someone dropped the ball with the order.",
+        "Someone fell the ball on the order.",
+        "Someone dropped the order ball."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Cut corners\" significa:",
+      "opcoes": [
+        "fazer algo malfeito para economizar",
+        "cortar custos de forma inteligente",
+        "virar a esquina"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l1-p6",
+      "tipo": "ordenar",
+      "frase": "Let's get the ball rolling",
+      "traducao_pt": "Vamos dar o pontapé inicial"
+    },
+    {
+      "id": "c1u02l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Can you give me a ballpark figure?"
+    },
+    {
+      "id": "c1u02l1-p8",
+      "tipo": "traduzir",
+      "pt": "Estou atolado esta semana.",
+      "respostas": [
+        "I've got my hands full this week.",
+        "I have my hands full this week.",
+        "I've got my hands full this week!"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor sobre um projeto ou semana difícil usando pelo menos 5 idioms da aula, de forma natural.",
+    "papel_professor": "Peça o relato de um projeto/semana. Reaja e use idioms também. Corrija a forma fixa dos idioms e o tempo verbal. Aponte se algum ficou forçado.",
+    "abertura": "How has your week been? Busy?",
+    "abertura_pt": "Como foi sua semana? Corrida?"
+  },
+  "teste": [
+    {
+      "id": "c1u02l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Em poucas palavras\":",
+      "opcoes": [
+        "in a nutshell",
+        "in a shell nut",
+        "in short nut"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l1-t2",
+      "tipo": "completar",
+      "frase": "We need to think outside the ___.",
+      "respostas": [
+        "box"
+      ]
+    },
+    {
+      "id": "c1u02l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We can't cut corners on safety.",
+      "aceitas": [
+        "We cannot cut corners on safety."
+      ]
+    },
+    {
+      "id": "c1u02l1-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos dar o pontapé inicial com uma reunião rápida.",
+      "respostas": [
+        "Let's get the ball rolling with a quick meeting.",
+        "Let us get the ball rolling with a quick meeting."
+      ]
+    },
+    {
+      "id": "c1u02l1-t5",
+      "tipo": "ordenar",
+      "frase": "Are we on the same page?",
+      "traducao_pt": "Estamos alinhados?"
+    }
+  ]
+}

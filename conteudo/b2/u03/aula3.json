@@ -1,0 +1,370 @@
+{
+  "id": "b2-u03-l3",
+  "nivel": "B2",
+  "unidade": 3,
+  "numero": 3,
+  "titulo": "Root cause analysis",
+  "objetivo_pt": "Investigar a causa raiz de um problema com os 5 porquês e o diagrama de Ishikawa.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai apresentar um problema de produção. Faça \"5 porquês\" com ele até encontrar a causa raiz.",
+    "papel_professor": "Apresente um problema (Customers received boxes with missing items). O aluno pergunta Why? e você responde; ele deduz com modais. Ensine 5 Whys e fishbone (man, machine, method, material, measurement, environment).",
+    "abertura": "Problem: a customer received 50 boxes with missing items. Let's find the root cause. Ask me 'why'.",
+    "abertura_pt": "Problema: um cliente recebeu 50 caixas com itens faltando. Vamos achar a causa raiz. Me pergunte \"por quê\"."
+  },
+  "vocabulario": [
+    {
+      "id": "five-whys",
+      "en": "5 Whys",
+      "pt": "5 porquês",
+      "emoji": "❓",
+      "exemplo_en": "Let's use the 5 Whys.",
+      "exemplo_pt": "Vamos usar os 5 porquês."
+    },
+    {
+      "id": "fishbone",
+      "en": "fishbone (Ishikawa) diagram",
+      "pt": "diagrama de espinha de peixe (Ishikawa)",
+      "emoji": "🐟",
+      "exemplo_en": "Let's draw a fishbone diagram.",
+      "exemplo_pt": "Vamos desenhar um diagrama de Ishikawa."
+    },
+    {
+      "id": "symptom",
+      "en": "symptom",
+      "pt": "sintoma",
+      "emoji": "🤒",
+      "exemplo_en": "The noise is only a symptom.",
+      "exemplo_pt": "O barulho é só um sintoma."
+    },
+    {
+      "id": "contributing",
+      "en": "contributing factor",
+      "pt": "fator contribuinte",
+      "emoji": "➕",
+      "exemplo_en": "Fatigue was a contributing factor.",
+      "exemplo_pt": "O cansaço foi um fator contribuinte."
+    },
+    {
+      "id": "human-error",
+      "en": "human error",
+      "pt": "erro humano",
+      "emoji": "🧍",
+      "exemplo_en": "It might have been human error.",
+      "exemplo_pt": "Pode ter sido erro humano."
+    },
+    {
+      "id": "method",
+      "en": "method / procedure",
+      "pt": "método / procedimento",
+      "emoji": "📋",
+      "exemplo_en": "The procedure was not clear.",
+      "exemplo_pt": "O procedimento não estava claro."
+    },
+    {
+      "id": "measurement",
+      "en": "measurement",
+      "pt": "medição",
+      "emoji": "📏",
+      "exemplo_en": "The measurement was wrong.",
+      "exemplo_pt": "A medição estava errada."
+    },
+    {
+      "id": "rule-out",
+      "en": "rule out",
+      "pt": "descartar (hipótese)",
+      "emoji": "❎",
+      "exemplo_en": "We can rule out the material.",
+      "exemplo_pt": "Podemos descartar o material."
+    },
+    {
+      "id": "hypothesis",
+      "en": "hypothesis / theory",
+      "pt": "hipótese / teoria",
+      "emoji": "🧪",
+      "exemplo_en": "We need to test this hypothesis.",
+      "exemplo_pt": "Precisamos testar esta hipótese."
+    },
+    {
+      "id": "data",
+      "en": "data / evidence",
+      "pt": "dados / evidências",
+      "emoji": "📊",
+      "exemplo_en": "The data shows that it happens at night.",
+      "exemplo_pt": "Os dados mostram que acontece à noite."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Investigando causas",
+    "explicacao_pt": "Use a linguagem de dedução com evidências: The data shows that… so it must be/have… It can't be… because… It might have been… Para descartar: We can rule out… because… Para testar: Let's test the hypothesis that… If our theory is right, … will… 5 PORQUÊS: pergunte 'Why?' até chegar à causa raiz, não ao sintoma. ISHIKAWA (6M): Man (pessoas), Machine, Method, Material, Measurement, Mother nature (ambiente).",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Evidência",
+          "The data shows that…",
+          "The data shows that it only happens on Mondays."
+        ],
+        [
+          "Dedução",
+          "So it must be / have…",
+          "So it must be related to the weekend shutdown."
+        ],
+        [
+          "Descartar",
+          "We can rule out … because…",
+          "We can rule out the material because it's the same batch."
+        ],
+        [
+          "Hipótese",
+          "It might have been…",
+          "It might have been a calibration problem."
+        ],
+        [
+          "Testar",
+          "If we are right, …",
+          "If we're right, the problem will stop after calibration."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The data shows that the defects started on 12 March, so it must be related to the new supplier.",
+        "pt": "Os dados mostram que os defeitos começaram em 12 de março, então deve estar ligado ao novo fornecedor."
+      },
+      {
+        "en": "We can rule out the machine, because the same defect appears on both lines.",
+        "pt": "Podemos descartar a máquina, porque o mesmo defeito aparece nas duas linhas."
+      },
+      {
+        "en": "The scale might not have been calibrated after the maintenance.",
+        "pt": "A balança pode não ter sido calibrada depois da manutenção."
+      },
+      {
+        "en": "Fatigue was a contributing factor, but it wasn't the root cause.",
+        "pt": "O cansaço foi um fator contribuinte, mas não foi a causa raiz."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Five whys",
+    "falas": [
+      {
+        "personagem": "Quality",
+        "voz": "a",
+        "en": "Problem: a customer received boxes with missing items. Why?",
+        "pt": "Problema: um cliente recebeu caixas com itens faltando. Por quê?"
+      },
+      {
+        "personagem": "Team",
+        "voz": "b",
+        "en": "Because the boxes were closed before they were full.",
+        "pt": "Porque as caixas foram fechadas antes de estarem cheias."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "a",
+        "en": "Why were they closed early?",
+        "pt": "Por que foram fechadas antes?"
+      },
+      {
+        "personagem": "Team",
+        "voz": "b",
+        "en": "Because the scale didn't detect the missing weight. It must have been reading the wrong values.",
+        "pt": "Porque a balança não detectou o peso faltando. Deve estar lendo valores errados."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "a",
+        "en": "Why was it reading wrong values?",
+        "pt": "Por que estava lendo valores errados?"
+      },
+      {
+        "personagem": "Team",
+        "voz": "b",
+        "en": "It can't have been calibrated after the maintenance last month. There's no record in the logbook.",
+        "pt": "Não pode ter sido calibrada depois da manutenção do mês passado. Não há registro no livro."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "a",
+        "en": "And why wasn't it calibrated?",
+        "pt": "E por que não foi calibrada?"
+      },
+      {
+        "personagem": "Team",
+        "voz": "b",
+        "en": "Because calibration isn't part of the maintenance checklist. That's the root cause: the procedure is incomplete.",
+        "pt": "Porque a calibração não faz parte do checklist de manutenção. Essa é a causa raiz: o procedimento está incompleto."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What did the customer receive?",
+        "opcoes": [
+          "Boxes with missing items",
+          "Broken products",
+          "Wrong labels"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Why didn't the scale detect the missing weight?",
+        "opcoes": [
+          "It must have been reading wrong values.",
+          "It was turned off.",
+          "It was new."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What evidence is there?",
+        "opcoes": [
+          "There is no calibration record in the logbook.",
+          "The camera footage",
+          "A witness"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the root cause?",
+        "opcoes": [
+          "The maintenance procedure is incomplete.",
+          "The operator was tired.",
+          "The scale is old."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u03l3-p1",
+      "tipo": "completar",
+      "frase": "We can ___ out the material. (descartar)",
+      "respostas": [
+        "rule"
+      ]
+    },
+    {
+      "id": "b2u03l3-p2",
+      "tipo": "completar",
+      "frase": "The noise is only a ___. (sintoma)",
+      "respostas": [
+        "symptom"
+      ]
+    },
+    {
+      "id": "b2u03l3-p3",
+      "tipo": "completar",
+      "frase": "Fatigue was a ___ factor. (contribuinte)",
+      "respostas": [
+        "contributing"
+      ]
+    },
+    {
+      "id": "b2u03l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Dedução baseada em dados:",
+      "opcoes": [
+        "The data shows it started on Monday, so it must be related to the shutdown.",
+        "The data show it start Monday, so it must related the shutdown."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Pode ter sido erro humano\":",
+      "opcoes": [
+        "It might have been human error.",
+        "It might be human error yesterday.",
+        "It might has been human error."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l3-p6",
+      "tipo": "ordenar",
+      "frase": "We need to test this hypothesis",
+      "traducao_pt": "Precisamos testar esta hipótese"
+    },
+    {
+      "id": "b2u03l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's draw a fishbone diagram.",
+      "aceitas": [
+        "Let us draw a fishbone diagram."
+      ]
+    },
+    {
+      "id": "b2u03l3-p8",
+      "tipo": "traduzir",
+      "pt": "O procedimento não estava claro.",
+      "respostas": [
+        "The procedure was not clear.",
+        "The procedure wasn't clear."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça com o professor uma análise de causa raiz de um problema real do seu trabalho (ou de casa): use os 5 porquês e deduções com modais até chegar à causa raiz.",
+    "papel_professor": "Ajude o aluno a aplicar os 5 porquês. Questione quando ele parar num sintoma (Is that the root cause or a symptom?). Peça evidências e hipóteses. Corrija modais de dedução.",
+    "abertura": "Choose a problem that keeps happening at your work or at home. Let's find the root cause together.",
+    "abertura_pt": "Escolha um problema que vive acontecendo no seu trabalho ou em casa. Vamos achar a causa raiz juntos."
+  },
+  "teste": [
+    {
+      "id": "b2u03l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Descartar uma hipótese:",
+      "opcoes": [
+        "We can rule out the machine.",
+        "We can rule the machine off."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u03l3-t2",
+      "tipo": "completar",
+      "frase": "The ___ shows that it happens at night. (dados)",
+      "respostas": [
+        "data"
+      ]
+    },
+    {
+      "id": "b2u03l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's use the 5 Whys.",
+      "aceitas": [
+        "Let's use the five whys.",
+        "Let us use the 5 Whys."
+      ]
+    },
+    {
+      "id": "b2u03l3-t4",
+      "tipo": "traduzir",
+      "pt": "A medição estava errada.",
+      "respostas": [
+        "The measurement was wrong."
+      ]
+    },
+    {
+      "id": "b2u03l3-t5",
+      "tipo": "ordenar",
+      "frase": "The scale might not have been calibrated",
+      "traducao_pt": "A balança pode não ter sido calibrada"
+    }
+  ]
+}

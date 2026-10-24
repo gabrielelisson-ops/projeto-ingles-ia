@@ -1,0 +1,348 @@
+{
+  "id": "b1-u06-l2",
+  "nivel": "B1",
+  "unidade": 6,
+  "numero": 2,
+  "titulo": "First, the steel is cut",
+  "objetivo_pt": "Descrever as etapas de um processo de produção com a passiva e sequenciadores.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você explique como algo é feito (pão, café, um produto da sua fábrica). Use \"First, it is…, then it is…\".",
+    "papel_professor": "Peça a descrição de um processo simples (how bread is made, how coffee is produced). Ensine passiva + sequenciadores. Corrija a ausência de is/are.",
+    "abertura": "Do you know how bread is made? Can you explain it to me?",
+    "abertura_pt": "Você sabe como o pão é feito? Pode me explicar?"
+  },
+  "vocabulario": [
+    {
+      "id": "process",
+      "en": "process",
+      "pt": "processo",
+      "emoji": "🔄",
+      "exemplo_en": "The process has five stages.",
+      "exemplo_pt": "O processo tem cinco etapas."
+    },
+    {
+      "id": "stage",
+      "en": "stage / step",
+      "pt": "etapa / passo",
+      "emoji": "🪜",
+      "exemplo_en": "In the first stage, the steel is cut.",
+      "exemplo_pt": "Na primeira etapa, o aço é cortado."
+    },
+    {
+      "id": "cut",
+      "en": "cut (cut, cut)",
+      "pt": "cortar",
+      "emoji": "✂️",
+      "exemplo_en": "The sheets are cut into pieces.",
+      "exemplo_pt": "As chapas são cortadas em pedaços."
+    },
+    {
+      "id": "weld",
+      "en": "weld",
+      "pt": "soldar",
+      "emoji": "🔥",
+      "exemplo_en": "The parts are welded together.",
+      "exemplo_pt": "As peças são soldadas juntas."
+    },
+    {
+      "id": "paint",
+      "en": "paint",
+      "pt": "pintar",
+      "emoji": "🎨",
+      "exemplo_en": "The frames are painted blue.",
+      "exemplo_pt": "As estruturas são pintadas de azul."
+    },
+    {
+      "id": "assemble",
+      "en": "assemble / assembly",
+      "pt": "montar / montagem",
+      "emoji": "🧩",
+      "exemplo_en": "The engines are assembled by hand.",
+      "exemplo_pt": "Os motores são montados à mão."
+    },
+    {
+      "id": "test-p",
+      "en": "test / inspect",
+      "pt": "testar / inspecionar",
+      "emoji": "🔍",
+      "exemplo_en": "Each unit is tested before packing.",
+      "exemplo_pt": "Cada unidade é testada antes da embalagem."
+    },
+    {
+      "id": "pack",
+      "en": "pack / packed",
+      "pt": "embalar / embalado",
+      "emoji": "📦",
+      "exemplo_en": "The products are packed in boxes of twelve.",
+      "exemplo_pt": "Os produtos são embalados em caixas de doze."
+    },
+    {
+      "id": "stored",
+      "en": "store / stored",
+      "pt": "armazenar / armazenado",
+      "emoji": "🏬",
+      "exemplo_en": "The boxes are stored in the warehouse.",
+      "exemplo_pt": "As caixas são armazenadas no armazém."
+    },
+    {
+      "id": "once",
+      "en": "once / after / before",
+      "pt": "depois que / após / antes",
+      "emoji": "➡️",
+      "exemplo_en": "Once the paint is dry, the parts are assembled.",
+      "exemplo_pt": "Depois que a tinta seca, as peças são montadas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo um processo",
+    "explicacao_pt": "Processos industriais são descritos quase sempre na passiva (o produto é o foco): First, the steel is cut. Then, the parts are welded. Sequenciadores: First, / Then, / Next, / After that, / Once + frase (= assim que, depois que) / Finally,. Para dizer como/com quê: by hand (à mão), by machine, with a laser, at 200 degrees, into pieces. Pode juntar duas ações com 'and': The parts are cleaned and painted.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "First,",
+          "the sheets are cut with a laser.",
+          "primeiro, as chapas são cortadas a laser."
+        ],
+        [
+          "Then,",
+          "the parts are welded together.",
+          "depois, as peças são soldadas juntas."
+        ],
+        [
+          "Next,",
+          "the frames are cleaned and painted.",
+          "em seguida, as estruturas são limpas e pintadas."
+        ],
+        [
+          "Once the paint is dry,",
+          "the bikes are assembled.",
+          "depois que a tinta seca, as bicicletas são montadas."
+        ],
+        [
+          "Finally,",
+          "they are tested and packed.",
+          "por fim, são testadas e embaladas."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "First, the oranges are washed and sorted.",
+        "pt": "Primeiro, as laranjas são lavadas e selecionadas."
+      },
+      {
+        "en": "Then, the juice is extracted and filtered.",
+        "pt": "Depois, o suco é extraído e filtrado."
+      },
+      {
+        "en": "Once the bottles are filled, they are closed and labeled.",
+        "pt": "Depois que as garrafas são enchidas, são fechadas e rotuladas."
+      },
+      {
+        "en": "Finally, the boxes are loaded onto trucks.",
+        "pt": "Por fim, as caixas são carregadas nos caminhões."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "How our bikes are made",
+    "falas": [
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Let me explain how our bicycles are made.",
+        "pt": "Vou explicar como nossas bicicletas são feitas."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "First, the aluminum tubes are cut with a laser. Then, they are bent and welded together to make the frame.",
+        "pt": "Primeiro, os tubos de alumínio são cortados a laser. Depois, são curvados e soldados juntos para formar o quadro."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Next, the frames are cleaned and painted. They're dried in an oven at 180 degrees.",
+        "pt": "Em seguida, os quadros são limpos e pintados. São secos num forno a 180 graus."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Once the paint is dry, the wheels, brakes and chain are assembled by hand.",
+        "pt": "Depois que a tinta seca, as rodas, freios e corrente são montados à mão."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "a",
+        "en": "Finally, every bike is tested by a technician and packed in a cardboard box.",
+        "pt": "Por fim, cada bicicleta é testada por um técnico e embalada numa caixa de papelão."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How are the tubes cut?",
+        "opcoes": [
+          "With a saw",
+          "With a laser",
+          "By hand"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l2-e2",
+        "tipo": "multipla",
+        "enunciado": "At what temperature are the frames dried?",
+        "opcoes": [
+          "80 degrees",
+          "180 degrees",
+          "280 degrees"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How are the wheels and brakes assembled?",
+        "opcoes": [
+          "By robots",
+          "By hand",
+          "They aren't assembled."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l2-e4",
+        "tipo": "multipla",
+        "enunciado": "Who tests every bike?",
+        "opcoes": [
+          "A technician",
+          "A robot",
+          "The customer"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u06l2-p1",
+      "tipo": "completar",
+      "frase": "The sheets are ___ into pieces. (cortadas)",
+      "respostas": [
+        "cut"
+      ]
+    },
+    {
+      "id": "b1u06l2-p2",
+      "tipo": "completar",
+      "frase": "The parts are ___ together. (soldadas)",
+      "respostas": [
+        "welded"
+      ]
+    },
+    {
+      "id": "b1u06l2-p3",
+      "tipo": "completar",
+      "frase": "The engines are assembled ___ hand.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u06l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Descrição de processo:",
+      "opcoes": [
+        "First, the steel is cut.",
+        "First, the steel cut.",
+        "First, cut is the steel."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Depois que a tinta seca\":",
+      "opcoes": [
+        "Once the paint is dry",
+        "Once the paint is drying be",
+        "After paint dry"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l2-p6",
+      "tipo": "ordenar",
+      "frase": "The boxes are stored in the warehouse",
+      "traducao_pt": "As caixas são armazenadas no armazém"
+    },
+    {
+      "id": "b1u06l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Each unit is tested before packing."
+    },
+    {
+      "id": "b1u06l2-p8",
+      "tipo": "traduzir",
+      "pt": "Os produtos são embalados em caixas de doze.",
+      "respostas": [
+        "The products are packed in boxes of twelve.",
+        "The products are packed in boxes of 12."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor, etapa por etapa, como um produto da sua empresa (ou algo que você conhece bem) é feito. Use pelo menos 5 etapas na passiva.",
+    "papel_professor": "Peça o processo completo. Faça perguntas (How is it cut? What happens next? How long is it dried? Is it done by hand or by machine?). Corrija passiva e sequenciadores.",
+    "abertura": "I'd love to know how your product is made. What happens first?",
+    "abertura_pt": "Adoraria saber como seu produto é feito. O que acontece primeiro?"
+  },
+  "teste": [
+    {
+      "id": "b1u06l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Ordem lógica:",
+      "opcoes": [
+        "First → Then → Finally",
+        "Finally → First → Then",
+        "Then → Finally → First"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l2-t2",
+      "tipo": "completar",
+      "frase": "The frames are ___ blue. (pintadas)",
+      "respostas": [
+        "painted"
+      ]
+    },
+    {
+      "id": "b1u06l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The process has five stages."
+    },
+    {
+      "id": "b1u06l2-t4",
+      "tipo": "traduzir",
+      "pt": "Na primeira etapa, o aço é cortado.",
+      "respostas": [
+        "In the first stage, the steel is cut.",
+        "In the first step, the steel is cut."
+      ]
+    },
+    {
+      "id": "b1u06l2-t5",
+      "tipo": "ordenar",
+      "frase": "The parts are cleaned and painted",
+      "traducao_pt": "As peças são limpas e pintadas"
+    }
+  ]
+}

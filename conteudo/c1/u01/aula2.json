@@ -1,0 +1,356 @@
+{
+  "id": "c1-u01-l2",
+  "nivel": "C1",
+  "unidade": 1,
+  "numero": 2,
+  "titulo": "It was the night shift that…",
+  "objetivo_pt": "Dar ênfase com cleft sentences com it (It was… that/who…).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer afirmações erradas. Corrija com ênfase usando \"It wasn't…, it was… that…\".",
+    "papel_professor": "Dê afirmações erradas (The day shift found the problem. The supplier caused the delay.) e peça correções enfáticas (No, it was the night shift that found it.). Ensine it-cleft para corrigir e destacar.",
+    "abertura": "So, the day shift found the problem, right?",
+    "abertura_pt": "Então, foi o turno do dia que achou o problema, certo?"
+  },
+  "vocabulario": [
+    {
+      "id": "it-was-that",
+      "en": "It was… that…",
+      "pt": "Foi… que…",
+      "emoji": "👆",
+      "exemplo_en": "It was the night shift that found the leak.",
+      "exemplo_pt": "Foi o turno da noite que achou o vazamento."
+    },
+    {
+      "id": "it-was-who",
+      "en": "It was… who…",
+      "pt": "Foi… quem…",
+      "emoji": "🧑",
+      "exemplo_en": "It was Ana who suggested the idea.",
+      "exemplo_pt": "Foi a Ana quem sugeriu a ideia."
+    },
+    {
+      "id": "it-wasnt",
+      "en": "It wasn't… it was…",
+      "pt": "Não foi…, foi…",
+      "emoji": "🔄",
+      "exemplo_en": "It wasn't the price, it was the quality that mattered.",
+      "exemplo_pt": "Não foi o preço, foi a qualidade que importou."
+    },
+    {
+      "id": "not-until",
+      "en": "It wasn't until… that…",
+      "pt": "Só quando… é que…",
+      "emoji": "⏳",
+      "exemplo_en": "It wasn't until May that we noticed the problem.",
+      "exemplo_pt": "Só em maio é que notamos o problema."
+    },
+    {
+      "id": "it-is-x-that",
+      "en": "It is… that matters",
+      "pt": "É… que importa",
+      "emoji": "⭐",
+      "exemplo_en": "It is the result that matters.",
+      "exemplo_pt": "É o resultado que importa."
+    },
+    {
+      "id": "credit",
+      "en": "credit / take credit",
+      "pt": "crédito / levar o crédito",
+      "emoji": "🏅",
+      "exemplo_en": "It was the team that deserved the credit.",
+      "exemplo_pt": "Foi a equipe que mereceu o crédito."
+    },
+    {
+      "id": "responsible-l2",
+      "en": "responsible for",
+      "pt": "responsável por",
+      "emoji": "🎯",
+      "exemplo_en": "It was the sensor that was responsible for the failure.",
+      "exemplo_pt": "Foi o sensor o responsável pela falha."
+    },
+    {
+      "id": "misunderstanding",
+      "en": "misunderstanding",
+      "pt": "mal-entendido",
+      "emoji": "❓",
+      "exemplo_en": "It was a misunderstanding that caused the problem.",
+      "exemplo_pt": "Foi um mal-entendido que causou o problema."
+    },
+    {
+      "id": "turning-point",
+      "en": "turning point",
+      "pt": "ponto de virada",
+      "emoji": "↪️",
+      "exemplo_en": "It was the new CEO who marked the turning point.",
+      "exemplo_pt": "Foi o novo CEO quem marcou o ponto de virada."
+    },
+    {
+      "id": "rather-than",
+      "en": "rather than",
+      "pt": "em vez de",
+      "emoji": "🔀",
+      "exemplo_en": "It was teamwork, rather than technology, that made the difference.",
+      "exemplo_pt": "Foi o trabalho em equipe, e não a tecnologia, que fez a diferença."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Cleft sentences com IT",
+    "explicacao_pt": "Estrutura: IT + IS/WAS + parte enfatizada + THAT/WHO + resto da frase. Serve para destacar QUEM, O QUÊ, QUANDO ou ONDE — muito usada para corrigir alguém. The night shift found the leak → It was the night shift that/who found the leak (não outro turno). Para tempo: It was in 2019 that we opened the plant. Com negativa: It wasn't the price that worried them; it was the lead time. Muito útil: IT WASN'T UNTIL + tempo + THAT = só quando… é que (It wasn't until May that we noticed).",
+    "tabela": {
+      "colunas": [
+        "Destaque",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Quem",
+          "It was X who…",
+          "It was Rui who fixed it."
+        ],
+        [
+          "O quê",
+          "It was X that…",
+          "It was the sensor that failed."
+        ],
+        [
+          "Quando",
+          "It was in/on… that…",
+          "It was on Monday that it happened."
+        ],
+        [
+          "Correção",
+          "It wasn't X, it was Y that…",
+          "It wasn't the price, it was the delivery that mattered."
+        ],
+        [
+          "Só quando",
+          "It wasn't until… that…",
+          "It wasn't until the audit that we saw the risk."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "It was the operators, not the engineers, who came up with the solution.",
+        "pt": "Foram os operadores, não os engenheiros, que tiveram a solução."
+      },
+      {
+        "en": "It wasn't until we visited the plant that we understood the problem.",
+        "pt": "Só quando visitamos a fábrica é que entendemos o problema."
+      },
+      {
+        "en": "It was in 2015 that the company decided to go international.",
+        "pt": "Foi em 2015 que a empresa decidiu se internacionalizar."
+      },
+      {
+        "en": "It wasn't the price that made us change suppliers; it was the poor service.",
+        "pt": "Não foi o preço que nos fez trocar de fornecedor; foi o serviço ruim."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Setting the record straight",
+    "falas": [
+      {
+        "personagem": "Journalist",
+        "voz": "a",
+        "en": "Many people say the new robots saved the factory. Is that true?",
+        "pt": "Muita gente diz que os novos robôs salvaram a fábrica. É verdade?"
+      },
+      {
+        "personagem": "CEO",
+        "voz": "b",
+        "en": "Not exactly. It wasn't the robots that saved us; it was our people.",
+        "pt": "Não exatamente. Não foram os robôs que nos salvaram; foram as nossas pessoas."
+      },
+      {
+        "personagem": "Journalist",
+        "voz": "a",
+        "en": "What do you mean?",
+        "pt": "Como assim?"
+      },
+      {
+        "personagem": "CEO",
+        "voz": "b",
+        "en": "It was the operators who suggested most of the improvements. The robots came later.",
+        "pt": "Foram os operadores que sugeriram a maioria das melhorias. Os robôs vieram depois."
+      },
+      {
+        "personagem": "Journalist",
+        "voz": "a",
+        "en": "When did things start to change?",
+        "pt": "Quando as coisas começaram a mudar?"
+      },
+      {
+        "personagem": "CEO",
+        "voz": "b",
+        "en": "It wasn't until 2021 that we started listening to the shop floor. That was the turning point.",
+        "pt": "Só em 2021 é que começamos a ouvir o chão de fábrica. Esse foi o ponto de virada."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What do many people say saved the factory?",
+        "opcoes": [
+          "The robots",
+          "The CEO",
+          "The government"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What does the CEO say saved them?",
+        "opcoes": [
+          "Their people",
+          "The robots",
+          "A new client"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Who suggested most of the improvements?",
+        "opcoes": [
+          "The operators",
+          "The engineers",
+          "Consultants"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l2-e4",
+        "tipo": "multipla",
+        "enunciado": "When was the turning point?",
+        "opcoes": [
+          "2019",
+          "2021",
+          "2023"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u01l2-p1",
+      "tipo": "completar",
+      "frase": "It was the night shift ___ found the leak.",
+      "respostas": [
+        "that",
+        "who"
+      ]
+    },
+    {
+      "id": "c1u01l2-p2",
+      "tipo": "completar",
+      "frase": "It was Ana ___ suggested the idea.",
+      "respostas": [
+        "who",
+        "that"
+      ]
+    },
+    {
+      "id": "c1u01l2-p3",
+      "tipo": "completar",
+      "frase": "It wasn't ___ May that we noticed the problem. (só em)",
+      "respostas": [
+        "until"
+      ]
+    },
+    {
+      "id": "c1u01l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Corrigir com ênfase:",
+      "opcoes": [
+        "It wasn't the price, it was the quality that mattered.",
+        "Not was the price, was the quality mattered.",
+        "It was not price, quality it was."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Só quando visitamos a fábrica é que entendemos\":",
+      "opcoes": [
+        "It wasn't until we visited the plant that we understood.",
+        "It was until we visited the plant we understood.",
+        "Only when visited the plant we understood."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l2-p6",
+      "tipo": "ordenar",
+      "frase": "It is the result that matters",
+      "traducao_pt": "É o resultado que importa"
+    },
+    {
+      "id": "c1u01l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It was a misunderstanding that caused the problem."
+    },
+    {
+      "id": "c1u01l2-p8",
+      "tipo": "traduzir",
+      "pt": "Foi a equipe que mereceu o crédito.",
+      "respostas": [
+        "It was the team that deserved the credit.",
+        "It was the team who deserved the credit."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai contar a \"versão errada\" de uma história da sua empresa ou vida. Corrija cada ponto com ênfase usando it-cleft (It wasn't…, it was…; It wasn't until…).",
+    "papel_professor": "Conte uma versão distorcida de um fato (ex.: um projeto de sucesso). O aluno corrige com it-clefts. Insista com mais distorções. Corrija estrutura.",
+    "abertura": "So I heard your team's last project was a success because the director had a brilliant idea. Is that right?",
+    "abertura_pt": "Então ouvi dizer que o último projeto da sua equipe foi um sucesso porque o diretor teve uma ideia brilhante. É isso?"
+  },
+  "teste": [
+    {
+      "id": "c1u01l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Destacar o tempo:",
+      "opcoes": [
+        "It was in 2015 that we opened the plant.",
+        "It was 2015 when that we opened.",
+        "In 2015 it was we opened."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l2-t2",
+      "tipo": "completar",
+      "frase": "It was teamwork, rather ___ technology, that made the difference.",
+      "respostas": [
+        "than"
+      ]
+    },
+    {
+      "id": "c1u01l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It was the sensor that was responsible for the failure."
+    },
+    {
+      "id": "c1u01l2-t4",
+      "tipo": "traduzir",
+      "pt": "Foi o novo CEO quem marcou o ponto de virada.",
+      "respostas": [
+        "It was the new CEO who marked the turning point.",
+        "It was the new CEO that marked the turning point."
+      ]
+    },
+    {
+      "id": "c1u01l2-t5",
+      "tipo": "ordenar",
+      "frase": "It was Rui who fixed it",
+      "traducao_pt": "Foi o Rui quem consertou"
+    }
+  ]
+}

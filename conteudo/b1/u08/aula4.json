@@ -1,0 +1,360 @@
+{
+  "id": "b1-u08-l4",
+  "nivel": "B1",
+  "unidade": 8,
+  "numero": 4,
+  "titulo": "Incident report",
+  "objetivo_pt": "Relatar formalmente um incidente de trabalho com os tempos do passado.",
+  "aquecimento": {
+    "situacao_pt": "O professor é o técnico de segurança e vai pedir que você relate um incidente: o que estava acontecendo, o que aconteceu e o que já tinha acontecido antes.",
+    "papel_professor": "Faça o papel de técnico de segurança. Pergunte What were you doing? What happened? What had happened before? Who was involved? Ensine vocabulário de relatório.",
+    "abertura": "I need to write a report about yesterday's incident. Can you tell me what happened?",
+    "abertura_pt": "Preciso escrever um relatório sobre o incidente de ontem. Pode me contar o que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "incident-l4",
+      "en": "incident report",
+      "pt": "relatório de incidente",
+      "emoji": "📄",
+      "exemplo_en": "We need to fill in an incident report.",
+      "exemplo_pt": "Precisamos preencher um relatório de incidente."
+    },
+    {
+      "id": "witness",
+      "en": "witness",
+      "pt": "testemunha",
+      "emoji": "👁️",
+      "exemplo_en": "Were there any witnesses?",
+      "exemplo_pt": "Havia testemunhas?"
+    },
+    {
+      "id": "involved",
+      "en": "be involved",
+      "pt": "estar envolvido",
+      "emoji": "🧑‍🤝‍🧑",
+      "exemplo_en": "Two workers were involved.",
+      "exemplo_pt": "Dois funcionários estavam envolvidos."
+    },
+    {
+      "id": "cause",
+      "en": "cause / caused by",
+      "pt": "causa / causado por",
+      "emoji": "🧩",
+      "exemplo_en": "The accident was caused by a wet floor.",
+      "exemplo_pt": "O acidente foi causado por um piso molhado."
+    },
+    {
+      "id": "injury-l4",
+      "en": "minor / serious injury",
+      "pt": "ferimento leve / grave",
+      "emoji": "🩹",
+      "exemplo_en": "He had a minor injury.",
+      "exemplo_pt": "Ele teve um ferimento leve."
+    },
+    {
+      "id": "first-aid-l4",
+      "en": "give first aid",
+      "pt": "prestar primeiros socorros",
+      "emoji": "⛑️",
+      "exemplo_en": "A colleague gave him first aid.",
+      "exemplo_pt": "Um colega prestou os primeiros socorros."
+    },
+    {
+      "id": "immediately",
+      "en": "immediately",
+      "pt": "imediatamente",
+      "emoji": "⚡",
+      "exemplo_en": "The area was closed immediately.",
+      "exemplo_pt": "A área foi fechada imediatamente."
+    },
+    {
+      "id": "corrective",
+      "en": "corrective action",
+      "pt": "ação corretiva",
+      "emoji": "🛠️",
+      "exemplo_en": "The corrective action is new training.",
+      "exemplo_pt": "A ação corretiva é um novo treinamento."
+    },
+    {
+      "id": "prevent-l4",
+      "en": "prevent it from happening again",
+      "pt": "evitar que aconteça de novo",
+      "emoji": "🛡️",
+      "exemplo_en": "What can we do to prevent it from happening again?",
+      "exemplo_pt": "O que podemos fazer para evitar que aconteça de novo?"
+    },
+    {
+      "id": "according",
+      "en": "according to",
+      "pt": "segundo / de acordo com",
+      "emoji": "🗣️",
+      "exemplo_en": "According to the witness, the guard was open.",
+      "exemplo_pt": "Segundo a testemunha, a proteção estava aberta."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Os tempos num relatório",
+    "explicacao_pt": "Num relatório de incidente usamos os três tempos: PAST CONTINUOUS para o contexto (At 10:15, the operator was cleaning the conveyor.), PAST SIMPLE para os fatos em sequência (His glove got caught and he pulled his hand back.), PAST PERFECT para o que já tinha acontecido antes e explica a causa (Someone had removed the guard to clean it.). A PASSIVA também é comum: The area was closed. He was taken to the clinic. Estrutura: quando/onde → o que acontecia → o que aconteceu → ferimentos → ações imediatas → causa → ações corretivas.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Tempo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Contexto",
+          "past continuous",
+          "The operator was cleaning the conveyor."
+        ],
+        [
+          "Fatos",
+          "past simple",
+          "His glove got caught in the belt."
+        ],
+        [
+          "Causa anterior",
+          "past perfect",
+          "Someone had removed the guard."
+        ],
+        [
+          "Ação tomada",
+          "passiva (passado)",
+          "He was taken to the clinic."
+        ],
+        [
+          "Prevenção",
+          "will / should",
+          "All guards will be checked daily."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "At 10:15, the operator was cleaning the conveyor while it was running.",
+        "pt": "Às 10h15, o operador limpava a esteira enquanto ela funcionava."
+      },
+      {
+        "en": "His glove got caught in the belt, but he managed to pull his hand back.",
+        "pt": "A luva dele ficou presa na correia, mas ele conseguiu puxar a mão."
+      },
+      {
+        "en": "According to a witness, the safety guard had been removed the day before.",
+        "pt": "Segundo uma testemunha, a proteção tinha sido removida no dia anterior."
+      },
+      {
+        "en": "To prevent it from happening again, all guards will be checked at the start of each shift.",
+        "pt": "Para evitar que aconteça de novo, todas as proteções serão verificadas no início de cada turno."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Reporting to the safety technician",
+    "falas": [
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Thanks for coming, Edson. You were a witness, right? What were you doing at the time?",
+        "pt": "Obrigado por vir, Edson. Você foi testemunha, certo? O que você estava fazendo na hora?"
+      },
+      {
+        "personagem": "Edson",
+        "voz": "b",
+        "en": "I was loading boxes onto a pallet, about five meters from Marcelo.",
+        "pt": "Eu estava carregando caixas num palete, a uns cinco metros do Marcelo."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "And what was Marcelo doing?",
+        "pt": "E o que o Marcelo estava fazendo?"
+      },
+      {
+        "personagem": "Edson",
+        "voz": "b",
+        "en": "He was cleaning the floor near the mixer. Suddenly, he slipped and fell.",
+        "pt": "Ele estava limpando o chão perto do misturador. De repente, escorregou e caiu."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Why was the floor slippery?",
+        "pt": "Por que o chão estava escorregadio?"
+      },
+      {
+        "personagem": "Edson",
+        "voz": "b",
+        "en": "Some oil had leaked from the mixer. Nobody had noticed it. He hurt his wrist, so I gave him first aid and called the supervisor.",
+        "pt": "Tinha vazado óleo do misturador. Ninguém tinha percebido. Ele machucou o pulso, então prestei os primeiros socorros e chamei o supervisor."
+      },
+      {
+        "personagem": "Safety",
+        "voz": "a",
+        "en": "Thank you. That's very helpful for the report.",
+        "pt": "Obrigado. Isso ajuda muito no relatório."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u08l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What was Edson doing at the time?",
+        "opcoes": [
+          "Loading boxes",
+          "Cleaning the floor",
+          "Repairing the mixer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What was Marcelo doing?",
+        "opcoes": [
+          "Cleaning the floor near the mixer",
+          "Driving a forklift",
+          "Having lunch"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Why was the floor slippery?",
+        "opcoes": [
+          "Oil had leaked from the mixer.",
+          "It was raining.",
+          "Someone had washed it."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u08l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What did Marcelo hurt?",
+        "opcoes": [
+          "His back",
+          "His wrist",
+          "His head"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u08l4-p1",
+      "tipo": "completar",
+      "frase": "Were there any ___? (testemunhas)",
+      "respostas": [
+        "witnesses"
+      ]
+    },
+    {
+      "id": "b1u08l4-p2",
+      "tipo": "completar",
+      "frase": "The accident was caused ___ a wet floor.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u08l4-p3",
+      "tipo": "completar",
+      "frase": "___ to the witness, the guard was open. (segundo)",
+      "respostas": [
+        "According"
+      ]
+    },
+    {
+      "id": "b1u08l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Causa anterior no relatório:",
+      "opcoes": [
+        "Someone had removed the guard.",
+        "Someone removes the guard.",
+        "Someone was remove the guard."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Ele foi levado à enfermaria\":",
+      "opcoes": [
+        "He was taken to the clinic.",
+        "He took to the clinic.",
+        "He was take to the clinic."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l4-p6",
+      "tipo": "ordenar",
+      "frase": "Two workers were involved",
+      "traducao_pt": "Dois funcionários estavam envolvidos"
+    },
+    {
+      "id": "b1u08l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "A colleague gave him first aid."
+    },
+    {
+      "id": "b1u08l4-p8",
+      "tipo": "traduzir",
+      "pt": "A área foi fechada imediatamente.",
+      "respostas": [
+        "The area was closed immediately.",
+        "The area was immediately closed."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Agora você é a testemunha. Relate ao professor (técnico de segurança) um incidente (real ou inventado) com contexto, fatos, causa, ferimentos e o que foi feito.",
+    "papel_professor": "Entreviste a testemunha com perguntas abertas e de detalhe. No fim, peça uma sugestão de ação corretiva. Corrija tempos do passado e passiva.",
+    "abertura": "Hello. I understand you saw what happened this morning. Please take your time and tell me everything.",
+    "abertura_pt": "Olá. Soube que você viu o que aconteceu hoje de manhã. Fique à vontade e me conte tudo."
+  },
+  "teste": [
+    {
+      "id": "b1u08l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Contexto do incidente:",
+      "opcoes": [
+        "The operator was cleaning the machine.",
+        "The operator has cleaned the machine.",
+        "The operator cleans the machine."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u08l4-t2",
+      "tipo": "completar",
+      "frase": "He had a ___ injury. (leve)",
+      "respostas": [
+        "minor"
+      ]
+    },
+    {
+      "id": "b1u08l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The corrective action is new training."
+    },
+    {
+      "id": "b1u08l4-t4",
+      "tipo": "traduzir",
+      "pt": "O que podemos fazer para evitar que aconteça de novo?",
+      "respostas": [
+        "What can we do to prevent it from happening again?",
+        "What can we do to stop it from happening again?"
+      ]
+    },
+    {
+      "id": "b1u08l4-t5",
+      "tipo": "ordenar",
+      "frase": "We need to fill in an incident report",
+      "traducao_pt": "Precisamos preencher um relatório de incidente"
+    }
+  ]
+}

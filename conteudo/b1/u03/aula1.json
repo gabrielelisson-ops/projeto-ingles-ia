@@ -1,0 +1,369 @@
+{
+  "id": "b1-u03-l1",
+  "nivel": "B1",
+  "unidade": 3,
+  "numero": 1,
+  "titulo": "I enjoy working here",
+  "objetivo_pt": "Usar verbos seguidos de gerúndio (-ing): enjoy, like, mind, avoid, finish.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar do que você gosta e não gosta no seu trabalho. Use \"I enjoy…ing\", \"I don't mind…ing\", \"I hate…ing\".",
+    "papel_professor": "Pergunte gostos no trabalho (What do you enjoy doing? What do you hate doing? Do you mind working weekends?). Ensine verbo + -ing. Corrija 'I enjoy to work' → 'I enjoy working'.",
+    "abertura": "What do you enjoy doing at work?",
+    "abertura_pt": "O que você gosta de fazer no trabalho?"
+  },
+  "vocabulario": [
+    {
+      "id": "enjoy-ing",
+      "en": "enjoy + -ing",
+      "pt": "gostar de / curtir",
+      "emoji": "😄",
+      "exemplo_en": "I enjoy solving problems.",
+      "exemplo_pt": "Gosto de resolver problemas."
+    },
+    {
+      "id": "dont-mind",
+      "en": "don't mind + -ing",
+      "pt": "não me importo de",
+      "emoji": "🤷",
+      "exemplo_en": "I don't mind working on Saturdays.",
+      "exemplo_pt": "Não me importo de trabalhar aos sábados."
+    },
+    {
+      "id": "hate-ing",
+      "en": "hate / can't stand + -ing",
+      "pt": "odiar / não suportar",
+      "emoji": "😖",
+      "exemplo_en": "I can't stand waiting.",
+      "exemplo_pt": "Não suporto esperar."
+    },
+    {
+      "id": "avoid",
+      "en": "avoid + -ing",
+      "pt": "evitar",
+      "emoji": "🚧",
+      "exemplo_en": "Avoid lifting heavy boxes alone.",
+      "exemplo_pt": "Evite levantar caixas pesadas sozinho."
+    },
+    {
+      "id": "finish-ing",
+      "en": "finish + -ing",
+      "pt": "terminar de",
+      "emoji": "🏁",
+      "exemplo_en": "I finished cleaning the machine.",
+      "exemplo_pt": "Terminei de limpar a máquina."
+    },
+    {
+      "id": "keep-ing",
+      "en": "keep + -ing",
+      "pt": "continuar / ficar (fazendo)",
+      "emoji": "🔁",
+      "exemplo_en": "The alarm keeps ringing.",
+      "exemplo_pt": "O alarme fica tocando."
+    },
+    {
+      "id": "suggest",
+      "en": "suggest + -ing",
+      "pt": "sugerir",
+      "emoji": "💡",
+      "exemplo_en": "I suggest changing the filter.",
+      "exemplo_pt": "Sugiro trocar o filtro."
+    },
+    {
+      "id": "good-at",
+      "en": "be good at + -ing",
+      "pt": "ser bom em",
+      "emoji": "👍",
+      "exemplo_en": "I'm good at fixing machines.",
+      "exemplo_pt": "Sou bom em consertar máquinas."
+    },
+    {
+      "id": "interested-in",
+      "en": "be interested in + -ing",
+      "pt": "ter interesse em",
+      "emoji": "🧐",
+      "exemplo_en": "I'm interested in learning robotics.",
+      "exemplo_pt": "Tenho interesse em aprender robótica."
+    },
+    {
+      "id": "look-forward",
+      "en": "look forward to + -ing",
+      "pt": "estar ansioso para (positivo)",
+      "emoji": "🤩",
+      "exemplo_en": "I'm looking forward to meeting you.",
+      "exemplo_pt": "Estou ansioso para te conhecer."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Verbo + -ing (gerúndio)",
+    "explicacao_pt": "Alguns verbos são SEMPRE seguidos de verbo-ING: enjoy, don't mind, can't stand, avoid, finish, keep, suggest, miss, practise, consider. Ex: I enjoy working. Também usamos -ing DEPOIS DE PREPOSIÇÕES: good at fixing, interested in learning, tired of waiting, before starting, after lunch → after eating. Atenção a 'look forward TO + -ing' (o 'to' aqui é preposição!): I look forward to hearing from you. O -ing também pode ser sujeito da frase: Working nights is hard.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "enjoy + -ing",
+          "I enjoy teaching new people.",
+          "Gosto de ensinar gente nova."
+        ],
+        [
+          "avoid + -ing",
+          "Avoid touching hot surfaces.",
+          "Evite tocar superfícies quentes."
+        ],
+        [
+          "preposição + -ing",
+          "I'm tired of waiting.",
+          "Estou cansado de esperar."
+        ],
+        [
+          "before/after + -ing",
+          "Wash your hands before eating.",
+          "Lave as mãos antes de comer."
+        ],
+        [
+          "-ing como sujeito",
+          "Working nights is hard.",
+          "Trabalhar à noite é difícil."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I don't mind working overtime, but I hate working on Sundays.",
+        "pt": "Não me importo de fazer hora extra, mas odeio trabalhar aos domingos."
+      },
+      {
+        "en": "Have you finished checking the parts?",
+        "pt": "Você terminou de verificar as peças?"
+      },
+      {
+        "en": "She's very good at training new operators.",
+        "pt": "Ela é muito boa em treinar operadores novos."
+      },
+      {
+        "en": "Before starting the machine, check the safety guards.",
+        "pt": "Antes de ligar a máquina, verifique as proteções."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What I like about my job",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "What do you enjoy about working in maintenance?",
+        "pt": "Do que você gosta em trabalhar na manutenção?"
+      },
+      {
+        "personagem": "Jonas",
+        "voz": "b",
+        "en": "I enjoy solving problems. Every day is different. I'm good at finding the cause of a breakdown.",
+        "pt": "Gosto de resolver problemas. Cada dia é diferente. Sou bom em achar a causa de uma quebra."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Is there anything you don't like?",
+        "pt": "Tem algo de que você não gosta?"
+      },
+      {
+        "personagem": "Jonas",
+        "voz": "b",
+        "en": "I can't stand doing paperwork. And I don't enjoy being on call at night.",
+        "pt": "Não suporto fazer papelada. E não gosto de ficar de sobreaviso à noite."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Do you mind working on weekends?",
+        "pt": "Você se importa de trabalhar nos fins de semana?"
+      },
+      {
+        "personagem": "Jonas",
+        "voz": "b",
+        "en": "Not really. We often do preventive maintenance on Saturdays, when the lines stop.",
+        "pt": "Não muito. Fazemos manutenção preventiva aos sábados, quando as linhas param."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And what would you like to learn?",
+        "pt": "E o que você gostaria de aprender?"
+      },
+      {
+        "personagem": "Jonas",
+        "voz": "b",
+        "en": "I'm interested in learning about robots. We're getting two new ones next year.",
+        "pt": "Tenho interesse em aprender sobre robôs. Vamos receber dois novos ano que vem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What does Jonas enjoy?",
+        "opcoes": [
+          "Doing paperwork",
+          "Solving problems",
+          "Working at night"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What can't he stand?",
+        "opcoes": [
+          "Paperwork",
+          "Robots",
+          "Saturdays"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l1-e3",
+        "tipo": "multipla",
+        "enunciado": "When do they do preventive maintenance?",
+        "opcoes": [
+          "On Mondays",
+          "On Saturdays",
+          "At night"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What is he interested in learning about?",
+        "opcoes": [
+          "Robots",
+          "English",
+          "Electricity"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u03l1-p1",
+      "tipo": "completar",
+      "frase": "I enjoy ___ problems. (resolver)",
+      "respostas": [
+        "solving"
+      ]
+    },
+    {
+      "id": "b1u03l1-p2",
+      "tipo": "completar",
+      "frase": "Avoid ___ heavy boxes alone. (levantar)",
+      "respostas": [
+        "lifting"
+      ]
+    },
+    {
+      "id": "b1u03l1-p3",
+      "tipo": "completar",
+      "frase": "I'm good ___ fixing machines.",
+      "respostas": [
+        "at"
+      ]
+    },
+    {
+      "id": "b1u03l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I enjoy to work here.",
+        "I enjoy working here.",
+        "I enjoy work here."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Estou ansioso para te conhecer\":",
+      "opcoes": [
+        "I'm looking forward to meet you.",
+        "I'm looking forward to meeting you."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Em 'look forward to', o 'to' é preposição: vem -ing."
+    },
+    {
+      "id": "b1u03l1-p6",
+      "tipo": "ordenar",
+      "frase": "Working nights is hard",
+      "traducao_pt": "Trabalhar à noite é difícil"
+    },
+    {
+      "id": "b1u03l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The alarm keeps ringing."
+    },
+    {
+      "id": "b1u03l1-p8",
+      "tipo": "traduzir",
+      "pt": "Não me importo de trabalhar aos sábados.",
+      "respostas": [
+        "I don't mind working on Saturdays.",
+        "I don't mind working Saturdays."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor 3 coisas que você gosta de fazer no trabalho (ou em casa), 2 que você odeia e 1 que você tem interesse em aprender.",
+    "papel_professor": "Peça gostos e desgostos com enjoy/don't mind/can't stand/be interested in/be good at. Faça perguntas de continuação. Corrija verbo + -ing.",
+    "abertura": "Tell me: what are you good at, and what do you hate doing?",
+    "abertura_pt": "Me conta: no que você é bom e o que você odeia fazer?"
+  },
+  "teste": [
+    {
+      "id": "b1u03l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"I suggest ___ the filter.\"",
+      "opcoes": [
+        "to change",
+        "changing",
+        "change"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l1-t2",
+      "tipo": "completar",
+      "frase": "I'm interested ___ learning robotics.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "b1u03l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I can't stand waiting.",
+      "aceitas": [
+        "I cannot stand waiting."
+      ]
+    },
+    {
+      "id": "b1u03l1-t4",
+      "tipo": "traduzir",
+      "pt": "Terminei de limpar a máquina.",
+      "respostas": [
+        "I finished cleaning the machine.",
+        "I've finished cleaning the machine."
+      ]
+    },
+    {
+      "id": "b1u03l1-t5",
+      "tipo": "ordenar",
+      "frase": "Wash your hands before eating",
+      "traducao_pt": "Lave as mãos antes de comer"
+    }
+  ]
+}

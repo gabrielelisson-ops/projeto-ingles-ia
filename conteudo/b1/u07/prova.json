@@ -1,0 +1,262 @@
+{
+  "id": "b1-u07-prova",
+  "nivel": "B1",
+  "unidade": 7,
+  "titulo": "Prova da Unidade 7 (B1) — Opinions",
+  "leitura": {
+    "texto": "MINUTES — Production meeting, 9 May\nPresent: Clara (chair), Otávio (maintenance), Rita (planning), Wagner (quality)\n1. Last week's results\nClara went over the numbers. Production was 3% above target. Wagner pointed out that scrap increased on line 4.\n2. Scrap on line 4\nWagner found out that the problem started after the new moulds were set up. Otávio said, 'I'm not sure the moulds are the problem. The temperature control might be the cause.' Wagner agreed up to a point, but asked for a test.\nAction: Otávio will carry out a temperature test on Thursday.\n3. Maintenance shutdown\nRita brought up the maintenance shutdown on line 2. It was planned for this weekend, but Rita suggested putting it off because of a big order. Otávio disagreed: 'We've already put it off twice. If we put it off again, the machine might break down.' After a long discussion, they found a compromise: the shutdown will happen next Sunday, and planning will produce extra stock this week.\n4. Other business\nThe training visit from the German supplier was called off. Clara will follow up with HR to find a new date.\nNext meeting: 16 May.",
+    "perguntas": [
+      {
+        "id": "b1u07pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How was production last week?",
+        "opcoes": [
+          "3% below target",
+          "3% above target",
+          "On target"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Who pointed out the scrap problem?",
+        "opcoes": [
+          "Clara",
+          "Wagner",
+          "Rita"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07pv-l3",
+        "tipo": "multipla",
+        "enunciado": "When did the scrap problem start?",
+        "opcoes": [
+          "After the new moulds were set up",
+          "After the maintenance",
+          "Last year"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What does Otávio think might be the cause?",
+        "opcoes": [
+          "The moulds",
+          "The temperature control",
+          "The operators"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What will Otávio do on Thursday?",
+        "opcoes": [
+          "A temperature test",
+          "Change the moulds",
+          "Call the supplier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why did Otávio disagree with putting off the shutdown?",
+        "opcoes": [
+          "The machine might break down.",
+          "He wants a day off.",
+          "The order is small."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What was the compromise?",
+        "opcoes": [
+          "Shutdown next Sunday and extra stock this week",
+          "No shutdown",
+          "Shutdown this weekend"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What was called off?",
+        "opcoes": [
+          "The training visit from the German supplier",
+          "The next meeting",
+          "The big order"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "I'd like to bring up the new uniform policy. What do you think about it?",
+        "pt": "Gostaria de levantar a nova política de uniforme. O que vocês acham?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Personally, I like the new uniforms, but they're too hot for the shop floor.",
+        "pt": "Pessoalmente, gosto dos novos uniformes, mas são quentes demais para o chão de fábrica."
+      },
+      {
+        "personagem": "Sara",
+        "voz": "a",
+        "en": "I totally agree. In the summer, the temperature is over 35 degrees in the press area.",
+        "pt": "Concordo totalmente. No verão, a temperatura passa de 35 graus na área das prensas."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "I see your point, but the old uniforms didn't meet the safety standards.",
+        "pt": "Entendo, mas os uniformes antigos não atendiam às normas de segurança."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Sorry to interrupt, but couldn't we find a lighter fabric that meets the standards?",
+        "pt": "Desculpe interromper, mas não poderíamos achar um tecido mais leve que atenda às normas?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "That's a fair point. I'll look into it with the supplier.",
+        "pt": "É um ponto válido. Vou ver isso com o fornecedor."
+      },
+      {
+        "personagem": "Sara",
+        "voz": "a",
+        "en": "Can we put off the change until we find a solution?",
+        "pt": "Podemos adiar a mudança até achar uma solução?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "OK. We'll put it off until July. I'll follow up next week.",
+        "pt": "OK. Adiamos até julho. Dou seguimento semana que vem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What topic does the manager bring up?",
+        "opcoes": [
+          "The new uniform policy",
+          "Salaries",
+          "The canteen"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What is Leo's problem with the uniforms?",
+        "opcoes": [
+          "They're too hot.",
+          "They're ugly.",
+          "They're expensive."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the temperature in the press area in summer?",
+        "opcoes": [
+          "Over 25 degrees",
+          "Over 35 degrees",
+          "Over 45 degrees"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why did they change the uniforms?",
+        "opcoes": [
+          "The old ones didn't meet safety standards.",
+          "The old ones were too cheap.",
+          "The workers asked."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does Leo suggest?",
+        "opcoes": [
+          "A lighter fabric",
+          "No uniforms",
+          "Air conditioning"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Until when will they put off the change?",
+        "opcoes": [
+          "June",
+          "July",
+          "August"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I'll look into it with the supplier.",
+        "aceitas": [
+          "I will look into it with the supplier."
+        ]
+      },
+      {
+        "id": "b1u07pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "We'll put it off until July.",
+        "aceitas": [
+          "We will put it off until July."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u07pv-w1",
+      "instrucao_pt": "Escreva sua opinião sobre um tema do trabalho (ex.: home office, semana de 4 dias), com 2 argumentos e um contra-argumento (on the other hand).",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u07pv-w2",
+      "instrucao_pt": "Escreva a ata curta de uma reunião (real ou inventada) usando pelo menos 4 phrasal verbs (go over, bring up, put off, follow up…).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u07pv-s1",
+      "pergunta_en": "Some people think robots will replace most factory workers. Do you agree?",
+      "instrucao_pt": "Dê sua opinião em voz alta, concordando ou discordando com educação."
+    },
+    {
+      "id": "b1u07pv-s2",
+      "pergunta_en": "Describe a meeting or discussion you had recently. How did you reach a decision?",
+      "instrucao_pt": "Use phrasal verbs e expressões de opinião."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Phrasal verbs de trabalho e reuniões (set up, carry out, find out, deal with, look into, run out of, put off, call off, bring up, go over, come up with, follow up, sum up; posição do pronome), dar e pedir opinião, concordar e discordar com educação (I agree; nunca 'I am agree'), interromper, chegar a um acordo."
+}

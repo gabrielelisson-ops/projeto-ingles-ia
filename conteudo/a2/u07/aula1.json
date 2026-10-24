@@ -1,0 +1,347 @@
+{
+  "id": "a2-u07-l1",
+  "nivel": "A2",
+  "unidade": 7,
+  "numero": 1,
+  "titulo": "Turn left at the bank",
+  "objetivo_pt": "Pedir e dar direções na rua com o imperativo.",
+  "aquecimento": {
+    "situacao_pt": "O professor é um turista perdido na sua cidade. Explique como chegar a um lugar.",
+    "papel_professor": "Faça o papel de turista pedindo direções (How do I get to the train station?). Ensine go straight, turn left/right, take the second street, it's on your left.",
+    "abertura": "Excuse me! How do I get to the train station?",
+    "abertura_pt": "Com licença! Como eu chego à estação de trem?"
+  },
+  "vocabulario": [
+    {
+      "id": "go-straight",
+      "en": "go straight (ahead)",
+      "pt": "siga em frente",
+      "emoji": "⬆️",
+      "exemplo_en": "Go straight for two blocks.",
+      "exemplo_pt": "Siga em frente por dois quarteirões."
+    },
+    {
+      "id": "turn-left",
+      "en": "turn left",
+      "pt": "vire à esquerda",
+      "emoji": "⬅️",
+      "exemplo_en": "Turn left at the bank.",
+      "exemplo_pt": "Vire à esquerda no banco."
+    },
+    {
+      "id": "turn-right",
+      "en": "turn right",
+      "pt": "vire à direita",
+      "emoji": "➡️",
+      "exemplo_en": "Turn right at the traffic lights.",
+      "exemplo_pt": "Vire à direita no semáforo."
+    },
+    {
+      "id": "block",
+      "en": "block",
+      "pt": "quarteirão",
+      "emoji": "🏙️",
+      "exemplo_en": "It is three blocks from here.",
+      "exemplo_pt": "Fica a três quarteirões daqui."
+    },
+    {
+      "id": "traffic-lights",
+      "en": "traffic lights",
+      "pt": "semáforo",
+      "emoji": "🚦",
+      "exemplo_en": "Stop at the traffic lights.",
+      "exemplo_pt": "Pare no semáforo."
+    },
+    {
+      "id": "corner-d",
+      "en": "corner",
+      "pt": "esquina",
+      "emoji": "📐",
+      "exemplo_en": "The hotel is on the corner.",
+      "exemplo_pt": "O hotel fica na esquina."
+    },
+    {
+      "id": "take-the",
+      "en": "take the second street",
+      "pt": "pegue a segunda rua",
+      "emoji": "2️⃣",
+      "exemplo_en": "Take the second street on the right.",
+      "exemplo_pt": "Pegue a segunda rua à direita."
+    },
+    {
+      "id": "cross",
+      "en": "cross",
+      "pt": "atravessar",
+      "emoji": "🚸",
+      "exemplo_en": "Cross the street.",
+      "exemplo_pt": "Atravesse a rua."
+    },
+    {
+      "id": "opposite",
+      "en": "opposite",
+      "pt": "em frente a (do outro lado)",
+      "emoji": "↔️",
+      "exemplo_en": "The pharmacy is opposite the park.",
+      "exemplo_pt": "A farmácia fica em frente ao parque."
+    },
+    {
+      "id": "get-to",
+      "en": "How do I get to…?",
+      "pt": "Como chego a…?",
+      "emoji": "🗺️",
+      "exemplo_en": "How do I get to the museum?",
+      "exemplo_pt": "Como chego ao museu?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Imperativo e direções",
+    "explicacao_pt": "Para dar instruções e direções usamos o IMPERATIVO: o verbo na forma básica, sem sujeito: Go straight. Turn left. Cross the street. Negativo: Don't + verbo: Don't turn here. Para pedir direções: How do I get to…? / Where is…? / Is it far? Para localizar: It's on your left/right. It's opposite the park. It's next to the bank.",
+    "tabela": {
+      "colunas": [
+        "Instrução",
+        "Inglês",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Siga em frente",
+          "Go straight",
+          "Go straight for two blocks."
+        ],
+        [
+          "Vire",
+          "Turn left / right",
+          "Turn right at the church."
+        ],
+        [
+          "Pegue",
+          "Take the first / second street",
+          "Take the first street on the left."
+        ],
+        [
+          "Atravesse",
+          "Cross",
+          "Cross the bridge."
+        ],
+        [
+          "Não faça",
+          "Don't + verbo",
+          "Don't take the highway."
+        ],
+        [
+          "Está…",
+          "It's on your left",
+          "The hotel is on your left."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Go straight, then turn left at the traffic lights.",
+        "pt": "Siga em frente e vire à esquerda no semáforo."
+      },
+      {
+        "en": "Take the second street on the right. The station is opposite the park.",
+        "pt": "Pegue a segunda rua à direita. A estação fica em frente ao parque."
+      },
+      {
+        "en": "Is it far? — No, it's about five minutes on foot.",
+        "pt": "É longe? — Não, uns cinco minutos a pé."
+      },
+      {
+        "en": "Don't cross here. It's dangerous.",
+        "pt": "Não atravesse aqui. É perigoso."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Lost in the city",
+    "falas": [
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Excuse me, how do I get to the City Museum?",
+        "pt": "Com licença, como chego ao Museu da Cidade?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "Go straight for two blocks. Then turn right at the traffic lights.",
+        "pt": "Siga em frente por dois quarteirões. Depois vire à direita no semáforo."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Right at the traffic lights. And then?",
+        "pt": "À direita no semáforo. E depois?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "Take the first street on the left. The museum is opposite a big park.",
+        "pt": "Pegue a primeira rua à esquerda. O museu fica em frente a um parque grande."
+      },
+      {
+        "personagem": "Tourist",
+        "voz": "a",
+        "en": "Is it far?",
+        "pt": "É longe?"
+      },
+      {
+        "personagem": "Local",
+        "voz": "b",
+        "en": "No, about ten minutes on foot.",
+        "pt": "Não, uns dez minutos a pé."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How many blocks straight?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the museum?",
+        "opcoes": [
+          "Next to the traffic lights",
+          "Opposite a big park",
+          "On the corner"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How long does it take on foot?",
+        "opcoes": [
+          "Five minutes",
+          "Ten minutes",
+          "Twenty minutes"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u07l1-p1",
+      "tipo": "completar",
+      "frase": "Go ___ for two blocks. (em frente)",
+      "respostas": [
+        "straight"
+      ]
+    },
+    {
+      "id": "a2u07l1-p2",
+      "tipo": "completar",
+      "frase": "Turn ___ at the bank. (esquerda)",
+      "respostas": [
+        "left"
+      ]
+    },
+    {
+      "id": "a2u07l1-p3",
+      "tipo": "completar",
+      "frase": "How do I ___ to the station?",
+      "respostas": [
+        "get"
+      ]
+    },
+    {
+      "id": "a2u07l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Semáforo\":",
+      "opcoes": [
+        "traffic lights",
+        "street lamps",
+        "signal car"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Imperativo negativo:",
+      "opcoes": [
+        "Don't turn here.",
+        "No turn here.",
+        "Not turning here."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l1-p6",
+      "tipo": "ordenar",
+      "frase": "Take the second street on the right",
+      "traducao_pt": "Pegue a segunda rua à direita"
+    },
+    {
+      "id": "a2u07l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The pharmacy is opposite the park."
+    },
+    {
+      "id": "a2u07l1-p8",
+      "tipo": "traduzir",
+      "pt": "Atravesse a rua.",
+      "respostas": [
+        "Cross the street.",
+        "Cross the road."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor, um turista, como ir da sua casa (ou do seu trabalho) até um lugar conhecido da sua cidade.",
+    "papel_professor": "Faça o papel de turista. Peça direções para um lugar que o aluno escolher. Repita as instruções para confirmar e faça perguntas (Is it far? Is it on the left or on the right?).",
+    "abertura": "Hi! I'm visiting your city. Can you tell me how to get to a good restaurant from here?",
+    "abertura_pt": "Oi! Estou visitando sua cidade. Pode me dizer como chegar a um bom restaurante daqui?"
+  },
+  "teste": [
+    {
+      "id": "a2u07l1-t1",
+      "tipo": "completar",
+      "frase": "Turn ___ at the traffic lights. (direita)",
+      "respostas": [
+        "right"
+      ]
+    },
+    {
+      "id": "a2u07l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"É longe?\"",
+      "opcoes": [
+        "Is it far?",
+        "Is it long?",
+        "Is far it?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Go straight for two blocks."
+    },
+    {
+      "id": "a2u07l1-t4",
+      "tipo": "traduzir",
+      "pt": "O hotel fica na esquina.",
+      "respostas": [
+        "The hotel is on the corner."
+      ]
+    },
+    {
+      "id": "a2u07l1-t5",
+      "tipo": "ordenar",
+      "frase": "Don't cross here",
+      "traducao_pt": "Não atravesse aqui"
+    }
+  ]
+}

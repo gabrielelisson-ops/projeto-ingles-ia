@@ -1,0 +1,358 @@
+{
+  "id": "b1-u03-l2",
+  "nivel": "B1",
+  "unidade": 3,
+  "numero": 2,
+  "titulo": "I decided to stay",
+  "objetivo_pt": "Usar verbos seguidos de infinitivo (to + verbo): want, decide, plan, need, hope, agree.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre decisões e planos da sua vida profissional. Use \"I decided to…\", \"I'm planning to…\", \"I hope to…\".",
+    "papel_professor": "Pergunte decisões e planos (Why did you decide to work here? What are you planning to do next year? What do you need to improve?). Ensine verbo + to + infinitivo.",
+    "abertura": "Why did you decide to work in your area?",
+    "abertura_pt": "Por que você decidiu trabalhar na sua área?"
+  },
+  "vocabulario": [
+    {
+      "id": "decide",
+      "en": "decide to",
+      "pt": "decidir",
+      "emoji": "⚖️",
+      "exemplo_en": "I decided to change jobs.",
+      "exemplo_pt": "Decidi mudar de emprego."
+    },
+    {
+      "id": "plan-to",
+      "en": "plan to",
+      "pt": "planejar",
+      "emoji": "🗺️",
+      "exemplo_en": "We're planning to buy a new machine.",
+      "exemplo_pt": "Estamos planejando comprar uma máquina nova."
+    },
+    {
+      "id": "hope-to",
+      "en": "hope to",
+      "pt": "esperar (desejar)",
+      "emoji": "🤞",
+      "exemplo_en": "I hope to get promoted.",
+      "exemplo_pt": "Espero ser promovido."
+    },
+    {
+      "id": "need-to",
+      "en": "need to",
+      "pt": "precisar",
+      "emoji": "❗",
+      "exemplo_en": "We need to reduce waste.",
+      "exemplo_pt": "Precisamos reduzir o desperdício."
+    },
+    {
+      "id": "agree-to",
+      "en": "agree to",
+      "pt": "concordar em",
+      "emoji": "🤝",
+      "exemplo_en": "The supplier agreed to lower the price.",
+      "exemplo_pt": "O fornecedor concordou em baixar o preço."
+    },
+    {
+      "id": "refuse",
+      "en": "refuse to",
+      "pt": "recusar-se a",
+      "emoji": "🙅",
+      "exemplo_en": "He refused to wear his helmet.",
+      "exemplo_pt": "Ele se recusou a usar o capacete."
+    },
+    {
+      "id": "promise",
+      "en": "promise to",
+      "pt": "prometer",
+      "emoji": "🤙",
+      "exemplo_en": "They promised to deliver on Monday.",
+      "exemplo_pt": "Prometeram entregar na segunda."
+    },
+    {
+      "id": "manage",
+      "en": "manage to",
+      "pt": "conseguir (com esforço)",
+      "emoji": "💪",
+      "exemplo_en": "We managed to fix it before lunch.",
+      "exemplo_pt": "Conseguimos consertar antes do almoço."
+    },
+    {
+      "id": "learn-to",
+      "en": "learn to",
+      "pt": "aprender a",
+      "emoji": "🎓",
+      "exemplo_en": "I learned to weld at technical school.",
+      "exemplo_pt": "Aprendi a soldar na escola técnica."
+    },
+    {
+      "id": "afford",
+      "en": "can afford to",
+      "pt": "ter condições de",
+      "emoji": "💰",
+      "exemplo_en": "We can't afford to stop the line.",
+      "exemplo_pt": "Não podemos nos dar ao luxo de parar a linha."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Verbo + to + infinitivo",
+    "explicacao_pt": "Outros verbos pedem TO + verbo: want, would like, decide, plan, hope, need, agree, refuse, promise, manage, learn, offer, expect, afford. Ex: I decided to stay. Também usamos to + verbo para dizer o OBJETIVO (= para): I came here to learn English. Depois de muitos adjetivos também: It's easy to use. It's important to check. Negativa: decide NOT to (I decided not to go).",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "decide to",
+          "We decided to stop the line.",
+          "Decidimos parar a linha."
+        ],
+        [
+          "manage to",
+          "I managed to finish on time.",
+          "Consegui terminar a tempo."
+        ],
+        [
+          "objetivo",
+          "I called to ask about the order.",
+          "Liguei para perguntar do pedido."
+        ],
+        [
+          "adjetivo + to",
+          "It's difficult to understand.",
+          "É difícil de entender."
+        ],
+        [
+          "negativa",
+          "He decided not to sign.",
+          "Ele decidiu não assinar."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I decided to study English because we have many foreign clients.",
+        "pt": "Decidi estudar inglês porque temos muitos clientes estrangeiros."
+      },
+      {
+        "en": "The supplier promised to send the parts by Friday.",
+        "pt": "O fornecedor prometeu mandar as peças até sexta."
+      },
+      {
+        "en": "We managed to reduce energy costs by 12%.",
+        "pt": "Conseguimos reduzir os custos de energia em 12%."
+      },
+      {
+        "en": "It's important to check the oil level every morning.",
+        "pt": "É importante verificar o nível de óleo toda manhã."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A difficult decision",
+    "falas": [
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "I heard you got a job offer in Manaus. What did you decide?",
+        "pt": "Soube que você recebeu uma proposta em Manaus. O que decidiu?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "I decided to stay here. My company agreed to give me a promotion.",
+        "pt": "Decidi ficar aqui. Minha empresa concordou em me dar uma promoção."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Great! What will you do in your new position?",
+        "pt": "Ótimo! O que você vai fazer no novo cargo?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "I'll be the shift supervisor. I need to learn to manage people, so I'm planning to take a leadership course.",
+        "pt": "Vou ser supervisor de turno. Preciso aprender a gerenciar pessoas, então estou planejando fazer um curso de liderança."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "And your family? Were they happy?",
+        "pt": "E sua família? Ficaram felizes?"
+      },
+      {
+        "personagem": "Igor",
+        "voz": "b",
+        "en": "Very. My wife didn't want to move. And we can't afford to buy a new house now.",
+        "pt": "Muito. Minha esposa não queria se mudar. E não temos condições de comprar uma casa nova agora."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was the job offer?",
+        "opcoes": [
+          "In Manaus",
+          "In Recife",
+          "In São Paulo"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What did Igor decide?",
+        "opcoes": [
+          "To move",
+          "To stay",
+          "To retire"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is he planning to take?",
+        "opcoes": [
+          "A vacation",
+          "A leadership course",
+          "An English course"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l2-e4",
+        "tipo": "multipla",
+        "enunciado": "Who didn't want to move?",
+        "opcoes": [
+          "His boss",
+          "His wife",
+          "His friend"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u03l2-p1",
+      "tipo": "completar",
+      "frase": "I decided ___ change jobs.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l2-p2",
+      "tipo": "completar",
+      "frase": "We ___ to fix it before lunch. (conseguimos)",
+      "respostas": [
+        "managed"
+      ]
+    },
+    {
+      "id": "b1u03l2-p3",
+      "tipo": "completar",
+      "frase": "He refused ___ wear his helmet.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I hope getting promoted.",
+        "I hope to get promoted.",
+        "I hope get promoted."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Liguei para perguntar do pedido\":",
+      "opcoes": [
+        "I called to ask about the order.",
+        "I called for ask about the order.",
+        "I called for asking the order."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l2-p6",
+      "tipo": "ordenar",
+      "frase": "It's important to check the oil level",
+      "traducao_pt": "É importante verificar o nível de óleo"
+    },
+    {
+      "id": "b1u03l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The supplier agreed to lower the price."
+    },
+    {
+      "id": "b1u03l2-p8",
+      "tipo": "traduzir",
+      "pt": "Precisamos reduzir o desperdício.",
+      "respostas": [
+        "We need to reduce waste.",
+        "We need to reduce the waste."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor uma decisão importante que você tomou (estudo, emprego, mudança) e seus planos para os próximos anos.",
+    "papel_professor": "Pergunte sobre uma decisão importante e planos futuros: Why did you decide to…? What do you hope to…? What do you need to…? Corrija verbo + to.",
+    "abertura": "What's an important decision you've made in your life?",
+    "abertura_pt": "Qual decisão importante você já tomou na vida?"
+  },
+  "teste": [
+    {
+      "id": "b1u03l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"They promised ___ on Monday.\"",
+      "opcoes": [
+        "delivering",
+        "to deliver",
+        "deliver"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l2-t2",
+      "tipo": "completar",
+      "frase": "He decided ___ to sign. (não)",
+      "respostas": [
+        "not"
+      ]
+    },
+    {
+      "id": "b1u03l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We're planning to buy a new machine.",
+      "aceitas": [
+        "We are planning to buy a new machine."
+      ]
+    },
+    {
+      "id": "b1u03l2-t4",
+      "tipo": "traduzir",
+      "pt": "Aprendi a soldar na escola técnica.",
+      "respostas": [
+        "I learned to weld at technical school.",
+        "I learnt to weld at technical school.",
+        "I learned to weld at the technical school."
+      ]
+    },
+    {
+      "id": "b1u03l2-t5",
+      "tipo": "ordenar",
+      "frase": "We can't afford to stop the line",
+      "traducao_pt": "Não podemos parar a linha"
+    }
+  ]
+}

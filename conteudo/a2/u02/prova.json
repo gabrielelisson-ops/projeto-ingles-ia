@@ -1,0 +1,259 @@
+{
+  "id": "a2-u02-prova",
+  "nivel": "A2",
+  "unidade": 2,
+  "titulo": "Prova da Unidade 2 (A2) — Life stories",
+  "leitura": {
+    "texto": "Marta Silva was born in 1979 in a small town in Paraná. She grew up with her grandparents because her parents worked in another city. When she was a child, she loved drawing machines. She finished school in 1996 and got her first job at a furniture factory. She worked there for six years and learned a lot about production. In 2003, she decided to study mechanical engineering at night. It was a difficult time: she worked all day and studied at night. She met her husband, Caio, at the university. They got married in 2009 and had a daughter two years later. In 2015, a German company hired Marta, and in 2021 she became the plant manager. She is very proud of her story.",
+    "perguntas": [
+      {
+        "id": "a2u02pv-l1",
+        "tipo": "multipla",
+        "enunciado": "When was Marta born?",
+        "opcoes": [
+          "1979",
+          "1996",
+          "2003"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Who did she grow up with?",
+        "opcoes": [
+          "Her parents",
+          "Her grandparents",
+          "Her aunt"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What did she love when she was a child?",
+        "opcoes": [
+          "Drawing machines",
+          "Playing soccer",
+          "Reading"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Where was her first job?",
+        "opcoes": [
+          "At a German company",
+          "At a furniture factory",
+          "At a university"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How long did she work there?",
+        "opcoes": [
+          "Two years",
+          "Six years",
+          "Nine years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why was 2003 a difficult time?",
+        "opcoes": [
+          "She lost her job.",
+          "She worked all day and studied at night.",
+          "She moved to Germany."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-l7",
+        "tipo": "multipla",
+        "enunciado": "When did she have a daughter?",
+        "opcoes": [
+          "2009",
+          "2011",
+          "2015"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What did she become in 2021?",
+        "opcoes": [
+          "An engineer",
+          "The plant manager",
+          "A teacher"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Welcome to the show, Mr. Costa. Tell us about your company. How did it begin?",
+        "pt": "Bem-vindo ao programa, Sr. Costa. Fale da sua empresa. Como ela começou?"
+      },
+      {
+        "personagem": "Costa",
+        "voz": "b",
+        "en": "I started it in my garage in 1998. I had only one machine.",
+        "pt": "Comecei na minha garagem em 1998. Eu tinha só uma máquina."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Only one? What did you make?",
+        "pt": "Só uma? O que você fazia?"
+      },
+      {
+        "personagem": "Costa",
+        "voz": "b",
+        "en": "Small metal parts for bicycles. My wife did the accounts.",
+        "pt": "Pequenas peças de metal para bicicletas. Minha esposa cuidava das contas."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "When did you move to a real factory?",
+        "pt": "Quando vocês foram para uma fábrica de verdade?"
+      },
+      {
+        "personagem": "Costa",
+        "voz": "b",
+        "en": "In 2004. We bought an old building and hired ten people.",
+        "pt": "Em 2004. Compramos um prédio antigo e contratamos dez pessoas."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "And today?",
+        "pt": "E hoje?"
+      },
+      {
+        "personagem": "Costa",
+        "voz": "b",
+        "en": "Today we have two hundred employees. I didn't imagine that!",
+        "pt": "Hoje temos duzentos funcionários. Eu não imaginava isso!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where did Mr. Costa start his company?",
+        "opcoes": [
+          "In a factory",
+          "In his garage",
+          "In an office"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-e2",
+        "tipo": "multipla",
+        "enunciado": "When did he start?",
+        "opcoes": [
+          "1988",
+          "1998",
+          "2004"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did they make?",
+        "opcoes": [
+          "Car parts",
+          "Metal parts for bicycles",
+          "Furniture"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Who did the accounts?",
+        "opcoes": [
+          "His son",
+          "His wife",
+          "An accountant"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How many people did they hire in 2004?",
+        "opcoes": [
+          "Ten",
+          "Twenty",
+          "Two hundred"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02pv-e6",
+        "tipo": "multipla",
+        "enunciado": "How many employees do they have today?",
+        "opcoes": [
+          "Twenty",
+          "One hundred",
+          "Two hundred"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a2u02pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I had only one machine."
+      },
+      {
+        "id": "a2u02pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I didn't imagine that!",
+        "aceitas": [
+          "I did not imagine that!"
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u02pv-w1",
+      "instrucao_pt": "Conte a história da sua vida em ordem (nascimento, infância, estudos, trabalho, família), com datas.",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u02pv-w2",
+      "instrucao_pt": "Escreva sobre o seu primeiro emprego: onde foi, quanto tempo ficou, o que aprendeu e por que saiu.",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u02pv-s1",
+      "pergunta_en": "Where were you born, and where did you grow up?",
+      "instrucao_pt": "Responda em voz alta com was born e grew up, e fale um pouco da sua infância."
+    },
+    {
+      "id": "a2u02pv-s2",
+      "pergunta_en": "Tell me about an important year in your life. What happened?",
+      "instrucao_pt": "Fale em voz alta sobre um ano importante e o que aconteceu (use o passado)."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Passado simples com verbos irregulares (went, had, ate, saw, came, got, made, took, bought, began, left, became, met, grew up), was born, did/didn't em perguntas e negativas, datas e duração (in 2010, for five years), contar a história de vida."
+}

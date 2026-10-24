@@ -1,0 +1,357 @@
+{
+  "id": "b1-u02-l1",
+  "nivel": "B1",
+  "unidade": 2,
+  "numero": 1,
+  "titulo": "For and since",
+  "objetivo_pt": "Dizer há quanto tempo algo acontece com for e since.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar há quanto tempo você mora na sua casa, trabalha na empresa, conhece seu melhor amigo… Use \"for\" e \"since\".",
+    "papel_professor": "Pergunte How long have you…? (lived there, worked there, known your best friend, had your car). Ensine for + período, since + ponto de início. Corrija 'I work here since 2015' → 'I've worked here since 2015'.",
+    "abertura": "How long have you lived in your house?",
+    "abertura_pt": "Há quanto tempo você mora na sua casa?"
+  },
+  "vocabulario": [
+    {
+      "id": "how-long",
+      "en": "How long have you…?",
+      "pt": "Há quanto tempo você…?",
+      "emoji": "⏳",
+      "exemplo_en": "How long have you worked here?",
+      "exemplo_pt": "Há quanto tempo você trabalha aqui?"
+    },
+    {
+      "id": "for",
+      "en": "for + período",
+      "pt": "há / por (duração)",
+      "emoji": "📏",
+      "exemplo_en": "I've worked here for six years.",
+      "exemplo_pt": "Trabalho aqui há seis anos."
+    },
+    {
+      "id": "since",
+      "en": "since + início",
+      "pt": "desde",
+      "emoji": "🚩",
+      "exemplo_en": "I've lived here since 2015.",
+      "exemplo_pt": "Moro aqui desde 2015."
+    },
+    {
+      "id": "know",
+      "en": "know (knew, known)",
+      "pt": "conhecer / saber",
+      "emoji": "🤝",
+      "exemplo_en": "I've known Rui since school.",
+      "exemplo_pt": "Conheço o Rui desde a escola."
+    },
+    {
+      "id": "have-had",
+      "en": "have (had, had)",
+      "pt": "ter",
+      "emoji": "🚗",
+      "exemplo_en": "We've had this car for ten years.",
+      "exemplo_pt": "Temos este carro há dez anos."
+    },
+    {
+      "id": "ages",
+      "en": "for ages",
+      "pt": "há muito tempo",
+      "emoji": "🦕",
+      "exemplo_en": "I haven't seen her for ages.",
+      "exemplo_pt": "Não a vejo há séculos."
+    },
+    {
+      "id": "a-while",
+      "en": "for a while",
+      "pt": "por um tempo",
+      "emoji": "⏱️",
+      "exemplo_en": "I've been here for a while.",
+      "exemplo_pt": "Estou aqui há um tempo."
+    },
+    {
+      "id": "since-child",
+      "en": "since I was a child",
+      "pt": "desde criança",
+      "emoji": "🧒",
+      "exemplo_en": "I've liked football since I was a child.",
+      "exemplo_pt": "Gosto de futebol desde criança."
+    },
+    {
+      "id": "all-life",
+      "en": "all my life",
+      "pt": "a vida toda",
+      "emoji": "🌳",
+      "exemplo_en": "I've lived in this city all my life.",
+      "exemplo_pt": "Moro nesta cidade a vida toda."
+    },
+    {
+      "id": "married",
+      "en": "be married",
+      "pt": "ser casado",
+      "emoji": "💍",
+      "exemplo_en": "We've been married for twelve years.",
+      "exemplo_pt": "Somos casados há doze anos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "For × since",
+    "explicacao_pt": "Para algo que COMEÇOU no passado e CONTINUA agora, o inglês usa present perfect (não o presente!): I've worked here for six years (= trabalho aqui há seis anos). FOR + período de tempo: for six years, for two months, for a week, for ages. SINCE + ponto de início: since 2015, since Monday, since March, since I was a child. Pergunta: How long have you + particípio? Erro clássico do brasileiro: 'I work here for six years' ou 'I am married since 2012' → 'I've been married since 2012'.",
+    "tabela": {
+      "colunas": [
+        "FOR (duração)",
+        "SINCE (início)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "for ten years",
+          "since 2014",
+          "há dez anos / desde 2014"
+        ],
+        [
+          "for three months",
+          "since July",
+          "há três meses / desde julho"
+        ],
+        [
+          "for two days",
+          "since Monday",
+          "há dois dias / desde segunda"
+        ],
+        [
+          "for an hour",
+          "since 9 o'clock",
+          "há uma hora / desde as 9"
+        ],
+        [
+          "for ages",
+          "since I was a child",
+          "há muito tempo / desde criança"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "How long have you been married? — For twelve years.",
+        "pt": "Há quanto tempo vocês são casados? — Há doze anos."
+      },
+      {
+        "en": "She's been the manager since January.",
+        "pt": "Ela é a gerente desde janeiro."
+      },
+      {
+        "en": "I haven't seen my cousin for ages.",
+        "pt": "Não vejo meu primo há séculos."
+      },
+      {
+        "en": "We've had problems with this machine since it arrived.",
+        "pt": "Temos problemas com esta máquina desde que ela chegou."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "How long have you…?",
+    "falas": [
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "How long has this factory been here?",
+        "pt": "Há quanto tempo esta fábrica está aqui?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "b",
+        "en": "Since 1987. So, for almost forty years.",
+        "pt": "Desde 1987. Então, há quase quarenta anos."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "And how long have you worked here?",
+        "pt": "E há quanto tempo você trabalha aqui?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "b",
+        "en": "I've worked here since 2009. My father worked here too, for thirty years.",
+        "pt": "Trabalho aqui desde 2009. Meu pai também trabalhou aqui, por trinta anos."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "a",
+        "en": "That's a long time! Have you always been a guide?",
+        "pt": "É muito tempo! Você sempre foi guia?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "b",
+        "en": "No, I've been in the communications team for three years. Before that, I was in logistics.",
+        "pt": "Não, estou na equipe de comunicação há três anos. Antes disso, eu estava na logística."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Since when has the factory been there?",
+        "opcoes": [
+          "1987",
+          "2009",
+          "1997"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Since when has the guide worked there?",
+        "opcoes": [
+          "1987",
+          "2009",
+          "Three years ago"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How long did her father work there?",
+        "opcoes": [
+          "Ten years",
+          "Thirty years",
+          "Forty years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l1-e4",
+        "tipo": "multipla",
+        "enunciado": "How long has she been in communications?",
+        "opcoes": [
+          "For three years",
+          "Since 2009",
+          "For thirty years"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u02l1-p1",
+      "tipo": "completar",
+      "frase": "I've worked here ___ six years.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "b1u02l1-p2",
+      "tipo": "completar",
+      "frase": "I've lived here ___ 2015.",
+      "respostas": [
+        "since"
+      ]
+    },
+    {
+      "id": "b1u02l1-p3",
+      "tipo": "completar",
+      "frase": "How long ___ you known Rui?",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b1u02l1-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Sou casado há doze anos\":",
+      "opcoes": [
+        "I'm married for twelve years.",
+        "I've been married for twelve years.",
+        "I was married since twelve years."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u02l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual vai com SINCE?",
+      "opcoes": [
+        "two weeks",
+        "last Friday",
+        "a long time"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u02l1-p6",
+      "tipo": "ordenar",
+      "frase": "I haven't seen her for ages",
+      "traducao_pt": "Não a vejo há séculos"
+    },
+    {
+      "id": "b1u02l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We've had this car for ten years.",
+      "aceitas": [
+        "We have had this car for ten years."
+      ]
+    },
+    {
+      "id": "b1u02l1-p8",
+      "tipo": "traduzir",
+      "pt": "Moro nesta cidade a vida toda.",
+      "respostas": [
+        "I've lived in this city all my life.",
+        "I have lived in this city all my life."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Responda as perguntas \"How long…?\" do professor sobre sua vida e faça perguntas para ele também. Use for e since corretamente.",
+    "papel_professor": "Pergunte How long have you… (had your phone, lived in your city, been friends with…, worked in your area). Peça que o aluno pergunte também. Corrija o uso do presente no lugar do present perfect.",
+    "abertura": "How long have you had your phone?",
+    "abertura_pt": "Há quanto tempo você tem seu celular?"
+  },
+  "teste": [
+    {
+      "id": "b1u02l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Qual vai com FOR?",
+      "opcoes": [
+        "Monday",
+        "2019",
+        "three months"
+      ],
+      "correta": 2
+    },
+    {
+      "id": "b1u02l1-t2",
+      "tipo": "completar",
+      "frase": "She's been the manager ___ January.",
+      "respostas": [
+        "since"
+      ]
+    },
+    {
+      "id": "b1u02l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "How long have you worked here?"
+    },
+    {
+      "id": "b1u02l1-t4",
+      "tipo": "traduzir",
+      "pt": "Conheço o Rui desde a escola.",
+      "respostas": [
+        "I've known Rui since school.",
+        "I have known Rui since school."
+      ]
+    },
+    {
+      "id": "b1u02l1-t5",
+      "tipo": "ordenar",
+      "frase": "I've been here for a while",
+      "traducao_pt": "Estou aqui há um tempo"
+    }
+  ]
+}

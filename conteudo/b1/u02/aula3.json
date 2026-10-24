@@ -1,0 +1,357 @@
+{
+  "id": "b1-u02-l3",
+  "nivel": "B1",
+  "unidade": 2,
+  "numero": 3,
+  "titulo": "I've been working all day",
+  "objetivo_pt": "Usar o present perfect continuous para ações que continuam até agora.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você tem feito ultimamente. Use \"I've been + verbo-ing\".",
+    "papel_professor": "Pergunte What have you been doing lately? Why are you tired? How long have you been studying English? Ensine have been + -ing para atividades em andamento até agora.",
+    "abertura": "You look tired! What have you been doing?",
+    "abertura_pt": "Você parece cansado! O que você tem feito?"
+  },
+  "vocabulario": [
+    {
+      "id": "been-ing",
+      "en": "have been + -ing",
+      "pt": "tenho/está fazendo (até agora)",
+      "emoji": "🔄",
+      "exemplo_en": "I've been working since 6 a.m.",
+      "exemplo_pt": "Estou trabalhando desde as 6 da manhã."
+    },
+    {
+      "id": "lately",
+      "en": "lately / recently",
+      "pt": "ultimamente / recentemente",
+      "emoji": "🗓️",
+      "exemplo_en": "What have you been doing lately?",
+      "exemplo_pt": "O que você tem feito ultimamente?"
+    },
+    {
+      "id": "all-day",
+      "en": "all day / all morning",
+      "pt": "o dia todo / a manhã toda",
+      "emoji": "☀️",
+      "exemplo_en": "It's been raining all day.",
+      "exemplo_pt": "Está chovendo o dia todo."
+    },
+    {
+      "id": "wait",
+      "en": "wait",
+      "pt": "esperar",
+      "emoji": "⌛",
+      "exemplo_en": "I've been waiting for an hour!",
+      "exemplo_pt": "Estou esperando há uma hora!"
+    },
+    {
+      "id": "study",
+      "en": "study",
+      "pt": "estudar",
+      "emoji": "📖",
+      "exemplo_en": "We've been studying English for six months.",
+      "exemplo_pt": "Estudamos inglês há seis meses."
+    },
+    {
+      "id": "tired",
+      "en": "tired / exhausted",
+      "pt": "cansado / exausto",
+      "emoji": "🥱",
+      "exemplo_en": "I'm exhausted. I've been running.",
+      "exemplo_pt": "Estou exausto. Estava correndo."
+    },
+    {
+      "id": "try-to",
+      "en": "try to",
+      "pt": "tentar",
+      "emoji": "🔧",
+      "exemplo_en": "We've been trying to fix the machine all morning.",
+      "exemplo_pt": "Estamos tentando consertar a máquina a manhã toda."
+    },
+    {
+      "id": "overtime",
+      "en": "work overtime",
+      "pt": "fazer hora extra",
+      "emoji": "🌙",
+      "exemplo_en": "We've been working overtime this month.",
+      "exemplo_pt": "Estamos fazendo hora extra este mês."
+    },
+    {
+      "id": "look-for",
+      "en": "look for",
+      "pt": "procurar",
+      "emoji": "🔎",
+      "exemplo_en": "I've been looking for my keys.",
+      "exemplo_pt": "Estou procurando minhas chaves."
+    },
+    {
+      "id": "dirty",
+      "en": "dirty / covered in",
+      "pt": "sujo / coberto de",
+      "emoji": "🧽",
+      "exemplo_en": "Your hands are dirty. Have you been repairing something?",
+      "exemplo_pt": "Suas mãos estão sujas. Esteve consertando algo?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present perfect continuous",
+    "explicacao_pt": "Formação: HAVE/HAS + BEEN + verbo-ING. I've been working. She's been studying. Usamos para uma ATIVIDADE que começou no passado e continua até agora (ou acabou de parar e vemos o resultado): I've been waiting for an hour. You're wet — have you been running in the rain? Comparação: I've written three e-mails (resultado, quantidade) × I've been writing e-mails all morning (atividade, duração). Verbos de estado (know, like, have = possuir, be) não vão no contínuo: I've known him for years (não 'been knowing').",
+    "tabela": {
+      "colunas": [
+        "Foco",
+        "Forma",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Duração da atividade",
+          "have been + -ing",
+          "I've been studying for two hours."
+        ],
+        [
+          "Resultado / quantidade",
+          "have + particípio",
+          "I've studied three units."
+        ],
+        [
+          "Explicar algo visível",
+          "have been + -ing",
+          "I'm tired because I've been working."
+        ],
+        [
+          "Pergunta",
+          "How long have you been…?",
+          "How long have you been waiting?"
+        ],
+        [
+          "Verbo de estado",
+          "have + particípio",
+          "I've known her since 2010."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "How long have you been waiting? — For twenty minutes.",
+        "pt": "Há quanto tempo você está esperando? — Há vinte minutos."
+      },
+      {
+        "en": "We've been trying to call the supplier all morning, but nobody answers.",
+        "pt": "Estamos tentando ligar para o fornecedor a manhã toda, mas ninguém atende."
+      },
+      {
+        "en": "She's been working overtime, so she's very tired.",
+        "pt": "Ela tem feito hora extra, então está muito cansada."
+      },
+      {
+        "en": "I've been reading this book for a month. I've read 200 pages.",
+        "pt": "Estou lendo este livro há um mês. Já li 200 páginas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A long day",
+    "falas": [
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "You look exhausted. What have you been doing?",
+        "pt": "Você parece exausto. O que você andou fazendo?"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "Line 2 has been stopping all day. We've been trying to find the problem since seven.",
+        "pt": "A linha 2 ficou parando o dia todo. Estamos tentando achar o problema desde as sete."
+      },
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "Have you found it?",
+        "pt": "Vocês acharam?"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "Yes, finally. A sensor was broken. We've changed it, and the line has been running well since four.",
+        "pt": "Sim, finalmente. Um sensor estava quebrado. Trocamos e a linha está rodando bem desde as quatro."
+      },
+      {
+        "personagem": "Wife",
+        "voz": "a",
+        "en": "Good. And you've been working overtime all week…",
+        "pt": "Que bom. E você fez hora extra a semana toda…"
+      },
+      {
+        "personagem": "Husband",
+        "voz": "b",
+        "en": "I know. I've been thinking about asking for a day off.",
+        "pt": "Eu sei. Estou pensando em pedir uma folga."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What has line 2 been doing all day?",
+        "opcoes": [
+          "Running well",
+          "Stopping",
+          "Producing more"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Since when have they been trying to find the problem?",
+        "opcoes": [
+          "Since seven",
+          "Since four",
+          "Since Monday"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "A broken sensor",
+          "A broken belt",
+          "No electricity"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What has he been thinking about?",
+        "opcoes": [
+          "Changing jobs",
+          "Asking for a day off",
+          "Buying a new car"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u02l3-p1",
+      "tipo": "completar",
+      "frase": "I've ___ working since 6 a.m.",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b1u02l3-p2",
+      "tipo": "completar",
+      "frase": "I've been ___ for an hour! (esperando)",
+      "respostas": [
+        "waiting"
+      ]
+    },
+    {
+      "id": "b1u02l3-p3",
+      "tipo": "completar",
+      "frase": "How long have you been ___ English? (estudando)",
+      "respostas": [
+        "studying"
+      ]
+    },
+    {
+      "id": "b1u02l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Verbo de estado:",
+      "opcoes": [
+        "I've been knowing him for years.",
+        "I've known him for years."
+      ],
+      "correta": 1,
+      "explicacao_pt": "'Know' é verbo de estado: não usamos no contínuo."
+    },
+    {
+      "id": "b1u02l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Foco na quantidade:",
+      "opcoes": [
+        "I've been writing three e-mails.",
+        "I've written three e-mails."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u02l3-p6",
+      "tipo": "ordenar",
+      "frase": "It's been raining all day",
+      "traducao_pt": "Está chovendo o dia todo"
+    },
+    {
+      "id": "b1u02l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We've been working overtime this month.",
+      "aceitas": [
+        "We have been working overtime this month."
+      ]
+    },
+    {
+      "id": "b1u02l3-p8",
+      "tipo": "traduzir",
+      "pt": "Estou procurando minhas chaves.",
+      "respostas": [
+        "I've been looking for my keys.",
+        "I'm looking for my keys.",
+        "I have been looking for my keys."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor 3 coisas que você tem feito ultimamente (no trabalho, em casa, nos estudos) e há quanto tempo.",
+    "papel_professor": "Pergunte What have you been doing lately? How long have you been…? Peça também um resultado (How many… have you…?). Corrija o contraste contínuo × simples.",
+    "abertura": "So, what have you been doing lately? Anything new?",
+    "abertura_pt": "Então, o que você tem feito ultimamente? Alguma novidade?"
+  },
+  "teste": [
+    {
+      "id": "b1u02l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Há quanto tempo você está esperando?\":",
+      "opcoes": [
+        "How long have you been waiting?",
+        "How long are you waiting?",
+        "How long you have waited since?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l3-t2",
+      "tipo": "completar",
+      "frase": "She's been ___ overtime. (fazendo)",
+      "respostas": [
+        "working"
+      ]
+    },
+    {
+      "id": "b1u02l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What have you been doing lately?"
+    },
+    {
+      "id": "b1u02l3-t4",
+      "tipo": "traduzir",
+      "pt": "Estamos tentando consertar a máquina a manhã toda.",
+      "respostas": [
+        "We've been trying to fix the machine all morning.",
+        "We have been trying to fix the machine all morning."
+      ]
+    },
+    {
+      "id": "b1u02l3-t5",
+      "tipo": "ordenar",
+      "frase": "I'm tired because I've been running",
+      "traducao_pt": "Estou cansado porque estava correndo"
+    }
+  ]
+}

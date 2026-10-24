@@ -1,0 +1,349 @@
+{
+  "id": "a2-u07-l2",
+  "nivel": "A2",
+  "unidade": 7,
+  "numero": 2,
+  "titulo": "Up, down, across, through",
+  "objetivo_pt": "Descrever trajetos com preposições de movimento.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever um caminho. Depois, descreva você o caminho da sua casa até o trabalho.",
+    "papel_professor": "Descreva um trajeto curto com preposições de movimento (go up the hill, across the bridge, through the park, past the church). Peça ao aluno para descrever o caminho dele até o trabalho.",
+    "abertura": "To get to my office, I walk through a park and across a bridge. How do you get to work?",
+    "abertura_pt": "Para chegar ao meu escritório, atravesso um parque e uma ponte. Como você chega ao trabalho?"
+  },
+  "vocabulario": [
+    {
+      "id": "up-down",
+      "en": "up / down",
+      "pt": "subindo / descendo",
+      "emoji": "↕️",
+      "exemplo_en": "Walk up the hill.",
+      "exemplo_pt": "Suba a ladeira."
+    },
+    {
+      "id": "across",
+      "en": "across",
+      "pt": "atravessando (de um lado ao outro)",
+      "emoji": "🌉",
+      "exemplo_en": "Walk across the bridge.",
+      "exemplo_pt": "Atravesse a ponte."
+    },
+    {
+      "id": "through",
+      "en": "through",
+      "pt": "através de / por dentro",
+      "emoji": "🌳",
+      "exemplo_en": "Go through the park.",
+      "exemplo_pt": "Passe pelo parque."
+    },
+    {
+      "id": "past",
+      "en": "past",
+      "pt": "passando por",
+      "emoji": "🏃",
+      "exemplo_en": "Go past the church.",
+      "exemplo_pt": "Passe pela igreja."
+    },
+    {
+      "id": "along",
+      "en": "along",
+      "pt": "ao longo de",
+      "emoji": "🛣️",
+      "exemplo_en": "Walk along the river.",
+      "exemplo_pt": "Caminhe ao longo do rio."
+    },
+    {
+      "id": "into-out",
+      "en": "into / out of",
+      "pt": "para dentro / para fora de",
+      "emoji": "🚪",
+      "exemplo_en": "Go into the building.",
+      "exemplo_pt": "Entre no prédio."
+    },
+    {
+      "id": "towards",
+      "en": "towards",
+      "pt": "em direção a",
+      "emoji": "🧭",
+      "exemplo_en": "Walk towards the station.",
+      "exemplo_pt": "Caminhe em direção à estação."
+    },
+    {
+      "id": "bridge",
+      "en": "bridge",
+      "pt": "ponte",
+      "emoji": "🌉",
+      "exemplo_en": "There is a long bridge.",
+      "exemplo_pt": "Há uma ponte longa."
+    },
+    {
+      "id": "hill",
+      "en": "hill",
+      "pt": "ladeira / morro",
+      "emoji": "⛰️",
+      "exemplo_en": "My house is at the top of the hill.",
+      "exemplo_pt": "Minha casa fica no alto do morro."
+    },
+    {
+      "id": "roundabout",
+      "en": "roundabout",
+      "pt": "rotatória",
+      "emoji": "🔄",
+      "exemplo_en": "Take the second exit at the roundabout.",
+      "exemplo_pt": "Pegue a segunda saída na rotatória."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Preposições de movimento",
+    "explicacao_pt": "Preposições de movimento mostram a direção: UP/DOWN (subir/descer: up the stairs), ACROSS (atravessar uma superfície: across the street/bridge), THROUGH (por dentro: through the park/tunnel), PAST (passar por algo, sem parar: past the bank), ALONG (ao longo: along the beach), INTO/OUT OF (entrar/sair: into the office), TOWARDS (em direção a). Usamos com verbos de movimento: go, walk, drive, run.",
+    "tabela": {
+      "colunas": [
+        "Preposição",
+        "Imagem",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "up / down",
+          "↕️",
+          "Go up the stairs."
+        ],
+        [
+          "across",
+          "de um lado ao outro",
+          "Walk across the bridge."
+        ],
+        [
+          "through",
+          "por dentro",
+          "Drive through the tunnel."
+        ],
+        [
+          "past",
+          "passar sem parar",
+          "Go past the school."
+        ],
+        [
+          "along",
+          "ao longo",
+          "Walk along the beach."
+        ],
+        [
+          "into / out of",
+          "entrar / sair",
+          "Go into the shop."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Walk along the river and go across the second bridge.",
+        "pt": "Caminhe ao longo do rio e atravesse a segunda ponte."
+      },
+      {
+        "en": "Drive through the tunnel and take the first exit.",
+        "pt": "Passe pelo túnel e pegue a primeira saída."
+      },
+      {
+        "en": "Go past the gas station. The factory is on the left.",
+        "pt": "Passe o posto de gasolina. A fábrica fica à esquerda."
+      },
+      {
+        "en": "Go into the main building and take the stairs up to the second floor.",
+        "pt": "Entre no prédio principal e suba a escada até o segundo andar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Directions to the factory",
+    "falas": [
+      {
+        "personagem": "Driver",
+        "voz": "a",
+        "en": "Hi, I'm bringing a delivery. How do I get to your factory from the highway?",
+        "pt": "Oi, estou trazendo uma entrega. Como chego à sua fábrica pela rodovia?"
+      },
+      {
+        "personagem": "Guard",
+        "voz": "b",
+        "en": "Take exit 42. At the roundabout, take the second exit.",
+        "pt": "Pegue a saída 42. Na rotatória, pegue a segunda saída."
+      },
+      {
+        "personagem": "Driver",
+        "voz": "a",
+        "en": "OK, second exit. Then?",
+        "pt": "OK, segunda saída. E depois?"
+      },
+      {
+        "personagem": "Guard",
+        "voz": "b",
+        "en": "Drive along the river for one kilometer and go across the small bridge.",
+        "pt": "Siga ao longo do rio por um quilômetro e atravesse a pontezinha."
+      },
+      {
+        "personagem": "Driver",
+        "voz": "a",
+        "en": "Got it.",
+        "pt": "Entendi."
+      },
+      {
+        "personagem": "Guard",
+        "voz": "b",
+        "en": "Go past a gas station. Our gate is on the right, opposite a big warehouse.",
+        "pt": "Passe um posto de gasolina. Nosso portão fica à direita, em frente a um armazém grande."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07l2-e1",
+        "tipo": "multipla",
+        "enunciado": "Which exit from the highway?",
+        "opcoes": [
+          "Exit 24",
+          "Exit 42",
+          "Exit 4"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What does the driver do at the roundabout?",
+        "opcoes": [
+          "Takes the first exit",
+          "Takes the second exit",
+          "Turns back"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Where is the gate?",
+        "opcoes": [
+          "On the left, next to the bridge",
+          "On the right, opposite a warehouse",
+          "Behind the gas station"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u07l2-p1",
+      "tipo": "completar",
+      "frase": "Walk ___ the bridge. (atravessando)",
+      "respostas": [
+        "across"
+      ]
+    },
+    {
+      "id": "a2u07l2-p2",
+      "tipo": "completar",
+      "frase": "Go ___ the park. (por dentro)",
+      "respostas": [
+        "through"
+      ]
+    },
+    {
+      "id": "a2u07l2-p3",
+      "tipo": "completar",
+      "frase": "Go ___ the church. Don't stop. (passando por)",
+      "respostas": [
+        "past"
+      ]
+    },
+    {
+      "id": "a2u07l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Ao longo do rio\":",
+      "opcoes": [
+        "along the river",
+        "across the river",
+        "through the river"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Rotatória\":",
+      "opcoes": [
+        "roundabout",
+        "round street",
+        "circle way"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l2-p6",
+      "tipo": "ordenar",
+      "frase": "Go into the main building",
+      "traducao_pt": "Entre no prédio principal"
+    },
+    {
+      "id": "a2u07l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Walk up the hill."
+    },
+    {
+      "id": "a2u07l2-p8",
+      "tipo": "traduzir",
+      "pt": "Passe pelo túnel.",
+      "respostas": [
+        "Drive through the tunnel.",
+        "Go through the tunnel."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Um motorista de caminhão vai trazer uma entrega para sua empresa. Explique o caminho desde a rodovia até o portão.",
+    "papel_professor": "Faça o papel de motorista de caminhão estrangeiro. Peça o caminho até a empresa do aluno e repita as instruções. Incentive preposições de movimento (along, across, past, through) e roundabout/exit.",
+    "abertura": "Hello! I'm the truck driver with your delivery. I'm on the highway now. How do I get to you?",
+    "abertura_pt": "Olá! Sou o motorista com a sua entrega. Estou na rodovia agora. Como chego até vocês?"
+  },
+  "teste": [
+    {
+      "id": "a2u07l2-t1",
+      "tipo": "completar",
+      "frase": "Walk ___ the beach. (ao longo)",
+      "respostas": [
+        "along"
+      ]
+    },
+    {
+      "id": "a2u07l2-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Suba a escada\":",
+      "opcoes": [
+        "Go up the stairs.",
+        "Go down the stairs.",
+        "Go across the stairs."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Take the second exit at the roundabout."
+    },
+    {
+      "id": "a2u07l2-t4",
+      "tipo": "traduzir",
+      "pt": "Atravesse a ponte.",
+      "respostas": [
+        "Walk across the bridge.",
+        "Go across the bridge.",
+        "Cross the bridge."
+      ]
+    },
+    {
+      "id": "a2u07l2-t5",
+      "tipo": "ordenar",
+      "frase": "Go past the gas station",
+      "traducao_pt": "Passe o posto de gasolina"
+    }
+  ]
+}

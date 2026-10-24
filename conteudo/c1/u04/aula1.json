@@ -1,0 +1,360 @@
+{
+  "id": "c1-u04-l1",
+  "nivel": "C1",
+  "unidade": 4,
+  "numero": 1,
+  "titulo": "Building an argument",
+  "objetivo_pt": "Construir um argumento sólido: tese, razões, evidências e exemplos.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar um tema polêmico. Apresente sua posição com uma tese clara, duas razões e um exemplo.",
+    "papel_professor": "Dê um tema (Should companies replace workers with robots?). Ensine a estrutura PEEL/ARE (point, evidence, example, link) e conectores de argumento (Firstly, What's more, For instance, This shows that…). Corrija.",
+    "abertura": "Here's the topic: 'Automation is good for workers.' What's your position, and why?",
+    "abertura_pt": "O tema é: \"A automação é boa para os trabalhadores.\" Qual é sua posição e por quê?"
+  },
+  "vocabulario": [
+    {
+      "id": "claim",
+      "en": "claim / thesis",
+      "pt": "tese / afirmação central",
+      "emoji": "🎯",
+      "exemplo_en": "My main claim is that automation creates better jobs.",
+      "exemplo_pt": "Minha tese principal é que a automação cria empregos melhores."
+    },
+    {
+      "id": "firstly",
+      "en": "Firstly, … / Secondly, …",
+      "pt": "Em primeiro lugar, … / Em segundo, …",
+      "emoji": "1️⃣",
+      "exemplo_en": "Firstly, it improves safety.",
+      "exemplo_pt": "Em primeiro lugar, melhora a segurança."
+    },
+    {
+      "id": "whats-more",
+      "en": "What's more, … / On top of that, …",
+      "pt": "Além disso, … / Ainda por cima, …",
+      "emoji": "➕",
+      "exemplo_en": "What's more, it reduces costs.",
+      "exemplo_pt": "Além disso, reduz custos."
+    },
+    {
+      "id": "for-instance",
+      "en": "For instance, … / Take … for example",
+      "pt": "Por exemplo, …",
+      "emoji": "📌",
+      "exemplo_en": "Take our welding area, for example.",
+      "exemplo_pt": "Veja nossa área de solda, por exemplo."
+    },
+    {
+      "id": "evidence-l1",
+      "en": "evidence suggests / research shows",
+      "pt": "evidências sugerem / pesquisas mostram",
+      "emoji": "📚",
+      "exemplo_en": "Research shows that robots reduce injuries.",
+      "exemplo_pt": "Pesquisas mostram que robôs reduzem lesões."
+    },
+    {
+      "id": "this-shows",
+      "en": "This shows / demonstrates that…",
+      "pt": "Isso mostra / demonstra que…",
+      "emoji": "✅",
+      "exemplo_en": "This shows that the risk is low.",
+      "exemplo_pt": "Isso mostra que o risco é baixo."
+    },
+    {
+      "id": "therefore-l1",
+      "en": "Therefore / Consequently",
+      "pt": "Portanto / Consequentemente",
+      "emoji": "➡️",
+      "exemplo_en": "Therefore, we should invest now.",
+      "exemplo_pt": "Portanto, devemos investir agora."
+    },
+    {
+      "id": "valid",
+      "en": "valid / sound argument",
+      "pt": "argumento válido / sólido",
+      "emoji": "🧱",
+      "exemplo_en": "That's a sound argument.",
+      "exemplo_pt": "Esse é um argumento sólido."
+    },
+    {
+      "id": "generalization",
+      "en": "sweeping generalization",
+      "pt": "generalização exagerada",
+      "emoji": "🌪️",
+      "exemplo_en": "That's a sweeping generalization.",
+      "exemplo_pt": "Isso é uma generalização exagerada."
+    },
+    {
+      "id": "stance",
+      "en": "take a stance / position",
+      "pt": "tomar posição",
+      "emoji": "🧍",
+      "exemplo_en": "I'd like to take a clear stance on this.",
+      "exemplo_pt": "Gostaria de tomar uma posição clara sobre isso."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura de um argumento",
+    "explicacao_pt": "Um bom argumento segue: 1) TESE (posição clara): I firmly believe that… / My position is that… 2) RAZÃO: Firstly, … because… 3) EVIDÊNCIA: Research shows / Data suggests / According to… 4) EXEMPLO: For instance, … / Take … for example. 5) LIGAÇÃO à tese: This shows that… / Therefore, … Repita com uma segunda razão (Secondly, / What's more,). Evite generalizações absolutas (All workers hate robots) — use quantificadores: many, most, in most cases, tend to.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Tese",
+          "I firmly believe that…",
+          "I firmly believe that automation is positive."
+        ],
+        [
+          "Razão",
+          "Firstly, … because…",
+          "Firstly, it removes dangerous tasks."
+        ],
+        [
+          "Evidência",
+          "Research shows that…",
+          "Research shows injuries fall by 30%."
+        ],
+        [
+          "Exemplo",
+          "Take … for example.",
+          "Take our paint shop, for example."
+        ],
+        [
+          "Ligação",
+          "This shows that…",
+          "This shows that people benefit too."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I firmly believe that automation, if well managed, is good for workers.",
+        "pt": "Acredito firmemente que a automação, se bem gerida, é boa para os trabalhadores."
+      },
+      {
+        "en": "Firstly, robots take over the most dangerous and repetitive tasks.",
+        "pt": "Em primeiro lugar, robôs assumem as tarefas mais perigosas e repetitivas."
+      },
+      {
+        "en": "Take our welding area, for example: since we installed two robots, injuries have fallen by 60%.",
+        "pt": "Veja nossa área de solda, por exemplo: desde que instalamos dois robôs, as lesões caíram 60%."
+      },
+      {
+        "en": "This shows that technology can protect people rather than replace them.",
+        "pt": "Isso mostra que a tecnologia pode proteger as pessoas em vez de substituí-las."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Opening statement",
+    "falas": [
+      {
+        "personagem": "Moderator",
+        "voz": "a",
+        "en": "Our topic tonight: should all factories move to a four-day week? First speaker, please.",
+        "pt": "Nosso tema hoje: todas as fábricas deveriam adotar a semana de quatro dias? Primeiro orador, por favor."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "Thank you. I firmly believe that a four-day week would benefit both companies and workers.",
+        "pt": "Obrigado. Acredito firmemente que a semana de quatro dias beneficiaria empresas e trabalhadores."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "Firstly, rested workers make fewer mistakes. Research from several countries shows that productivity per hour increases.",
+        "pt": "Em primeiro lugar, trabalhadores descansados erram menos. Pesquisas de vários países mostram que a produtividade por hora aumenta."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "Take the Iceland trials, for example: productivity stayed the same or improved in most workplaces.",
+        "pt": "Vejam os testes na Islândia, por exemplo: a produtividade se manteve ou melhorou na maioria dos locais."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "What's more, companies offering a shorter week find it much easier to attract talent.",
+        "pt": "Além disso, empresas que oferecem semana mais curta acham muito mais fácil atrair talentos."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "This shows that a four-day week is not a cost, but an investment.",
+        "pt": "Isso mostra que a semana de quatro dias não é um custo, mas um investimento."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the topic of the debate?",
+        "opcoes": [
+          "A four-day week",
+          "Higher salaries",
+          "Robots"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the first reason given?",
+        "opcoes": [
+          "Rested workers make fewer mistakes.",
+          "Workers earn more.",
+          "Factories save energy."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What example does the speaker give?",
+        "opcoes": [
+          "The Iceland trials",
+          "A Brazilian factory",
+          "A study in Japan"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the second reason?",
+        "opcoes": [
+          "It is easier to attract talent.",
+          "It is cheaper.",
+          "Customers prefer it."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u04l1-p1",
+      "tipo": "completar",
+      "frase": "I ___ believe that automation is positive. (firmemente)",
+      "respostas": [
+        "firmly"
+      ]
+    },
+    {
+      "id": "c1u04l1-p2",
+      "tipo": "completar",
+      "frase": "What's ___, it reduces costs. (além disso)",
+      "respostas": [
+        "more"
+      ]
+    },
+    {
+      "id": "c1u04l1-p3",
+      "tipo": "completar",
+      "frase": "Take our welding area, for ___.",
+      "respostas": [
+        "example"
+      ]
+    },
+    {
+      "id": "c1u04l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Evitar generalização:",
+      "opcoes": [
+        "In most cases, workers adapt well.",
+        "All workers always love robots."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Isso mostra que o risco é baixo\":",
+      "opcoes": [
+        "This shows that the risk is low.",
+        "This is showing the risk low.",
+        "This shows the risk is lowly."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l1-p6",
+      "tipo": "ordenar",
+      "frase": "Research shows that robots reduce injuries",
+      "traducao_pt": "Pesquisas mostram que robôs reduzem lesões"
+    },
+    {
+      "id": "c1u04l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "That's a sweeping generalization.",
+      "aceitas": [
+        "That is a sweeping generalization."
+      ]
+    },
+    {
+      "id": "c1u04l1-p8",
+      "tipo": "traduzir",
+      "pt": "Gostaria de tomar uma posição clara sobre isso.",
+      "respostas": [
+        "I'd like to take a clear stance on this.",
+        "I would like to take a clear stance on this.",
+        "I'd like to take a clear position on this."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça uma \"declaração de abertura\" de 1–2 minutos sobre um tema polêmico escolhido pelo professor, com tese, duas razões, evidência e exemplo.",
+    "papel_professor": "Escolha um tema (Should English be mandatory for promotion?). Ouça a declaração e avalie a estrutura (tese, razões, evidência, exemplo, ligação). Corrija generalizações e conectores.",
+    "abertura": "Topic: 'English should be a requirement for all promotions in industry.' You have the floor.",
+    "abertura_pt": "Tema: \"Inglês deveria ser requisito para todas as promoções na indústria.\" A palavra é sua."
+  },
+  "teste": [
+    {
+      "id": "c1u04l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Tese clara:",
+      "opcoes": [
+        "My position is that English should be required.",
+        "Maybe English, I don't know.",
+        "English is a language."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l1-t2",
+      "tipo": "completar",
+      "frase": "That's a ___ argument. (sólido)",
+      "respostas": [
+        "sound",
+        "valid",
+        "strong"
+      ]
+    },
+    {
+      "id": "c1u04l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Therefore, we should invest now."
+    },
+    {
+      "id": "c1u04l1-t4",
+      "tipo": "traduzir",
+      "pt": "Em primeiro lugar, melhora a segurança.",
+      "respostas": [
+        "Firstly, it improves safety.",
+        "First of all, it improves safety.",
+        "First, it improves safety."
+      ]
+    },
+    {
+      "id": "c1u04l1-t5",
+      "tipo": "ordenar",
+      "frase": "This shows that people benefit too",
+      "traducao_pt": "Isso mostra que as pessoas também se beneficiam"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "id": "c1-u01-l3",
+  "nivel": "C1",
+  "unidade": 1,
+  "numero": 3,
+  "titulo": "Never have I seen…",
+  "objetivo_pt": "Usar inversão negativa (Never have I…, Not only… but also…, Rarely do we…) em contextos formais.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer frases comuns. Reescreva-as com inversão para soar mais forte e formal: \"Never have I…\", \"Not only did we…\".",
+    "papel_professor": "Dê frases (I have never seen such results. We rarely receive complaints. We not only reduced costs but also improved quality.) e peça inversões. Explique que é formal/retórico. Corrija a ordem auxiliar + sujeito.",
+    "abertura": "Make this more emphatic: 'I have never seen such a clean factory.'",
+    "abertura_pt": "Deixe mais enfática: \"Nunca vi uma fábrica tão limpa.\""
+  },
+  "vocabulario": [
+    {
+      "id": "never-have",
+      "en": "Never have I…",
+      "pt": "Nunca eu…",
+      "emoji": "🚫",
+      "exemplo_en": "Never have I seen such commitment.",
+      "exemplo_pt": "Nunca vi tamanho comprometimento."
+    },
+    {
+      "id": "rarely",
+      "en": "Rarely / Seldom do we…",
+      "pt": "Raramente nós…",
+      "emoji": "🐢",
+      "exemplo_en": "Rarely do we receive complaints.",
+      "exemplo_pt": "Raramente recebemos reclamações."
+    },
+    {
+      "id": "not-only",
+      "en": "Not only… but also…",
+      "pt": "Não só… mas também…",
+      "emoji": "➕",
+      "exemplo_en": "Not only did we cut costs, but we also improved quality.",
+      "exemplo_pt": "Não só cortamos custos, como também melhoramos a qualidade."
+    },
+    {
+      "id": "under-no",
+      "en": "Under no circumstances…",
+      "pt": "Em nenhuma circunstância…",
+      "emoji": "⛔",
+      "exemplo_en": "Under no circumstances should you open this valve.",
+      "exemplo_pt": "Em nenhuma circunstância você deve abrir esta válvula."
+    },
+    {
+      "id": "only-when",
+      "en": "Only when… / Only after…",
+      "pt": "Só quando… / Só depois que…",
+      "emoji": "⏱️",
+      "exemplo_en": "Only when the line stopped did we realize the risk.",
+      "exemplo_pt": "Só quando a linha parou é que percebemos o risco."
+    },
+    {
+      "id": "no-sooner",
+      "en": "No sooner had… than…",
+      "pt": "Mal… e já…",
+      "emoji": "⚡",
+      "exemplo_en": "No sooner had we started than the alarm went off.",
+      "exemplo_pt": "Mal começamos e o alarme disparou."
+    },
+    {
+      "id": "hardly",
+      "en": "Hardly had… when…",
+      "pt": "Mal… quando…",
+      "emoji": "🫨",
+      "exemplo_en": "Hardly had I arrived when the phone rang.",
+      "exemplo_pt": "Mal cheguei quando o telefone tocou."
+    },
+    {
+      "id": "little-did",
+      "en": "Little did we know…",
+      "pt": "Mal sabíamos…",
+      "emoji": "🤫",
+      "exemplo_en": "Little did we know that the market would collapse.",
+      "exemplo_pt": "Mal sabíamos que o mercado iria desabar."
+    },
+    {
+      "id": "at-no-time",
+      "en": "At no time…",
+      "pt": "Em momento algum…",
+      "emoji": "🕳️",
+      "exemplo_en": "At no time was the public at risk.",
+      "exemplo_pt": "Em momento algum o público esteve em risco."
+    },
+    {
+      "id": "on-no-account",
+      "en": "On no account…",
+      "pt": "De forma alguma…",
+      "emoji": "❌",
+      "exemplo_en": "On no account must this information be shared.",
+      "exemplo_pt": "De forma alguma esta informação deve ser compartilhada."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Inversão negativa",
+    "explicacao_pt": "Quando uma expressão NEGATIVA ou RESTRITIVA vem no INÍCIO da frase, invertemos sujeito e auxiliar (como numa pergunta): I have never seen → Never have I seen. We rarely receive → Rarely do we receive. We not only cut costs → Not only did we cut costs, but we also… Sem auxiliar no original, use do/does/did. Com 'Only when/after/if', a inversão vai na SEGUNDA oração: Only when the line stopped DID WE realize… Uso: formal, discursos, relatórios, apresentações. Na conversa comum, soa exagerado — use com moderação.",
+    "tabela": {
+      "colunas": [
+        "Normal",
+        "Com inversão",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "I've never seen such results.",
+          "Never have I seen such results.",
+          "Nunca vi tais resultados."
+        ],
+        [
+          "We rarely make mistakes.",
+          "Rarely do we make mistakes.",
+          "Raramente cometemos erros."
+        ],
+        [
+          "We cut costs and improved quality.",
+          "Not only did we cut costs, but we also improved quality.",
+          "Não só cortamos custos, como melhoramos a qualidade."
+        ],
+        [
+          "You must never open it.",
+          "Under no circumstances must you open it.",
+          "Em nenhuma circunstância abra."
+        ],
+        [
+          "We realized only when it stopped.",
+          "Only when it stopped did we realize.",
+          "Só quando parou é que percebemos."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Never before has our plant achieved such a high level of safety.",
+        "pt": "Nunca antes nossa fábrica atingiu um nível tão alto de segurança."
+      },
+      {
+        "en": "Not only did the new process reduce waste, but it also cut energy use by 20%.",
+        "pt": "O novo processo não só reduziu o desperdício, como também cortou o uso de energia em 20%."
+      },
+      {
+        "en": "Under no circumstances should the safety guard be removed while the machine is running.",
+        "pt": "Em nenhuma circunstância a proteção deve ser removida com a máquina em funcionamento."
+      },
+      {
+        "en": "Little did we know that this small project would change the whole company.",
+        "pt": "Mal sabíamos que este pequeno projeto mudaria a empresa inteira."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A speech at the awards ceremony",
+    "falas": [
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Good evening, everyone. Never in our forty-year history have we had a year like this.",
+        "pt": "Boa noite a todos. Nunca em nossos quarenta anos de história tivemos um ano como este."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Not only did we break our production record, but we also achieved zero accidents for the first time.",
+        "pt": "Não só batemos nosso recorde de produção, como também atingimos zero acidentes pela primeira vez."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Little did we know, when we started the safety program three years ago, how much it would change our culture.",
+        "pt": "Mal sabíamos, quando começamos o programa de segurança há três anos, o quanto ele mudaria nossa cultura."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "Rarely do I see such commitment from every single person in a company.",
+        "pt": "Raramente vejo tamanho comprometimento de cada pessoa numa empresa."
+      },
+      {
+        "personagem": "CEO",
+        "voz": "a",
+        "en": "And only when we work together, as we did this year, can we achieve results like these. Thank you all.",
+        "pt": "E só quando trabalhamos juntos, como fizemos este ano, conseguimos alcançar resultados como estes. Obrigado a todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How old is the company?",
+        "opcoes": [
+          "Twenty years",
+          "Forty years",
+          "Sixty years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What did they break?",
+        "opcoes": [
+          "Their production record",
+          "Their sales record",
+          "A machine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What did they achieve for the first time?",
+        "opcoes": [
+          "Zero accidents",
+          "Zero complaints",
+          "Zero waste"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01l3-e4",
+        "tipo": "multipla",
+        "enunciado": "When did the safety program start?",
+        "opcoes": [
+          "Last year",
+          "Three years ago",
+          "Ten years ago"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u01l3-p1",
+      "tipo": "completar",
+      "frase": "Never ___ I seen such commitment.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "c1u01l3-p2",
+      "tipo": "completar",
+      "frase": "Rarely ___ we receive complaints.",
+      "respostas": [
+        "do"
+      ]
+    },
+    {
+      "id": "c1u01l3-p3",
+      "tipo": "completar",
+      "frase": "Not only ___ we cut costs, but we also improved quality.",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "c1u01l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Inversão correta:",
+      "opcoes": [
+        "Never I have seen such results.",
+        "Never have I seen such results.",
+        "Never seen have I such results."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "c1u01l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Só quando a linha parou é que percebemos\":",
+      "opcoes": [
+        "Only when the line stopped did we realize.",
+        "Only when did the line stop we realized.",
+        "Only when the line stopped we did realize."
+      ],
+      "correta": 0,
+      "explicacao_pt": "Com 'Only when', a inversão vai na segunda oração."
+    },
+    {
+      "id": "c1u01l3-p6",
+      "tipo": "ordenar",
+      "frase": "Under no circumstances should you open this valve",
+      "traducao_pt": "Em nenhuma circunstância abra esta válvula"
+    },
+    {
+      "id": "c1u01l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Little did we know that the market would collapse."
+    },
+    {
+      "id": "c1u01l3-p8",
+      "tipo": "traduzir",
+      "pt": "Em momento algum o público esteve em risco.",
+      "respostas": [
+        "At no time was the public at risk.",
+        "At no time were the public at risk."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça um discurso curto (1–2 minutos) ao professor, como se fosse numa cerimônia de premiação da sua equipe ou empresa, usando pelo menos 4 inversões (Never have we…, Not only did…, Rarely do…, Little did we know…).",
+    "papel_professor": "Ouça o discurso e reaja como plateia. Depois peça para o aluno reformular 2 frases neutras com inversão. Corrija a ordem auxiliar + sujeito e comente o efeito retórico.",
+    "abertura": "Ladies and gentlemen, please welcome our next speaker! The stage is yours.",
+    "abertura_pt": "Senhoras e senhores, recebam nosso próximo orador! O palco é seu."
+  },
+  "teste": [
+    {
+      "id": "c1u01l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Mal começamos e o alarme disparou:",
+      "opcoes": [
+        "No sooner had we started than the alarm went off.",
+        "No sooner we had started when the alarm went off.",
+        "No sooner did we started than the alarm."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u01l3-t2",
+      "tipo": "completar",
+      "frase": "On no ___ must this information be shared. (de forma alguma)",
+      "respostas": [
+        "account"
+      ]
+    },
+    {
+      "id": "c1u01l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Hardly had I arrived when the phone rang."
+    },
+    {
+      "id": "c1u01l3-t4",
+      "tipo": "traduzir",
+      "pt": "Nunca antes nossa fábrica atingiu tal nível de segurança.",
+      "respostas": [
+        "Never before has our plant achieved such a level of safety.",
+        "Never before has our plant reached such a level of safety.",
+        "Never before has our factory achieved such a level of safety."
+      ]
+    },
+    {
+      "id": "c1u01l3-t5",
+      "tipo": "ordenar",
+      "frase": "Rarely do we make mistakes",
+      "traducao_pt": "Raramente cometemos erros"
+    }
+  ]
+}

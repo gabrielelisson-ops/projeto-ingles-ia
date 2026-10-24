@@ -1,0 +1,345 @@
+{
+  "id": "a2-u02-l2",
+  "nivel": "A2",
+  "unidade": 2,
+  "numero": 2,
+  "titulo": "When I was a child",
+  "objetivo_pt": "Falar da sua infância: onde nasceu, onde cresceu e o que fazia.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre a sua infância. Use \"I was born in…\", \"I grew up in…\".",
+    "papel_professor": "Pergunte onde o aluno nasceu, onde cresceu, como era a escola e o que gostava de fazer. Use was born, grew up, went to school. Corrija \"I born\" → \"I was born\".",
+    "abertura": "Where were you born?",
+    "abertura_pt": "Onde você nasceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "born",
+      "en": "be born → was born",
+      "pt": "nascer → nasceu",
+      "emoji": "👶",
+      "exemplo_en": "I was born in Recife.",
+      "exemplo_pt": "Eu nasci em Recife."
+    },
+    {
+      "id": "grow-up",
+      "en": "grow up → grew up",
+      "pt": "crescer → cresceu",
+      "emoji": "🌱",
+      "exemplo_en": "I grew up in a small town.",
+      "exemplo_pt": "Cresci numa cidade pequena."
+    },
+    {
+      "id": "child",
+      "en": "child / childhood",
+      "pt": "criança / infância",
+      "emoji": "🧒",
+      "exemplo_en": "When I was a child, I played outside.",
+      "exemplo_pt": "Quando eu era criança, brincava na rua."
+    },
+    {
+      "id": "school",
+      "en": "primary school",
+      "pt": "escola primária",
+      "emoji": "🏫",
+      "exemplo_en": "I went to a public school.",
+      "exemplo_pt": "Estudei numa escola pública."
+    },
+    {
+      "id": "town",
+      "en": "town / countryside",
+      "pt": "cidade pequena / interior",
+      "emoji": "🏡",
+      "exemplo_en": "We lived in the countryside.",
+      "exemplo_pt": "Morávamos no interior."
+    },
+    {
+      "id": "neighbor",
+      "en": "neighbor",
+      "pt": "vizinho",
+      "emoji": "👋",
+      "exemplo_en": "Our neighbors were very kind.",
+      "exemplo_pt": "Nossos vizinhos eram muito gentis."
+    },
+    {
+      "id": "ride",
+      "en": "ride → rode",
+      "pt": "andar (de bicicleta, cavalo) → andou",
+      "emoji": "🚲",
+      "exemplo_en": "I rode my bike every day.",
+      "exemplo_pt": "Eu andava de bicicleta todo dia."
+    },
+    {
+      "id": "swim",
+      "en": "swim → swam",
+      "pt": "nadar → nadou",
+      "emoji": "🏊",
+      "exemplo_en": "We swam in the river.",
+      "exemplo_pt": "Nadávamos no rio."
+    },
+    {
+      "id": "move",
+      "en": "move",
+      "pt": "mudar (de casa)",
+      "emoji": "📦",
+      "exemplo_en": "We moved to São Paulo in 1998.",
+      "exemplo_pt": "Nos mudamos para São Paulo em 1998."
+    },
+    {
+      "id": "best-friend",
+      "en": "best friend",
+      "pt": "melhor amigo",
+      "emoji": "🤝",
+      "exemplo_en": "My best friend lived next door.",
+      "exemplo_pt": "Meu melhor amigo morava ao lado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Was born, grew up e datas",
+    "explicacao_pt": "Para dizer onde nasceu, use 'I WAS born' (nunca 'I born' nem 'I am born'): I was born in 1988 / in Recife / on May 5th. Para crescer: grow up → grew up. Muitos verbos da infância são irregulares: ride → rode, swim → swam, have → had, go → went. Datas: in 1990 (ano), in May (mês), on May 5th (dia). Anos em inglês se leem em pares: 1988 = nineteen eighty-eight; 2005 = two thousand and five.",
+    "tabela": {
+      "colunas": [
+        "Quero dizer",
+        "Inglês",
+        "Cuidado"
+      ],
+      "linhas": [
+        [
+          "Eu nasci em…",
+          "I was born in…",
+          "sempre com was"
+        ],
+        [
+          "Cresci em…",
+          "I grew up in…",
+          "grow → grew"
+        ],
+        [
+          "Mudamos para…",
+          "We moved to…",
+          "move é regular"
+        ],
+        [
+          "Em 1995",
+          "in 1995",
+          "nineteen ninety-five"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I was born in Bahia, but I grew up in São Paulo.",
+        "pt": "Nasci na Bahia, mas cresci em São Paulo."
+      },
+      {
+        "en": "When I was a child, I rode my bike to school.",
+        "pt": "Quando eu era criança, ia de bicicleta para a escola."
+      },
+      {
+        "en": "We moved to Curitiba in 2001.",
+        "pt": "Nos mudamos para Curitiba em 2001."
+      },
+      {
+        "en": "Where did you grow up? — In a small town near the coast.",
+        "pt": "Onde você cresceu? — Numa cidadezinha perto do litoral."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Childhood memories",
+    "falas": [
+      {
+        "personagem": "Zoe",
+        "voz": "a",
+        "en": "Where were you born, Pedro?",
+        "pt": "Onde você nasceu, Pedro?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "I was born in a small town in Minas Gerais, in 1985.",
+        "pt": "Nasci numa cidadezinha em Minas Gerais, em 1985."
+      },
+      {
+        "personagem": "Zoe",
+        "voz": "a",
+        "en": "Did you grow up there?",
+        "pt": "Você cresceu lá?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "Yes, until I was fifteen. Then we moved to Belo Horizonte.",
+        "pt": "Sim, até os quinze anos. Depois nos mudamos para Belo Horizonte."
+      },
+      {
+        "personagem": "Zoe",
+        "voz": "a",
+        "en": "What did you do for fun?",
+        "pt": "O que você fazia para se divertir?"
+      },
+      {
+        "personagem": "Pedro",
+        "voz": "b",
+        "en": "I rode my bike and swam in the river with my best friend.",
+        "pt": "Eu andava de bicicleta e nadava no rio com meu melhor amigo."
+      },
+      {
+        "personagem": "Zoe",
+        "voz": "a",
+        "en": "That sounds lovely.",
+        "pt": "Que lindo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02l2-e1",
+        "tipo": "multipla",
+        "enunciado": "When was Pedro born?",
+        "opcoes": [
+          "1985",
+          "1995",
+          "1958"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u02l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How old was he when they moved?",
+        "opcoes": [
+          "Ten",
+          "Fifteen",
+          "Fifty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What did he do for fun?",
+        "opcoes": [
+          "Played soccer",
+          "Rode his bike and swam",
+          "Watched TV"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u02l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ born in 1990.",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "a2u02l2-p2",
+      "tipo": "completar",
+      "frase": "She ___ up in Rio. (grow)",
+      "respostas": [
+        "grew"
+      ]
+    },
+    {
+      "id": "a2u02l2-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Eu nasci em Natal\":",
+      "opcoes": [
+        "I born in Natal.",
+        "I was born in Natal.",
+        "I am born in Natal."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"swim\":",
+      "opcoes": [
+        "swimmed",
+        "swam",
+        "swum"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l2-p5",
+      "tipo": "completar",
+      "frase": "We moved to Curitiba ___ 2001.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "a2u02l2-p6",
+      "tipo": "ordenar",
+      "frase": "I grew up in a small town",
+      "traducao_pt": "Cresci numa cidade pequena"
+    },
+    {
+      "id": "a2u02l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "When I was a child, I played outside.",
+      "aceitas": [
+        "When I was a child I played outside."
+      ]
+    },
+    {
+      "id": "a2u02l2-p8",
+      "tipo": "traduzir",
+      "pt": "Onde você cresceu?",
+      "respostas": [
+        "Where did you grow up?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte a história da sua infância: onde nasceu, onde cresceu, como era sua casa, sua escola e o que gostava de fazer.",
+    "papel_professor": "Faça perguntas sobre a infância do aluno uma de cada vez. Comente com interesse. Corrija was born, grew up e verbos irregulares.",
+    "abertura": "I grew up on a farm in Canada. And you? Tell me about your childhood.",
+    "abertura_pt": "Cresci numa fazenda no Canadá. E você? Me conte sobre sua infância."
+  },
+  "teste": [
+    {
+      "id": "a2u02l2-t1",
+      "tipo": "completar",
+      "frase": "My best friend ___ next door. (live)",
+      "respostas": [
+        "lived"
+      ]
+    },
+    {
+      "id": "a2u02l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Como se lê 1988?",
+      "opcoes": [
+        "one thousand nine eighty-eight",
+        "nineteen eighty-eight",
+        "nineteen eight eight"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We swam in the river."
+    },
+    {
+      "id": "a2u02l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu nasci em Recife.",
+      "respostas": [
+        "I was born in Recife."
+      ]
+    },
+    {
+      "id": "a2u02l2-t5",
+      "tipo": "ordenar",
+      "frase": "We moved to São Paulo in 1998",
+      "traducao_pt": "Nos mudamos para São Paulo em 1998"
+    }
+  ]
+}

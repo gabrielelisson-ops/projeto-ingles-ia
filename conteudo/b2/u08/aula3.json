@@ -1,0 +1,359 @@
+{
+  "id": "b2-u08-l3",
+  "nivel": "B2",
+  "unidade": 8,
+  "numero": 3,
+  "titulo": "We're having the machine serviced",
+  "objetivo_pt": "Usar a estrutura causativa (have/get something done) para serviços feitos por outras pessoas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre serviços que você paga para outras pessoas fazerem (em casa, no carro, na empresa). Use \"I have/get my… done\".",
+    "papel_professor": "Pergunte (Do you cut your own hair? Who services your car? Does your company do its own maintenance?). Ensine have/get + objeto + particípio. Corrija 'I cut my hair' (se foi o barbeiro) → 'I had my hair cut'.",
+    "abertura": "Do you cut your hair yourself, or do you have it cut?",
+    "abertura_pt": "Você corta o próprio cabelo ou manda cortar?"
+  },
+  "vocabulario": [
+    {
+      "id": "have-done",
+      "en": "have something done",
+      "pt": "mandar fazer algo",
+      "emoji": "🧑‍🔧",
+      "exemplo_en": "We're having the machine serviced.",
+      "exemplo_pt": "Estamos mandando fazer a revisão da máquina."
+    },
+    {
+      "id": "get-done",
+      "en": "get something done",
+      "pt": "mandar fazer (mais informal)",
+      "emoji": "🛠️",
+      "exemplo_en": "I need to get my car repaired.",
+      "exemplo_pt": "Preciso mandar consertar meu carro."
+    },
+    {
+      "id": "service",
+      "en": "service / overhaul",
+      "pt": "revisão / reforma geral",
+      "emoji": "🔧",
+      "exemplo_en": "The compressor is serviced every six months.",
+      "exemplo_pt": "O compressor passa por revisão a cada seis meses."
+    },
+    {
+      "id": "outsource",
+      "en": "outsource",
+      "pt": "terceirizar",
+      "emoji": "🤝",
+      "exemplo_en": "We outsource the cleaning.",
+      "exemplo_pt": "Terceirizamos a limpeza."
+    },
+    {
+      "id": "in-house",
+      "en": "in-house",
+      "pt": "internamente / na própria empresa",
+      "emoji": "🏠",
+      "exemplo_en": "We do maintenance in-house.",
+      "exemplo_pt": "Fazemos a manutenção internamente."
+    },
+    {
+      "id": "contractor",
+      "en": "contractor",
+      "pt": "prestador de serviço / terceirizado",
+      "emoji": "👷",
+      "exemplo_en": "A contractor installed the panels.",
+      "exemplo_pt": "Um terceirizado instalou os painéis."
+    },
+    {
+      "id": "calibrated-l3",
+      "en": "have something calibrated / tested",
+      "pt": "mandar calibrar / testar",
+      "emoji": "⚖️",
+      "exemplo_en": "We have our scales calibrated every year.",
+      "exemplo_pt": "Mandamos calibrar as balanças todo ano."
+    },
+    {
+      "id": "inspect-l3",
+      "en": "have something inspected",
+      "pt": "mandar inspecionar",
+      "emoji": "🔍",
+      "exemplo_en": "We had the roof inspected after the storm.",
+      "exemplo_pt": "Mandamos inspecionar o telhado depois da tempestade."
+    },
+    {
+      "id": "certified",
+      "en": "get certified",
+      "pt": "obter certificação",
+      "emoji": "📜",
+      "exemplo_en": "We got the plant certified in 2023.",
+      "exemplo_pt": "Certificamos a fábrica em 2023."
+    },
+    {
+      "id": "cost-effective",
+      "en": "cost-effective",
+      "pt": "econômico / com bom custo-benefício",
+      "emoji": "💡",
+      "exemplo_en": "It's more cost-effective to outsource it.",
+      "exemplo_pt": "É mais econômico terceirizar."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Causativo: have / get something done",
+    "explicacao_pt": "Usamos quando OUTRA PESSOA faz o serviço para nós (geralmente pago): HAVE/GET + OBJETO + PARTICÍPIO. I had my car repaired (o mecânico consertou). We're having the roof replaced. Funciona em todos os tempos: We have the scales calibrated every year / We had it inspected / We'll have it fixed / We need to get it checked. 'Get' é mais informal. Compare: I repaired my car (eu mesmo) × I had my car repaired (alguém consertou). Também para coisas ruins: He had his phone stolen (roubaram o celular dele).",
+    "tabela": {
+      "colunas": [
+        "Tempo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Presente",
+          "have + obj + pp",
+          "We have the filters changed every month."
+        ],
+        [
+          "Contínuo",
+          "be having + obj + pp",
+          "We're having the line upgraded."
+        ],
+        [
+          "Passado",
+          "had + obj + pp",
+          "We had the roof inspected."
+        ],
+        [
+          "Futuro",
+          "will have + obj + pp",
+          "We'll have it fixed next week."
+        ],
+        [
+          "Necessidade",
+          "need to get + obj + pp",
+          "We need to get the scale calibrated."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We have all our instruments calibrated by an external lab every year.",
+        "pt": "Mandamos calibrar todos os nossos instrumentos num laboratório externo todo ano."
+      },
+      {
+        "en": "We're having the old compressor replaced during the shutdown.",
+        "pt": "Vamos mandar substituir o compressor velho durante a parada."
+      },
+      {
+        "en": "We had the electrical panels inspected after the fire.",
+        "pt": "Mandamos inspecionar os painéis elétricos depois do incêndio."
+      },
+      {
+        "en": "It's more cost-effective to have the cleaning done by a contractor.",
+        "pt": "É mais econômico mandar fazer a limpeza com um terceirizado."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "In-house or outsourced?",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Do we do all the maintenance in-house?",
+        "pt": "Fazemos toda a manutenção internamente?"
+      },
+      {
+        "personagem": "Maintenance manager",
+        "voz": "b",
+        "en": "Most of it. But we have the boilers serviced by the manufacturer, and we get the scales calibrated by an external lab.",
+        "pt": "A maior parte. Mas mandamos revisar as caldeiras com o fabricante, e calibramos as balanças num laboratório externo."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "What about the forklifts?",
+        "pt": "E as empilhadeiras?"
+      },
+      {
+        "personagem": "Maintenance manager",
+        "voz": "b",
+        "en": "We used to repair them ourselves, but now we have them serviced by the rental company. It's more cost-effective.",
+        "pt": "Antes consertávamos nós mesmos, mas agora a locadora faz a revisão. É mais econômico."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And the roof? There were leaks last winter.",
+        "pt": "E o telhado? Houve goteiras no inverno passado."
+      },
+      {
+        "personagem": "Maintenance manager",
+        "voz": "b",
+        "en": "We had it inspected in April. We're having the damaged sheets replaced next month.",
+        "pt": "Mandamos inspecionar em abril. Vamos mandar trocar as telhas danificadas mês que vem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Who services the boilers?",
+        "opcoes": [
+          "The manufacturer",
+          "The in-house team",
+          "A rental company"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Who calibrates the scales?",
+        "opcoes": [
+          "An external lab",
+          "The operators",
+          "The manufacturer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Why do they outsource forklift service now?",
+        "opcoes": [
+          "It's more cost-effective.",
+          "Their team is too small.",
+          "The law requires it."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l3-e4",
+        "tipo": "multipla",
+        "enunciado": "When will the damaged roof sheets be replaced?",
+        "opcoes": [
+          "Last April",
+          "Next month",
+          "Next year"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u08l3-p1",
+      "tipo": "completar",
+      "frase": "We're having the machine ___. (revisada)",
+      "respostas": [
+        "serviced"
+      ]
+    },
+    {
+      "id": "b2u08l3-p2",
+      "tipo": "completar",
+      "frase": "I need to get my car ___. (consertado)",
+      "respostas": [
+        "repaired"
+      ]
+    },
+    {
+      "id": "b2u08l3-p3",
+      "tipo": "completar",
+      "frase": "We do maintenance ___-house. (internamente)",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "b2u08l3-p4",
+      "tipo": "multipla",
+      "enunciado": "O barbeiro cortou seu cabelo:",
+      "opcoes": [
+        "I cut my hair yesterday.",
+        "I had my hair cut yesterday."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u08l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Mandamos inspecionar o telhado\":",
+      "opcoes": [
+        "We had the roof inspected.",
+        "We had inspected the roof.",
+        "We inspected the roof had."
+      ],
+      "correta": 0,
+      "explicacao_pt": "Na causativa, o objeto vem antes do particípio: had + the roof + inspected."
+    },
+    {
+      "id": "b2u08l3-p6",
+      "tipo": "ordenar",
+      "frase": "We outsource the cleaning",
+      "traducao_pt": "Terceirizamos a limpeza"
+    },
+    {
+      "id": "b2u08l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "A contractor installed the panels."
+    },
+    {
+      "id": "b2u08l3-p8",
+      "tipo": "traduzir",
+      "pt": "Mandamos calibrar as balanças todo ano.",
+      "respostas": [
+        "We have our scales calibrated every year.",
+        "We have the scales calibrated every year.",
+        "We get the scales calibrated every year."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor quais serviços sua empresa (ou sua casa) faz internamente e quais terceiriza, e por quê. Use a estrutura causativa em vários tempos.",
+    "papel_professor": "Pergunte sobre manutenção, limpeza, calibração, TI, transporte. Peça justificativas (cost-effective, expertise). Corrija a ordem objeto + particípio e o tempo verbal.",
+    "abertura": "Let's talk about services. What does your company do in-house, and what does it outsource?",
+    "abertura_pt": "Vamos falar de serviços. O que sua empresa faz internamente e o que terceiriza?"
+  },
+  "teste": [
+    {
+      "id": "b2u08l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Futuro causativo:",
+      "opcoes": [
+        "We'll have it fixed next week.",
+        "We'll fix have it next week.",
+        "We have it fixed next week will."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l3-t2",
+      "tipo": "completar",
+      "frase": "It's more ___-effective to outsource it.",
+      "respostas": [
+        "cost"
+      ]
+    },
+    {
+      "id": "b2u08l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We got the plant certified in 2023.",
+      "aceitas": [
+        "We got the plant certified in twenty twenty-three."
+      ]
+    },
+    {
+      "id": "b2u08l3-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos mandar substituir o compressor velho.",
+      "respostas": [
+        "We're having the old compressor replaced.",
+        "We are going to have the old compressor replaced.",
+        "We'll have the old compressor replaced."
+      ]
+    },
+    {
+      "id": "b2u08l3-t5",
+      "tipo": "ordenar",
+      "frase": "We need to get the scale calibrated",
+      "traducao_pt": "Precisamos mandar calibrar a balança"
+    }
+  ]
+}

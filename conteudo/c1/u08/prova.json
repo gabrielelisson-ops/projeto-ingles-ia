@@ -1,0 +1,250 @@
+{
+  "id": "c1-u08-prova",
+  "nivel": "C1",
+  "unidade": 8,
+  "titulo": "Prova da Unidade 8 (C1) — Register and nuance",
+  "leitura": {
+    "texto": "THE ART OF SAYING NO\nIn many cultures, saying 'no' directly to a client or a boss feels rude. Brazilians, like many Latin Americans, often prefer to keep the relationship warm and avoid open confrontation. In international business, however, this can create serious misunderstandings.\n'A German or Dutch colleague expects a clear answer,' explains intercultural trainer Mariana Kessler. 'If you say \"We'll try our best\" when you know the deadline is impossible, they will plan as if you had said yes. When you miss the deadline, they will feel deceived.'\nBritish professionals present the opposite challenge. They are famous for understatement and indirect refusals. 'When a British manager says your idea is \"very interesting\" or that he will \"bear it in mind\", he probably means no,' says Kessler. 'And \"not bad\" can actually be high praise.'\nSo how should a Brazilian professional say no in English? Kessler suggests a simple structure: acknowledge the request, give a clear answer, explain briefly and offer an alternative. For example: 'I understand how important this is for you. Unfortunately, we won't be able to deliver by the 10th, because our line is fully booked. What we can do is deliver half on the 10th and the rest on the 17th.'\n'The key,' she concludes, 'is to be clear about the message and diplomatic about the form. Softening the language is fine. Hiding the answer is not.'",
+    "perguntas": [
+      {
+        "id": "c1u08pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Why do many Brazilians avoid saying no directly?",
+        "opcoes": [
+          "It feels rude; they prefer to keep the relationship warm.",
+          "They don't know the word.",
+          "It is illegal."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What does a German or Dutch colleague expect?",
+        "opcoes": [
+          "A clear answer",
+          "An indirect answer",
+          "No answer"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What happens if you say \"We'll try our best\" for an impossible deadline?",
+        "opcoes": [
+          "They will plan as if you had said yes.",
+          "They will cancel the project.",
+          "They will understand it means no."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What are British professionals famous for?",
+        "opcoes": [
+          "Understatement and indirect refusals",
+          "Being very direct",
+          "Shouting"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What can \"not bad\" mean in British English?",
+        "opcoes": [
+          "High praise",
+          "A serious criticism",
+          "Nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What is the first step of Kessler's structure?",
+        "opcoes": [
+          "Acknowledge the request",
+          "Say no immediately",
+          "Offer a discount"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l7",
+        "tipo": "multipla",
+        "enunciado": "In the example, what alternative is offered?",
+        "opcoes": [
+          "Half on the 10th and the rest on the 17th",
+          "Everything on the 10th",
+          "A full refund"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What is \"the key\", according to Kessler?",
+        "opcoes": [
+          "Clear message, diplomatic form",
+          "Always say yes",
+          "Avoid the client"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Thanks for the proposal, Rafael. I've had a look, and it's certainly a very ambitious plan.",
+        "pt": "Obrigada pela proposta, Rafael. Dei uma olhada, e certamente é um plano muito ambicioso."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "b",
+        "en": "Thank you. Just to make sure I understand — do you think the timeline is unrealistic?",
+        "pt": "Obrigado. Só para ter certeza de que entendi — você acha que o cronograma não é realista?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Well, three months is not ideal for a project of this size. It might be worth looking at a phased approach.",
+        "pt": "Bom, três meses não é o ideal para um projeto desse tamanho. Talvez valha a pena considerar uma abordagem em fases."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "b",
+        "en": "I see where you're coming from. Admittedly, the timeline is tight. What if we started with one line and expanded after the first results?",
+        "pt": "Entendo seu ponto de vista. É verdade que o cronograma está apertado. E se começássemos com uma linha e expandíssemos depois dos primeiros resultados?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "That sounds much more realistic. Also, the budget section is a bit thin — the board will want more detail.",
+        "pt": "Isso parece muito mais realista. Além disso, a parte do orçamento está um pouco fraca — a diretoria vai querer mais detalhes."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "b",
+        "en": "Understood. I'll add a detailed cost breakdown and send you the new version by Friday.",
+        "pt": "Entendido. Vou acrescentar um detalhamento de custos e te mando a nova versão até sexta."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Great. With those changes, I think it's got a very good chance.",
+        "pt": "Ótimo. Com essas mudanças, acho que tem uma chance muito boa."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08pv-e1",
+        "tipo": "multipla",
+        "enunciado": "How does the manager describe the plan?",
+        "opcoes": [
+          "Very ambitious",
+          "Perfect",
+          "Boring"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What does Rafael understand from that?",
+        "opcoes": [
+          "That the timeline may be unrealistic",
+          "That the plan is approved",
+          "That the budget is too high"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the manager suggest?",
+        "opcoes": [
+          "Looking at a phased approach",
+          "Canceling the project",
+          "Hiring consultants"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What is Rafael's alternative?",
+        "opcoes": [
+          "Starting with one line and expanding later",
+          "Doing everything in one month",
+          "Reducing the budget"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the budget section?",
+        "opcoes": [
+          "It's a bit thin.",
+          "It's too long.",
+          "It's wrong."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08pv-e6",
+        "tipo": "multipla",
+        "enunciado": "When will Rafael send the new version?",
+        "opcoes": [
+          "By Wednesday",
+          "By Friday",
+          "Next month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u08pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Just to make sure I understand — do you think the timeline is unrealistic?"
+      },
+      {
+        "id": "c1u08pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "It might be worth looking at a phased approach."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u08pv-w1",
+      "instrucao_pt": "Escreva a mesma mensagem (um atraso no seu trabalho) em três registros: para um colega próximo, para seu chefe e para um cliente.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u08pv-w2",
+      "instrucao_pt": "Escreva um e-mail para um cliente dando uma má notícia (atraso ou aumento de preço), com clareza, empatia, responsabilidade e uma alternativa.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u08pv-s1",
+      "pergunta_en": "Give diplomatic but clear feedback to a team member whose reports often contain mistakes.",
+      "instrucao_pt": "Use suavizadores, foco no fato e o sanduíche."
+    },
+    {
+      "id": "c1u08pv-s2",
+      "pergunta_en": "A client is very angry about a problem your company caused. Calm the situation and propose a way forward.",
+      "instrucao_pt": "Use técnicas de desescalada e a linguagem do C1."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Registro (informal, neutro, formal; contrações, phrasal verbs, verbos latinos, saudações), suavizar críticas (a bit, not entirely, it might be worth, it seems, sanduíche, foco no fato), ler nas entrelinhas (understatement, I'll bear it in mind, not ideal, very brave, you might want to), dar más notícias (I'm afraid, We regret to inform you, take full responsibility, make it up to you), desescalar conflitos (acknowledge, common ground, take a step back, move forward)."
+}

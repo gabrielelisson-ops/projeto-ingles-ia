@@ -1,0 +1,366 @@
+{
+  "id": "b1-u06-l4",
+  "nivel": "B1",
+  "unidade": 6,
+  "numero": 4,
+  "titulo": "Quality control",
+  "objetivo_pt": "Falar de controle de qualidade e normas com a passiva com modais (must be, should be, can be).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como a qualidade é controlada na sua empresa ou em algo que você conhece.",
+    "papel_professor": "Pergunte sobre controle de qualidade (How are products inspected? What must be checked? What happens if a defect is found?). Ensine passiva com modais (must be checked, can't be shipped).",
+    "abertura": "How is quality controlled at your company?",
+    "abertura_pt": "Como a qualidade é controlada na sua empresa?"
+  },
+  "vocabulario": [
+    {
+      "id": "inspect",
+      "en": "inspect / inspection",
+      "pt": "inspecionar / inspeção",
+      "emoji": "🔍",
+      "exemplo_en": "All parts must be inspected.",
+      "exemplo_pt": "Todas as peças devem ser inspecionadas."
+    },
+    {
+      "id": "measure",
+      "en": "measure",
+      "pt": "medir",
+      "emoji": "📏",
+      "exemplo_en": "The thickness is measured every hour.",
+      "exemplo_pt": "A espessura é medida a cada hora."
+    },
+    {
+      "id": "tolerance",
+      "en": "tolerance / spec",
+      "pt": "tolerância / especificação",
+      "emoji": "🎯",
+      "exemplo_en": "The part is out of spec.",
+      "exemplo_pt": "A peça está fora de especificação."
+    },
+    {
+      "id": "scrap",
+      "en": "scrap",
+      "pt": "refugo / sucatear",
+      "emoji": "🗑️",
+      "exemplo_en": "Defective parts must be scrapped.",
+      "exemplo_pt": "Peças com defeito devem ser sucateadas."
+    },
+    {
+      "id": "rework",
+      "en": "rework",
+      "pt": "retrabalho / retrabalhar",
+      "emoji": "🔁",
+      "exemplo_en": "Some parts can be reworked.",
+      "exemplo_pt": "Algumas peças podem ser retrabalhadas."
+    },
+    {
+      "id": "quarantine",
+      "en": "put on hold / quarantine",
+      "pt": "bloquear / segregar",
+      "emoji": "⛔",
+      "exemplo_en": "The batch was put on hold.",
+      "exemplo_pt": "O lote foi bloqueado."
+    },
+    {
+      "id": "standard",
+      "en": "standard / ISO standard",
+      "pt": "norma / norma ISO",
+      "emoji": "📘",
+      "exemplo_en": "We follow ISO 9001 standards.",
+      "exemplo_pt": "Seguimos as normas ISO 9001."
+    },
+    {
+      "id": "traceability",
+      "en": "traceability",
+      "pt": "rastreabilidade",
+      "emoji": "🔗",
+      "exemplo_en": "Every batch can be traced.",
+      "exemplo_pt": "Todo lote pode ser rastreado."
+    },
+    {
+      "id": "complaint",
+      "en": "customer complaint",
+      "pt": "reclamação de cliente",
+      "emoji": "📢",
+      "exemplo_en": "The complaint was answered in 24 hours.",
+      "exemplo_pt": "A reclamação foi respondida em 24 horas."
+    },
+    {
+      "id": "calibrate",
+      "en": "calibrate",
+      "pt": "calibrar",
+      "emoji": "⚖️",
+      "exemplo_en": "The instruments must be calibrated every year.",
+      "exemplo_pt": "Os instrumentos devem ser calibrados todo ano."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Passiva com modais",
+    "explicacao_pt": "Formação: MODAL + BE + PARTICÍPIO. All parts must be inspected. Defective parts can't be shipped. The instruments should be calibrated every year. It can be reworked. Muito usada em normas, procedimentos e regras de qualidade. Também com have to: The batch has to be approved. Passiva nos tempos que você já conhece: is checked (presente), was checked (passado), will be checked (futuro), has been checked (present perfect).",
+    "tabela": {
+      "colunas": [
+        "Modal",
+        "Passiva",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "must",
+          "must be inspected",
+          "deve ser inspecionado"
+        ],
+        [
+          "can't",
+          "can't be shipped",
+          "não pode ser enviado"
+        ],
+        [
+          "should",
+          "should be calibrated",
+          "deveria ser calibrado"
+        ],
+        [
+          "will",
+          "will be tested",
+          "será testado"
+        ],
+        [
+          "has been",
+          "has been approved",
+          "foi aprovado (já)"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "All incoming materials must be inspected before use.",
+        "pt": "Todo material recebido deve ser inspecionado antes do uso."
+      },
+      {
+        "en": "Parts that are out of spec can't be shipped to customers.",
+        "pt": "Peças fora de especificação não podem ser enviadas aos clientes."
+      },
+      {
+        "en": "Some defects can be reworked, but cracked parts must be scrapped.",
+        "pt": "Alguns defeitos podem ser retrabalhados, mas peças trincadas devem ser sucateadas."
+      },
+      {
+        "en": "The batch has been approved and will be shipped tomorrow.",
+        "pt": "O lote foi aprovado e será enviado amanhã."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A quality problem",
+    "falas": [
+      {
+        "personagem": "Quality manager",
+        "voz": "a",
+        "en": "We've received a complaint. Some caps were delivered with cracks.",
+        "pt": "Recebemos uma reclamação. Algumas tampas foram entregues com trincas."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Which batch was it?",
+        "pt": "Qual foi o lote?"
+      },
+      {
+        "personagem": "Quality manager",
+        "voz": "a",
+        "en": "Batch 4471. It was produced on Tuesday night.",
+        "pt": "Lote 4471. Foi produzido na terça à noite."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "OK. The rest of the batch must be put on hold immediately. And all the boxes in the warehouse should be inspected.",
+        "pt": "OK. O resto do lote deve ser bloqueado imediatamente. E todas as caixas no armazém devem ser inspecionadas."
+      },
+      {
+        "personagem": "Quality manager",
+        "voz": "a",
+        "en": "Can the cracked caps be reworked?",
+        "pt": "As tampas trincadas podem ser retrabalhadas?"
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "No, they can't. They must be scrapped. But the good ones can be shipped once they're checked.",
+        "pt": "Não. Devem ser sucateadas. Mas as boas podem ser enviadas depois de verificadas."
+      },
+      {
+        "personagem": "Quality manager",
+        "voz": "a",
+        "en": "Right. And the customer must be informed today.",
+        "pt": "Certo. E o cliente deve ser informado hoje."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "Caps with cracks",
+          "Wrong labels",
+          "Late delivery"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l4-e2",
+        "tipo": "multipla",
+        "enunciado": "When was the batch produced?",
+        "opcoes": [
+          "On Monday morning",
+          "On Tuesday night",
+          "Last week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What must happen to the cracked caps?",
+        "opcoes": [
+          "They must be reworked.",
+          "They must be scrapped.",
+          "They must be shipped."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l4-e4",
+        "tipo": "multipla",
+        "enunciado": "When must the customer be informed?",
+        "opcoes": [
+          "Today",
+          "Tomorrow",
+          "Next week"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u06l4-p1",
+      "tipo": "completar",
+      "frase": "All parts must ___ inspected.",
+      "respostas": [
+        "be"
+      ]
+    },
+    {
+      "id": "b1u06l4-p2",
+      "tipo": "completar",
+      "frase": "Defective parts ___ be shipped. (não podem)",
+      "respostas": [
+        "can't",
+        "cannot"
+      ]
+    },
+    {
+      "id": "b1u06l4-p3",
+      "tipo": "completar",
+      "frase": "The instruments must be ___ every year. (calibrados)",
+      "respostas": [
+        "calibrated"
+      ]
+    },
+    {
+      "id": "b1u06l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "The batch must be approved.",
+        "The batch must approved.",
+        "The batch must to be approved."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A peça está fora de especificação\":",
+      "opcoes": [
+        "The part is out of spec.",
+        "The part is off specification of.",
+        "The part is outside spec."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l4-p6",
+      "tipo": "ordenar",
+      "frase": "Every batch can be traced",
+      "traducao_pt": "Todo lote pode ser rastreado"
+    },
+    {
+      "id": "b1u06l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We follow ISO 9001 standards.",
+      "aceitas": [
+        "We follow ISO nine thousand and one standards."
+      ]
+    },
+    {
+      "id": "b1u06l4-p8",
+      "tipo": "traduzir",
+      "pt": "O lote foi bloqueado.",
+      "respostas": [
+        "The batch was put on hold.",
+        "The batch has been put on hold.",
+        "The lot was put on hold."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Um cliente reclamou de um defeito. Explique ao professor (gerente de qualidade) o que deve ser feito: o que deve ser bloqueado, inspecionado, sucateado e quem deve ser informado.",
+    "papel_professor": "Faça o papel de gerente de qualidade. Pergunte What must be done? Can it be reworked? When will it be shipped? Corrija passiva com modais.",
+    "abertura": "The customer has just called. They found defective parts in our last delivery. What should be done?",
+    "abertura_pt": "O cliente acabou de ligar. Encontraram peças com defeito na nossa última entrega. O que deve ser feito?"
+  },
+  "teste": [
+    {
+      "id": "b1u06l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Futuro passivo:",
+      "opcoes": [
+        "It will be tested tomorrow.",
+        "It will tested tomorrow.",
+        "It will be test tomorrow."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l4-t2",
+      "tipo": "completar",
+      "frase": "Some parts can be ___. (retrabalhadas)",
+      "respostas": [
+        "reworked"
+      ]
+    },
+    {
+      "id": "b1u06l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The thickness is measured every hour."
+    },
+    {
+      "id": "b1u06l4-t4",
+      "tipo": "traduzir",
+      "pt": "A reclamação foi respondida em 24 horas.",
+      "respostas": [
+        "The complaint was answered in 24 hours.",
+        "The complaint was answered in twenty-four hours.",
+        "The complaint was answered within 24 hours."
+      ]
+    },
+    {
+      "id": "b1u06l4-t5",
+      "tipo": "ordenar",
+      "frase": "Defective parts must be scrapped",
+      "traducao_pt": "Peças com defeito devem ser sucateadas"
+    }
+  ]
+}

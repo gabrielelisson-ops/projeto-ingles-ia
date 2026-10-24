@@ -1,0 +1,262 @@
+{
+  "id": "b2-u01-prova",
+  "nivel": "B2",
+  "unidade": 1,
+  "titulo": "Prova da Unidade 1 (B2) — Regrets",
+  "leitura": {
+    "texto": "LESSONS LEARNED: THE WAREHOUSE AUTOMATION PROJECT\nIn 2024, Rede Sul Distribuição invested 12 million reais in an automated warehouse system. The goal was to reduce picking errors and deliver orders 30% faster. Two years later, the results are positive, but the project was much harder than expected.\nThe system went live five months late and 25% over budget. According to project leader Camila Duarte, most of the problems could have been avoided. 'We underestimated how complex the integration with our old software would be. If we had tested the integration earlier, we would have found the problems in the planning phase, not after installation.'\nThe team also made mistakes with people. 'We should have involved the warehouse staff from the beginning,' Duarte admits. 'Many of them were afraid of losing their jobs, and nobody explained the changes. If we had communicated better, people wouldn't have resisted so much.'\nNot everything went wrong. The decision to keep a manual area for large items turned out to be a good one. 'If we had automated everything, we would be having serious problems today, because the robots can't handle large boxes.'\nDuarte's main lesson? 'I wish we had spent more time planning and less time rushing. Next time, we'll run a pilot in one area before changing the whole warehouse.'",
+    "perguntas": [
+      {
+        "id": "b2u01pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How much did the company invest?",
+        "opcoes": [
+          "2 million reais",
+          "12 million reais",
+          "25 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What was one of the goals?",
+        "opcoes": [
+          "To deliver orders 30% faster",
+          "To hire more people",
+          "To close the old warehouse"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How late did the system go live?",
+        "opcoes": [
+          "Two months",
+          "Five months",
+          "A year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What did they underestimate?",
+        "opcoes": [
+          "The integration with the old software",
+          "The cost of the robots",
+          "The size of the warehouse"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What would have happened if they had tested the integration earlier?",
+        "opcoes": [
+          "They would have found the problems in the planning phase.",
+          "They would have canceled the project.",
+          "Nothing would have changed."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why did the staff resist?",
+        "opcoes": [
+          "They were afraid of losing their jobs.",
+          "They wanted higher salaries.",
+          "They didn't like robots."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Which decision turned out to be good?",
+        "opcoes": [
+          "Keeping a manual area for large items",
+          "Automating everything",
+          "Changing the software"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What will they do next time?",
+        "opcoes": [
+          "Run a pilot in one area first",
+          "Hire more consultants",
+          "Buy cheaper robots"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "So, how was the job interview?",
+        "pt": "E aí, como foi a entrevista?"
+      },
+      {
+        "personagem": "Daniel",
+        "voz": "b",
+        "en": "Terrible. I wish I had prepared more. They asked me about the company's products and I had no idea.",
+        "pt": "Péssima. Queria ter me preparado mais. Perguntaram sobre os produtos da empresa e eu não fazia ideia."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Oh no. You should have looked at their website.",
+        "pt": "Ah, não. Você deveria ter olhado o site deles."
+      },
+      {
+        "personagem": "Daniel",
+        "voz": "b",
+        "en": "I know. And I arrived late because of the traffic. If I had left home earlier, I would have arrived calmer.",
+        "pt": "Eu sei. E cheguei atrasado por causa do trânsito. Se eu tivesse saído de casa mais cedo, teria chegado mais calmo."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Did they ask you anything in English?",
+        "pt": "Perguntaram algo em inglês?"
+      },
+      {
+        "personagem": "Daniel",
+        "voz": "b",
+        "en": "Yes, and that part was OK. If I hadn't taken this course, I wouldn't be able to answer questions in English now.",
+        "pt": "Sim, e essa parte foi OK. Se eu não tivesse feito este curso, não conseguiria responder em inglês agora."
+      },
+      {
+        "personagem": "Friend",
+        "voz": "a",
+        "en": "Well, you've learned your lesson. Next time you'll be better prepared.",
+        "pt": "Bom, você aprendeu a lição. Da próxima vez vai estar mais preparado."
+      },
+      {
+        "personagem": "Daniel",
+        "voz": "b",
+        "en": "Definitely. And who knows — maybe it'll be a blessing in disguise.",
+        "pt": "Com certeza. E quem sabe — talvez seja um mal que veio para bem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01pv-e1",
+        "tipo": "multipla",
+        "enunciado": "How was Daniel's interview?",
+        "opcoes": [
+          "Great",
+          "Terrible",
+          "OK"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What does he wish?",
+        "opcoes": [
+          "That he had prepared more",
+          "That he had worn a suit",
+          "That he had more experience"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What should he have done?",
+        "opcoes": [
+          "Looked at the company's website",
+          "Called the manager",
+          "Brought his CV"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why did he arrive late?",
+        "opcoes": [
+          "Because of the traffic",
+          "He woke up late",
+          "He got lost"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Which part of the interview was OK?",
+        "opcoes": [
+          "The English questions",
+          "The questions about products",
+          "The salary discussion"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What has Daniel learned?",
+        "opcoes": [
+          "His lesson",
+          "A new language",
+          "The company's products"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I wish I had prepared more.",
+        "aceitas": [
+          "I wish I'd prepared more."
+        ]
+      },
+      {
+        "id": "b2u01pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "If I had left home earlier, I would have arrived calmer.",
+        "aceitas": [
+          "If I'd left home earlier, I'd have arrived calmer."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u01pv-w1",
+      "instrucao_pt": "Escreva sobre uma decisão importante do seu passado e como sua vida seria diferente hoje se você tivesse escolhido outra coisa (condicionais 3 e mistas).",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u01pv-w2",
+      "instrucao_pt": "Escreva um pequeno relatório de lições aprendidas de um projeto ou situação que deu errado (should have, could have been avoided, next time).",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u01pv-s1",
+      "pergunta_en": "Tell me about a decision you regret, or one you are glad you made. What would have happened otherwise?",
+      "instrucao_pt": "Fale em voz alta com third conditional e wish."
+    },
+    {
+      "id": "b2u01pv-s2",
+      "pergunta_en": "Think of a project that went wrong. What lessons did you learn?",
+      "instrucao_pt": "Analise em voz alta: o que deu errado, o que deveria ter sido feito e o que fará da próxima vez."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Terceira condicional (if + past perfect, would/could/might have + particípio), condicionais mistas (passado → presente e presente → passado), wish/if only + past perfect, should have / shouldn't have, regret + -ing, could have been + particípio, linguagem de lições aprendidas."
+}

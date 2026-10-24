@@ -1,0 +1,345 @@
+{
+  "id": "b2-u01-l3",
+  "nivel": "B2",
+  "unidade": 1,
+  "numero": 3,
+  "titulo": "If I had taken that job, I would be…",
+  "objetivo_pt": "Usar condicionais mistas para ligar o passado imaginário ao presente.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como sua vida seria hoje se algo no passado tivesse sido diferente.",
+    "papel_professor": "Pergunte (If you had been born in another country, what would you be doing now? If you hadn't met your partner?). Ensine mixed conditionals nos dois sentidos.",
+    "abertura": "If you had been born in another country, how would your life be different now?",
+    "abertura_pt": "Se você tivesse nascido em outro país, como sua vida seria diferente agora?"
+  },
+  "vocabulario": [
+    {
+      "id": "mixed-1",
+      "en": "If I had…, I would be…",
+      "pt": "Se eu tivesse…, eu seria/estaria…",
+      "emoji": "🔀",
+      "exemplo_en": "If I had moved to Canada, I would be fluent now.",
+      "exemplo_pt": "Se eu tivesse me mudado para o Canadá, estaria fluente agora."
+    },
+    {
+      "id": "mixed-2",
+      "en": "If I were…, I would have…",
+      "pt": "Se eu fosse…, eu teria…",
+      "emoji": "🔁",
+      "exemplo_en": "If I were more organized, I wouldn't have forgotten.",
+      "exemplo_pt": "Se eu fosse mais organizado, não teria esquecido."
+    },
+    {
+      "id": "be-born",
+      "en": "be born",
+      "pt": "nascer",
+      "emoji": "👶",
+      "exemplo_en": "I was born in a small town.",
+      "exemplo_pt": "Nasci numa cidadezinha."
+    },
+    {
+      "id": "grow-up",
+      "en": "grow up",
+      "pt": "crescer (ser criado)",
+      "emoji": "🌳",
+      "exemplo_en": "I grew up on a farm.",
+      "exemplo_pt": "Cresci numa fazenda."
+    },
+    {
+      "id": "settle",
+      "en": "settle down",
+      "pt": "sossegar / estabelecer-se",
+      "emoji": "🏡",
+      "exemplo_en": "We settled down in Curitiba.",
+      "exemplo_pt": "Nos estabelecemos em Curitiba."
+    },
+    {
+      "id": "path",
+      "en": "path / career path",
+      "pt": "caminho / trajetória",
+      "emoji": "🛤️",
+      "exemplo_en": "I chose a different path.",
+      "exemplo_pt": "Escolhi um caminho diferente."
+    },
+    {
+      "id": "better-off",
+      "en": "better off / worse off",
+      "pt": "em melhor / pior situação",
+      "emoji": "📈",
+      "exemplo_en": "We would be better off now.",
+      "exemplo_pt": "Estaríamos em situação melhor agora."
+    },
+    {
+      "id": "by-now",
+      "en": "by now",
+      "pt": "a essa altura / já",
+      "emoji": "🕰️",
+      "exemplo_en": "I would be retired by now.",
+      "exemplo_pt": "Eu já estaria aposentado a essa altura."
+    },
+    {
+      "id": "make-difference",
+      "en": "make a difference",
+      "pt": "fazer diferença",
+      "emoji": "✨",
+      "exemplo_en": "That decision made a big difference.",
+      "exemplo_pt": "Aquela decisão fez muita diferença."
+    },
+    {
+      "id": "luck",
+      "en": "luck / lucky",
+      "pt": "sorte / sortudo",
+      "emoji": "🍀",
+      "exemplo_en": "I've been lucky in my career.",
+      "exemplo_pt": "Tive sorte na minha carreira."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Condicionais mistas",
+    "explicacao_pt": "Misturam tempos quando a condição e o resultado estão em tempos diferentes. 1) Passado imaginário → resultado no PRESENTE: IF + PAST PERFECT, WOULD + VERBO: If I had taken that job, I would live in Canada now. 2) Característica permanente (presente) → resultado no PASSADO: IF + PAST SIMPLE, WOULD HAVE + PARTICÍPIO: If I were more careful, I wouldn't have broken it. Palavras como 'now', 'today', 'by now' ajudam a ver que o resultado é presente.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Passado → presente",
+          "If + had + pp, would + verbo",
+          "If I had studied medicine, I'd be a doctor now."
+        ],
+        [
+          "Presente → passado",
+          "If + passado, would have + pp",
+          "If I spoke English, I would have got the job."
+        ],
+        [
+          "3ª (passado → passado)",
+          "If + had + pp, would have + pp",
+          "If I had studied, I'd have passed."
+        ],
+        [
+          "2ª (presente → presente)",
+          "If + passado, would + verbo",
+          "If I had time, I'd travel."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If I had accepted the offer in Manaus, I would be a manager now.",
+        "pt": "Se eu tivesse aceitado a proposta em Manaus, seria gerente agora."
+      },
+      {
+        "en": "If we hadn't bought the new machine, we wouldn't be able to deliver this order.",
+        "pt": "Se não tivéssemos comprado a máquina nova, não conseguiríamos entregar este pedido."
+      },
+      {
+        "en": "If she weren't so dedicated, she wouldn't have been promoted.",
+        "pt": "Se ela não fosse tão dedicada, não teria sido promovida."
+      },
+      {
+        "en": "If I had learned English as a child, I wouldn't need this course now.",
+        "pt": "Se eu tivesse aprendido inglês criança, não precisaria deste curso agora."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Two paths",
+    "falas": [
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Twenty years ago, Júlio and his brother Ivo had the same opportunity: a scholarship to study engineering in Germany.",
+        "pt": "Vinte anos atrás, Júlio e o irmão Ivo tiveram a mesma oportunidade: uma bolsa para estudar engenharia na Alemanha."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Júlio went. Ivo stayed in Brazil and opened a small mechanical workshop.",
+        "pt": "Júlio foi. Ivo ficou no Brasil e abriu uma pequena oficina mecânica."
+      },
+      {
+        "personagem": "Júlio",
+        "voz": "b",
+        "en": "If I hadn't gone to Germany, I wouldn't speak three languages today. But I would see my family more often.",
+        "pt": "Se eu não tivesse ido para a Alemanha, não falaria três línguas hoje. Mas veria minha família com mais frequência."
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "a",
+        "en": "If I had gone with him, I wouldn't have my own business now. I'm happy here — I have forty employees.",
+        "pt": "Se eu tivesse ido com ele, não teria meu próprio negócio agora. Estou feliz aqui — tenho quarenta funcionários."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Different paths, both successful. As Ivo says: 'If I were a different person, I would have made a different choice.'",
+        "pt": "Caminhos diferentes, ambos de sucesso. Como diz o Ivo: \"Se eu fosse uma pessoa diferente, teria feito uma escolha diferente.\""
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What opportunity did the brothers have?",
+        "opcoes": [
+          "A scholarship in Germany",
+          "A job in the USA",
+          "A farm"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What did Ivo do?",
+        "opcoes": [
+          "He went to Germany.",
+          "He opened a workshop in Brazil.",
+          "He became a teacher."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How many languages does Júlio speak?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01l3-e4",
+        "tipo": "multipla",
+        "enunciado": "How many employees does Ivo have?",
+        "opcoes": [
+          "Four",
+          "Fourteen",
+          "Forty"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u01l3-p1",
+      "tipo": "completar",
+      "frase": "If I had taken that job, I ___ live in Canada now.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b2u01l3-p2",
+      "tipo": "completar",
+      "frase": "If I ___ more careful, I wouldn't have broken it. (fosse)",
+      "respostas": [
+        "were",
+        "was"
+      ]
+    },
+    {
+      "id": "b2u01l3-p3",
+      "tipo": "completar",
+      "frase": "I grew ___ on a farm.",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "b2u01l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Passado imaginário → presente:",
+      "opcoes": [
+        "If I had studied medicine, I'd be a doctor now.",
+        "If I studied medicine, I'd have been a doctor now."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Estaríamos em situação melhor agora\":",
+      "opcoes": [
+        "We would be better off now.",
+        "We would have better now.",
+        "We are better off would."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l3-p6",
+      "tipo": "ordenar",
+      "frase": "That decision made a big difference",
+      "traducao_pt": "Aquela decisão fez muita diferença"
+    },
+    {
+      "id": "b2u01l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I've been lucky in my career.",
+      "aceitas": [
+        "I have been lucky in my career."
+      ]
+    },
+    {
+      "id": "b2u01l3-p8",
+      "tipo": "traduzir",
+      "pt": "Se eu tivesse aprendido inglês criança, não precisaria deste curso agora.",
+      "respostas": [
+        "If I had learned English as a child, I wouldn't need this course now.",
+        "If I'd learned English as a child, I wouldn't need this course now.",
+        "If I had learnt English as a child, I wouldn't need this course now."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Imagine com o professor \"vidas alternativas\": como você seria hoje se tivesse feito escolhas diferentes no passado? E o que teria feito diferente se você fosse outra pessoa?",
+    "papel_professor": "Explore vidas alternativas com perguntas mistas (If you had…, where would you be now? If you were more…, would you have…?). Corrija a escolha de tempos.",
+    "abertura": "Let's imagine an alternative life for you. If you had made one different choice ten years ago, where would you be now?",
+    "abertura_pt": "Vamos imaginar uma vida alternativa para você. Se tivesse feito uma escolha diferente há dez anos, onde estaria agora?"
+  },
+  "teste": [
+    {
+      "id": "b2u01l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Presente → passado:",
+      "opcoes": [
+        "If I spoke English, I would have got the job.",
+        "If I had spoken English, I would get the job yesterday."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l3-t2",
+      "tipo": "completar",
+      "frase": "I would be retired by ___. (a essa altura)",
+      "respostas": [
+        "now"
+      ]
+    },
+    {
+      "id": "b2u01l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We settled down in Curitiba."
+    },
+    {
+      "id": "b2u01l3-t4",
+      "tipo": "traduzir",
+      "pt": "Escolhi um caminho diferente.",
+      "respostas": [
+        "I chose a different path."
+      ]
+    },
+    {
+      "id": "b2u01l3-t5",
+      "tipo": "ordenar",
+      "frase": "If I had moved I would be fluent now",
+      "traducao_pt": "Se eu tivesse me mudado, estaria fluente agora"
+    }
+  ]
+}

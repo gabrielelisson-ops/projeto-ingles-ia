@@ -1,0 +1,360 @@
+{
+  "id": "a2-u01-l4",
+  "nivel": "A2",
+  "unidade": 1,
+  "numero": 4,
+  "titulo": "What did you do?",
+  "objetivo_pt": "Fazer perguntas completas sobre o passado com what, where, when, who e how.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar detalhes sobre o seu último feriado ou viagem. Responda com frases completas no passado.",
+    "papel_professor": "Faça perguntas abertas sobre o último feriado/viagem do aluno (Where did you go? Who did you travel with? What did you do there? How was it?). Corrija a ordem das perguntas e o passado.",
+    "abertura": "Tell me about your last holiday. Where did you go?",
+    "abertura_pt": "Me conte sobre seu último feriado. Para onde você foi?"
+  },
+  "vocabulario": [
+    {
+      "id": "holiday",
+      "en": "holiday / vacation",
+      "pt": "feriado / férias",
+      "emoji": "🏖️",
+      "exemplo_en": "How was your vacation?",
+      "exemplo_pt": "Como foram suas férias?"
+    },
+    {
+      "id": "travel",
+      "en": "travel",
+      "pt": "viajar",
+      "emoji": "✈️",
+      "exemplo_en": "Who did you travel with?",
+      "exemplo_pt": "Com quem você viajou?"
+    },
+    {
+      "id": "trip",
+      "en": "trip",
+      "pt": "viagem (curta)",
+      "emoji": "🧳",
+      "exemplo_en": "The trip was long.",
+      "exemplo_pt": "A viagem foi longa."
+    },
+    {
+      "id": "stay-at",
+      "en": "stay at",
+      "pt": "hospedar-se em",
+      "emoji": "🏨",
+      "exemplo_en": "We stayed at a small hotel.",
+      "exemplo_pt": "Ficamos num hotel pequeno."
+    },
+    {
+      "id": "rent",
+      "en": "rent",
+      "pt": "alugar",
+      "emoji": "🚗",
+      "exemplo_en": "We rented a car.",
+      "exemplo_pt": "Alugamos um carro."
+    },
+    {
+      "id": "enjoy",
+      "en": "enjoy",
+      "pt": "aproveitar / gostar",
+      "emoji": "😊",
+      "exemplo_en": "Did you enjoy the trip?",
+      "exemplo_pt": "Você aproveitou a viagem?"
+    },
+    {
+      "id": "how-was",
+      "en": "How was…?",
+      "pt": "Como foi…?",
+      "emoji": "❔",
+      "exemplo_en": "How was the food?",
+      "exemplo_pt": "Como estava a comida?"
+    },
+    {
+      "id": "when",
+      "en": "when",
+      "pt": "quando",
+      "emoji": "📅",
+      "exemplo_en": "When did you come back?",
+      "exemplo_pt": "Quando você voltou?"
+    },
+    {
+      "id": "who",
+      "en": "who",
+      "pt": "quem",
+      "emoji": "🧑",
+      "exemplo_en": "Who did you visit?",
+      "exemplo_pt": "Quem você visitou?"
+    },
+    {
+      "id": "photos",
+      "en": "photos",
+      "pt": "fotos",
+      "emoji": "📸",
+      "exemplo_en": "We took a lot of photos.",
+      "exemplo_pt": "Tiramos muitas fotos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Perguntas com palavra interrogativa no passado",
+    "explicacao_pt": "Ordem: palavra de pergunta + DID + pessoa + verbo básico. Where did you go? What did you do? Who did you visit? When did you come back? How long did you stay? Exceção: com o verbo to be não se usa did: How was the trip? Where were you? Para responder, use o passado: I went…, We stayed…, It was…",
+    "tabela": {
+      "colunas": [
+        "Palavra",
+        "Pergunta",
+        "Resposta"
+      ],
+      "linhas": [
+        [
+          "Where",
+          "Where did you go?",
+          "We went to Bahia."
+        ],
+        [
+          "Who",
+          "Who did you travel with?",
+          "With my wife."
+        ],
+        [
+          "What",
+          "What did you do?",
+          "We stayed at the beach."
+        ],
+        [
+          "When",
+          "When did you come back?",
+          "On Sunday."
+        ],
+        [
+          "How long",
+          "How long did you stay?",
+          "For a week."
+        ],
+        [
+          "How (be)",
+          "How was it?",
+          "It was amazing!"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where did you stay? — We stayed at my cousin's house.",
+        "pt": "Onde vocês ficaram? — Na casa do meu primo."
+      },
+      {
+        "en": "What did you like most? — The food!",
+        "pt": "Do que você mais gostou? — Da comida!"
+      },
+      {
+        "en": "How long did the trip take? — About five hours.",
+        "pt": "Quanto tempo levou a viagem? — Umas cinco horas."
+      },
+      {
+        "en": "How was the weather? — It was hot.",
+        "pt": "Como estava o tempo? — Estava quente."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Back from vacation",
+    "falas": [
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Welcome back! How was your vacation?",
+        "pt": "Bem-vindo de volta! Como foram suas férias?"
+      },
+      {
+        "personagem": "Rick",
+        "voz": "b",
+        "en": "It was amazing. We traveled to Fortaleza.",
+        "pt": "Foram incríveis. Viajamos para Fortaleza."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Who did you travel with?",
+        "pt": "Com quem você viajou?"
+      },
+      {
+        "personagem": "Rick",
+        "voz": "b",
+        "en": "With my wife and her parents. We rented a car and visited many beaches.",
+        "pt": "Com minha esposa e os pais dela. Alugamos um carro e visitamos muitas praias."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "How long did you stay?",
+        "pt": "Quanto tempo vocês ficaram?"
+      },
+      {
+        "personagem": "Rick",
+        "voz": "b",
+        "en": "Ten days. We stayed at a hotel near the beach.",
+        "pt": "Dez dias. Ficamos num hotel perto da praia."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Did you take photos?",
+        "pt": "Tirou fotos?"
+      },
+      {
+        "personagem": "Rick",
+        "voz": "b",
+        "en": "Hundreds! Look.",
+        "pt": "Centenas! Olha."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Where did Rick go?",
+        "opcoes": [
+          "Fortaleza",
+          "Salvador",
+          "Natal"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Who did he travel with?",
+        "opcoes": [
+          "His friends",
+          "His wife and her parents",
+          "His colleagues"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How long did he stay?",
+        "opcoes": [
+          "Seven days",
+          "Ten days",
+          "Two weeks"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u01l4-p1",
+      "tipo": "completar",
+      "frase": "Where ___ you go on vacation?",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "a2u01l4-p2",
+      "tipo": "completar",
+      "frase": "How ___ the trip? (to be)",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "a2u01l4-p3",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Who you visited?",
+        "Who did you visit?",
+        "Who did you visited?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "How did the hotel?",
+        "How was the hotel?",
+        "How did was the hotel?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l4-p5",
+      "tipo": "completar",
+      "frase": "We ___ a car. (rent)",
+      "respostas": [
+        "rented"
+      ]
+    },
+    {
+      "id": "a2u01l4-p6",
+      "tipo": "ordenar",
+      "frase": "How long did you stay?",
+      "traducao_pt": "Quanto tempo você ficou?"
+    },
+    {
+      "id": "a2u01l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Did you enjoy the trip?"
+    },
+    {
+      "id": "a2u01l4-p8",
+      "tipo": "traduzir",
+      "pt": "Quando você voltou?",
+      "respostas": [
+        "When did you come back?",
+        "When did you return?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Agora é você quem pergunta! O professor voltou de viagem. Faça pelo menos 4 perguntas (where, who, what, how long, how was).",
+    "papel_professor": "Você voltou de uma viagem a Lisboa com sua família (5 dias, hotel perto do rio, comeram muito peixe, choveu um dia). Responda só ao que o aluno perguntar e incentive-o a fazer perguntas no passado.",
+    "abertura": "I just came back from a trip! Ask me about it.",
+    "abertura_pt": "Acabei de voltar de uma viagem! Me pergunte sobre ela."
+  },
+  "teste": [
+    {
+      "id": "a2u01l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Para onde você foi?\"",
+      "opcoes": [
+        "Where you went?",
+        "Where did you go?",
+        "Where did you went?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l4-t2",
+      "tipo": "completar",
+      "frase": "How long ___ you stay?",
+      "respostas": [
+        "did"
+      ]
+    },
+    {
+      "id": "a2u01l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "How was the food?"
+    },
+    {
+      "id": "a2u01l4-t4",
+      "tipo": "traduzir",
+      "pt": "Nós ficamos num hotel pequeno.",
+      "respostas": [
+        "We stayed at a small hotel.",
+        "We stayed in a small hotel."
+      ]
+    },
+    {
+      "id": "a2u01l4-t5",
+      "tipo": "ordenar",
+      "frase": "Who did you travel with?",
+      "traducao_pt": "Com quem você viajou?"
+    }
+  ]
+}

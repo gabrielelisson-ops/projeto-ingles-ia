@@ -72,5 +72,52 @@
       "abertura": "Thanks for the call. So, you need five thousand units. Our price is twelve dollars per unit, with delivery in six weeks.",
       "abertura_pt": "Obrigado pela ligação. Então, vocês precisam de cinco mil unidades. Nosso preço é doze dólares por unidade, com entrega em seis semanas."
     }
+  ],
+  "juntos": [
+    {
+      "id": "juntos-restaurante",
+      "emoji": "🍝",
+      "titulo_pt": "Jantar a dois",
+      "situacao_pt": "Vocês dois estão jantando num restaurante no exterior. Cada um pede seu prato e bebida; combinem a sobremesa e peçam a conta.",
+      "papel_professor": "Você é o garçom. Atenda os dois clientes, um de cada vez, ofereça recomendações, pergunte preferências a cada um pelo nome e traga a conta no fim.",
+      "abertura": "Good evening and welcome! A table for two? Here are your menus. Who would like to order first?",
+      "abertura_pt": "Boa noite e bem-vindos! Mesa para dois? Aqui estão os cardápios. Quem gostaria de pedir primeiro?"
+    },
+    {
+      "id": "juntos-viagem",
+      "emoji": "🧳",
+      "titulo_pt": "Planejando uma viagem",
+      "situacao_pt": "Vocês querem viajar juntos nas férias. O professor é agente de viagens: digam para onde querem ir, quanto tempo, o que gostam de fazer e cheguem a um acordo.",
+      "papel_professor": "Você é um agente de viagens. Pergunte a cada um o que prefere (praia, cidade, natureza), datas, orçamento e atividades. Ajude o casal a chegar a um acordo, comparando duas opções.",
+      "abertura": "Hello! So you're planning a holiday together. Where would you like to go?",
+      "abertura_pt": "Olá! Então vocês estão planejando férias juntos. Para onde gostariam de ir?"
+    },
+    {
+      "id": "juntos-hotel",
+      "emoji": "🏨",
+      "titulo_pt": "Check-in no hotel",
+      "situacao_pt": "Vocês chegaram juntos ao hotel. Um faz o check-in, o outro pergunta sobre café da manhã, Wi-Fi e passeios na cidade.",
+      "papel_professor": "Você é o recepcionista. Faça o check-in com um dos dois e responda às perguntas do outro sobre café da manhã, Wi-Fi, piscina e passeios.",
+      "abertura": "Good afternoon! Welcome to Ocean View Hotel. Do you have a reservation?",
+      "abertura_pt": "Boa tarde! Bem-vindos ao Ocean View Hotel. Vocês têm reserva?"
+    },
+    {
+      "id": "juntos-jantar-amigos",
+      "emoji": "🏠",
+      "titulo_pt": "Recebendo um amigo estrangeiro",
+      "situacao_pt": "Um colega estrangeiro está jantando na casa de vocês. Apresentem-se, contem sobre a família, a cidade e o trabalho, e façam perguntas a ele.",
+      "papel_professor": "Você é Chris, um colega estrangeiro visitando a casa do casal. Faça perguntas a cada um sobre família, trabalho, cidade e comida brasileira. Conte um pouco sobre você também.",
+      "abertura": "Thank you so much for inviting me! Your home is lovely. How long have you lived here?",
+      "abertura_pt": "Muito obrigado pelo convite! A casa de vocês é linda. Há quanto tempo vocês moram aqui?"
+    },
+    {
+      "id": "juntos-livre",
+      "emoji": "💬",
+      "titulo_pt": "Conversa livre a três",
+      "situacao_pt": "Conversa livre com o professor sobre qualquer assunto: fim de semana, planos, filmes, trabalho. Cada um fala na sua vez.",
+      "papel_professor": "Conversa livre e animada com o casal. Faça perguntas a um de cada vez, peça a opinião de um sobre o que o outro disse e incentive os dois a conversarem entre si em inglês.",
+      "abertura": "Hi, you two! It's great to have you both here. What did you do last weekend?",
+      "abertura_pt": "Oi, vocês dois! Que ótimo ter os dois aqui. O que vocês fizeram no último fim de semana?"
+    }
   ]
 }

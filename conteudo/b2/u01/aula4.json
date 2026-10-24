@@ -1,0 +1,356 @@
+{
+  "id": "b2-u01-l4",
+  "nivel": "B2",
+  "unidade": 1,
+  "numero": 4,
+  "titulo": "Lessons learned",
+  "objetivo_pt": "Analisar um projeto que deu errado e tirar lições (lessons learned) com linguagem de condicional.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre um projeto ou tarefa que não deu certo. O que vocês deveriam ter feito diferente?",
+    "papel_professor": "Peça um projeto que deu errado. Pergunte What went wrong? What should you have done? What would have happened if…? What will you do next time? Ensine linguagem de lessons learned.",
+    "abertura": "Tell me about a project or task that didn't go as planned.",
+    "abertura_pt": "Me fale de um projeto ou tarefa que não saiu como planejado."
+  },
+  "vocabulario": [
+    {
+      "id": "lessons-learned",
+      "en": "lessons learned",
+      "pt": "lições aprendidas",
+      "emoji": "📚",
+      "exemplo_en": "We had a lessons-learned meeting.",
+      "exemplo_pt": "Fizemos uma reunião de lições aprendidas."
+    },
+    {
+      "id": "go-wrong",
+      "en": "go wrong",
+      "pt": "dar errado",
+      "emoji": "💥",
+      "exemplo_en": "What went wrong?",
+      "exemplo_pt": "O que deu errado?"
+    },
+    {
+      "id": "underestimate",
+      "en": "underestimate / overestimate",
+      "pt": "subestimar / superestimar",
+      "emoji": "📏",
+      "exemplo_en": "We underestimated the time.",
+      "exemplo_pt": "Subestimamos o tempo."
+    },
+    {
+      "id": "budget-l4",
+      "en": "go over budget",
+      "pt": "estourar o orçamento",
+      "emoji": "💸",
+      "exemplo_en": "The project went over budget.",
+      "exemplo_pt": "O projeto estourou o orçamento."
+    },
+    {
+      "id": "scope",
+      "en": "scope",
+      "pt": "escopo",
+      "emoji": "🗂️",
+      "exemplo_en": "The scope kept changing.",
+      "exemplo_pt": "O escopo ficava mudando."
+    },
+    {
+      "id": "stakeholder",
+      "en": "stakeholder",
+      "pt": "parte interessada",
+      "emoji": "👥",
+      "exemplo_en": "We didn't involve all the stakeholders.",
+      "exemplo_pt": "Não envolvemos todas as partes interessadas."
+    },
+    {
+      "id": "communication",
+      "en": "lack of communication",
+      "pt": "falta de comunicação",
+      "emoji": "📵",
+      "exemplo_en": "The main problem was a lack of communication.",
+      "exemplo_pt": "O principal problema foi a falta de comunicação."
+    },
+    {
+      "id": "next-time",
+      "en": "next time",
+      "pt": "da próxima vez",
+      "emoji": "🔜",
+      "exemplo_en": "Next time, we'll plan better.",
+      "exemplo_pt": "Da próxima vez, vamos planejar melhor."
+    },
+    {
+      "id": "in-retrospect",
+      "en": "in retrospect",
+      "pt": "em retrospecto",
+      "emoji": "🔭",
+      "exemplo_en": "In retrospect, we should have tested it more.",
+      "exemplo_pt": "Em retrospecto, deveríamos ter testado mais."
+    },
+    {
+      "id": "avoid-l4",
+      "en": "could have been avoided",
+      "pt": "poderia ter sido evitado",
+      "emoji": "🛡️",
+      "exemplo_en": "The delay could have been avoided.",
+      "exemplo_pt": "O atraso poderia ter sido evitado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Analisando o que deu errado",
+    "explicacao_pt": "Fatos: past simple (We underestimated the time.). Críticas: should have / shouldn't have (We should have involved the operators.). Hipóteses sobre o passado: third conditional (If we had tested it, we would have found the problem.). Passiva no passado com modal: COULD HAVE BEEN + particípio (The delay could have been avoided.). Futuro: Next time, we'll / we're going to… Estrutura típica: What went well? / What went wrong? / Why? / What will we do differently?",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Fato",
+          "past simple",
+          "We started too late."
+        ],
+        [
+          "Crítica",
+          "should have + pp",
+          "We should have started earlier."
+        ],
+        [
+          "Hipótese",
+          "If + had + pp, would have + pp",
+          "If we had started earlier, we'd have finished on time."
+        ],
+        [
+          "Evitável",
+          "could have been + pp",
+          "The problem could have been avoided."
+        ],
+        [
+          "Futuro",
+          "Next time, we'll…",
+          "Next time, we'll involve maintenance from day one."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The project went over budget because we underestimated the installation costs.",
+        "pt": "O projeto estourou o orçamento porque subestimamos os custos de instalação."
+      },
+      {
+        "en": "We should have involved the operators from the beginning.",
+        "pt": "Deveríamos ter envolvido os operadores desde o início."
+      },
+      {
+        "en": "If we had tested the software properly, we wouldn't have had so many problems.",
+        "pt": "Se tivéssemos testado o software direito, não teríamos tido tantos problemas."
+      },
+      {
+        "en": "Most of the delays could have been avoided with better communication.",
+        "pt": "A maioria dos atrasos poderia ter sido evitada com melhor comunicação."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A lessons-learned meeting",
+    "falas": [
+      {
+        "personagem": "Project manager",
+        "voz": "a",
+        "en": "OK, the new labeling line started three months late. Let's discuss what went wrong.",
+        "pt": "OK, a nova linha de rotulagem começou três meses atrasada. Vamos discutir o que deu errado."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "First, we underestimated the installation time. The supplier needed six weeks, not two.",
+        "pt": "Primeiro, subestimamos o tempo de instalação. O fornecedor precisava de seis semanas, não duas."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "And the operators weren't involved. If we had asked them, they would have told us the layout was wrong.",
+        "pt": "E os operadores não foram envolvidos. Se tivéssemos perguntado, eles teriam dito que o layout estava errado."
+      },
+      {
+        "personagem": "Project manager",
+        "voz": "a",
+        "en": "That's true. We should have listened to the shop floor. What else?",
+        "pt": "É verdade. Deveríamos ter ouvido o chão de fábrica. Que mais?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "The budget. We went over by 20%, mostly because of the layout changes. In retrospect, that could have been avoided.",
+        "pt": "O orçamento. Estouramos 20%, principalmente por causa das mudanças de layout. Em retrospecto, isso poderia ter sido evitado."
+      },
+      {
+        "personagem": "Project manager",
+        "voz": "a",
+        "en": "Right. So, next time we'll involve the operators from day one and we'll confirm installation times in the contract.",
+        "pt": "Certo. Então, da próxima vez vamos envolver os operadores desde o primeiro dia e confirmar os prazos de instalação no contrato."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How late did the line start?",
+        "opcoes": [
+          "One month",
+          "Three months",
+          "Six months"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How long did the supplier need for installation?",
+        "opcoes": [
+          "Two weeks",
+          "Four weeks",
+          "Six weeks"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u01l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What would the operators have said?",
+        "opcoes": [
+          "The layout was wrong.",
+          "The machine was expensive.",
+          "The supplier was bad."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l4-e4",
+        "tipo": "multipla",
+        "enunciado": "By how much did they go over budget?",
+        "opcoes": [
+          "10%",
+          "20%",
+          "30%"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u01l4-p1",
+      "tipo": "completar",
+      "frase": "What went ___? (deu errado)",
+      "respostas": [
+        "wrong"
+      ]
+    },
+    {
+      "id": "b2u01l4-p2",
+      "tipo": "completar",
+      "frase": "We ___ the time. (subestimamos)",
+      "respostas": [
+        "underestimated"
+      ]
+    },
+    {
+      "id": "b2u01l4-p3",
+      "tipo": "completar",
+      "frase": "The delay could have ___ avoided.",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "b2u01l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Hipótese sobre o passado:",
+      "opcoes": [
+        "If we had tested it, we would have found the problem.",
+        "If we tested it, we found the problem.",
+        "If we would test it, we had found the problem."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O projeto estourou o orçamento\":",
+      "opcoes": [
+        "The project went over budget.",
+        "The project broke the budget over.",
+        "The project exploded the budget."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l4-p6",
+      "tipo": "ordenar",
+      "frase": "Next time we'll plan better",
+      "traducao_pt": "Da próxima vez, vamos planejar melhor"
+    },
+    {
+      "id": "b2u01l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The main problem was a lack of communication."
+    },
+    {
+      "id": "b2u01l4-p8",
+      "tipo": "traduzir",
+      "pt": "Em retrospecto, deveríamos ter testado mais.",
+      "respostas": [
+        "In retrospect, we should have tested it more.",
+        "In retrospect, we should have tested more.",
+        "With hindsight, we should have tested it more."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conduza com o professor uma reunião de lições aprendidas sobre um projeto (real ou inventado) que deu errado: o que deu certo, o que deu errado, por quê, e o que farão diferente.",
+    "papel_professor": "Participe como membro da equipe. Traga fatos e opiniões (I think we should have…). Pressione o aluno a usar third conditional e could have been. Termine com ações futuras. Corrija.",
+    "abertura": "OK, the project is finished — but not exactly as we planned. Where should we start?",
+    "abertura_pt": "OK, o projeto acabou — mas não exatamente como planejamos. Por onde começamos?"
+  },
+  "teste": [
+    {
+      "id": "b2u01l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Poderia ter sido evitado\":",
+      "opcoes": [
+        "could have been avoided",
+        "could be avoided have",
+        "could have avoided been"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l4-t2",
+      "tipo": "completar",
+      "frase": "We didn't involve all the ___. (partes interessadas)",
+      "respostas": [
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "b2u01l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The scope kept changing."
+    },
+    {
+      "id": "b2u01l4-t4",
+      "tipo": "traduzir",
+      "pt": "Fizemos uma reunião de lições aprendidas.",
+      "respostas": [
+        "We had a lessons-learned meeting.",
+        "We had a lessons learned meeting.",
+        "We held a lessons-learned meeting."
+      ]
+    },
+    {
+      "id": "b2u01l4-t5",
+      "tipo": "ordenar",
+      "frase": "We should have started earlier",
+      "traducao_pt": "Deveríamos ter começado antes"
+    }
+  ]
+}

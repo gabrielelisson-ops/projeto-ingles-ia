@@ -1,0 +1,343 @@
+{
+  "id": "a2-u07-l4",
+  "nivel": "A2",
+  "unidade": 7,
+  "numero": 4,
+  "titulo": "At the hotel",
+  "objetivo_pt": "Fazer check-in no hotel, pedir informações e resolver problemas no quarto.",
+  "aquecimento": {
+    "situacao_pt": "Você chegou ao hotel. O professor é o recepcionista. Faça o check-in e pergunte sobre café da manhã e Wi-Fi.",
+    "papel_professor": "Faça o papel de recepcionista. Faça o check-in (nome, reserva, noites), informe o café da manhã (6:30 a 10) e a senha do Wi-Fi. Depois, receba uma reclamação sobre o quarto.",
+    "abertura": "Good evening! Welcome to the Harbor Hotel. Do you have a reservation?",
+    "abertura_pt": "Boa noite! Bem-vindo ao Harbor Hotel. Você tem reserva?"
+  },
+  "vocabulario": [
+    {
+      "id": "reservation",
+      "en": "reservation / booking",
+      "pt": "reserva",
+      "emoji": "📋",
+      "exemplo_en": "I have a reservation for three nights.",
+      "exemplo_pt": "Tenho uma reserva para três noites."
+    },
+    {
+      "id": "single-double",
+      "en": "single / double room",
+      "pt": "quarto de solteiro / casal",
+      "emoji": "🛏️",
+      "exemplo_en": "A double room, please.",
+      "exemplo_pt": "Um quarto de casal, por favor."
+    },
+    {
+      "id": "key-card",
+      "en": "key card",
+      "pt": "cartão-chave",
+      "emoji": "🔑",
+      "exemplo_en": "Here is your key card.",
+      "exemplo_pt": "Aqui está seu cartão-chave."
+    },
+    {
+      "id": "breakfast-inc",
+      "en": "breakfast included",
+      "pt": "café da manhã incluído",
+      "emoji": "🥐",
+      "exemplo_en": "Is breakfast included?",
+      "exemplo_pt": "O café da manhã está incluído?"
+    },
+    {
+      "id": "wifi",
+      "en": "Wi-Fi password",
+      "pt": "senha do Wi-Fi",
+      "emoji": "📶",
+      "exemplo_en": "What's the Wi-Fi password?",
+      "exemplo_pt": "Qual é a senha do Wi-Fi?"
+    },
+    {
+      "id": "check-out",
+      "en": "check out / checkout time",
+      "pt": "fazer checkout / horário de saída",
+      "emoji": "🕛",
+      "exemplo_en": "Checkout is at noon.",
+      "exemplo_pt": "O checkout é ao meio-dia."
+    },
+    {
+      "id": "air-conditioning",
+      "en": "air conditioning",
+      "pt": "ar-condicionado",
+      "emoji": "❄️",
+      "exemplo_en": "The air conditioning isn't working.",
+      "exemplo_pt": "O ar-condicionado não está funcionando."
+    },
+    {
+      "id": "towels",
+      "en": "towels",
+      "pt": "toalhas",
+      "emoji": "🧺",
+      "exemplo_en": "Could I have more towels?",
+      "exemplo_pt": "Poderia me dar mais toalhas?"
+    },
+    {
+      "id": "noisy",
+      "en": "noisy",
+      "pt": "barulhento",
+      "emoji": "🔊",
+      "exemplo_en": "My room is very noisy.",
+      "exemplo_pt": "Meu quarto é muito barulhento."
+    },
+    {
+      "id": "change-room",
+      "en": "change rooms",
+      "pt": "trocar de quarto",
+      "emoji": "🔄",
+      "exemplo_en": "Can I change rooms, please?",
+      "exemplo_pt": "Posso trocar de quarto, por favor?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Pedidos educados no hotel",
+    "explicacao_pt": "Para pedidos educados: Can I…? (Posso…?) / Could I have…? (Poderia me dar…?) / Could you…? (Você poderia…?). 'Could' é um pouco mais educado que 'can'. Para reclamar com educação: There's a problem with my room. The air conditioning isn't working. Sempre agradeça: Thank you, that's very kind. Perguntas úteis: Is breakfast included? What time is checkout? What's the Wi-Fi password?",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Check-in",
+          "I have a reservation under Silva.",
+          "Tenho uma reserva no nome de Silva."
+        ],
+        [
+          "Pedir",
+          "Could I have more towels?",
+          "Poderia me dar mais toalhas?"
+        ],
+        [
+          "Pedir que façam",
+          "Could you call a taxi for me?",
+          "Poderia chamar um táxi para mim?"
+        ],
+        [
+          "Reclamar",
+          "The air conditioning isn't working.",
+          "O ar-condicionado não está funcionando."
+        ],
+        [
+          "Solução",
+          "Can I change rooms?",
+          "Posso trocar de quarto?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Hi, I have a reservation under Costa, for two nights.",
+        "pt": "Oi, tenho uma reserva no nome de Costa, para duas noites."
+      },
+      {
+        "en": "Is breakfast included? — Yes, from 6:30 to 10 in the restaurant.",
+        "pt": "O café está incluído? — Sim, das 6h30 às 10h no restaurante."
+      },
+      {
+        "en": "Excuse me, there's a problem with my room. It's very noisy.",
+        "pt": "Com licença, há um problema com meu quarto. Está muito barulhento."
+      },
+      {
+        "en": "Could you wake me up at six, please?",
+        "pt": "Poderia me acordar às seis, por favor?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A problem with the room",
+    "falas": [
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "Excuse me. I'm in room 512. There's a problem.",
+        "pt": "Com licença. Estou no quarto 512. Há um problema."
+      },
+      {
+        "personagem": "Reception",
+        "voz": "b",
+        "en": "I'm sorry. What's the problem?",
+        "pt": "Sinto muito. Qual é o problema?"
+      },
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "The air conditioning isn't working, and it's very hot.",
+        "pt": "O ar-condicionado não está funcionando e está muito quente."
+      },
+      {
+        "personagem": "Reception",
+        "voz": "b",
+        "en": "I'm very sorry. I'll send a technician now.",
+        "pt": "Sinto muito. Vou mandar um técnico agora."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "Thank you. Could I change rooms if he can't fix it?",
+        "pt": "Obrigado. Poderia trocar de quarto se ele não conseguir consertar?"
+      },
+      {
+        "personagem": "Reception",
+        "voz": "b",
+        "en": "Of course. And breakfast tomorrow is free for you.",
+        "pt": "Claro. E o café da manhã amanhã é por nossa conta."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What room is the guest in?",
+        "opcoes": [
+          "215",
+          "512",
+          "125"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What's the problem?",
+        "opcoes": [
+          "The air conditioning isn't working.",
+          "The room is noisy.",
+          "There are no towels."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What does the hotel offer?",
+        "opcoes": [
+          "A free dinner",
+          "Free breakfast tomorrow",
+          "A discount"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u07l4-p1",
+      "tipo": "completar",
+      "frase": "I have a ___ for three nights. (reserva)",
+      "respostas": [
+        "reservation"
+      ]
+    },
+    {
+      "id": "a2u07l4-p2",
+      "tipo": "completar",
+      "frase": "___ I have more towels? (poderia)",
+      "respostas": [
+        "Could"
+      ]
+    },
+    {
+      "id": "a2u07l4-p3",
+      "tipo": "completar",
+      "frase": "Is breakfast ___? (incluído)",
+      "respostas": [
+        "included"
+      ]
+    },
+    {
+      "id": "a2u07l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Qual é a senha do Wi-Fi?\"",
+      "opcoes": [
+        "What's the Wi-Fi password?",
+        "Which is the Wi-Fi code word?",
+        "What the Wi-Fi password is?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Reclamar com educação:",
+      "opcoes": [
+        "Your room is terrible!",
+        "There's a problem with my room.",
+        "I hate this room."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u07l4-p6",
+      "tipo": "ordenar",
+      "frase": "Can I change rooms please?",
+      "traducao_pt": "Posso trocar de quarto, por favor?"
+    },
+    {
+      "id": "a2u07l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Checkout is at noon."
+    },
+    {
+      "id": "a2u07l4-p8",
+      "tipo": "traduzir",
+      "pt": "Meu quarto é muito barulhento.",
+      "respostas": [
+        "My room is very noisy."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Viagem de trabalho: faça o check-in no hotel, pergunte o horário do café e do checkout, e depois ligue para a recepção para resolver um problema no quarto.",
+    "papel_professor": "Primeiro seja recepcionista no check-in. Depois receba uma ligação do quarto com um problema (o aluno escolhe: barulho, chuveiro frio, falta toalha). Ofereça soluções educadas.",
+    "abertura": "Good afternoon and welcome! Do you have a reservation with us?",
+    "abertura_pt": "Boa tarde e bem-vindo! Você tem reserva conosco?"
+  },
+  "teste": [
+    {
+      "id": "a2u07l4-t1",
+      "tipo": "completar",
+      "frase": "The air conditioning ___ working. (negativa)",
+      "respostas": [
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "a2u07l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Quarto de casal\":",
+      "opcoes": [
+        "double room",
+        "couple room",
+        "married room"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u07l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Could I have more towels?"
+    },
+    {
+      "id": "a2u07l4-t4",
+      "tipo": "traduzir",
+      "pt": "Aqui está seu cartão-chave.",
+      "respostas": [
+        "Here is your key card.",
+        "Here's your key card."
+      ]
+    },
+    {
+      "id": "a2u07l4-t5",
+      "tipo": "ordenar",
+      "frase": "Could you call a taxi for me?",
+      "traducao_pt": "Poderia chamar um táxi para mim?"
+    }
+  ]
+}

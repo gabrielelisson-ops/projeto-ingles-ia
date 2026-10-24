@@ -1,0 +1,355 @@
+{
+  "id": "c1-u06-l2",
+  "nivel": "C1",
+  "unidade": 6,
+  "numero": 2,
+  "titulo": "Lead times and bottlenecks",
+  "objetivo_pt": "Analisar prazos, gargalos e níveis de estoque, e propor soluções.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever problemas de fluxo. Identifique o gargalo e proponha soluções com o vocabulário de supply chain.",
+    "papel_professor": "Descreva problemas (Orders wait 3 days before packing. We keep too much stock of slow items and run out of fast ones.). Ensine lead time, bottleneck, safety stock, stockout, throughput, JIT. Corrija.",
+    "abertura": "Orders are produced in one day, but they wait three days before packing. What's going on?",
+    "abertura_pt": "Os pedidos são produzidos em um dia, mas esperam três dias antes da embalagem. O que está acontecendo?"
+  },
+  "vocabulario": [
+    {
+      "id": "lead-time",
+      "en": "lead time",
+      "pt": "prazo (de entrega / atravessamento)",
+      "emoji": "⏳",
+      "exemplo_en": "Our average lead time is 12 days.",
+      "exemplo_pt": "Nosso prazo médio é de 12 dias."
+    },
+    {
+      "id": "bottleneck",
+      "en": "bottleneck",
+      "pt": "gargalo",
+      "emoji": "🍾",
+      "exemplo_en": "Packing is the bottleneck.",
+      "exemplo_pt": "A embalagem é o gargalo."
+    },
+    {
+      "id": "throughput",
+      "en": "throughput",
+      "pt": "vazão / capacidade de processamento",
+      "emoji": "🚰",
+      "exemplo_en": "We need to increase throughput.",
+      "exemplo_pt": "Precisamos aumentar a vazão."
+    },
+    {
+      "id": "inventory",
+      "en": "inventory / stock levels",
+      "pt": "estoque / níveis de estoque",
+      "emoji": "📦",
+      "exemplo_en": "Inventory levels are too high.",
+      "exemplo_pt": "Os níveis de estoque estão altos demais."
+    },
+    {
+      "id": "safety-stock",
+      "en": "safety stock / buffer stock",
+      "pt": "estoque de segurança",
+      "emoji": "🛡️",
+      "exemplo_en": "We keep two weeks of safety stock.",
+      "exemplo_pt": "Mantemos duas semanas de estoque de segurança."
+    },
+    {
+      "id": "stockout",
+      "en": "stockout / run out of stock",
+      "pt": "ruptura / falta de estoque",
+      "emoji": "🚫",
+      "exemplo_en": "We had three stockouts last month.",
+      "exemplo_pt": "Tivemos três rupturas mês passado."
+    },
+    {
+      "id": "jit",
+      "en": "just-in-time (JIT)",
+      "pt": "just-in-time",
+      "emoji": "⏱️",
+      "exemplo_en": "Our suppliers deliver just in time.",
+      "exemplo_pt": "Nossos fornecedores entregam just-in-time."
+    },
+    {
+      "id": "turnover-l2",
+      "en": "inventory turnover",
+      "pt": "giro de estoque",
+      "emoji": "🔄",
+      "exemplo_en": "Inventory turnover has improved.",
+      "exemplo_pt": "O giro de estoque melhorou."
+    },
+    {
+      "id": "obsolete",
+      "en": "obsolete / slow-moving stock",
+      "pt": "estoque obsoleto / de baixo giro",
+      "emoji": "🐌",
+      "exemplo_en": "We have too much slow-moving stock.",
+      "exemplo_pt": "Temos estoque de baixo giro demais."
+    },
+    {
+      "id": "reorder",
+      "en": "reorder point",
+      "pt": "ponto de pedido",
+      "emoji": "📍",
+      "exemplo_en": "When stock hits the reorder point, we order more.",
+      "exemplo_pt": "Quando o estoque atinge o ponto de pedido, pedimos mais."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Analisando fluxo e estoque",
+    "explicacao_pt": "Para diagnosticar: The bottleneck is… / X is holding up the whole process. / Throughput is limited by… Para estoque: We are overstocked on… / We are running low on… / We ran out of… / Stock levels are above/below target. Para causas: This is caused by / due to / a result of… Para soluções: By + -ing, we could… (By adding a second shift at packing, we could double throughput.) / Increasing safety stock would… Comparativos e quantificadores: twice as long as, far too much, not enough.",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Gargalo",
+          "The bottleneck is…",
+          "The bottleneck is the paint shop."
+        ],
+        [
+          "Bloqueio",
+          "X is holding up…",
+          "Packing is holding up the whole process."
+        ],
+        [
+          "Excesso",
+          "We are overstocked on…",
+          "We are overstocked on slow-moving items."
+        ],
+        [
+          "Falta",
+          "We are running low on…",
+          "We are running low on labels."
+        ],
+        [
+          "Solução",
+          "By + -ing, we could…",
+          "By adding a shift, we could double throughput."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The bottleneck is the packing area, which is holding up the whole process.",
+        "pt": "O gargalo é a área de embalagem, que está segurando todo o processo."
+      },
+      {
+        "en": "We are overstocked on slow-moving items and running low on our best-sellers.",
+        "pt": "Estamos com excesso de itens de baixo giro e com pouco estoque dos mais vendidos."
+      },
+      {
+        "en": "By increasing safety stock of critical parts, we could avoid stockouts.",
+        "pt": "Aumentando o estoque de segurança de peças críticas, poderíamos evitar rupturas."
+      },
+      {
+        "en": "Lead time from China is twice as long as from local suppliers.",
+        "pt": "O prazo da China é o dobro do prazo dos fornecedores locais."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Where is the bottleneck?",
+    "falas": [
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "I've mapped the whole process. Production takes one day, but the total lead time is six days.",
+        "pt": "Mapeei todo o processo. A produção leva um dia, mas o prazo total é de seis dias."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Where is the time being lost?",
+        "pt": "Onde o tempo está sendo perdido?"
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Mostly in quality inspection. Every batch waits two days for lab approval. That's our bottleneck.",
+        "pt": "Principalmente na inspeção de qualidade. Cada lote espera dois dias pela aprovação do laboratório. Esse é nosso gargalo."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "And inventory?",
+        "pt": "E o estoque?"
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "We're overstocked on finished goods — about 40 days — but we keep running out of packaging materials.",
+        "pt": "Estamos com excesso de produto acabado — uns 40 dias — mas vivemos ficando sem material de embalagem."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "So, by speeding up lab approval and setting proper reorder points for packaging, we could cut lead time significantly.",
+        "pt": "Então, acelerando a aprovação do laboratório e definindo pontos de pedido adequados para embalagem, poderíamos cortar o prazo significativamente."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How long does production take?",
+        "opcoes": [
+          "One day",
+          "Two days",
+          "Six days"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the total lead time?",
+        "opcoes": [
+          "Two days",
+          "Four days",
+          "Six days"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u06l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the bottleneck?",
+        "opcoes": [
+          "Quality inspection",
+          "Production",
+          "Transport"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What do they keep running out of?",
+        "opcoes": [
+          "Packaging materials",
+          "Finished goods",
+          "Raw materials"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u06l2-p1",
+      "tipo": "completar",
+      "frase": "Packing is the ___. (gargalo)",
+      "respostas": [
+        "bottleneck"
+      ]
+    },
+    {
+      "id": "c1u06l2-p2",
+      "tipo": "completar",
+      "frase": "We keep two weeks of ___ stock. (segurança)",
+      "respostas": [
+        "safety"
+      ]
+    },
+    {
+      "id": "c1u06l2-p3",
+      "tipo": "completar",
+      "frase": "We are running ___ on labels. (com pouco)",
+      "respostas": [
+        "low"
+      ]
+    },
+    {
+      "id": "c1u06l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Estamos com excesso de itens de baixo giro\":",
+      "opcoes": [
+        "We are overstocked on slow-moving items.",
+        "We are overstock in slow items.",
+        "We have over stock slow moving."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Solução com \"by + -ing\":",
+      "opcoes": [
+        "By adding a shift, we could double throughput.",
+        "By add a shift, we could double throughput.",
+        "By to add a shift, double throughput."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l2-p6",
+      "tipo": "ordenar",
+      "frase": "Inventory levels are too high",
+      "traducao_pt": "Os níveis de estoque estão altos demais"
+    },
+    {
+      "id": "c1u06l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We had three stockouts last month."
+    },
+    {
+      "id": "c1u06l2-p8",
+      "tipo": "traduzir",
+      "pt": "Nosso prazo médio é de 12 dias.",
+      "respostas": [
+        "Our average lead time is 12 days.",
+        "Our average lead time is twelve days."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Analise com o professor o fluxo de um processo da sua empresa: onde está o gargalo, como estão os estoques (excesso e falta), o prazo total e o que vocês poderiam fazer para melhorar.",
+    "papel_professor": "Peça a análise de fluxo. Pergunte Where's the bottleneck? What's the total lead time? Where do you have too much or too little stock? What would you change? Corrija.",
+    "abertura": "Think of a process in your company. Where do things get stuck?",
+    "abertura_pt": "Pense num processo da sua empresa. Onde as coisas emperram?"
+  },
+  "teste": [
+    {
+      "id": "c1u06l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"A embalagem está segurando todo o processo\":",
+      "opcoes": [
+        "Packing is holding up the whole process.",
+        "Packing is holding the process up all.",
+        "Packing holds process."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l2-t2",
+      "tipo": "completar",
+      "frase": "We need to increase ___. (vazão)",
+      "respostas": [
+        "throughput"
+      ]
+    },
+    {
+      "id": "c1u06l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "When stock hits the reorder point, we order more."
+    },
+    {
+      "id": "c1u06l2-t4",
+      "tipo": "traduzir",
+      "pt": "O giro de estoque melhorou.",
+      "respostas": [
+        "Inventory turnover has improved.",
+        "Inventory turnover improved.",
+        "Stock turnover has improved."
+      ]
+    },
+    {
+      "id": "c1u06l2-t5",
+      "tipo": "ordenar",
+      "frase": "Our suppliers deliver just in time",
+      "traducao_pt": "Nossos fornecedores entregam just-in-time"
+    }
+  ]
+}

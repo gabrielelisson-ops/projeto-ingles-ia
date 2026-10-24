@@ -1,0 +1,363 @@
+{
+  "id": "b2-u06-l5",
+  "nivel": "B2",
+  "unidade": 6,
+  "numero": 5,
+  "titulo": "A full negotiation",
+  "objetivo_pt": "Fazer uma negociação completa com um fornecedor, da abertura ao fechamento.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: conte ao professor sobre uma negociação da sua vida (comprar um carro, um aluguel, um aumento). Como foi? Você conseguiu o que queria?",
+    "papel_professor": "Peça uma negociação pessoal. Ensine a preparação (BATNA, objetivos, limites) e as fases de uma negociação. Corrija.",
+    "abertura": "Have you ever negotiated something important, like buying a car or asking for a raise? How did it go?",
+    "abertura_pt": "Você já negociou algo importante, como comprar um carro ou pedir aumento? Como foi?"
+  },
+  "vocabulario": [
+    {
+      "id": "batna",
+      "en": "BATNA (best alternative)",
+      "pt": "melhor alternativa sem acordo",
+      "emoji": "🅱️",
+      "exemplo_en": "What's our BATNA if they say no?",
+      "exemplo_pt": "Qual é nossa alternativa se disserem não?"
+    },
+    {
+      "id": "objective",
+      "en": "objective / target price",
+      "pt": "objetivo / preço-alvo",
+      "emoji": "🎯",
+      "exemplo_en": "Our target price is 18 dollars.",
+      "exemplo_pt": "Nosso preço-alvo é 18 dólares."
+    },
+    {
+      "id": "limit",
+      "en": "limit / walk-away point",
+      "pt": "limite / ponto de desistência",
+      "emoji": "🚧",
+      "exemplo_en": "Our walk-away point is 20 dollars.",
+      "exemplo_pt": "Nosso ponto de desistência é 20 dólares."
+    },
+    {
+      "id": "small-talk",
+      "en": "small talk",
+      "pt": "conversa informal",
+      "emoji": "☕",
+      "exemplo_en": "We started with some small talk.",
+      "exemplo_pt": "Começamos com uma conversa informal."
+    },
+    {
+      "id": "win-win",
+      "en": "win-win",
+      "pt": "ganha-ganha",
+      "emoji": "🏆",
+      "exemplo_en": "We want a win-win agreement.",
+      "exemplo_pt": "Queremos um acordo ganha-ganha."
+    },
+    {
+      "id": "priority",
+      "en": "priority",
+      "pt": "prioridade",
+      "emoji": "⭐",
+      "exemplo_en": "Quality is our top priority.",
+      "exemplo_pt": "Qualidade é nossa prioridade máxima."
+    },
+    {
+      "id": "package",
+      "en": "package (deal)",
+      "pt": "pacote",
+      "emoji": "📦",
+      "exemplo_en": "Let's look at the whole package.",
+      "exemplo_pt": "Vamos olhar o pacote completo."
+    },
+    {
+      "id": "warranty",
+      "en": "warranty / guarantee",
+      "pt": "garantia",
+      "emoji": "🛡️",
+      "exemplo_en": "Could you extend the warranty to two years?",
+      "exemplo_pt": "Poderiam estender a garantia para dois anos?"
+    },
+    {
+      "id": "after-sales",
+      "en": "after-sales service",
+      "pt": "serviço pós-venda",
+      "emoji": "🧰",
+      "exemplo_en": "Their after-sales service is excellent.",
+      "exemplo_pt": "O pós-venda deles é excelente."
+    },
+    {
+      "id": "reach-agreement",
+      "en": "reach an agreement",
+      "pt": "chegar a um acordo",
+      "emoji": "🤝",
+      "exemplo_en": "We reached an agreement after two hours.",
+      "exemplo_pt": "Chegamos a um acordo depois de duas horas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "As fases de uma negociação",
+    "explicacao_pt": "1) PREPARAÇÃO: objetivo, limite, BATNA, prioridades. 2) ABERTURA: small talk; Thank you for meeting us. The aim today is to… 3) PROPOSTAS: Our proposal is… / We were hoping for… / Would you consider…? 4) BARGANHA: If you…, we could… / Provided that… / I'm afraid we can't… / Let's look at the whole package. 5) FECHAMENTO: So, just to confirm… / We'll send… / It's been a pleasure. Dica: negocie o PACOTE (preço + prazo + garantia + pagamento), não só o preço.",
+    "tabela": {
+      "colunas": [
+        "Fase",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Abertura",
+          "The aim today is to agree on a new contract.",
+          "O objetivo hoje é acordar um novo contrato."
+        ],
+        [
+          "Proposta",
+          "Our proposal is a two-year contract at…",
+          "Nossa proposta é um contrato de dois anos a…"
+        ],
+        [
+          "Barganha",
+          "If you extended the warranty, we could accept…",
+          "Se estendessem a garantia, poderíamos aceitar…"
+        ],
+        [
+          "Pacote",
+          "Let's look at the whole package.",
+          "Vamos olhar o pacote completo."
+        ],
+        [
+          "Fechamento",
+          "So, just to confirm the main points…",
+          "Então, só para confirmar os pontos principais…"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Thank you for meeting us. The aim today is to agree on the terms for next year.",
+        "pt": "Obrigado por nos receber. O objetivo hoje é acordar as condições para o próximo ano."
+      },
+      {
+        "en": "Price is important, but quality and delivery are our top priorities.",
+        "pt": "O preço é importante, mas qualidade e entrega são nossas prioridades máximas."
+      },
+      {
+        "en": "If you extended the warranty to two years, we could accept a slightly higher price.",
+        "pt": "Se estendessem a garantia para dois anos, poderíamos aceitar um preço um pouco maior."
+      },
+      {
+        "en": "I think we've reached a win-win agreement.",
+        "pt": "Acho que chegamos a um acordo ganha-ganha."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Preparing the negotiation",
+    "falas": [
+      {
+        "personagem": "Purchasing manager",
+        "voz": "a",
+        "en": "Tomorrow we meet Pack Pro to negotiate the new film contract. Let's prepare.",
+        "pt": "Amanhã nos reunimos com a Pack Pro para negociar o novo contrato de filme. Vamos nos preparar."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Our target price is 4.20 per kilo. Our walk-away point is 4.60.",
+        "pt": "Nosso preço-alvo é 4,20 por quilo. Nosso ponto de desistência é 4,60."
+      },
+      {
+        "personagem": "Purchasing manager",
+        "voz": "a",
+        "en": "And our BATNA?",
+        "pt": "E nossa alternativa?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "The Chilean supplier offered 4.40, but their lead time is ten weeks, which is too long.",
+        "pt": "O fornecedor chileno ofereceu 4,40, mas o prazo deles é de dez semanas, o que é longo demais."
+      },
+      {
+        "personagem": "Purchasing manager",
+        "voz": "a",
+        "en": "OK. So our priorities are delivery and quality. We can be flexible on payment terms if they improve the price.",
+        "pt": "OK. Então nossas prioridades são entrega e qualidade. Podemos ser flexíveis no pagamento se melhorarem o preço."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "And we could ask for a longer warranty on the wrapping machine they lend us.",
+        "pt": "E poderíamos pedir uma garantia maior na envolvedora que eles nos emprestam."
+      },
+      {
+        "personagem": "Purchasing manager",
+        "voz": "a",
+        "en": "Good idea. Let's negotiate the whole package, not just the price.",
+        "pt": "Boa ideia. Vamos negociar o pacote completo, não só o preço."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is their target price?",
+        "opcoes": [
+          "4.20 per kilo",
+          "4.40 per kilo",
+          "4.60 per kilo"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What is their walk-away point?",
+        "opcoes": [
+          "4.20",
+          "4.40",
+          "4.60"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u06l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the Chilean supplier?",
+        "opcoes": [
+          "The lead time is too long.",
+          "The price is too high.",
+          "The quality is bad."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06l5-e4",
+        "tipo": "multipla",
+        "enunciado": "Where can they be flexible?",
+        "opcoes": [
+          "Payment terms",
+          "Quality",
+          "Delivery"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u06l5-p1",
+      "tipo": "completar",
+      "frase": "We want a ___-win agreement.",
+      "respostas": [
+        "win"
+      ]
+    },
+    {
+      "id": "b2u06l5-p2",
+      "tipo": "completar",
+      "frase": "Quality is our top ___. (prioridade)",
+      "respostas": [
+        "priority"
+      ]
+    },
+    {
+      "id": "b2u06l5-p3",
+      "tipo": "completar",
+      "frase": "We ___ an agreement after two hours. (chegamos a)",
+      "respostas": [
+        "reached"
+      ]
+    },
+    {
+      "id": "b2u06l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Abertura de negociação:",
+      "opcoes": [
+        "Thank you for meeting us. The aim today is to agree on the new terms.",
+        "OK, give me your best price now.",
+        "Let's fight for the price."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Vamos olhar o pacote completo\":",
+      "opcoes": [
+        "Let's look at the whole package.",
+        "Let's see all the box.",
+        "Let's watch the complete pack."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l5-p6",
+      "tipo": "ordenar",
+      "frase": "Could you extend the warranty to two years?",
+      "traducao_pt": "Poderiam estender a garantia para dois anos?"
+    },
+    {
+      "id": "b2u06l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Their after-sales service is excellent."
+    },
+    {
+      "id": "b2u06l5-p8",
+      "tipo": "traduzir",
+      "pt": "Nosso preço-alvo é 18 dólares.",
+      "respostas": [
+        "Our target price is 18 dollars.",
+        "Our target price is eighteen dollars."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: negociação completa com o professor (fornecedor de um produto importante para sua empresa). Prepare seu objetivo e limite, abra com cordialidade, negocie o pacote (preço, prazo, pagamento, garantia), use hedging e condicionais e feche o acordo resumindo os termos.",
+    "papel_professor": "Seja um fornecedor realista: comece alto, defenda seus custos, aceite trocas inteligentes. Desafie o aluno a negociar o pacote. No fim, resuma, e depois dê retorno sobre estratégia e linguagem (hedging, condicionais, fechamento).",
+    "abertura": "Good morning! Thank you for coming to our office. Would you like a coffee before we start?",
+    "abertura_pt": "Bom dia! Obrigado por vir ao nosso escritório. Gostaria de um café antes de começarmos?"
+  },
+  "teste": [
+    {
+      "id": "b2u06l5-t1",
+      "tipo": "multipla",
+      "enunciado": "BATNA é:",
+      "opcoes": [
+        "a melhor alternativa sem acordo",
+        "o preço máximo",
+        "o contrato final"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l5-t2",
+      "tipo": "completar",
+      "frase": "We started with some small ___. (conversa informal)",
+      "respostas": [
+        "talk"
+      ]
+    },
+    {
+      "id": "b2u06l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What's our BATNA if they say no?",
+      "aceitas": [
+        "What is our BATNA if they say no?"
+      ]
+    },
+    {
+      "id": "b2u06l5-t4",
+      "tipo": "traduzir",
+      "pt": "Nosso ponto de desistência é 20 dólares.",
+      "respostas": [
+        "Our walk-away point is 20 dollars.",
+        "Our walk-away point is twenty dollars."
+      ]
+    },
+    {
+      "id": "b2u06l5-t5",
+      "tipo": "ordenar",
+      "frase": "Price is important but quality is our priority",
+      "traducao_pt": "O preço é importante, mas a qualidade é nossa prioridade"
+    }
+  ]
+}

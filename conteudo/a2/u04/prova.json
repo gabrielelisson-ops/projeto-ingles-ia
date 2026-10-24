@@ -1,0 +1,253 @@
+{
+  "id": "a2-u04-prova",
+  "nivel": "A2",
+  "unidade": 4,
+  "titulo": "Prova da Unidade 4 (A2) — Plans",
+  "leitura": {
+    "texto": "From: Paula (HR)\nTo: All production staff\nSubject: Changes in November\n\nHi everyone,\nNext month is going to be very busy. On November 4th, the company is installing two new robots on line 1. Because of that, line 1 isn't going to work on the 4th and 5th. Operators from line 1 are going to help on line 2 on those days. There's going to be a training session on the new robots on November 8th, from 2 to 5 p.m., in meeting room B. Everybody from line 1 needs to come. Also, we're having our end-of-year party on December 13th at the Green Garden restaurant. Would you like to bring your family? Please answer by November 20th.\nThanks,\nPaula",
+    "perguntas": [
+      {
+        "id": "a2u04pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What is happening on November 4th?",
+        "opcoes": [
+          "A party",
+          "The company is installing robots.",
+          "A training"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many robots are they installing?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What are line 1 operators going to do on the 4th and 5th?",
+        "opcoes": [
+          "Stay at home",
+          "Help on line 2",
+          "Have training"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-l4",
+        "tipo": "multipla",
+        "enunciado": "When is the training?",
+        "opcoes": [
+          "November 4th",
+          "November 8th",
+          "November 20th"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Where is the training?",
+        "opcoes": [
+          "In meeting room B",
+          "At the restaurant",
+          "On line 1"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Who needs to go to the training?",
+        "opcoes": [
+          "Everybody from line 1",
+          "Only managers",
+          "Everybody from line 2"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Where is the party?",
+        "opcoes": [
+          "At the factory",
+          "At the Green Garden restaurant",
+          "In meeting room B"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-l8",
+        "tipo": "multipla",
+        "enunciado": "When do people need to answer about the party?",
+        "opcoes": [
+          "By November 8th",
+          "By November 20th",
+          "By December 13th"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "Hi, Lia! Are you doing anything on Saturday night?",
+        "pt": "Oi, Lia! Você vai fazer alguma coisa no sábado à noite?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Hmm, I'm having dinner with my parents. Why?",
+        "pt": "Hmm, vou jantar com meus pais. Por quê?"
+      },
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "We're going to watch the final at my house. Would you like to come?",
+        "pt": "Vamos ver a final na minha casa. Quer vir?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Oh, I'd love to, but I can't on Saturday. What time does the game start?",
+        "pt": "Ah, eu adoraria, mas sábado não posso. Que horas começa o jogo?"
+      },
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "At eight. How about the next game, on Wednesday?",
+        "pt": "Às oito. Que tal o próximo jogo, na quarta?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Wednesday is perfect. Can I bring something?",
+        "pt": "Quarta é perfeito. Posso levar algo?"
+      },
+      {
+        "personagem": "Davi",
+        "voz": "a",
+        "en": "Bring some snacks. See you on Wednesday!",
+        "pt": "Traga uns petiscos. Até quarta!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Lia doing on Saturday night?",
+        "opcoes": [
+          "Watching the final",
+          "Having dinner with her parents",
+          "Working"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What is Davi going to do on Saturday?",
+        "opcoes": [
+          "Watch the final at his house",
+          "Go to a restaurant",
+          "Visit his parents"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What time does the game start?",
+        "opcoes": [
+          "At seven",
+          "At eight",
+          "At nine"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-e4",
+        "tipo": "multipla",
+        "enunciado": "When are they going to meet?",
+        "opcoes": [
+          "On Saturday",
+          "On Wednesday",
+          "On Sunday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What is Lia going to bring?",
+        "opcoes": [
+          "Drinks",
+          "Snacks",
+          "A cake"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Does Lia accept the second invitation?",
+        "opcoes": [
+          "Yes",
+          "No"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Would you like to come?"
+      },
+      {
+        "id": "a2u04pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I'd love to, but I can't on Saturday.",
+        "aceitas": [
+          "I would love to, but I can't on Saturday.",
+          "I'd love to but I can't on Saturday."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u04pv-w1",
+      "instrucao_pt": "Escreva seus planos para o próximo mês: 2 planos com going to e 1 compromisso marcado (present continuous + data).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u04pv-w2",
+      "instrucao_pt": "Escreva uma mensagem convidando um amigo para algo, sugerindo dia, hora e lugar.",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u04pv-s1",
+      "pergunta_en": "What are you going to do next weekend and next vacation?",
+      "instrucao_pt": "Fale em voz alta seus planos usando going to."
+    },
+    {
+      "id": "a2u04pv-s2",
+      "pergunta_en": "What would you like to do in five years? Tell me your dreams.",
+      "instrucao_pt": "Fale em voz alta seus desejos e sonhos (I'd like to, I hope to, maybe)."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Going to para planos e intenções (afirmativa, negativa, pergunta), present continuous para compromissos marcados, convites (Would you like to…?, I'd love to, Sorry I can't, How about…?), planos de trabalho, desejos (I'd like to, I hope to)."
+}

@@ -3,7 +3,7 @@
  * (sem internet, sem chave real).
  */
 import { ErroIA, extrairJSON } from '../src/ia/gemini';
-import { avaliarResposta, falarComProfessor, MODELOS_PADRAO, prepararHistorico, testarChave, transcricaoEntrevista } from '../src/ia/professor';
+import { avaliarResposta, estimarNivelFala, falarComDupla, falarComProfessor, MODELOS_PADRAO, prepararHistorico, testarChave, transcricaoEntrevista } from '../src/ia/professor';
 import { promptAvaliador, promptProfessor } from '../src/ia/prompts';
 
 const CHAVE = 'AIzaTESTE_chave_falsa_1234567890abcdef';
@@ -178,4 +178,42 @@ test('modelo com nome errado (404) ou sobrecarregado (503): tenta o outro modelo
   await expect(falarComProfessor(CHAVE, MODELOS_PADRAO, contexto, historico, dois.fn)).rejects.toMatchObject({ tipo: 'indisponivel' });
   const naoAcha = fakeFetch([{ status: 404 }, { status: 404 }]);
   await expect(falarComProfessor(CHAVE, MODELOS_PADRAO, contexto, historico, naoAcha.fn)).rejects.toMatchObject({ tipo: 'modelo' });
+});
+
+test('nivelamento: estima o nível da fala; fala curta é A1 sem chamar a IA', async () => {
+  const vazio = fakeFetch([]);
+  expect((await estimarNivelFala(CHAVE, MODELOS_PADRAO, 'hello my name', vazio.fn)).nivel).toBe('A1');
+  expect(vazio.chamadas).toHaveLength(0);
+  const { fn } = fakeFetch([gemini({ nivel: 'B1', justificativa_pt: 'Usa passado e presente perfeito.' })]);
+  expect((await estimarNivelFala(CHAVE, MODELOS_PADRAO, 'I have worked as an engineer for ten years and last weekend I went to the beach', fn)).nivel).toBe('B1');
+  const invalido = fakeFetch([gemini({ nivel: 'Z9' }), gemini({ nivel: 'Z9' }), gemini({ nivel: 'Z9' }), gemini({ nivel: 'Z9' })]);
+  await expect(estimarNivelFala(CHAVE, MODELOS_PADRAO, 'one two three four five six', invalido.fn)).rejects.toMatchObject({ tipo: 'resposta_invalida' });
+});
+
+test('estudar juntos: correções só para os dois alunos (uma cada) e próximo sempre válido', async () => {
+  const ctx = { nomes: ['Gabriel', 'Ana'] as [string, string], nivel: 'A2' as const, situacao: 'restaurante', papel: 'garçom' };
+  const { fn, chamadas } = fakeFetch([
+    gemini({
+      resposta: 'Great choice! Ana, what would you like?',
+      correcoes: [
+        { aluno: 'Gabriel', errado: 'I want a steak', certo: "I'd like a steak", explicacao_pt: 'mais educado' },
+        { aluno: 'Gabriel', errado: 'x', certo: 'y', explicacao_pt: '' },
+        { aluno: 'Intruso', errado: 'a', certo: 'b', explicacao_pt: '' },
+      ],
+      proximo: 'Ana',
+    }),
+  ]);
+  const r = await falarComDupla(CHAVE, MODELOS_PADRAO, ctx, [
+    { quem: null, texto: 'Good evening! What would you like?' },
+    { quem: 'Gabriel', texto: 'I want a steak' },
+  ], fn);
+  expect(r.correcoes.map((c) => c.aluno)).toEqual(['Gabriel']);
+  expect(r.proximo).toBe('Ana');
+  const enviado = chamadas[0]!.body;
+  expect(enviado.contents[0].parts[0].text).toBe('[Gabriel]: I want a steak');
+  expect(enviado.systemInstruction.parts[0].text).toContain('Gabriel e Ana');
+
+  const semProximo = fakeFetch([gemini({ resposta: 'OK! And you?', proximo: 'Fulano' })]);
+  const r2 = await falarComDupla(CHAVE, MODELOS_PADRAO, ctx, [{ quem: 'Ana', texto: 'Fish please' }], semProximo.fn);
+  expect(r2.proximo).toBe('Gabriel'); // alterna quando a IA devolve um nome inválido
 });

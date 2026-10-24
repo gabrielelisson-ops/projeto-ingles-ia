@@ -1,0 +1,353 @@
+{
+  "id": "b2-u02-l3",
+  "nivel": "B2",
+  "unidade": 2,
+  "numero": 3,
+  "titulo": "She told me to…",
+  "objetivo_pt": "Relatar pedidos, ordens e conselhos com tell/ask/advise + objeto + to.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar ordens e pedidos. Depois, relate: \"You told me to…\" / \"You asked me not to…\".",
+    "papel_professor": "Dê pedidos e ordens (Please close the door. Don't touch that.). Peça o relato com tell/ask + objeto + (not) to. Corrija 'He said me to' → 'He told me to'.",
+    "abertura": "Please speak more slowly. — Now, report my request: what did I ask you to do?",
+    "abertura_pt": "Por favor, fale mais devagar. — Agora, relate meu pedido: o que eu te pedi?"
+  },
+  "vocabulario": [
+    {
+      "id": "tell-to",
+      "en": "tell someone to",
+      "pt": "mandar alguém (fazer)",
+      "emoji": "👆",
+      "exemplo_en": "The supervisor told us to wear gloves.",
+      "exemplo_pt": "O supervisor nos mandou usar luvas."
+    },
+    {
+      "id": "ask-to",
+      "en": "ask someone to",
+      "pt": "pedir a alguém para",
+      "emoji": "🙏",
+      "exemplo_en": "She asked me to send the report.",
+      "exemplo_pt": "Ela me pediu para mandar o relatório."
+    },
+    {
+      "id": "not-to",
+      "en": "tell/ask someone not to",
+      "pt": "pedir / mandar não (fazer)",
+      "emoji": "🚫",
+      "exemplo_en": "He asked us not to park there.",
+      "exemplo_pt": "Ele nos pediu para não estacionar ali."
+    },
+    {
+      "id": "advise",
+      "en": "advise someone to",
+      "pt": "aconselhar alguém a",
+      "emoji": "💡",
+      "exemplo_en": "The doctor advised me to rest.",
+      "exemplo_pt": "O médico me aconselhou a descansar."
+    },
+    {
+      "id": "remind",
+      "en": "remind someone to",
+      "pt": "lembrar alguém de",
+      "emoji": "⏰",
+      "exemplo_en": "Remind me to call the bank.",
+      "exemplo_pt": "Me lembre de ligar para o banco."
+    },
+    {
+      "id": "warn",
+      "en": "warn someone (not) to",
+      "pt": "avisar / alertar alguém (para não)",
+      "emoji": "⚠️",
+      "exemplo_en": "They warned us not to touch the wires.",
+      "exemplo_pt": "Eles nos alertaram para não tocar nos fios."
+    },
+    {
+      "id": "encourage",
+      "en": "encourage someone to",
+      "pt": "incentivar alguém a",
+      "emoji": "🌟",
+      "exemplo_en": "My boss encouraged me to study English.",
+      "exemplo_pt": "Meu chefe me incentivou a estudar inglês."
+    },
+    {
+      "id": "order",
+      "en": "order someone to",
+      "pt": "ordenar alguém a",
+      "emoji": "🫡",
+      "exemplo_en": "The manager ordered them to stop the line.",
+      "exemplo_pt": "O gerente ordenou que parassem a linha."
+    },
+    {
+      "id": "invite",
+      "en": "invite someone to",
+      "pt": "convidar alguém para",
+      "emoji": "💌",
+      "exemplo_en": "They invited us to visit the plant.",
+      "exemplo_pt": "Eles nos convidaram para visitar a fábrica."
+    },
+    {
+      "id": "instructions",
+      "en": "instructions",
+      "pt": "instruções",
+      "emoji": "📋",
+      "exemplo_en": "I followed his instructions.",
+      "exemplo_pt": "Segui as instruções dele."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Reported speech: pedidos e ordens",
+    "explicacao_pt": "Para relatar pedidos, ordens, conselhos e avisos: VERBO + OBJETO + (NOT) TO + VERBO. Please send the report. → She asked me to send the report. Don't touch it! → He told me not to touch it. You should rest. → The doctor advised me to rest. Verbos: tell (ordem), ask (pedido), advise (conselho), remind (lembrete), warn (aviso), encourage (incentivo), invite (convite), order (ordem forte). Erro comum: 'He said me to…' ✗ → 'He told me to…' ✓. A negativa vai antes do to: not to.",
+    "tabela": {
+      "colunas": [
+        "Direto",
+        "Relatado",
+        "Verbo"
+      ],
+      "linhas": [
+        [
+          "\"Please call me.\"",
+          "She asked me to call her.",
+          "ask"
+        ],
+        [
+          "\"Wear your helmet!\"",
+          "He told us to wear our helmets.",
+          "tell"
+        ],
+        [
+          "\"Don't be late.\"",
+          "She told me not to be late.",
+          "tell … not to"
+        ],
+        [
+          "\"You should see a doctor.\"",
+          "He advised me to see a doctor.",
+          "advise"
+        ],
+        [
+          "\"Don't forget the keys.\"",
+          "She reminded me to take the keys.",
+          "remind"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The safety technician told everybody to wear ear plugs near the presses.",
+        "pt": "O técnico de segurança mandou todos usarem protetor auricular perto das prensas."
+      },
+      {
+        "en": "The client asked us not to change the packaging without telling them.",
+        "pt": "O cliente nos pediu para não mudar a embalagem sem avisá-los."
+      },
+      {
+        "en": "My manager encouraged me to apply for the supervisor position.",
+        "pt": "Meu gerente me incentivou a me candidatar à vaga de supervisor."
+      },
+      {
+        "en": "The electrician warned us not to switch the power on.",
+        "pt": "O eletricista nos alertou para não ligar a energia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Instructions from the boss",
+    "falas": [
+      {
+        "personagem": "Colleague",
+        "voz": "a",
+        "en": "What did the boss say in the meeting this morning? I missed it.",
+        "pt": "O que o chefe disse na reunião de manhã? Eu perdi."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "He told us to finish the Andrade order by Friday. It's urgent.",
+        "pt": "Ele mandou terminarmos o pedido da Andrade até sexta. É urgente."
+      },
+      {
+        "personagem": "Colleague",
+        "voz": "a",
+        "en": "Friday? That's tight.",
+        "pt": "Sexta? Está apertado."
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "I know. He asked the night shift to work two extra hours. And he reminded everyone to record all the stops in the system.",
+        "pt": "Eu sei. Ele pediu ao turno da noite para trabalhar duas horas extras. E lembrou todos de registrar todas as paradas no sistema."
+      },
+      {
+        "personagem": "Colleague",
+        "voz": "a",
+        "en": "Anything else?",
+        "pt": "Mais alguma coisa?"
+      },
+      {
+        "personagem": "Rita",
+        "voz": "b",
+        "en": "Yes, he warned us not to skip the quality checks, even with the pressure. And he advised you to talk to him about your vacation dates.",
+        "pt": "Sim, nos alertou para não pular as inspeções de qualidade, mesmo com a pressão. E te aconselhou a falar com ele sobre suas datas de férias."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02l3-e1",
+        "tipo": "multipla",
+        "enunciado": "By when must they finish the order?",
+        "opcoes": [
+          "Thursday",
+          "Friday",
+          "Monday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What did he ask the night shift to do?",
+        "opcoes": [
+          "Work two extra hours",
+          "Start earlier",
+          "Clean the machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What did he warn them not to do?",
+        "opcoes": [
+          "Skip the quality checks",
+          "Use their phones",
+          "Work overtime"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What did he advise the colleague to do?",
+        "opcoes": [
+          "Talk to him about vacation dates",
+          "Take a course",
+          "Change shifts"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u02l3-p1",
+      "tipo": "completar",
+      "frase": "She asked me ___ send the report.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b2u02l3-p2",
+      "tipo": "completar",
+      "frase": "He asked us ___ to park there.",
+      "respostas": [
+        "not"
+      ]
+    },
+    {
+      "id": "b2u02l3-p3",
+      "tipo": "completar",
+      "frase": "The doctor ___ me to rest. (aconselhou)",
+      "respostas": [
+        "advised"
+      ]
+    },
+    {
+      "id": "b2u02l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "He said me to wait.",
+        "He told me to wait.",
+        "He told me wait."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u02l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Don't touch the wires!\" → They warned us…",
+      "opcoes": [
+        "not to touch the wires.",
+        "to not touching the wires.",
+        "don't touch the wires."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l3-p6",
+      "tipo": "ordenar",
+      "frase": "My boss encouraged me to study English",
+      "traducao_pt": "Meu chefe me incentivou a estudar inglês"
+    },
+    {
+      "id": "b2u02l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Remind me to call the bank."
+    },
+    {
+      "id": "b2u02l3-p8",
+      "tipo": "traduzir",
+      "pt": "Eles nos convidaram para visitar a fábrica.",
+      "respostas": [
+        "They invited us to visit the plant.",
+        "They invited us to visit the factory."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Relate ao professor as instruções e conselhos que você recebeu recentemente (do chefe, do médico, de um parente), usando tell/ask/advise/remind/warn + to.",
+    "papel_professor": "Peça instruções/conselhos recentes. Pergunte Who told you…? What did they ask you to do? Did anyone warn you…? Corrija estrutura verbo + objeto + to.",
+    "abertura": "What instructions or advice have you received recently — from your boss, a doctor or your family?",
+    "abertura_pt": "Que instruções ou conselhos você recebeu recentemente — do chefe, de um médico ou da família?"
+  },
+  "teste": [
+    {
+      "id": "b2u02l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Please call me.\" → She…",
+      "opcoes": [
+        "asked me to call her.",
+        "said me to call her.",
+        "asked me call her."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l3-t2",
+      "tipo": "completar",
+      "frase": "I followed his ___. (instruções)",
+      "respostas": [
+        "instructions"
+      ]
+    },
+    {
+      "id": "b2u02l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The supervisor told us to wear gloves."
+    },
+    {
+      "id": "b2u02l3-t4",
+      "tipo": "traduzir",
+      "pt": "O gerente ordenou que parassem a linha.",
+      "respostas": [
+        "The manager ordered them to stop the line."
+      ]
+    },
+    {
+      "id": "b2u02l3-t5",
+      "tipo": "ordenar",
+      "frase": "He told me not to be late",
+      "traducao_pt": "Ele me disse para não me atrasar"
+    }
+  ]
+}

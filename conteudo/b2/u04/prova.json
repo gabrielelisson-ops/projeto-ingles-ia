@@ -1,0 +1,259 @@
+{
+  "id": "b2-u04-prova",
+  "nivel": "B2",
+  "unidade": 4,
+  "titulo": "Prova da Unidade 4 (B2) — Job interviews",
+  "leitura": {
+    "texto": "HOW TO PREPARE FOR AN INTERVIEW IN ENGLISH\nMany Brazilian professionals are excellent at their jobs, but they get nervous when an interview is in English. Here are some tips from Larissa Moura, a recruiter who used to work for a multinational in São Paulo and now runs her own consultancy.\n'First, practise the classic questions out loud,' she says. 'Most candidates aren't used to talking about themselves in English. If you practise, you'll get used to it, and it won't feel so strange.'\nSecond, prepare examples using the STAR method. 'Recruiters don't just want to hear that you're a team player. They want to know about a time when you worked in a team and what the result was.'\nThird, prepare your own questions — and make them polite. 'Instead of asking \"What is the salary?\", say \"Could you tell me what the salary range is?\". Indirect questions sound much more professional.'\nLarissa also warns candidates not to memorize long answers. 'In the past, candidates would memorize whole paragraphs, and it sounded like a robot. Today, recruiters prefer natural answers, even with small mistakes.'\nFinally, remember that it's normal to be nervous. 'I used to be terrified of interviews myself. Now I do ten a week. You get used to everything!'",
+    "perguntas": [
+      {
+        "id": "b2u04pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What does Larissa do now?",
+        "opcoes": [
+          "She runs her own consultancy.",
+          "She works for a multinational.",
+          "She is a teacher."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What aren't most candidates used to?",
+        "opcoes": [
+          "Talking about themselves in English",
+          "Wearing a suit",
+          "Working in teams"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What happens if you practise?",
+        "opcoes": [
+          "You'll get used to it.",
+          "You'll forget the answers.",
+          "You'll get the job immediately."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What do recruiters want to know?",
+        "opcoes": [
+          "About a time when you worked in a team and the result",
+          "Only that you are a team player",
+          "Your age"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why should you use indirect questions?",
+        "opcoes": [
+          "They sound more professional.",
+          "They are shorter.",
+          "They are easier."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What would candidates do in the past?",
+        "opcoes": [
+          "Memorize whole paragraphs",
+          "Arrive late",
+          "Ask about the salary first"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What do recruiters prefer today?",
+        "opcoes": [
+          "Natural answers, even with small mistakes",
+          "Perfect memorized answers",
+          "Very short answers"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-l8",
+        "tipo": "multipla",
+        "enunciado": "How many interviews does Larissa do now?",
+        "opcoes": [
+          "Two a week",
+          "Five a week",
+          "Ten a week"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Recruiter",
+        "voz": "a",
+        "en": "So, Mariana, you used to work in quality. Why did you move to logistics?",
+        "pt": "Então, Mariana, você trabalhava com qualidade. Por que mudou para logística?"
+      },
+      {
+        "personagem": "Mariana",
+        "voz": "b",
+        "en": "I wanted a new challenge. At first, it was hard to get used to the pace — everything is urgent in logistics!",
+        "pt": "Queria um novo desafio. No começo, foi difícil me acostumar com o ritmo — tudo é urgente na logística!"
+      },
+      {
+        "personagem": "Recruiter",
+        "voz": "a",
+        "en": "And now?",
+        "pt": "E agora?"
+      },
+      {
+        "personagem": "Mariana",
+        "voz": "b",
+        "en": "Now I'm used to working under pressure. I actually enjoy it.",
+        "pt": "Agora estou acostumada a trabalhar sob pressão. Na verdade, gosto."
+      },
+      {
+        "personagem": "Recruiter",
+        "voz": "a",
+        "en": "This position involves managing a team of fifteen people. Have you ever led a team?",
+        "pt": "Este cargo envolve gerenciar uma equipe de quinze pessoas. Você já liderou uma equipe?"
+      },
+      {
+        "personagem": "Mariana",
+        "voz": "b",
+        "en": "Yes. In my previous company, I was responsible for eight people. We reduced delivery errors by 40%.",
+        "pt": "Sim. Na minha empresa anterior, eu era responsável por oito pessoas. Reduzimos os erros de entrega em 40%."
+      },
+      {
+        "personagem": "Recruiter",
+        "voz": "a",
+        "en": "Excellent. Do you have any questions?",
+        "pt": "Excelente. Você tem alguma pergunta?"
+      },
+      {
+        "personagem": "Mariana",
+        "voz": "b",
+        "en": "Yes. I was wondering if the company offers any training for new leaders.",
+        "pt": "Sim. Queria saber se a empresa oferece algum treinamento para novos líderes."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Which area did Mariana use to work in?",
+        "opcoes": [
+          "Quality",
+          "Sales",
+          "HR"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What was hard to get used to?",
+        "opcoes": [
+          "The pace",
+          "The salary",
+          "The location"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What is she used to now?",
+        "opcoes": [
+          "Working under pressure",
+          "Working alone",
+          "Working at night"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How big is the team in the new position?",
+        "opcoes": [
+          "Eight people",
+          "Fifteen people",
+          "Forty people"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04pv-e5",
+        "tipo": "multipla",
+        "enunciado": "By how much did her previous team reduce delivery errors?",
+        "opcoes": [
+          "14%",
+          "40%",
+          "80%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What did she ask?",
+        "opcoes": [
+          "If the company offers training for new leaders",
+          "What the salary is",
+          "When she can start"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Now I'm used to working under pressure.",
+        "aceitas": [
+          "Now I am used to working under pressure."
+        ]
+      },
+      {
+        "id": "b2u04pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I was wondering if the company offers any training."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u04pv-w1",
+      "instrucao_pt": "Escreva sua resposta para \"Tell me about yourself\" (presente, trajetória, objetivo), incluindo algo que você costumava fazer e algo a que está acostumado.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u04pv-w2",
+      "instrucao_pt": "Escreva uma resposta no método STAR para \"Tell me about a time when you solved a problem\" e 3 perguntas indiretas para fazer ao entrevistador.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u04pv-s1",
+      "pergunta_en": "Tell me about yourself and why you would be a good candidate for a job in your area.",
+      "instrucao_pt": "Responda em voz alta como numa entrevista real."
+    },
+    {
+      "id": "b2u04pv-s2",
+      "pergunta_en": "Tell me about a big change in your career. What did you use to do, and what did you have to get used to?",
+      "instrucao_pt": "Use used to e be/get used to."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Perguntas indiretas (Could you tell me where… is / Do you know if…; ordem afirmativa), used to / didn't use to / would para hábitos passados, be used to / get used to + -ing (× used to + verbo), perguntas clássicas de entrevista, método STAR, condições (notice period, salary expectations, relocate)."
+}

@@ -1,0 +1,254 @@
+{
+  "id": "a2-u08-prova",
+  "nivel": "A2",
+  "unidade": 8,
+  "titulo": "Prova da Unidade 8 (A2) — Health and safety",
+  "leitura": {
+    "texto": "SAFETY RULES — PRESS AREA\n1. You must wear safety glasses, gloves, ear plugs and safety boots at all times.\n2. You mustn't use your phone or eat in this area.\n3. Only trained operators can use the presses. If you are a visitor, you have to stay behind the yellow line.\n4. Before you clean or repair a press, you must turn it off and lock it out.\n5. You don't have to report small cuts to the manager, but you have to write them in the first aid book.\n6. If you feel tired or sick, you should stop and talk to your supervisor. Don't continue working.\n7. In an emergency, press the red button and call extension 2020.\nRemember: last year we had zero accidents in this area. Let's keep it that way!",
+    "perguntas": [
+      {
+        "id": "a2u08pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What must people wear at all times?",
+        "opcoes": [
+          "Only a helmet",
+          "Safety glasses, gloves, ear plugs and safety boots",
+          "A uniform"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What is forbidden in this area?",
+        "opcoes": [
+          "Talking",
+          "Using the phone and eating",
+          "Wearing gloves"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Who can use the presses?",
+        "opcoes": [
+          "Everybody",
+          "Only trained operators",
+          "Visitors"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Where do visitors have to stay?",
+        "opcoes": [
+          "Behind the yellow line",
+          "In the office",
+          "Next to the presses"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What must you do before cleaning a press?",
+        "opcoes": [
+          "Call the manager",
+          "Turn it off and lock it out",
+          "Wear a helmet"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Do you have to report small cuts to the manager?",
+        "opcoes": [
+          "Yes",
+          "No, but you have to write them in the first aid book."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What should you do if you feel sick?",
+        "opcoes": [
+          "Continue working",
+          "Stop and talk to your supervisor",
+          "Go home without telling anyone"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-l8",
+        "tipo": "multipla",
+        "enunciado": "How many accidents did they have last year?",
+        "opcoes": [
+          "Zero",
+          "Two",
+          "Ten"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Nurse",
+        "voz": "a",
+        "en": "Hello. What's the problem?",
+        "pt": "Olá. Qual é o problema?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "My shoulder hurts. I think I lifted a box the wrong way.",
+        "pt": "Meu ombro dói. Acho que levantei uma caixa do jeito errado."
+      },
+      {
+        "personagem": "Nurse",
+        "voz": "a",
+        "en": "When did it start?",
+        "pt": "Quando começou?"
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "This morning, at about ten. I couldn't lift my arm after that.",
+        "pt": "Hoje de manhã, por volta das dez. Não consegui levantar o braço depois disso."
+      },
+      {
+        "personagem": "Nurse",
+        "voz": "a",
+        "en": "OK. You shouldn't work on the line today. I'll talk to your supervisor.",
+        "pt": "OK. Você não deveria trabalhar na linha hoje. Vou falar com seu supervisor."
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "Do I have to see a doctor?",
+        "pt": "Tenho que ir ao médico?"
+      },
+      {
+        "personagem": "Nurse",
+        "voz": "a",
+        "en": "Yes, you have to. And next time, you must use the lifting belt.",
+        "pt": "Sim, tem. E da próxima vez, você deve usar a cinta."
+      },
+      {
+        "personagem": "Worker",
+        "voz": "b",
+        "en": "Thank you. Could you give me a medical note for my boss?",
+        "pt": "Obrigado. Poderia me dar um atestado para meu chefe?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What hurts?",
+        "opcoes": [
+          "His back",
+          "His shoulder",
+          "His hand"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-e2",
+        "tipo": "multipla",
+        "enunciado": "When did it start?",
+        "opcoes": [
+          "Yesterday",
+          "This morning at about ten",
+          "Last week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What couldn't he do?",
+        "opcoes": [
+          "Walk",
+          "Lift his arm",
+          "Sleep"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What shouldn't he do today?",
+        "opcoes": [
+          "Go home",
+          "Work on the line",
+          "See a doctor"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Does he have to see a doctor?",
+        "opcoes": [
+          "Yes",
+          "No, he doesn't."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What must he use next time?",
+        "opcoes": [
+          "Gloves",
+          "The lifting belt",
+          "A helmet"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "My shoulder hurts."
+      },
+      {
+        "id": "a2u08pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Could you give me a medical note?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u08pv-w1",
+      "instrucao_pt": "Escreva as regras de segurança de uma área da sua empresa (use must, have to, mustn't e don't have to).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u08pv-w2",
+      "instrucao_pt": "Escreva conselhos para um colega que está sempre cansado e com dor nas costas (use should e shouldn't).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u08pv-s1",
+      "pergunta_en": "What safety rules do you have at your workplace?",
+      "instrucao_pt": "Explique em voz alta as regras (must, have to, mustn't)."
+    },
+    {
+      "id": "a2u08pv-s2",
+      "pergunta_en": "Your friend says: 'I have a terrible headache and I can't sleep.' Give advice.",
+      "instrucao_pt": "Dê conselhos em voz alta usando should e shouldn't."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Partes do corpo e sintomas (My … hurts, headache, sore throat), conselhos com should/shouldn't, regras com must/have to/mustn't/don't have to, can/could (habilidade, permissão, pedido), relato de incidente no passado."
+}

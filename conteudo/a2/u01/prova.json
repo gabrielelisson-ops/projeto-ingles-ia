@@ -1,0 +1,259 @@
+{
+  "id": "a2-u01-prova",
+  "nivel": "A2",
+  "unidade": 1,
+  "titulo": "Prova da Unidade 1 (A2) — Last weekend",
+  "leitura": {
+    "texto": "Last Saturday was my wife's birthday, so we planned a special day. First, we walked to a small café near our house and had breakfast. The café was full, but the food was delicious. Then we visited her parents. Her father cooked fish and her mother baked a cake. After that, we watched a movie at home. It wasn't very good, but we laughed a lot. In the evening, we invited some friends for dinner. They arrived at eight and stayed until midnight. On Sunday we didn't do anything special. We relaxed and cleaned the house. In the end, it was a perfect weekend.",
+    "perguntas": [
+      {
+        "id": "a2u01pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Why was Saturday special?",
+        "opcoes": [
+          "It was the wife's birthday.",
+          "It was a holiday.",
+          "They were on vacation."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Where did they have breakfast?",
+        "opcoes": [
+          "At home",
+          "At a café",
+          "At her parents' house"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How was the café?",
+        "opcoes": [
+          "Empty",
+          "Full",
+          "Closed"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Who cooked fish?",
+        "opcoes": [
+          "Her father",
+          "Her mother",
+          "Her husband"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How was the movie?",
+        "opcoes": [
+          "Very good",
+          "Not very good",
+          "Scary"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What time did the friends arrive?",
+        "opcoes": [
+          "At seven",
+          "At eight",
+          "At midnight"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What did they do on Sunday?",
+        "opcoes": [
+          "They traveled.",
+          "They relaxed and cleaned the house.",
+          "They visited friends."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-l8",
+        "tipo": "multipla",
+        "enunciado": "How was the weekend in the end?",
+        "opcoes": [
+          "Boring",
+          "Perfect",
+          "Tiring"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Ivo",
+        "voz": "a",
+        "en": "Hi, Clara! Where were you on Friday? You weren't at work.",
+        "pt": "Oi, Clara! Onde você estava na sexta? Você não estava no trabalho."
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "I was at a training course in São Paulo.",
+        "pt": "Eu estava num curso em São Paulo."
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "a",
+        "en": "Oh, really? How was it?",
+        "pt": "Ah, é? Como foi?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "It was interesting. We studied new safety rules.",
+        "pt": "Foi interessante. Estudamos novas regras de segurança."
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "a",
+        "en": "Did you travel by plane?",
+        "pt": "Você foi de avião?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "No, I didn't. I traveled by bus. It took six hours!",
+        "pt": "Não. Fui de ônibus. Levou seis horas!"
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "a",
+        "en": "Wow. When did you come back?",
+        "pt": "Nossa. Quando você voltou?"
+      },
+      {
+        "personagem": "Clara",
+        "voz": "b",
+        "en": "On Saturday morning. I was very tired.",
+        "pt": "No sábado de manhã. Eu estava muito cansada."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was Clara on Friday?",
+        "opcoes": [
+          "At work",
+          "At a training course",
+          "On vacation"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Where was the course?",
+        "opcoes": [
+          "In São Paulo",
+          "In Rio",
+          "In Curitiba"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did they study?",
+        "opcoes": [
+          "New safety rules",
+          "English",
+          "Machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How did she travel?",
+        "opcoes": [
+          "By plane",
+          "By bus",
+          "By car"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How long did the trip take?",
+        "opcoes": [
+          "Two hours",
+          "Four hours",
+          "Six hours"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a2u01pv-e6",
+        "tipo": "multipla",
+        "enunciado": "When did she come back?",
+        "opcoes": [
+          "On Friday night",
+          "On Saturday morning",
+          "On Sunday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "You weren't at work.",
+        "aceitas": [
+          "You were not at work."
+        ]
+      },
+      {
+        "id": "a2u01pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "When did you come back?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u01pv-w1",
+      "instrucao_pt": "Conte o que você fez no último fim de semana em ordem (use first, then, after that, finally e verbos no passado).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u01pv-w2",
+      "instrucao_pt": "Escreva 2 a 4 frases sobre coisas que você NÃO fez ontem (use didn't) e onde você estava (was/were).",
+      "min_frases": 2,
+      "max_frases": 4
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u01pv-s1",
+      "pergunta_en": "How was your last weekend? What did you do?",
+      "instrucao_pt": "Conte em voz alta seu último fim de semana, no passado."
+    },
+    {
+      "id": "a2u01pv-s2",
+      "pergunta_en": "Tell me about your last holiday or trip.",
+      "instrucao_pt": "Fale em voz alta sobre sua última viagem ou feriado: onde, com quem, o que fizeram, como foi."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Passado do to be (was/were, wasn't/weren't), passado simples de verbos regulares (-ed, ortografia), did/didn't em perguntas e negativas, perguntas com where/what/who/when/how long, conectores de sequência (first, then, after that, finally)."
+}

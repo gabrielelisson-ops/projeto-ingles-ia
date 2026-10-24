@@ -1,0 +1,355 @@
+{
+  "id": "b2-u02-l1",
+  "nivel": "B2",
+  "unidade": 2,
+  "numero": 1,
+  "titulo": "She said that…",
+  "objetivo_pt": "Relatar o que alguém disse (reported speech) com afirmações e mudança de tempo verbal.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer frases e pedir que você as reporte: \"You said that…\" / \"He said that…\".",
+    "papel_professor": "Diga frases e peça que o aluno reporte (I'm tired → You said you were tired). Ensine backshift: presente → passado, will → would, can → could. Corrija pronomes e tempos.",
+    "abertura": "I'm very busy today. — Now, tell me: what did I say?",
+    "abertura_pt": "Estou muito ocupado hoje. — Agora, me diga: o que eu disse?"
+  },
+  "vocabulario": [
+    {
+      "id": "say-that",
+      "en": "say (that)",
+      "pt": "dizer (que)",
+      "emoji": "💬",
+      "exemplo_en": "She said that she was tired.",
+      "exemplo_pt": "Ela disse que estava cansada."
+    },
+    {
+      "id": "tell-sb",
+      "en": "tell someone (that)",
+      "pt": "dizer a alguém (que)",
+      "emoji": "🗣️",
+      "exemplo_en": "He told me that he would be late.",
+      "exemplo_pt": "Ele me disse que iria se atrasar."
+    },
+    {
+      "id": "mention",
+      "en": "mention",
+      "pt": "mencionar",
+      "emoji": "📌",
+      "exemplo_en": "She mentioned that the price had changed.",
+      "exemplo_pt": "Ela mencionou que o preço tinha mudado."
+    },
+    {
+      "id": "explain-r",
+      "en": "explain (that)",
+      "pt": "explicar (que)",
+      "emoji": "🧑‍🏫",
+      "exemplo_en": "He explained that the machine was old.",
+      "exemplo_pt": "Ele explicou que a máquina era velha."
+    },
+    {
+      "id": "claim",
+      "en": "claim",
+      "pt": "afirmar / alegar",
+      "emoji": "📢",
+      "exemplo_en": "The supplier claimed that they had sent the parts.",
+      "exemplo_pt": "O fornecedor alegou que tinha enviado as peças."
+    },
+    {
+      "id": "confirm",
+      "en": "confirm",
+      "pt": "confirmar",
+      "emoji": "✅",
+      "exemplo_en": "The client confirmed that they would come.",
+      "exemplo_pt": "O cliente confirmou que viria."
+    },
+    {
+      "id": "admit",
+      "en": "admit",
+      "pt": "admitir",
+      "emoji": "🙇",
+      "exemplo_en": "He admitted that he had made a mistake.",
+      "exemplo_pt": "Ele admitiu que tinha cometido um erro."
+    },
+    {
+      "id": "complain-r",
+      "en": "complain (that)",
+      "pt": "reclamar (que)",
+      "emoji": "😤",
+      "exemplo_en": "They complained that the delivery was late.",
+      "exemplo_pt": "Reclamaram que a entrega estava atrasada."
+    },
+    {
+      "id": "the-day-before",
+      "en": "the day before / the next day",
+      "pt": "no dia anterior / no dia seguinte",
+      "emoji": "📅",
+      "exemplo_en": "She said she had called the day before.",
+      "exemplo_pt": "Ela disse que tinha ligado no dia anterior."
+    },
+    {
+      "id": "there-then",
+      "en": "there / then",
+      "pt": "lá / naquele momento",
+      "emoji": "📍",
+      "exemplo_en": "He said he was working there then.",
+      "exemplo_pt": "Ele disse que estava trabalhando lá naquele momento."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Reported speech: afirmações",
+    "explicacao_pt": "Quando relatamos algo com verbo no passado (said, told), o tempo verbal geralmente 'volta um passo' (backshift): presente → passado (\"I'm tired\" → She said she was tired); present continuous → past continuous; present perfect / past → past perfect (\"I've finished\" → He said he had finished); will → would; can → could; must → had to. Pronomes, tempo e lugar também mudam: today → that day, tomorrow → the next day, yesterday → the day before, here → there, this → that. SAY + (that) frase; TELL + PESSOA + (that) frase: He told me… (nunca 'He said me').",
+    "tabela": {
+      "colunas": [
+        "Fala direta",
+        "Fala relatada",
+        "Mudança"
+      ],
+      "linhas": [
+        [
+          "\"I am tired.\"",
+          "She said she was tired.",
+          "am → was"
+        ],
+        [
+          "\"We will call you.\"",
+          "They said they would call me.",
+          "will → would"
+        ],
+        [
+          "\"I have sent it.\"",
+          "He said he had sent it.",
+          "have sent → had sent"
+        ],
+        [
+          "\"I can help.\"",
+          "She told me she could help.",
+          "can → could"
+        ],
+        [
+          "\"I saw him yesterday.\"",
+          "He said he had seen him the day before.",
+          "saw → had seen; yesterday → the day before"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "\"The parts will arrive tomorrow.\" → The supplier said the parts would arrive the next day.",
+        "pt": "\"As peças chegam amanhã.\" → O fornecedor disse que as peças chegariam no dia seguinte."
+      },
+      {
+        "en": "\"I'm working on it.\" → He told me he was working on it.",
+        "pt": "\"Estou trabalhando nisso.\" → Ele me disse que estava trabalhando nisso."
+      },
+      {
+        "en": "\"We've never had this problem.\" → They claimed they had never had that problem.",
+        "pt": "\"Nunca tivemos este problema.\" → Eles alegaram que nunca tinham tido aquele problema."
+      },
+      {
+        "en": "\"I made a mistake.\" → She admitted that she had made a mistake.",
+        "pt": "\"Cometi um erro.\" → Ela admitiu que tinha cometido um erro."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What did the supplier say?",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Did you call the steel supplier? What did they say?",
+        "pt": "Você ligou para o fornecedor de aço? O que disseram?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "I talked to Mr. Lopes. He said the truck had left the day before.",
+        "pt": "Falei com o Sr. Lopes. Ele disse que o caminhão tinha saído no dia anterior."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "So when will it arrive?",
+        "pt": "Então quando vai chegar?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "He told me it would arrive on Thursday morning. He also mentioned that the price was going to increase next month.",
+        "pt": "Ele me disse que chegaria na quinta de manhã. Também mencionou que o preço ia aumentar no mês que vem."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Increase? By how much?",
+        "pt": "Aumentar? Quanto?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "He said it would be about 8%. He explained that their energy costs had gone up.",
+        "pt": "Ele disse que seria uns 8%. Explicou que os custos de energia deles tinham subido."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02l1-e1",
+        "tipo": "multipla",
+        "enunciado": "When did the truck leave?",
+        "opcoes": [
+          "The day before",
+          "That morning",
+          "A week before"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l1-e2",
+        "tipo": "multipla",
+        "enunciado": "When will it arrive?",
+        "opcoes": [
+          "On Tuesday",
+          "On Thursday morning",
+          "On Friday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02l1-e3",
+        "tipo": "multipla",
+        "enunciado": "By how much will the price increase?",
+        "opcoes": [
+          "About 3%",
+          "About 8%",
+          "About 18%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02l1-e4",
+        "tipo": "multipla",
+        "enunciado": "Why will the price increase?",
+        "opcoes": [
+          "Their energy costs had gone up.",
+          "The truck was expensive.",
+          "Demand was high."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u02l1-p1",
+      "tipo": "completar",
+      "frase": "\"I'm tired.\" → She said she ___ tired.",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "b2u02l1-p2",
+      "tipo": "completar",
+      "frase": "\"We will call you.\" → They said they ___ call me.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b2u02l1-p3",
+      "tipo": "completar",
+      "frase": "He ___ me that he would be late.",
+      "respostas": [
+        "told"
+      ]
+    },
+    {
+      "id": "b2u02l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "He said me that he was busy.",
+        "He told me that he was busy.",
+        "He told that he was busy me."
+      ],
+      "correta": 1,
+      "explicacao_pt": "TELL + pessoa; SAY sem pessoa (ou 'say to someone')."
+    },
+    {
+      "id": "b2u02l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"I have finished.\" → He said he…",
+      "opcoes": [
+        "has finished.",
+        "had finished.",
+        "finished have."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u02l1-p6",
+      "tipo": "ordenar",
+      "frase": "He admitted that he had made a mistake",
+      "traducao_pt": "Ele admitiu que tinha cometido um erro"
+    },
+    {
+      "id": "b2u02l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The client confirmed that they would come."
+    },
+    {
+      "id": "b2u02l1-p8",
+      "tipo": "traduzir",
+      "pt": "Ela disse que tinha ligado no dia anterior.",
+      "respostas": [
+        "She said she had called the day before.",
+        "She said that she had called the day before."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai te contar o que três pessoas disseram numa reunião (frases diretas). Depois, relate para ele o que cada uma disse, como se ele não estivesse lá.",
+    "papel_professor": "Diga 3 falas diretas de personagens (Ana: 'I can't come tomorrow.' Rui: 'We've finished the tests.' Bia: 'The client will visit us next week.'). Peça o relato. Corrija backshift e said/told.",
+    "abertura": "Here's what happened in the meeting. Ana said: 'I can't come tomorrow.' Now you tell me what she said.",
+    "abertura_pt": "Foi isto que aconteceu na reunião. Ana disse: \"Não posso vir amanhã.\" Agora me diga o que ela disse."
+  },
+  "teste": [
+    {
+      "id": "b2u02l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"I can help.\" → She said she…",
+      "opcoes": [
+        "can help",
+        "could help",
+        "helped can"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u02l1-t2",
+      "tipo": "completar",
+      "frase": "\"I saw him yesterday.\" → He said he had seen him the day ___.",
+      "respostas": [
+        "before"
+      ]
+    },
+    {
+      "id": "b2u02l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "They complained that the delivery was late."
+    },
+    {
+      "id": "b2u02l1-t4",
+      "tipo": "traduzir",
+      "pt": "Ele explicou que a máquina era velha.",
+      "respostas": [
+        "He explained that the machine was old.",
+        "He explained the machine was old."
+      ]
+    },
+    {
+      "id": "b2u02l1-t5",
+      "tipo": "ordenar",
+      "frase": "She mentioned that the price had changed",
+      "traducao_pt": "Ela mencionou que o preço tinha mudado"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": "b1-u05-l5",
+  "nivel": "B1",
+  "unidade": 5,
+  "numero": 5,
+  "titulo": "My ideal life",
+  "objetivo_pt": "Descrever sua vida e trabalho ideais juntando segunda condicional, wish e hope.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: descreva ao professor seu dia ideal. Onde você estaria? O que faria?",
+    "papel_professor": "Peça o dia ideal (Where would you be? Who would be with you? What would you do?). Depois contraste com a realidade (I wish… / I hope…).",
+    "abertura": "Describe your perfect day. Where would you be?",
+    "abertura_pt": "Descreva seu dia perfeito. Onde você estaria?"
+  },
+  "vocabulario": [
+    {
+      "id": "ideal",
+      "en": "ideal / perfect",
+      "pt": "ideal / perfeito",
+      "emoji": "🌟",
+      "exemplo_en": "My ideal job would be in a lab.",
+      "exemplo_pt": "Meu emprego ideal seria num laboratório."
+    },
+    {
+      "id": "balance",
+      "en": "work-life balance",
+      "pt": "equilíbrio vida-trabalho",
+      "emoji": "⚖️",
+      "exemplo_en": "A good work-life balance is important.",
+      "exemplo_pt": "Um bom equilíbrio entre vida e trabalho é importante."
+    },
+    {
+      "id": "flexible",
+      "en": "flexible hours",
+      "pt": "horário flexível",
+      "emoji": "🕰️",
+      "exemplo_en": "I would love flexible hours.",
+      "exemplo_pt": "Eu adoraria horário flexível."
+    },
+    {
+      "id": "remote",
+      "en": "work from home / remotely",
+      "pt": "trabalhar de casa / remotamente",
+      "emoji": "🏡",
+      "exemplo_en": "I would work from home twice a week.",
+      "exemplo_pt": "Eu trabalharia de casa duas vezes por semana."
+    },
+    {
+      "id": "countryside",
+      "en": "countryside",
+      "pt": "interior / campo",
+      "emoji": "🌾",
+      "exemplo_en": "I would live in the countryside.",
+      "exemplo_pt": "Eu moraria no interior."
+    },
+    {
+      "id": "stress",
+      "en": "stress / stressful",
+      "pt": "estresse / estressante",
+      "emoji": "😫",
+      "exemplo_en": "My job is very stressful.",
+      "exemplo_pt": "Meu emprego é muito estressante."
+    },
+    {
+      "id": "meaningful",
+      "en": "meaningful",
+      "pt": "com significado / que faz sentido",
+      "emoji": "❤️",
+      "exemplo_en": "I want a meaningful job.",
+      "exemplo_pt": "Quero um emprego que faça sentido."
+    },
+    {
+      "id": "goal-l5",
+      "en": "goal",
+      "pt": "objetivo",
+      "emoji": "🎯",
+      "exemplo_en": "My goal is to be fluent in two years.",
+      "exemplo_pt": "Meu objetivo é ser fluente em dois anos."
+    },
+    {
+      "id": "one-day",
+      "en": "one day / someday",
+      "pt": "um dia",
+      "emoji": "🌅",
+      "exemplo_en": "One day, I'd like to have my own company.",
+      "exemplo_pt": "Um dia, gostaria de ter minha própria empresa."
+    },
+    {
+      "id": "realistic",
+      "en": "realistic",
+      "pt": "realista",
+      "emoji": "🧱",
+      "exemplo_en": "Let's be realistic.",
+      "exemplo_pt": "Vamos ser realistas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Sonhos, desejos e planos",
+    "explicacao_pt": "Organize as ideias por probabilidade: SONHO (imaginário) → second conditional / would: My ideal job would be… If I could choose, I'd live in the countryside. DESEJO IRREAL sobre o agora → wish + passado: I wish I had more free time. ESPERANÇA (possível) → hope + presente/will: I hope I get promoted next year. PLANO REAL → going to / plan to: I'm going to take a course. Combine: I wish I had more time. If I had more time, I'd study more. So I'm going to wake up earlier.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Sonho",
+          "would / If I could…",
+          "My ideal house would be near the sea."
+        ],
+        [
+          "Desejo irreal",
+          "wish + passado",
+          "I wish I lived near the sea."
+        ],
+        [
+          "Esperança",
+          "hope + presente",
+          "I hope I find a better job."
+        ],
+        [
+          "Plano real",
+          "going to / plan to",
+          "I'm going to save money."
+        ],
+        [
+          "Um dia",
+          "One day I'd like to…",
+          "One day I'd like to visit Canada."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "My ideal job would have flexible hours and I would work from home twice a week.",
+        "pt": "Meu emprego ideal teria horário flexível e eu trabalharia de casa duas vezes por semana."
+      },
+      {
+        "en": "I wish my job were less stressful.",
+        "pt": "Queria que meu emprego fosse menos estressante."
+      },
+      {
+        "en": "I hope I'll be fluent in English in two years.",
+        "pt": "Espero estar fluente em inglês em dois anos."
+      },
+      {
+        "en": "Let's be realistic: I'm going to study thirty minutes every day.",
+        "pt": "Vamos ser realistas: vou estudar trinta minutos por dia."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Dreams and plans",
+    "falas": [
+      {
+        "personagem": "Coach",
+        "voz": "a",
+        "en": "So, Helena, imagine your life in ten years. What would it look like?",
+        "pt": "Então, Helena, imagine sua vida daqui a dez anos. Como seria?"
+      },
+      {
+        "personagem": "Helena",
+        "voz": "b",
+        "en": "Ideally, I would live in a small city, near the mountains, and I would work as a quality consultant.",
+        "pt": "Idealmente, eu moraria numa cidade pequena, perto das montanhas, e trabalharia como consultora de qualidade."
+      },
+      {
+        "personagem": "Coach",
+        "voz": "a",
+        "en": "And what about now? What would you change?",
+        "pt": "E agora? O que você mudaria?"
+      },
+      {
+        "personagem": "Helena",
+        "voz": "b",
+        "en": "I wish I had more time for my family. My job is very stressful and I work long hours.",
+        "pt": "Queria ter mais tempo para minha família. Meu trabalho é muito estressante e trabalho muitas horas."
+      },
+      {
+        "personagem": "Coach",
+        "voz": "a",
+        "en": "What are you going to do to get closer to your goal?",
+        "pt": "O que você vai fazer para chegar mais perto do seu objetivo?"
+      },
+      {
+        "personagem": "Helena",
+        "voz": "b",
+        "en": "I'm going to take an auditor course next year, and I hope I'll find some clients online.",
+        "pt": "Vou fazer um curso de auditora ano que vem e espero encontrar alguns clientes online."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Where would Helena ideally live?",
+        "opcoes": [
+          "In a big city",
+          "In a small city near the mountains",
+          "Near the beach"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What would she work as?",
+        "opcoes": [
+          "A quality consultant",
+          "A teacher",
+          "A manager"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What does she wish now?",
+        "opcoes": [
+          "That she had more time for her family",
+          "That she earned more",
+          "That she lived abroad"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What is she going to do next year?",
+        "opcoes": [
+          "Take an auditor course",
+          "Move house",
+          "Have a baby"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u05l5-p1",
+      "tipo": "completar",
+      "frase": "My ideal job ___ be in a lab.",
+      "respostas": [
+        "would"
+      ]
+    },
+    {
+      "id": "b1u05l5-p2",
+      "tipo": "completar",
+      "frase": "I ___ I find a better job. (espero)",
+      "respostas": [
+        "hope"
+      ]
+    },
+    {
+      "id": "b1u05l5-p3",
+      "tipo": "completar",
+      "frase": "I'm ___ to save money. (vou)",
+      "respostas": [
+        "going"
+      ]
+    },
+    {
+      "id": "b1u05l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Queria que meu trabalho fosse menos estressante\":",
+      "opcoes": [
+        "I wish my job were less stressful.",
+        "I hope my job is less stressful yesterday.",
+        "I wish my job will be less stressful."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Um dia, gostaria de ter minha empresa\":",
+      "opcoes": [
+        "One day, I'd like to have my own company.",
+        "Someday, I like have my company.",
+        "One day, I would liking to have my own company."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l5-p6",
+      "tipo": "ordenar",
+      "frase": "A good work-life balance is important",
+      "traducao_pt": "Um bom equilíbrio entre vida e trabalho é importante"
+    },
+    {
+      "id": "b1u05l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I would work from home twice a week."
+    },
+    {
+      "id": "b1u05l5-p8",
+      "tipo": "traduzir",
+      "pt": "Meu objetivo é ser fluente em dois anos.",
+      "respostas": [
+        "My goal is to be fluent in two years."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: descreva ao professor (um \"coach\") sua vida ideal daqui a 10 anos, o que você queria que fosse diferente agora e o que você vai fazer de concreto para chegar lá.",
+    "papel_professor": "Faça o papel de coach de carreira. Pergunte sobre a vida ideal (would), insatisfações atuais (wish), esperanças (hope) e planos concretos (going to). Corrija a escolha de estrutura.",
+    "abertura": "Welcome! Let's think about your future. Imagine your life in ten years. What would it look like?",
+    "abertura_pt": "Bem-vindo! Vamos pensar no seu futuro. Imagine sua vida daqui a dez anos. Como seria?"
+  },
+  "teste": [
+    {
+      "id": "b1u05l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Plano real:",
+      "opcoes": [
+        "I'm going to take a course.",
+        "I would take a course if I were."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l5-t2",
+      "tipo": "completar",
+      "frase": "I would love ___ hours. (flexível)",
+      "respostas": [
+        "flexible"
+      ]
+    },
+    {
+      "id": "b1u05l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's be realistic.",
+      "aceitas": [
+        "Let us be realistic."
+      ]
+    },
+    {
+      "id": "b1u05l5-t4",
+      "tipo": "traduzir",
+      "pt": "Eu moraria no interior.",
+      "respostas": [
+        "I would live in the countryside.",
+        "I'd live in the countryside."
+      ]
+    },
+    {
+      "id": "b1u05l5-t5",
+      "tipo": "ordenar",
+      "frase": "I want a meaningful job",
+      "traducao_pt": "Quero um emprego que faça sentido"
+    }
+  ]
+}

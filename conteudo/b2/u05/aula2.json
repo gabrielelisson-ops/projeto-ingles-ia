@@ -1,0 +1,355 @@
+{
+  "id": "b2-u05-l2",
+  "nivel": "B2",
+  "unidade": 5,
+  "numero": 2,
+  "titulo": "Line 2, which is the oldest…",
+  "objetivo_pt": "Usar relative clauses não definidoras (com vírgulas) para acrescentar informação extra.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar informações. Junte duas frases numa só com \", which…\" ou \", who…\".",
+    "papel_professor": "Dê pares de frases (Line 2 is the oldest. It stopped three times. → Line 2, which is the oldest, stopped three times.). Ensine non-defining clauses e 'which' referindo-se à frase toda. Corrija o uso de 'that'.",
+    "abertura": "Join these two sentences: 'Our director is from Chile. She speaks four languages.'",
+    "abertura_pt": "Junte estas duas frases: \"Nossa diretora é do Chile. Ela fala quatro línguas.\""
+  },
+  "vocabulario": [
+    {
+      "id": "comma-which",
+      "en": ", which",
+      "pt": ", que (informação extra)",
+      "emoji": "➕",
+      "exemplo_en": "Line 2, which is the oldest, stopped again.",
+      "exemplo_pt": "A linha 2, que é a mais antiga, parou de novo."
+    },
+    {
+      "id": "comma-who",
+      "en": ", who",
+      "pt": ", que (pessoa, info extra)",
+      "emoji": "👤",
+      "exemplo_en": "Rita, who has worked here for 20 years, is retiring.",
+      "exemplo_pt": "A Rita, que trabalha aqui há 20 anos, vai se aposentar."
+    },
+    {
+      "id": "which-sentence",
+      "en": ", which (a frase toda)",
+      "pt": ", o que",
+      "emoji": "🔁",
+      "exemplo_en": "The truck was late, which delayed production.",
+      "exemplo_pt": "O caminhão atrasou, o que atrasou a produção."
+    },
+    {
+      "id": "most-of-which",
+      "en": "most of which / all of whom",
+      "pt": "a maioria dos quais / todos os quais",
+      "emoji": "📊",
+      "exemplo_en": "We tested 50 samples, most of which passed.",
+      "exemplo_pt": "Testamos 50 amostras, a maioria das quais passou."
+    },
+    {
+      "id": "in-addition",
+      "en": "in addition",
+      "pt": "além disso",
+      "emoji": "➕",
+      "exemplo_en": "In addition, we need more space.",
+      "exemplo_pt": "Além disso, precisamos de mais espaço."
+    },
+    {
+      "id": "figures",
+      "en": "figures",
+      "pt": "números / dados",
+      "emoji": "🔢",
+      "exemplo_en": "Let's look at this week's figures.",
+      "exemplo_pt": "Vamos ver os números desta semana."
+    },
+    {
+      "id": "efficiency",
+      "en": "efficiency / OEE",
+      "pt": "eficiência / OEE",
+      "emoji": "⚙️",
+      "exemplo_en": "Line 1's OEE, which was 80%, fell to 72%.",
+      "exemplo_pt": "O OEE da linha 1, que era 80%, caiu para 72%."
+    },
+    {
+      "id": "trend",
+      "en": "trend",
+      "pt": "tendência",
+      "emoji": "📈",
+      "exemplo_en": "The trend is positive.",
+      "exemplo_pt": "A tendência é positiva."
+    },
+    {
+      "id": "slightly",
+      "en": "slightly / significantly",
+      "pt": "levemente / significativamente",
+      "emoji": "📐",
+      "exemplo_en": "Scrap increased slightly.",
+      "exemplo_pt": "O refugo aumentou levemente."
+    },
+    {
+      "id": "compared",
+      "en": "compared to / with",
+      "pt": "em comparação com",
+      "emoji": "⚖️",
+      "exemplo_en": "Compared to last month, output is 5% higher.",
+      "exemplo_pt": "Comparado ao mês passado, a produção está 5% maior."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Relative clauses não definidoras",
+    "explicacao_pt": "Acrescentam informação EXTRA (a frase faz sentido sem ela). Ficam entre VÍRGULAS. Use WHO (pessoas), WHICH (coisas), WHERE, WHOSE — nunca THAT. O pronome não pode ser omitido. Ex: Our director, who is from Chile, speaks four languages. ', WHICH' pode se referir à FRASE INTEIRA (= o que): The supplier was late, which caused a delay. Com quantidades: most of which, some of whom, all of which. Muito úteis em relatórios e reuniões para juntar dados.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Exemplo",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "Definidora",
+          "The line that stopped is line 2.",
+          "identifica; sem vírgula; pode usar that"
+        ],
+        [
+          "Não definidora",
+          "Line 2, which is the oldest, stopped.",
+          "info extra; vírgulas; nunca that"
+        ],
+        [
+          "Pessoa",
+          "Rita, who is the planner, is on holiday.",
+          "vírgulas"
+        ],
+        [
+          "Frase toda",
+          "Sales rose, which was great news.",
+          "which = o que"
+        ],
+        [
+          "Quantidade",
+          "We hired 10 people, most of whom are young.",
+          "most of whom/which"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Line 3, which was installed in 2010, needs a major overhaul.",
+        "pt": "A linha 3, que foi instalada em 2010, precisa de uma reforma geral."
+      },
+      {
+        "en": "Our biggest customer, whose contract ends in June, wants a discount.",
+        "pt": "Nosso maior cliente, cujo contrato termina em junho, quer desconto."
+      },
+      {
+        "en": "Scrap fell to 2%, which is the best result this year.",
+        "pt": "O refugo caiu para 2%, o que é o melhor resultado do ano."
+      },
+      {
+        "en": "We received 200 complaints, most of which were about packaging.",
+        "pt": "Recebemos 200 reclamações, a maioria das quais era sobre embalagem."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The weekly figures",
+    "falas": [
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Let's look at this week's figures. Lia?",
+        "pt": "Vamos ver os números da semana. Lia?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Total output was 52,000 units, which is 4% above target.",
+        "pt": "A produção total foi de 52.000 unidades, o que está 4% acima da meta."
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "Line 1, which had problems last week, reached an OEE of 85%.",
+        "pt": "A linha 1, que teve problemas semana passada, atingiu um OEE de 85%."
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "However, line 3, which is the oldest, stopped five times, mostly because of the hydraulic system.",
+        "pt": "No entanto, a linha 3, que é a mais antiga, parou cinco vezes, principalmente por causa do sistema hidráulico."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "And quality?",
+        "pt": "E a qualidade?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "b",
+        "en": "We received three complaints, all of which were about labels. Compared to last week, that's slightly better.",
+        "pt": "Recebemos três reclamações, todas sobre rótulos. Comparado à semana passada, está levemente melhor."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How much was total output?",
+        "opcoes": [
+          "50,000",
+          "52,000",
+          "54,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What OEE did line 1 reach?",
+        "opcoes": [
+          "72%",
+          "80%",
+          "85%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u05l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Why did line 3 stop?",
+        "opcoes": [
+          "The hydraulic system",
+          "No material",
+          "Operators were absent"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What were the complaints about?",
+        "opcoes": [
+          "Labels",
+          "Price",
+          "Delivery"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u05l2-p1",
+      "tipo": "completar",
+      "frase": "Line 2, ___ is the oldest, stopped again.",
+      "respostas": [
+        "which"
+      ]
+    },
+    {
+      "id": "b2u05l2-p2",
+      "tipo": "completar",
+      "frase": "Rita, ___ has worked here for 20 years, is retiring.",
+      "respostas": [
+        "who"
+      ]
+    },
+    {
+      "id": "b2u05l2-p3",
+      "tipo": "completar",
+      "frase": "We tested 50 samples, most of ___ passed.",
+      "respostas": [
+        "which"
+      ]
+    },
+    {
+      "id": "b2u05l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "Our director, that is from Chile, speaks four languages.",
+        "Our director, who is from Chile, speaks four languages."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Em orações não definidoras (com vírgula), não usamos 'that'."
+    },
+    {
+      "id": "b2u05l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O caminhão atrasou, o que atrasou a produção\":",
+      "opcoes": [
+        "The truck was late, which delayed production.",
+        "The truck was late, what delayed production.",
+        "The truck was late, that delayed production."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l2-p6",
+      "tipo": "ordenar",
+      "frase": "Let's look at this week's figures",
+      "traducao_pt": "Vamos ver os números desta semana"
+    },
+    {
+      "id": "b2u05l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The trend is positive."
+    },
+    {
+      "id": "b2u05l2-p8",
+      "tipo": "traduzir",
+      "pt": "Comparado ao mês passado, a produção está 5% maior.",
+      "respostas": [
+        "Compared to last month, output is 5% higher.",
+        "Compared with last month, output is 5% higher.",
+        "Compared to last month, production is 5% higher."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor os \"números da semana\" da sua área (reais ou inventados): produção, qualidade, segurança e um problema. Use pelo menos 4 relative clauses (which, who, whose, most of which).",
+    "papel_professor": "Faça o papel de gerente ouvindo o relatório. Peça detalhes e comparações. Incentive non-defining clauses e ', which'. Corrija vírgulas e that.",
+    "abertura": "Good morning. So, how were the numbers this week?",
+    "abertura_pt": "Bom dia. Então, como foram os números desta semana?"
+  },
+  "teste": [
+    {
+      "id": "b2u05l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Não definidora correta:",
+      "opcoes": [
+        "Line 3, which was installed in 2010, needs an overhaul.",
+        "Line 3 which was installed in 2010 needs an overhaul.",
+        "Line 3, that was installed in 2010, needs an overhaul."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l2-t2",
+      "tipo": "completar",
+      "frase": "Scrap increased ___. (levemente)",
+      "respostas": [
+        "slightly"
+      ]
+    },
+    {
+      "id": "b2u05l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In addition, we need more space."
+    },
+    {
+      "id": "b2u05l2-t4",
+      "tipo": "traduzir",
+      "pt": "O refugo caiu para 2%, o que é o melhor resultado do ano.",
+      "respostas": [
+        "Scrap fell to 2%, which is the best result this year.",
+        "Scrap fell to 2%, which is the best result of the year."
+      ]
+    },
+    {
+      "id": "b2u05l2-t5",
+      "tipo": "ordenar",
+      "frase": "The trend is positive",
+      "traducao_pt": "A tendência é positiva"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "b2-u07-l4",
+  "nivel": "B2",
+  "unidade": 7,
+  "numero": 4,
+  "titulo": "Writing a report",
+  "objetivo_pt": "Estruturar um relatório: introdução, constatações, conclusões e recomendações.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você apresente, como um relatório, os resultados de um projeto ou mês de trabalho. Use a estrutura: objetivo, constatações, conclusões, recomendações.",
+    "papel_professor": "Peça um relatório oral. Ensine a estrutura e as frases típicas (The purpose of this report is to… It was found that… The data indicates… It is recommended that…). Corrija registro e conectores.",
+    "abertura": "Imagine you have to write a short report on your team's performance this year. What would be the main sections?",
+    "abertura_pt": "Imagine que você precisa escrever um relatório curto sobre o desempenho da sua equipe este ano. Quais seriam as seções principais?"
+  },
+  "vocabulario": [
+    {
+      "id": "purpose-l4",
+      "en": "The purpose of this report is to…",
+      "pt": "O objetivo deste relatório é…",
+      "emoji": "🎯",
+      "exemplo_en": "The purpose of this report is to analyze the delays.",
+      "exemplo_pt": "O objetivo deste relatório é analisar os atrasos."
+    },
+    {
+      "id": "it-was-found",
+      "en": "It was found that…",
+      "pt": "Constatou-se que…",
+      "emoji": "🔍",
+      "exemplo_en": "It was found that 60% of the delays occurred at night.",
+      "exemplo_pt": "Constatou-se que 60% dos atrasos ocorreram à noite."
+    },
+    {
+      "id": "according-l4",
+      "en": "According to the data,",
+      "pt": "De acordo com os dados,",
+      "emoji": "📊",
+      "exemplo_en": "According to the data, scrap has decreased.",
+      "exemplo_pt": "De acordo com os dados, o refugo diminuiu."
+    },
+    {
+      "id": "as-shown",
+      "en": "As shown in figure 1,",
+      "pt": "Como mostrado na figura 1,",
+      "emoji": "📈",
+      "exemplo_en": "As shown in figure 1, sales peaked in May.",
+      "exemplo_pt": "Como mostrado na figura 1, as vendas atingiram o pico em maio."
+    },
+    {
+      "id": "significant",
+      "en": "significant / significantly",
+      "pt": "significativo / significativamente",
+      "emoji": "❗",
+      "exemplo_en": "There was a significant increase in complaints.",
+      "exemplo_pt": "Houve um aumento significativo de reclamações."
+    },
+    {
+      "id": "in-conclusion",
+      "en": "In conclusion,",
+      "pt": "Em conclusão,",
+      "emoji": "🏁",
+      "exemplo_en": "In conclusion, the project was successful.",
+      "exemplo_pt": "Em conclusão, o projeto foi bem-sucedido."
+    },
+    {
+      "id": "recommended",
+      "en": "It is recommended that…",
+      "pt": "Recomenda-se que…",
+      "emoji": "✅",
+      "exemplo_en": "It is recommended that the procedure be reviewed.",
+      "exemplo_pt": "Recomenda-se que o procedimento seja revisado."
+    },
+    {
+      "id": "executive-summary",
+      "en": "executive summary",
+      "pt": "resumo executivo",
+      "emoji": "📄",
+      "exemplo_en": "Read the executive summary first.",
+      "exemplo_pt": "Leia o resumo executivo primeiro."
+    },
+    {
+      "id": "appendix",
+      "en": "appendix",
+      "pt": "anexo / apêndice",
+      "emoji": "📎",
+      "exemplo_en": "The full data is in the appendix.",
+      "exemplo_pt": "Os dados completos estão no anexo."
+    },
+    {
+      "id": "occur",
+      "en": "occur",
+      "pt": "ocorrer",
+      "emoji": "⚡",
+      "exemplo_en": "The problem occurred twice.",
+      "exemplo_pt": "O problema ocorreu duas vezes."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura e linguagem de relatório",
+    "explicacao_pt": "1) TÍTULO e EXECUTIVE SUMMARY (resumo de 3–4 frases). 2) INTRODUCTION: The purpose of this report is to… / This report examines… 3) FINDINGS (constatações) — impessoal e passiva: It was found that… / The data indicates/shows that… / As shown in figure 1, … / X increased significantly. 4) CONCLUSIONS: In conclusion, … / It can be concluded that… 5) RECOMMENDATIONS: It is recommended that + sujeito + verbo base (that the procedure be reviewed) / We recommend + -ing / … should be + particípio. Linguagem: formal, impessoal, objetiva, com números e conectores.",
+    "tabela": {
+      "colunas": [
+        "Seção",
+        "Frase modelo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Introdução",
+          "This report examines…",
+          "Este relatório examina…"
+        ],
+        [
+          "Constatação",
+          "It was found that…",
+          "Constatou-se que…"
+        ],
+        [
+          "Dados",
+          "As shown in table 2, …",
+          "Como mostrado na tabela 2, …"
+        ],
+        [
+          "Conclusão",
+          "It can be concluded that…",
+          "Pode-se concluir que…"
+        ],
+        [
+          "Recomendação",
+          "It is recommended that…",
+          "Recomenda-se que…"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "This report examines the causes of the delivery delays in the third quarter.",
+        "pt": "Este relatório examina as causas dos atrasos de entrega no terceiro trimestre."
+      },
+      {
+        "en": "It was found that most of the delays occurred on Mondays, owing to the weekend shutdown.",
+        "pt": "Constatou-se que a maioria dos atrasos ocorreu às segundas, devido à parada de fim de semana."
+      },
+      {
+        "en": "As shown in figure 2, on-time delivery fell from 96% to 88%.",
+        "pt": "Como mostrado na figura 2, a entrega no prazo caiu de 96% para 88%."
+      },
+      {
+        "en": "It is recommended that the start-up procedure be revised and that operators receive additional training.",
+        "pt": "Recomenda-se que o procedimento de partida seja revisado e que os operadores recebam treinamento adicional."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Presenting a report",
+    "falas": [
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "The purpose of this report is to analyze energy consumption at the plant in the last twelve months.",
+        "pt": "O objetivo deste relatório é analisar o consumo de energia da fábrica nos últimos doze meses."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "It was found that consumption increased by 18%, although production increased by only 5%.",
+        "pt": "Constatou-se que o consumo aumentou 18%, embora a produção tenha aumentado apenas 5%."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "As shown in figure 3, most of the increase occurred in the compressed air system, due to leaks in old pipes.",
+        "pt": "Como mostrado na figura 3, a maior parte do aumento ocorreu no sistema de ar comprimido, devido a vazamentos em tubulações antigas."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "In addition, the lights in the warehouse are on 24 hours a day, even when nobody is working there.",
+        "pt": "Além disso, as luzes do armazém ficam acesas 24 horas por dia, mesmo quando ninguém está trabalhando lá."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "In conclusion, a significant part of our energy is being wasted.",
+        "pt": "Em conclusão, uma parte significativa da nossa energia está sendo desperdiçada."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "It is recommended that the pipes be repaired and that motion sensors be installed in the warehouse.",
+        "pt": "Recomenda-se que as tubulações sejam reparadas e que sensores de presença sejam instalados no armazém."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the report analyze?",
+        "opcoes": [
+          "Energy consumption",
+          "Sales",
+          "Safety"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l4-e2",
+        "tipo": "multipla",
+        "enunciado": "By how much did consumption increase?",
+        "opcoes": [
+          "5%",
+          "12%",
+          "18%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u07l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did most of the increase occur?",
+        "opcoes": [
+          "In the compressed air system",
+          "In the office",
+          "In the canteen"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What is one recommendation?",
+        "opcoes": [
+          "Installing motion sensors in the warehouse",
+          "Working fewer hours",
+          "Buying a generator"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u07l4-p1",
+      "tipo": "completar",
+      "frase": "The ___ of this report is to analyze the delays. (objetivo)",
+      "respostas": [
+        "purpose"
+      ]
+    },
+    {
+      "id": "b2u07l4-p2",
+      "tipo": "completar",
+      "frase": "It was ___ that 60% of the delays occurred at night. (constatou-se)",
+      "respostas": [
+        "found"
+      ]
+    },
+    {
+      "id": "b2u07l4-p3",
+      "tipo": "completar",
+      "frase": "As ___ in figure 1, sales peaked in May. (mostrado)",
+      "respostas": [
+        "shown"
+      ]
+    },
+    {
+      "id": "b2u07l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Recomendação formal:",
+      "opcoes": [
+        "It is recommended that the procedure be reviewed.",
+        "We think maybe you should review the procedure.",
+        "Review the procedure!"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Houve um aumento significativo\":",
+      "opcoes": [
+        "There was a significant increase.",
+        "There was a big significant up.",
+        "It had a significant increase."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l4-p6",
+      "tipo": "ordenar",
+      "frase": "The full data is in the appendix",
+      "traducao_pt": "Os dados completos estão no anexo"
+    },
+    {
+      "id": "b2u07l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "In conclusion, the project was successful."
+    },
+    {
+      "id": "b2u07l4-p8",
+      "tipo": "traduzir",
+      "pt": "O problema ocorreu duas vezes.",
+      "respostas": [
+        "The problem occurred twice.",
+        "The problem occurred two times."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente oralmente ao professor um relatório curto sobre um tema do seu trabalho (consumo, atrasos, qualidade, segurança): objetivo, 2–3 constatações com números, conclusão e 2 recomendações.",
+    "papel_professor": "Ouça o relatório. Faça 2 perguntas de diretor (What does the data show? Why do you recommend that?). Corrija registro, passiva impessoal, conectores e a estrutura 'It is recommended that'.",
+    "abertura": "I'm ready to hear your report. Please go ahead.",
+    "abertura_pt": "Estou pronto para ouvir seu relatório. Pode começar."
+  },
+  "teste": [
+    {
+      "id": "b2u07l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Introdução de relatório:",
+      "opcoes": [
+        "This report examines the causes of the delays.",
+        "Hi, this is about delays.",
+        "I want to say something about delays."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l4-t2",
+      "tipo": "completar",
+      "frase": "Read the ___ summary first. (executivo)",
+      "respostas": [
+        "executive"
+      ]
+    },
+    {
+      "id": "b2u07l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "According to the data, scrap has decreased."
+    },
+    {
+      "id": "b2u07l4-t4",
+      "tipo": "traduzir",
+      "pt": "Pode-se concluir que o projeto foi bem-sucedido.",
+      "respostas": [
+        "It can be concluded that the project was successful."
+      ]
+    },
+    {
+      "id": "b2u07l4-t5",
+      "tipo": "ordenar",
+      "frase": "There was a significant increase in complaints",
+      "traducao_pt": "Houve um aumento significativo de reclamações"
+    }
+  ]
+}

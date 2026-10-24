@@ -1,0 +1,357 @@
+{
+  "id": "c1-u03-l4",
+  "nivel": "C1",
+  "unidade": 3,
+  "numero": 4,
+  "titulo": "Handling questions",
+  "objetivo_pt": "Responder perguntas difíceis numa apresentação com segurança e diplomacia.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer perguntas difíceis sobre sua apresentação. Responda com calma: agradeça, ganhe tempo se necessário, responda ou adie com honestidade.",
+    "papel_professor": "Faça perguntas difíceis (How can you be sure of these numbers? Isn't this too expensive? What if it doesn't work?). Ensine técnicas (That's a good question / I'm glad you asked / If I understand correctly… / I'll have to get back to you on that).",
+    "abertura": "Thank you for the presentation. But how can you be sure these savings are realistic?",
+    "abertura_pt": "Obrigado pela apresentação. Mas como você pode ter certeza de que essa economia é realista?"
+  },
+  "vocabulario": [
+    {
+      "id": "good-question",
+      "en": "That's a good question",
+      "pt": "Ótima pergunta",
+      "emoji": "👍",
+      "exemplo_en": "That's a very good question.",
+      "exemplo_pt": "Essa é uma ótima pergunta."
+    },
+    {
+      "id": "glad-asked",
+      "en": "I'm glad you asked that",
+      "pt": "Que bom que perguntou",
+      "emoji": "😊",
+      "exemplo_en": "I'm glad you asked that.",
+      "exemplo_pt": "Que bom que você perguntou isso."
+    },
+    {
+      "id": "if-understand",
+      "en": "If I understand correctly, you're asking…",
+      "pt": "Se entendi bem, você está perguntando…",
+      "emoji": "🧐",
+      "exemplo_en": "If I understand correctly, you're asking about the risks.",
+      "exemplo_pt": "Se entendi bem, você está perguntando sobre os riscos."
+    },
+    {
+      "id": "get-back-l4",
+      "en": "I'll have to get back to you on that",
+      "pt": "Vou precisar te retornar sobre isso",
+      "emoji": "🔙",
+      "exemplo_en": "I don't have that figure with me. I'll get back to you on that.",
+      "exemplo_pt": "Não tenho esse número aqui. Te retorno sobre isso."
+    },
+    {
+      "id": "outside-scope",
+      "en": "That's outside the scope of…",
+      "pt": "Isso está fora do escopo de…",
+      "emoji": "🚧",
+      "exemplo_en": "That's outside the scope of this project.",
+      "exemplo_pt": "Isso está fora do escopo deste projeto."
+    },
+    {
+      "id": "fair-point-l4",
+      "en": "That's a fair point, but…",
+      "pt": "É um ponto válido, mas…",
+      "emoji": "⚖️",
+      "exemplo_en": "That's a fair point, but the risk is low.",
+      "exemplo_pt": "É um ponto válido, mas o risco é baixo."
+    },
+    {
+      "id": "does-answer",
+      "en": "Does that answer your question?",
+      "pt": "Isso responde sua pergunta?",
+      "emoji": "❓",
+      "exemplo_en": "Does that answer your question?",
+      "exemplo_pt": "Isso responde sua pergunta?"
+    },
+    {
+      "id": "discuss-later",
+      "en": "Perhaps we could discuss that after the meeting",
+      "pt": "Talvez possamos discutir isso depois da reunião",
+      "emoji": "☕",
+      "exemplo_en": "Perhaps we could discuss that after the meeting.",
+      "exemplo_pt": "Talvez possamos discutir isso depois da reunião."
+    },
+    {
+      "id": "assumption",
+      "en": "assumption",
+      "pt": "premissa / suposição",
+      "emoji": "📐",
+      "exemplo_en": "Our main assumption is that demand will stay stable.",
+      "exemplo_pt": "Nossa principal premissa é que a demanda ficará estável."
+    },
+    {
+      "id": "conservative",
+      "en": "conservative estimate",
+      "pt": "estimativa conservadora",
+      "emoji": "🧮",
+      "exemplo_en": "That's a conservative estimate.",
+      "exemplo_pt": "É uma estimativa conservadora."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Lidando com perguntas",
+    "explicacao_pt": "1) RECEBER: Thank you. / That's a good question. / I'm glad you asked that. 2) CONFIRMAR (e ganhar tempo): If I understand correctly, you're asking… / So your question is about… 3) RESPONDER com evidência: Our assumption is that… / Based on the data from… / That's a conservative estimate. 4) CONCORDAR EM PARTE: That's a fair point, but… 5) SE NÃO SOUBER (seja honesto): I don't have that information with me, but I'll get back to you by Friday. 6) FORA DO TEMA: That's outside the scope of today's talk, but perhaps we could discuss it after the meeting. 7) CHECAR: Does that answer your question? Nunca invente números!",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Ganhar tempo",
+          "That's a good question. Let me think…",
+          "Ótima pergunta. Deixe-me pensar…"
+        ],
+        [
+          "Confirmar",
+          "If I understand correctly, you're asking…",
+          "Se entendi bem, você pergunta…"
+        ],
+        [
+          "Não sabe",
+          "I'll have to get back to you on that.",
+          "Vou te retornar sobre isso."
+        ],
+        [
+          "Fora do tema",
+          "That's outside the scope of this talk.",
+          "Está fora do escopo desta apresentação."
+        ],
+        [
+          "Checar",
+          "Does that answer your question?",
+          "Isso responde sua pergunta?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "That's a good question. If I understand correctly, you're asking what happens if demand falls.",
+        "pt": "Ótima pergunta. Se entendi bem, você pergunta o que acontece se a demanda cair."
+      },
+      {
+        "en": "Our figures are based on a conservative estimate, using last year's data.",
+        "pt": "Nossos números se baseiam numa estimativa conservadora, usando os dados do ano passado."
+      },
+      {
+        "en": "I'm afraid I don't have that figure with me, but I'll get back to you by Friday.",
+        "pt": "Receio não ter esse número aqui, mas te retorno até sexta."
+      },
+      {
+        "en": "That's a fair point, but even in the worst case, the payback period is under three years.",
+        "pt": "É um ponto válido, mas mesmo no pior cenário, o retorno é em menos de três anos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Q&A session",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Thank you. I have a question. Isn't the investment too high for a year like this?",
+        "pt": "Obrigado. Tenho uma pergunta. O investimento não é alto demais para um ano como este?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "b",
+        "en": "That's a fair point. However, our estimate is conservative. Even if demand falls by 10%, the payback period is under two years.",
+        "pt": "É um ponto válido. Porém, nossa estimativa é conservadora. Mesmo que a demanda caia 10%, o retorno é em menos de dois anos."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "a",
+        "en": "What about maintenance costs? Are they included?",
+        "pt": "E os custos de manutenção? Estão incluídos?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "b",
+        "en": "I'm glad you asked that. Yes, they're included in the figure on slide 12. Does that answer your question?",
+        "pt": "Que bom que perguntou. Sim, estão incluídos no número do slide 12. Isso responde sua pergunta?"
+      },
+      {
+        "personagem": "Finance",
+        "voz": "a",
+        "en": "Yes, thanks. And what's the impact on our other plants?",
+        "pt": "Sim, obrigado. E qual o impacto nas nossas outras fábricas?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "b",
+        "en": "That's outside the scope of this project, I'm afraid. But I'll look into it and get back to you next week.",
+        "pt": "Isso está fora do escopo deste projeto, receio. Mas vou analisar e te retorno semana que vem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the director's concern?",
+        "opcoes": [
+          "The investment is too high.",
+          "The project is too slow.",
+          "The team is too small."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the payback period even if demand falls by 10%?",
+        "opcoes": [
+          "Under one year",
+          "Under two years",
+          "Over five years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Where are the maintenance costs?",
+        "opcoes": [
+          "On slide 12",
+          "Not included",
+          "In the appendix"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the presenter say about the other plants?",
+        "opcoes": [
+          "It's outside the scope; he'll get back next week.",
+          "There is no impact.",
+          "It will be very positive."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u03l4-p1",
+      "tipo": "completar",
+      "frase": "That's a good ___.",
+      "respostas": [
+        "question"
+      ]
+    },
+    {
+      "id": "c1u03l4-p2",
+      "tipo": "completar",
+      "frase": "I'll have to get ___ to you on that.",
+      "respostas": [
+        "back"
+      ]
+    },
+    {
+      "id": "c1u03l4-p3",
+      "tipo": "completar",
+      "frase": "That's outside the ___ of this project.",
+      "respostas": [
+        "scope"
+      ]
+    },
+    {
+      "id": "c1u03l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Quando não sabe a resposta:",
+      "opcoes": [
+        "I don't have that figure with me, but I'll get back to you by Friday.",
+        "I think it's about 2 million, maybe.",
+        "I don't know. Next question."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Se entendi bem, você está perguntando…\":",
+      "opcoes": [
+        "If I understand correctly, you're asking…",
+        "If I understood good, you ask…",
+        "If I am understanding right, are you asking…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l4-p6",
+      "tipo": "ordenar",
+      "frase": "That's a conservative estimate",
+      "traducao_pt": "É uma estimativa conservadora"
+    },
+    {
+      "id": "c1u03l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Does that answer your question?"
+    },
+    {
+      "id": "c1u03l4-p8",
+      "tipo": "traduzir",
+      "pt": "Talvez possamos discutir isso depois da reunião.",
+      "respostas": [
+        "Perhaps we could discuss that after the meeting.",
+        "Maybe we could discuss that after the meeting."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Sessão de perguntas: o professor (um diretor cético) vai fazer 5 perguntas difíceis sobre uma proposta sua. Responda com as técnicas da aula, incluindo uma pergunta que você não sabe responder.",
+    "papel_professor": "Faça 5 perguntas difíceis, incluindo uma impossível de responder na hora e uma fora do escopo. Avalie calma, honestidade e linguagem. Corrija.",
+    "abertura": "I've listened to your proposal, and I have some questions. First, why should we trust these numbers?",
+    "abertura_pt": "Ouvi sua proposta e tenho algumas perguntas. Primeiro, por que deveríamos confiar nesses números?"
+  },
+  "teste": [
+    {
+      "id": "c1u03l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Concordar em parte:",
+      "opcoes": [
+        "That's a fair point, but…",
+        "You're wrong, but…",
+        "OK fine whatever."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l4-t2",
+      "tipo": "completar",
+      "frase": "Our main ___ is that demand will stay stable. (premissa)",
+      "respostas": [
+        "assumption"
+      ]
+    },
+    {
+      "id": "c1u03l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm glad you asked that.",
+      "aceitas": [
+        "I am glad you asked that."
+      ]
+    },
+    {
+      "id": "c1u03l4-t4",
+      "tipo": "traduzir",
+      "pt": "Se entendi bem, você está perguntando sobre os riscos.",
+      "respostas": [
+        "If I understand correctly, you're asking about the risks.",
+        "If I understand correctly, you are asking about the risks."
+      ]
+    },
+    {
+      "id": "c1u03l4-t5",
+      "tipo": "ordenar",
+      "frase": "I'll get back to you by Friday",
+      "traducao_pt": "Te retorno até sexta"
+    }
+  ]
+}

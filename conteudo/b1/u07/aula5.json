@@ -1,0 +1,364 @@
+{
+  "id": "b1-u07-l5",
+  "nivel": "B1",
+  "unidade": 7,
+  "numero": 5,
+  "titulo": "Reaching a decision",
+  "objetivo_pt": "Participar de uma reunião completa: dar opinião, concordar/discordar, interromper e decidir.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: qual foi a última decisão em grupo que você tomou (no trabalho, em família)? Como vocês chegaram a um acordo?",
+    "papel_professor": "Peça uma decisão em grupo recente e como chegaram ao acordo. Ensine interromper (Sorry to interrupt, but…), voltar ao assunto e decidir.",
+    "abertura": "Think about the last decision you made with other people. How did you agree?",
+    "abertura_pt": "Pense na última decisão que você tomou com outras pessoas. Como vocês chegaram a um acordo?"
+  },
+  "vocabulario": [
+    {
+      "id": "interrupt",
+      "en": "Sorry to interrupt, but…",
+      "pt": "Desculpe interromper, mas…",
+      "emoji": "✋",
+      "exemplo_en": "Sorry to interrupt, but we have five minutes left.",
+      "exemplo_pt": "Desculpe interromper, mas temos cinco minutos."
+    },
+    {
+      "id": "can-i-add",
+      "en": "Can I add something?",
+      "pt": "Posso acrescentar algo?",
+      "emoji": "➕",
+      "exemplo_en": "Can I add something here?",
+      "exemplo_pt": "Posso acrescentar algo aqui?"
+    },
+    {
+      "id": "let-finish",
+      "en": "Let me finish, please",
+      "pt": "Deixe-me terminar, por favor",
+      "emoji": "🛑",
+      "exemplo_en": "Let me just finish, please.",
+      "exemplo_pt": "Só me deixe terminar, por favor."
+    },
+    {
+      "id": "back-to",
+      "en": "Going back to…",
+      "pt": "Voltando a…",
+      "emoji": "↩️",
+      "exemplo_en": "Going back to the budget…",
+      "exemplo_pt": "Voltando ao orçamento…"
+    },
+    {
+      "id": "compromise",
+      "en": "compromise",
+      "pt": "meio-termo / acordo",
+      "emoji": "🤝",
+      "exemplo_en": "Let's find a compromise.",
+      "exemplo_pt": "Vamos achar um meio-termo."
+    },
+    {
+      "id": "vote",
+      "en": "vote",
+      "pt": "votar / votação",
+      "emoji": "🗳️",
+      "exemplo_en": "Let's vote on it.",
+      "exemplo_pt": "Vamos votar."
+    },
+    {
+      "id": "decide-l5",
+      "en": "So, we have decided to…",
+      "pt": "Então, decidimos…",
+      "emoji": "✔️",
+      "exemplo_en": "So, we have decided to test the new supplier.",
+      "exemplo_pt": "Então, decidimos testar o novo fornecedor."
+    },
+    {
+      "id": "action-point",
+      "en": "action point",
+      "pt": "ação / tarefa (da reunião)",
+      "emoji": "📌",
+      "exemplo_en": "The action points are on the board.",
+      "exemplo_pt": "As ações estão no quadro."
+    },
+    {
+      "id": "who-will",
+      "en": "Who's going to…?",
+      "pt": "Quem vai…?",
+      "emoji": "🙋",
+      "exemplo_en": "Who's going to call the customer?",
+      "exemplo_pt": "Quem vai ligar para o cliente?"
+    },
+    {
+      "id": "minutes",
+      "en": "minutes (of a meeting)",
+      "pt": "ata (de reunião)",
+      "emoji": "🗒️",
+      "exemplo_en": "I'll send the minutes this afternoon.",
+      "exemplo_pt": "Mando a ata hoje à tarde."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Da discussão à decisão",
+    "explicacao_pt": "Uma reunião eficaz tem: 1) opiniões (I think… / In my opinion…), 2) reações (I agree / I see your point, but…), 3) interrupções educadas (Sorry to interrupt, but… / Can I add something?), 4) controle (Let me finish, please. / Going back to…), 5) acordo (Let's find a compromise. / How about…?), 6) decisão (So, we've decided to…) e 7) ações (Who's going to…? / I'll… by Friday). Use phrasal verbs: sum up, follow up, put off, move on.",
+    "tabela": {
+      "colunas": [
+        "Momento",
+        "Expressão",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Interromper",
+          "Sorry to interrupt, but…",
+          "Sorry to interrupt, but that's not correct."
+        ],
+        [
+          "Acrescentar",
+          "Can I add something?",
+          "Can I add something about the costs?"
+        ],
+        [
+          "Retomar",
+          "Going back to…",
+          "Going back to the schedule…"
+        ],
+        [
+          "Acordo",
+          "Let's find a compromise.",
+          "Let's find a compromise: two days, not three."
+        ],
+        [
+          "Decisão",
+          "So, we've decided to…",
+          "So, we've decided to put it off until May."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Sorry to interrupt, but I think we're forgetting the safety issue.",
+        "pt": "Desculpe interromper, mas acho que estamos esquecendo a questão da segurança."
+      },
+      {
+        "en": "Let me just finish, please. Then you can comment.",
+        "pt": "Só me deixe terminar, por favor. Depois você comenta."
+      },
+      {
+        "en": "OK, let's find a compromise: we'll test it on one line first.",
+        "pt": "OK, vamos achar um meio-termo: testamos numa linha primeiro."
+      },
+      {
+        "en": "To sum up, we've decided to start in June. Who's going to tell the team?",
+        "pt": "Resumindo, decidimos começar em junho. Quem vai avisar a equipe?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The canteen meeting",
+    "falas": [
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "Today we need to decide about the canteen. The workers want a better menu.",
+        "pt": "Hoje precisamos decidir sobre o refeitório. Os funcionários querem um cardápio melhor."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "b",
+        "en": "In my opinion, we can't spend more. The budget is already…",
+        "pt": "Na minha opinião, não podemos gastar mais. O orçamento já está…"
+      },
+      {
+        "personagem": "Union rep",
+        "voz": "a",
+        "en": "Sorry to interrupt, but the food is really bad. People are complaining every day.",
+        "pt": "Desculpe interromper, mas a comida está muito ruim. As pessoas reclamam todo dia."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "b",
+        "en": "Let me finish, please. The budget is already 10% higher than last year.",
+        "pt": "Deixe-me terminar, por favor. O orçamento já está 10% mais alto que no ano passado."
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "I see both points. How about a compromise? We could change the supplier without increasing the budget.",
+        "pt": "Entendo os dois lados. Que tal um meio-termo? Poderíamos trocar o fornecedor sem aumentar o orçamento."
+      },
+      {
+        "personagem": "Union rep",
+        "voz": "a",
+        "en": "That's a fair point. I agree, as long as the workers can try the food first.",
+        "pt": "É um ponto válido. Concordo, desde que os funcionários possam provar a comida antes."
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "Great. So, we've decided to test two new suppliers. I'll organize the tasting by Friday and send the minutes today.",
+        "pt": "Ótimo. Então, decidimos testar dois novos fornecedores. Organizo a degustação até sexta e mando a ata hoje."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the meeting about?",
+        "opcoes": [
+          "The canteen",
+          "Salaries",
+          "Safety"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Why does Finance not want to spend more?",
+        "opcoes": [
+          "The budget is already 10% higher.",
+          "The food is good.",
+          "There are too many workers."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the compromise?",
+        "opcoes": [
+          "Change the supplier without increasing the budget",
+          "Close the canteen",
+          "Increase the budget by 20%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What will HR organize by Friday?",
+        "opcoes": [
+          "A tasting",
+          "A party",
+          "A vote"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u07l5-p1",
+      "tipo": "completar",
+      "frase": "Sorry to ___, but we have five minutes left.",
+      "respostas": [
+        "interrupt"
+      ]
+    },
+    {
+      "id": "b1u07l5-p2",
+      "tipo": "completar",
+      "frase": "Let's find a ___. (meio-termo)",
+      "respostas": [
+        "compromise"
+      ]
+    },
+    {
+      "id": "b1u07l5-p3",
+      "tipo": "completar",
+      "frase": "I'll send the ___ this afternoon. (ata)",
+      "respostas": [
+        "minutes"
+      ]
+    },
+    {
+      "id": "b1u07l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Retomar um assunto:",
+      "opcoes": [
+        "Going back to the budget…",
+        "Coming again the budget…",
+        "Returning at the budget…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Quem vai ligar para o cliente?\":",
+      "opcoes": [
+        "Who's going to call the customer?",
+        "Who goes to calling the customer?",
+        "Who is call the customer?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l5-p6",
+      "tipo": "ordenar",
+      "frase": "Can I add something here?",
+      "traducao_pt": "Posso acrescentar algo aqui?"
+    },
+    {
+      "id": "b1u07l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's vote on it.",
+      "aceitas": [
+        "Let us vote on it."
+      ]
+    },
+    {
+      "id": "b1u07l5-p8",
+      "tipo": "traduzir",
+      "pt": "Então, decidimos testar o novo fornecedor.",
+      "respostas": [
+        "So, we've decided to test the new supplier.",
+        "So, we have decided to test the new supplier.",
+        "So we decided to test the new supplier."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: reunião com o professor para decidir algo (ex.: onde fazer a festa de fim de ano da empresa, com orçamento limitado). Dê opiniões, concorde/discorde, interrompa com educação, encontrem um meio-termo e definam quem faz o quê.",
+    "papel_professor": "Participe da reunião defendendo uma opção diferente da do aluno. Interrompa uma vez para o aluno praticar 'Let me finish'. Busque um meio-termo e termine com ações (Who's going to…?). Corrija.",
+    "abertura": "OK, we need to decide where to have the end-of-year party. We only have 10,000 reais. I think we should rent a farm. What do you think?",
+    "abertura_pt": "OK, precisamos decidir onde fazer a festa de fim de ano. Só temos 10.000 reais. Acho que deveríamos alugar uma chácara. O que você acha?"
+  },
+  "teste": [
+    {
+      "id": "b1u07l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Interromper com educação:",
+      "opcoes": [
+        "Sorry to interrupt, but…",
+        "Stop talking!",
+        "Wait, you are wrong."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l5-t2",
+      "tipo": "completar",
+      "frase": "Let me ___, please. (terminar)",
+      "respostas": [
+        "finish"
+      ]
+    },
+    {
+      "id": "b1u07l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The action points are on the board."
+    },
+    {
+      "id": "b1u07l5-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos achar um meio-termo.",
+      "respostas": [
+        "Let's find a compromise.",
+        "Let us find a compromise."
+      ]
+    },
+    {
+      "id": "b1u07l5-t5",
+      "tipo": "ordenar",
+      "frase": "So we've decided to start in June",
+      "traducao_pt": "Então, decidimos começar em junho"
+    }
+  ]
+}

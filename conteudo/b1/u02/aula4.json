@@ -1,0 +1,359 @@
+{
+  "id": "b1-u02-l4",
+  "nivel": "B1",
+  "unidade": 2,
+  "numero": 4,
+  "titulo": "Targets and results",
+  "objetivo_pt": "Falar de metas e resultados no trabalho: o que já alcançamos e o que falta.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre as metas da sua equipe este mês ou este ano. O que vocês já alcançaram? O que ainda não?",
+    "papel_professor": "Pergunte metas (production, quality, safety, sales) e resultados até agora (so far, this month, this year). Ensine reach a target, on track, behind schedule.",
+    "abertura": "What are your team's targets this month?",
+    "abertura_pt": "Quais são as metas da sua equipe este mês?"
+  },
+  "vocabulario": [
+    {
+      "id": "target",
+      "en": "target / goal",
+      "pt": "meta / objetivo",
+      "emoji": "🎯",
+      "exemplo_en": "Our target is 5,000 units a week.",
+      "exemplo_pt": "Nossa meta é 5.000 unidades por semana."
+    },
+    {
+      "id": "reach",
+      "en": "reach / hit (a target)",
+      "pt": "atingir (meta)",
+      "emoji": "🏁",
+      "exemplo_en": "We've already reached our target.",
+      "exemplo_pt": "Já atingimos nossa meta."
+    },
+    {
+      "id": "so-far",
+      "en": "so far",
+      "pt": "até agora",
+      "emoji": "📍",
+      "exemplo_en": "We've produced 3,200 units so far.",
+      "exemplo_pt": "Produzimos 3.200 unidades até agora."
+    },
+    {
+      "id": "on-track",
+      "en": "on track",
+      "pt": "no caminho certo",
+      "emoji": "🛤️",
+      "exemplo_en": "We're on track to reach the goal.",
+      "exemplo_pt": "Estamos no caminho para atingir a meta."
+    },
+    {
+      "id": "behind",
+      "en": "behind schedule / ahead of schedule",
+      "pt": "atrasado / adiantado (cronograma)",
+      "emoji": "📆",
+      "exemplo_en": "The project is two weeks behind schedule.",
+      "exemplo_pt": "O projeto está duas semanas atrasado."
+    },
+    {
+      "id": "increase",
+      "en": "increase / rise",
+      "pt": "aumentar / aumento",
+      "emoji": "⬆️",
+      "exemplo_en": "Production has increased by 10%.",
+      "exemplo_pt": "A produção aumentou 10%."
+    },
+    {
+      "id": "decrease",
+      "en": "decrease / fall",
+      "pt": "diminuir / queda",
+      "emoji": "⬇️",
+      "exemplo_en": "Complaints have fallen by half.",
+      "exemplo_pt": "As reclamações caíram pela metade."
+    },
+    {
+      "id": "result",
+      "en": "result / outcome",
+      "pt": "resultado",
+      "emoji": "📊",
+      "exemplo_en": "The results have been very good.",
+      "exemplo_pt": "Os resultados têm sido muito bons."
+    },
+    {
+      "id": "progress",
+      "en": "progress",
+      "pt": "progresso",
+      "emoji": "🚶",
+      "exemplo_en": "We've made good progress this month.",
+      "exemplo_pt": "Fizemos um bom progresso este mês."
+    },
+    {
+      "id": "miss",
+      "en": "miss (a target / deadline)",
+      "pt": "não atingir / perder (prazo)",
+      "emoji": "❌",
+      "exemplo_en": "We missed the deadline by two days.",
+      "exemplo_pt": "Perdemos o prazo por dois dias."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Falando de resultados",
+    "explicacao_pt": "Período que AINDA NÃO TERMINOU (this month, this year, so far) → present perfect: We've produced 3,200 units this month. Sales have increased this year. Período que JÁ TERMINOU (last month, in 2023) → passado: We produced 4,000 units last month. Para falar de mudança: increase/decrease/rise/fall + BY (a diferença) / TO (o valor final): Scrap has fallen BY 2% TO 3%. Para ações em andamento: We've been working on a new project.",
+    "tabela": {
+      "colunas": [
+        "Período",
+        "Tempo verbal",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "this month / so far",
+          "present perfect",
+          "We've reached 80% of the target so far."
+        ],
+        [
+          "last month / in 2023",
+          "past simple",
+          "We reached 95% last month."
+        ],
+        [
+          "mudança (diferença)",
+          "by",
+          "Costs have risen by 5%."
+        ],
+        [
+          "mudança (valor final)",
+          "to",
+          "Scrap has fallen to 2%."
+        ],
+        [
+          "trabalho em andamento",
+          "present perfect continuous",
+          "We've been testing a new supplier."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "So far this month, we've produced 3,200 units. Our target is 5,000.",
+        "pt": "Até agora, este mês, produzimos 3.200 unidades. Nossa meta é 5.000."
+      },
+      {
+        "en": "Last month we missed the target by 300 units.",
+        "pt": "Mês passado não atingimos a meta por 300 unidades."
+      },
+      {
+        "en": "Customer complaints have fallen by 40% since we changed the packaging.",
+        "pt": "As reclamações caíram 40% desde que mudamos a embalagem."
+      },
+      {
+        "en": "We're a little behind schedule, but we've been working overtime.",
+        "pt": "Estamos um pouco atrasados, mas temos feito hora extra."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Monthly results meeting",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Good morning. Let's look at the results so far this month.",
+        "pt": "Bom dia. Vamos ver os resultados deste mês até agora."
+      },
+      {
+        "personagem": "Leila",
+        "voz": "b",
+        "en": "Production has been good. We've produced 18,000 units, which is 90% of the target.",
+        "pt": "A produção está boa. Produzimos 18.000 unidades, que é 90% da meta."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And there are still five days left. Excellent. What about quality?",
+        "pt": "E ainda faltam cinco dias. Excelente. E a qualidade?"
+      },
+      {
+        "personagem": "Leila",
+        "voz": "b",
+        "en": "Scrap has fallen from 4% to 2.5%. The new training has helped a lot.",
+        "pt": "O refugo caiu de 4% para 2,5%. O novo treinamento ajudou muito."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Great progress. Any problems?",
+        "pt": "Ótimo progresso. Algum problema?"
+      },
+      {
+        "personagem": "Leila",
+        "voz": "b",
+        "en": "Yes, the new packaging machine project is three weeks behind schedule. The supplier hasn't delivered the parts yet.",
+        "pt": "Sim, o projeto da nova embaladora está três semanas atrasado. O fornecedor ainda não entregou as peças."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How many units have they produced so far?",
+        "opcoes": [
+          "15,000",
+          "18,000",
+          "20,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How many days are left in the month?",
+        "opcoes": [
+          "Three",
+          "Five",
+          "Ten"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What has scrap fallen to?",
+        "opcoes": [
+          "4%",
+          "2.5%",
+          "1%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02l4-e4",
+        "tipo": "multipla",
+        "enunciado": "Why is the packaging project behind schedule?",
+        "opcoes": [
+          "The supplier hasn't delivered the parts.",
+          "There is no money.",
+          "The team is on vacation."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u02l4-p1",
+      "tipo": "completar",
+      "frase": "We've already ___ our target. (atingimos)",
+      "respostas": [
+        "reached"
+      ]
+    },
+    {
+      "id": "b1u02l4-p2",
+      "tipo": "completar",
+      "frase": "We've produced 3,200 units so ___.",
+      "respostas": [
+        "far"
+      ]
+    },
+    {
+      "id": "b1u02l4-p3",
+      "tipo": "completar",
+      "frase": "Costs have risen ___ 5%. (diferença)",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u02l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Período terminado:",
+      "opcoes": [
+        "We've missed the target last month.",
+        "We missed the target last month."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u02l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O projeto está duas semanas atrasado\":",
+      "opcoes": [
+        "The project is two weeks behind schedule.",
+        "The project is two weeks late of schedule.",
+        "The project has two weeks behind."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l4-p6",
+      "tipo": "ordenar",
+      "frase": "We've made good progress this month",
+      "traducao_pt": "Fizemos um bom progresso este mês"
+    },
+    {
+      "id": "b1u02l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We're on track to reach the goal.",
+      "aceitas": [
+        "We are on track to reach the goal."
+      ]
+    },
+    {
+      "id": "b1u02l4-p8",
+      "tipo": "traduzir",
+      "pt": "As reclamações caíram pela metade.",
+      "respostas": [
+        "Complaints have fallen by half.",
+        "Complaints have decreased by half.",
+        "Complaints fell by half."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor (seu diretor) os resultados da sua equipe até agora: uma meta atingida, um número que melhorou e um problema que ainda não foi resolvido.",
+    "papel_professor": "Faça o papel de diretor numa reunião de resultados. Pergunte números, comparação com o mês passado, problemas e o que estão fazendo. Corrija present perfect × past, by/to.",
+    "abertura": "OK, let's start. How has your team been doing this month?",
+    "abertura_pt": "OK, vamos começar. Como sua equipe está indo este mês?"
+  },
+  "teste": [
+    {
+      "id": "b1u02l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"O refugo caiu para 2%\" (valor final):",
+      "opcoes": [
+        "Scrap has fallen to 2%.",
+        "Scrap has fallen by 2%.",
+        "Scrap has fallen at 2%."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u02l4-t2",
+      "tipo": "completar",
+      "frase": "We ___ the deadline by two days. (perdemos)",
+      "respostas": [
+        "missed"
+      ]
+    },
+    {
+      "id": "b1u02l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Production has increased by ten percent.",
+      "aceitas": [
+        "Production has increased by 10%."
+      ]
+    },
+    {
+      "id": "b1u02l4-t4",
+      "tipo": "traduzir",
+      "pt": "Os resultados têm sido muito bons.",
+      "respostas": [
+        "The results have been very good."
+      ]
+    },
+    {
+      "id": "b1u02l4-t5",
+      "tipo": "ordenar",
+      "frase": "Our target is five thousand units a week",
+      "traducao_pt": "Nossa meta é cinco mil unidades por semana"
+    }
+  ]
+}

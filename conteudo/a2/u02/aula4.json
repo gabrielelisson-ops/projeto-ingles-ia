@@ -1,0 +1,336 @@
+{
+  "id": "a2-u02-l4",
+  "nivel": "A2",
+  "unidade": 2,
+  "numero": 4,
+  "titulo": "Did you ever…? Questions about the past",
+  "objetivo_pt": "Fazer perguntas sobre a vida de outra pessoa e responder com detalhes.",
+  "aquecimento": {
+    "situacao_pt": "Agora você entrevista o professor sobre a vida dele. Faça perguntas no passado: Where did you…? When did you…?",
+    "papel_professor": "Você é Mark, 50 anos, nasceu em Liverpool, mudou para o Brasil em 2005, trabalhou como engenheiro, casou com uma brasileira em 2008, tem dois filhos. Responda apenas o que o aluno perguntar e incentive-o a perguntar mais.",
+    "abertura": "Today you are the interviewer! Ask me about my life.",
+    "abertura_pt": "Hoje você é o entrevistador! Pergunte sobre a minha vida."
+  },
+  "vocabulario": [
+    {
+      "id": "meet",
+      "en": "meet → met",
+      "pt": "conhecer / encontrar → conheceu",
+      "emoji": "💞",
+      "exemplo_en": "I met my wife at work.",
+      "exemplo_pt": "Conheci minha esposa no trabalho."
+    },
+    {
+      "id": "marry",
+      "en": "get married",
+      "pt": "casar-se",
+      "emoji": "💍",
+      "exemplo_en": "We got married in 2010.",
+      "exemplo_pt": "Nos casamos em 2010."
+    },
+    {
+      "id": "have-baby",
+      "en": "have a baby",
+      "pt": "ter um bebê",
+      "emoji": "👶",
+      "exemplo_en": "They had a baby last year.",
+      "exemplo_pt": "Eles tiveram um bebê ano passado."
+    },
+    {
+      "id": "buy-house",
+      "en": "buy a house",
+      "pt": "comprar uma casa",
+      "emoji": "🏠",
+      "exemplo_en": "We bought a house in 2019.",
+      "exemplo_pt": "Compramos uma casa em 2019."
+    },
+    {
+      "id": "study-abroad",
+      "en": "study abroad",
+      "pt": "estudar no exterior",
+      "emoji": "🌍",
+      "exemplo_en": "She studied abroad for a year.",
+      "exemplo_pt": "Ela estudou no exterior por um ano."
+    },
+    {
+      "id": "win",
+      "en": "win → won",
+      "pt": "ganhar → ganhou",
+      "emoji": "🏆",
+      "exemplo_en": "Our team won the championship.",
+      "exemplo_pt": "Nosso time ganhou o campeonato."
+    },
+    {
+      "id": "lose",
+      "en": "lose → lost",
+      "pt": "perder → perdeu",
+      "emoji": "😞",
+      "exemplo_en": "I lost my wallet on the bus.",
+      "exemplo_pt": "Perdi minha carteira no ônibus."
+    },
+    {
+      "id": "find",
+      "en": "find → found",
+      "pt": "encontrar → encontrou",
+      "emoji": "🔍",
+      "exemplo_en": "I found a great apartment.",
+      "exemplo_pt": "Encontrei um apartamento ótimo."
+    },
+    {
+      "id": "why-because",
+      "en": "Why…? — Because…",
+      "pt": "Por quê? — Porque…",
+      "emoji": "❓",
+      "exemplo_en": "Why did you move? — Because of my job.",
+      "exemplo_pt": "Por que você se mudou? — Por causa do meu trabalho."
+    },
+    {
+      "id": "later",
+      "en": "later / two years later",
+      "pt": "depois / dois anos depois",
+      "emoji": "⏩",
+      "exemplo_en": "Two years later, we moved.",
+      "exemplo_pt": "Dois anos depois, nos mudamos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Perguntas e respostas sobre a vida de alguém",
+    "explicacao_pt": "Para entrevistar alguém sobre o passado: Where did you grow up? When did you meet your wife? Why did you move? Responda com o passado e dê detalhes: 'Because…', 'Two years later…'. Cuidado com 'meet': 'I met my wife' = conheci (primeira vez). 'Get married' = casar-se (We got married in 2010). Com quem: 'I got married TO Ana' ou simplesmente 'I married Ana'.",
+    "tabela": {
+      "colunas": [
+        "Pergunta",
+        "Resposta",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "When did you meet?",
+          "We met in 2008.",
+          "Nos conhecemos em 2008."
+        ],
+        [
+          "When did you get married?",
+          "We got married in 2010.",
+          "Nos casamos em 2010."
+        ],
+        [
+          "Why did you move?",
+          "Because I got a new job.",
+          "Porque arrumei um emprego."
+        ],
+        [
+          "What happened next?",
+          "Two years later, we had a baby.",
+          "Dois anos depois, tivemos um bebê."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where did you meet your husband? — At a friend's party.",
+        "pt": "Onde você conheceu seu marido? — Na festa de um amigo."
+      },
+      {
+        "en": "We got married two years later.",
+        "pt": "Nos casamos dois anos depois."
+      },
+      {
+        "en": "Why did you leave Rio? — Because I found a better job in Curitiba.",
+        "pt": "Por que você saiu do Rio? — Porque encontrei um emprego melhor em Curitiba."
+      },
+      {
+        "en": "Did you win the game? — No, we lost.",
+        "pt": "Vocês ganharam o jogo? — Não, perdemos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "How we met",
+    "falas": [
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "How did you and Rafael meet?",
+        "pt": "Como você e o Rafael se conheceram?"
+      },
+      {
+        "personagem": "Tati",
+        "voz": "b",
+        "en": "We met at a training course in 2012. He sat next to me.",
+        "pt": "Nos conhecemos num curso em 2012. Ele sentou ao meu lado."
+      },
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "So romantic! When did you get married?",
+        "pt": "Que romântico! Quando vocês se casaram?"
+      },
+      {
+        "personagem": "Tati",
+        "voz": "b",
+        "en": "Three years later, in 2015. And we had our first baby in 2017.",
+        "pt": "Três anos depois, em 2015. E tivemos nosso primeiro bebê em 2017."
+      },
+      {
+        "personagem": "Lucy",
+        "voz": "a",
+        "en": "Did you move after the wedding?",
+        "pt": "Vocês se mudaram depois do casamento?"
+      },
+      {
+        "personagem": "Tati",
+        "voz": "b",
+        "en": "Yes, we bought a small house near my parents.",
+        "pt": "Sim, compramos uma casinha perto dos meus pais."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u02l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Where did they meet?",
+        "opcoes": [
+          "At work",
+          "At a training course",
+          "At a party"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02l4-e2",
+        "tipo": "multipla",
+        "enunciado": "When did they get married?",
+        "opcoes": [
+          "2012",
+          "2015",
+          "2017"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u02l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did they buy a house?",
+        "opcoes": [
+          "Near her parents",
+          "In the city center",
+          "Near the beach"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u02l4-p1",
+      "tipo": "completar",
+      "frase": "I ___ my wife at work. (meet)",
+      "respostas": [
+        "met"
+      ]
+    },
+    {
+      "id": "a2u02l4-p2",
+      "tipo": "completar",
+      "frase": "We got ___ in 2010.",
+      "respostas": [
+        "married"
+      ]
+    },
+    {
+      "id": "a2u02l4-p3",
+      "tipo": "completar",
+      "frase": "___ did you move? — Because of my job.",
+      "respostas": [
+        "Why"
+      ]
+    },
+    {
+      "id": "a2u02l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"lose\":",
+      "opcoes": [
+        "losed",
+        "lost",
+        "loosed"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "When you met her?",
+        "When did you meet her?",
+        "When did you met her?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l4-p6",
+      "tipo": "ordenar",
+      "frase": "Two years later we moved",
+      "traducao_pt": "Dois anos depois, nos mudamos"
+    },
+    {
+      "id": "a2u02l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I found a great apartment."
+    },
+    {
+      "id": "a2u02l4-p8",
+      "tipo": "traduzir",
+      "pt": "Nosso time ganhou o campeonato.",
+      "respostas": [
+        "Our team won the championship."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Entreviste o professor sobre a vida dele. Faça pelo menos 5 perguntas no passado e reaja às respostas.",
+    "papel_professor": "Você é Mark (veja o papel do aquecimento). Responda às perguntas do aluno. Quando ele fizer uma pergunta com erro de estrutura, corrija gentilmente e responda.",
+    "abertura": "Hi, I'm Mark. I'm from England, but I live in Brazil. What would you like to know about me?",
+    "abertura_pt": "Oi, sou o Mark. Sou da Inglaterra, mas moro no Brasil. O que você gostaria de saber sobre mim?"
+  },
+  "teste": [
+    {
+      "id": "a2u02l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Quando vocês se casaram?\"",
+      "opcoes": [
+        "When did you married?",
+        "When did you get married?",
+        "When you got married?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u02l4-t2",
+      "tipo": "completar",
+      "frase": "They ___ a baby last year. (have)",
+      "respostas": [
+        "had"
+      ]
+    },
+    {
+      "id": "a2u02l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Why did you leave Rio?"
+    },
+    {
+      "id": "a2u02l4-t4",
+      "tipo": "traduzir",
+      "pt": "Eu perdi minha carteira.",
+      "respostas": [
+        "I lost my wallet."
+      ]
+    },
+    {
+      "id": "a2u02l4-t5",
+      "tipo": "ordenar",
+      "frase": "Where did you meet your husband?",
+      "traducao_pt": "Onde você conheceu seu marido?"
+    }
+  ]
+}

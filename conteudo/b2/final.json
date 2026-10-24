@@ -1,0 +1,465 @@
+{
+  "id": "b2-final",
+  "nivel": "B2",
+  "unidade": 0,
+  "titulo": "Prova final do B2 — Intermediário superior",
+  "leitura": {
+    "texto": "THE RECALL THAT CHANGED A COMPANY\nIn March 2023, Nordeste Alimentos, which produces canned vegetables, had to recall 400,000 cans after customers reported that some of them were swollen. It was the most serious crisis in the company's 40-year history.\nThe investigation, which lasted six weeks, found that the sterilization temperature had been too low on one of the three lines for several days. A sensor must have given wrong readings, because the operators had followed the procedure. However, the sensor had not been calibrated for over a year. 'If we had calibrated it on time, none of this would have happened,' admitted the quality director, Marta Lins.\nThe CEO, Paulo Sá, decided to be completely transparent. He told journalists that the company would cover all costs and that customers could exchange the cans in any supermarket. He also apologized publicly for the mistake. 'I wish we had detected the problem earlier,' he said, 'but I'm proud of how our team reacted.'\nThe company made several changes. All critical instruments are now calibrated every three months, and the company has them checked by an external laboratory. Moreover, a new monitoring system sends an alarm if the temperature falls below the limit. Despite the high cost of the recall — about 12 million reais — sales recovered in less than a year.\n'Before the crisis, we used to think that quality was the quality department's job,' says Lins. 'Now everybody is used to thinking about food safety. By 2026, we'll have trained every employee in food safety, and we'll be using the same system in our new plant.'",
+    "perguntas": [
+      {
+        "id": "b2finpv-l1",
+        "tipo": "multipla",
+        "enunciado": "What does Nordeste Alimentos produce?",
+        "opcoes": [
+          "Canned vegetables",
+          "Frozen meat",
+          "Juice"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many cans were recalled?",
+        "opcoes": [
+          "40,000",
+          "400,000",
+          "4 million"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-l3",
+        "tipo": "multipla",
+        "enunciado": "How long did the investigation last?",
+        "opcoes": [
+          "Six days",
+          "Six weeks",
+          "Six months"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-l4",
+        "tipo": "multipla",
+        "enunciado": "What was the cause?",
+        "opcoes": [
+          "The sterilization temperature had been too low.",
+          "The cans were old.",
+          "The vegetables were bad."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why must the sensor have given wrong readings?",
+        "opcoes": [
+          "The operators had followed the procedure.",
+          "It was new.",
+          "It was broken."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l6",
+        "tipo": "multipla",
+        "enunciado": "When was the sensor last calibrated?",
+        "opcoes": [
+          "Over a year before",
+          "Three months before",
+          "The week before"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l7",
+        "tipo": "multipla",
+        "enunciado": "What would have prevented the problem, according to Marta Lins?",
+        "opcoes": [
+          "Calibrating the sensor on time",
+          "Hiring more operators",
+          "Using a different can"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l8",
+        "tipo": "multipla",
+        "enunciado": "What did the CEO tell journalists?",
+        "opcoes": [
+          "That the company would cover all costs",
+          "That it was the supplier's fault",
+          "Nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l9",
+        "tipo": "multipla",
+        "enunciado": "What does the CEO wish?",
+        "opcoes": [
+          "That they had detected the problem earlier",
+          "That he had sold the company",
+          "That journalists had not come"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l10",
+        "tipo": "multipla",
+        "enunciado": "How often are critical instruments calibrated now?",
+        "opcoes": [
+          "Every month",
+          "Every three months",
+          "Every year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-l11",
+        "tipo": "multipla",
+        "enunciado": "Who checks the instruments?",
+        "opcoes": [
+          "An external laboratory",
+          "The operators",
+          "The CEO"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l12",
+        "tipo": "multipla",
+        "enunciado": "How much did the recall cost?",
+        "opcoes": [
+          "About 1.2 million reais",
+          "About 12 million reais",
+          "About 40 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-l13",
+        "tipo": "multipla",
+        "enunciado": "How long did sales take to recover?",
+        "opcoes": [
+          "Less than a year",
+          "Two years",
+          "They never recovered"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l14",
+        "tipo": "multipla",
+        "enunciado": "What did people use to think before the crisis?",
+        "opcoes": [
+          "That quality was the quality department's job",
+          "That safety was not important",
+          "That the sensors were perfect"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-l15",
+        "tipo": "multipla",
+        "enunciado": "What will they have done by 2026?",
+        "opcoes": [
+          "Trained every employee in food safety",
+          "Closed the old plant",
+          "Recalled more cans"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Thank you for coming, Mr. Alves. As you know, we'd like to discuss the new contract.",
+        "pt": "Obrigada por vir, Sr. Alves. Como sabe, gostaríamos de discutir o novo contrato."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Of course. Before we start, could you tell me whether you're planning to increase your volumes next year?",
+        "pt": "Claro. Antes de começarmos, poderia me dizer se vocês planejam aumentar os volumes ano que vem?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Yes, by about 20%, which is why we were hoping for a better price.",
+        "pt": "Sim, em uns 20%, por isso esperávamos um preço melhor."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "I see. If you signed a two-year contract, we could offer a 4% discount.",
+        "pt": "Entendo. Se assinassem um contrato de dois anos, poderíamos oferecer 4% de desconto."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "I'm afraid 4% is not quite what we had in mind. Would you consider 7%?",
+        "pt": "Receio que 4% não seja bem o que tínhamos em mente. Vocês considerariam 7%?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Seven is difficult. However, we could go to 6%, provided that you pay within 30 days.",
+        "pt": "Sete é difícil. No entanto, poderíamos chegar a 6%, desde que paguem em 30 dias."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "That could work. There's one more thing. Last month, two deliveries arrived late. Our planner said the driver had gone to the wrong plant.",
+        "pt": "Isso pode funcionar. Há mais uma coisa. Mês passado, duas entregas chegaram atrasadas. Nosso planejador disse que o motorista tinha ido para a fábrica errada."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Yes, I apologize for that. Someone must have used the old address. We've updated our system since then.",
+        "pt": "Sim, peço desculpas por isso. Alguém deve ter usado o endereço antigo. Atualizamos nosso sistema desde então."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Thank you. So, just to confirm: a two-year contract, a 6% discount and payment within 30 days.",
+        "pt": "Obrigada. Então, só para confirmar: contrato de dois anos, 6% de desconto e pagamento em 30 dias."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Exactly. We'll have the draft contract sent to you by Friday.",
+        "pt": "Exatamente. Mandaremos a minuta do contrato até sexta."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Perfect. By the time it arrives, our legal team will have reviewed the current terms.",
+        "pt": "Perfeito. Quando chegar, nosso jurídico terá revisado as condições atuais."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Great. It's been a pleasure doing business with you.",
+        "pt": "Ótimo. Foi um prazer fazer negócio com vocês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2finpv-e1",
+        "tipo": "multipla",
+        "enunciado": "What did the supplier ask first?",
+        "opcoes": [
+          "Whether they were planning to increase volumes",
+          "What the budget was",
+          "When the contract ended"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e2",
+        "tipo": "multipla",
+        "enunciado": "By how much will volumes increase?",
+        "opcoes": [
+          "About 10%",
+          "About 20%",
+          "About 30%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the supplier offer for a two-year contract?",
+        "opcoes": [
+          "4%",
+          "6%",
+          "7%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e4",
+        "tipo": "multipla",
+        "enunciado": "What discount did the buyer ask for?",
+        "opcoes": [
+          "4%",
+          "6%",
+          "7%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2finpv-e5",
+        "tipo": "multipla",
+        "enunciado": "What was the condition for 6%?",
+        "opcoes": [
+          "Payment within 30 days",
+          "A three-year contract",
+          "Bigger orders"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e6",
+        "tipo": "multipla",
+        "enunciado": "Why were two deliveries late?",
+        "opcoes": [
+          "The driver had gone to the wrong plant.",
+          "There was a strike.",
+          "The truck broke down."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e7",
+        "tipo": "multipla",
+        "enunciado": "What does the supplier think happened?",
+        "opcoes": [
+          "Someone must have used the old address.",
+          "The driver was new.",
+          "The buyer gave the wrong address."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e8",
+        "tipo": "multipla",
+        "enunciado": "What was the final agreement?",
+        "opcoes": [
+          "Two years, 6% discount, payment in 30 days",
+          "One year, 4% discount",
+          "Two years, 7% discount"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e9",
+        "tipo": "multipla",
+        "enunciado": "When will the draft contract be sent?",
+        "opcoes": [
+          "By Monday",
+          "By Friday",
+          "Next month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2finpv-e10",
+        "tipo": "multipla",
+        "enunciado": "What will the legal team have done?",
+        "opcoes": [
+          "Reviewed the current terms",
+          "Signed the contract",
+          "Called the supplier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2finpv-e11",
+        "tipo": "ouvir_escrever",
+        "audio": "We were hoping for a better price."
+      },
+      {
+        "id": "b2finpv-e12",
+        "tipo": "ouvir_escrever",
+        "audio": "If you signed a two-year contract, we could offer a four percent discount.",
+        "aceitas": [
+          "If you signed a two-year contract, we could offer a 4% discount."
+        ]
+      },
+      {
+        "id": "b2finpv-e13",
+        "tipo": "ouvir_escrever",
+        "audio": "I'm afraid that's not quite what we had in mind.",
+        "aceitas": [
+          "I am afraid that is not quite what we had in mind.",
+          "I'm afraid 4% is not quite what we had in mind."
+        ]
+      },
+      {
+        "id": "b2finpv-e14",
+        "tipo": "ouvir_escrever",
+        "audio": "Someone must have used the old address."
+      },
+      {
+        "id": "b2finpv-e15",
+        "tipo": "ouvir_escrever",
+        "audio": "We'll have the draft contract sent to you by Friday.",
+        "aceitas": [
+          "We will have the draft contract sent to you by Friday."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2finpv-w1",
+      "instrucao_pt": "Escreva sobre uma decisão do seu passado que você teria tomado diferente e como sua vida seria hoje (condicionais 3 e mistas, wish).",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2finpv-w2",
+      "instrucao_pt": "Escreva o resumo de uma reunião ou conversa usando reported speech e pelo menos 3 reporting verbs diferentes.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2finpv-w3",
+      "instrucao_pt": "Descreva um problema (real ou inventado) e as deduções sobre a sua causa: o que deve ter acontecido, o que pode ter acontecido e o que deveria ter sido feito.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2finpv-w4",
+      "instrucao_pt": "Escreva um e-mail formal a um fornecedor recusando um aumento de preço e fazendo uma contraproposta condicional.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "b2finpv-w5",
+      "instrucao_pt": "Descreva um plano de melhoria para os próximos 2 anos: o que estará sendo feito, o que já terá sido feito e o que será terceirizado.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2finpv-s1",
+      "pergunta_en": "Tell me about a decision you regret or are proud of. What would have happened if you had chosen differently?",
+      "instrucao_pt": "Fale em voz alta com condicionais e wish."
+    },
+    {
+      "id": "b2finpv-s2",
+      "pergunta_en": "Report a recent conversation or meeting: what was said, what was asked and what was decided.",
+      "instrucao_pt": "Use reported speech e reporting verbs."
+    },
+    {
+      "id": "b2finpv-s3",
+      "pergunta_en": "A machine at your plant stopped overnight and nobody knows why. What might have happened?",
+      "instrucao_pt": "Faça deduções em voz alta sobre o passado."
+    },
+    {
+      "id": "b2finpv-s4",
+      "pergunta_en": "Your supplier wants to raise prices by 10%. Negotiate.",
+      "instrucao_pt": "Negocie em voz alta com hedging e propostas condicionais."
+    },
+    {
+      "id": "b2finpv-s5",
+      "pergunta_en": "Present a short improvement plan for your area.",
+      "instrucao_pt": "Use future continuous, future perfect e causativo."
+    }
+  ],
+  "foco_avaliacao": "Prova final do B2. Avalie: condicionais 3 e mistas, wish/should have; reported speech e reporting verbs; modais de dedução; perguntas indiretas; used to/be used to; relative clauses; hedging e propostas condicionais; registro formal e conectores; future continuous/perfect e causativo. O aluno deve conduzir reuniões, negociar, investigar problemas e escrever formalmente. Compare com o esperado para B2, não com um nativo.",
+  "entrevista": {
+    "minutos": 5,
+    "papel_professor": "Você é o examinador da entrevista oral final do B2, simulando uma entrevista para um cargo de liderança na indústria. Cubra: trajetória e mudanças (used to/be used to), um problema resolvido e o que faria diferente (STAR, condicional 3), uma negociação ou conflito (hedging) e planos futuros. UMA pergunta por vez, nível B2, com perguntas de continuação exigentes. Não corrija durante a entrevista (correcoes sempre vazia).",
+    "abertura": "Good morning, and welcome to your B2 final interview. Let's imagine this is a job interview for a leadership position. To begin, could you tell me about your professional background and how your work has changed over the years?",
+    "abertura_pt": "Bom dia e bem-vindo à entrevista final do B2. Vamos imaginar que é uma entrevista de emprego para um cargo de liderança. Para começar, poderia me falar da sua trajetória profissional e de como seu trabalho mudou ao longo dos anos?"
+  }
+}

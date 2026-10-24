@@ -1,0 +1,344 @@
+{
+  "id": "a2-u03-l1",
+  "nivel": "A2",
+  "unidade": 3,
+  "numero": 1,
+  "titulo": "I'm working right now",
+  "objetivo_pt": "Dizer o que está acontecendo agora com am/is/are + verbo-ing.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você e sua família estão fazendo agora. Use \"I'm …ing\".",
+    "papel_professor": "Pergunte o que o aluno está fazendo agora, onde está e o que as pessoas da casa estão fazendo. Use present continuous. Corrija \"I working\" → \"I'm working\".",
+    "abertura": "Hi! What are you doing right now?",
+    "abertura_pt": "Oi! O que você está fazendo agora?"
+  },
+  "vocabulario": [
+    {
+      "id": "now",
+      "en": "now / right now",
+      "pt": "agora / neste momento",
+      "emoji": "⏱️",
+      "exemplo_en": "I'm studying right now.",
+      "exemplo_pt": "Estou estudando neste momento."
+    },
+    {
+      "id": "working",
+      "en": "working",
+      "pt": "trabalhando",
+      "emoji": "🛠️",
+      "exemplo_en": "She's working from home today.",
+      "exemplo_pt": "Ela está trabalhando de casa hoje."
+    },
+    {
+      "id": "waiting",
+      "en": "waiting for",
+      "pt": "esperando",
+      "emoji": "⏳",
+      "exemplo_en": "I'm waiting for the bus.",
+      "exemplo_pt": "Estou esperando o ônibus."
+    },
+    {
+      "id": "cooking",
+      "en": "cooking",
+      "pt": "cozinhando",
+      "emoji": "🍳",
+      "exemplo_en": "My husband is cooking dinner.",
+      "exemplo_pt": "Meu marido está fazendo o jantar."
+    },
+    {
+      "id": "sleeping",
+      "en": "sleeping",
+      "pt": "dormindo",
+      "emoji": "😴",
+      "exemplo_en": "The baby is sleeping.",
+      "exemplo_pt": "O bebê está dormindo."
+    },
+    {
+      "id": "wearing",
+      "en": "wearing",
+      "pt": "vestindo / usando",
+      "emoji": "👕",
+      "exemplo_en": "I'm wearing a blue shirt.",
+      "exemplo_pt": "Estou usando uma camisa azul."
+    },
+    {
+      "id": "talking",
+      "en": "talking on the phone",
+      "pt": "falando ao telefone",
+      "emoji": "📞",
+      "exemplo_en": "He's talking on the phone.",
+      "exemplo_pt": "Ele está falando ao telefone."
+    },
+    {
+      "id": "driving",
+      "en": "driving",
+      "pt": "dirigindo",
+      "emoji": "🚗",
+      "exemplo_en": "I can't talk. I'm driving.",
+      "exemplo_pt": "Não posso falar. Estou dirigindo."
+    },
+    {
+      "id": "raining",
+      "en": "raining",
+      "pt": "chovendo",
+      "emoji": "🌧️",
+      "exemplo_en": "It's raining a lot.",
+      "exemplo_pt": "Está chovendo muito."
+    },
+    {
+      "id": "at-the-moment",
+      "en": "at the moment",
+      "pt": "no momento",
+      "emoji": "📍",
+      "exemplo_en": "We're busy at the moment.",
+      "exemplo_pt": "Estamos ocupados no momento."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present continuous: am / is / are + -ing",
+    "explicacao_pt": "Para o que está acontecendo AGORA, use o verbo to be + verbo com -ing: I am working (estou trabalhando), she is cooking, they are waiting. Regras: verbo com -e perde o e (make → making); consoante-vogal-consoante dobra (run → running, stop → stopping). Negativa: I'm not working, he isn't sleeping. Pergunta: Are you working? What are you doing? Não esqueça o 'am/is/are' — 'I working' está errado!",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Afirmativa",
+        "Pergunta"
+      ],
+      "linhas": [
+        [
+          "I",
+          "I'm working.",
+          "Am I…?"
+        ],
+        [
+          "you / we / they",
+          "They're waiting.",
+          "Are they waiting?"
+        ],
+        [
+          "he / she / it",
+          "It's raining.",
+          "Is it raining?"
+        ],
+        [
+          "negativa",
+          "She isn't sleeping.",
+          "—"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "What are you doing? — I'm cooking dinner.",
+        "pt": "O que você está fazendo? — Estou fazendo o jantar."
+      },
+      {
+        "en": "The kids are playing in the garden.",
+        "pt": "As crianças estão brincando no jardim."
+      },
+      {
+        "en": "It isn't raining now. Let's go!",
+        "pt": "Não está chovendo agora. Vamos!"
+      },
+      {
+        "en": "Is the machine running? — Yes, it is.",
+        "pt": "A máquina está funcionando? — Sim."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A phone call home",
+    "falas": [
+      {
+        "personagem": "Rui",
+        "voz": "a",
+        "en": "Hi, honey! What are you doing?",
+        "pt": "Oi, amor! O que você está fazendo?"
+      },
+      {
+        "personagem": "Lu",
+        "voz": "b",
+        "en": "I'm cooking dinner. Where are you?",
+        "pt": "Estou fazendo o jantar. Onde você está?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "a",
+        "en": "I'm still at work. I'm waiting for a meeting.",
+        "pt": "Ainda estou no trabalho. Estou esperando uma reunião."
+      },
+      {
+        "personagem": "Lu",
+        "voz": "b",
+        "en": "OK. The kids are doing their homework.",
+        "pt": "OK. As crianças estão fazendo a lição de casa."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "a",
+        "en": "Great. Is it raining there?",
+        "pt": "Ótimo. Está chovendo aí?"
+      },
+      {
+        "personagem": "Lu",
+        "voz": "b",
+        "en": "Yes, it's raining a lot. Drive carefully!",
+        "pt": "Sim, está chovendo muito. Dirija com cuidado!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u03l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Lu doing?",
+        "opcoes": [
+          "Cooking dinner",
+          "Working",
+          "Sleeping"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u03l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What is Rui doing?",
+        "opcoes": [
+          "Driving home",
+          "Waiting for a meeting",
+          "Doing homework"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u03l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What are the kids doing?",
+        "opcoes": [
+          "Playing",
+          "Doing their homework",
+          "Watching TV"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u03l1-p1",
+      "tipo": "completar",
+      "frase": "I ___ studying right now.",
+      "respostas": [
+        "am",
+        "'m"
+      ]
+    },
+    {
+      "id": "a2u03l1-p2",
+      "tipo": "completar",
+      "frase": "The baby ___ sleeping.",
+      "respostas": [
+        "is",
+        "'s"
+      ]
+    },
+    {
+      "id": "a2u03l1-p3",
+      "tipo": "completar",
+      "frase": "They're ___ for the bus. (wait)",
+      "respostas": [
+        "waiting"
+      ]
+    },
+    {
+      "id": "a2u03l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I working now.",
+        "I'm working now.",
+        "I'm work now."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u03l1-p5",
+      "tipo": "completar",
+      "frase": "He's ___ in the park. (run)",
+      "respostas": [
+        "running"
+      ],
+      "explicacao_pt": "Run dobra o n: running."
+    },
+    {
+      "id": "a2u03l1-p6",
+      "tipo": "ordenar",
+      "frase": "What are you doing?",
+      "traducao_pt": "O que você está fazendo?"
+    },
+    {
+      "id": "a2u03l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's raining a lot.",
+      "aceitas": [
+        "It is raining a lot."
+      ]
+    },
+    {
+      "id": "a2u03l1-p8",
+      "tipo": "traduzir",
+      "pt": "Estou esperando o ônibus.",
+      "respostas": [
+        "I'm waiting for the bus.",
+        "I am waiting for the bus."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Ligação de vídeo: descreva para o professor o que você está fazendo, o que está vestindo e o que está acontecendo ao seu redor agora.",
+    "papel_professor": "Faça o papel de amigo numa ligação de vídeo. Pergunte onde o aluno está, o que está fazendo, vestindo e o que as pessoas ao redor estão fazendo. Use present continuous.",
+    "abertura": "Hey! I can see you on the video. Where are you, and what are you doing?",
+    "abertura_pt": "Ei! Estou te vendo no vídeo. Onde você está e o que está fazendo?"
+  },
+  "teste": [
+    {
+      "id": "a2u03l1-t1",
+      "tipo": "completar",
+      "frase": "We ___ watching TV.",
+      "respostas": [
+        "are",
+        "'re"
+      ]
+    },
+    {
+      "id": "a2u03l1-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Ele está dirigindo\":",
+      "opcoes": [
+        "He's driving.",
+        "He driving.",
+        "He's driveing."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u03l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm wearing a blue shirt.",
+      "aceitas": [
+        "I am wearing a blue shirt."
+      ]
+    },
+    {
+      "id": "a2u03l1-t4",
+      "tipo": "traduzir",
+      "pt": "O que você está fazendo?",
+      "respostas": [
+        "What are you doing?"
+      ]
+    },
+    {
+      "id": "a2u03l1-t5",
+      "tipo": "ordenar",
+      "frase": "It isn't raining now",
+      "traducao_pt": "Não está chovendo agora"
+    }
+  ]
+}

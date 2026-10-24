@@ -1,0 +1,250 @@
+{
+  "id": "b2-u07-prova",
+  "nivel": "B2",
+  "unidade": 7,
+  "titulo": "Prova da Unidade 7 (B2) — Formal e-mails and reports",
+  "leitura": {
+    "texto": "From: Helena Rocha, Quality Manager\nTo: Mr. Thomas Berg, Berg Components GmbH\nSubject: Defective bearings — order 3390\n\nDear Mr. Berg,\nI am writing with regard to order 3390, which we received on 14 October.\nDuring our incoming inspection, it was found that 220 of the 2,000 bearings did not meet the required specifications. Although our previous orders have always been of excellent quality, this batch presented a diameter variation above the tolerance. Please find attached the inspection report and photographs.\nDespite our efforts to sort the parts, we were forced to stop one of our assembly lines for nine hours. Consequently, two customer deliveries were delayed.\nIn order to avoid further problems, I would be grateful if you could:\n- send 220 replacement bearings by express delivery;\n- inform us of the root cause and the corrective actions taken;\n- confirm that the next batch will be fully inspected before shipping.\nMoreover, we would like to discuss compensation for the costs caused by the line stoppage.\nWe value our long-term relationship with Berg Components. However, we must ensure that this situation does not occur again.\nI look forward to your prompt reply.\nKind regards,\nHelena Rocha",
+    "perguntas": [
+      {
+        "id": "b2u07pv-l1",
+        "tipo": "multipla",
+        "enunciado": "When was order 3390 received?",
+        "opcoes": [
+          "14 October",
+          "4 October",
+          "30 October"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many bearings were defective?",
+        "opcoes": [
+          "200",
+          "220",
+          "2,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What was the problem with the bearings?",
+        "opcoes": [
+          "Diameter variation above the tolerance",
+          "Rust",
+          "Wrong color"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What did Helena attach?",
+        "opcoes": [
+          "The inspection report and photographs",
+          "An invoice",
+          "A new contract"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How long was the assembly line stopped?",
+        "opcoes": [
+          "Two hours",
+          "Nine hours",
+          "Two days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What was a consequence of the stop?",
+        "opcoes": [
+          "Two customer deliveries were delayed.",
+          "The plant closed.",
+          "Workers went home."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT one of her requests?",
+        "opcoes": [
+          "A new supplier contract",
+          "Replacement bearings by express",
+          "The root cause and corrective actions"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What else does she want to discuss?",
+        "opcoes": [
+          "Compensation for the costs",
+          "A price increase",
+          "A visit"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Can you read me the summary of your report before the meeting?",
+        "pt": "Pode ler o resumo do seu relatório antes da reunião?"
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "b",
+        "en": "Of course. 'The purpose of this report is to analyze customer complaints in the first half of the year.'",
+        "pt": "Claro. \"O objetivo deste relatório é analisar as reclamações de clientes no primeiro semestre.\""
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "b",
+        "en": "'It was found that complaints increased by 30% compared to the same period last year, whereas sales increased by only 8%.'",
+        "pt": "\"Constatou-se que as reclamações aumentaram 30% em relação ao mesmo período do ano passado, enquanto as vendas aumentaram apenas 8%.\""
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "b",
+        "en": "'As shown in figure 1, most complaints were about packaging, due to the new, thinner cardboard introduced in February.'",
+        "pt": "\"Como mostrado na figura 1, a maioria das reclamações foi sobre embalagem, devido ao novo papelão, mais fino, introduzido em fevereiro.\""
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "b",
+        "en": "'Although the new cardboard reduced costs by 5%, the cost of replacing damaged products was higher.'",
+        "pt": "\"Embora o novo papelão tenha reduzido os custos em 5%, o custo de repor produtos danificados foi maior.\""
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "b",
+        "en": "'Therefore, it is recommended that the previous cardboard be used again and that the supplier be reviewed.'",
+        "pt": "\"Portanto, recomenda-se que o papelão anterior volte a ser usado e que o fornecedor seja reavaliado.\""
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Excellent. Clear and professional.",
+        "pt": "Excelente. Claro e profissional."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the report analyze?",
+        "opcoes": [
+          "Customer complaints",
+          "Energy use",
+          "Salaries"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-e2",
+        "tipo": "multipla",
+        "enunciado": "By how much did complaints increase?",
+        "opcoes": [
+          "8%",
+          "30%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07pv-e3",
+        "tipo": "multipla",
+        "enunciado": "By how much did sales increase?",
+        "opcoes": [
+          "5%",
+          "8%",
+          "30%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What were most complaints about?",
+        "opcoes": [
+          "Packaging",
+          "Late delivery",
+          "Price"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-e5",
+        "tipo": "multipla",
+        "enunciado": "When was the new cardboard introduced?",
+        "opcoes": [
+          "January",
+          "February",
+          "March"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is recommended?",
+        "opcoes": [
+          "Using the previous cardboard again",
+          "Raising prices",
+          "Hiring more staff"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "The purpose of this report is to analyze customer complaints."
+      },
+      {
+        "id": "b2u07pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "It is recommended that the supplier be reviewed."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u07pv-w1",
+      "instrucao_pt": "Escreva um e-mail formal de reclamação a um fornecedor (fatos, impacto e pedidos), usando pelo menos 4 conectores formais.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "b2u07pv-w2",
+      "instrucao_pt": "Escreva a resposta formal a uma reclamação de cliente: agradecer, pedir desculpas, explicar a causa, oferecer solução e medida preventiva.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u07pv-s1",
+      "pergunta_en": "Present the main findings and recommendations of a short report about your work.",
+      "instrucao_pt": "Apresente em voz alta usando linguagem de relatório."
+    },
+    {
+      "id": "b2u07pv-s2",
+      "pergunta_en": "A customer calls to complain about a late and defective order. Respond professionally.",
+      "instrucao_pt": "Responda em voz alta com a estrutura formal (thank, apologise, explain, solve, prevent)."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Estrutura de e-mail formal (Dear…, I am writing to/with regard to, I would be grateful if, Please find attached, Kind regards), conectores formais (however, although, despite + subst/-ing, due to, therefore, moreover, whereas, in order to), registro formal (receive, require, assist, inform, postpone; sem contrações), estrutura de relatório (It was found that, As shown in, It is recommended that), reclamações e respostas."
+}

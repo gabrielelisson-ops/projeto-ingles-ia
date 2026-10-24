@@ -1,0 +1,345 @@
+{
+  "id": "a2-u06-l1",
+  "nivel": "A2",
+  "unidade": 6,
+  "numero": 1,
+  "titulo": "Bigger, cheaper, faster",
+  "objetivo_pt": "Comparar duas coisas com adjetivos curtos (-er than).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir para você comparar coisas: duas cidades, dois carros, dois trabalhos. Use \"-er than\".",
+    "papel_professor": "Peça comparações simples (your city and São Paulo, summer and winter, your first car and your car now). Use -er than. Corrija \"more big\" → \"bigger\".",
+    "abertura": "Let's compare! Is your city bigger or smaller than São Paulo?",
+    "abertura_pt": "Vamos comparar! Sua cidade é maior ou menor que São Paulo?"
+  },
+  "vocabulario": [
+    {
+      "id": "bigger",
+      "en": "big → bigger",
+      "pt": "grande → maior",
+      "emoji": "🐘",
+      "exemplo_en": "São Paulo is bigger than Curitiba.",
+      "exemplo_pt": "São Paulo é maior que Curitiba."
+    },
+    {
+      "id": "smaller",
+      "en": "small → smaller",
+      "pt": "pequeno → menor",
+      "emoji": "🐭",
+      "exemplo_en": "My car is smaller than yours.",
+      "exemplo_pt": "Meu carro é menor que o seu."
+    },
+    {
+      "id": "cheaper",
+      "en": "cheap → cheaper",
+      "pt": "barato → mais barato",
+      "emoji": "🏷️",
+      "exemplo_en": "This supplier is cheaper.",
+      "exemplo_pt": "Este fornecedor é mais barato."
+    },
+    {
+      "id": "faster",
+      "en": "fast → faster",
+      "pt": "rápido → mais rápido",
+      "emoji": "⚡",
+      "exemplo_en": "The new machine is faster.",
+      "exemplo_pt": "A máquina nova é mais rápida."
+    },
+    {
+      "id": "older",
+      "en": "old → older",
+      "pt": "velho → mais velho",
+      "emoji": "🧓",
+      "exemplo_en": "My brother is older than me.",
+      "exemplo_pt": "Meu irmão é mais velho que eu."
+    },
+    {
+      "id": "newer",
+      "en": "new → newer",
+      "pt": "novo → mais novo",
+      "emoji": "✨",
+      "exemplo_en": "This model is newer.",
+      "exemplo_pt": "Este modelo é mais novo."
+    },
+    {
+      "id": "easier",
+      "en": "easy → easier",
+      "pt": "fácil → mais fácil",
+      "emoji": "✅",
+      "exemplo_en": "The new system is easier.",
+      "exemplo_pt": "O sistema novo é mais fácil."
+    },
+    {
+      "id": "better",
+      "en": "good → better",
+      "pt": "bom → melhor",
+      "emoji": "👍",
+      "exemplo_en": "This quality is better.",
+      "exemplo_pt": "Esta qualidade é melhor."
+    },
+    {
+      "id": "worse",
+      "en": "bad → worse",
+      "pt": "ruim → pior",
+      "emoji": "👎",
+      "exemplo_en": "The traffic is worse today.",
+      "exemplo_pt": "O trânsito está pior hoje."
+    },
+    {
+      "id": "than",
+      "en": "than",
+      "pt": "do que",
+      "emoji": "⚖️",
+      "exemplo_en": "Rice is cheaper than meat.",
+      "exemplo_pt": "Arroz é mais barato que carne."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Comparativos com adjetivos curtos",
+    "explicacao_pt": "Para comparar duas coisas com adjetivos curtos (uma sílaba), acrescente -ER + THAN: cheap → cheaper than (mais barato que). Regras: termina em -e → só -r (large → larger); consoante-vogal-consoante dobra (big → bigger, hot → hotter); termina em -y → -ier (easy → easier, heavy → heavier). Irregulares: good → better, bad → worse, far → farther. Atenção: nunca 'more bigger'!",
+    "tabela": {
+      "colunas": [
+        "Adjetivo",
+        "Comparativo",
+        "Regra"
+      ],
+      "linhas": [
+        [
+          "cheap",
+          "cheaper",
+          "+ er"
+        ],
+        [
+          "large",
+          "larger",
+          "+ r"
+        ],
+        [
+          "big",
+          "bigger",
+          "dobra a consoante"
+        ],
+        [
+          "easy",
+          "easier",
+          "y → ier"
+        ],
+        [
+          "good",
+          "better",
+          "irregular"
+        ],
+        [
+          "bad",
+          "worse",
+          "irregular"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The German machine is faster than the Chinese one.",
+        "pt": "A máquina alemã é mais rápida que a chinesa."
+      },
+      {
+        "en": "Our new office is bigger and brighter.",
+        "pt": "Nosso escritório novo é maior e mais claro."
+      },
+      {
+        "en": "This year's results are better than last year's.",
+        "pt": "Os resultados deste ano são melhores que os do ano passado."
+      },
+      {
+        "en": "The traffic is worse on Fridays.",
+        "pt": "O trânsito é pior às sextas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Choosing a car",
+    "falas": [
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "So, the red car or the gray car?",
+        "pt": "Então, o carro vermelho ou o cinza?"
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "Which one is cheaper?",
+        "pt": "Qual é mais barato?"
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "The red one. It's cheaper and smaller.",
+        "pt": "O vermelho. É mais barato e menor."
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "But we have three kids. The gray one is bigger.",
+        "pt": "Mas temos três filhos. O cinza é maior."
+      },
+      {
+        "personagem": "Seller",
+        "voz": "a",
+        "en": "Yes, and it's newer too. Only one year old.",
+        "pt": "Sim, e é mais novo também. Só um ano de uso."
+      },
+      {
+        "personagem": "Ivo",
+        "voz": "b",
+        "en": "OK, I think the gray one is better for my family.",
+        "pt": "OK, acho que o cinza é melhor para minha família."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Which car is cheaper?",
+        "opcoes": [
+          "The red one",
+          "The gray one"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Why is the gray car better for Ivo?",
+        "opcoes": [
+          "It's cheaper.",
+          "It's bigger and he has three kids.",
+          "It's red."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How old is the gray car?",
+        "opcoes": [
+          "One year",
+          "Five years",
+          "New"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u06l1-p1",
+      "tipo": "completar",
+      "frase": "This car is ___ than that one. (cheap)",
+      "respostas": [
+        "cheaper"
+      ]
+    },
+    {
+      "id": "a2u06l1-p2",
+      "tipo": "completar",
+      "frase": "São Paulo is ___ than Recife. (big)",
+      "respostas": [
+        "bigger"
+      ]
+    },
+    {
+      "id": "a2u06l1-p3",
+      "tipo": "completar",
+      "frase": "The new system is ___. (easy)",
+      "respostas": [
+        "easier"
+      ]
+    },
+    {
+      "id": "a2u06l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Comparativo de \"good\":",
+      "opcoes": [
+        "gooder",
+        "better",
+        "more good"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "more bigger",
+        "bigger",
+        "more big"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l1-p6",
+      "tipo": "ordenar",
+      "frase": "My brother is older than me",
+      "traducao_pt": "Meu irmão é mais velho que eu"
+    },
+    {
+      "id": "a2u06l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The traffic is worse today."
+    },
+    {
+      "id": "a2u06l1-p8",
+      "tipo": "traduzir",
+      "pt": "A máquina nova é mais rápida.",
+      "respostas": [
+        "The new machine is faster."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Compare duas coisas da sua vida: sua cidade e outra cidade, seu primeiro emprego e o atual, ou dois carros.",
+    "papel_professor": "Peça ao aluno para comparar duas coisas de sua escolha. Faça perguntas: Which one is better? Why? Is it cheaper? Corrija comparativos curtos.",
+    "abertura": "Think of two cities you know. Which one is better to live in?",
+    "abertura_pt": "Pense em duas cidades que você conhece. Qual é melhor para morar?"
+  },
+  "teste": [
+    {
+      "id": "a2u06l1-t1",
+      "tipo": "completar",
+      "frase": "Summer is ___ than winter. (hot)",
+      "respostas": [
+        "hotter"
+      ]
+    },
+    {
+      "id": "a2u06l1-t2",
+      "tipo": "multipla",
+      "enunciado": "Comparativo de \"bad\":",
+      "opcoes": [
+        "badder",
+        "worse",
+        "worst"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "This supplier is cheaper."
+    },
+    {
+      "id": "a2u06l1-t4",
+      "tipo": "traduzir",
+      "pt": "Esta qualidade é melhor.",
+      "respostas": [
+        "This quality is better."
+      ]
+    },
+    {
+      "id": "a2u06l1-t5",
+      "tipo": "ordenar",
+      "frase": "Rice is cheaper than meat",
+      "traducao_pt": "Arroz é mais barato que carne"
+    }
+  ]
+}

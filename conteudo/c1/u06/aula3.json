@@ -1,0 +1,353 @@
+{
+  "id": "c1-u06-l3",
+  "nivel": "C1",
+  "unidade": 6,
+  "numero": 3,
+  "titulo": "It is believed that…",
+  "objetivo_pt": "Usar a passiva avançada (impessoal, com modais perfeitos, get, have) em relatórios técnicos.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar informações não confirmadas sobre o mercado. Relate-as de forma impessoal: \"It is believed that…\", \"X is expected to…\".",
+    "papel_professor": "Dê informações (People say the port strike will end soon. Experts expect freight prices to fall. The supplier probably lost a container.). Ensine passiva impessoal (It is said that… / X is said to…) e modal + have been. Corrija.",
+    "abertura": "People say that the port strike will end next week. How would you write that in a formal report?",
+    "abertura_pt": "Dizem que a greve do porto vai acabar semana que vem. Como você escreveria isso num relatório formal?"
+  },
+  "vocabulario": [
+    {
+      "id": "it-is-believed",
+      "en": "It is believed / thought / said that…",
+      "pt": "Acredita-se / Pensa-se / Diz-se que…",
+      "emoji": "🗣️",
+      "exemplo_en": "It is believed that the strike will end soon.",
+      "exemplo_pt": "Acredita-se que a greve vai acabar logo."
+    },
+    {
+      "id": "is-expected-to",
+      "en": "X is expected to…",
+      "pt": "Espera-se que X…",
+      "emoji": "🔮",
+      "exemplo_en": "Freight prices are expected to fall.",
+      "exemplo_pt": "Espera-se que os preços de frete caiam."
+    },
+    {
+      "id": "is-said-to-have",
+      "en": "X is said to have + pp",
+      "pt": "Diz-se que X teria…",
+      "emoji": "📰",
+      "exemplo_en": "The supplier is said to have lost a container.",
+      "exemplo_pt": "Diz-se que o fornecedor teria perdido um contêiner."
+    },
+    {
+      "id": "is-thought-to-be",
+      "en": "X is thought to be…",
+      "pt": "Acredita-se que X seja…",
+      "emoji": "🤔",
+      "exemplo_en": "The delay is thought to be caused by bad weather.",
+      "exemplo_pt": "Acredita-se que o atraso seja causado pelo mau tempo."
+    },
+    {
+      "id": "should-have-been",
+      "en": "should have been + pp",
+      "pt": "deveria ter sido",
+      "emoji": "👉",
+      "exemplo_en": "The order should have been delivered yesterday.",
+      "exemplo_pt": "O pedido deveria ter sido entregue ontem."
+    },
+    {
+      "id": "must-have-been",
+      "en": "must have been + pp",
+      "pt": "deve ter sido",
+      "emoji": "🎯",
+      "exemplo_en": "The container must have been damaged at the port.",
+      "exemplo_pt": "O contêiner deve ter sido danificado no porto."
+    },
+    {
+      "id": "being-pp",
+      "en": "is being + pp",
+      "pt": "está sendo (feito)",
+      "emoji": "🔄",
+      "exemplo_en": "The shipment is being inspected now.",
+      "exemplo_pt": "A remessa está sendo inspecionada agora."
+    },
+    {
+      "id": "get-pp",
+      "en": "get + pp",
+      "pt": "ser (informal) / acabar sendo",
+      "emoji": "📦",
+      "exemplo_en": "The parts got damaged in transit.",
+      "exemplo_pt": "As peças acabaram danificadas no transporte."
+    },
+    {
+      "id": "reported",
+      "en": "is reported to",
+      "pt": "é relatado que / consta que",
+      "emoji": "📋",
+      "exemplo_en": "Demand is reported to have increased.",
+      "exemplo_pt": "Consta que a demanda aumentou."
+    },
+    {
+      "id": "estimated",
+      "en": "It is estimated that…",
+      "pt": "Estima-se que…",
+      "emoji": "🧮",
+      "exemplo_en": "It is estimated that 20% of the cargo was lost.",
+      "exemplo_pt": "Estima-se que 20% da carga tenha sido perdida."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Passiva avançada",
+    "explicacao_pt": "1) PASSIVA IMPESSOAL (relatos, notícias, relatórios): IT + IS + said/believed/expected/thought/estimated + THAT…: It is expected that prices will fall. Ou SUJEITO + IS + particípio + TO + verbo: Prices are expected to fall. Para o passado: TO HAVE + pp: The supplier is said to have lost a container. 2) MODAL PERFEITO PASSIVO: should/must/could have been + pp (The order should have been delivered). 3) CONTÍNUA: is/was being + pp (The shipment is being inspected). 4) GET + pp (informal, muitas vezes algo ruim): The box got damaged. 5) Infinitivo passivo: needs to be checked, is going to be shipped.",
+    "tabela": {
+      "colunas": [
+        "Estrutura",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "It is + pp + that",
+          "It is believed that the strike will end.",
+          "Acredita-se que a greve vai acabar."
+        ],
+        [
+          "Sujeito + is + pp + to",
+          "Prices are expected to rise.",
+          "Espera-se que os preços subam."
+        ],
+        [
+          "… to have + pp",
+          "He is said to have resigned.",
+          "Diz-se que ele teria pedido demissão."
+        ],
+        [
+          "Modal perfeito passivo",
+          "It should have been checked.",
+          "Deveria ter sido verificado."
+        ],
+        [
+          "Contínua",
+          "It is being repaired.",
+          "Está sendo consertado."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "It is estimated that the port strike has delayed over 3,000 containers.",
+        "pt": "Estima-se que a greve do porto tenha atrasado mais de 3.000 contêineres."
+      },
+      {
+        "en": "Freight prices are expected to fall by 15% in the second half of the year.",
+        "pt": "Espera-se que os preços de frete caiam 15% no segundo semestre."
+      },
+      {
+        "en": "The supplier is reported to have closed one of its plants.",
+        "pt": "Consta que o fornecedor teria fechado uma de suas fábricas."
+      },
+      {
+        "en": "The damaged parts should have been identified before they were shipped.",
+        "pt": "As peças danificadas deveriam ter sido identificadas antes de serem enviadas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A supply chain risk briefing",
+    "falas": [
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Here is this week's supply chain risk briefing.",
+        "pt": "Aqui está o boletim de riscos da cadeia desta semana."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "The strike at the port of Santos is expected to continue for at least another week. It is estimated that 4,000 containers are waiting to be unloaded.",
+        "pt": "Espera-se que a greve no porto de Santos continue por pelo menos mais uma semana. Estima-se que 4.000 contêineres estejam esperando para ser descarregados."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Two of our containers are believed to be among them. They should have been delivered last Monday.",
+        "pt": "Acredita-se que dois de nossos contêineres estejam entre eles. Deveriam ter sido entregues na segunda passada."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "In addition, our resin supplier in Texas is reported to have had a fire at one of its plants. The impact is still being assessed.",
+        "pt": "Além disso, consta que nosso fornecedor de resina no Texas teve um incêndio em uma de suas fábricas. O impacto ainda está sendo avaliado."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Resin prices are expected to rise by up to 10%. We recommend increasing safety stock while alternative suppliers are being evaluated.",
+        "pt": "Espera-se que os preços da resina subam até 10%. Recomendamos aumentar o estoque de segurança enquanto fornecedores alternativos estão sendo avaliados."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How much longer is the strike expected to last?",
+        "opcoes": [
+          "At least another day",
+          "At least another week",
+          "At least another month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l3-e2",
+        "tipo": "multipla",
+        "enunciado": "How many containers are waiting?",
+        "opcoes": [
+          "About 400",
+          "About 4,000",
+          "About 40,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What happened to the resin supplier?",
+        "opcoes": [
+          "A fire at one of its plants",
+          "A strike",
+          "Bankruptcy"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What do they recommend?",
+        "opcoes": [
+          "Increasing safety stock while evaluating alternatives",
+          "Stopping production",
+          "Changing ports"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u06l3-p1",
+      "tipo": "completar",
+      "frase": "It is ___ that the strike will end soon. (acredita-se)",
+      "respostas": [
+        "believed",
+        "thought"
+      ]
+    },
+    {
+      "id": "c1u06l3-p2",
+      "tipo": "completar",
+      "frase": "Freight prices are expected ___ fall.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "c1u06l3-p3",
+      "tipo": "completar",
+      "frase": "The order should have ___ delivered yesterday.",
+      "respostas": [
+        "been"
+      ]
+    },
+    {
+      "id": "c1u06l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Diz-se que o fornecedor perdeu um contêiner\":",
+      "opcoes": [
+        "The supplier is said to have lost a container.",
+        "The supplier is said to lose a container yesterday.",
+        "It is said the supplier to have lost."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A remessa está sendo inspecionada\":",
+      "opcoes": [
+        "The shipment is being inspected.",
+        "The shipment is inspecting.",
+        "The shipment is been inspected."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l3-p6",
+      "tipo": "ordenar",
+      "frase": "The container must have been damaged at the port",
+      "traducao_pt": "O contêiner deve ter sido danificado no porto"
+    },
+    {
+      "id": "c1u06l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It is estimated that twenty percent of the cargo was lost.",
+      "aceitas": [
+        "It is estimated that 20% of the cargo was lost."
+      ]
+    },
+    {
+      "id": "c1u06l3-p8",
+      "tipo": "traduzir",
+      "pt": "Acredita-se que o atraso seja causado pelo mau tempo.",
+      "respostas": [
+        "The delay is thought to be caused by bad weather.",
+        "The delay is believed to be caused by bad weather.",
+        "It is believed that the delay is caused by bad weather."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça para o professor (diretor) um \"boletim de riscos\" da cadeia de suprimentos com 3 ou 4 notícias (reais ou inventadas): greves, preços, clima, problemas de fornecedores. Use passiva impessoal e modais perfeitos.",
+    "papel_professor": "Ouça o boletim. Pergunte (How reliable is that information? What should have been done? What's being done now?). Corrija estruturas passivas avançadas.",
+    "abertura": "Good morning. What's the latest on our supply chain risks?",
+    "abertura_pt": "Bom dia. Quais as novidades sobre os riscos da nossa cadeia?"
+  },
+  "teste": [
+    {
+      "id": "c1u06l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Informação não confirmada:",
+      "opcoes": [
+        "Demand is reported to have increased.",
+        "Demand increased, 100% sure.",
+        "Demand reported increase."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l3-t2",
+      "tipo": "completar",
+      "frase": "The parts ___ damaged in transit. (acabaram)",
+      "respostas": [
+        "got"
+      ]
+    },
+    {
+      "id": "c1u06l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The shipment is being inspected now."
+    },
+    {
+      "id": "c1u06l3-t4",
+      "tipo": "traduzir",
+      "pt": "Espera-se que os preços de frete caiam.",
+      "respostas": [
+        "Freight prices are expected to fall.",
+        "It is expected that freight prices will fall."
+      ]
+    },
+    {
+      "id": "c1u06l3-t5",
+      "tipo": "ordenar",
+      "frase": "It is believed that the strike will end soon",
+      "traducao_pt": "Acredita-se que a greve vai acabar logo"
+    }
+  ]
+}

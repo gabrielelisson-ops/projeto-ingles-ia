@@ -1,0 +1,367 @@
+{
+  "id": "c1-u05-l4",
+  "nivel": "C1",
+  "unidade": 5,
+  "numero": 4,
+  "titulo": "The board meeting",
+  "objetivo_pt": "Participar de reuniões de alto nível: propor investimentos, justificar com números e responder ao conselho.",
+  "aquecimento": {
+    "situacao_pt": "O professor é membro do conselho. Proponha um investimento e justifique com retorno, riscos e alinhamento estratégico.",
+    "papel_professor": "Faça o papel de conselheiro. O aluno propõe um investimento. Pergunte (What's the ROI? What are the risks? How does this align with our strategy?). Ensine vocabulário financeiro básico (ROI, capex, opex, business case).",
+    "abertura": "I understand you have an investment proposal for the board. Let's hear it.",
+    "abertura_pt": "Soube que você tem uma proposta de investimento para o conselho. Vamos ouvir."
+  },
+  "vocabulario": [
+    {
+      "id": "business-case",
+      "en": "business case",
+      "pt": "justificativa do investimento",
+      "emoji": "📁",
+      "exemplo_en": "We've prepared a business case.",
+      "exemplo_pt": "Preparamos uma justificativa de investimento."
+    },
+    {
+      "id": "roi",
+      "en": "ROI (return on investment)",
+      "pt": "retorno sobre o investimento",
+      "emoji": "💹",
+      "exemplo_en": "The ROI is 35% in three years.",
+      "exemplo_pt": "O retorno é de 35% em três anos."
+    },
+    {
+      "id": "capex",
+      "en": "capex / opex",
+      "pt": "investimento (capital) / custo operacional",
+      "emoji": "🏗️",
+      "exemplo_en": "The project requires 5 million in capex.",
+      "exemplo_pt": "O projeto exige 5 milhões em investimento."
+    },
+    {
+      "id": "break-even",
+      "en": "break even / break-even point",
+      "pt": "empatar / ponto de equilíbrio",
+      "emoji": "⚖️",
+      "exemplo_en": "We will break even in the second year.",
+      "exemplo_pt": "Vamos atingir o ponto de equilíbrio no segundo ano."
+    },
+    {
+      "id": "cash-flow",
+      "en": "cash flow",
+      "pt": "fluxo de caixa",
+      "emoji": "💵",
+      "exemplo_en": "The project generates positive cash flow from year two.",
+      "exemplo_pt": "O projeto gera fluxo de caixa positivo a partir do segundo ano."
+    },
+    {
+      "id": "sign-off",
+      "en": "sign off on / approve",
+      "pt": "aprovar formalmente",
+      "emoji": "✍️",
+      "exemplo_en": "We need the board to sign off on the budget.",
+      "exemplo_pt": "Precisamos que o conselho aprove o orçamento."
+    },
+    {
+      "id": "mitigate",
+      "en": "mitigate (a risk)",
+      "pt": "mitigar (um risco)",
+      "emoji": "🛡️",
+      "exemplo_en": "We can mitigate this risk with a pilot.",
+      "exemplo_pt": "Podemos mitigar esse risco com um piloto."
+    },
+    {
+      "id": "scenario-l4",
+      "en": "best-case / worst-case scenario",
+      "pt": "melhor / pior cenário",
+      "emoji": "🎭",
+      "exemplo_en": "In the worst-case scenario, payback is four years.",
+      "exemplo_pt": "No pior cenário, o retorno é em quatro anos."
+    },
+    {
+      "id": "phased",
+      "en": "phased approach",
+      "pt": "abordagem em fases",
+      "emoji": "🪜",
+      "exemplo_en": "We suggest a phased approach.",
+      "exemplo_pt": "Sugerimos uma abordagem em fases."
+    },
+    {
+      "id": "due-diligence",
+      "en": "due diligence",
+      "pt": "diligência / análise detalhada",
+      "emoji": "🔍",
+      "exemplo_en": "We've done our due diligence.",
+      "exemplo_pt": "Fizemos nossa análise detalhada."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Propondo ao conselho",
+    "explicacao_pt": "Estrutura de um business case oral: 1) O QUÊ: We are proposing an investment of X in… 2) POR QUÊ (alinhamento): This aligns with our priority of… 3) NÚMEROS: The project requires X in capex. We expect an ROI of…/to break even in… 4) CENÁRIOS: In the best-case scenario… / Even in the worst-case scenario… 5) RISCOS e MITIGAÇÃO: The main risk is… We can mitigate it by + -ing. 6) PEDIDO: We are asking the board to sign off on… Use participle clauses e linguagem cautelosa (We expect / We estimate / is likely to).",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Proposta",
+          "We are proposing an investment of…",
+          "We are proposing an investment of 4 million in robots."
+        ],
+        [
+          "Alinhamento",
+          "This aligns with our priority of…",
+          "This aligns with our priority of digitalization."
+        ],
+        [
+          "Retorno",
+          "We expect to break even in…",
+          "We expect to break even in year two."
+        ],
+        [
+          "Risco",
+          "We can mitigate this risk by…",
+          "We can mitigate this risk by running a pilot."
+        ],
+        [
+          "Pedido",
+          "We are asking the board to sign off on…",
+          "We are asking the board to sign off on phase one."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We are proposing an investment of 6 million reais in a new automated packing line.",
+        "pt": "Estamos propondo um investimento de 6 milhões de reais numa nova linha de embalagem automatizada."
+      },
+      {
+        "en": "Based on conservative estimates, we expect to break even in the second year.",
+        "pt": "Com base em estimativas conservadoras, esperamos atingir o ponto de equilíbrio no segundo ano."
+      },
+      {
+        "en": "Even in the worst-case scenario, the payback period would be under four years.",
+        "pt": "Mesmo no pior cenário, o prazo de retorno seria inferior a quatro anos."
+      },
+      {
+        "en": "We can mitigate the technical risk by adopting a phased approach, starting with one line.",
+        "pt": "Podemos mitigar o risco técnico adotando uma abordagem em fases, começando por uma linha."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Presenting to the board",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Thank you for the opportunity. We are proposing an investment of 4.5 million reais in predictive maintenance.",
+        "pt": "Obrigado pela oportunidade. Estamos propondo um investimento de 4,5 milhões de reais em manutenção preditiva."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "This aligns directly with our strategic priority of digitalization.",
+        "pt": "Isso está diretamente alinhado à nossa prioridade estratégica de digitalização."
+      },
+      {
+        "personagem": "Board member",
+        "voz": "b",
+        "en": "What's the expected return?",
+        "pt": "Qual é o retorno esperado?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Having analyzed three years of breakdown data, we estimate savings of 2 million a year. We expect to break even in month 28.",
+        "pt": "Tendo analisado três anos de dados de quebras, estimamos uma economia de 2 milhões por ano. Esperamos atingir o equilíbrio no mês 28."
+      },
+      {
+        "personagem": "Board member",
+        "voz": "b",
+        "en": "And the risks?",
+        "pt": "E os riscos?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "The main risk is integration with our old machines. We can mitigate it with a phased approach, starting with the presses.",
+        "pt": "O principal risco é a integração com nossas máquinas antigas. Podemos mitigá-lo com uma abordagem em fases, começando pelas prensas."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Today, we're asking the board to sign off on phase one: 1.2 million.",
+        "pt": "Hoje, estamos pedindo ao conselho que aprove a fase um: 1,2 milhão."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u05l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the total investment?",
+        "opcoes": [
+          "1.2 million reais",
+          "2 million reais",
+          "4.5 million reais"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u05l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What strategic priority does it align with?",
+        "opcoes": [
+          "Digitalization",
+          "Sustainability",
+          "Expansion"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u05l4-e3",
+        "tipo": "multipla",
+        "enunciado": "When do they expect to break even?",
+        "opcoes": [
+          "Month 12",
+          "Month 28",
+          "Year five"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u05l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What are they asking the board to approve today?",
+        "opcoes": [
+          "Phase one: 1.2 million",
+          "The full 4.5 million",
+          "Nothing yet"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u05l4-p1",
+      "tipo": "completar",
+      "frase": "We've prepared a business ___.",
+      "respostas": [
+        "case"
+      ]
+    },
+    {
+      "id": "c1u05l4-p2",
+      "tipo": "completar",
+      "frase": "We will break ___ in the second year.",
+      "respostas": [
+        "even"
+      ]
+    },
+    {
+      "id": "c1u05l4-p3",
+      "tipo": "completar",
+      "frase": "We can ___ this risk with a pilot. (mitigar)",
+      "respostas": [
+        "mitigate"
+      ]
+    },
+    {
+      "id": "c1u05l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Pedido ao conselho:",
+      "opcoes": [
+        "We are asking the board to sign off on phase one.",
+        "Board, give us money now.",
+        "Maybe you approve, if you want."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"No pior cenário, o retorno é em quatro anos\":",
+      "opcoes": [
+        "In the worst-case scenario, payback is four years.",
+        "In the worse scenario, the return is four years.",
+        "In worst case scene, payback four years."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l4-p6",
+      "tipo": "ordenar",
+      "frase": "We suggest a phased approach",
+      "traducao_pt": "Sugerimos uma abordagem em fases"
+    },
+    {
+      "id": "c1u05l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We've done our due diligence.",
+      "aceitas": [
+        "We have done our due diligence."
+      ]
+    },
+    {
+      "id": "c1u05l4-p8",
+      "tipo": "traduzir",
+      "pt": "O retorno é de 35% em três anos.",
+      "respostas": [
+        "The ROI is 35% in three years.",
+        "The return on investment is 35% in three years.",
+        "The ROI is 35% over three years."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor (o conselho) uma proposta de investimento completa para sua área: o quê, alinhamento estratégico, números (investimento, retorno, equilíbrio), cenários, riscos e mitigação, e o pedido final.",
+    "papel_professor": "Faça o papel de conselheiro exigente. Questione números e premissas (Where does that saving come from? What if…?). Corrija linguagem financeira e participle clauses. No fim, diga se aprovaria e por quê.",
+    "abertura": "The board is ready. You have five minutes. What are you proposing?",
+    "abertura_pt": "O conselho está pronto. Você tem cinco minutos. O que está propondo?"
+  },
+  "teste": [
+    {
+      "id": "c1u05l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Mitigar risco:",
+      "opcoes": [
+        "We can mitigate it by running a pilot.",
+        "We can mitigate it running pilot by.",
+        "We mitigate risk pilot."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u05l4-t2",
+      "tipo": "completar",
+      "frase": "The project generates positive cash ___ from year two.",
+      "respostas": [
+        "flow"
+      ]
+    },
+    {
+      "id": "c1u05l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The project requires five million in capex.",
+      "aceitas": [
+        "The project requires 5 million in capex."
+      ]
+    },
+    {
+      "id": "c1u05l4-t4",
+      "tipo": "traduzir",
+      "pt": "Precisamos que o conselho aprove o orçamento.",
+      "respostas": [
+        "We need the board to sign off on the budget.",
+        "We need the board to approve the budget."
+      ]
+    },
+    {
+      "id": "c1u05l4-t5",
+      "tipo": "ordenar",
+      "frase": "This aligns with our priority of digitalization",
+      "traducao_pt": "Isso está alinhado à nossa prioridade de digitalização"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": "b1-u07-l3",
+  "nivel": "B1",
+  "unidade": 7,
+  "numero": 3,
+  "titulo": "In my opinion…",
+  "objetivo_pt": "Dar e pedir opinião de forma clara e educada.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sua opinião sobre temas do trabalho e do dia a dia. Use \"In my opinion…\", \"I think…\", \"As far as I'm concerned…\".",
+    "papel_professor": "Pergunte opiniões (Is it better to work from home or at the office? Should companies pay for English courses?). Ensine expressões para dar e pedir opinião.",
+    "abertura": "What do you think: is it better to work from home or at the office?",
+    "abertura_pt": "O que você acha: é melhor trabalhar de casa ou no escritório?"
+  },
+  "vocabulario": [
+    {
+      "id": "in-my-opinion",
+      "en": "In my opinion,",
+      "pt": "Na minha opinião,",
+      "emoji": "💬",
+      "exemplo_en": "In my opinion, training is essential.",
+      "exemplo_pt": "Na minha opinião, treinamento é essencial."
+    },
+    {
+      "id": "i-think",
+      "en": "I think / I believe",
+      "pt": "Eu acho / Eu acredito",
+      "emoji": "🧠",
+      "exemplo_en": "I believe we can do it.",
+      "exemplo_pt": "Acredito que conseguimos."
+    },
+    {
+      "id": "as-far-as",
+      "en": "As far as I'm concerned,",
+      "pt": "No que me diz respeito, / Para mim,",
+      "emoji": "🙋",
+      "exemplo_en": "As far as I'm concerned, safety comes first.",
+      "exemplo_pt": "Para mim, segurança vem em primeiro lugar."
+    },
+    {
+      "id": "personally",
+      "en": "Personally,",
+      "pt": "Pessoalmente,",
+      "emoji": "👤",
+      "exemplo_en": "Personally, I prefer working in the morning.",
+      "exemplo_pt": "Pessoalmente, prefiro trabalhar de manhã."
+    },
+    {
+      "id": "what-think",
+      "en": "What do you think (about)?",
+      "pt": "O que você acha (de)?",
+      "emoji": "❓",
+      "exemplo_en": "What do you think about the new schedule?",
+      "exemplo_pt": "O que você acha da nova escala?"
+    },
+    {
+      "id": "how-feel",
+      "en": "How do you feel about…?",
+      "pt": "O que você acha de…? (sentimento)",
+      "emoji": "💭",
+      "exemplo_en": "How do you feel about working on Saturdays?",
+      "exemplo_pt": "O que você acha de trabalhar aos sábados?"
+    },
+    {
+      "id": "point-of-view",
+      "en": "point of view",
+      "pt": "ponto de vista",
+      "emoji": "👁️",
+      "exemplo_en": "From my point of view, it's too expensive.",
+      "exemplo_pt": "Do meu ponto de vista, é caro demais."
+    },
+    {
+      "id": "it-seems",
+      "en": "It seems to me (that)",
+      "pt": "Me parece que",
+      "emoji": "🤔",
+      "exemplo_en": "It seems to me that the plan is too ambitious.",
+      "exemplo_pt": "Me parece que o plano é ambicioso demais."
+    },
+    {
+      "id": "essential",
+      "en": "essential / important",
+      "pt": "essencial / importante",
+      "emoji": "⭐",
+      "exemplo_en": "Communication is essential.",
+      "exemplo_pt": "Comunicação é essencial."
+    },
+    {
+      "id": "pros-cons",
+      "en": "pros and cons",
+      "pt": "prós e contras",
+      "emoji": "⚖️",
+      "exemplo_en": "Let's look at the pros and cons.",
+      "exemplo_pt": "Vamos ver os prós e contras."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Dando e pedindo opinião",
+    "explicacao_pt": "Para dar opinião: I think (that)… / I believe… / In my opinion,… / Personally,… / From my point of view,… / As far as I'm concerned,… / It seems to me that… Para pedir opinião: What do you think about/of…? / How do you feel about…? / What's your opinion on…? / Do you agree? Atenção: em inglês NÃO se diz 'In my opinion, I think' (redundante) nem 'I am agree'. E 'opinion' é 'in my opinion' (não 'on my opinion').",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Expressão",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Opinião neutra",
+          "I think (that)…",
+          "I think the price is fair."
+        ],
+        [
+          "Opinião forte",
+          "I really believe…",
+          "I really believe this will work."
+        ],
+        [
+          "Opinião pessoal",
+          "Personally, …",
+          "Personally, I prefer the first option."
+        ],
+        [
+          "Pedir opinião",
+          "What do you think about …?",
+          "What do you think about the new layout?"
+        ],
+        [
+          "Pedir sentimento",
+          "How do you feel about …?",
+          "How do you feel about the changes?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "In my opinion, we should invest in training before buying new machines.",
+        "pt": "Na minha opinião, deveríamos investir em treinamento antes de comprar máquinas novas."
+      },
+      {
+        "en": "Personally, I don't like open-plan offices. They're too noisy.",
+        "pt": "Pessoalmente, não gosto de escritórios abertos. São barulhentos demais."
+      },
+      {
+        "en": "How do you feel about the new shift schedule?",
+        "pt": "O que você acha da nova escala de turnos?"
+      },
+      {
+        "en": "It seems to me that we need more time for this project.",
+        "pt": "Me parece que precisamos de mais tempo para este projeto."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Home office or not?",
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Today's topic: should office workers work from home? Carlos, what do you think?",
+        "pt": "Tema de hoje: funcionários de escritório devem trabalhar de casa? Carlos, o que você acha?"
+      },
+      {
+        "personagem": "Carlos",
+        "voz": "b",
+        "en": "Personally, I love it. I save two hours of traffic every day, and I'm more productive at home.",
+        "pt": "Pessoalmente, adoro. Economizo duas horas de trânsito por dia e sou mais produtivo em casa."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Débora, how do you feel about it?",
+        "pt": "Débora, o que você acha?"
+      },
+      {
+        "personagem": "Débora",
+        "voz": "a",
+        "en": "From my point of view, it depends. It's great for focused work, but meetings are better in person.",
+        "pt": "Do meu ponto de vista, depende. É ótimo para trabalho concentrado, mas reuniões são melhores presenciais."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "And what about factory workers?",
+        "pt": "E os trabalhadores de fábrica?"
+      },
+      {
+        "personagem": "Carlos",
+        "voz": "b",
+        "en": "That's the problem. It seems to me that it isn't fair: people on the shop floor can't work from home.",
+        "pt": "Esse é o problema. Me parece que não é justo: o pessoal do chão de fábrica não pode trabalhar de casa."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07l3-e1",
+        "tipo": "multipla",
+        "enunciado": "How much time does Carlos save every day?",
+        "opcoes": [
+          "One hour",
+          "Two hours",
+          "Three hours"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What does Débora think?",
+        "opcoes": [
+          "It depends.",
+          "It is always bad.",
+          "It is always great."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l3-e3",
+        "tipo": "multipla",
+        "enunciado": "According to Débora, what is better in person?",
+        "opcoes": [
+          "Meetings",
+          "Focused work",
+          "Writing reports"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l3-e4",
+        "tipo": "multipla",
+        "enunciado": "Why does Carlos think it isn't fair?",
+        "opcoes": [
+          "Shop floor workers can't work from home.",
+          "Managers earn more.",
+          "Offices are noisy."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u07l3-p1",
+      "tipo": "completar",
+      "frase": "In my ___, training is essential.",
+      "respostas": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "b1u07l3-p2",
+      "tipo": "completar",
+      "frase": "As far as I'm ___, safety comes first.",
+      "respostas": [
+        "concerned"
+      ]
+    },
+    {
+      "id": "b1u07l3-p3",
+      "tipo": "completar",
+      "frase": "What do you think ___ the new schedule?",
+      "respostas": [
+        "about"
+      ]
+    },
+    {
+      "id": "b1u07l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "On my opinion, it is good.",
+        "In my opinion, it is good.",
+        "In my opinion, I think it is good."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u07l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Do meu ponto de vista\":",
+      "opcoes": [
+        "From my point of view",
+        "In my point of view of",
+        "For my view point"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l3-p6",
+      "tipo": "ordenar",
+      "frase": "Let's look at the pros and cons",
+      "traducao_pt": "Vamos ver os prós e contras"
+    },
+    {
+      "id": "b1u07l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "How do you feel about working on Saturdays?"
+    },
+    {
+      "id": "b1u07l3-p8",
+      "tipo": "traduzir",
+      "pt": "Me parece que o plano é ambicioso demais.",
+      "respostas": [
+        "It seems to me that the plan is too ambitious.",
+        "It seems to me the plan is too ambitious."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai apresentar 3 temas polêmicos (ex.: semana de 4 dias, uniforme obrigatório, celular no trabalho). Dê sua opinião em cada um, com pelo menos um motivo.",
+    "papel_professor": "Apresente temas e peça opiniões fundamentadas. Pergunte Why? Can you give an example? Varie as expressões (In my opinion, Personally, From my point of view). Corrija erros comuns.",
+    "abertura": "First topic: should companies ban mobile phones on the shop floor? What do you think?",
+    "abertura_pt": "Primeiro tema: as empresas devem proibir celulares no chão de fábrica? O que você acha?"
+  },
+  "teste": [
+    {
+      "id": "b1u07l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Pedir opinião:",
+      "opcoes": [
+        "What do you think about it?",
+        "What do you think it?",
+        "How do you think about it?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l3-t2",
+      "tipo": "completar",
+      "frase": "___, I prefer the first option. (pessoalmente)",
+      "respostas": [
+        "Personally"
+      ]
+    },
+    {
+      "id": "b1u07l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Communication is essential."
+    },
+    {
+      "id": "b1u07l3-t4",
+      "tipo": "traduzir",
+      "pt": "Acredito que conseguimos.",
+      "respostas": [
+        "I believe we can do it.",
+        "I believe that we can do it."
+      ]
+    },
+    {
+      "id": "b1u07l3-t5",
+      "tipo": "ordenar",
+      "frase": "I think the price is fair",
+      "traducao_pt": "Acho que o preço é justo"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u01-l4",
+  "nivel": "B1",
+  "unidade": 1,
+  "numero": 4,
+  "titulo": "My career so far",
+  "objetivo_pt": "Falar da sua trajetória profissional com present perfect e passado simples.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai fazer perguntas sobre sua carreira: empregos anteriores, cursos, conquistas.",
+    "papel_professor": "Faça uma conversa sobre carreira: What jobs have you had? What did you do there? What have you learned? Misture present perfect (conquistas) e passado (detalhes com datas).",
+    "abertura": "Tell me about your career. What jobs have you had?",
+    "abertura_pt": "Me fale da sua carreira. Que empregos você já teve?"
+  },
+  "vocabulario": [
+    {
+      "id": "career",
+      "en": "career",
+      "pt": "carreira",
+      "emoji": "🧗",
+      "exemplo_en": "I have had a long career in industry.",
+      "exemplo_pt": "Tive uma longa carreira na indústria."
+    },
+    {
+      "id": "achieve",
+      "en": "achieve / achievement",
+      "pt": "conquistar / conquista",
+      "emoji": "🏅",
+      "exemplo_en": "What have you achieved in this job?",
+      "exemplo_pt": "O que você conquistou neste emprego?"
+    },
+    {
+      "id": "learn",
+      "en": "learn (learned/learnt)",
+      "pt": "aprender",
+      "emoji": "📚",
+      "exemplo_en": "I've learned a lot here.",
+      "exemplo_pt": "Aprendi muito aqui."
+    },
+    {
+      "id": "responsible",
+      "en": "be responsible for",
+      "pt": "ser responsável por",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "I was responsible for quality control.",
+      "exemplo_pt": "Eu era responsável pelo controle de qualidade."
+    },
+    {
+      "id": "in-charge",
+      "en": "be in charge of",
+      "pt": "estar encarregado de",
+      "emoji": "🎯",
+      "exemplo_en": "I've been in charge of a team of ten.",
+      "exemplo_pt": "Fui encarregado de uma equipe de dez."
+    },
+    {
+      "id": "improve",
+      "en": "improve",
+      "pt": "melhorar",
+      "emoji": "📈",
+      "exemplo_en": "We've improved productivity by 15%.",
+      "exemplo_pt": "Melhoramos a produtividade em 15%."
+    },
+    {
+      "id": "reduce",
+      "en": "reduce",
+      "pt": "reduzir",
+      "emoji": "📉",
+      "exemplo_en": "I reduced waste by half.",
+      "exemplo_pt": "Reduzi o desperdício pela metade."
+    },
+    {
+      "id": "skill",
+      "en": "skill",
+      "pt": "habilidade",
+      "emoji": "🛠️",
+      "exemplo_en": "Teamwork is one of my best skills.",
+      "exemplo_pt": "Trabalho em equipe é uma das minhas melhores habilidades."
+    },
+    {
+      "id": "certificate",
+      "en": "certificate / degree",
+      "pt": "certificado / diploma",
+      "emoji": "📜",
+      "exemplo_en": "I've got a degree in engineering.",
+      "exemplo_pt": "Tenho diploma de engenharia."
+    },
+    {
+      "id": "join",
+      "en": "join (a company)",
+      "pt": "entrar (numa empresa)",
+      "emoji": "🤝",
+      "exemplo_en": "I joined the company in 2018.",
+      "exemplo_pt": "Entrei na empresa em 2018."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Falando da carreira",
+    "explicacao_pt": "Para conquistas e experiência total (sem data): I've worked in quality for ten years. I've managed teams. I've learned a lot. Para fatos com data ou de empregos que terminaram: I joined the company in 2018. I was responsible for the night shift. In my first job, I worked as an operator. Estruturas úteis: be responsible for + -ing/substantivo, be in charge of, improve/reduce + something + BY + porcentagem (by 15%).",
+    "tabela": {
+      "colunas": [
+        "Para dizer…",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Conquista",
+          "I've + particípio",
+          "I've reduced costs by 10%."
+        ],
+        [
+          "Emprego anterior",
+          "past simple",
+          "I worked at a bakery."
+        ],
+        [
+          "Responsabilidade",
+          "be responsible for",
+          "I was responsible for training."
+        ],
+        [
+          "Quanto mudou",
+          "by + %",
+          "Sales improved by 20%."
+        ],
+        [
+          "Início",
+          "join / start + data",
+          "I joined the company in 2018."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I've worked in the automotive industry for twelve years.",
+        "pt": "Trabalho na indústria automotiva há doze anos."
+      },
+      {
+        "en": "In my last job, I was in charge of the warehouse.",
+        "pt": "No meu último emprego, eu era encarregado do armazém."
+      },
+      {
+        "en": "Since I joined the team, we've reduced scrap by 30%.",
+        "pt": "Desde que entrei na equipe, reduzimos o refugo em 30%."
+      },
+      {
+        "en": "I've learned how to lead people and solve problems.",
+        "pt": "Aprendi a liderar pessoas e resolver problemas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A short interview",
+    "falas": [
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "So, tell me about your experience.",
+        "pt": "Então, me fale da sua experiência."
+      },
+      {
+        "personagem": "Renata",
+        "voz": "b",
+        "en": "I've worked in production for eight years. I started as an operator at a packaging company.",
+        "pt": "Trabalho em produção há oito anos. Comecei como operadora numa empresa de embalagens."
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "And what did you do after that?",
+        "pt": "E o que você fez depois?"
+      },
+      {
+        "personagem": "Renata",
+        "voz": "b",
+        "en": "In 2020 I became a team leader. I was responsible for twelve people on the night shift.",
+        "pt": "Em 2020 virei líder de equipe. Era responsável por doze pessoas no turno da noite."
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "What have you achieved as a leader?",
+        "pt": "O que você conquistou como líder?"
+      },
+      {
+        "personagem": "Renata",
+        "voz": "b",
+        "en": "We've reduced machine stops by 25%, and nobody has had an accident in two years.",
+        "pt": "Reduzimos as paradas de máquina em 25%, e ninguém sofreu acidente em dois anos."
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "Impressive. Have you ever worked with lean manufacturing?",
+        "pt": "Impressionante. Você já trabalhou com manufatura enxuta?"
+      },
+      {
+        "personagem": "Renata",
+        "voz": "b",
+        "en": "Yes, I took a lean course last year and we've started some projects.",
+        "pt": "Sim, fiz um curso de lean ano passado e começamos alguns projetos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How long has Renata worked in production?",
+        "opcoes": [
+          "Five years",
+          "Eight years",
+          "Twelve years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What happened in 2020?",
+        "opcoes": [
+          "She became a team leader.",
+          "She started as an operator.",
+          "She took a lean course."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01l4-e3",
+        "tipo": "multipla",
+        "enunciado": "By how much have they reduced machine stops?",
+        "opcoes": [
+          "15%",
+          "25%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01l4-e4",
+        "tipo": "multipla",
+        "enunciado": "When did she take the lean course?",
+        "opcoes": [
+          "Last year",
+          "In 2020",
+          "Eight years ago"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u01l4-p1",
+      "tipo": "completar",
+      "frase": "I ___ the company in 2018. (entrei)",
+      "respostas": [
+        "joined"
+      ]
+    },
+    {
+      "id": "b1u01l4-p2",
+      "tipo": "completar",
+      "frase": "I was responsible ___ quality control.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "b1u01l4-p3",
+      "tipo": "completar",
+      "frase": "We've improved productivity ___ 15%.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u01l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Aprendi muito aqui\":",
+      "opcoes": [
+        "I've learned a lot here.",
+        "I've learn a lot here.",
+        "I have learning a lot here."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Com data definida:",
+      "opcoes": [
+        "I've become a leader in 2020.",
+        "I became a leader in 2020."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u01l4-p6",
+      "tipo": "ordenar",
+      "frase": "I've been in charge of a team of ten",
+      "traducao_pt": "Fui encarregado de uma equipe de dez"
+    },
+    {
+      "id": "b1u01l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Teamwork is one of my best skills."
+    },
+    {
+      "id": "b1u01l4-p8",
+      "tipo": "traduzir",
+      "pt": "Reduzi o desperdício pela metade.",
+      "respostas": [
+        "I reduced waste by half.",
+        "I've reduced waste by half.",
+        "I have reduced waste by half."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Simule uma conversa com um recrutador (o professor). Fale da sua carreira: onde trabalhou, suas responsabilidades e 2 conquistas.",
+    "papel_professor": "Faça o papel de recrutador. Pergunte trajetória, responsabilidades, conquistas, o que aprendeu. Corrija present perfect × past simple, preposições (responsible for, by 10%).",
+    "abertura": "Thanks for coming. Could you tell me a little about your professional background?",
+    "abertura_pt": "Obrigado por vir. Poderia me contar um pouco da sua trajetória profissional?"
+  },
+  "teste": [
+    {
+      "id": "b1u01l4-t1",
+      "tipo": "completar",
+      "frase": "I've ___ a lot in this job. (aprendido)",
+      "respostas": [
+        "learned",
+        "learnt"
+      ]
+    },
+    {
+      "id": "b1u01l4-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Eu era encarregado do armazém\":",
+      "opcoes": [
+        "I was in charge of the warehouse.",
+        "I was in charge for the warehouse.",
+        "I am charge of the warehouse."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u01l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What have you achieved in this job?"
+    },
+    {
+      "id": "b1u01l4-t4",
+      "tipo": "traduzir",
+      "pt": "Tenho diploma de engenharia.",
+      "respostas": [
+        "I've got a degree in engineering.",
+        "I have a degree in engineering."
+      ]
+    },
+    {
+      "id": "b1u01l4-t5",
+      "tipo": "ordenar",
+      "frase": "Sales improved by twenty percent",
+      "traducao_pt": "As vendas melhoraram em vinte por cento"
+    }
+  ]
+}

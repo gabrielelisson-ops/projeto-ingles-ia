@@ -1,0 +1,364 @@
+{
+  "id": "b1-u06-l1",
+  "nivel": "B1",
+  "unidade": 6,
+  "numero": 1,
+  "titulo": "It is made in Brazil",
+  "objetivo_pt": "Usar a voz passiva no presente (is/are + particípio) para falar de produtos e origem.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar onde e de que são feitas algumas coisas. Responda com \"It's made of…\" e \"It's made in…\".",
+    "papel_professor": "Pergunte origem e material de objetos (Where is your phone made? What is it made of? Where is coffee grown?). Ensine passiva no presente: is/are + particípio.",
+    "abertura": "Where is your phone made?",
+    "abertura_pt": "Onde seu celular é fabricado?"
+  },
+  "vocabulario": [
+    {
+      "id": "made-of",
+      "en": "be made of",
+      "pt": "ser feito de",
+      "emoji": "🧱",
+      "exemplo_en": "This table is made of wood.",
+      "exemplo_pt": "Esta mesa é feita de madeira."
+    },
+    {
+      "id": "made-in",
+      "en": "be made in",
+      "pt": "ser fabricado em",
+      "emoji": "🏭",
+      "exemplo_en": "These shoes are made in Franca.",
+      "exemplo_pt": "Estes sapatos são fabricados em Franca."
+    },
+    {
+      "id": "grown",
+      "en": "be grown",
+      "pt": "ser cultivado",
+      "emoji": "🌱",
+      "exemplo_en": "Coffee is grown in Minas Gerais.",
+      "exemplo_pt": "O café é cultivado em Minas Gerais."
+    },
+    {
+      "id": "produced",
+      "en": "be produced",
+      "pt": "ser produzido",
+      "emoji": "⚙️",
+      "exemplo_en": "Two thousand cars are produced every day.",
+      "exemplo_pt": "Dois mil carros são produzidos por dia."
+    },
+    {
+      "id": "exported",
+      "en": "be exported",
+      "pt": "ser exportado",
+      "emoji": "🚢",
+      "exemplo_en": "Most of our products are exported.",
+      "exemplo_pt": "A maioria dos nossos produtos é exportada."
+    },
+    {
+      "id": "steel",
+      "en": "steel / aluminum",
+      "pt": "aço / alumínio",
+      "emoji": "🔩",
+      "exemplo_en": "The frame is made of aluminum.",
+      "exemplo_pt": "A estrutura é feita de alumínio."
+    },
+    {
+      "id": "plastic-glass",
+      "en": "plastic / glass",
+      "pt": "plástico / vidro",
+      "emoji": "🍾",
+      "exemplo_en": "Bottles are made of glass or plastic.",
+      "exemplo_pt": "Garrafas são feitas de vidro ou plástico."
+    },
+    {
+      "id": "raw-material",
+      "en": "raw material",
+      "pt": "matéria-prima",
+      "emoji": "🪨",
+      "exemplo_en": "Sugarcane is the raw material for ethanol.",
+      "exemplo_pt": "A cana é a matéria-prima do etanol."
+    },
+    {
+      "id": "used-for",
+      "en": "be used for + -ing",
+      "pt": "ser usado para",
+      "emoji": "🛠️",
+      "exemplo_en": "This machine is used for cutting metal.",
+      "exemplo_pt": "Esta máquina é usada para cortar metal."
+    },
+    {
+      "id": "sold",
+      "en": "be sold",
+      "pt": "ser vendido",
+      "emoji": "🛒",
+      "exemplo_en": "Our products are sold in 20 countries.",
+      "exemplo_pt": "Nossos produtos são vendidos em 20 países."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Voz passiva no presente",
+    "explicacao_pt": "Formação: AM/IS/ARE + PARTICÍPIO. Usamos quando o importante é a AÇÃO ou o PRODUTO, não quem faz: Coffee is grown in Minas. (Não importa quem planta.) Ativa: They make cars here. → Passiva: Cars are made here. Para dizer quem faz, use BY: The parts are checked by robots. Negativa: isn't/aren't + particípio. Pergunta: Where is it made? Expressões úteis: made OF (material visível), made FROM (material transformado: Paper is made from wood), used FOR + -ing.",
+    "tabela": {
+      "colunas": [
+        "Ativa",
+        "Passiva",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "They grow coffee in Minas.",
+          "Coffee is grown in Minas.",
+          "O café é cultivado em Minas."
+        ],
+        [
+          "We export 70% of our products.",
+          "70% of our products are exported.",
+          "70% dos produtos são exportados."
+        ],
+        [
+          "Robots check the parts.",
+          "The parts are checked by robots.",
+          "As peças são verificadas por robôs."
+        ],
+        [
+          "They don't sell it in shops.",
+          "It isn't sold in shops.",
+          "Não é vendido em lojas."
+        ],
+        [
+          "Where do they make it?",
+          "Where is it made?",
+          "Onde é fabricado?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our bottles are made of recycled plastic.",
+        "pt": "Nossas garrafas são feitas de plástico reciclado."
+      },
+      {
+        "en": "Paper is made from wood.",
+        "pt": "O papel é feito de madeira (transformada)."
+      },
+      {
+        "en": "Every box is checked before it is shipped.",
+        "pt": "Cada caixa é verificada antes de ser enviada."
+      },
+      {
+        "en": "This tool is used for measuring thickness.",
+        "pt": "Esta ferramenta é usada para medir espessura."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Welcome to our plant",
+    "falas": [
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "Welcome to Bela Vista Juices. Here, orange juice is produced 24 hours a day.",
+        "pt": "Bem-vindos à Bela Vista Sucos. Aqui, suco de laranja é produzido 24 horas por dia."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "Where are the oranges grown?",
+        "pt": "Onde as laranjas são cultivadas?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "They're grown on farms near here, in the interior of São Paulo.",
+        "pt": "São cultivadas em fazendas aqui perto, no interior de São Paulo."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "And is the juice sold in Brazil?",
+        "pt": "E o suco é vendido no Brasil?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "Only 20%. Most of it is exported to Europe and the United States.",
+        "pt": "Só 20%. A maior parte é exportada para a Europa e os Estados Unidos."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "What are those big tanks used for?",
+        "pt": "Para que são usados aqueles tanques grandes?"
+      },
+      {
+        "personagem": "Guide",
+        "voz": "a",
+        "en": "They're used for storing the juice at minus eight degrees.",
+        "pt": "São usados para armazenar o suco a oito graus negativos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What is produced at the plant?",
+        "opcoes": [
+          "Orange juice",
+          "Coffee",
+          "Sugar"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where are the oranges grown?",
+        "opcoes": [
+          "In Minas Gerais",
+          "On farms in the interior of São Paulo",
+          "In Europe"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How much of the juice is sold in Brazil?",
+        "opcoes": [
+          "20%",
+          "50%",
+          "80%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What are the big tanks used for?",
+        "opcoes": [
+          "Storing the juice",
+          "Washing oranges",
+          "Making bottles"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u06l1-p1",
+      "tipo": "completar",
+      "frase": "This table is made ___ wood.",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "b1u06l1-p2",
+      "tipo": "completar",
+      "frase": "Coffee is ___ in Minas Gerais. (cultivado)",
+      "respostas": [
+        "grown"
+      ]
+    },
+    {
+      "id": "b1u06l1-p3",
+      "tipo": "completar",
+      "frase": "The parts are checked ___ robots.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u06l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Passiva correta:",
+      "opcoes": [
+        "Cars are made here.",
+        "Cars made here are.",
+        "Cars is make here."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Onde é fabricado?\":",
+      "opcoes": [
+        "Where is it made?",
+        "Where it is made?",
+        "Where does it made?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l1-p6",
+      "tipo": "ordenar",
+      "frase": "Most of our products are exported",
+      "traducao_pt": "A maioria dos nossos produtos é exportada"
+    },
+    {
+      "id": "b1u06l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "This machine is used for cutting metal."
+    },
+    {
+      "id": "b1u06l1-p8",
+      "tipo": "traduzir",
+      "pt": "Nossos produtos são vendidos em 20 países.",
+      "respostas": [
+        "Our products are sold in 20 countries.",
+        "Our products are sold in twenty countries."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor um produto da sua empresa ou região: de que é feito, onde é produzido, para que é usado e para onde é vendido. Use a voz passiva.",
+    "papel_professor": "Peça que o aluno apresente um produto. Pergunte What is it made of? Where is it produced? Who is it sold to? What is it used for? Corrija a passiva.",
+    "abertura": "Tell me about a product from your company or your region.",
+    "abertura_pt": "Me fale de um produto da sua empresa ou da sua região."
+  },
+  "teste": [
+    {
+      "id": "b1u06l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"O papel é feito de madeira\" (transformada):",
+      "opcoes": [
+        "Paper is made from wood.",
+        "Paper is made by wood.",
+        "Paper made of wood is."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l1-t2",
+      "tipo": "completar",
+      "frase": "Two thousand cars ___ produced every day.",
+      "respostas": [
+        "are"
+      ]
+    },
+    {
+      "id": "b1u06l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The frame is made of aluminum.",
+      "aceitas": [
+        "The frame is made of aluminium."
+      ]
+    },
+    {
+      "id": "b1u06l1-t4",
+      "tipo": "traduzir",
+      "pt": "A cana é a matéria-prima do etanol.",
+      "respostas": [
+        "Sugarcane is the raw material for ethanol.",
+        "Sugar cane is the raw material for ethanol.",
+        "Sugarcane is the raw material of ethanol."
+      ]
+    },
+    {
+      "id": "b1u06l1-t5",
+      "tipo": "ordenar",
+      "frase": "It isn't sold in shops",
+      "traducao_pt": "Não é vendido em lojas"
+    }
+  ]
+}

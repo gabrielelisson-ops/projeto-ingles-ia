@@ -1,0 +1,351 @@
+{
+  "id": "a2-u05-l5",
+  "nivel": "A2",
+  "unidade": 5,
+  "numero": 5,
+  "titulo": "Predictions at work",
+  "objetivo_pt": "Fazer previsões no trabalho: produção, vendas, prazos e riscos.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: faça uma previsão sobre o seu trabalho para o próximo mês (produção, vendas ou equipe).",
+    "papel_professor": "Peça ao aluno previsões sobre o trabalho dele (Will production increase? Will you finish the project on time?). Use will, probably, I don't think.",
+    "abertura": "Let's talk about work. Do you think next month will be busy?",
+    "abertura_pt": "Vamos falar de trabalho. Você acha que o mês que vem vai ser corrido?"
+  },
+  "vocabulario": [
+    {
+      "id": "demand",
+      "en": "demand",
+      "pt": "demanda",
+      "emoji": "📊",
+      "exemplo_en": "Demand will increase in December.",
+      "exemplo_pt": "A demanda vai aumentar em dezembro."
+    },
+    {
+      "id": "on-time",
+      "en": "on time / late",
+      "pt": "no prazo / atrasado",
+      "emoji": "⏱️",
+      "exemplo_en": "We'll finish the order on time.",
+      "exemplo_pt": "Vamos terminar o pedido no prazo."
+    },
+    {
+      "id": "delay",
+      "en": "delay",
+      "pt": "atraso / atrasar",
+      "emoji": "⏳",
+      "exemplo_en": "There will probably be a delay.",
+      "exemplo_pt": "Provavelmente vai haver um atraso."
+    },
+    {
+      "id": "sales",
+      "en": "sales",
+      "pt": "vendas",
+      "emoji": "💹",
+      "exemplo_en": "Sales will go up next quarter.",
+      "exemplo_pt": "As vendas vão subir no próximo trimestre."
+    },
+    {
+      "id": "risk",
+      "en": "risk",
+      "pt": "risco",
+      "emoji": "⚠️",
+      "exemplo_en": "There's a risk the parts will arrive late.",
+      "exemplo_pt": "Há um risco de as peças chegarem atrasadas."
+    },
+    {
+      "id": "enough",
+      "en": "enough",
+      "pt": "suficiente",
+      "emoji": "✔️",
+      "exemplo_en": "We won't have enough people.",
+      "exemplo_pt": "Não vamos ter gente suficiente."
+    },
+    {
+      "id": "overtime-w",
+      "en": "overtime",
+      "pt": "hora extra",
+      "emoji": "➕",
+      "exemplo_en": "We'll probably need overtime.",
+      "exemplo_pt": "Provavelmente vamos precisar de hora extra."
+    },
+    {
+      "id": "quarter",
+      "en": "quarter",
+      "pt": "trimestre",
+      "emoji": "🗓️",
+      "exemplo_en": "Next quarter will be better.",
+      "exemplo_pt": "O próximo trimestre vai ser melhor."
+    },
+    {
+      "id": "expect",
+      "en": "expect",
+      "pt": "esperar (prever)",
+      "emoji": "🔮",
+      "exemplo_en": "We expect higher demand.",
+      "exemplo_pt": "Esperamos uma demanda maior."
+    },
+    {
+      "id": "in-case",
+      "en": "just in case",
+      "pt": "por precaução",
+      "emoji": "🛟",
+      "exemplo_en": "Let's order more parts, just in case.",
+      "exemplo_pt": "Vamos pedir mais peças, por precaução."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: falar do futuro no trabalho",
+    "explicacao_pt": "No trabalho você vai combinar tudo: WILL para previsões e opiniões (Sales will probably go up), WON'T para previsões negativas (We won't have enough people), GOING TO para planos e previsões com evidência (Look at these numbers: we're going to miss the deadline), e PRESENT CONTINUOUS para compromissos marcados (The client is visiting on Monday). 'There's a risk (that)…' e 'just in case' ajudam a falar de riscos.",
+    "tabela": {
+      "colunas": [
+        "Ideia",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Previsão",
+          "will (probably)",
+          "Demand will probably increase."
+        ],
+        [
+          "Previsão negativa",
+          "won't",
+          "We won't finish on time."
+        ],
+        [
+          "Evidência",
+          "going to",
+          "Look at the stock. We're going to run out."
+        ],
+        [
+          "Risco",
+          "there's a risk (that)…",
+          "There's a risk the truck will be late."
+        ],
+        [
+          "Precaução",
+          "just in case",
+          "Order more, just in case."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I think demand will increase before Christmas.",
+        "pt": "Acho que a demanda vai aumentar antes do Natal."
+      },
+      {
+        "en": "We won't have enough operators, so we'll probably need overtime.",
+        "pt": "Não vamos ter operadores suficientes, então provavelmente vamos precisar de hora extra."
+      },
+      {
+        "en": "Look at this report: we're going to miss the deadline.",
+        "pt": "Olha este relatório: vamos perder o prazo."
+      },
+      {
+        "en": "Let's order extra parts, just in case.",
+        "pt": "Vamos pedir peças extras, por precaução."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Planning for December",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "What do you expect for December, Sara?",
+        "pt": "O que você espera para dezembro, Sara?"
+      },
+      {
+        "personagem": "Sara",
+        "voz": "b",
+        "en": "I think demand will increase by about twenty percent.",
+        "pt": "Acho que a demanda vai aumentar uns vinte por cento."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Will we have enough people?",
+        "pt": "Vamos ter gente suficiente?"
+      },
+      {
+        "personagem": "Sara",
+        "voz": "b",
+        "en": "I don't think so. We'll probably need overtime on Saturdays.",
+        "pt": "Acho que não. Provavelmente vamos precisar de hora extra aos sábados."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "And the raw materials?",
+        "pt": "E a matéria-prima?"
+      },
+      {
+        "personagem": "Sara",
+        "voz": "b",
+        "en": "There's a risk the supplier will be late. Let's order more now, just in case.",
+        "pt": "Há risco de o fornecedor atrasar. Vamos pedir mais agora, por precaução."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Good idea. I'll call them today.",
+        "pt": "Boa ideia. Vou ligar para eles hoje."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How much will demand increase?",
+        "opcoes": [
+          "About ten percent",
+          "About twenty percent",
+          "About fifty percent"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What will they probably need?",
+        "opcoes": [
+          "New machines",
+          "Overtime on Saturdays",
+          "More managers"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the risk?",
+        "opcoes": [
+          "The supplier will be late.",
+          "Prices will go down.",
+          "The machines will break."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u05l5-p1",
+      "tipo": "completar",
+      "frase": "Demand ___ increase in December.",
+      "respostas": [
+        "will"
+      ]
+    },
+    {
+      "id": "a2u05l5-p2",
+      "tipo": "completar",
+      "frase": "We ___ have enough people. (negativa)",
+      "respostas": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "a2u05l5-p3",
+      "tipo": "completar",
+      "frase": "Let's order more parts, just in ___.",
+      "respostas": [
+        "case"
+      ]
+    },
+    {
+      "id": "a2u05l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Há um risco de atraso\":",
+      "opcoes": [
+        "There's a risk of delay.",
+        "It has a risk of delay.",
+        "Have a risk delay."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Evidência no relatório:",
+      "opcoes": [
+        "Look: we'll miss the deadline.",
+        "Look at this report: we're going to miss the deadline."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l5-p6",
+      "tipo": "ordenar",
+      "frase": "Next quarter will be better",
+      "traducao_pt": "O próximo trimestre vai ser melhor"
+    },
+    {
+      "id": "a2u05l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We expect higher demand."
+    },
+    {
+      "id": "a2u05l5-p8",
+      "tipo": "traduzir",
+      "pt": "Vamos terminar o pedido no prazo.",
+      "respostas": [
+        "We'll finish the order on time.",
+        "We will finish the order on time.",
+        "We're going to finish the order on time."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: reunião de planejamento. O professor é o gerente e pergunta suas previsões para o próximo mês. Faça previsões, aponte um risco e proponha uma solução.",
+    "papel_professor": "Faça o papel de gerente numa reunião de planejamento. Pergunte previsões de demanda, prazos, pessoas e riscos. Peça uma solução (just in case). Corrija o uso de will/going to.",
+    "abertura": "Thanks for coming. Let's plan next month. What do you expect?",
+    "abertura_pt": "Obrigado por vir. Vamos planejar o mês que vem. O que você espera?"
+  },
+  "teste": [
+    {
+      "id": "a2u05l5-t1",
+      "tipo": "completar",
+      "frase": "We'll ___ need overtime. (provavelmente)",
+      "respostas": [
+        "probably"
+      ]
+    },
+    {
+      "id": "a2u05l5-t2",
+      "tipo": "multipla",
+      "enunciado": "\"Esperamos uma demanda maior\":",
+      "opcoes": [
+        "We expect higher demand.",
+        "We wait higher demand.",
+        "We hope a demand higher."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "There will probably be a delay."
+    },
+    {
+      "id": "a2u05l5-t4",
+      "tipo": "traduzir",
+      "pt": "As vendas vão subir.",
+      "respostas": [
+        "Sales will go up.",
+        "Sales will increase.",
+        "Sales are going to go up."
+      ]
+    },
+    {
+      "id": "a2u05l5-t5",
+      "tipo": "ordenar",
+      "frase": "I don't think we'll finish on time",
+      "traducao_pt": "Acho que não vamos terminar no prazo"
+    }
+  ]
+}

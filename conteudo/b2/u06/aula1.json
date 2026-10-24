@@ -1,0 +1,353 @@
+{
+  "id": "b2-u06-l1",
+  "nivel": "B2",
+  "unidade": 6,
+  "numero": 1,
+  "titulo": "Would you consider…?",
+  "objetivo_pt": "Fazer propostas e pedidos de forma diplomática (hedging) numa negociação.",
+  "aquecimento": {
+    "situacao_pt": "O professor é um fornecedor. Peça um desconto e um prazo melhor de forma educada, usando \"Would you consider…?\" e \"We were hoping…\".",
+    "papel_professor": "Faça o papel de fornecedor. O aluno pede desconto/prazo. Ensine linguagem diplomática (Would you consider…? We were hoping for… Would it be possible to…?). Corrija pedidos diretos demais ('Give me a discount').",
+    "abertura": "Thank you for your interest in our products. How can I help you today?",
+    "abertura_pt": "Obrigado pelo interesse nos nossos produtos. Como posso ajudar hoje?"
+  },
+  "vocabulario": [
+    {
+      "id": "consider",
+      "en": "Would you consider…?",
+      "pt": "Vocês considerariam…?",
+      "emoji": "🤔",
+      "exemplo_en": "Would you consider a 5% discount?",
+      "exemplo_pt": "Vocês considerariam um desconto de 5%?"
+    },
+    {
+      "id": "hoping",
+      "en": "We were hoping for…",
+      "pt": "Esperávamos…",
+      "emoji": "🙏",
+      "exemplo_en": "We were hoping for a better price.",
+      "exemplo_pt": "Esperávamos um preço melhor."
+    },
+    {
+      "id": "possible",
+      "en": "Would it be possible to…?",
+      "pt": "Seria possível…?",
+      "emoji": "❓",
+      "exemplo_en": "Would it be possible to deliver earlier?",
+      "exemplo_pt": "Seria possível entregar antes?"
+    },
+    {
+      "id": "flexible-l1",
+      "en": "Is there any flexibility on…?",
+      "pt": "Há alguma flexibilidade em…?",
+      "emoji": "🤸",
+      "exemplo_en": "Is there any flexibility on the price?",
+      "exemplo_pt": "Há alguma flexibilidade no preço?"
+    },
+    {
+      "id": "discount-l1",
+      "en": "discount",
+      "pt": "desconto",
+      "emoji": "🏷️",
+      "exemplo_en": "We usually get a volume discount.",
+      "exemplo_pt": "Normalmente temos desconto por volume."
+    },
+    {
+      "id": "payment-terms",
+      "en": "payment terms",
+      "pt": "condições de pagamento",
+      "emoji": "💳",
+      "exemplo_en": "Our payment terms are 30 days.",
+      "exemplo_pt": "Nossas condições de pagamento são 30 dias."
+    },
+    {
+      "id": "lead-time-l1",
+      "en": "lead time",
+      "pt": "prazo de entrega",
+      "emoji": "⏳",
+      "exemplo_en": "The lead time is six weeks.",
+      "exemplo_pt": "O prazo de entrega é de seis semanas."
+    },
+    {
+      "id": "quote",
+      "en": "quote / quotation",
+      "pt": "orçamento / cotação",
+      "emoji": "🧾",
+      "exemplo_en": "Could you send us a quote?",
+      "exemplo_pt": "Poderiam nos mandar um orçamento?"
+    },
+    {
+      "id": "slightly-l1",
+      "en": "slightly / a little",
+      "pt": "um pouco / ligeiramente",
+      "emoji": "🤏",
+      "exemplo_en": "The price is slightly higher than we expected.",
+      "exemplo_pt": "O preço está um pouco acima do que esperávamos."
+    },
+    {
+      "id": "afraid-l1",
+      "en": "I'm afraid…",
+      "pt": "Receio que…",
+      "emoji": "😬",
+      "exemplo_en": "I'm afraid that's a bit high for us.",
+      "exemplo_pt": "Receio que isso esteja um pouco alto para nós."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Hedging: linguagem diplomática",
+    "explicacao_pt": "Em negociações, falar de forma direta demais parece rude. Suavize com: 1) MODAIS: would, could, might (Could you lower the price? → Would you consider lowering the price?). 2) PASSADO CONTÍNUO de polidez: We were hoping / wondering… 3) QUALIFICADORES: slightly, a bit, a little, rather (The price is a bit high). 4) NEGATIVAS SUAVES: not quite / not exactly (That's not quite what we expected). 5) I'M AFRAID… para más notícias. 6) PERGUNTAS em vez de ordens: Would it be possible to…? CONSIDER + -ING.",
+    "tabela": {
+      "colunas": [
+        "Direto (evite)",
+        "Diplomático",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Give us a discount.",
+          "Would you consider giving us a discount?",
+          "Vocês considerariam nos dar um desconto?"
+        ],
+        [
+          "Your price is too high.",
+          "I'm afraid your price is a bit high for us.",
+          "Receio que o preço esteja um pouco alto para nós."
+        ],
+        [
+          "We want delivery in 2 weeks.",
+          "We were hoping for delivery in two weeks.",
+          "Esperávamos entrega em duas semanas."
+        ],
+        [
+          "That's wrong.",
+          "That's not quite what we agreed.",
+          "Não é bem o que combinamos."
+        ],
+        [
+          "Deliver earlier.",
+          "Would it be possible to deliver earlier?",
+          "Seria possível entregar antes?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Would you consider extending the payment terms to 60 days?",
+        "pt": "Vocês considerariam estender o prazo de pagamento para 60 dias?"
+      },
+      {
+        "en": "We were hoping for a price closer to 20 reais per unit.",
+        "pt": "Esperávamos um preço mais próximo de 20 reais por unidade."
+      },
+      {
+        "en": "I'm afraid the lead time is slightly longer than we need.",
+        "pt": "Receio que o prazo de entrega seja um pouco mais longo do que precisamos."
+      },
+      {
+        "en": "Is there any flexibility on the minimum order quantity?",
+        "pt": "Há alguma flexibilidade na quantidade mínima de pedido?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "First contact",
+    "falas": [
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Thank you for the quote. I'm afraid the price is a bit higher than we expected.",
+        "pt": "Obrigado pelo orçamento. Receio que o preço esteja um pouco acima do que esperávamos."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "I see. What price were you hoping for?",
+        "pt": "Entendo. Que preço vocês esperavam?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "We were hoping for something around 18 dollars per unit. Is there any flexibility?",
+        "pt": "Esperávamos algo em torno de 18 dólares por unidade. Há alguma flexibilidade?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Our price is 21 dollars. We might be able to go down a little if the volume is higher.",
+        "pt": "Nosso preço é 21 dólares. Talvez possamos baixar um pouco se o volume for maior."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "That's interesting. And would it be possible to reduce the lead time? Eight weeks is rather long for us.",
+        "pt": "Interessante. E seria possível reduzir o prazo de entrega? Oito semanas é bastante longo para nós."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Let me check with our production team and get back to you tomorrow.",
+        "pt": "Deixe-me verificar com nossa equipe de produção e retorno amanhã."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the buyer think of the price?",
+        "opcoes": [
+          "It's a bit higher than expected.",
+          "It's perfect.",
+          "It's too low."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What price was the buyer hoping for?",
+        "opcoes": [
+          "About 18 dollars",
+          "About 21 dollars",
+          "About 15 dollars"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06l1-e3",
+        "tipo": "multipla",
+        "enunciado": "When might the supplier lower the price?",
+        "opcoes": [
+          "If the volume is higher",
+          "If they pay in advance",
+          "Never"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the current lead time?",
+        "opcoes": [
+          "Four weeks",
+          "Six weeks",
+          "Eight weeks"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u06l1-p1",
+      "tipo": "completar",
+      "frase": "Would you ___ a 5% discount? (considerariam)",
+      "respostas": [
+        "consider"
+      ]
+    },
+    {
+      "id": "b2u06l1-p2",
+      "tipo": "completar",
+      "frase": "We were ___ for a better price. (esperávamos)",
+      "respostas": [
+        "hoping"
+      ]
+    },
+    {
+      "id": "b2u06l1-p3",
+      "tipo": "completar",
+      "frase": "Would it be ___ to deliver earlier?",
+      "respostas": [
+        "possible"
+      ]
+    },
+    {
+      "id": "b2u06l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Mais diplomático:",
+      "opcoes": [
+        "Your price is too high.",
+        "I'm afraid your price is a bit high for us."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u06l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Vocês considerariam estender o prazo?\":",
+      "opcoes": [
+        "Would you consider extending the terms?",
+        "Would you consider to extend the terms?",
+        "Do you consider extend the terms?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l1-p6",
+      "tipo": "ordenar",
+      "frase": "Could you send us a quote?",
+      "traducao_pt": "Poderiam nos mandar um orçamento?"
+    },
+    {
+      "id": "b2u06l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Is there any flexibility on the price?"
+    },
+    {
+      "id": "b2u06l1-p8",
+      "tipo": "traduzir",
+      "pt": "O prazo de entrega é de seis semanas.",
+      "respostas": [
+        "The lead time is six weeks.",
+        "The delivery time is six weeks."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Transforme pedidos diretos em diplomáticos. O professor vai dizer frases rudes de um comprador e você reformula. Depois, faça o seu primeiro contato com um fornecedor (o professor).",
+    "papel_professor": "Diga frases diretas (Your price is too high. Deliver faster. We want 60 days to pay.) e peça versões diplomáticas. Depois faça uma breve negociação de primeiro contato. Corrija.",
+    "abertura": "Make this sentence more diplomatic: 'Your price is too high. Lower it.'",
+    "abertura_pt": "Deixe esta frase mais diplomática: \"Seu preço está alto demais. Baixe-o.\""
+  },
+  "teste": [
+    {
+      "id": "b2u06l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Negativa suave:",
+      "opcoes": [
+        "That's not quite what we agreed.",
+        "That's totally wrong.",
+        "No, never."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l1-t2",
+      "tipo": "completar",
+      "frase": "Our payment ___ are 30 days. (condições)",
+      "respostas": [
+        "terms"
+      ]
+    },
+    {
+      "id": "b2u06l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We usually get a volume discount."
+    },
+    {
+      "id": "b2u06l1-t4",
+      "tipo": "traduzir",
+      "pt": "Esperávamos um preço mais próximo de 20 reais.",
+      "respostas": [
+        "We were hoping for a price closer to 20 reais.",
+        "We were hoping for a price closer to twenty reais."
+      ]
+    },
+    {
+      "id": "b2u06l1-t5",
+      "tipo": "ordenar",
+      "frase": "I'm afraid that's a bit high for us",
+      "traducao_pt": "Receio que isso esteja um pouco alto para nós"
+    }
+  ]
+}

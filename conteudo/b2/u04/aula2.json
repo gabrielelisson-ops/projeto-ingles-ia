@@ -1,0 +1,368 @@
+{
+  "id": "b2-u04-l2",
+  "nivel": "B2",
+  "unidade": 4,
+  "numero": 2,
+  "titulo": "I used to work nights",
+  "objetivo_pt": "Falar de hábitos e situações do passado com used to e would.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como era sua vida e seu trabalho no passado. Use \"I used to…\" e \"I didn't use to…\".",
+    "papel_professor": "Pergunte sobre o passado (What did you use to do in your first job? Where did you use to live? What didn't you use to like?). Ensine used to e would para hábitos. Corrija 'I use to' (presente) → 'I usually'.",
+    "abertura": "What did you use to do in your first job?",
+    "abertura_pt": "O que você fazia no seu primeiro emprego?"
+  },
+  "vocabulario": [
+    {
+      "id": "used-to",
+      "en": "used to + verbo",
+      "pt": "costumava (no passado)",
+      "emoji": "⏪",
+      "exemplo_en": "I used to work nights.",
+      "exemplo_pt": "Eu trabalhava à noite (antes)."
+    },
+    {
+      "id": "didnt-use",
+      "en": "didn't use to",
+      "pt": "não costumava",
+      "emoji": "🚫",
+      "exemplo_en": "I didn't use to like coffee.",
+      "exemplo_pt": "Eu não gostava de café (antes)."
+    },
+    {
+      "id": "did-use",
+      "en": "Did you use to…?",
+      "pt": "Você costumava…?",
+      "emoji": "❓",
+      "exemplo_en": "Did you use to live here?",
+      "exemplo_pt": "Você morava aqui antes?"
+    },
+    {
+      "id": "would-habit",
+      "en": "would (hábito passado)",
+      "pt": "(-ava) costumava",
+      "emoji": "🔁",
+      "exemplo_en": "Every Sunday, we would visit my grandmother.",
+      "exemplo_pt": "Todo domingo, visitávamos minha avó."
+    },
+    {
+      "id": "anymore",
+      "en": "not … anymore / any longer",
+      "pt": "não … mais",
+      "emoji": "🔚",
+      "exemplo_en": "I don't smoke anymore.",
+      "exemplo_pt": "Não fumo mais."
+    },
+    {
+      "id": "nowadays",
+      "en": "nowadays / these days",
+      "pt": "hoje em dia",
+      "emoji": "📱",
+      "exemplo_en": "Nowadays, everything is automated.",
+      "exemplo_pt": "Hoje em dia, tudo é automatizado."
+    },
+    {
+      "id": "back-then",
+      "en": "back then / in those days",
+      "pt": "naquela época",
+      "emoji": "🕰️",
+      "exemplo_en": "Back then, we didn't have computers.",
+      "exemplo_pt": "Naquela época, não tínhamos computadores."
+    },
+    {
+      "id": "manual",
+      "en": "manually / by hand",
+      "pt": "manualmente",
+      "emoji": "✍️",
+      "exemplo_en": "We used to fill in the forms by hand.",
+      "exemplo_pt": "Preenchíamos os formulários à mão."
+    },
+    {
+      "id": "change-l2",
+      "en": "change (a lot)",
+      "pt": "mudar (muito)",
+      "emoji": "🔄",
+      "exemplo_en": "Things have changed a lot.",
+      "exemplo_pt": "As coisas mudaram muito."
+    },
+    {
+      "id": "miss-l2",
+      "en": "miss",
+      "pt": "sentir falta de",
+      "emoji": "💔",
+      "exemplo_en": "I miss my old colleagues.",
+      "exemplo_pt": "Sinto falta dos meus antigos colegas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Used to e would",
+    "explicacao_pt": "USED TO + VERBO = hábito ou estado do passado que NÃO é mais verdade: I used to work nights (não trabalho mais). Negativa: didn't use to (sem 'd'). Pergunta: Did you use to…? WOULD + VERBO = hábito repetido no passado (só ações, não estados), comum em histórias: Every summer we would go to the beach. Para ESTADOS (be, have, live, like) só USED TO: I used to have a motorbike (não 'would have'). Atenção: não existe 'use to' no presente — para hábitos atuais use 'usually': I usually start at 7.",
+    "tabela": {
+      "colunas": [
+        "Uso",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Hábito passado",
+          "used to + verbo",
+          "I used to take the bus."
+        ],
+        [
+          "Estado passado",
+          "used to + verbo",
+          "She used to be shy."
+        ],
+        [
+          "Negativa",
+          "didn't use to",
+          "We didn't use to have a canteen."
+        ],
+        [
+          "História (ações)",
+          "would + verbo",
+          "Every Friday, we would have a barbecue."
+        ],
+        [
+          "Hoje",
+          "usually / anymore",
+          "I usually drive. I don't take the bus anymore."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "When I started here, we used to fill in all the reports by hand.",
+        "pt": "Quando comecei aqui, preenchíamos todos os relatórios à mão."
+      },
+      {
+        "en": "The plant didn't use to have air conditioning.",
+        "pt": "A fábrica não tinha ar-condicionado."
+      },
+      {
+        "en": "Every Friday after work, we would play football with the guys from maintenance.",
+        "pt": "Toda sexta depois do trabalho, jogávamos futebol com o pessoal da manutenção."
+      },
+      {
+        "en": "I used to smoke, but I don't anymore.",
+        "pt": "Eu fumava, mas não fumo mais."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "How things have changed",
+    "falas": [
+      {
+        "personagem": "Young worker",
+        "voz": "a",
+        "en": "You've been here for thirty years, Seu Zé. Was it very different?",
+        "pt": "O senhor está aqui há trinta anos, Seu Zé. Era muito diferente?"
+      },
+      {
+        "personagem": "Zé",
+        "voz": "b",
+        "en": "Completely. We used to do everything by hand. There were no robots, no computers.",
+        "pt": "Completamente. Fazíamos tudo à mão. Não havia robôs, nem computadores."
+      },
+      {
+        "personagem": "Young worker",
+        "voz": "a",
+        "en": "How did you use to control production?",
+        "pt": "Como vocês controlavam a produção?"
+      },
+      {
+        "personagem": "Zé",
+        "voz": "b",
+        "en": "The supervisor would walk around the line with a clipboard and write everything down.",
+        "pt": "O supervisor andava pela linha com uma prancheta e anotava tudo."
+      },
+      {
+        "personagem": "Young worker",
+        "voz": "a",
+        "en": "And safety?",
+        "pt": "E a segurança?"
+      },
+      {
+        "personagem": "Zé",
+        "voz": "b",
+        "en": "People didn't use to wear ear plugs. That's why I don't hear very well anymore!",
+        "pt": "O pessoal não usava protetor auricular. É por isso que não escuto mais muito bem!"
+      },
+      {
+        "personagem": "Young worker",
+        "voz": "a",
+        "en": "Do you miss anything?",
+        "pt": "O senhor sente falta de algo?"
+      },
+      {
+        "personagem": "Zé",
+        "voz": "b",
+        "en": "I miss the people. We used to have lunch together every day. Nowadays, everybody is looking at their phones.",
+        "pt": "Sinto falta das pessoas. Almoçávamos juntos todo dia. Hoje em dia, todo mundo fica olhando o celular."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How long has Zé worked there?",
+        "opcoes": [
+          "Twenty years",
+          "Thirty years",
+          "Forty years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How did the supervisor control production?",
+        "opcoes": [
+          "With a clipboard",
+          "With a computer",
+          "With cameras"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What didn't people use to wear?",
+        "opcoes": [
+          "Ear plugs",
+          "Helmets",
+          "Uniforms"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What does Zé miss?",
+        "opcoes": [
+          "The people",
+          "The machines",
+          "The salary"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u04l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ to work nights. (costumava)",
+      "respostas": [
+        "used"
+      ]
+    },
+    {
+      "id": "b2u04l2-p2",
+      "tipo": "completar",
+      "frase": "I didn't ___ to like coffee.",
+      "respostas": [
+        "use"
+      ]
+    },
+    {
+      "id": "b2u04l2-p3",
+      "tipo": "completar",
+      "frase": "I don't smoke ___. (mais)",
+      "respostas": [
+        "anymore",
+        "any more",
+        "any longer"
+      ]
+    },
+    {
+      "id": "b2u04l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Estado no passado:",
+      "opcoes": [
+        "I would have a motorbike.",
+        "I used to have a motorbike."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Para estados (have, be, live) usamos 'used to', não 'would'."
+    },
+    {
+      "id": "b2u04l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Hábito atual:",
+      "opcoes": [
+        "I use to start at 7.",
+        "I usually start at 7."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u04l2-p6",
+      "tipo": "ordenar",
+      "frase": "Back then we didn't have computers",
+      "traducao_pt": "Naquela época, não tínhamos computadores"
+    },
+    {
+      "id": "b2u04l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Things have changed a lot."
+    },
+    {
+      "id": "b2u04l2-p8",
+      "tipo": "traduzir",
+      "pt": "Sinto falta dos meus antigos colegas.",
+      "respostas": [
+        "I miss my old colleagues.",
+        "I miss my former colleagues."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Compare com o professor como era sua vida (ou seu trabalho) há 10 ou 20 anos e como é hoje. Use used to, didn't use to, would e nowadays.",
+    "papel_professor": "Peça comparações passado × presente (work, technology, city, habits). Pergunte Did you use to…? What would you do on weekends? What do you miss? Corrija used to/would/usually.",
+    "abertura": "Let's travel back in time. What was your life like twenty years ago?",
+    "abertura_pt": "Vamos voltar no tempo. Como era sua vida há vinte anos?"
+  },
+  "teste": [
+    {
+      "id": "b2u04l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Você morava aqui antes?\":",
+      "opcoes": [
+        "Did you use to live here?",
+        "Did you used to live here?",
+        "Were you use to live here?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l2-t2",
+      "tipo": "completar",
+      "frase": "Every Sunday, we ___ visit my grandmother. (hábito)",
+      "respostas": [
+        "would",
+        "used to"
+      ]
+    },
+    {
+      "id": "b2u04l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We used to fill in the forms by hand."
+    },
+    {
+      "id": "b2u04l2-t4",
+      "tipo": "traduzir",
+      "pt": "Hoje em dia, tudo é automatizado.",
+      "respostas": [
+        "Nowadays, everything is automated.",
+        "These days, everything is automated."
+      ]
+    },
+    {
+      "id": "b2u04l2-t5",
+      "tipo": "ordenar",
+      "frase": "I used to smoke but I don't anymore",
+      "traducao_pt": "Eu fumava, mas não fumo mais"
+    }
+  ]
+}

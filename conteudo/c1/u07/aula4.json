@@ -1,0 +1,363 @@
+{
+  "id": "c1-u07-l4",
+  "nivel": "C1",
+  "unidade": 7,
+  "numero": 4,
+  "titulo": "The S&OP meeting",
+  "objetivo_pt": "Participar de uma reunião de S&OP: alinhar vendas, produção, compras e finanças.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai simular uma reunião de S&OP. Represente a área de produção: apresente a capacidade, os riscos e negocie com vendas e finanças.",
+    "papel_professor": "Explique S&OP (sales and operations planning). Faça papéis de vendas (wants more volume) e finanças (wants less inventory). O aluno, como produção, apresenta restrições e propõe um plano equilibrado. Corrija.",
+    "abertura": "Welcome to the monthly S&OP meeting. Sales, Finance and Operations are here. Operations, what's your view on next quarter?",
+    "abertura_pt": "Bem-vindo à reunião mensal de S&OP. Vendas, Finanças e Operações estão aqui. Operações, qual sua visão sobre o próximo trimestre?"
+  },
+  "vocabulario": [
+    {
+      "id": "sop",
+      "en": "S&OP (sales and operations planning)",
+      "pt": "S&OP (planejamento de vendas e operações)",
+      "emoji": "🤝",
+      "exemplo_en": "The S&OP meeting aligns all departments.",
+      "exemplo_pt": "A reunião de S&OP alinha todos os departamentos."
+    },
+    {
+      "id": "consensus",
+      "en": "consensus / consensus plan",
+      "pt": "consenso / plano de consenso",
+      "emoji": "🧩",
+      "exemplo_en": "We need a consensus plan by Friday.",
+      "exemplo_pt": "Precisamos de um plano de consenso até sexta."
+    },
+    {
+      "id": "one-number",
+      "en": "one-number plan",
+      "pt": "plano único (mesmo número para todos)",
+      "emoji": "1️⃣",
+      "exemplo_en": "Everyone must work with the one-number plan.",
+      "exemplo_pt": "Todos devem trabalhar com o plano único."
+    },
+    {
+      "id": "working-capital",
+      "en": "working capital",
+      "pt": "capital de giro",
+      "emoji": "💵",
+      "exemplo_en": "High inventory ties up working capital.",
+      "exemplo_pt": "Estoque alto prende capital de giro."
+    },
+    {
+      "id": "service-level",
+      "en": "service level",
+      "pt": "nível de serviço",
+      "emoji": "🎯",
+      "exemplo_en": "Our target service level is 98%.",
+      "exemplo_pt": "Nossa meta de nível de serviço é 98%."
+    },
+    {
+      "id": "upside",
+      "en": "upside / downside (risk)",
+      "pt": "potencial de alta / risco de baixa",
+      "emoji": "⬆️",
+      "exemplo_en": "There's an upside of 5% if the promotion works.",
+      "exemplo_pt": "Há potencial de alta de 5% se a promoção funcionar."
+    },
+    {
+      "id": "assumptions-l4",
+      "en": "assumptions",
+      "pt": "premissas",
+      "emoji": "📐",
+      "exemplo_en": "Let's agree on the assumptions first.",
+      "exemplo_pt": "Vamos concordar com as premissas primeiro."
+    },
+    {
+      "id": "escalate-l4",
+      "en": "escalate a decision",
+      "pt": "levar a decisão para cima",
+      "emoji": "⬆️",
+      "exemplo_en": "If we can't agree, we'll escalate it to the executive meeting.",
+      "exemplo_pt": "Se não concordarmos, levamos para a reunião executiva."
+    },
+    {
+      "id": "gap-l4",
+      "en": "close the gap",
+      "pt": "fechar a lacuna",
+      "emoji": "🔒",
+      "exemplo_en": "How can we close the gap between demand and supply?",
+      "exemplo_pt": "Como podemos fechar a lacuna entre demanda e oferta?"
+    },
+    {
+      "id": "balance",
+      "en": "strike a balance",
+      "pt": "encontrar um equilíbrio",
+      "emoji": "⚖️",
+      "exemplo_en": "We need to strike a balance between service and cost.",
+      "exemplo_pt": "Precisamos encontrar um equilíbrio entre serviço e custo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Negociando entre áreas",
+    "explicacao_pt": "Numa reunião de S&OP, cada área tem um interesse: VENDAS quer volume e disponibilidade; FINANÇAS quer menos estoque e custo; OPERAÇÕES quer estabilidade e eficiência. Linguagem útil: APRESENTAR POSIÇÃO: From an operations perspective, … / Our main concern is… PREMISSAS: This assumes that… / Based on the assumption that… RISCO: There's an upside/downside of… / The risk is that… PROPOR EQUILÍBRIO: What if we…? / Could we agree on…? / We need to strike a balance between… CONSENSO: So, the consensus plan is… / Any objections? ESCALAR: If we can't agree, we'll escalate it to…",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Perspectiva",
+          "From an operations perspective, …",
+          "From an operations perspective, the plan is not feasible."
+        ],
+        [
+          "Premissa",
+          "This assumes that…",
+          "This assumes that the promotion will work."
+        ],
+        [
+          "Risco",
+          "There's a downside risk of…",
+          "There's a downside risk of 10%."
+        ],
+        [
+          "Equilíbrio",
+          "We need to strike a balance between…",
+          "We need to strike a balance between service and stock."
+        ],
+        [
+          "Consenso",
+          "So, the consensus plan is…",
+          "So, the consensus plan is 48,000 units."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "From an operations perspective, 55,000 units is not feasible without a third shift.",
+        "pt": "Do ponto de vista de operações, 55.000 unidades não é viável sem um terceiro turno."
+      },
+      {
+        "en": "This forecast assumes that the promotion will be as successful as last year's.",
+        "pt": "Esta previsão pressupõe que a promoção será tão bem-sucedida quanto a do ano passado."
+      },
+      {
+        "en": "Building more stock would protect the service level, but it would tie up working capital.",
+        "pt": "Formar mais estoque protegeria o nível de serviço, mas prenderia capital de giro."
+      },
+      {
+        "en": "So, the consensus plan is 50,000 units, with an upside of 3,000 if the promotion performs well.",
+        "pt": "Então, o plano de consenso é de 50.000 unidades, com potencial de alta de 3.000 se a promoção for bem."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "S&OP discussion",
+    "falas": [
+      {
+        "personagem": "Sales",
+        "voz": "a",
+        "en": "We're expecting a strong quarter. We'd like operations to plan for 60,000 units.",
+        "pt": "Esperamos um trimestre forte. Gostaríamos que operações planejasse 60.000 unidades."
+      },
+      {
+        "personagem": "Operations",
+        "voz": "b",
+        "en": "From an operations perspective, 60,000 is not feasible. Our maximum with Saturday shifts is 54,000.",
+        "pt": "Do ponto de vista de operações, 60.000 não é viável. Nosso máximo com turnos aos sábados é 54.000."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "a",
+        "en": "And please remember that inventory is already 20% above target. We can't tie up more working capital.",
+        "pt": "E lembrem que o estoque já está 20% acima da meta. Não podemos prender mais capital de giro."
+      },
+      {
+        "personagem": "Operations",
+        "voz": "b",
+        "en": "Sales, what does your forecast assume?",
+        "pt": "Vendas, o que sua previsão pressupõe?"
+      },
+      {
+        "personagem": "Sales",
+        "voz": "a",
+        "en": "It assumes that we win the new retail contract. That's likely, but not certain.",
+        "pt": "Pressupõe que ganhemos o novo contrato de varejo. É provável, mas não certo."
+      },
+      {
+        "personagem": "Operations",
+        "voz": "b",
+        "en": "Then let's strike a balance: a consensus plan of 52,000, with an upside of 2,000 if the contract is confirmed by mid-month.",
+        "pt": "Então vamos encontrar um equilíbrio: plano de consenso de 52.000, com potencial de alta de 2.000 se o contrato for confirmado até meados do mês."
+      },
+      {
+        "personagem": "Finance",
+        "voz": "a",
+        "en": "That works for us. Any objections? No? Then that's our one-number plan.",
+        "pt": "Isso funciona para nós. Alguma objeção? Não? Então esse é nosso plano único."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How many units does Sales want?",
+        "opcoes": [
+          "52,000",
+          "54,000",
+          "60,000"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u07l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the maximum capacity with Saturday shifts?",
+        "opcoes": [
+          "52,000",
+          "54,000",
+          "60,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Finance worried about?",
+        "opcoes": [
+          "Inventory is 20% above target.",
+          "Salaries are too high.",
+          "Prices are too low."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the consensus plan?",
+        "opcoes": [
+          "52,000 with an upside of 2,000",
+          "60,000",
+          "54,000 with no upside"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u07l4-p1",
+      "tipo": "completar",
+      "frase": "We need a ___ plan by Friday. (consenso)",
+      "respostas": [
+        "consensus"
+      ]
+    },
+    {
+      "id": "c1u07l4-p2",
+      "tipo": "completar",
+      "frase": "High inventory ties up working ___.",
+      "respostas": [
+        "capital"
+      ]
+    },
+    {
+      "id": "c1u07l4-p3",
+      "tipo": "completar",
+      "frase": "We need to ___ a balance between service and cost. (encontrar)",
+      "respostas": [
+        "strike"
+      ]
+    },
+    {
+      "id": "c1u07l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Apresentar perspectiva:",
+      "opcoes": [
+        "From an operations perspective, it is not feasible.",
+        "In operations view it is no feasible.",
+        "Operations think no."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Esta previsão pressupõe que…\":",
+      "opcoes": [
+        "This forecast assumes that…",
+        "This forecast presumes of…",
+        "This forecast is assuming to…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l4-p6",
+      "tipo": "ordenar",
+      "frase": "Our target service level is 98%",
+      "traducao_pt": "Nossa meta de nível de serviço é 98%"
+    },
+    {
+      "id": "c1u07l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's agree on the assumptions first.",
+      "aceitas": [
+        "Let us agree on the assumptions first."
+      ]
+    },
+    {
+      "id": "c1u07l4-p8",
+      "tipo": "traduzir",
+      "pt": "Se não concordarmos, levamos para a reunião executiva.",
+      "respostas": [
+        "If we can't agree, we'll escalate it to the executive meeting.",
+        "If we cannot agree, we will escalate it to the executive meeting.",
+        "If we don't agree, we'll escalate it to the executive meeting."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Simule uma reunião de S&OP com o professor, que fará os papéis de Vendas (quer muito volume) e Finanças (quer pouco estoque). Você representa Operações: apresente sua capacidade, questione as premissas, proponha um plano de consenso com cenário de alta e baixa.",
+    "papel_professor": "Alterne os papéis de Sales e Finance, cada um defendendo seu interesse com firmeza. O aluno conduz para o consenso. Corrija linguagem de perspectiva, premissas, risco e consenso. No fim, avalie a capacidade de negociação.",
+    "abertura": "Sales here. We're very optimistic: we want 70,000 units next quarter. Can operations deliver?",
+    "abertura_pt": "Aqui é Vendas. Estamos muito otimistas: queremos 70.000 unidades no próximo trimestre. Operações consegue entregar?"
+  },
+  "teste": [
+    {
+      "id": "c1u07l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Propor equilíbrio:",
+      "opcoes": [
+        "Could we agree on 52,000 with an upside of 2,000?",
+        "Give me 60,000 now.",
+        "No plan is possible."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l4-t2",
+      "tipo": "completar",
+      "frase": "There's an ___ of 5% if the promotion works. (potencial de alta)",
+      "respostas": [
+        "upside"
+      ]
+    },
+    {
+      "id": "c1u07l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Everyone must work with the one-number plan."
+    },
+    {
+      "id": "c1u07l4-t4",
+      "tipo": "traduzir",
+      "pt": "Como podemos fechar a lacuna entre demanda e oferta?",
+      "respostas": [
+        "How can we close the gap between demand and supply?"
+      ]
+    },
+    {
+      "id": "c1u07l4-t5",
+      "tipo": "ordenar",
+      "frase": "The S&OP meeting aligns all departments",
+      "traducao_pt": "A reunião de S&OP alinha todos os departamentos"
+    }
+  ]
+}

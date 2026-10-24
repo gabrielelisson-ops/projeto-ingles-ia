@@ -1,0 +1,362 @@
+{
+  "id": "b2-u02-l4",
+  "nivel": "B2",
+  "unidade": 2,
+  "numero": 4,
+  "titulo": "Reporting verbs",
+  "objetivo_pt": "Usar verbos de relato variados (suggest, promise, refuse, deny, agree, recommend) com as estruturas corretas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar o que pessoas disseram numa negociação. Resuma usando verbos como promised, refused, suggested, denied.",
+    "papel_professor": "Diga falas diretas de uma negociação ('I'll deliver on Monday, I promise.' 'No, we won't lower the price.' 'Why don't we meet halfway?') e peça o resumo com reporting verbs. Corrija estruturas.",
+    "abertura": "The supplier said: 'I promise we'll deliver on Monday.' How can you report that in one short sentence?",
+    "abertura_pt": "O fornecedor disse: \"Prometo que entregamos na segunda.\" Como você relata isso numa frase curta?"
+  },
+  "vocabulario": [
+    {
+      "id": "promise-r",
+      "en": "promise to",
+      "pt": "prometer",
+      "emoji": "🤞",
+      "exemplo_en": "They promised to deliver on Monday.",
+      "exemplo_pt": "Prometeram entregar na segunda."
+    },
+    {
+      "id": "refuse-r",
+      "en": "refuse to",
+      "pt": "recusar-se a",
+      "emoji": "🙅",
+      "exemplo_en": "The supplier refused to lower the price.",
+      "exemplo_pt": "O fornecedor se recusou a baixar o preço."
+    },
+    {
+      "id": "agree-r",
+      "en": "agree to",
+      "pt": "concordar em",
+      "emoji": "🤝",
+      "exemplo_en": "They agreed to share the costs.",
+      "exemplo_pt": "Concordaram em dividir os custos."
+    },
+    {
+      "id": "offer-r",
+      "en": "offer to",
+      "pt": "oferecer-se para",
+      "emoji": "🙋",
+      "exemplo_en": "He offered to help with the report.",
+      "exemplo_pt": "Ele se ofereceu para ajudar com o relatório."
+    },
+    {
+      "id": "suggest-r",
+      "en": "suggest + -ing / that",
+      "pt": "sugerir",
+      "emoji": "💡",
+      "exemplo_en": "She suggested meeting halfway.",
+      "exemplo_pt": "Ela sugeriu um meio-termo."
+    },
+    {
+      "id": "recommend",
+      "en": "recommend + -ing / that",
+      "pt": "recomendar",
+      "emoji": "👍",
+      "exemplo_en": "The consultant recommended changing the layout.",
+      "exemplo_pt": "O consultor recomendou mudar o layout."
+    },
+    {
+      "id": "deny",
+      "en": "deny + -ing",
+      "pt": "negar",
+      "emoji": "✋",
+      "exemplo_en": "He denied changing the settings.",
+      "exemplo_pt": "Ele negou ter mudado a configuração."
+    },
+    {
+      "id": "apologize",
+      "en": "apologize for + -ing",
+      "pt": "pedir desculpas por",
+      "emoji": "🙇",
+      "exemplo_en": "They apologized for sending the wrong parts.",
+      "exemplo_pt": "Pediram desculpas por mandar as peças erradas."
+    },
+    {
+      "id": "insist",
+      "en": "insist on + -ing",
+      "pt": "insistir em",
+      "emoji": "☝️",
+      "exemplo_en": "The client insisted on visiting the plant.",
+      "exemplo_pt": "O cliente insistiu em visitar a fábrica."
+    },
+    {
+      "id": "accuse",
+      "en": "accuse someone of + -ing",
+      "pt": "acusar alguém de",
+      "emoji": "👉",
+      "exemplo_en": "They accused us of delivering late.",
+      "exemplo_pt": "Nos acusaram de entregar atrasado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Verbos de relato (reporting verbs)",
+    "explicacao_pt": "Em vez de repetir 'said', bons relatórios usam verbos que resumem a intenção. Cada verbo tem sua estrutura: 1) + TO: promise, refuse, agree, offer, threaten (They refused to pay). 2) + OBJETO + TO: tell, ask, advise, remind, warn, encourage (She advised me to wait). 3) + -ING: suggest, recommend, deny, admit (He denied taking it). 4) + PREPOSIÇÃO + -ING: apologize for, insist on, accuse someone of, blame someone for (They apologized for the delay / for being late). Suggest/recommend também aceitam THAT: She suggested that we meet halfway (nunca 'suggested me to').",
+    "tabela": {
+      "colunas": [
+        "Estrutura",
+        "Verbos",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "+ to + verbo",
+          "promise, refuse, agree, offer",
+          "He refused to sign."
+        ],
+        [
+          "+ objeto + to",
+          "tell, ask, advise, warn",
+          "She warned us not to go."
+        ],
+        [
+          "+ -ing",
+          "suggest, recommend, deny, admit",
+          "They denied making a mistake."
+        ],
+        [
+          "+ prep + -ing",
+          "apologize for, insist on",
+          "He apologized for being late."
+        ],
+        [
+          "+ that",
+          "suggest, recommend, explain",
+          "I suggested that we wait."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "\"I'll send it today, I promise.\" → She promised to send it that day.",
+        "pt": "\"Mando hoje, prometo.\" → Ela prometeu mandar naquele dia."
+      },
+      {
+        "en": "\"No, I didn't change the settings!\" → He denied changing the settings.",
+        "pt": "\"Não, eu não mudei a configuração!\" → Ele negou ter mudado a configuração."
+      },
+      {
+        "en": "\"Why don't we split the order?\" → She suggested splitting the order.",
+        "pt": "\"Por que não dividimos o pedido?\" → Ela sugeriu dividir o pedido."
+      },
+      {
+        "en": "\"Sorry, we sent the wrong parts.\" → They apologized for sending the wrong parts.",
+        "pt": "\"Desculpe, mandamos as peças erradas.\" → Eles pediram desculpas por mandar as peças erradas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A tense negotiation",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "How did the meeting with Metalfix go?",
+        "pt": "Como foi a reunião com a Metalfix?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "It was tense. First, they apologized for delivering late three times this year.",
+        "pt": "Foi tensa. Primeiro, pediram desculpas por entregar atrasado três vezes este ano."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Good. Did they agree to give us a discount?",
+        "pt": "Bom. Concordaram em nos dar desconto?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "No, they refused to lower the price. But they offered to pay for express shipping when they're late.",
+        "pt": "Não, recusaram-se a baixar o preço. Mas se ofereceram para pagar frete expresso quando atrasarem."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Hmm. What else?",
+        "pt": "Hmm. Que mais?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Their sales manager denied having quality problems, but I insisted on seeing the test reports. In the end, he promised to send them by Friday.",
+        "pt": "O gerente de vendas deles negou ter problemas de qualidade, mas eu insisti em ver os relatórios de teste. No fim, ele prometeu mandá-los até sexta."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Well done. I suggest waiting for the reports before we renew the contract.",
+        "pt": "Muito bem. Sugiro esperar os relatórios antes de renovarmos o contrato."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What did Metalfix apologize for?",
+        "opcoes": [
+          "Delivering late three times",
+          "Sending wrong parts",
+          "High prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What did they refuse to do?",
+        "opcoes": [
+          "Lower the price",
+          "Pay for shipping",
+          "Send reports"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What did they offer?",
+        "opcoes": [
+          "To pay for express shipping when late",
+          "A 10% discount",
+          "Free samples"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What did the director suggest?",
+        "opcoes": [
+          "Waiting for the reports before renewing",
+          "Canceling the contract",
+          "Visiting their plant"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u02l4-p1",
+      "tipo": "completar",
+      "frase": "They promised ___ deliver on Monday.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b2u02l4-p2",
+      "tipo": "completar",
+      "frase": "He denied ___ the settings. (mudar)",
+      "respostas": [
+        "changing"
+      ]
+    },
+    {
+      "id": "b2u02l4-p3",
+      "tipo": "completar",
+      "frase": "They apologized ___ sending the wrong parts.",
+      "respostas": [
+        "for"
+      ]
+    },
+    {
+      "id": "b2u02l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "She suggested me to wait.",
+        "She suggested waiting.",
+        "She suggested to wait me."
+      ],
+      "correta": 1,
+      "explicacao_pt": "'Suggest' + -ing ou + that; nunca 'suggest me to'."
+    },
+    {
+      "id": "b2u02l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O cliente insistiu em visitar a fábrica\":",
+      "opcoes": [
+        "The client insisted on visiting the plant.",
+        "The client insisted to visit the plant.",
+        "The client insisted in visit the plant."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l4-p6",
+      "tipo": "ordenar",
+      "frase": "They agreed to share the costs",
+      "traducao_pt": "Concordaram em dividir os custos"
+    },
+    {
+      "id": "b2u02l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The consultant recommended changing the layout."
+    },
+    {
+      "id": "b2u02l4-p8",
+      "tipo": "traduzir",
+      "pt": "Ele se ofereceu para ajudar com o relatório.",
+      "respostas": [
+        "He offered to help with the report.",
+        "He offered to help me with the report."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Relate ao professor uma negociação ou discussão (real ou inventada) usando pelo menos 5 verbos de relato diferentes (promised, refused, agreed, suggested, denied, apologized, insisted…).",
+    "papel_professor": "Peça o relato de uma negociação/discussão. Faça perguntas (Did they agree to…? What did they promise? Who suggested…?). Corrija a estrutura de cada reporting verb.",
+    "abertura": "Tell me about a negotiation or an argument you were part of. What did each person say?",
+    "abertura_pt": "Me conte sobre uma negociação ou discussão da qual você participou. O que cada pessoa disse?"
+  },
+  "teste": [
+    {
+      "id": "b2u02l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"No, we won't pay!\" → They…",
+      "opcoes": [
+        "refused to pay.",
+        "refused paying.",
+        "denied to pay."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u02l4-t2",
+      "tipo": "completar",
+      "frase": "They accused us ___ delivering late.",
+      "respostas": [
+        "of"
+      ]
+    },
+    {
+      "id": "b2u02l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The supplier refused to lower the price."
+    },
+    {
+      "id": "b2u02l4-t4",
+      "tipo": "traduzir",
+      "pt": "Ela sugeriu um meio-termo.",
+      "respostas": [
+        "She suggested meeting halfway.",
+        "She suggested a compromise.",
+        "She suggested that we meet halfway."
+      ]
+    },
+    {
+      "id": "b2u02l4-t5",
+      "tipo": "ordenar",
+      "frase": "He apologized for being late",
+      "traducao_pt": "Ele pediu desculpas pelo atraso"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "b2-u05-l4",
+  "nivel": "B2",
+  "unidade": 5,
+  "numero": 4,
+  "titulo": "Summing up and action points",
+  "objetivo_pt": "Resumir decisões, definir ações (quem, o quê, quando) e encerrar uma reunião.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai descrever uma reunião confusa. Resuma as decisões e defina as ações: quem vai fazer o quê e até quando.",
+    "papel_professor": "Descreva uma discussão com várias decisões. Peça que o aluno resuma (So, to sum up, we've agreed to…) e defina ações (X will… by…). Corrija.",
+    "abertura": "We talked for an hour about the new line, the budget and the training. Can you sum up what we decided?",
+    "abertura_pt": "Falamos por uma hora sobre a nova linha, o orçamento e o treinamento. Pode resumir o que decidimos?"
+  },
+  "vocabulario": [
+    {
+      "id": "to-sum-up",
+      "en": "To sum up / To summarize",
+      "pt": "Resumindo",
+      "emoji": "📝",
+      "exemplo_en": "To sum up, we've agreed on three things.",
+      "exemplo_pt": "Resumindo, concordamos em três coisas."
+    },
+    {
+      "id": "agreed-l4",
+      "en": "We've agreed to / on",
+      "pt": "Concordamos em",
+      "emoji": "🤝",
+      "exemplo_en": "We've agreed to postpone the launch.",
+      "exemplo_pt": "Concordamos em adiar o lançamento."
+    },
+    {
+      "id": "action-point-l4",
+      "en": "action point / action item",
+      "pt": "ação (de reunião)",
+      "emoji": "📌",
+      "exemplo_en": "There are four action points.",
+      "exemplo_pt": "Há quatro ações."
+    },
+    {
+      "id": "owner",
+      "en": "owner (of a task)",
+      "pt": "responsável (pela tarefa)",
+      "emoji": "🙋",
+      "exemplo_en": "Who is the owner of this task?",
+      "exemplo_pt": "Quem é o responsável por esta tarefa?"
+    },
+    {
+      "id": "by-when",
+      "en": "by when?",
+      "pt": "até quando?",
+      "emoji": "📅",
+      "exemplo_en": "By when can you send it?",
+      "exemplo_pt": "Até quando você pode enviar?"
+    },
+    {
+      "id": "pending-l4",
+      "en": "still pending / open",
+      "pt": "ainda pendente / em aberto",
+      "emoji": "⏸️",
+      "exemplo_en": "The budget is still open.",
+      "exemplo_pt": "O orçamento ainda está em aberto."
+    },
+    {
+      "id": "next-meeting",
+      "en": "next meeting",
+      "pt": "próxima reunião",
+      "emoji": "🗓️",
+      "exemplo_en": "We'll review it at the next meeting.",
+      "exemplo_pt": "Vamos revisar na próxima reunião."
+    },
+    {
+      "id": "circulate",
+      "en": "circulate (the minutes)",
+      "pt": "distribuir (a ata)",
+      "emoji": "📤",
+      "exemplo_en": "I'll circulate the minutes this afternoon.",
+      "exemplo_pt": "Vou distribuir a ata hoje à tarde."
+    },
+    {
+      "id": "wrap-up",
+      "en": "wrap up",
+      "pt": "encerrar / finalizar",
+      "emoji": "🎁",
+      "exemplo_en": "Let's wrap up.",
+      "exemplo_pt": "Vamos encerrar."
+    },
+    {
+      "id": "thank-l4",
+      "en": "Thanks, everyone",
+      "pt": "Obrigado a todos",
+      "emoji": "🙏",
+      "exemplo_en": "Thanks, everyone. Good meeting.",
+      "exemplo_pt": "Obrigado a todos. Boa reunião."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Resumindo e definindo ações",
+    "explicacao_pt": "RESUMIR: To sum up, … / So, we've agreed to + verbo / We've decided that… / The main points are… AÇÕES (quem + will + o quê + by + prazo): Ana will send the report by Friday. / Maintenance is going to check the pump tomorrow. PERGUNTAR: Who's going to…? / By when? / Who's the owner? EM ABERTO: The budget is still open. / We'll come back to this at the next meeting. ENCERRAR: Let's wrap up. / I'll circulate the minutes. / Thanks, everyone. Use relative clauses para ligar: the report, which Ana will send by Friday, …",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Resumo",
+          "To sum up, we've agreed to…",
+          "To sum up, we've agreed to test the new supplier."
+        ],
+        [
+          "Ação",
+          "X will + verbo + by + prazo",
+          "Bruno will check the pump by Wednesday."
+        ],
+        [
+          "Pergunta",
+          "Who's going to …? By when?",
+          "Who's going to call the client? By when?"
+        ],
+        [
+          "Pendente",
+          "… is still open. We'll come back to it.",
+          "The budget is still open."
+        ],
+        [
+          "Fim",
+          "Let's wrap up. Thanks, everyone.",
+          "I'll circulate the minutes today."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "To sum up, we've agreed to move the maintenance to Sundays.",
+        "pt": "Resumindo, concordamos em passar a manutenção para os domingos."
+      },
+      {
+        "en": "Lia will update the schedule by Thursday, and Bruno will order the spare parts.",
+        "pt": "A Lia vai atualizar a programação até quinta e o Bruno vai pedir as peças de reposição."
+      },
+      {
+        "en": "The training budget is still open. We'll come back to it at the next meeting.",
+        "pt": "O orçamento de treinamento ainda está em aberto. Voltamos a isso na próxima reunião."
+      },
+      {
+        "en": "Let's wrap up. I'll circulate the minutes this afternoon. Thanks, everyone.",
+        "pt": "Vamos encerrar. Distribuo a ata hoje à tarde. Obrigado a todos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Wrapping up",
+    "falas": [
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "OK, we're almost out of time. Let me sum up.",
+        "pt": "OK, estamos quase sem tempo. Deixa eu resumir."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "First, we've agreed to stop line 1 every two weeks for maintenance, starting on the 15th.",
+        "pt": "Primeiro, concordamos em parar a linha 1 a cada duas semanas para manutenção, a partir do dia 15."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Lívia, you'll update the production schedule by Friday. Is that OK?",
+        "pt": "Lívia, você vai atualizar a programação de produção até sexta. Tudo bem?"
+      },
+      {
+        "personagem": "Lívia",
+        "voz": "b",
+        "en": "Yes, no problem.",
+        "pt": "Sim, sem problema."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Bruno will order the hydraulic parts, which should arrive next week. And quality will check the new labels by Wednesday.",
+        "pt": "O Bruno vai pedir as peças hidráulicas, que devem chegar semana que vem. E a qualidade vai verificar os novos rótulos até quarta."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "The canteen issue is still open — we'll come back to it next month. I'll circulate the minutes this afternoon. Thanks, everyone.",
+        "pt": "A questão do refeitório ainda está em aberto — voltamos a ela mês que vem. Distribuo a ata hoje à tarde. Obrigado a todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05l4-e1",
+        "tipo": "multipla",
+        "enunciado": "When will the new maintenance schedule start?",
+        "opcoes": [
+          "On the 5th",
+          "On the 15th",
+          "On the 25th"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What will Lívia do by Friday?",
+        "opcoes": [
+          "Update the production schedule",
+          "Order parts",
+          "Check labels"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l4-e3",
+        "tipo": "multipla",
+        "enunciado": "When should the hydraulic parts arrive?",
+        "opcoes": [
+          "This week",
+          "Next week",
+          "Next month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05l4-e4",
+        "tipo": "multipla",
+        "enunciado": "Which issue is still open?",
+        "opcoes": [
+          "The canteen",
+          "The labels",
+          "The maintenance"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u05l4-p1",
+      "tipo": "completar",
+      "frase": "To sum ___, we've agreed on three things.",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "b2u05l4-p2",
+      "tipo": "completar",
+      "frase": "Who is the ___ of this task? (responsável)",
+      "respostas": [
+        "owner"
+      ]
+    },
+    {
+      "id": "b2u05l4-p3",
+      "tipo": "completar",
+      "frase": "I'll ___ the minutes this afternoon. (distribuir)",
+      "respostas": [
+        "circulate"
+      ]
+    },
+    {
+      "id": "b2u05l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Definir ação:",
+      "opcoes": [
+        "Ana will send the report by Friday.",
+        "Ana sends the report until Friday maybe.",
+        "Ana is send the report by Friday."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Ainda está em aberto\":",
+      "opcoes": [
+        "It's still open.",
+        "It's still opened door.",
+        "It's yet open."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l4-p6",
+      "tipo": "ordenar",
+      "frase": "Let's wrap up",
+      "traducao_pt": "Vamos encerrar"
+    },
+    {
+      "id": "b2u05l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We'll review it at the next meeting.",
+      "aceitas": [
+        "We will review it at the next meeting."
+      ]
+    },
+    {
+      "id": "b2u05l4-p8",
+      "tipo": "traduzir",
+      "pt": "Concordamos em adiar o lançamento.",
+      "respostas": [
+        "We've agreed to postpone the launch.",
+        "We have agreed to postpone the launch.",
+        "We agreed to postpone the launch."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Fim de reunião: o professor vai listar rapidamente tudo o que foi discutido (de forma bagunçada). Resuma as decisões, distribua as ações com responsáveis e prazos e encerre a reunião.",
+    "papel_professor": "Liste de forma desorganizada 5–6 pontos discutidos (some decided, some open). O aluno resume, distribui ações (who/what/by when) e encerra. Questione prazos vagos (By when exactly?). Corrija.",
+    "abertura": "Wow, what a long meeting. We talked about the audit, the new forklift, the holiday schedule, the late supplier… What did we actually decide?",
+    "abertura_pt": "Nossa, que reunião longa. Falamos da auditoria, da nova empilhadeira, da escala de férias, do fornecedor atrasado… O que decidimos de fato?"
+  },
+  "teste": [
+    {
+      "id": "b2u05l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Perguntar o prazo:",
+      "opcoes": [
+        "By when?",
+        "Until when you?",
+        "For when it is?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l4-t2",
+      "tipo": "completar",
+      "frase": "There are four action ___.",
+      "respostas": [
+        "points",
+        "items"
+      ]
+    },
+    {
+      "id": "b2u05l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Thanks, everyone. Good meeting."
+    },
+    {
+      "id": "b2u05l4-t4",
+      "tipo": "traduzir",
+      "pt": "Quem vai ligar para o cliente?",
+      "respostas": [
+        "Who's going to call the client?",
+        "Who is going to call the client?",
+        "Who will call the client?",
+        "Who's going to call the customer?"
+      ]
+    },
+    {
+      "id": "b2u05l4-t5",
+      "tipo": "ordenar",
+      "frase": "The budget is still open",
+      "traducao_pt": "O orçamento ainda está em aberto"
+    }
+  ]
+}

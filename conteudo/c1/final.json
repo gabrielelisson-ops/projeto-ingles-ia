@@ -1,0 +1,461 @@
+{
+  "id": "c1-final",
+  "nivel": "C1",
+  "unidade": 0,
+  "titulo": "Prova final do C1 — Avançado",
+  "leitura": {
+    "texto": "RETHINKING THE FACTORY OF THE FUTURE\nWhat will the factory of 2035 look like? Ask a technology vendor, and the answer is bound to involve robots, artificial intelligence and fully automated 'lights-out' plants. Ask the people who actually run factories, however, and a more nuanced picture emerges.\nA recent survey of 600 operations directors across Latin America found that, while 85% plan to increase their investment in automation over the next five years, fewer than 10% believe that fully automated plants are realistic for their sector. 'What we need is not fewer people,' says Rodrigo Alencar, operations director at a large food group, 'but people doing more valuable work.'\nAdmittedly, the pressure to automate is real. Labour shortages in some regions are expected to worsen, and customers are demanding ever shorter lead times. Not only do automated lines run around the clock, but they also produce more consistent quality. Yet the experience of the past decade suggests that technology alone rarely delivers the promised results. It is estimated that around half of all digital transformation projects in manufacturing fail to meet their objectives, usually because of poor change management rather than technical problems.\nHaving studied dozens of successful projects, researchers at a Brazilian business school identified three common factors. First, the projects were aligned with a clear business strategy rather than driven by enthusiasm for technology. Second, operators were involved from the very beginning. 'It was the people on the shop floor who identified the real bottlenecks,' one report notes. Third, the companies adopted a phased approach, testing solutions on one line before rolling them out across the plant.\nResilience has also moved up the agenda. Following the disruptions of recent years, many companies are reconsidering their dependency on distant suppliers, and nearshoring is likely to accelerate. 'Just-in-time is not dead,' says Alencar, 'but for critical components, a buffer should have been built long ago.'\nSo, is the factory of the future a place without people? On balance, the evidence suggests otherwise. The bottom line, as one director put it, is this: 'Robots don't solve problems. People do — with better tools.'",
+    "perguntas": [
+      {
+        "id": "c1finpv-l1",
+        "tipo": "multipla",
+        "enunciado": "What do technology vendors usually say about the factory of the future?",
+        "opcoes": [
+          "It will involve robots, AI and lights-out plants.",
+          "It will not change.",
+          "It will use more people."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many operations directors were surveyed?",
+        "opcoes": [
+          "60",
+          "600",
+          "6,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1finpv-l3",
+        "tipo": "multipla",
+        "enunciado": "What percentage plan to increase investment in automation?",
+        "opcoes": [
+          "10%",
+          "50%",
+          "85%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1finpv-l4",
+        "tipo": "multipla",
+        "enunciado": "How many believe fully automated plants are realistic for their sector?",
+        "opcoes": [
+          "Fewer than 10%",
+          "About half",
+          "Most of them"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l5",
+        "tipo": "multipla",
+        "enunciado": "What does Rodrigo Alencar say we need?",
+        "opcoes": [
+          "People doing more valuable work",
+          "Fewer people",
+          "More robots"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l6",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT mentioned as a reason for automation?",
+        "opcoes": [
+          "Lower taxes",
+          "Labour shortages",
+          "Shorter lead times"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l7",
+        "tipo": "multipla",
+        "enunciado": "Why do digital transformation projects usually fail?",
+        "opcoes": [
+          "Poor change management",
+          "Technical problems",
+          "High costs"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l8",
+        "tipo": "multipla",
+        "enunciado": "What proportion of these projects fail to meet their objectives?",
+        "opcoes": [
+          "About a quarter",
+          "Around half",
+          "Almost all"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1finpv-l9",
+        "tipo": "multipla",
+        "enunciado": "What was the first success factor?",
+        "opcoes": [
+          "Alignment with a clear business strategy",
+          "Buying the newest technology",
+          "Hiring consultants"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l10",
+        "tipo": "multipla",
+        "enunciado": "Who identified the real bottlenecks?",
+        "opcoes": [
+          "The people on the shop floor",
+          "The vendors",
+          "The board"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l11",
+        "tipo": "multipla",
+        "enunciado": "What does a phased approach mean here?",
+        "opcoes": [
+          "Testing on one line before rolling out across the plant",
+          "Doing everything at once",
+          "Stopping the project"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l12",
+        "tipo": "multipla",
+        "enunciado": "What is likely to accelerate?",
+        "opcoes": [
+          "Nearshoring",
+          "Just-in-time",
+          "Offshoring to Asia"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l13",
+        "tipo": "multipla",
+        "enunciado": "What does Alencar say about just-in-time?",
+        "opcoes": [
+          "It's not dead, but critical components need a buffer.",
+          "It's dead.",
+          "It's perfect."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l14",
+        "tipo": "multipla",
+        "enunciado": "What does the evidence suggest about factories without people?",
+        "opcoes": [
+          "It is unlikely; people remain essential.",
+          "It will happen by 2035.",
+          "It already exists everywhere."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-l15",
+        "tipo": "multipla",
+        "enunciado": "What is \"the bottom line\" according to one director?",
+        "opcoes": [
+          "Robots don't solve problems; people do, with better tools.",
+          "Robots are too expensive.",
+          "People should be replaced."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Thank you all for coming. The purpose of this meeting is to decide whether to proceed with the automation of the packing area.",
+        "pt": "Obrigado a todos por virem. O objetivo desta reunião é decidir se seguimos com a automação da área de embalagem."
+      },
+      {
+        "personagem": "Operations director",
+        "voz": "b",
+        "en": "Let me start with a striking figure: last year, the packing area was the bottleneck for 70% of our late deliveries.",
+        "pt": "Deixem-me começar com um número impressionante: ano passado, a embalagem foi o gargalo de 70% das nossas entregas atrasadas."
+      },
+      {
+        "personagem": "Operations director",
+        "voz": "b",
+        "en": "Having analyzed three options, we recommend a phased investment of 8 million reais, starting with line 1. We expect to break even in about two and a half years.",
+        "pt": "Tendo analisado três opções, recomendamos um investimento em fases de 8 milhões de reais, começando pela linha 1. Esperamos atingir o equilíbrio em cerca de dois anos e meio."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "With all due respect, that's a very brave assumption, given the current economic outlook.",
+        "pt": "Com todo o respeito, essa é uma premissa muito corajosa, dado o cenário econômico atual."
+      },
+      {
+        "personagem": "Operations director",
+        "voz": "b",
+        "en": "I can see where you're coming from. Admittedly, demand is uncertain. That said, even in the downside scenario, payback would be under four years.",
+        "pt": "Entendo seu ponto de vista. É verdade que a demanda é incerta. Dito isso, mesmo no cenário pessimista, o retorno seria em menos de quatro anos."
+      },
+      {
+        "personagem": "HR director",
+        "voz": "a",
+        "en": "What concerns me is the impact on the forty people who work in packing.",
+        "pt": "O que me preocupa é o impacto nas quarenta pessoas que trabalham na embalagem."
+      },
+      {
+        "personagem": "Operations director",
+        "voz": "b",
+        "en": "That's a fair point. Rest assured that no one will lose their job. Most of them will be retrained as line technicians, and the operators will be involved from day one.",
+        "pt": "É um ponto válido. Fiquem tranquilos de que ninguém perderá o emprego. A maioria será requalificada como técnicos de linha, e os operadores serão envolvidos desde o primeiro dia."
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "And the risk of a delay with the supplier?",
+        "pt": "E o risco de atraso do fornecedor?"
+      },
+      {
+        "personagem": "Operations director",
+        "voz": "b",
+        "en": "It is believed to be low — they've delivered similar lines on time to two of our competitors. But we can mitigate it with a penalty clause.",
+        "pt": "Acredita-se que seja baixo — eles entregaram linhas similares no prazo para dois concorrentes nossos. Mas podemos mitigá-lo com uma cláusula de multa."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "So, to sum up: phase one only, with a penalty clause and a retraining plan. Any objections?",
+        "pt": "Então, resumindo: só a fase um, com cláusula de multa e plano de requalificação. Alguma objeção?"
+      },
+      {
+        "personagem": "CFO",
+        "voz": "a",
+        "en": "None, provided that we review the results before approving phase two.",
+        "pt": "Nenhuma, desde que revisemos os resultados antes de aprovar a fase dois."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Agreed. Then we're asking the board to sign off on phase one. Thank you, everyone.",
+        "pt": "Combinado. Então vamos pedir ao conselho que aprove a fase um. Obrigado a todos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1finpv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the purpose of the meeting?",
+        "opcoes": [
+          "To decide whether to automate the packing area",
+          "To hire new staff",
+          "To close a plant"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e2",
+        "tipo": "multipla",
+        "enunciado": "What percentage of late deliveries did packing cause?",
+        "opcoes": [
+          "17%",
+          "50%",
+          "70%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1finpv-e3",
+        "tipo": "multipla",
+        "enunciado": "How much is the recommended investment?",
+        "opcoes": [
+          "4 million reais",
+          "8 million reais",
+          "18 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1finpv-e4",
+        "tipo": "multipla",
+        "enunciado": "When do they expect to break even?",
+        "opcoes": [
+          "In about one year",
+          "In about two and a half years",
+          "In about six years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1finpv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does the CFO really mean by \"a very brave assumption\"?",
+        "opcoes": [
+          "He thinks the assumption is too risky.",
+          "He admires the courage.",
+          "He fully agrees."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is the payback in the downside scenario?",
+        "opcoes": [
+          "Under two years",
+          "Under four years",
+          "Over ten years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1finpv-e7",
+        "tipo": "multipla",
+        "enunciado": "What concerns the HR director?",
+        "opcoes": [
+          "The impact on the forty people in packing",
+          "The cost",
+          "The supplier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e8",
+        "tipo": "multipla",
+        "enunciado": "What will happen to most packing workers?",
+        "opcoes": [
+          "They will be retrained as line technicians.",
+          "They will be dismissed.",
+          "They will move to another plant."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e9",
+        "tipo": "multipla",
+        "enunciado": "How will they mitigate the supplier risk?",
+        "opcoes": [
+          "With a penalty clause",
+          "By paying in advance",
+          "By using two suppliers"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e10",
+        "tipo": "multipla",
+        "enunciado": "What is the CFO's condition?",
+        "opcoes": [
+          "Reviewing the results before approving phase two",
+          "A lower price",
+          "A shorter timeline"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1finpv-e11",
+        "tipo": "ouvir_escrever",
+        "audio": "Having analyzed three options, we recommend a phased investment."
+      },
+      {
+        "id": "c1finpv-e12",
+        "tipo": "ouvir_escrever",
+        "audio": "With all due respect, that's a very brave assumption.",
+        "aceitas": [
+          "With all due respect, that is a very brave assumption."
+        ]
+      },
+      {
+        "id": "c1finpv-e13",
+        "tipo": "ouvir_escrever",
+        "audio": "I can see where you're coming from.",
+        "aceitas": [
+          "I can see where you are coming from."
+        ]
+      },
+      {
+        "id": "c1finpv-e14",
+        "tipo": "ouvir_escrever",
+        "audio": "What concerns me is the impact on the forty people who work in packing."
+      },
+      {
+        "id": "c1finpv-e15",
+        "tipo": "ouvir_escrever",
+        "audio": "Rest assured that no one will lose their job."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1finpv-w1",
+      "instrucao_pt": "Escreva o parágrafo de abertura de um relatório executivo sobre um projeto da sua área, com nominalização, participle clauses e pelo menos uma cleft sentence.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1finpv-w2",
+      "instrucao_pt": "Escreva um texto argumentativo equilibrado sobre a automação na indústria: tese, argumentos, concessão, refutação e conclusão com condição.",
+      "min_frases": 7,
+      "max_frases": 9
+    },
+    {
+      "id": "c1finpv-w3",
+      "instrucao_pt": "Escreva um boletim de riscos da cadeia de suprimentos com passiva impessoal (It is believed…, X is expected to…) e uma recomendação.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1finpv-w4",
+      "instrucao_pt": "Escreva a análise de capacidade para um mês em que a demanda supera a capacidade, com três opções comparadas e linguagem de probabilidade.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1finpv-w5",
+      "instrucao_pt": "Escreva um e-mail diplomático a um cliente importante dando uma má notícia e propondo uma alternativa, com registro formal adequado.",
+      "min_frases": 6,
+      "max_frases": 8
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1finpv-s1",
+      "pergunta_en": "Give a short presentation (opening, one key point, closing) about an improvement you would like to make at your company.",
+      "instrucao_pt": "Use gancho, signposting, nominalização e chamada para ação."
+    },
+    {
+      "id": "c1finpv-s2",
+      "pergunta_en": "Some people say that factories of the future won't need people. Argue your position.",
+      "instrucao_pt": "Construa um argumento com concessão e refutação."
+    },
+    {
+      "id": "c1finpv-s3",
+      "pergunta_en": "Your main supplier has just stopped delivering. Brief your director and recommend a plan.",
+      "instrucao_pt": "Use passiva impessoal, probabilidade e condicionais."
+    },
+    {
+      "id": "c1finpv-s4",
+      "pergunta_en": "Present a business case for an investment in your area to the board.",
+      "instrucao_pt": "Inclua alinhamento estratégico, números, cenários, riscos e o pedido."
+    },
+    {
+      "id": "c1finpv-s5",
+      "pergunta_en": "Give diplomatic feedback to a colleague whose project plan is unrealistic.",
+      "instrucao_pt": "Seja claro na mensagem e diplomático na forma."
+    }
+  ],
+  "foco_avaliacao": "Prova final do C1. Avalie: ênfase (cleft, inversão, do enfático); idioms e collocations; apresentações (signposting, nominalização, Q&A); argumentação e concessão; inglês corporativo (estratégia, KPIs, participle clauses, business case); supply chain e passiva avançada; planejamento (probabilidade, capacidade, S&OP); registro, diplomacia e nuance. Espera-se fluência, precisão, registro adequado e argumentos bem construídos. Compare com o esperado para C1, não com um nativo.",
+  "entrevista": {
+    "minutos": 5,
+    "papel_professor": "Você é o examinador da entrevista oral final do C1, simulando uma conversa com um diretor de operações. Cubra: uma conquista profissional (com ênfase), uma opinião sobre o futuro da indústria (argumentação e concessão), um problema de supply chain ou planejamento (dedução e probabilidade) e um caso de feedback difícil (diplomacia). UMA pergunta por vez, nível C1, com perguntas que desafiem e peçam nuances. Não corrija durante a entrevista (correcoes sempre vazia).",
+    "abertura": "Good afternoon, and welcome to your C1 final interview. Let's start with your career: what would you say is the achievement you're most proud of, and what made it possible?",
+    "abertura_pt": "Boa tarde e bem-vindo à entrevista final do C1. Vamos começar pela sua carreira: qual você diria que é a conquista de que mais se orgulha, e o que a tornou possível?"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "id": "c1-u07-l5",
+  "nivel": "C1",
+  "unidade": 7,
+  "numero": 5,
+  "titulo": "Planning under uncertainty",
+  "objetivo_pt": "Planejar com incerteza: cenários, sensibilidade e recomendações fundamentadas (revisão da unidade).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: qual foi a maior surpresa (positiva ou negativa) que sua área teve num planejamento? Era previsível?",
+    "papel_professor": "Peça a surpresa. Ensine planejamento por cenários (base case, upside, downside), análise de sensibilidade e linguagem de recomendação sob incerteza.",
+    "abertura": "What's the biggest surprise your area has had in planning? Could it have been predicted?",
+    "abertura_pt": "Qual foi a maior surpresa que sua área teve no planejamento? Poderia ter sido prevista?"
+  },
+  "vocabulario": [
+    {
+      "id": "base-case",
+      "en": "base case / upside / downside scenario",
+      "pt": "cenário base / otimista / pessimista",
+      "emoji": "🎭",
+      "exemplo_en": "In the base case, we will produce 50,000 units.",
+      "exemplo_pt": "No cenário base, vamos produzir 50.000 unidades."
+    },
+    {
+      "id": "sensitivity",
+      "en": "sensitivity analysis",
+      "pt": "análise de sensibilidade",
+      "emoji": "🎚️",
+      "exemplo_en": "Let's run a sensitivity analysis.",
+      "exemplo_pt": "Vamos rodar uma análise de sensibilidade."
+    },
+    {
+      "id": "assumption-l5",
+      "en": "key assumption",
+      "pt": "premissa-chave",
+      "emoji": "🔑",
+      "exemplo_en": "The key assumption is that demand stays stable.",
+      "exemplo_pt": "A premissa-chave é que a demanda fica estável."
+    },
+    {
+      "id": "hedge",
+      "en": "hedge (against)",
+      "pt": "proteger-se (contra)",
+      "emoji": "🛡️",
+      "exemplo_en": "We can hedge against price increases.",
+      "exemplo_pt": "Podemos nos proteger contra aumentos de preço."
+    },
+    {
+      "id": "flexibility",
+      "en": "build in flexibility",
+      "pt": "criar flexibilidade",
+      "emoji": "🤸",
+      "exemplo_en": "We need to build flexibility into the plan.",
+      "exemplo_pt": "Precisamos criar flexibilidade no plano."
+    },
+    {
+      "id": "trigger",
+      "en": "trigger point",
+      "pt": "ponto de gatilho",
+      "emoji": "🔫",
+      "exemplo_en": "If orders fall below 40,000, that is a trigger point.",
+      "exemplo_pt": "Se os pedidos caírem abaixo de 40.000, é um ponto de gatilho."
+    },
+    {
+      "id": "agile",
+      "en": "agile / responsive",
+      "pt": "ágil / responsivo",
+      "emoji": "🏃",
+      "exemplo_en": "Our planning must be more responsive.",
+      "exemplo_pt": "Nosso planejamento precisa ser mais responsivo."
+    },
+    {
+      "id": "uncertainty",
+      "en": "uncertainty / uncertain",
+      "pt": "incerteza / incerto",
+      "emoji": "❔",
+      "exemplo_en": "There is a lot of uncertainty in the market.",
+      "exemplo_pt": "Há muita incerteza no mercado."
+    },
+    {
+      "id": "play-out",
+      "en": "play out",
+      "pt": "desenrolar-se",
+      "emoji": "🎬",
+      "exemplo_en": "Let's see how things play out.",
+      "exemplo_pt": "Vamos ver como as coisas se desenrolam."
+    },
+    {
+      "id": "safe-bet",
+      "en": "a safe bet",
+      "pt": "uma aposta segura",
+      "emoji": "✅",
+      "exemplo_en": "Investing in flexibility is a safe bet.",
+      "exemplo_pt": "Investir em flexibilidade é uma aposta segura."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: planejamento com incerteza",
+    "explicacao_pt": "CENÁRIOS: In the base case, … / In the upside scenario, … / In the worst case, … PROBABILIDADE: Demand is likely to… / is bound to… / is unlikely to… / The chances are that… CONDICIONAIS: If demand falls below X, we will… (1ª, gatilho real) / If the market collapsed, we would… (2ª, hipotético) PREMISSAS: The key assumption is that… / This plan assumes… FLEXIBILIDADE: We need to build in flexibility. / We can hedge against… GATILHOS: If X happens, that will be the trigger for… RECOMENDAÇÃO: On balance, the safest option would be to… / Given the uncertainty, I'd recommend…",
+    "tabela": {
+      "colunas": [
+        "Elemento",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Cenário",
+          "In the base case, …",
+          "In the base case, we sell 50,000 units."
+        ],
+        [
+          "Probabilidade",
+          "is likely / bound to…",
+          "Prices are likely to stay high."
+        ],
+        [
+          "Gatilho",
+          "If X falls below…, we will…",
+          "If orders fall below 40,000, we will cancel the Saturday shift."
+        ],
+        [
+          "Premissa",
+          "The key assumption is that…",
+          "The key assumption is that the new contract is signed."
+        ],
+        [
+          "Recomendação",
+          "Given the uncertainty, I'd recommend…",
+          "Given the uncertainty, I'd recommend a flexible plan."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "In the base case, we expect 50,000 units; in the downside scenario, demand could fall to 42,000.",
+        "pt": "No cenário base, esperamos 50.000 unidades; no pessimista, a demanda pode cair para 42.000."
+      },
+      {
+        "en": "The key assumption is that our largest customer renews the contract, which is likely but not certain.",
+        "pt": "A premissa-chave é que nosso maior cliente renove o contrato, o que é provável mas não certo."
+      },
+      {
+        "en": "If orders fall below 45,000 by mid-month, that will be the trigger to cancel the Saturday shifts.",
+        "pt": "Se os pedidos caírem abaixo de 45.000 até meados do mês, esse será o gatilho para cancelar os turnos de sábado."
+      },
+      {
+        "en": "Given the uncertainty, I'd recommend building flexibility into the plan rather than committing to a third shift.",
+        "pt": "Dada a incerteza, eu recomendaria criar flexibilidade no plano em vez de nos comprometermos com um terceiro turno."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Scenario planning",
+    "falas": [
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "Given the uncertainty in the market, I've prepared three scenarios for next year.",
+        "pt": "Dada a incerteza do mercado, preparei três cenários para o próximo ano."
+      },
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "In the base case, demand grows by 4%, which we can meet with our current two shifts.",
+        "pt": "No cenário base, a demanda cresce 4%, o que conseguimos atender com nossos dois turnos atuais."
+      },
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "In the upside scenario — if we win the export contract — demand is likely to grow by 15%. That would require a third shift.",
+        "pt": "No cenário otimista — se ganharmos o contrato de exportação — é provável que a demanda cresça 15%. Isso exigiria um terceiro turno."
+      },
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "In the downside scenario, if the economy slows down, demand could fall by 8%.",
+        "pt": "No cenário pessimista, se a economia desacelerar, a demanda pode cair 8%."
+      },
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "So, rather than hiring for a third shift now, I'd recommend building in flexibility: temporary contracts and overtime.",
+        "pt": "Então, em vez de contratar para um terceiro turno agora, eu recomendaria criar flexibilidade: contratos temporários e horas extras."
+      },
+      {
+        "personagem": "Planning manager",
+        "voz": "a",
+        "en": "The trigger point will be the export decision, which is expected by March.",
+        "pt": "O ponto de gatilho será a decisão de exportação, que é esperada até março."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How much does demand grow in the base case?",
+        "opcoes": [
+          "4%",
+          "8%",
+          "15%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What would happen in the upside scenario?",
+        "opcoes": [
+          "Demand would grow by 15% and need a third shift.",
+          "Demand would fall.",
+          "Nothing would change."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What could cause the downside scenario?",
+        "opcoes": [
+          "An economic slowdown",
+          "A new competitor",
+          "A strike"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the trigger point?",
+        "opcoes": [
+          "The export decision, expected by March",
+          "The end of the year",
+          "A price increase"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u07l5-p1",
+      "tipo": "completar",
+      "frase": "In the ___ case, we will produce 50,000 units.",
+      "respostas": [
+        "base"
+      ]
+    },
+    {
+      "id": "c1u07l5-p2",
+      "tipo": "completar",
+      "frase": "Let's run a ___ analysis. (sensibilidade)",
+      "respostas": [
+        "sensitivity"
+      ]
+    },
+    {
+      "id": "c1u07l5-p3",
+      "tipo": "completar",
+      "frase": "We need to build ___ into the plan. (flexibilidade)",
+      "respostas": [
+        "flexibility"
+      ]
+    },
+    {
+      "id": "c1u07l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Gatilho real (1ª condicional):",
+      "opcoes": [
+        "If orders fall below 40,000, we will cancel the shift.",
+        "If orders fell below 40,000, we will cancel.",
+        "If orders will fall, we cancel."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Dada a incerteza, eu recomendaria…\":",
+      "opcoes": [
+        "Given the uncertainty, I'd recommend…",
+        "Giving the uncertain, I recommend you…",
+        "Because uncertainty, recommending…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l5-p6",
+      "tipo": "ordenar",
+      "frase": "Let's see how things play out",
+      "traducao_pt": "Vamos ver como as coisas se desenrolam"
+    },
+    {
+      "id": "c1u07l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "There is a lot of uncertainty in the market."
+    },
+    {
+      "id": "c1u07l5-p8",
+      "tipo": "traduzir",
+      "pt": "A premissa-chave é que a demanda fica estável.",
+      "respostas": [
+        "The key assumption is that demand stays stable.",
+        "The key assumption is that demand remains stable.",
+        "The key assumption is that demand will stay stable."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: apresente ao professor (o comitê executivo) o plano de produção do próximo ano com três cenários (base, otimista, pessimista), premissas-chave, gatilhos e sua recomendação. Ele vai questionar as premissas e testar a sensibilidade.",
+    "papel_professor": "Faça o papel do comitê. Pergunte (How likely is the upside? What if your key assumption is wrong? What's the cost of being too cautious?). Corrija linguagem de probabilidade, cenários e condicionais. No fim, dê um retorno completo.",
+    "abertura": "The executive committee is ready. Show us your production plan for next year and convince us it's robust.",
+    "abertura_pt": "O comitê executivo está pronto. Mostre seu plano de produção para o próximo ano e nos convença de que é robusto."
+  },
+  "teste": [
+    {
+      "id": "c1u07l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Cenário pessimista:",
+      "opcoes": [
+        "In the worst case, demand could fall by 8%.",
+        "In bad case demand fall 8.",
+        "Worst, demand is falling 8 maybe."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l5-t2",
+      "tipo": "completar",
+      "frase": "If orders fall below 40,000, that is a ___ point. (gatilho)",
+      "respostas": [
+        "trigger"
+      ]
+    },
+    {
+      "id": "c1u07l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our planning must be more responsive."
+    },
+    {
+      "id": "c1u07l5-t4",
+      "tipo": "traduzir",
+      "pt": "Podemos nos proteger contra aumentos de preço.",
+      "respostas": [
+        "We can hedge against price increases."
+      ]
+    },
+    {
+      "id": "c1u07l5-t5",
+      "tipo": "ordenar",
+      "frase": "Investing in flexibility is a safe bet",
+      "traducao_pt": "Investir em flexibilidade é uma aposta segura"
+    }
+  ]
+}

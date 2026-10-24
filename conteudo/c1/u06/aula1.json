@@ -1,0 +1,349 @@
+{
+  "id": "c1-u06-l1",
+  "nivel": "C1",
+  "unidade": 6,
+  "numero": 1,
+  "titulo": "From supplier to customer",
+  "objetivo_pt": "Descrever a cadeia de suprimentos de ponta a ponta com o vocabulário técnico.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você descreva a cadeia de suprimentos da sua empresa: de onde vem a matéria-prima até chegar ao cliente.",
+    "papel_professor": "Peça a descrição end-to-end (sourcing, inbound logistics, production, warehousing, distribution, customer). Ensine vocabulário de supply chain. Corrija.",
+    "abertura": "Can you walk me through your company's supply chain, from raw materials to the customer?",
+    "abertura_pt": "Pode me guiar pela cadeia de suprimentos da sua empresa, da matéria-prima até o cliente?"
+  },
+  "vocabulario": [
+    {
+      "id": "supply-chain",
+      "en": "supply chain",
+      "pt": "cadeia de suprimentos",
+      "emoji": "🔗",
+      "exemplo_en": "Our supply chain covers three continents.",
+      "exemplo_pt": "Nossa cadeia de suprimentos abrange três continentes."
+    },
+    {
+      "id": "sourcing",
+      "en": "sourcing / procurement",
+      "pt": "fornecimento / compras",
+      "emoji": "🛒",
+      "exemplo_en": "Sourcing is done mainly in Asia.",
+      "exemplo_pt": "O fornecimento é feito principalmente na Ásia."
+    },
+    {
+      "id": "upstream",
+      "en": "upstream / downstream",
+      "pt": "a montante / a jusante",
+      "emoji": "⬆️",
+      "exemplo_en": "Upstream suppliers provide the resin.",
+      "exemplo_pt": "Fornecedores a montante fornecem a resina."
+    },
+    {
+      "id": "inbound",
+      "en": "inbound / outbound logistics",
+      "pt": "logística de entrada / saída",
+      "emoji": "🚚",
+      "exemplo_en": "Inbound logistics is handled by a partner.",
+      "exemplo_pt": "A logística de entrada é feita por um parceiro."
+    },
+    {
+      "id": "tier",
+      "en": "tier 1 / tier 2 supplier",
+      "pt": "fornecedor de 1º / 2º nível",
+      "emoji": "🏷️",
+      "exemplo_en": "Our tier 2 suppliers are in China.",
+      "exemplo_pt": "Nossos fornecedores de segundo nível estão na China."
+    },
+    {
+      "id": "distribution-center",
+      "en": "distribution center (DC)",
+      "pt": "centro de distribuição (CD)",
+      "emoji": "🏬",
+      "exemplo_en": "Products are shipped from our DC in Cajamar.",
+      "exemplo_pt": "Os produtos saem do nosso CD em Cajamar."
+    },
+    {
+      "id": "end-to-end",
+      "en": "end-to-end",
+      "pt": "de ponta a ponta",
+      "emoji": "↔️",
+      "exemplo_en": "We need end-to-end visibility.",
+      "exemplo_pt": "Precisamos de visibilidade de ponta a ponta."
+    },
+    {
+      "id": "visibility",
+      "en": "visibility / traceability",
+      "pt": "visibilidade / rastreabilidade",
+      "emoji": "👁️",
+      "exemplo_en": "Real-time visibility helps us react faster.",
+      "exemplo_pt": "Visibilidade em tempo real nos ajuda a reagir mais rápido."
+    },
+    {
+      "id": "freight",
+      "en": "freight / shipping",
+      "pt": "frete / transporte",
+      "emoji": "📦",
+      "exemplo_en": "Freight costs have doubled.",
+      "exemplo_pt": "Os custos de frete dobraram."
+    },
+    {
+      "id": "customs",
+      "en": "customs clearance",
+      "pt": "desembaraço aduaneiro",
+      "emoji": "🛃",
+      "exemplo_en": "Customs clearance takes about five days.",
+      "exemplo_pt": "O desembaraço aduaneiro leva uns cinco dias."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo a cadeia",
+    "explicacao_pt": "Descrições de cadeia usam muito a PASSIVA, porque o foco é o material, não quem faz: The resin is sourced from… / The parts are shipped to… / Orders are consolidated at the DC. Use a sequência lógica: upstream → inbound → production → warehousing → outbound → customer. Vocabulário de posição: upstream/downstream, tier 1/tier 2, end-to-end. Preposições: sourced FROM, shipped TO, stored AT/IN, delivered BY truck, handled BY a partner.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase modelo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Fornecimento",
+          "Raw materials are sourced from…",
+          "As matérias-primas vêm de…"
+        ],
+        [
+          "Entrada",
+          "They are shipped by sea to…",
+          "São enviadas por mar para…"
+        ],
+        [
+          "Produção",
+          "The components are assembled in…",
+          "Os componentes são montados em…"
+        ],
+        [
+          "Armazenagem",
+          "Finished goods are stored at the DC.",
+          "Os produtos acabados ficam no CD."
+        ],
+        [
+          "Distribuição",
+          "Orders are delivered by truck within 48h.",
+          "Os pedidos são entregues por caminhão em 48h."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Most of our raw materials are sourced from tier 2 suppliers in Asia.",
+        "pt": "A maior parte das nossas matérias-primas vem de fornecedores de segundo nível na Ásia."
+      },
+      {
+        "en": "The containers are shipped to Santos, where customs clearance takes about five days.",
+        "pt": "Os contêineres são enviados a Santos, onde o desembaraço leva uns cinco dias."
+      },
+      {
+        "en": "Finished goods are stored at our distribution center and delivered by truck to retailers.",
+        "pt": "Os produtos acabados ficam no nosso CD e são entregues por caminhão aos varejistas."
+      },
+      {
+        "en": "End-to-end visibility allows us to track every order in real time.",
+        "pt": "A visibilidade de ponta a ponta nos permite rastrear cada pedido em tempo real."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Walking through the chain",
+    "falas": [
+      {
+        "personagem": "Supply chain manager",
+        "voz": "a",
+        "en": "Let me walk you through our supply chain. Our main raw material, aluminum, is sourced from two suppliers in Pará.",
+        "pt": "Deixe-me guiá-lo pela nossa cadeia. Nossa principal matéria-prima, o alumínio, vem de dois fornecedores no Pará."
+      },
+      {
+        "personagem": "Supply chain manager",
+        "voz": "a",
+        "en": "Electronic components, however, are imported from China through our tier 1 supplier in São Paulo.",
+        "pt": "Os componentes eletrônicos, porém, são importados da China através do nosso fornecedor de primeiro nível em São Paulo."
+      },
+      {
+        "personagem": "Visitor",
+        "voz": "b",
+        "en": "How long does that take?",
+        "pt": "Quanto tempo isso leva?"
+      },
+      {
+        "personagem": "Supply chain manager",
+        "voz": "a",
+        "en": "About eight weeks by sea, plus five days for customs clearance. That's our longest lead time.",
+        "pt": "Umas oito semanas por mar, mais cinco dias de desembaraço. É nosso prazo mais longo."
+      },
+      {
+        "personagem": "Supply chain manager",
+        "voz": "a",
+        "en": "After assembly, finished products are stored at our DC in Campinas and delivered to customers within 48 hours.",
+        "pt": "Após a montagem, os produtos acabados ficam no nosso CD em Campinas e são entregues aos clientes em 48 horas."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u06l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Where is aluminum sourced from?",
+        "opcoes": [
+          "Pará",
+          "China",
+          "São Paulo"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where are electronic components imported from?",
+        "opcoes": [
+          "China",
+          "Germany",
+          "Mexico"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u06l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How long does shipping by sea take?",
+        "opcoes": [
+          "About two weeks",
+          "About eight weeks",
+          "About six months"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u06l1-e4",
+        "tipo": "multipla",
+        "enunciado": "How fast are customers delivered from the DC?",
+        "opcoes": [
+          "Within 24 hours",
+          "Within 48 hours",
+          "Within a week"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u06l1-p1",
+      "tipo": "completar",
+      "frase": "Our supply ___ covers three continents.",
+      "respostas": [
+        "chain"
+      ]
+    },
+    {
+      "id": "c1u06l1-p2",
+      "tipo": "completar",
+      "frase": "Raw materials are sourced ___ Asia.",
+      "respostas": [
+        "from"
+      ]
+    },
+    {
+      "id": "c1u06l1-p3",
+      "tipo": "completar",
+      "frase": "We need ___-to-end visibility.",
+      "respostas": [
+        "end"
+      ]
+    },
+    {
+      "id": "c1u06l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Fornecedor do fornecedor:",
+      "opcoes": [
+        "tier 2 supplier",
+        "tier 1 supplier",
+        "upstream customer"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O desembaraço aduaneiro leva cinco dias\":",
+      "opcoes": [
+        "Customs clearance takes five days.",
+        "Customs cleaning takes five days.",
+        "Clearance of customers takes five days."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l1-p6",
+      "tipo": "ordenar",
+      "frase": "Freight costs have doubled",
+      "traducao_pt": "Os custos de frete dobraram"
+    },
+    {
+      "id": "c1u06l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Inbound logistics is handled by a partner."
+    },
+    {
+      "id": "c1u06l1-p8",
+      "tipo": "traduzir",
+      "pt": "Os produtos saem do nosso CD em Cajamar.",
+      "respostas": [
+        "Products are shipped from our DC in Cajamar.",
+        "Products are shipped from our distribution center in Cajamar."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Guie o professor (um auditor de um cliente) pela cadeia de suprimentos da sua empresa ou de um produto que você conhece: fornecimento, transporte, produção, armazenagem e entrega. Ele vai fazer perguntas técnicas.",
+    "papel_professor": "Faça o papel de auditor. Pergunte (Who are your tier 2 suppliers? What's your longest lead time? How do you track shipments?). Corrija passiva e vocabulário.",
+    "abertura": "As part of our supplier audit, I need to understand your supply chain. Where does it start?",
+    "abertura_pt": "Como parte da nossa auditoria de fornecedores, preciso entender sua cadeia de suprimentos. Onde ela começa?"
+  },
+  "teste": [
+    {
+      "id": "c1u06l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Passiva correta:",
+      "opcoes": [
+        "The parts are shipped to Santos.",
+        "The parts ship to Santos by.",
+        "The parts are ship to Santos."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u06l1-t2",
+      "tipo": "completar",
+      "frase": "___ suppliers provide the resin. (a montante)",
+      "respostas": [
+        "Upstream"
+      ]
+    },
+    {
+      "id": "c1u06l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Real-time visibility helps us react faster."
+    },
+    {
+      "id": "c1u06l1-t4",
+      "tipo": "traduzir",
+      "pt": "Nossos fornecedores de segundo nível estão na China.",
+      "respostas": [
+        "Our tier 2 suppliers are in China.",
+        "Our tier two suppliers are in China.",
+        "Our second-tier suppliers are in China."
+      ]
+    },
+    {
+      "id": "c1u06l1-t5",
+      "tipo": "ordenar",
+      "frase": "We need end-to-end visibility",
+      "traducao_pt": "Precisamos de visibilidade de ponta a ponta"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "id": "b1-u03-l4",
+  "nivel": "B1",
+  "unidade": 3,
+  "numero": 4,
+  "titulo": "Shifts and roles",
+  "objetivo_pt": "Descrever funções, turnos e responsabilidades numa fábrica.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar como funciona o trabalho na sua empresa: turnos, horários, quem faz o quê.",
+    "papel_professor": "Pergunte sobre turnos (How many shifts do you have? What time does the night shift start?), funções (operator, line leader, supervisor) e responsabilidades. Use gerúndio e infinitivo.",
+    "abertura": "How many shifts are there at your company?",
+    "abertura_pt": "Quantos turnos há na sua empresa?"
+  },
+  "vocabulario": [
+    {
+      "id": "shift",
+      "en": "shift (morning / afternoon / night)",
+      "pt": "turno (manhã / tarde / noite)",
+      "emoji": "🕐",
+      "exemplo_en": "I work the night shift.",
+      "exemplo_pt": "Trabalho no turno da noite."
+    },
+    {
+      "id": "rotate",
+      "en": "rotating shifts",
+      "pt": "turnos alternados (revezamento)",
+      "emoji": "🔄",
+      "exemplo_en": "We work rotating shifts.",
+      "exemplo_pt": "Trabalhamos em revezamento de turnos."
+    },
+    {
+      "id": "operator",
+      "en": "operator",
+      "pt": "operador",
+      "emoji": "👷",
+      "exemplo_en": "The operator starts the machine.",
+      "exemplo_pt": "O operador liga a máquina."
+    },
+    {
+      "id": "line-leader",
+      "en": "line leader / team leader",
+      "pt": "líder de linha / de equipe",
+      "emoji": "🧑‍🏭",
+      "exemplo_en": "The line leader checks the output.",
+      "exemplo_pt": "O líder de linha confere a produção."
+    },
+    {
+      "id": "supervisor",
+      "en": "shift supervisor",
+      "pt": "supervisor de turno",
+      "emoji": "🧑‍💼",
+      "exemplo_en": "The shift supervisor is responsible for 40 people.",
+      "exemplo_pt": "O supervisor de turno é responsável por 40 pessoas."
+    },
+    {
+      "id": "handover",
+      "en": "shift handover",
+      "pt": "passagem de turno",
+      "emoji": "🤲",
+      "exemplo_en": "The handover takes ten minutes.",
+      "exemplo_pt": "A passagem de turno leva dez minutos."
+    },
+    {
+      "id": "in-charge-l4",
+      "en": "in charge of + -ing",
+      "pt": "encarregado de",
+      "emoji": "🎯",
+      "exemplo_en": "She is in charge of ordering materials.",
+      "exemplo_pt": "Ela é encarregada de pedir materiais."
+    },
+    {
+      "id": "report-to",
+      "en": "report to",
+      "pt": "responder a (chefe)",
+      "emoji": "⬆️",
+      "exemplo_en": "I report to the production manager.",
+      "exemplo_pt": "Respondo ao gerente de produção."
+    },
+    {
+      "id": "day-off",
+      "en": "day off",
+      "pt": "folga",
+      "emoji": "🏖️",
+      "exemplo_en": "I have two days off a week.",
+      "exemplo_pt": "Tenho duas folgas por semana."
+    },
+    {
+      "id": "clock-in",
+      "en": "clock in / clock out",
+      "pt": "bater ponto (entrada / saída)",
+      "emoji": "⏰",
+      "exemplo_en": "Remember to clock out before leaving.",
+      "exemplo_pt": "Lembre de bater o ponto antes de sair."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo funções",
+    "explicacao_pt": "Para descrever responsabilidades: be responsible for + -ing (She is responsible for training new staff), be in charge of + -ing/substantivo, my job is to + verbo (My job is to check quality), I have to + verbo (I have to fill in the report). Hierarquia: report to (I report to the supervisor), manage/lead (She manages a team of 12). Para turnos: work the night shift, work rotating shifts, the shift starts at / finishes at.",
+    "tabela": {
+      "colunas": [
+        "Estrutura",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "be responsible for + -ing",
+          "I am responsible for checking samples.",
+          "Sou responsável por verificar amostras."
+        ],
+        [
+          "my job is to + verbo",
+          "My job is to keep the line running.",
+          "Meu trabalho é manter a linha rodando."
+        ],
+        [
+          "report to",
+          "I report to the plant manager.",
+          "Respondo ao gerente da fábrica."
+        ],
+        [
+          "manage / lead",
+          "He leads a team of eight.",
+          "Ele lidera uma equipe de oito."
+        ],
+        [
+          "shift",
+          "The night shift starts at 10 p.m.",
+          "O turno da noite começa às 22h."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We have three shifts: from 6 to 2, from 2 to 10 and from 10 to 6.",
+        "pt": "Temos três turnos: das 6 às 14, das 14 às 22 e das 22 às 6."
+      },
+      {
+        "en": "As a line leader, my job is to make sure everybody follows the procedures.",
+        "pt": "Como líder de linha, meu trabalho é garantir que todos sigam os procedimentos."
+      },
+      {
+        "en": "The quality technician is responsible for testing samples every hour.",
+        "pt": "O técnico de qualidade é responsável por testar amostras a cada hora."
+      },
+      {
+        "en": "During the handover, we talk about problems and pending tasks.",
+        "pt": "Na passagem de turno, falamos dos problemas e tarefas pendentes."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Shift handover",
+    "falas": [
+      {
+        "personagem": "Night supervisor",
+        "voz": "a",
+        "en": "Morning, Bete. Here's the handover. Line 1 ran normally all night.",
+        "pt": "Bom dia, Bete. Aqui vai a passagem. A linha 1 rodou normal a noite toda."
+      },
+      {
+        "personagem": "Bete",
+        "voz": "b",
+        "en": "Good. What about line 2?",
+        "pt": "Bom. E a linha 2?"
+      },
+      {
+        "personagem": "Night supervisor",
+        "voz": "a",
+        "en": "We had to stop it at 3 a.m. The mixer kept overheating. Maintenance managed to fix it at five.",
+        "pt": "Tivemos que parar às 3h. O misturador ficava superaquecendo. A manutenção conseguiu consertar às cinco."
+      },
+      {
+        "personagem": "Bete",
+        "voz": "b",
+        "en": "OK. Did anyone remember to record the stop in the system?",
+        "pt": "OK. Alguém lembrou de registrar a parada no sistema?"
+      },
+      {
+        "personagem": "Night supervisor",
+        "voz": "a",
+        "en": "Yes, I did it myself. And we need to order more labels. Marcos is in charge of ordering, but he's off today.",
+        "pt": "Sim, eu mesmo fiz. E precisamos pedir mais etiquetas. O Marcos é encarregado dos pedidos, mas está de folga hoje."
+      },
+      {
+        "personagem": "Bete",
+        "voz": "b",
+        "en": "No problem, I'll call the supplier. Anything else?",
+        "pt": "Sem problema, eu ligo para o fornecedor. Mais alguma coisa?"
+      },
+      {
+        "personagem": "Night supervisor",
+        "voz": "a",
+        "en": "That's all. Have a good shift!",
+        "pt": "É isso. Bom turno!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How did line 1 run?",
+        "opcoes": [
+          "Normally",
+          "It stopped twice",
+          "It was off"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What was the problem on line 2?",
+        "opcoes": [
+          "The mixer kept overheating.",
+          "No labels",
+          "A power cut"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l4-e3",
+        "tipo": "multipla",
+        "enunciado": "When did maintenance fix it?",
+        "opcoes": [
+          "At 3 a.m.",
+          "At 5 a.m.",
+          "At 7 a.m."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l4-e4",
+        "tipo": "multipla",
+        "enunciado": "Who is in charge of ordering?",
+        "opcoes": [
+          "Bete",
+          "Marcos",
+          "The night supervisor"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u03l4-p1",
+      "tipo": "completar",
+      "frase": "I work the night ___. (turno)",
+      "respostas": [
+        "shift"
+      ]
+    },
+    {
+      "id": "b1u03l4-p2",
+      "tipo": "completar",
+      "frase": "I report ___ the production manager.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l4-p3",
+      "tipo": "completar",
+      "frase": "She is responsible for ___ new staff. (treinar)",
+      "respostas": [
+        "training"
+      ]
+    },
+    {
+      "id": "b1u03l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Meu trabalho é verificar a qualidade\":",
+      "opcoes": [
+        "My job is to check quality.",
+        "My job is checking of quality.",
+        "My job is check quality."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Passagem de turno\":",
+      "opcoes": [
+        "shift handover",
+        "shift change hands",
+        "turn passing"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l4-p6",
+      "tipo": "ordenar",
+      "frase": "I have two days off a week",
+      "traducao_pt": "Tenho duas folgas por semana"
+    },
+    {
+      "id": "b1u03l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Remember to clock out before leaving."
+    },
+    {
+      "id": "b1u03l4-p8",
+      "tipo": "traduzir",
+      "pt": "Trabalhamos em revezamento de turnos.",
+      "respostas": [
+        "We work rotating shifts.",
+        "We work in rotating shifts."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça a passagem de turno para o professor (o supervisor que está chegando): como as linhas funcionaram, um problema, o que foi feito e o que está pendente.",
+    "papel_professor": "Faça o papel de supervisor que chega para o turno. Pergunte sobre cada linha, problemas, se alguém lembrou de registrar, o que está pendente. Corrija gerúndio/infinitivo.",
+    "abertura": "Hi! I've just arrived. How was the shift? Anything I need to know?",
+    "abertura_pt": "Oi! Acabei de chegar. Como foi o turno? Algo que eu preciso saber?"
+  },
+  "teste": [
+    {
+      "id": "b1u03l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Ela é encarregada de pedir materiais\":",
+      "opcoes": [
+        "She is in charge of ordering materials.",
+        "She is in charge to order materials.",
+        "She is charge of order materials."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l4-t2",
+      "tipo": "completar",
+      "frase": "The night shift ___ at 10 p.m. (começa)",
+      "respostas": [
+        "starts"
+      ]
+    },
+    {
+      "id": "b1u03l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The handover takes ten minutes."
+    },
+    {
+      "id": "b1u03l4-t4",
+      "tipo": "traduzir",
+      "pt": "Ele lidera uma equipe de oito.",
+      "respostas": [
+        "He leads a team of eight.",
+        "He manages a team of eight."
+      ]
+    },
+    {
+      "id": "b1u03l4-t5",
+      "tipo": "ordenar",
+      "frase": "The operator starts the machine",
+      "traducao_pt": "O operador liga a máquina"
+    }
+  ]
+}

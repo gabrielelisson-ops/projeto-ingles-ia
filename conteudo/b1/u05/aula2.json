@@ -1,0 +1,361 @@
+{
+  "id": "b1-u05-l2",
+  "nivel": "B1",
+  "unidade": 5,
+  "numero": 2,
+  "titulo": "If I were you…",
+  "objetivo_pt": "Dar conselhos com \"If I were you, I'd…\" e comparar com should.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar alguns problemas. Dê conselhos com \"If I were you, I'd…\" e \"I wouldn't…\".",
+    "papel_professor": "Conte problemas (My boss doesn't value me. I want to learn English faster. My neighbor is very noisy.). O aluno aconselha com If I were you… / I'd… / I wouldn't… Corrija.",
+    "abertura": "I have a problem. My boss never listens to my ideas. What would you do?",
+    "abertura_pt": "Tenho um problema. Meu chefe nunca ouve minhas ideias. O que você faria?"
+  },
+  "vocabulario": [
+    {
+      "id": "if-i-were",
+      "en": "If I were you, I'd…",
+      "pt": "Se eu fosse você, eu…",
+      "emoji": "🫵",
+      "exemplo_en": "If I were you, I'd talk to him.",
+      "exemplo_pt": "Se eu fosse você, falaria com ele."
+    },
+    {
+      "id": "in-your-shoes",
+      "en": "in your shoes",
+      "pt": "no seu lugar",
+      "emoji": "👟",
+      "exemplo_en": "In your shoes, I'd accept the offer.",
+      "exemplo_pt": "No seu lugar, eu aceitaria a proposta."
+    },
+    {
+      "id": "wouldnt",
+      "en": "I wouldn't…",
+      "pt": "eu não…(-ria)",
+      "emoji": "🙅",
+      "exemplo_en": "I wouldn't sign that contract.",
+      "exemplo_pt": "Eu não assinaria esse contrato."
+    },
+    {
+      "id": "offer",
+      "en": "job offer",
+      "pt": "proposta de emprego",
+      "emoji": "📨",
+      "exemplo_en": "I got a job offer from a competitor.",
+      "exemplo_pt": "Recebi uma proposta de um concorrente."
+    },
+    {
+      "id": "salary",
+      "en": "salary / raise",
+      "pt": "salário / aumento",
+      "emoji": "💵",
+      "exemplo_en": "If I were you, I'd ask for a raise.",
+      "exemplo_pt": "Se eu fosse você, pediria um aumento."
+    },
+    {
+      "id": "complain",
+      "en": "complain",
+      "pt": "reclamar",
+      "emoji": "😤",
+      "exemplo_en": "I wouldn't complain to the director.",
+      "exemplo_pt": "Eu não reclamaria com o diretor."
+    },
+    {
+      "id": "neighbor",
+      "en": "neighbor",
+      "pt": "vizinho",
+      "emoji": "🏘️",
+      "exemplo_en": "My neighbor plays loud music.",
+      "exemplo_pt": "Meu vizinho toca música alta."
+    },
+    {
+      "id": "value",
+      "en": "value / feel valued",
+      "pt": "valorizar / sentir-se valorizado",
+      "emoji": "💎",
+      "exemplo_en": "I don't feel valued at work.",
+      "exemplo_pt": "Não me sinto valorizado no trabalho."
+    },
+    {
+      "id": "honest",
+      "en": "honest",
+      "pt": "sincero / honesto",
+      "emoji": "🤝",
+      "exemplo_en": "I'd be honest with him.",
+      "exemplo_pt": "Eu seria sincero com ele."
+    },
+    {
+      "id": "consider",
+      "en": "consider",
+      "pt": "considerar",
+      "emoji": "🤔",
+      "exemplo_en": "I'd consider other options.",
+      "exemplo_pt": "Eu consideraria outras opções."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Conselhos com a segunda condicional",
+    "explicacao_pt": "IF I WERE YOU, I'D + verbo = conselho educado e pessoal (sempre 'were'): If I were you, I'd talk to your boss. Formas curtas: I'd… / I wouldn't… (sem repetir o 'if'). Comparação: You should talk to him (conselho direto) × If I were you, I'd talk to him (conselho mais suave, pessoal). Outras formas: In your shoes / In your position, I'd… Pergunta: What would you do (if you were me)?",
+    "tabela": {
+      "colunas": [
+        "Forma",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "If I were you, I'd…",
+          "If I were you, I'd accept.",
+          "Se eu fosse você, aceitaria."
+        ],
+        [
+          "I wouldn't…",
+          "I wouldn't quit now.",
+          "Eu não sairia agora."
+        ],
+        [
+          "In your position, …",
+          "In your position, I'd wait.",
+          "Na sua posição, eu esperaria."
+        ],
+        [
+          "What would you do?",
+          "What would you do if you were me?",
+          "O que você faria no meu lugar?"
+        ],
+        [
+          "should (direto)",
+          "You should ask for a raise.",
+          "Você deveria pedir aumento."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If I were you, I'd ask for a meeting with HR.",
+        "pt": "Se eu fosse você, pediria uma reunião com o RH."
+      },
+      {
+        "en": "I wouldn't accept the offer without seeing the contract.",
+        "pt": "Eu não aceitaria a proposta sem ver o contrato."
+      },
+      {
+        "en": "What would you do if you were me? — I'd be honest with him.",
+        "pt": "O que você faria no meu lugar? — Seria sincero com ele."
+      },
+      {
+        "en": "In your shoes, I'd consider other options.",
+        "pt": "No seu lugar, eu consideraria outras opções."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Should I take the job?",
+    "falas": [
+      {
+        "personagem": "Lucas",
+        "voz": "a",
+        "en": "I got a job offer from a competitor. The salary is 20% higher. What would you do?",
+        "pt": "Recebi uma proposta de um concorrente. O salário é 20% maior. O que você faria?"
+      },
+      {
+        "personagem": "Marina",
+        "voz": "b",
+        "en": "Hmm. Do you like your current job?",
+        "pt": "Hmm. Você gosta do emprego atual?"
+      },
+      {
+        "personagem": "Lucas",
+        "voz": "a",
+        "en": "Yes, but I don't feel valued. I haven't had a raise for three years.",
+        "pt": "Sim, mas não me sinto valorizado. Não tenho aumento há três anos."
+      },
+      {
+        "personagem": "Marina",
+        "voz": "b",
+        "en": "If I were you, I'd talk to my boss first. Be honest and tell him about the offer.",
+        "pt": "Se eu fosse você, falaria com meu chefe primeiro. Seja sincero e conte da proposta."
+      },
+      {
+        "personagem": "Lucas",
+        "voz": "a",
+        "en": "And if he doesn't do anything?",
+        "pt": "E se ele não fizer nada?"
+      },
+      {
+        "personagem": "Marina",
+        "voz": "b",
+        "en": "Then I'd accept the new job. But I wouldn't decide without reading the contract carefully.",
+        "pt": "Aí eu aceitaria o novo emprego. Mas não decidiria sem ler o contrato com cuidado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How much higher is the new salary?",
+        "opcoes": [
+          "10%",
+          "20%",
+          "30%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Why doesn't Lucas feel valued?",
+        "opcoes": [
+          "He hasn't had a raise for three years.",
+          "His boss is rude.",
+          "He works too much."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Marina's first advice?",
+        "opcoes": [
+          "Talk to his boss",
+          "Accept immediately",
+          "Do nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What wouldn't she do?",
+        "opcoes": [
+          "Decide without reading the contract",
+          "Talk to the boss",
+          "Be honest"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u05l2-p1",
+      "tipo": "completar",
+      "frase": "If I ___ you, I'd talk to him.",
+      "respostas": [
+        "were"
+      ]
+    },
+    {
+      "id": "b1u05l2-p2",
+      "tipo": "completar",
+      "frase": "I ___ sign that contract. (não assinaria)",
+      "respostas": [
+        "wouldn't",
+        "would not"
+      ]
+    },
+    {
+      "id": "b1u05l2-p3",
+      "tipo": "completar",
+      "frase": "If I were you, I'd ask for a ___. (aumento)",
+      "respostas": [
+        "raise"
+      ]
+    },
+    {
+      "id": "b1u05l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Conselho mais suave:",
+      "opcoes": [
+        "You must talk to him.",
+        "If I were you, I'd talk to him."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u05l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O que você faria no meu lugar?\":",
+      "opcoes": [
+        "What would you do if you were me?",
+        "What will you do if you are me?",
+        "What you would do in my place?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l2-p6",
+      "tipo": "ordenar",
+      "frase": "I'd consider other options",
+      "traducao_pt": "Eu consideraria outras opções"
+    },
+    {
+      "id": "b1u05l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I don't feel valued at work.",
+      "aceitas": [
+        "I do not feel valued at work."
+      ]
+    },
+    {
+      "id": "b1u05l2-p8",
+      "tipo": "traduzir",
+      "pt": "Recebi uma proposta de emprego de um concorrente.",
+      "respostas": [
+        "I got a job offer from a competitor.",
+        "I've got a job offer from a competitor.",
+        "I received a job offer from a competitor."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Agora é você quem pede conselho: conte ao professor um dilema real ou inventado e pergunte \"What would you do?\". Depois, dê conselho para um dilema dele.",
+    "papel_professor": "Ouça o dilema do aluno e dê conselhos com If I were you…; depois apresente um dilema seu (should I move to another city for a better job?) e peça conselho. Corrija.",
+    "abertura": "I'm a good listener. Tell me about a difficult decision you have to make.",
+    "abertura_pt": "Sou um bom ouvinte. Me conte uma decisão difícil que você precisa tomar."
+  },
+  "teste": [
+    {
+      "id": "b1u05l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"No seu lugar, eu esperaria\":",
+      "opcoes": [
+        "In your shoes, I'd wait.",
+        "In your shoes, I wait.",
+        "In your shoe, I would waited."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u05l2-t2",
+      "tipo": "completar",
+      "frase": "I'd be ___ with him. (sincero)",
+      "respostas": [
+        "honest"
+      ]
+    },
+    {
+      "id": "b1u05l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "If I were you, I'd ask for a meeting with HR.",
+      "aceitas": [
+        "If I were you, I would ask for a meeting with HR."
+      ]
+    },
+    {
+      "id": "b1u05l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu não reclamaria com o diretor.",
+      "respostas": [
+        "I wouldn't complain to the director.",
+        "I would not complain to the director."
+      ]
+    },
+    {
+      "id": "b1u05l2-t5",
+      "tipo": "ordenar",
+      "frase": "My neighbor plays loud music",
+      "traducao_pt": "Meu vizinho toca música alta"
+    }
+  ]
+}

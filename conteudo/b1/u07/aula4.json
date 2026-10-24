@@ -1,0 +1,360 @@
+{
+  "id": "b1-u07-l4",
+  "nivel": "B1",
+  "unidade": 7,
+  "numero": 4,
+  "titulo": "I agree, but…",
+  "objetivo_pt": "Concordar e discordar com educação, inclusive parcialmente.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar opiniões fortes. Concorde ou discorde de forma educada: \"I agree\", \"I see your point, but…\", \"I'm not sure about that\".",
+    "papel_professor": "Dê opiniões fortes (English is useless for factory workers. Meetings are a waste of time. Robots will replace all operators.). Ensine concordar/discordar com educação. Corrija 'I am agree'.",
+    "abertura": "In my opinion, meetings are a complete waste of time. Do you agree?",
+    "abertura_pt": "Na minha opinião, reuniões são uma completa perda de tempo. Você concorda?"
+  },
+  "vocabulario": [
+    {
+      "id": "agree-totally",
+      "en": "I totally agree",
+      "pt": "Concordo totalmente",
+      "emoji": "💯",
+      "exemplo_en": "I totally agree with you.",
+      "exemplo_pt": "Concordo totalmente com você."
+    },
+    {
+      "id": "exactly",
+      "en": "Exactly! / That's true",
+      "pt": "Exatamente! / É verdade",
+      "emoji": "✅",
+      "exemplo_en": "That's true. We need more time.",
+      "exemplo_pt": "É verdade. Precisamos de mais tempo."
+    },
+    {
+      "id": "see-point",
+      "en": "I see your point, but…",
+      "pt": "Entendo seu ponto, mas…",
+      "emoji": "🤝",
+      "exemplo_en": "I see your point, but it's too expensive.",
+      "exemplo_pt": "Entendo seu ponto, mas é caro demais."
+    },
+    {
+      "id": "not-sure",
+      "en": "I'm not sure about that",
+      "pt": "Não tenho certeza disso",
+      "emoji": "🤨",
+      "exemplo_en": "I'm not sure about that. Let's check the data.",
+      "exemplo_pt": "Não tenho certeza disso. Vamos ver os dados."
+    },
+    {
+      "id": "disagree",
+      "en": "I disagree / I don't agree",
+      "pt": "Discordo",
+      "emoji": "🙅",
+      "exemplo_en": "I'm afraid I disagree.",
+      "exemplo_pt": "Receio que eu discorde."
+    },
+    {
+      "id": "afraid",
+      "en": "I'm afraid…",
+      "pt": "Receio que… (suavizar)",
+      "emoji": "😬",
+      "exemplo_en": "I'm afraid that won't work.",
+      "exemplo_pt": "Receio que isso não vai funcionar."
+    },
+    {
+      "id": "up-to-point",
+      "en": "I agree up to a point",
+      "pt": "Concordo em parte",
+      "emoji": "➗",
+      "exemplo_en": "I agree up to a point.",
+      "exemplo_pt": "Concordo em parte."
+    },
+    {
+      "id": "on-other-hand",
+      "en": "on the other hand",
+      "pt": "por outro lado",
+      "emoji": "🔄",
+      "exemplo_en": "On the other hand, it would save time.",
+      "exemplo_pt": "Por outro lado, economizaria tempo."
+    },
+    {
+      "id": "fair-point",
+      "en": "That's a fair point",
+      "pt": "É um ponto válido",
+      "emoji": "👌",
+      "exemplo_en": "That's a fair point. I hadn't thought of that.",
+      "exemplo_pt": "É um ponto válido. Não tinha pensado nisso."
+    },
+    {
+      "id": "depends",
+      "en": "It depends (on)",
+      "pt": "Depende (de)",
+      "emoji": "🔀",
+      "exemplo_en": "It depends on the price.",
+      "exemplo_pt": "Depende do preço."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Concordar e discordar",
+    "explicacao_pt": "Concordar: I agree (with you). / I totally agree. / Exactly! / That's true. / That's a fair point. Concordar em parte: I agree up to a point, but… / I see your point, but… / That's true, but on the other hand… Discordar com educação: I'm not sure about that. / I'm afraid I disagree. / I don't think so. / I see it differently. ERRO MUITO COMUM: 'I am agree' ✗ → 'I agree' ✓ (agree é verbo!). Negativa: I don't agree. Evite 'You're wrong' em reuniões — é agressivo.",
+    "tabela": {
+      "colunas": [
+        "Nível",
+        "Expressão",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Concordo totalmente",
+          "I totally agree.",
+          "Concordo totalmente."
+        ],
+        [
+          "Concordo",
+          "That's true. / Exactly.",
+          "É verdade. / Exatamente."
+        ],
+        [
+          "Em parte",
+          "I agree up to a point, but…",
+          "Concordo em parte, mas…"
+        ],
+        [
+          "Discordo (suave)",
+          "I'm not sure about that.",
+          "Não tenho certeza disso."
+        ],
+        [
+          "Discordo",
+          "I'm afraid I disagree.",
+          "Receio que eu discorde."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I agree with you. We need to hire more operators.",
+        "pt": "Concordo com você. Precisamos contratar mais operadores."
+      },
+      {
+        "en": "I see your point, but the budget is limited this year.",
+        "pt": "Entendo seu ponto, mas o orçamento está limitado este ano."
+      },
+      {
+        "en": "That's true, but on the other hand, robots are very expensive.",
+        "pt": "É verdade, mas por outro lado, robôs são muito caros."
+      },
+      {
+        "en": "I'm afraid I disagree. I think the old supplier is more reliable.",
+        "pt": "Receio que eu discorde. Acho que o fornecedor antigo é mais confiável."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Choosing a supplier",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "I think we should change to the new supplier. They're 15% cheaper.",
+        "pt": "Acho que deveríamos mudar para o fornecedor novo. Eles são 15% mais baratos."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "I see your point, but their quality isn't proven. We've only tested ten samples.",
+        "pt": "Entendo seu ponto, mas a qualidade deles não está comprovada. Só testamos dez amostras."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "That's true. On the other hand, the old supplier has been late three times this year.",
+        "pt": "É verdade. Por outro lado, o fornecedor antigo atrasou três vezes este ano."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "I agree up to a point. But late is better than defective.",
+        "pt": "Concordo em parte. Mas atrasado é melhor que defeituoso."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "That's a fair point. How about splitting the orders between the two?",
+        "pt": "É um ponto válido. Que tal dividir os pedidos entre os dois?"
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "I totally agree. That way we reduce the risk.",
+        "pt": "Concordo totalmente. Assim reduzimos o risco."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u07l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How much cheaper is the new supplier?",
+        "opcoes": [
+          "5%",
+          "15%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u07l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Why is Quality not sure about the new supplier?",
+        "opcoes": [
+          "Their quality isn't proven.",
+          "They are too expensive.",
+          "They are too far."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the old supplier?",
+        "opcoes": [
+          "It has been late three times.",
+          "Its prices went up.",
+          "Its quality is bad."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u07l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What do they decide?",
+        "opcoes": [
+          "Split the orders between the two",
+          "Change to the new supplier",
+          "Keep the old supplier only"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u07l4-p1",
+      "tipo": "completar",
+      "frase": "I totally ___ with you.",
+      "respostas": [
+        "agree"
+      ]
+    },
+    {
+      "id": "b1u07l4-p2",
+      "tipo": "completar",
+      "frase": "I see your ___, but it's too expensive.",
+      "respostas": [
+        "point"
+      ]
+    },
+    {
+      "id": "b1u07l4-p3",
+      "tipo": "completar",
+      "frase": "I agree up to a ___.",
+      "respostas": [
+        "point"
+      ]
+    },
+    {
+      "id": "b1u07l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I am agree with you.",
+        "I agree with you.",
+        "I am agreeing you."
+      ],
+      "correta": 1,
+      "explicacao_pt": "'Agree' é verbo: I agree."
+    },
+    {
+      "id": "b1u07l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Discordar com educação:",
+      "opcoes": [
+        "You're wrong.",
+        "I'm afraid I disagree.",
+        "No, never."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u07l4-p6",
+      "tipo": "ordenar",
+      "frase": "On the other hand it would save time",
+      "traducao_pt": "Por outro lado, economizaria tempo"
+    },
+    {
+      "id": "b1u07l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "That's a fair point.",
+      "aceitas": [
+        "That is a fair point."
+      ]
+    },
+    {
+      "id": "b1u07l4-p8",
+      "tipo": "traduzir",
+      "pt": "Depende do preço.",
+      "respostas": [
+        "It depends on the price."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Debate amigável: o professor vai defender uma opinião forte. Concorde em parte, discorde com educação e apresente seus argumentos.",
+    "papel_professor": "Defenda opiniões fortes (Everyone should retire at 50. Uniforms should be banned. English should be mandatory for all employees.). Pressione um pouco. Corrija expressões e 'I am agree'.",
+    "abertura": "Here's my opinion: every employee should be required to speak English. What do you say?",
+    "abertura_pt": "Minha opinião: todo funcionário deveria ser obrigado a falar inglês. O que você diz?"
+  },
+  "teste": [
+    {
+      "id": "b1u07l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Concordar em parte:",
+      "opcoes": [
+        "I agree up to a point, but…",
+        "I am agree a little.",
+        "I agree totally, but no."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u07l4-t2",
+      "tipo": "completar",
+      "frase": "I'm ___ that won't work. (receio)",
+      "respostas": [
+        "afraid"
+      ]
+    },
+    {
+      "id": "b1u07l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm not sure about that.",
+      "aceitas": [
+        "I am not sure about that."
+      ]
+    },
+    {
+      "id": "b1u07l4-t4",
+      "tipo": "traduzir",
+      "pt": "Concordo totalmente com você.",
+      "respostas": [
+        "I totally agree with you.",
+        "I completely agree with you."
+      ]
+    },
+    {
+      "id": "b1u07l4-t5",
+      "tipo": "ordenar",
+      "frase": "That's true but it's expensive",
+      "traducao_pt": "É verdade, mas é caro"
+    }
+  ]
+}

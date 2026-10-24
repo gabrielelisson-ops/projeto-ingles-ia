@@ -104,11 +104,44 @@ describe('conteúdo do curso', () => {
     expect(c.roleplays.map((r) => r.id)).toEqual([
       'entrevista-emprego', 'reuniao-trabalho', 'restaurante', 'aeroporto', 'hotel', 'medico', 'ligacao', 'negociacao-fornecedor',
     ]);
+    expect(c.juntos.length).toBeGreaterThanOrEqual(4);
   });
 
-  test('o A1 está completo: 8 unidades e prova final', () => {
-    expect(unidadesBrutas.filter((u) => u.meta.nivel === 'A1')).toHaveLength(8);
-    expect(finais.some((f) => f.nivel === 'a1')).toBe(true);
+  test.each(['A1', 'A2', 'B1', 'B2', 'C1'])('o %s está completo: 8 unidades e prova final', (nivel) => {
+    expect(unidadesBrutas.filter((u) => u.meta.nivel === nivel).map((u) => u.meta.numero).sort((a, b) => a - b))
+      .toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
+    expect(finais.some((f) => f.nivel === nivel.toLowerCase())).toBe(true);
+  });
+
+  test('percorrendo o curso inteiro: cada prova final libera o nível seguinte até o C1', () => {
+    const c = montarCurso(
+      ler(path.join(RAIZ, 'curriculo.json')),
+      unidadesBrutas.map(({ meta, aulas, prova }) => ({ meta, aulas, prova })),
+      finais.map((f) => f.prova),
+    );
+    expect(c.erros).toEqual([]);
+    const est = estruturaDoCurso(c);
+    const aulas = new Set<string>();
+    const provas: Record<string, { nota: number; aprovado: boolean; data: number }[]> = {};
+    const ok = [{ nota: 80, aprovado: true, data: 1 }];
+    const niveis = ['A1', 'A2', 'B1', 'B2', 'C1'];
+    niveis.forEach((nivel, i) => {
+      expect(nivelAtual(est, { aulasConcluidas: aulas, provas })).toBe(nivel);
+      const n = est.find((x) => x.nivel === nivel)!;
+      const primeira = n.unidades[0]!.aulas[0]!;
+      expect(statusCurso(est, { aulasConcluidas: aulas, provas }, 2).get(primeira)?.estado).toBe('disponivel');
+      if (i + 1 < niveis.length) {
+        const proxima = est.find((x) => x.nivel === niveis[i + 1])!.unidades[0]!.aulas[0]!;
+        expect(statusCurso(est, { aulasConcluidas: aulas, provas }, 2).get(proxima)?.estado).toBe('bloqueada');
+      }
+      for (const u of n.unidades) {
+        u.aulas.forEach((a) => aulas.add(a));
+        provas[u.prova!] = ok;
+      }
+      expect(statusCurso(est, { aulasConcluidas: aulas, provas }, 2).get(n.provaFinal!)?.estado).toBe('disponivel');
+      provas[n.provaFinal!] = ok;
+    });
+    expect(proximoItem(est, statusCurso(est, { aulasConcluidas: aulas, provas }, 2))).toBeNull();
   });
 
   test('o curso monta sem erros e a primeira aula fica liberada', () => {

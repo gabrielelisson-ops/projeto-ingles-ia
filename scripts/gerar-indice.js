@@ -60,6 +60,8 @@ ${unidades.join('\n')}
 
 export const FINAIS_BRUTAS: unknown[] = [${finais.join(', ')}];
 
+export const NIVELAMENTO_BRUTO: unknown = ${fs.existsSync(path.join(CONTEUDO, 'nivelamento.json')) ? req(path.join(CONTEUDO, 'nivelamento.json')) : 'null'};
+
 export const ROLEPLAYS_BRUTOS: unknown = ${fs.existsSync(path.join(CONTEUDO, 'roleplays.json')) ? req(path.join(CONTEUDO, 'roleplays.json')) : '{ roleplays: [] }'};
 `;
 

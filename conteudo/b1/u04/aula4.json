@@ -1,0 +1,366 @@
+{
+  "id": "b1-u04-l4",
+  "nivel": "B1",
+  "unidade": 4,
+  "numero": 4,
+  "titulo": "Troubleshooting",
+  "objetivo_pt": "Descrever defeitos e falhas comuns de produção e investigar a causa.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre problemas comuns na sua empresa ou na sua casa (algo que vive quebrando, atrasando, falhando).",
+    "papel_professor": "Pergunte sobre problemas recorrentes (What problems do you often have? What happens when…? What do you do if…?). Ensine vocabulário de defeitos: leak, crack, jam, wear out.",
+    "abertura": "What problems do you often have at work or at home?",
+    "abertura_pt": "Que problemas você costuma ter no trabalho ou em casa?"
+  },
+  "vocabulario": [
+    {
+      "id": "leak",
+      "en": "leak",
+      "pt": "vazar / vazamento",
+      "emoji": "💧",
+      "exemplo_en": "There's an oil leak under the machine.",
+      "exemplo_pt": "Tem um vazamento de óleo debaixo da máquina."
+    },
+    {
+      "id": "crack",
+      "en": "crack",
+      "pt": "rachar / rachadura",
+      "emoji": "🪨",
+      "exemplo_en": "The mould has a small crack.",
+      "exemplo_pt": "O molde tem uma pequena rachadura."
+    },
+    {
+      "id": "jam",
+      "en": "jam / get stuck",
+      "pt": "emperrar / ficar preso",
+      "emoji": "🧱",
+      "exemplo_en": "The paper keeps getting stuck.",
+      "exemplo_pt": "O papel fica enroscando."
+    },
+    {
+      "id": "wear-out",
+      "en": "wear out / worn",
+      "pt": "desgastar / gasto",
+      "emoji": "🪫",
+      "exemplo_en": "The belt is worn. We need to replace it.",
+      "exemplo_pt": "A correia está gasta. Precisamos trocar."
+    },
+    {
+      "id": "loose",
+      "en": "loose / tight",
+      "pt": "solto / apertado",
+      "emoji": "🔩",
+      "exemplo_en": "A screw is loose.",
+      "exemplo_pt": "Um parafuso está solto."
+    },
+    {
+      "id": "noise",
+      "en": "strange noise",
+      "pt": "barulho estranho",
+      "emoji": "🔊",
+      "exemplo_en": "The motor is making a strange noise.",
+      "exemplo_pt": "O motor está fazendo um barulho estranho."
+    },
+    {
+      "id": "defect",
+      "en": "defect / defective",
+      "pt": "defeito / com defeito",
+      "emoji": "⚠️",
+      "exemplo_en": "We found ten defective parts.",
+      "exemplo_pt": "Encontramos dez peças com defeito."
+    },
+    {
+      "id": "root-cause",
+      "en": "root cause",
+      "pt": "causa raiz",
+      "emoji": "🌱",
+      "exemplo_en": "We need to find the root cause.",
+      "exemplo_pt": "Precisamos achar a causa raiz."
+    },
+    {
+      "id": "replace",
+      "en": "replace",
+      "pt": "substituir / trocar",
+      "emoji": "🔁",
+      "exemplo_en": "Replace the filter every month.",
+      "exemplo_pt": "Troque o filtro todo mês."
+    },
+    {
+      "id": "troubleshoot",
+      "en": "troubleshoot",
+      "pt": "diagnosticar / resolver falhas",
+      "emoji": "🛠️",
+      "exemplo_en": "Let's troubleshoot the problem step by step.",
+      "exemplo_pt": "Vamos diagnosticar o problema passo a passo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo e investigando problemas",
+    "explicacao_pt": "Para descrever o problema agora: present continuous (The motor is making a noise. Oil is leaking.) ou keep + -ing para algo repetido (The belt keeps slipping). Para o estado: be + adjetivo (The screw is loose. The belt is worn). Para investigar: perguntas com when e if (When does it happen? Does it happen if…?). Para a solução: first conditional (If we replace the belt, the noise will stop). Lembre: problem WITH something (a problem with the pump).",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Problema agora",
+          "The pump is leaking.",
+          "A bomba está vazando."
+        ],
+        [
+          "Problema repetido",
+          "The paper keeps getting stuck.",
+          "O papel fica enroscando."
+        ],
+        [
+          "Estado",
+          "The belt is worn.",
+          "A correia está gasta."
+        ],
+        [
+          "Investigar",
+          "Does it happen when the machine is cold?",
+          "Acontece quando a máquina está fria?"
+        ],
+        [
+          "Solução",
+          "If we tighten it, it'll stop.",
+          "Se apertarmos, vai parar."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "There's a problem with the conveyor. It keeps stopping.",
+        "pt": "Tem um problema com a esteira. Ela fica parando."
+      },
+      {
+        "en": "Does the noise happen all the time or only when it's hot?",
+        "pt": "O barulho acontece o tempo todo ou só quando está quente?"
+      },
+      {
+        "en": "The seal is worn, so oil is leaking.",
+        "pt": "A vedação está gasta, por isso o óleo está vazando."
+      },
+      {
+        "en": "If we don't find the root cause, the problem will come back.",
+        "pt": "Se não acharmos a causa raiz, o problema vai voltar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "What's wrong with the pump?",
+    "falas": [
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Hi, there's a problem with pump 3. It's making a strange noise.",
+        "pt": "Oi, tem um problema com a bomba 3. Está fazendo um barulho estranho."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "When does it happen? All the time?",
+        "pt": "Quando acontece? O tempo todo?"
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "No, only when the pressure is high. And there's some water on the floor.",
+        "pt": "Não, só quando a pressão está alta. E tem um pouco de água no chão."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "OK, so it's leaking too. The seal is probably worn.",
+        "pt": "OK, então está vazando também. A vedação provavelmente está gasta."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Can you replace it now?",
+        "pt": "Você pode trocar agora?"
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "If we have the part in stock, yes. But we need to find the root cause. This is the third seal this year.",
+        "pt": "Se tivermos a peça em estoque, sim. Mas precisamos achar a causa raiz. É a terceira vedação este ano."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Maybe the pressure is too high for this pump.",
+        "pt": "Talvez a pressão esteja alta demais para esta bomba."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Good point. If that's the problem, the new seal will fail again. I'll check it.",
+        "pt": "Bem lembrado. Se for esse o problema, a vedação nova vai falhar de novo. Vou verificar."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is wrong with pump 3?",
+        "opcoes": [
+          "It makes a strange noise and leaks.",
+          "It doesn't start.",
+          "It is too slow."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l4-e2",
+        "tipo": "multipla",
+        "enunciado": "When does the noise happen?",
+        "opcoes": [
+          "All the time",
+          "Only when the pressure is high",
+          "Only in the morning"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How many seals have they changed this year?",
+        "opcoes": [
+          "One",
+          "Two",
+          "This is the third"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b1u04l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the operator suggest as the root cause?",
+        "opcoes": [
+          "The pressure is too high.",
+          "The water is dirty.",
+          "The pump is new."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u04l4-p1",
+      "tipo": "completar",
+      "frase": "There's an oil ___ under the machine. (vazamento)",
+      "respostas": [
+        "leak"
+      ]
+    },
+    {
+      "id": "b1u04l4-p2",
+      "tipo": "completar",
+      "frase": "The belt is ___. We need to replace it. (gasta)",
+      "respostas": [
+        "worn"
+      ]
+    },
+    {
+      "id": "b1u04l4-p3",
+      "tipo": "completar",
+      "frase": "There's a problem ___ the conveyor.",
+      "respostas": [
+        "with"
+      ]
+    },
+    {
+      "id": "b1u04l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O papel fica enroscando\":",
+      "opcoes": [
+        "The paper keeps getting stuck.",
+        "The paper is keep stuck.",
+        "The paper stays stucking."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Um parafuso está solto\":",
+      "opcoes": [
+        "A screw is loose.",
+        "A screw is lose.",
+        "A screw is lost."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l4-p6",
+      "tipo": "ordenar",
+      "frase": "We need to find the root cause",
+      "traducao_pt": "Precisamos achar a causa raiz"
+    },
+    {
+      "id": "b1u04l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The motor is making a strange noise."
+    },
+    {
+      "id": "b1u04l4-p8",
+      "tipo": "traduzir",
+      "pt": "Encontramos dez peças com defeito.",
+      "respostas": [
+        "We found ten defective parts.",
+        "We've found ten defective parts."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor é um técnico de manutenção. Descreva um problema numa máquina (ou no seu carro) e respondam juntos: quando acontece, qual a causa provável e a solução.",
+    "papel_professor": "Faça o papel de técnico. Faça perguntas de diagnóstico (When does it happen? Is it leaking? Is anything loose?). Proponha soluções com first conditional. Corrija descrição de defeitos.",
+    "abertura": "Maintenance, good morning. What's the problem?",
+    "abertura_pt": "Manutenção, bom dia. Qual é o problema?"
+  },
+  "teste": [
+    {
+      "id": "b1u04l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"A bomba está vazando\":",
+      "opcoes": [
+        "The pump is leaking.",
+        "The pump is leaks.",
+        "The pump leaking is."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l4-t2",
+      "tipo": "completar",
+      "frase": "The mould has a small ___. (rachadura)",
+      "respostas": [
+        "crack"
+      ]
+    },
+    {
+      "id": "b1u04l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Replace the filter every month."
+    },
+    {
+      "id": "b1u04l4-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos diagnosticar o problema passo a passo.",
+      "respostas": [
+        "Let's troubleshoot the problem step by step.",
+        "Let us troubleshoot the problem step by step."
+      ]
+    },
+    {
+      "id": "b1u04l4-t5",
+      "tipo": "ordenar",
+      "frase": "If we tighten it it will stop",
+      "traducao_pt": "Se apertarmos, vai parar"
+    }
+  ]
+}

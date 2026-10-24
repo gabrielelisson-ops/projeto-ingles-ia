@@ -1,0 +1,356 @@
+{
+  "id": "b1-u06-l5",
+  "nivel": "B1",
+  "unidade": 6,
+  "numero": 5,
+  "titulo": "Presenting a process",
+  "objetivo_pt": "Apresentar um processo completo da empresa, juntando passiva no presente, passado e com modais.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga ao professor 3 fatos sobre um produto que você usa todo dia, usando a passiva (onde é feito, de que é feito, quando foi inventado).",
+    "papel_professor": "Peça 3 fatos na passiva sobre um produto do dia a dia. Corrija is/was/must be + particípio.",
+    "abertura": "Choose an object near you. Tell me three facts about it using the passive.",
+    "abertura_pt": "Escolha um objeto perto de você. Me diga três fatos sobre ele usando a passiva."
+  },
+  "vocabulario": [
+    {
+      "id": "flowchart",
+      "en": "flowchart",
+      "pt": "fluxograma",
+      "emoji": "🗺️",
+      "exemplo_en": "The process is shown in this flowchart.",
+      "exemplo_pt": "O processo é mostrado neste fluxograma."
+    },
+    {
+      "id": "input-output",
+      "en": "input / output",
+      "pt": "entrada / saída",
+      "emoji": "↔️",
+      "exemplo_en": "The output of one stage is the input of the next.",
+      "exemplo_pt": "A saída de uma etapa é a entrada da próxima."
+    },
+    {
+      "id": "capacity",
+      "en": "capacity",
+      "pt": "capacidade",
+      "emoji": "📊",
+      "exemplo_en": "The line has a capacity of 500 units per hour.",
+      "exemplo_pt": "A linha tem capacidade de 500 unidades por hora."
+    },
+    {
+      "id": "conveyor",
+      "en": "conveyor belt",
+      "pt": "esteira transportadora",
+      "emoji": "➡️",
+      "exemplo_en": "The boxes are moved by a conveyor belt.",
+      "exemplo_pt": "As caixas são movidas por uma esteira."
+    },
+    {
+      "id": "mixed",
+      "en": "mix / mixed",
+      "pt": "misturar / misturado",
+      "emoji": "🥣",
+      "exemplo_en": "The ingredients are mixed for ten minutes.",
+      "exemplo_pt": "Os ingredientes são misturados por dez minutos."
+    },
+    {
+      "id": "heated",
+      "en": "heat / cool down",
+      "pt": "aquecer / esfriar",
+      "emoji": "🌡️",
+      "exemplo_en": "The mixture is heated and then cooled down.",
+      "exemplo_pt": "A mistura é aquecida e depois resfriada."
+    },
+    {
+      "id": "shaped",
+      "en": "shape / mould",
+      "pt": "moldar / molde",
+      "emoji": "🫙",
+      "exemplo_en": "The plastic is shaped in a mould.",
+      "exemplo_pt": "O plástico é moldado num molde."
+    },
+    {
+      "id": "labeled",
+      "en": "label / labeled",
+      "pt": "rotular / rotulado",
+      "emoji": "🏷️",
+      "exemplo_en": "Every bottle is labeled automatically.",
+      "exemplo_pt": "Toda garrafa é rotulada automaticamente."
+    },
+    {
+      "id": "dispatched",
+      "en": "dispatch",
+      "pt": "expedir",
+      "emoji": "🚛",
+      "exemplo_en": "Orders are dispatched within 48 hours.",
+      "exemplo_pt": "Os pedidos são expedidos em até 48 horas."
+    },
+    {
+      "id": "approximately",
+      "en": "approximately",
+      "pt": "aproximadamente",
+      "emoji": "≈",
+      "exemplo_en": "It takes approximately two hours.",
+      "exemplo_pt": "Leva aproximadamente duas horas."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Apresentando um processo",
+    "explicacao_pt": "Estrutura de apresentação: 1) Introdução: Today I'm going to explain how … is made. 2) Matéria-prima: The raw material is … It is bought from / supplied by … 3) Etapas na passiva com sequenciadores: First, … is … Then, … Once …, … 4) Controle: … must be checked / is tested… 5) Final: Finally, … is packed and dispatched. 6) Números: capacity, it takes approximately…, at … degrees. 7) Fechamento: Any questions?",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Abertura",
+          "Today I'm going to explain how…",
+          "Today I'm going to explain how our yogurt is made."
+        ],
+        [
+          "Matéria-prima",
+          "… is supplied by …",
+          "The milk is supplied by local farms."
+        ],
+        [
+          "Etapas",
+          "First, … is … Then, …",
+          "First, the milk is heated."
+        ],
+        [
+          "Controle",
+          "… must be checked …",
+          "The temperature must be checked every hour."
+        ],
+        [
+          "Fim",
+          "Finally, … is dispatched.",
+          "Finally, the yogurt is dispatched in refrigerated trucks."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Today I'm going to explain how our yogurt is made.",
+        "pt": "Hoje vou explicar como nosso iogurte é feito."
+      },
+      {
+        "en": "The milk is supplied by forty local farms and it is tested when it arrives.",
+        "pt": "O leite é fornecido por quarenta fazendas locais e é testado na chegada."
+      },
+      {
+        "en": "Then it is heated to 90 degrees, cooled down and mixed with the cultures.",
+        "pt": "Depois é aquecido a 90 graus, resfriado e misturado com os fermentos."
+      },
+      {
+        "en": "Finally, the cups are labeled, packed and dispatched in refrigerated trucks.",
+        "pt": "Por fim, os potes são rotulados, embalados e expedidos em caminhões refrigerados."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A presentation for visitors",
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Good morning. Today I'm going to explain how our glass bottles are made.",
+        "pt": "Bom dia. Hoje vou explicar como nossas garrafas de vidro são feitas."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "The raw materials are sand, soda ash and recycled glass. They're mixed and heated to 1,500 degrees in a furnace.",
+        "pt": "As matérias-primas são areia, barrilha e vidro reciclado. São misturadas e aquecidas a 1.500 graus num forno."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Then, the hot glass is cut into pieces and each piece is shaped in a mould.",
+        "pt": "Depois, o vidro quente é cortado em pedaços e cada pedaço é moldado num molde."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Once the bottles are shaped, they're cooled down slowly. If they're cooled too fast, they can break.",
+        "pt": "Depois de moldadas, as garrafas são resfriadas devagar. Se forem resfriadas rápido demais, podem quebrar."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Every bottle is inspected by a camera. Bottles with defects are removed and recycled.",
+        "pt": "Cada garrafa é inspecionada por uma câmera. As garrafas com defeito são removidas e recicladas."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Finally, they're packed on pallets and dispatched. The line has a capacity of 300,000 bottles a day. Any questions?",
+        "pt": "Por fim, são embaladas em paletes e expedidas. A linha tem capacidade de 300.000 garrafas por dia. Alguma pergunta?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What are the raw materials?",
+        "opcoes": [
+          "Sand, soda ash and recycled glass",
+          "Plastic and paper",
+          "Steel and aluminum"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l5-e2",
+        "tipo": "multipla",
+        "enunciado": "At what temperature are they heated?",
+        "opcoes": [
+          "500 degrees",
+          "1,500 degrees",
+          "15,000 degrees"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l5-e3",
+        "tipo": "multipla",
+        "enunciado": "Why are the bottles cooled down slowly?",
+        "opcoes": [
+          "If they are cooled too fast, they can break.",
+          "To save energy",
+          "To change the color"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What happens to bottles with defects?",
+        "opcoes": [
+          "They are sold cheaper.",
+          "They are removed and recycled.",
+          "They are sent back to the customer."
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u06l5-p1",
+      "tipo": "completar",
+      "frase": "The ingredients are ___ for ten minutes. (misturados)",
+      "respostas": [
+        "mixed"
+      ]
+    },
+    {
+      "id": "b1u06l5-p2",
+      "tipo": "completar",
+      "frase": "The plastic is ___ in a mould. (moldado)",
+      "respostas": [
+        "shaped"
+      ]
+    },
+    {
+      "id": "b1u06l5-p3",
+      "tipo": "completar",
+      "frase": "Orders are ___ within 48 hours. (expedidos)",
+      "respostas": [
+        "dispatched"
+      ]
+    },
+    {
+      "id": "b1u06l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Abertura de apresentação:",
+      "opcoes": [
+        "Today I'm going to explain how our yogurt is made.",
+        "Today I go explaining how is made our yogurt.",
+        "Today I explain how our yogurt makes."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O leite é fornecido por fazendas locais\":",
+      "opcoes": [
+        "The milk is supplied by local farms.",
+        "The milk supplies by local farms.",
+        "The milk is supply from local farms."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l5-p6",
+      "tipo": "ordenar",
+      "frase": "The boxes are moved by a conveyor belt",
+      "traducao_pt": "As caixas são movidas por uma esteira"
+    },
+    {
+      "id": "b1u06l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It takes approximately two hours."
+    },
+    {
+      "id": "b1u06l5-p8",
+      "tipo": "traduzir",
+      "pt": "A linha tem capacidade de 500 unidades por hora.",
+      "respostas": [
+        "The line has a capacity of 500 units per hour.",
+        "The line has a capacity of 500 units an hour.",
+        "The line has a capacity of five hundred units per hour."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: faça uma apresentação curta (2–3 minutos) para o professor (um visitante) sobre como um produto é feito: matéria-prima, etapas, controle de qualidade e expedição. Depois, responda às perguntas dele.",
+    "papel_professor": "Faça o papel de visitante interessado. Deixe o aluno apresentar e depois faça 3 perguntas (How long does it take? What happens if…? How is quality checked?). Corrija passivas e sequência.",
+    "abertura": "Thank you for having me. I'm ready for your presentation!",
+    "abertura_pt": "Obrigado por me receber. Estou pronto para a sua apresentação!"
+  },
+  "teste": [
+    {
+      "id": "b1u06l5-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Toda garrafa é rotulada automaticamente\":",
+      "opcoes": [
+        "Every bottle is labeled automatically.",
+        "Every bottles are labeled automatic.",
+        "Every bottle labels automatically."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l5-t2",
+      "tipo": "completar",
+      "frase": "The mixture is heated and then ___ down. (resfriada)",
+      "respostas": [
+        "cooled"
+      ]
+    },
+    {
+      "id": "b1u06l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The process is shown in this flowchart."
+    },
+    {
+      "id": "b1u06l5-t4",
+      "tipo": "traduzir",
+      "pt": "A saída de uma etapa é a entrada da próxima.",
+      "respostas": [
+        "The output of one stage is the input of the next.",
+        "The output of one stage is the input of the next one.",
+        "The output of one step is the input of the next."
+      ]
+    },
+    {
+      "id": "b1u06l5-t5",
+      "tipo": "ordenar",
+      "frase": "Bottles with defects are removed",
+      "traducao_pt": "Garrafas com defeito são removidas"
+    }
+  ]
+}

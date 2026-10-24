@@ -4,6 +4,12 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 
 ## O que já funciona
 
+### Fase 4
+- **Curso completo do A1 ao C1**: 5 níveis × 8 unidades = 200 aulas + 40 provas de unidade + 5 provas finais com entrevista oral. Todo o conteúdo é original e foi escrito e revisado à mão (sem custo de IA), validado pelos testes automáticos.
+- **Inglês de indústria em todos os níveis**: turnos, segurança e EPI (A2), processos e voz passiva, problemas de produção (B1), reuniões de produção, negociação com fornecedores, relatórios e melhoria contínua — PDCA, kaizen, 5S (B2), inglês corporativo, KPIs, supply chain, planejamento de produção, S&OP e MRP (C1).
+- **Teste de nivelamento**: perguntas de A1 a C1 + uma resposta falada avaliada pela IA. O app sugere por onde começar; os níveis anteriores ficam marcados como dispensados (dá para refazer o nivelamento em Configurações).
+- **Estudar juntos**: os dois perfis no mesmo celular, numa cena com o professor (mercado, viagem, jantar…). Cada um fala na sua vez; as correções e os erros vão para o perfil de quem falou. O nível da conversa é o do perfil mais iniciante.
+
 ### Fase 3
 - **Revisão diária** (repetição espaçada, SM-2): palavras das aulas, frases erradas e erros corrigidos pelo professor voltam nos dias certos. O botão "Revisão" na tela inicial mostra quantos cartões há para hoje.
 - **Pronúncia**: leia uma frase em voz alta; o app compara com o que o reconhecimento de voz entendeu e destaca em vermelho as palavras não reconhecidas. A nota é aproximada.
@@ -52,7 +58,7 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 
 ### Gerar uma unidade nova com IA (no computador)
 
-O gerador cria as 5 aulas e a prova de uma unidade a partir do `curriculo.json`. Tudo passa pelo formato oficial; se a IA errar, ela recebe a lista de erros e corrige sozinha (até 3 vezes).
+Os 5 níveis já estão prontos; o gerador serve para criar uma versão alternativa de alguma unidade (por exemplo, para variar os exercícios depois de fazer o curso uma vez). Ele cria as 5 aulas e a prova de uma unidade a partir do `curriculo.json`. Tudo passa pelo formato oficial; se a IA errar, ela recebe a lista de erros e corrige sozinha (até 3 vezes).
 
 No PowerShell, dentro da pasta do projeto:
 

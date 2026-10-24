@@ -1,0 +1,357 @@
+{
+  "id": "c1-u03-l5",
+  "nivel": "C1",
+  "unidade": 3,
+  "numero": 5,
+  "titulo": "Closing strong",
+  "objetivo_pt": "Encerrar uma apresentação com resumo, mensagem principal e chamada para ação; apresentação completa.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: como você normalmente termina uma apresentação? O professor vai mostrar formas mais fortes de encerrar.",
+    "papel_professor": "Pergunte como o aluno costuma encerrar. Ensine o encerramento (signal the end, summary, key message, call to action, thank, questions). Mostre a diferença entre 'That's all' e um fechamento forte.",
+    "abertura": "How do you usually end a presentation?",
+    "abertura_pt": "Como você costuma terminar uma apresentação?"
+  },
+  "vocabulario": [
+    {
+      "id": "come-to-end",
+      "en": "That brings me to the end of my talk",
+      "pt": "Isso me leva ao final da apresentação",
+      "emoji": "🏁",
+      "exemplo_en": "That brings me to the end of my presentation.",
+      "exemplo_pt": "Isso me leva ao final da minha apresentação."
+    },
+    {
+      "id": "recap",
+      "en": "Let me briefly recap",
+      "pt": "Deixem-me recapitular brevemente",
+      "emoji": "🔁",
+      "exemplo_en": "Let me briefly recap the main points.",
+      "exemplo_pt": "Deixem-me recapitular brevemente os pontos principais."
+    },
+    {
+      "id": "key-message",
+      "en": "If there's one thing to remember…",
+      "pt": "Se há uma coisa para lembrar…",
+      "emoji": "🔑",
+      "exemplo_en": "If there's one thing I'd like you to remember, it's this.",
+      "exemplo_pt": "Se há uma coisa que eu gostaria que lembrassem, é esta."
+    },
+    {
+      "id": "take-away",
+      "en": "key takeaway",
+      "pt": "mensagem principal",
+      "emoji": "🥡",
+      "exemplo_en": "The key takeaway is simple.",
+      "exemplo_pt": "A principal mensagem é simples."
+    },
+    {
+      "id": "call-l5",
+      "en": "So, what I'm asking you today is…",
+      "pt": "Então, o que estou pedindo hoje é…",
+      "emoji": "📣",
+      "exemplo_en": "What I'm asking you today is to approve the pilot.",
+      "exemplo_pt": "O que estou pedindo hoje é que aprovem o piloto."
+    },
+    {
+      "id": "approve",
+      "en": "approve / approval",
+      "pt": "aprovar / aprovação",
+      "emoji": "✅",
+      "exemplo_en": "We need your approval by Friday.",
+      "exemplo_pt": "Precisamos da aprovação de vocês até sexta."
+    },
+    {
+      "id": "thank-attention",
+      "en": "Thank you for your attention",
+      "pt": "Obrigado pela atenção",
+      "emoji": "🙏",
+      "exemplo_en": "Thank you for your attention.",
+      "exemplo_pt": "Obrigado pela atenção."
+    },
+    {
+      "id": "open-floor",
+      "en": "I'd now like to open the floor to questions",
+      "pt": "Agora gostaria de abrir para perguntas",
+      "emoji": "🎤",
+      "exemplo_en": "I'd now like to open the floor to questions.",
+      "exemplo_pt": "Agora gostaria de abrir para perguntas."
+    },
+    {
+      "id": "nerves",
+      "en": "nerves / nervous",
+      "pt": "nervosismo / nervoso",
+      "emoji": "😰",
+      "exemplo_en": "It's normal to feel nervous.",
+      "exemplo_pt": "É normal ficar nervoso."
+    },
+    {
+      "id": "rehearse",
+      "en": "rehearse",
+      "pt": "ensaiar",
+      "emoji": "🎭",
+      "exemplo_en": "Rehearse your talk at least three times.",
+      "exemplo_pt": "Ensaie sua apresentação pelo menos três vezes."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Encerrando com força",
+    "explicacao_pt": "1) SINALIZAR O FIM: That brings me to the end of my talk. / So, to conclude, … 2) RECAPITULAR: Let me briefly recap the main points. First, … Second, … Finally, … 3) MENSAGEM PRINCIPAL: If there's one thing I'd like you to remember, it's this: … / The key takeaway is… 4) CHAMADA PARA AÇÃO: So, what I'm asking you today is to + verbo / I'd like you to… 5) AGRADECER: Thank you for your attention. 6) PERGUNTAS: I'd now like to open the floor to questions. Evite terminar com 'That's all' ou 'Sorry, that's it'. Retome o gancho do início se possível (fechar o círculo).",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Fim",
+          "That brings me to the end of my talk.",
+          "Isso me leva ao final."
+        ],
+        [
+          "Recapitular",
+          "Let me briefly recap…",
+          "Deixem-me recapitular…"
+        ],
+        [
+          "Mensagem",
+          "If there's one thing to remember, it's…",
+          "Se há uma coisa a lembrar, é…"
+        ],
+        [
+          "Ação",
+          "What I'm asking you today is to…",
+          "O que peço hoje é que…"
+        ],
+        [
+          "Perguntas",
+          "I'd now like to open the floor to questions.",
+          "Agora abro para perguntas."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "That brings me to the end of my talk. Let me briefly recap the three main points.",
+        "pt": "Isso me leva ao final da apresentação. Deixem-me recapitular os três pontos principais."
+      },
+      {
+        "en": "If there's one thing I'd like you to remember, it's this: waiting is the most expensive thing we do.",
+        "pt": "Se há uma coisa que eu gostaria que lembrassem, é esta: esperar é a coisa mais cara que fazemos."
+      },
+      {
+        "en": "So, what I'm asking you today is to approve a three-month pilot.",
+        "pt": "Então, o que estou pedindo hoje é que aprovem um piloto de três meses."
+      },
+      {
+        "en": "Thank you for your attention. I'd now like to open the floor to questions.",
+        "pt": "Obrigado pela atenção. Agora gostaria de abrir para perguntas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A strong ending",
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "That brings me to the end of my talk. Let me briefly recap.",
+        "pt": "Isso me leva ao final da minha apresentação. Deixem-me recapitular."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "First, our forklifts waste 620 hours a month waiting. Second, the main cause is that all the trucks arrive at the same time.",
+        "pt": "Primeiro, nossas empilhadeiras desperdiçam 620 horas por mês esperando. Segundo, a principal causa é que todos os caminhões chegam ao mesmo tempo."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "And third, scheduled delivery slots can cut that time by half, with an investment of only 80,000 reais.",
+        "pt": "E terceiro, janelas de entrega agendadas podem reduzir esse tempo pela metade, com investimento de apenas 80.000 reais."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "If there's one thing I'd like you to remember, it's this: waiting is the most expensive thing we do.",
+        "pt": "Se há uma coisa que eu gostaria que lembrassem, é esta: esperar é a coisa mais cara que fazemos."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "So, what I'm asking you today is to approve a three-month pilot, starting in March.",
+        "pt": "Então, o que estou pedindo hoje é que aprovem um piloto de três meses, começando em março."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Thank you for your attention. I'd now like to open the floor to questions.",
+        "pt": "Obrigado pela atenção. Agora gostaria de abrir para perguntas."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many hours a month do the forklifts waste?",
+        "opcoes": [
+          "260",
+          "620",
+          "820"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03l5-e2",
+        "tipo": "multipla",
+        "enunciado": "How much is the investment?",
+        "opcoes": [
+          "8,000 reais",
+          "80,000 reais",
+          "800,000 reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the key message?",
+        "opcoes": [
+          "Waiting is the most expensive thing we do.",
+          "Forklifts are old.",
+          "Trucks are late."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the presenter asking for?",
+        "opcoes": [
+          "Approval for a three-month pilot",
+          "More forklifts",
+          "A new warehouse"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u03l5-p1",
+      "tipo": "completar",
+      "frase": "That brings me to the ___ of my talk.",
+      "respostas": [
+        "end"
+      ]
+    },
+    {
+      "id": "c1u03l5-p2",
+      "tipo": "completar",
+      "frase": "Let me briefly ___ the main points. (recapitular)",
+      "respostas": [
+        "recap"
+      ]
+    },
+    {
+      "id": "c1u03l5-p3",
+      "tipo": "completar",
+      "frase": "I'd now like to open the ___ to questions.",
+      "respostas": [
+        "floor"
+      ]
+    },
+    {
+      "id": "c1u03l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Encerramento forte:",
+      "opcoes": [
+        "If there's one thing I'd like you to remember, it's this…",
+        "Sorry, that's all. Bye.",
+        "OK, finished, questions?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l5-p5",
+      "tipo": "multipla",
+      "enunciado": "Chamada para ação:",
+      "opcoes": [
+        "What I'm asking you today is to approve the pilot.",
+        "Maybe you can think about it someday.",
+        "That's my talk."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l5-p6",
+      "tipo": "ordenar",
+      "frase": "Rehearse your talk at least three times",
+      "traducao_pt": "Ensaie sua apresentação pelo menos três vezes"
+    },
+    {
+      "id": "c1u03l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The key takeaway is simple."
+    },
+    {
+      "id": "c1u03l5-p8",
+      "tipo": "traduzir",
+      "pt": "Obrigado pela atenção.",
+      "respostas": [
+        "Thank you for your attention.",
+        "Thanks for your attention."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: faça uma apresentação completa de 3–4 minutos para o professor (a diretoria) sobre uma proposta de melhoria. Abra com gancho e roteiro, use sinalização, um trecho nominalizado, feche com recapitulação, mensagem principal e chamada para ação, e responda a 2 perguntas.",
+    "papel_professor": "Ouça a apresentação inteira. Faça 2 perguntas (uma difícil). Depois dê retorno estruturado: abertura, sinalização, clareza, fechamento, respostas. Corrija os principais erros.",
+    "abertura": "The board members are seated and ready. You have four minutes. Please start whenever you're ready.",
+    "abertura_pt": "Os membros da diretoria estão sentados e prontos. Você tem quatro minutos. Comece quando quiser."
+  },
+  "teste": [
+    {
+      "id": "c1u03l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Sinalizar o fim:",
+      "opcoes": [
+        "So, to conclude, …",
+        "And other things also.",
+        "Next slide please."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l5-t2",
+      "tipo": "completar",
+      "frase": "We need your ___ by Friday. (aprovação)",
+      "respostas": [
+        "approval"
+      ]
+    },
+    {
+      "id": "c1u03l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It's normal to feel nervous.",
+      "aceitas": [
+        "It is normal to feel nervous."
+      ]
+    },
+    {
+      "id": "c1u03l5-t4",
+      "tipo": "traduzir",
+      "pt": "O que estou pedindo hoje é que aprovem o piloto.",
+      "respostas": [
+        "What I'm asking you today is to approve the pilot.",
+        "What I am asking you today is to approve the pilot."
+      ]
+    },
+    {
+      "id": "c1u03l5-t5",
+      "tipo": "ordenar",
+      "frase": "Let me briefly recap the main points",
+      "traducao_pt": "Deixem-me recapitular brevemente os pontos principais"
+    }
+  ]
+}

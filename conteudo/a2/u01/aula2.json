@@ -1,0 +1,339 @@
+{
+  "id": "a2-u01-l2",
+  "nivel": "A2",
+  "unidade": 1,
+  "numero": 2,
+  "titulo": "I watched a movie",
+  "objetivo_pt": "Contar o que você fez com verbos regulares no passado (-ed).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você fez ontem. Use verbos com -ed: watched, cooked, played…",
+    "papel_professor": "Pergunte o que o aluno fez ontem e no fim de semana. Incentive verbos regulares no passado (watched, cooked, cleaned, visited, played, walked). Corrija o -ed.",
+    "abertura": "Yesterday I cooked pasta and watched a movie. What did you do yesterday?",
+    "abertura_pt": "Ontem eu cozinhei macarrão e assisti a um filme. O que você fez ontem?"
+  },
+  "vocabulario": [
+    {
+      "id": "watched",
+      "en": "watched",
+      "pt": "assistiu / assisti",
+      "emoji": "📺",
+      "exemplo_en": "We watched a movie on Friday.",
+      "exemplo_pt": "Assistimos a um filme na sexta."
+    },
+    {
+      "id": "cooked",
+      "en": "cooked",
+      "pt": "cozinhou",
+      "emoji": "🍳",
+      "exemplo_en": "My wife cooked a great lunch.",
+      "exemplo_pt": "Minha esposa fez um almoço ótimo."
+    },
+    {
+      "id": "cleaned",
+      "en": "cleaned",
+      "pt": "limpou",
+      "emoji": "🧹",
+      "exemplo_en": "I cleaned the house on Saturday.",
+      "exemplo_pt": "Limpei a casa no sábado."
+    },
+    {
+      "id": "visited",
+      "en": "visited",
+      "pt": "visitou",
+      "emoji": "🏡",
+      "exemplo_en": "We visited my parents.",
+      "exemplo_pt": "Visitamos meus pais."
+    },
+    {
+      "id": "played",
+      "en": "played",
+      "pt": "jogou / brincou",
+      "emoji": "⚽",
+      "exemplo_en": "The kids played in the park.",
+      "exemplo_pt": "As crianças brincaram no parque."
+    },
+    {
+      "id": "walked",
+      "en": "walked",
+      "pt": "caminhou",
+      "emoji": "🚶",
+      "exemplo_en": "I walked on the beach.",
+      "exemplo_pt": "Caminhei na praia."
+    },
+    {
+      "id": "studied",
+      "en": "studied",
+      "pt": "estudou",
+      "emoji": "📚",
+      "exemplo_en": "She studied English for an hour.",
+      "exemplo_pt": "Ela estudou inglês por uma hora."
+    },
+    {
+      "id": "stayed",
+      "en": "stayed",
+      "pt": "ficou",
+      "emoji": "🛋️",
+      "exemplo_en": "We stayed at home.",
+      "exemplo_pt": "Ficamos em casa."
+    },
+    {
+      "id": "worked",
+      "en": "worked",
+      "pt": "trabalhou",
+      "emoji": "🛠️",
+      "exemplo_en": "He worked on Saturday morning.",
+      "exemplo_pt": "Ele trabalhou no sábado de manhã."
+    },
+    {
+      "id": "relaxed",
+      "en": "relaxed",
+      "pt": "descansou / relaxou",
+      "emoji": "😌",
+      "exemplo_en": "On Sunday I relaxed.",
+      "exemplo_pt": "No domingo eu descansei."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Passado simples: verbos regulares",
+    "explicacao_pt": "Para ações terminadas no passado, os verbos regulares ganham -ED, e é igual para todas as pessoas: I worked, she worked, they worked. Regras de escrita: terminou em -e, só acrescente -d (live → lived); consoante + y vira -ied (study → studied); verbo curto com consoante-vogal-consoante dobra a última (stop → stopped). Pronúncia do -ed: 't' depois de sons como k/p/ch (worked = 'uórkt'), 'd' na maioria (played = 'plêid') e 'id' só depois de t/d (visited = 'vízitid'). Não diga 'work-ed'!",
+    "tabela": {
+      "colunas": [
+        "Regra",
+        "Exemplo",
+        "Som"
+      ],
+      "linhas": [
+        [
+          "+ ed",
+          "work → worked",
+          "/t/"
+        ],
+        [
+          "+ d",
+          "live → lived",
+          "/d/"
+        ],
+        [
+          "y → ied",
+          "study → studied",
+          "/d/"
+        ],
+        [
+          "dobra a consoante",
+          "stop → stopped",
+          "/t/"
+        ],
+        [
+          "depois de t / d",
+          "visit → visited",
+          "/id/"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I worked until six and then I cooked dinner.",
+        "pt": "Trabalhei até as seis e depois fiz o jantar."
+      },
+      {
+        "en": "We visited my grandmother on Sunday.",
+        "pt": "Visitamos minha avó no domingo."
+      },
+      {
+        "en": "She studied for the test last night.",
+        "pt": "Ela estudou para a prova ontem à noite."
+      },
+      {
+        "en": "The bus stopped in front of the factory.",
+        "pt": "O ônibus parou em frente à fábrica."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A quiet weekend",
+    "falas": [
+      {
+        "personagem": "Sam",
+        "voz": "a",
+        "en": "Hi, Bia. Did you have a good weekend?",
+        "pt": "Oi, Bia. Teve um bom fim de semana?"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "Yes, it was quiet. On Saturday I cleaned the house and cooked for my family.",
+        "pt": "Sim, foi tranquilo. No sábado limpei a casa e cozinhei para minha família."
+      },
+      {
+        "personagem": "Sam",
+        "voz": "a",
+        "en": "And on Sunday?",
+        "pt": "E no domingo?"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "We walked in the park and the kids played soccer. Then we watched a movie.",
+        "pt": "Caminhamos no parque e as crianças jogaram futebol. Depois assistimos a um filme."
+      },
+      {
+        "personagem": "Sam",
+        "voz": "a",
+        "en": "Nice. I worked on Saturday, but I relaxed on Sunday.",
+        "pt": "Legal. Eu trabalhei no sábado, mas descansei no domingo."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "b",
+        "en": "You deserved it!",
+        "pt": "Você mereceu!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What did Bia do on Saturday?",
+        "opcoes": [
+          "Walked in the park",
+          "Cleaned the house and cooked",
+          "Worked"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What did the kids play?",
+        "opcoes": [
+          "Soccer",
+          "Volleyball",
+          "Video games"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u01l2-e3",
+        "tipo": "multipla",
+        "enunciado": "When did Sam work?",
+        "opcoes": [
+          "On Saturday",
+          "On Sunday",
+          "On Friday"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u01l2-p1",
+      "tipo": "completar",
+      "frase": "I ___ a movie last night. (watch)",
+      "respostas": [
+        "watched"
+      ]
+    },
+    {
+      "id": "a2u01l2-p2",
+      "tipo": "completar",
+      "frase": "She ___ English yesterday. (study)",
+      "respostas": [
+        "studied"
+      ]
+    },
+    {
+      "id": "a2u01l2-p3",
+      "tipo": "completar",
+      "frase": "We ___ at home on Sunday. (stay)",
+      "respostas": [
+        "stayed"
+      ]
+    },
+    {
+      "id": "a2u01l2-p4",
+      "tipo": "completar",
+      "frase": "The machine ___ at three. (stop)",
+      "respostas": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "a2u01l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual tem o som /id/ no final?",
+      "opcoes": [
+        "worked",
+        "played",
+        "visited"
+      ],
+      "correta": 2
+    },
+    {
+      "id": "a2u01l2-p6",
+      "tipo": "ordenar",
+      "frase": "We visited my parents on Sunday",
+      "traducao_pt": "Visitamos meus pais no domingo"
+    },
+    {
+      "id": "a2u01l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I cleaned the house on Saturday."
+    },
+    {
+      "id": "a2u01l2-p8",
+      "tipo": "traduzir",
+      "pt": "Ele trabalhou no sábado.",
+      "respostas": [
+        "He worked on Saturday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte para o professor três coisas que você fez no último fim de semana usando verbos no passado.",
+    "papel_professor": "Peça ao aluno para contar o fim de semana. Faça perguntas de continuação (Who did you visit? What did you cook?). Corrija verbos regulares no passado e a pronúncia do -ed quando possível.",
+    "abertura": "Tell me three things you did last weekend!",
+    "abertura_pt": "Me conte três coisas que você fez no último fim de semana!"
+  },
+  "teste": [
+    {
+      "id": "a2u01l2-t1",
+      "tipo": "completar",
+      "frase": "They ___ soccer in the park. (play)",
+      "respostas": [
+        "played"
+      ]
+    },
+    {
+      "id": "a2u01l2-t2",
+      "tipo": "multipla",
+      "enunciado": "Passado de \"live\":",
+      "opcoes": [
+        "lived",
+        "liveed",
+        "livd"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u01l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We walked on the beach."
+    },
+    {
+      "id": "a2u01l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu cozinhei o jantar.",
+      "respostas": [
+        "I cooked dinner.",
+        "I cooked the dinner."
+      ]
+    },
+    {
+      "id": "a2u01l2-t5",
+      "tipo": "ordenar",
+      "frase": "She studied for an hour",
+      "traducao_pt": "Ela estudou por uma hora"
+    }
+  ]
+}

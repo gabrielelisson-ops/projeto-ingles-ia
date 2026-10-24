@@ -1,0 +1,356 @@
+{
+  "id": "b2-u08-l1",
+  "nivel": "B2",
+  "unidade": 8,
+  "numero": 1,
+  "titulo": "This time next week, we'll be testing…",
+  "objetivo_pt": "Usar o future continuous para ações em andamento num momento futuro.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você estará fazendo em certos momentos do futuro. Use \"I'll be…ing\".",
+    "papel_professor": "Pergunte (What will you be doing this time tomorrow? At 10 a.m. next Monday? In five years?). Ensine will be + -ing e o uso educado (Will you be using the car?). Corrija.",
+    "abertura": "What will you be doing this time tomorrow?",
+    "abertura_pt": "O que você estará fazendo amanhã a esta hora?"
+  },
+  "vocabulario": [
+    {
+      "id": "will-be-ing",
+      "en": "will be + -ing",
+      "pt": "estará (fazendo)",
+      "emoji": "⏩",
+      "exemplo_en": "This time next week, we'll be testing the new line.",
+      "exemplo_pt": "Semana que vem a esta hora, estaremos testando a nova linha."
+    },
+    {
+      "id": "this-time",
+      "en": "this time next week / tomorrow",
+      "pt": "semana que vem / amanhã a esta hora",
+      "emoji": "🕒",
+      "exemplo_en": "This time tomorrow, I'll be flying to Chile.",
+      "exemplo_pt": "Amanhã a esta hora, estarei voando para o Chile."
+    },
+    {
+      "id": "will-you-be",
+      "en": "Will you be + -ing…?",
+      "pt": "Você vai estar (usando)…? (educado)",
+      "emoji": "🙂",
+      "exemplo_en": "Will you be using the meeting room this afternoon?",
+      "exemplo_pt": "Você vai usar a sala de reunião esta tarde?"
+    },
+    {
+      "id": "trial",
+      "en": "trial / pilot",
+      "pt": "teste / piloto",
+      "emoji": "🧪",
+      "exemplo_en": "We'll be running a pilot in March.",
+      "exemplo_pt": "Vamos rodar um piloto em março."
+    },
+    {
+      "id": "roll-out",
+      "en": "roll out",
+      "pt": "implantar (em etapas)",
+      "emoji": "🚀",
+      "exemplo_en": "We'll be rolling out the system to all plants.",
+      "exemplo_pt": "Vamos implantar o sistema em todas as fábricas."
+    },
+    {
+      "id": "phase",
+      "en": "phase",
+      "pt": "fase",
+      "emoji": "🪜",
+      "exemplo_en": "In phase two, we'll be training the operators.",
+      "exemplo_pt": "Na fase dois, estaremos treinando os operadores."
+    },
+    {
+      "id": "monitor",
+      "en": "monitor",
+      "pt": "monitorar",
+      "emoji": "📟",
+      "exemplo_en": "We'll be monitoring the results closely.",
+      "exemplo_pt": "Vamos monitorar os resultados de perto."
+    },
+    {
+      "id": "shutdown-l1",
+      "en": "shutdown",
+      "pt": "parada (programada)",
+      "emoji": "⏹️",
+      "exemplo_en": "During the shutdown, we'll be replacing the boiler.",
+      "exemplo_pt": "Durante a parada, estaremos trocando a caldeira."
+    },
+    {
+      "id": "meanwhile-l1",
+      "en": "in the meantime",
+      "pt": "enquanto isso",
+      "emoji": "🔀",
+      "exemplo_en": "In the meantime, we'll be using the old machine.",
+      "exemplo_pt": "Enquanto isso, vamos usar a máquina antiga."
+    },
+    {
+      "id": "timeline-l1",
+      "en": "timeline / schedule",
+      "pt": "cronograma",
+      "emoji": "📅",
+      "exemplo_en": "Here's the timeline for the project.",
+      "exemplo_pt": "Aqui está o cronograma do projeto."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Future continuous",
+    "explicacao_pt": "Formação: WILL BE + verbo-ING. Usamos para: 1) ação EM ANDAMENTO num momento do futuro: At 10 a.m. tomorrow, I'll be presenting the results. This time next week, we'll be testing the new line. 2) planos que vão acontecer naturalmente, como parte da rotina: I'll be seeing Ana at the meeting anyway. 3) perguntas EDUCADAS sobre planos dos outros (sem parecer pedido): Will you be using the car tonight? (mais educado que 'Are you going to use…?'). Compare: At 8, I'll have breakfast (ação completa) × At 8, I'll be having breakfast (em andamento).",
+    "tabela": {
+      "colunas": [
+        "Uso",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Em andamento no futuro",
+          "At 3 p.m., we'll be inspecting the line.",
+          "Às 15h, estaremos inspecionando a linha."
+        ],
+        [
+          "Período futuro",
+          "During the shutdown, we'll be working nights.",
+          "Durante a parada, vamos trabalhar à noite."
+        ],
+        [
+          "Pergunta educada",
+          "Will you be joining us for lunch?",
+          "Você vai almoçar com a gente?"
+        ],
+        [
+          "Plano natural",
+          "I'll be seeing him at the meeting.",
+          "Vou vê-lo na reunião (de qualquer jeito)."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "This time next month, we'll be running the new packaging line.",
+        "pt": "Mês que vem a esta hora, estaremos rodando a nova linha de embalagem."
+      },
+      {
+        "en": "During the shutdown, the maintenance team will be replacing all the conveyor belts.",
+        "pt": "Durante a parada, a manutenção estará trocando todas as correias das esteiras."
+      },
+      {
+        "en": "Will you be attending the training on Friday?",
+        "pt": "Você vai participar do treinamento na sexta?"
+      },
+      {
+        "en": "In the meantime, we'll be monitoring the temperature every hour.",
+        "pt": "Enquanto isso, vamos monitorar a temperatura a cada hora."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The shutdown plan",
+    "falas": [
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Let's go over the plan for the December shutdown.",
+        "pt": "Vamos repassar o plano da parada de dezembro."
+      },
+      {
+        "personagem": "Maintenance",
+        "voz": "b",
+        "en": "From the 20th to the 23rd, we'll be replacing the boiler. It's the biggest job.",
+        "pt": "Do dia 20 ao 23, estaremos trocando a caldeira. É o maior serviço."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "And what will the production team be doing?",
+        "pt": "E o que a equipe de produção estará fazendo?"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "They'll be cleaning the lines and doing a 5S audit. Some operators will be taking their holidays.",
+        "pt": "Estarão limpando as linhas e fazendo uma auditoria 5S. Alguns operadores estarão de férias."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Will you be needing any external contractors?",
+        "pt": "Vocês vão precisar de terceiros?"
+      },
+      {
+        "personagem": "Maintenance",
+        "voz": "b",
+        "en": "Yes, about ten. And on the 26th, we'll be testing everything before we restart on the 27th.",
+        "pt": "Sim, uns dez. E no dia 26, estaremos testando tudo antes de religar no dia 27."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08l1-e1",
+        "tipo": "multipla",
+        "enunciado": "When will they replace the boiler?",
+        "opcoes": [
+          "From the 20th to the 23rd",
+          "On the 26th",
+          "On the 27th"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What will the production team be doing?",
+        "opcoes": [
+          "Cleaning the lines and doing a 5S audit",
+          "Replacing the boiler",
+          "Selling products"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How many external contractors will they need?",
+        "opcoes": [
+          "About five",
+          "About ten",
+          "About twenty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08l1-e4",
+        "tipo": "multipla",
+        "enunciado": "When will they restart?",
+        "opcoes": [
+          "On the 23rd",
+          "On the 26th",
+          "On the 27th"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u08l1-p1",
+      "tipo": "completar",
+      "frase": "This time next week, we'll ___ testing the new line.",
+      "respostas": [
+        "be"
+      ]
+    },
+    {
+      "id": "b2u08l1-p2",
+      "tipo": "completar",
+      "frase": "We'll be ___ the results closely. (monitorando)",
+      "respostas": [
+        "monitoring"
+      ]
+    },
+    {
+      "id": "b2u08l1-p3",
+      "tipo": "completar",
+      "frase": "Will you be ___ the meeting room? (usando)",
+      "respostas": [
+        "using"
+      ]
+    },
+    {
+      "id": "b2u08l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Ação em andamento no futuro:",
+      "opcoes": [
+        "At 3 p.m. tomorrow, I'll be presenting.",
+        "At 3 p.m. tomorrow, I presented.",
+        "At 3 p.m. tomorrow, I'm present."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Pergunta educada:",
+      "opcoes": [
+        "Will you be joining us for lunch?",
+        "You join us lunch?",
+        "Do you will join us?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l1-p6",
+      "tipo": "ordenar",
+      "frase": "We'll be running a pilot in March",
+      "traducao_pt": "Vamos rodar um piloto em março"
+    },
+    {
+      "id": "b2u08l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "In the meantime, we'll be using the old machine.",
+      "aceitas": [
+        "In the meantime, we will be using the old machine."
+      ]
+    },
+    {
+      "id": "b2u08l1-p8",
+      "tipo": "traduzir",
+      "pt": "Aqui está o cronograma do projeto.",
+      "respostas": [
+        "Here's the timeline for the project.",
+        "Here is the timeline for the project.",
+        "Here's the project schedule."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Descreva ao professor o plano de um projeto ou de uma parada (real ou inventado): o que cada equipe estará fazendo em cada fase. Ele vai fazer perguntas educadas com \"Will you be…?\".",
+    "papel_professor": "Peça o plano por fases. Faça perguntas com will be + -ing (Will you be working on Sunday? What will quality be doing in phase 2?). Corrija future continuous × simple.",
+    "abertura": "Tell me about an upcoming project or shutdown. What will be happening in each phase?",
+    "abertura_pt": "Me fale de um projeto ou parada que vem aí. O que vai estar acontecendo em cada fase?"
+  },
+  "teste": [
+    {
+      "id": "b2u08l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Amanhã a esta hora, estarei voando\":",
+      "opcoes": [
+        "This time tomorrow, I'll be flying.",
+        "This time tomorrow, I fly.",
+        "Tomorrow this hour, I will fly be."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l1-t2",
+      "tipo": "completar",
+      "frase": "We'll be rolling ___ the system to all plants.",
+      "respostas": [
+        "out"
+      ]
+    },
+    {
+      "id": "b2u08l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In phase two, we'll be training the operators.",
+      "aceitas": [
+        "In phase two, we will be training the operators."
+      ]
+    },
+    {
+      "id": "b2u08l1-t4",
+      "tipo": "traduzir",
+      "pt": "Durante a parada, estaremos trocando a caldeira.",
+      "respostas": [
+        "During the shutdown, we'll be replacing the boiler.",
+        "During the shutdown, we will be replacing the boiler."
+      ]
+    },
+    {
+      "id": "b2u08l1-t5",
+      "tipo": "ordenar",
+      "frase": "Will you be attending the training?",
+      "traducao_pt": "Você vai participar do treinamento?"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "b1-u03-prova",
+  "nivel": "B1",
+  "unidade": 3,
+  "titulo": "Prova da Unidade 3 (B1) — On the shop floor",
+  "leitura": {
+    "texto": "JOB ADVERTISEMENT — SHIFT SUPERVISOR\nNorte Embalagens is a packaging company with 350 employees. We are looking for a shift supervisor to join our team in Joinville.\nThe job\nYou will be responsible for leading a team of 25 operators on rotating shifts. Your job is to keep the lines running safely and efficiently. You will report to the production manager.\nYour main tasks:\n- planning the daily work and organizing the shift handover\n- making sure everybody follows the safety procedures\n- training new operators\n- solving problems with maintenance and quality\nThe person\nWe need someone who enjoys working with people and doesn't mind working at night and on some weekends. You should be good at communicating and solving problems. Experience with lean manufacturing is a plus. We are planning to open a new line next year, so we expect you to take part in the project.\nWe offer\nA competitive salary, health insurance, transport and a free English course.\nHow to apply\nSend your CV by 30 November. Remember to include two references. We look forward to hearing from you!",
+    "perguntas": [
+      {
+        "id": "b1u03pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What kind of company is Norte Embalagens?",
+        "opcoes": [
+          "A food company",
+          "A packaging company",
+          "A car company"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many people will the supervisor lead?",
+        "opcoes": [
+          "25",
+          "35",
+          "350"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Who will the supervisor report to?",
+        "opcoes": [
+          "The CEO",
+          "The production manager",
+          "The HR manager"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT one of the main tasks?",
+        "opcoes": [
+          "Training new operators",
+          "Selling products",
+          "Organizing the shift handover"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What kind of person are they looking for?",
+        "opcoes": [
+          "Someone who enjoys working with people",
+          "Someone who prefers working alone",
+          "Someone who hates night shifts"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What is a plus?",
+        "opcoes": [
+          "Experience with lean manufacturing",
+          "A driving license",
+          "Speaking Spanish"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What are they planning to do next year?",
+        "opcoes": [
+          "Close a line",
+          "Open a new line",
+          "Move the factory"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What must candidates remember to include?",
+        "opcoes": [
+          "A photo",
+          "Two references",
+          "A cover letter"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Leader",
+        "voz": "a",
+        "en": "Ana, did you remember to clean the filling machine before the shift ended?",
+        "pt": "Ana, você lembrou de limpar a envasadora antes do fim do turno?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "Yes, I did. I finished cleaning it at ten. But I forgot to write it in the logbook.",
+        "pt": "Sim. Terminei de limpar às dez. Mas esqueci de anotar no livro de registro."
+      },
+      {
+        "personagem": "Leader",
+        "voz": "a",
+        "en": "OK, please do it now. The auditors are going to check it.",
+        "pt": "OK, faça agora, por favor. Os auditores vão verificar."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "Sure. By the way, the capping machine keeps stopping.",
+        "pt": "Claro. Aliás, a tampadora fica parando."
+      },
+      {
+        "personagem": "Leader",
+        "voz": "a",
+        "en": "Have you tried adjusting the speed?",
+        "pt": "Já tentou ajustar a velocidade?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "Yes, I tried reducing it, but it didn't help. I suggest calling maintenance.",
+        "pt": "Sim, tentei reduzir, mas não adiantou. Sugiro chamar a manutenção."
+      },
+      {
+        "personagem": "Leader",
+        "voz": "a",
+        "en": "Good idea. I'll call them. We can't afford to stop the line today — we need to send 2,000 boxes.",
+        "pt": "Boa ideia. Vou chamar. Não podemos parar a linha hoje — precisamos mandar 2.000 caixas."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "b",
+        "en": "OK. I'll avoid running it at full speed until they arrive.",
+        "pt": "OK. Vou evitar rodar em velocidade máxima até eles chegarem."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What did Ana clean?",
+        "opcoes": [
+          "The filling machine",
+          "The capping machine",
+          "The floor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-e2",
+        "tipo": "multipla",
+        "enunciado": "When did she finish cleaning it?",
+        "opcoes": [
+          "At eight",
+          "At ten",
+          "At midnight"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did she forget to do?",
+        "opcoes": [
+          "Clean the machine",
+          "Write it in the logbook",
+          "Call maintenance"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What problem does the capping machine have?",
+        "opcoes": [
+          "It keeps stopping.",
+          "It is too slow.",
+          "It is dirty."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does Ana suggest?",
+        "opcoes": [
+          "Calling maintenance",
+          "Stopping the line",
+          "Buying a new machine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03pv-e6",
+        "tipo": "multipla",
+        "enunciado": "How many boxes do they need to send today?",
+        "opcoes": [
+          "200",
+          "2,000",
+          "20,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I forgot to write it in the logbook."
+      },
+      {
+        "id": "b1u03pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Have you tried adjusting the speed?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u03pv-w1",
+      "instrucao_pt": "Descreva o que você gosta e não gosta no seu trabalho (ou rotina) usando enjoy, don't mind, can't stand, be good at.",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u03pv-w2",
+      "instrucao_pt": "Escreva instruções para um colega novo realizar uma tarefa (sequência, Remember to…, Avoid…ing, Make sure…).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u03pv-s1",
+      "pergunta_en": "Describe your job or your daily routine: what are you responsible for?",
+      "instrucao_pt": "Fale em voz alta das suas funções e responsabilidades."
+    },
+    {
+      "id": "b1u03pv-s2",
+      "pergunta_en": "Tell me about a decision you made and something you've stopped doing.",
+      "instrucao_pt": "Use decide to, stop + -ing, plan to."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Verbos + -ing (enjoy, avoid, finish, don't mind, suggest, preposição + -ing, look forward to), verbos + to (decide, plan, need, manage, refuse, objetivo), remember/forget/stop/try com mudança de sentido, vocabulário de turnos e funções, explicar procedimentos."
+}

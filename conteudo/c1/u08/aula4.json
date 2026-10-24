@@ -1,0 +1,362 @@
+{
+  "id": "c1-u08-l4",
+  "nivel": "C1",
+  "unidade": 8,
+  "numero": 4,
+  "titulo": "Delivering bad news",
+  "objetivo_pt": "Dar más notícias a clientes, chefes e equipes com clareza, empatia e responsabilidade.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar más notícias que você precisa comunicar (atraso, aumento de preço, cancelamento). Comunique com tato, sem esconder o problema.",
+    "papel_professor": "Dê situações (You have to tell a client their order will be two weeks late. Tell your team overtime is cancelled.). Ensine a estrutura: preparar, dar a notícia claramente, explicar, mostrar empatia, oferecer solução. Corrija.",
+    "abertura": "You have to tell a key client that their order will be two weeks late. How do you start?",
+    "abertura_pt": "Você precisa dizer a um cliente importante que o pedido dele vai atrasar duas semanas. Como começa?"
+  },
+  "vocabulario": [
+    {
+      "id": "afraid-l4",
+      "en": "I'm afraid I have some bad news",
+      "pt": "Receio ter uma má notícia",
+      "emoji": "😟",
+      "exemplo_en": "I'm afraid I have some bad news about your order.",
+      "exemplo_pt": "Receio ter uma má notícia sobre seu pedido."
+    },
+    {
+      "id": "regret",
+      "en": "We regret to inform you that…",
+      "pt": "Lamentamos informar que…",
+      "emoji": "📜",
+      "exemplo_en": "We regret to inform you that the event has been cancelled.",
+      "exemplo_pt": "Lamentamos informar que o evento foi cancelado."
+    },
+    {
+      "id": "unfortunately-l4",
+      "en": "Unfortunately, …",
+      "pt": "Infelizmente, …",
+      "emoji": "🌧️",
+      "exemplo_en": "Unfortunately, we won't be able to deliver on time.",
+      "exemplo_pt": "Infelizmente, não conseguiremos entregar no prazo."
+    },
+    {
+      "id": "understand-frustrating",
+      "en": "I understand this is frustrating",
+      "pt": "Entendo que isso é frustrante",
+      "emoji": "🤝",
+      "exemplo_en": "I understand this is very frustrating for you.",
+      "exemplo_pt": "Entendo que isso é muito frustrante para você."
+    },
+    {
+      "id": "take-responsibility-l4",
+      "en": "We take full responsibility",
+      "pt": "Assumimos total responsabilidade",
+      "emoji": "🙋",
+      "exemplo_en": "We take full responsibility for the delay.",
+      "exemplo_pt": "Assumimos total responsabilidade pelo atraso."
+    },
+    {
+      "id": "what-we-can-do",
+      "en": "What we can do is…",
+      "pt": "O que podemos fazer é…",
+      "emoji": "🛠️",
+      "exemplo_en": "What we can do is send a partial delivery this week.",
+      "exemplo_pt": "O que podemos fazer é enviar uma entrega parcial esta semana."
+    },
+    {
+      "id": "partial",
+      "en": "partial delivery",
+      "pt": "entrega parcial",
+      "emoji": "📦",
+      "exemplo_en": "We can make a partial delivery on Friday.",
+      "exemplo_pt": "Podemos fazer uma entrega parcial na sexta."
+    },
+    {
+      "id": "make-up",
+      "en": "make it up to you",
+      "pt": "compensar você",
+      "emoji": "🎁",
+      "exemplo_en": "We'd like to make it up to you.",
+      "exemplo_pt": "Gostaríamos de compensá-lo."
+    },
+    {
+      "id": "upfront",
+      "en": "be upfront (about)",
+      "pt": "ser franco (sobre)",
+      "emoji": "🗣️",
+      "exemplo_en": "I'd rather be upfront with you.",
+      "exemplo_pt": "Prefiro ser franco com você."
+    },
+    {
+      "id": "cushion",
+      "en": "cushion the blow",
+      "pt": "amortecer o golpe",
+      "emoji": "🛏️",
+      "exemplo_en": "There's no way to cushion the blow.",
+      "exemplo_pt": "Não há como amortecer o golpe."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura para más notícias",
+    "explicacao_pt": "1) PREPARAR: I'm afraid I have some bad news. / I'd rather be upfront with you. 2) NOTÍCIA CLARA (não enrole!): Unfortunately, your order will be two weeks late. 3) EXPLICAR (breve, sem desculpas demais): This is due to… 4) EMPATIA: I understand this is frustrating / puts you in a difficult position. 5) RESPONSABILIDADE: We take full responsibility. 6) SOLUÇÃO: What we can do is… / We'd like to make it up to you by + -ing. 7) PRÓXIMOS PASSOS: I'll keep you updated every day. Por escrito e formal: We regret to inform you that… Evite: culpar terceiros demais, prometer o que não pode cumprir, esconder a notícia no meio do texto.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Preparar",
+          "I'm afraid I have some bad news.",
+          "Receio ter uma má notícia."
+        ],
+        [
+          "Notícia",
+          "Unfortunately, we won't be able to…",
+          "Infelizmente, não conseguiremos…"
+        ],
+        [
+          "Empatia",
+          "I understand this is frustrating.",
+          "Entendo que é frustrante."
+        ],
+        [
+          "Solução",
+          "What we can do is…",
+          "O que podemos fazer é…"
+        ],
+        [
+          "Formal (escrito)",
+          "We regret to inform you that…",
+          "Lamentamos informar que…"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I'm afraid I have some bad news. Unfortunately, your order will be about two weeks late.",
+        "pt": "Receio ter uma má notícia. Infelizmente, seu pedido vai atrasar cerca de duas semanas."
+      },
+      {
+        "en": "This is due to a breakdown on our main line. We take full responsibility.",
+        "pt": "Isso se deve a uma quebra na nossa linha principal. Assumimos total responsabilidade."
+      },
+      {
+        "en": "I understand this puts you in a difficult position. What we can do is send 60% of the order this Friday.",
+        "pt": "Entendo que isso te coloca numa posição difícil. O que podemos fazer é enviar 60% do pedido nesta sexta."
+      },
+      {
+        "en": "We'd like to make it up to you by covering the express shipping costs.",
+        "pt": "Gostaríamos de compensá-lo cobrindo os custos de frete expresso."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A difficult call",
+    "falas": [
+      {
+        "personagem": "Account manager",
+        "voz": "a",
+        "en": "Good morning, Mr. Prado. I'd rather be upfront with you: I'm afraid I have some bad news.",
+        "pt": "Bom dia, Sr. Prado. Prefiro ser franco: receio ter uma má notícia."
+      },
+      {
+        "personagem": "Client",
+        "voz": "b",
+        "en": "Go on.",
+        "pt": "Pode falar."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "a",
+        "en": "Unfortunately, your order of 20,000 units will be ten days late. One of our main presses broke down on Monday.",
+        "pt": "Infelizmente, seu pedido de 20.000 unidades vai atrasar dez dias. Uma das nossas prensas principais quebrou na segunda."
+      },
+      {
+        "personagem": "Client",
+        "voz": "b",
+        "en": "Ten days? That's a serious problem for our production.",
+        "pt": "Dez dias? Isso é um problema sério para nossa produção."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "a",
+        "en": "I completely understand, and we take full responsibility. What we can do is send a partial delivery of 8,000 units this Friday.",
+        "pt": "Entendo perfeitamente e assumimos total responsabilidade. O que podemos fazer é enviar uma entrega parcial de 8.000 unidades nesta sexta."
+      },
+      {
+        "personagem": "Account manager",
+        "voz": "a",
+        "en": "We'd also like to make it up to you by covering the express freight for the rest. I'll update you every day until it's delivered.",
+        "pt": "Gostaríamos também de compensá-lo cobrindo o frete expresso do restante. Vou atualizá-lo todo dia até a entrega."
+      },
+      {
+        "personagem": "Client",
+        "voz": "b",
+        "en": "Thank you for being honest. Let's go with the partial delivery.",
+        "pt": "Obrigado pela honestidade. Vamos com a entrega parcial."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08l4-e1",
+        "tipo": "multipla",
+        "enunciado": "How late will the order be?",
+        "opcoes": [
+          "Five days",
+          "Ten days",
+          "Two weeks"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u08l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What caused the delay?",
+        "opcoes": [
+          "A press broke down.",
+          "A strike",
+          "Missing raw material"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l4-e3",
+        "tipo": "multipla",
+        "enunciado": "How many units will be delivered on Friday?",
+        "opcoes": [
+          "8,000",
+          "10,000",
+          "20,000"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l4-e4",
+        "tipo": "multipla",
+        "enunciado": "How will they make it up to the client?",
+        "opcoes": [
+          "By covering the express freight",
+          "By giving a 20% discount",
+          "By sending free products"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u08l4-p1",
+      "tipo": "completar",
+      "frase": "I'm ___ I have some bad news. (receio)",
+      "respostas": [
+        "afraid"
+      ]
+    },
+    {
+      "id": "c1u08l4-p2",
+      "tipo": "completar",
+      "frase": "We ___ to inform you that the event has been cancelled. (lamentamos)",
+      "respostas": [
+        "regret"
+      ]
+    },
+    {
+      "id": "c1u08l4-p3",
+      "tipo": "completar",
+      "frase": "We'd like to make it ___ to you. (compensar)",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "c1u08l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Notícia clara (não enrolar):",
+      "opcoes": [
+        "Unfortunately, your order will be two weeks late.",
+        "There may possibly be some small changes in the timing perhaps."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Prefiro ser franco com você\":",
+      "opcoes": [
+        "I'd rather be upfront with you.",
+        "I prefer be front with you.",
+        "I'd rather to be upfront you."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l4-p6",
+      "tipo": "ordenar",
+      "frase": "We take full responsibility for the delay",
+      "traducao_pt": "Assumimos total responsabilidade pelo atraso"
+    },
+    {
+      "id": "c1u08l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I understand this is very frustrating for you.",
+      "aceitas": [
+        "I understand that this is very frustrating for you."
+      ]
+    },
+    {
+      "id": "c1u08l4-p8",
+      "tipo": "traduzir",
+      "pt": "Podemos fazer uma entrega parcial na sexta.",
+      "respostas": [
+        "We can make a partial delivery on Friday.",
+        "We can send a partial delivery on Friday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você terá 2 conversas difíceis com o professor: 1) dizer a um cliente que o preço vai subir 9%; 2) dizer à sua equipe que as horas extras do fim de ano foram canceladas. Siga a estrutura: preparar, notícia clara, motivo, empatia, solução.",
+    "papel_professor": "Faça o papel do cliente (irritado) e depois da equipe (decepcionada). Reaja de forma realista. Avalie clareza, empatia, responsabilidade e solução. Corrija.",
+    "abertura": "First call: you're the account manager, and I'm the client. You've asked for a call. Go ahead.",
+    "abertura_pt": "Primeira ligação: você é o gerente de conta e eu sou o cliente. Você pediu uma ligação. Pode começar."
+  },
+  "teste": [
+    {
+      "id": "c1u08l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Mostrar empatia:",
+      "opcoes": [
+        "I understand this puts you in a difficult position.",
+        "That's your problem.",
+        "It's not our fault."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l4-t2",
+      "tipo": "completar",
+      "frase": "There's no way to cushion the ___. (golpe)",
+      "respostas": [
+        "blow"
+      ]
+    },
+    {
+      "id": "c1u08l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "What we can do is send a partial delivery this week."
+    },
+    {
+      "id": "c1u08l4-t4",
+      "tipo": "traduzir",
+      "pt": "Infelizmente, não conseguiremos entregar no prazo.",
+      "respostas": [
+        "Unfortunately, we won't be able to deliver on time.",
+        "Unfortunately, we will not be able to deliver on time."
+      ]
+    },
+    {
+      "id": "c1u08l4-t5",
+      "tipo": "ordenar",
+      "frase": "I'm afraid I have some bad news about your order",
+      "traducao_pt": "Receio ter uma má notícia sobre seu pedido"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "b2-u04-l1",
+  "nivel": "B2",
+  "unidade": 4,
+  "numero": 1,
+  "titulo": "Could you tell me…?",
+  "objetivo_pt": "Fazer perguntas indiretas e educadas (Could you tell me where…? Do you know if…?).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir informações. Pergunte de forma educada com \"Could you tell me…?\" e \"Do you know…?\".",
+    "papel_professor": "Peça que o aluno transforme perguntas diretas em indiretas (Where is the HR office? → Could you tell me where the HR office is?). Corrija a ordem (sujeito + verbo, sem do/does).",
+    "abertura": "Imagine you're visiting a new company. Ask me, politely, where the meeting room is.",
+    "abertura_pt": "Imagine que você está visitando uma empresa nova. Me pergunte, educadamente, onde fica a sala de reunião."
+  },
+  "vocabulario": [
+    {
+      "id": "could-tell",
+      "en": "Could you tell me…?",
+      "pt": "Você poderia me dizer…?",
+      "emoji": "🙏",
+      "exemplo_en": "Could you tell me where the HR office is?",
+      "exemplo_pt": "Poderia me dizer onde fica o RH?"
+    },
+    {
+      "id": "do-you-know",
+      "en": "Do you know…?",
+      "pt": "Você sabe…?",
+      "emoji": "❓",
+      "exemplo_en": "Do you know when the interview starts?",
+      "exemplo_pt": "Você sabe quando começa a entrevista?"
+    },
+    {
+      "id": "wonder-l1",
+      "en": "I was wondering if…",
+      "pt": "Eu queria saber se… (muito educado)",
+      "emoji": "🤔",
+      "exemplo_en": "I was wondering if you could give me some feedback.",
+      "exemplo_pt": "Queria saber se você poderia me dar um retorno."
+    },
+    {
+      "id": "mind-asking",
+      "en": "Would you mind telling me…?",
+      "pt": "Você se importaria de me dizer…?",
+      "emoji": "😊",
+      "exemplo_en": "Would you mind telling me what the salary is?",
+      "exemplo_pt": "Você se importaria de me dizer qual é o salário?"
+    },
+    {
+      "id": "like-to-know",
+      "en": "I'd like to know…",
+      "pt": "Gostaria de saber…",
+      "emoji": "📝",
+      "exemplo_en": "I'd like to know what the next steps are.",
+      "exemplo_pt": "Gostaria de saber quais são os próximos passos."
+    },
+    {
+      "id": "any-idea",
+      "en": "Any idea…? / Have you got any idea…?",
+      "pt": "Tem ideia…?",
+      "emoji": "💭",
+      "exemplo_en": "Have you got any idea how long it takes?",
+      "exemplo_pt": "Tem ideia de quanto tempo leva?"
+    },
+    {
+      "id": "position",
+      "en": "position / vacancy",
+      "pt": "cargo / vaga",
+      "emoji": "💼",
+      "exemplo_en": "I'm applying for the position of planner.",
+      "exemplo_pt": "Estou me candidatando ao cargo de planejador."
+    },
+    {
+      "id": "benefits",
+      "en": "benefits",
+      "pt": "benefícios",
+      "emoji": "🎁",
+      "exemplo_en": "Could you tell me what the benefits are?",
+      "exemplo_pt": "Poderia me dizer quais são os benefícios?"
+    },
+    {
+      "id": "next-steps-l1",
+      "en": "next steps",
+      "pt": "próximos passos",
+      "emoji": "👣",
+      "exemplo_en": "What are the next steps in the process?",
+      "exemplo_pt": "Quais são os próximos passos do processo?"
+    },
+    {
+      "id": "feedback",
+      "en": "feedback",
+      "pt": "retorno / feedback",
+      "emoji": "💬",
+      "exemplo_en": "When will I get feedback?",
+      "exemplo_pt": "Quando terei retorno?"
+    }
+  ],
+  "gramatica": {
+    "titulo": "Perguntas indiretas",
+    "explicacao_pt": "São mais educadas e muito usadas em entrevistas e com desconhecidos. Estrutura: FRASE INICIAL + palavra interrogativa (ou IF/WHETHER) + SUJEITO + VERBO (ordem afirmativa, sem do/does/did). Where is the office? → Could you tell me where the office is? When does it start? → Do you know when it starts? Did they call? → Do you know if they called? Inícios: Could you tell me…? / Do you know…? / I was wondering… / Would you mind telling me…? / I'd like to know… Atenção: 'I'd like to know' e 'I was wondering' terminam com ponto, não interrogação.",
+    "tabela": {
+      "colunas": [
+        "Pergunta direta",
+        "Pergunta indireta",
+        "Regra"
+      ],
+      "linhas": [
+        [
+          "Where is the office?",
+          "Could you tell me where the office is?",
+          "is vai para o fim"
+        ],
+        [
+          "When does it start?",
+          "Do you know when it starts?",
+          "sem does; starts"
+        ],
+        [
+          "Did they call?",
+          "Do you know if they called?",
+          "yes/no → if"
+        ],
+        [
+          "What is the salary?",
+          "Would you mind telling me what the salary is?",
+          "ordem afirmativa"
+        ],
+        [
+          "How long will it take?",
+          "I'd like to know how long it will take.",
+          "sem ?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Could you tell me how many people work in this department?",
+        "pt": "Poderia me dizer quantas pessoas trabalham neste departamento?"
+      },
+      {
+        "en": "Do you know if the position includes travel?",
+        "pt": "Você sabe se o cargo inclui viagens?"
+      },
+      {
+        "en": "I was wondering whether there are opportunities for training.",
+        "pt": "Queria saber se há oportunidades de treinamento."
+      },
+      {
+        "en": "Would you mind telling me when I can expect an answer?",
+        "pt": "Você se importaria de me dizer quando posso esperar uma resposta?"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "At the reception",
+    "falas": [
+      {
+        "personagem": "Candidate",
+        "voz": "a",
+        "en": "Good morning. I have an interview at ten. Could you tell me where I should wait?",
+        "pt": "Bom dia. Tenho uma entrevista às dez. Poderia me dizer onde devo esperar?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Of course. Please take a seat over there. What's your name?",
+        "pt": "Claro. Sente-se ali, por favor. Qual é seu nome?"
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "a",
+        "en": "Rodrigo Mendes. Do you know if Ms. Faria is already here?",
+        "pt": "Rodrigo Mendes. Você sabe se a Sra. Faria já chegou?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Yes, she's in a meeting, but she'll be with you in five minutes.",
+        "pt": "Sim, está numa reunião, mas vai te atender em cinco minutos."
+      },
+      {
+        "personagem": "Candidate",
+        "voz": "a",
+        "en": "Thank you. I was wondering if there's somewhere I could get a glass of water.",
+        "pt": "Obrigado. Queria saber se tem algum lugar onde eu possa pegar um copo d’água."
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Sure, there's a water machine next to the elevators.",
+        "pt": "Claro, tem um bebedouro ao lado dos elevadores."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u04l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What time is the interview?",
+        "opcoes": [
+          "At nine",
+          "At ten",
+          "At eleven"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u04l1-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is Ms. Faria?",
+        "opcoes": [
+          "In a meeting",
+          "On holiday",
+          "At lunch"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l1-e3",
+        "tipo": "multipla",
+        "enunciado": "How long will he wait?",
+        "opcoes": [
+          "Five minutes",
+          "Fifteen minutes",
+          "An hour"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u04l1-e4",
+        "tipo": "multipla",
+        "enunciado": "Where is the water machine?",
+        "opcoes": [
+          "Next to the elevators",
+          "In the kitchen",
+          "Outside"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u04l1-p1",
+      "tipo": "completar",
+      "frase": "Could you tell me where the office ___?",
+      "respostas": [
+        "is"
+      ]
+    },
+    {
+      "id": "b2u04l1-p2",
+      "tipo": "completar",
+      "frase": "Do you know when the interview ___? (começa)",
+      "respostas": [
+        "starts"
+      ]
+    },
+    {
+      "id": "b2u04l1-p3",
+      "tipo": "completar",
+      "frase": "Do you know ___ they called?",
+      "respostas": [
+        "if",
+        "whether"
+      ]
+    },
+    {
+      "id": "b2u04l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Pergunta indireta correta:",
+      "opcoes": [
+        "Could you tell me where is the office?",
+        "Could you tell me where the office is?",
+        "Could you tell me where does the office be?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u04l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Gostaria de saber quais são os próximos passos\":",
+      "opcoes": [
+        "I'd like to know what the next steps are.",
+        "I'd like to know what are the next steps?",
+        "I like to know what the next steps are."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l1-p6",
+      "tipo": "ordenar",
+      "frase": "Have you got any idea how long it takes?",
+      "traducao_pt": "Tem ideia de quanto tempo leva?"
+    },
+    {
+      "id": "b2u04l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I'm applying for the position of planner.",
+      "aceitas": [
+        "I am applying for the position of planner."
+      ]
+    },
+    {
+      "id": "b2u04l1-p8",
+      "tipo": "traduzir",
+      "pt": "Poderia me dizer quais são os benefícios?",
+      "respostas": [
+        "Could you tell me what the benefits are?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "No fim de uma entrevista, o entrevistador (professor) pergunta: \"Do you have any questions?\". Faça pelo menos 5 perguntas indiretas sobre a vaga, a equipe, os benefícios e os próximos passos.",
+    "papel_professor": "Faça o papel de entrevistador respondendo às perguntas do aluno. Exija que sejam indiretas e educadas. Corrija ordem e inícios.",
+    "abertura": "Well, that's all from my side. Do you have any questions for me?",
+    "abertura_pt": "Bom, da minha parte é isso. Você tem alguma pergunta para mim?"
+  },
+  "teste": [
+    {
+      "id": "b2u04l1-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Did they receive my CV?\" → Do you know…",
+      "opcoes": [
+        "if they received my CV?",
+        "did they receive my CV?",
+        "if did they receive my CV?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u04l1-t2",
+      "tipo": "completar",
+      "frase": "I was ___ if you could give me some feedback.",
+      "respostas": [
+        "wondering"
+      ]
+    },
+    {
+      "id": "b2u04l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "When will I get feedback?"
+    },
+    {
+      "id": "b2u04l1-t4",
+      "tipo": "traduzir",
+      "pt": "Você sabe se o cargo inclui viagens?",
+      "respostas": [
+        "Do you know if the position includes travel?",
+        "Do you know whether the position includes travel?",
+        "Do you know if the job includes travel?"
+      ]
+    },
+    {
+      "id": "b2u04l1-t5",
+      "tipo": "ordenar",
+      "frase": "Would you mind telling me what the salary is?",
+      "traducao_pt": "Você se importaria de me dizer qual é o salário?"
+    }
+  ]
+}

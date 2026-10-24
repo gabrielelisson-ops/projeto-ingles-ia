@@ -1,0 +1,335 @@
+{
+  "id": "a2-u04-l2",
+  "nivel": "A2",
+  "unidade": 4,
+  "numero": 2,
+  "titulo": "I'm meeting the client on Friday",
+  "objetivo_pt": "Falar de compromissos já marcados com o present continuous.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre sua agenda da semana. Diga os compromissos marcados: \"On Monday I'm meeting…\".",
+    "papel_professor": "Pergunte sobre a agenda do aluno na semana (reuniões, médico, visitas). Use present continuous para compromissos marcados (I'm meeting, I'm flying, I'm seeing the doctor).",
+    "abertura": "What's on your schedule this week? Are you doing anything special?",
+    "abertura_pt": "O que tem na sua agenda esta semana? Vai fazer algo especial?"
+  },
+  "vocabulario": [
+    {
+      "id": "meeting-f",
+      "en": "meeting",
+      "pt": "encontrando (compromisso)",
+      "emoji": "🤝",
+      "exemplo_en": "I'm meeting the client on Friday.",
+      "exemplo_pt": "Vou encontrar o cliente na sexta."
+    },
+    {
+      "id": "appointment",
+      "en": "appointment",
+      "pt": "consulta / horário marcado",
+      "emoji": "🩺",
+      "exemplo_en": "I have a doctor's appointment.",
+      "exemplo_pt": "Tenho consulta médica."
+    },
+    {
+      "id": "seeing",
+      "en": "seeing the doctor / dentist",
+      "pt": "indo ao médico / dentista",
+      "emoji": "🦷",
+      "exemplo_en": "I'm seeing the dentist on Tuesday.",
+      "exemplo_pt": "Vou ao dentista na terça."
+    },
+    {
+      "id": "flying",
+      "en": "flying to",
+      "pt": "voando para",
+      "emoji": "✈️",
+      "exemplo_en": "She's flying to Recife next week.",
+      "exemplo_pt": "Ela vai voar para Recife semana que vem."
+    },
+    {
+      "id": "having-party",
+      "en": "having a party",
+      "pt": "fazendo uma festa",
+      "emoji": "🎉",
+      "exemplo_en": "We're having a party on Saturday.",
+      "exemplo_pt": "Vamos fazer uma festa no sábado."
+    },
+    {
+      "id": "schedule",
+      "en": "schedule",
+      "pt": "agenda / programação",
+      "emoji": "📅",
+      "exemplo_en": "My schedule is full this week.",
+      "exemplo_pt": "Minha agenda está cheia esta semana."
+    },
+    {
+      "id": "free",
+      "en": "free",
+      "pt": "livre",
+      "emoji": "🆓",
+      "exemplo_en": "Are you free on Thursday?",
+      "exemplo_pt": "Você está livre na quinta?"
+    },
+    {
+      "id": "booked",
+      "en": "booked",
+      "pt": "reservado / marcado",
+      "emoji": "📌",
+      "exemplo_en": "The room is booked for Monday.",
+      "exemplo_pt": "A sala está reservada para segunda."
+    },
+    {
+      "id": "visiting",
+      "en": "visiting",
+      "pt": "visitando",
+      "emoji": "🏭",
+      "exemplo_en": "The auditors are visiting us on Wednesday.",
+      "exemplo_pt": "Os auditores vão nos visitar na quarta."
+    },
+    {
+      "id": "arriving",
+      "en": "arriving",
+      "pt": "chegando",
+      "emoji": "🛬",
+      "exemplo_en": "The new machine is arriving tomorrow.",
+      "exemplo_pt": "A máquina nova chega amanhã."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Present continuous para o futuro (compromissos)",
+    "explicacao_pt": "Para compromissos JÁ MARCADOS (com data, hora, combinado com alguém), o inglês usa o present continuous com uma expressão de futuro: I'm meeting the client on Friday. We're flying to Recife next week. É como uma agenda. Going to também funciona, mas o present continuous é mais natural para coisas combinadas. Sem expressão de futuro, a frase indica 'agora': I'm meeting the client (agora) × I'm meeting the client tomorrow (amanhã).",
+    "tabela": {
+      "colunas": [
+        "Ideia",
+        "Tempo verbal",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Compromisso marcado",
+          "present continuous + data",
+          "I'm seeing the doctor on Monday."
+        ],
+        [
+          "Intenção / plano",
+          "going to",
+          "I'm going to study more."
+        ],
+        [
+          "Agora",
+          "present continuous sem data",
+          "I'm working now."
+        ],
+        [
+          "Pergunta de agenda",
+          "What are you doing…?",
+          "What are you doing on Friday?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "What are you doing on Saturday? — I'm having lunch with my parents.",
+        "pt": "O que você vai fazer no sábado? — Vou almoçar com meus pais."
+      },
+      {
+        "en": "The auditors are visiting the plant on Wednesday at nine.",
+        "pt": "Os auditores vão visitar a fábrica na quarta às nove."
+      },
+      {
+        "en": "Are you free on Thursday? — No, sorry, I'm flying to Manaus.",
+        "pt": "Você está livre na quinta? — Não, desculpe, vou voar para Manaus."
+      },
+      {
+        "en": "The new machine is arriving tomorrow morning.",
+        "pt": "A máquina nova chega amanhã de manhã."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Scheduling a meeting",
+    "falas": [
+      {
+        "personagem": "Mia",
+        "voz": "a",
+        "en": "We need to talk about the new project. Are you free on Monday?",
+        "pt": "Precisamos falar do projeto novo. Você está livre na segunda?"
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "Sorry, I'm visiting a supplier on Monday.",
+        "pt": "Desculpe, vou visitar um fornecedor na segunda."
+      },
+      {
+        "personagem": "Mia",
+        "voz": "a",
+        "en": "What about Tuesday afternoon?",
+        "pt": "E terça à tarde?"
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "I'm seeing the dentist at three. But I'm free in the morning.",
+        "pt": "Vou ao dentista às três. Mas estou livre de manhã."
+      },
+      {
+        "personagem": "Mia",
+        "voz": "a",
+        "en": "OK, Tuesday at ten. I'm booking the meeting room now.",
+        "pt": "OK, terça às dez. Vou reservar a sala de reunião agora."
+      },
+      {
+        "personagem": "Bruno",
+        "voz": "b",
+        "en": "Perfect. See you on Tuesday.",
+        "pt": "Perfeito. Até terça."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Bruno doing on Monday?",
+        "opcoes": [
+          "Visiting a supplier",
+          "Seeing the dentist",
+          "Working from home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Why can't he meet on Tuesday afternoon?",
+        "opcoes": [
+          "He's seeing the dentist.",
+          "He's flying.",
+          "He's in another meeting."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l2-e3",
+        "tipo": "multipla",
+        "enunciado": "When is the meeting?",
+        "opcoes": [
+          "Monday at ten",
+          "Tuesday at ten",
+          "Tuesday at three"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u04l2-p1",
+      "tipo": "completar",
+      "frase": "I'm ___ the client on Friday. (meet)",
+      "respostas": [
+        "meeting"
+      ]
+    },
+    {
+      "id": "a2u04l2-p2",
+      "tipo": "completar",
+      "frase": "Are you ___ on Thursday? (livre)",
+      "respostas": [
+        "free"
+      ]
+    },
+    {
+      "id": "a2u04l2-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Tenho consulta médica\":",
+      "opcoes": [
+        "I have a doctor's appointment.",
+        "I have a doctor's appointing.",
+        "I have a doctor meeting."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Compromisso marcado: \"Ela vai voar para Recife sexta\":",
+      "opcoes": [
+        "She flies to Recife on Friday.",
+        "She's flying to Recife on Friday."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u04l2-p5",
+      "tipo": "completar",
+      "frase": "What are you ___ on Saturday? (fazendo)",
+      "respostas": [
+        "doing"
+      ]
+    },
+    {
+      "id": "a2u04l2-p6",
+      "tipo": "ordenar",
+      "frase": "We're having a party on Saturday",
+      "traducao_pt": "Vamos fazer uma festa no sábado"
+    },
+    {
+      "id": "a2u04l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The new machine is arriving tomorrow."
+    },
+    {
+      "id": "a2u04l2-p8",
+      "tipo": "traduzir",
+      "pt": "Minha agenda está cheia esta semana.",
+      "respostas": [
+        "My schedule is full this week."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você e o professor precisam marcar uma reunião. Olhe sua agenda (pode inventar) e encontrem um horário livre.",
+    "papel_professor": "Tente marcar uma reunião com o aluno. Diga seus compromissos (Monday: flying to Rio; Wednesday: auditors visiting) e pergunte os dele. Negociem até achar um horário. Use present continuous para compromissos.",
+    "abertura": "We need one hour to plan the training. When are you free this week?",
+    "abertura_pt": "Precisamos de uma hora para planejar o treinamento. Quando você está livre esta semana?"
+  },
+  "teste": [
+    {
+      "id": "a2u04l2-t1",
+      "tipo": "completar",
+      "frase": "I'm ___ the dentist on Tuesday. (see)",
+      "respostas": [
+        "seeing"
+      ]
+    },
+    {
+      "id": "a2u04l2-t2",
+      "tipo": "multipla",
+      "enunciado": "\"A sala está reservada\":",
+      "opcoes": [
+        "The room is booked.",
+        "The room is booking.",
+        "The room books."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Are you free on Thursday?"
+    },
+    {
+      "id": "a2u04l2-t4",
+      "tipo": "traduzir",
+      "pt": "Os auditores vão nos visitar na quarta.",
+      "respostas": [
+        "The auditors are visiting us on Wednesday."
+      ]
+    },
+    {
+      "id": "a2u04l2-t5",
+      "tipo": "ordenar",
+      "frase": "What are you doing on Friday?",
+      "traducao_pt": "O que você vai fazer na sexta?"
+    }
+  ]
+}

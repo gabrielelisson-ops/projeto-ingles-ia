@@ -1,0 +1,364 @@
+{
+  "id": "b2-u05-l3",
+  "nivel": "B2",
+  "unidade": 5,
+  "numero": 3,
+  "titulo": "Sorry to interrupt",
+  "objetivo_pt": "Interromper, pedir a palavra, manter a vez e voltar ao assunto com educação.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai falar sem parar sobre um tema. Interrompa com educação para fazer um comentário ou pergunta.",
+    "papel_professor": "Fale longamente sobre um tema e deixe pausas curtas. Ensine a interromper (Sorry to interrupt, but… / Can I just say something? / If I could just come in here…) e a manter a vez (If I could just finish…).",
+    "abertura": "So, I was thinking about the new schedule, and I believe we should change everything, starting with the night shift, because…",
+    "abertura_pt": "Então, eu estava pensando na nova escala e acho que deveríamos mudar tudo, começando pelo turno da noite, porque…"
+  },
+  "vocabulario": [
+    {
+      "id": "can-i-just",
+      "en": "Can I just say something?",
+      "pt": "Posso só dizer uma coisa?",
+      "emoji": "✋",
+      "exemplo_en": "Can I just say something here?",
+      "exemplo_pt": "Posso só dizer uma coisa aqui?"
+    },
+    {
+      "id": "come-in",
+      "en": "If I could just come in here…",
+      "pt": "Se eu puder entrar aqui…",
+      "emoji": "🚪",
+      "exemplo_en": "If I could just come in here, the budget is limited.",
+      "exemplo_pt": "Se eu puder entrar aqui, o orçamento é limitado."
+    },
+    {
+      "id": "just-finish",
+      "en": "If I could just finish…",
+      "pt": "Se eu puder só terminar…",
+      "emoji": "🛑",
+      "exemplo_en": "If I could just finish my point…",
+      "exemplo_pt": "Se eu puder só terminar meu raciocínio…"
+    },
+    {
+      "id": "go-ahead",
+      "en": "Go ahead",
+      "pt": "Pode falar",
+      "emoji": "👉",
+      "exemplo_en": "Sure, go ahead.",
+      "exemplo_pt": "Claro, pode falar."
+    },
+    {
+      "id": "get-back-to",
+      "en": "Getting back to…",
+      "pt": "Voltando a…",
+      "emoji": "↩️",
+      "exemplo_en": "Getting back to the schedule…",
+      "exemplo_pt": "Voltando à escala…"
+    },
+    {
+      "id": "off-topic",
+      "en": "off topic / off track",
+      "pt": "fora do assunto",
+      "emoji": "🛤️",
+      "exemplo_en": "I think we're getting off track.",
+      "exemplo_pt": "Acho que estamos saindo do assunto."
+    },
+    {
+      "id": "point-l3",
+      "en": "make a point",
+      "pt": "apresentar um argumento",
+      "emoji": "📌",
+      "exemplo_en": "You've made a good point.",
+      "exemplo_pt": "Você levantou um bom ponto."
+    },
+    {
+      "id": "hear-from",
+      "en": "Let's hear from…",
+      "pt": "Vamos ouvir…",
+      "emoji": "👂",
+      "exemplo_en": "Let's hear from maintenance.",
+      "exemplo_pt": "Vamos ouvir a manutenção."
+    },
+    {
+      "id": "briefly",
+      "en": "briefly",
+      "pt": "brevemente",
+      "emoji": "⏱️",
+      "exemplo_en": "Could you explain briefly?",
+      "exemplo_pt": "Você poderia explicar brevemente?"
+    },
+    {
+      "id": "time-check",
+      "en": "We're running out of time",
+      "pt": "Estamos ficando sem tempo",
+      "emoji": "⌛",
+      "exemplo_en": "We're running out of time, so let's decide.",
+      "exemplo_pt": "Estamos ficando sem tempo, então vamos decidir."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Controlando a conversa",
+    "explicacao_pt": "INTERROMPER: Sorry to interrupt, but… / Can I just say something? / If I could just come in here… / Could I add something? CEDER A VEZ: Sure, go ahead. / Please, carry on. MANTER A VEZ: If I could just finish… / Let me just finish this point. VOLTAR AO TEMA: Getting back to… / Going back to what I was saying… / I think we're getting off track. CONTROLAR O TEMPO: We're running out of time. / Let's keep it brief. DAR A PALAVRA: Let's hear from… / What's your view, X? Use 'just' para suavizar.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Expressão",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Interromper",
+          "If I could just come in here…",
+          "If I could just come in here, that's not quite right."
+        ],
+        [
+          "Ceder",
+          "Go ahead.",
+          "Sure, go ahead."
+        ],
+        [
+          "Manter",
+          "If I could just finish…",
+          "If I could just finish, then you can comment."
+        ],
+        [
+          "Retomar",
+          "Getting back to…",
+          "Getting back to the budget, …"
+        ],
+        [
+          "Dar a palavra",
+          "What's your view, …?",
+          "What's your view, Carla?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Sorry to interrupt, but I think the figures on slide 3 are wrong.",
+        "pt": "Desculpe interromper, mas acho que os números do slide 3 estão errados."
+      },
+      {
+        "en": "If I could just finish my point, then I'll be happy to answer questions.",
+        "pt": "Se eu puder só terminar meu raciocínio, depois respondo com prazer às perguntas."
+      },
+      {
+        "en": "I think we're getting off track. Getting back to the maintenance plan…",
+        "pt": "Acho que estamos saindo do assunto. Voltando ao plano de manutenção…"
+      },
+      {
+        "en": "We're running out of time. Let's hear from quality before we decide.",
+        "pt": "Estamos ficando sem tempo. Vamos ouvir a qualidade antes de decidir."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A meeting that gets off track",
+    "falas": [
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "So, the main item today is the new maintenance schedule.",
+        "pt": "Então, o principal ponto hoje é a nova programação de manutenção."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "Yes, and I also think we should talk about the canteen, because the food last week was…",
+        "pt": "Sim, e também acho que deveríamos falar do refeitório, porque a comida semana passada estava…"
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Sorry to interrupt, but I think we're getting off track. Let's leave the canteen for another meeting.",
+        "pt": "Desculpe interromper, mas acho que estamos saindo do assunto. Vamos deixar o refeitório para outra reunião."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "Getting back to the schedule, we need to stop line 1 every two weeks, not every month.",
+        "pt": "Voltando à programação, precisamos parar a linha 1 a cada duas semanas, não todo mês."
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "If I could just come in here — that would reduce our output by 3%.",
+        "pt": "Se eu puder entrar aqui — isso reduziria nossa produção em 3%."
+      },
+      {
+        "personagem": "Technician",
+        "voz": "b",
+        "en": "If I could just finish… it would also reduce breakdowns by half, which is much worse for output.",
+        "pt": "Se eu puder só terminar… isso também reduziria as quebras pela metade, o que é muito pior para a produção."
+      },
+      {
+        "personagem": "Chair",
+        "voz": "a",
+        "en": "Good point. We're running out of time. Let's hear from quality, and then we'll decide.",
+        "pt": "Bom ponto. Estamos ficando sem tempo. Vamos ouvir a qualidade e depois decidimos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u05l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the main item today?",
+        "opcoes": [
+          "The new maintenance schedule",
+          "The canteen",
+          "Salaries"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Why does the chair interrupt the planner?",
+        "opcoes": [
+          "They're getting off track.",
+          "The planner is wrong.",
+          "Time is over."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u05l3-e3",
+        "tipo": "multipla",
+        "enunciado": "How often does the technician want to stop line 1?",
+        "opcoes": [
+          "Every week",
+          "Every two weeks",
+          "Every month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u05l3-e4",
+        "tipo": "multipla",
+        "enunciado": "Who will they hear from before deciding?",
+        "opcoes": [
+          "Quality",
+          "HR",
+          "The director"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u05l3-p1",
+      "tipo": "completar",
+      "frase": "If I could just come ___ here…",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "b2u05l3-p2",
+      "tipo": "completar",
+      "frase": "If I could just ___ my point… (terminar)",
+      "respostas": [
+        "finish"
+      ]
+    },
+    {
+      "id": "b2u05l3-p3",
+      "tipo": "completar",
+      "frase": "We're running ___ of time.",
+      "respostas": [
+        "out"
+      ]
+    },
+    {
+      "id": "b2u05l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Voltar ao assunto:",
+      "opcoes": [
+        "Getting back to the schedule…",
+        "Coming again to schedule…",
+        "Return the schedule…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Ceder a vez:",
+      "opcoes": [
+        "Sure, go ahead.",
+        "Stop, please.",
+        "Wait your turn."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l3-p6",
+      "tipo": "ordenar",
+      "frase": "I think we're getting off track",
+      "traducao_pt": "Acho que estamos saindo do assunto"
+    },
+    {
+      "id": "b2u05l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's hear from maintenance.",
+      "aceitas": [
+        "Let us hear from maintenance."
+      ]
+    },
+    {
+      "id": "b2u05l3-p8",
+      "tipo": "traduzir",
+      "pt": "Você levantou um bom ponto.",
+      "respostas": [
+        "You've made a good point.",
+        "You have made a good point.",
+        "You made a good point."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você vai coordenar uma reunião com o professor, que vai sair do assunto e falar demais. Mantenha o foco: interrompa com educação, volte ao tema, controle o tempo e dê a palavra.",
+    "papel_professor": "Faça o papel de participante difícil: fuja do tema, fale muito, interrompa o aluno uma vez. O aluno deve controlar a reunião. Corrija as expressões e elogie o controle.",
+    "abertura": "OK, before we start the meeting, can I tell you about my weekend? It was amazing, I went to the beach and…",
+    "abertura_pt": "OK, antes de começar a reunião, posso te contar do meu fim de semana? Foi incrível, fui à praia e…"
+  },
+  "teste": [
+    {
+      "id": "b2u05l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Interromper com educação:",
+      "opcoes": [
+        "Sorry to interrupt, but…",
+        "Shut up, please.",
+        "Hey, it's my turn!"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u05l3-t2",
+      "tipo": "completar",
+      "frase": "Could you explain ___? (brevemente)",
+      "respostas": [
+        "briefly"
+      ]
+    },
+    {
+      "id": "b2u05l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Can I just say something here?"
+    },
+    {
+      "id": "b2u05l3-t4",
+      "tipo": "traduzir",
+      "pt": "Estamos ficando sem tempo, então vamos decidir.",
+      "respostas": [
+        "We're running out of time, so let's decide.",
+        "We are running out of time, so let's decide."
+      ]
+    },
+    {
+      "id": "b2u05l3-t5",
+      "tipo": "ordenar",
+      "frase": "What's your view, Carla?",
+      "traducao_pt": "Qual é a sua opinião, Carla?"
+    }
+  ]
+}

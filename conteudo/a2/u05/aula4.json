@@ -1,0 +1,352 @@
+{
+  "id": "a2-u05-l4",
+  "nivel": "A2",
+  "unidade": 5,
+  "numero": 4,
+  "titulo": "Will or going to?",
+  "objetivo_pt": "Escolher entre will e going to: previsão com evidência, plano e decisão na hora.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar situações. Diga se é melhor usar will ou going to e explique.",
+    "papel_professor": "Dê situações e peça a frase certa (Look at those clouds! / I decided last week: I… / The phone is ringing, I…). Explique a diferença com exemplos curtos.",
+    "abertura": "Look at those black clouds! What's going to happen?",
+    "abertura_pt": "Olhe aquelas nuvens pretas! O que vai acontecer?"
+  },
+  "vocabulario": [
+    {
+      "id": "look",
+      "en": "Look!",
+      "pt": "Olha!",
+      "emoji": "👀",
+      "exemplo_en": "Look! It's going to rain.",
+      "exemplo_pt": "Olha! Vai chover."
+    },
+    {
+      "id": "evidence",
+      "en": "evidence",
+      "pt": "evidência / sinal",
+      "emoji": "🔍",
+      "exemplo_en": "There is evidence: the sky is black.",
+      "exemplo_pt": "Há um sinal: o céu está preto."
+    },
+    {
+      "id": "fall",
+      "en": "fall",
+      "pt": "cair",
+      "emoji": "🍂",
+      "exemplo_en": "Careful! You're going to fall!",
+      "exemplo_pt": "Cuidado! Você vai cair!"
+    },
+    {
+      "id": "break",
+      "en": "break",
+      "pt": "quebrar",
+      "emoji": "💥",
+      "exemplo_en": "That glass is going to break.",
+      "exemplo_pt": "Aquele copo vai quebrar."
+    },
+    {
+      "id": "late-w",
+      "en": "be late",
+      "pt": "atrasar",
+      "emoji": "⏰",
+      "exemplo_en": "Hurry up! We're going to be late.",
+      "exemplo_pt": "Rápido! Vamos nos atrasar."
+    },
+    {
+      "id": "already-decided",
+      "en": "already decided",
+      "pt": "já decidido",
+      "emoji": "📌",
+      "exemplo_en": "I already decided. I'm going to quit.",
+      "exemplo_pt": "Já decidi. Vou pedir demissão."
+    },
+    {
+      "id": "careful",
+      "en": "Careful!",
+      "pt": "Cuidado!",
+      "emoji": "⚠️",
+      "exemplo_en": "Careful! The floor is wet.",
+      "exemplo_pt": "Cuidado! O chão está molhado."
+    },
+    {
+      "id": "wet",
+      "en": "wet",
+      "pt": "molhado",
+      "emoji": "💦",
+      "exemplo_en": "The floor is wet. Someone's going to slip.",
+      "exemplo_pt": "O chão está molhado. Alguém vai escorregar."
+    },
+    {
+      "id": "miss",
+      "en": "miss (the bus)",
+      "pt": "perder (o ônibus)",
+      "emoji": "🚌",
+      "exemplo_en": "Run! You're going to miss the bus.",
+      "exemplo_pt": "Corre! Você vai perder o ônibus."
+    },
+    {
+      "id": "hurry",
+      "en": "Hurry up!",
+      "pt": "Rápido! / Anda logo!",
+      "emoji": "🏃",
+      "exemplo_en": "Hurry up, the meeting is starting.",
+      "exemplo_pt": "Anda logo, a reunião está começando."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Will × going to",
+    "explicacao_pt": "GOING TO: 1) plano já decidido antes (I'm going to buy a car next year); 2) previsão com EVIDÊNCIA que estamos vendo agora (Look at the clouds! It's going to rain.). WILL: 1) decisão na hora (I'll have the fish, please); 2) oferta/promessa (I'll help you); 3) opinião/previsão sem evidência (I think it will rain tomorrow). Dica: se dá para apontar a prova (nuvens, chão molhado, relógio), use going to.",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Use",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Plano antigo",
+          "going to",
+          "We're going to travel in July."
+        ],
+        [
+          "Prova visível",
+          "going to",
+          "Look! He's going to fall!"
+        ],
+        [
+          "Decisão agora",
+          "will",
+          "I'll take the red one."
+        ],
+        [
+          "Oferta / promessa",
+          "will",
+          "I'll call you later."
+        ],
+        [
+          "Opinião",
+          "will",
+          "I think she'll like it."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Look at the time! We're going to be late.",
+        "pt": "Olha a hora! Vamos nos atrasar."
+      },
+      {
+        "en": "I'm going to visit my parents on Sunday. I told them last week.",
+        "pt": "Vou visitar meus pais no domingo. Avisei semana passada."
+      },
+      {
+        "en": "— There's no milk. — OK, I'll buy some.",
+        "pt": "— Não tem leite. — OK, eu compro."
+      },
+      {
+        "en": "I think the new machine will be faster.",
+        "pt": "Acho que a máquina nova vai ser mais rápida."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Small decisions",
+    "falas": [
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "Look at the sky! It's going to rain.",
+        "pt": "Olha o céu! Vai chover."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Oh no, I didn't bring an umbrella.",
+        "pt": "Ah não, eu não trouxe guarda-chuva."
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "Don't worry. I'll share mine.",
+        "pt": "Não se preocupe. Eu divido o meu."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "Thanks. Are you going to take the bus or the subway?",
+        "pt": "Obrigado. Você vai de ônibus ou de metrô?"
+      },
+      {
+        "personagem": "Lia",
+        "voz": "a",
+        "en": "The subway. I'm going to meet my sister downtown.",
+        "pt": "De metrô. Vou encontrar minha irmã no centro."
+      },
+      {
+        "personagem": "Rui",
+        "voz": "b",
+        "en": "OK, I'll go with you to the station.",
+        "pt": "OK, eu vou com você até a estação."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Why does Lia say \"It's going to rain\"?",
+        "opcoes": [
+          "She saw the forecast.",
+          "She can see the sky.",
+          "She thinks so."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What does Lia offer?",
+        "opcoes": [
+          "To share her umbrella",
+          "To drive Rui home",
+          "To buy an umbrella"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Who is Lia going to meet?",
+        "opcoes": [
+          "Her sister",
+          "Her mother",
+          "Rui"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u05l4-p1",
+      "tipo": "multipla",
+      "enunciado": "Nuvens pretas no céu:",
+      "opcoes": [
+        "It will rain.",
+        "It's going to rain."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Há evidência: going to."
+    },
+    {
+      "id": "a2u05l4-p2",
+      "tipo": "multipla",
+      "enunciado": "No restaurante, decidindo agora:",
+      "opcoes": [
+        "I'm going to have the fish.",
+        "I'll have the fish."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l4-p3",
+      "tipo": "multipla",
+      "enunciado": "Plano decidido mês passado:",
+      "opcoes": [
+        "We'll travel in July.",
+        "We're going to travel in July."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l4-p4",
+      "tipo": "completar",
+      "frase": "Careful! You're ___ to fall!",
+      "respostas": [
+        "going"
+      ]
+    },
+    {
+      "id": "a2u05l4-p5",
+      "tipo": "completar",
+      "frase": "— There's no milk. — OK, I'___ buy some.",
+      "respostas": [
+        "ll"
+      ]
+    },
+    {
+      "id": "a2u05l4-p6",
+      "tipo": "ordenar",
+      "frase": "Hurry up we're going to be late",
+      "traducao_pt": "Rápido, vamos nos atrasar"
+    },
+    {
+      "id": "a2u05l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The floor is wet. Someone's going to slip.",
+      "aceitas": [
+        "The floor is wet. Someone is going to slip."
+      ]
+    },
+    {
+      "id": "a2u05l4-p8",
+      "tipo": "traduzir",
+      "pt": "Corre! Você vai perder o ônibus.",
+      "respostas": [
+        "Run! You're going to miss the bus.",
+        "Run! You are going to miss the bus."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Jogo das situações: o professor descreve uma cena e você reage com will ou going to. Depois troque: você descreve e ele reage.",
+    "papel_professor": "Descreva 4 situações (a man on a ladder that is moving; you forgot your wallet; your friend asks 'what are your holiday plans?'; it's 7:55 and the meeting is at 8). O aluno reage com will/going to. Corrija a escolha. Depois peça que ele crie uma situação.",
+    "abertura": "Situation one: a man is on a ladder, and the ladder is moving! What do you say?",
+    "abertura_pt": "Situação um: um homem está numa escada, e a escada está balançando! O que você diz?"
+  },
+  "teste": [
+    {
+      "id": "a2u05l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Olha! O copo vai quebrar\":",
+      "opcoes": [
+        "Look! The glass will break.",
+        "Look! The glass is going to break."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l4-t2",
+      "tipo": "multipla",
+      "enunciado": "Oferta agora:",
+      "opcoes": [
+        "I'll help you.",
+        "I'm going to help you since last week."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Careful! The floor is wet.",
+      "aceitas": [
+        "Careful! The floor is wet"
+      ]
+    },
+    {
+      "id": "a2u05l4-t4",
+      "tipo": "traduzir",
+      "pt": "Já decidi. Vou pedir demissão.",
+      "respostas": [
+        "I already decided. I'm going to quit.",
+        "I've already decided. I'm going to quit.",
+        "I already decided. I am going to quit."
+      ]
+    },
+    {
+      "id": "a2u05l4-t5",
+      "tipo": "ordenar",
+      "frase": "I think she'll like it",
+      "traducao_pt": "Acho que ela vai gostar"
+    }
+  ]
+}

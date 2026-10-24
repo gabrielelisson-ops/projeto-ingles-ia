@@ -1,0 +1,256 @@
+{
+  "id": "b2-u03-prova",
+  "nivel": "B2",
+  "unidade": 3,
+  "titulo": "Prova da Unidade 3 (B2) — Deductions",
+  "leitura": {
+    "texto": "INVESTIGATION REPORT: CONTAMINATED BATCH 2207\nOn 18 August, a supermarket chain reported that customers had found small pieces of plastic in our strawberry yogurt. Batch 2207 was immediately recalled.\nInvestigation\nThe quality team analyzed the plastic pieces and compared them with all the materials used in the plant. The pieces are blue and hard, so they can't have come from the yogurt cups, which are white and soft. The analysis indicated that they must have come from a blue scraper used to clean the mixing tanks.\nWe checked the cleaning records. The night shift cleaned tank 3 on 16 August, just before batch 2207 was produced. One of the scrapers was found broken in the cleaning area. A piece of it appears to have fallen into the tank during cleaning.\nWhy wasn't it detected? Our metal detector can't detect plastic. Also, the operators should have checked the tools after cleaning, but the procedure doesn't require it.\nWe can rule out deliberate contamination: the cameras show no unusual activity, and all the people involved have worked with us for many years.\nConclusions and recommendations\nIt's clear that the contamination was accidental and preventable. If the tools had been checked after cleaning, the broken scraper would have been noticed. We recommend replacing all plastic tools with detectable ones, adding a tool check to the cleaning procedure and training the cleaning team.",
+    "perguntas": [
+      {
+        "id": "b2u03pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What did customers find in the yogurt?",
+        "opcoes": [
+          "Pieces of metal",
+          "Small pieces of plastic",
+          "Insects"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What happened to batch 2207?",
+        "opcoes": [
+          "It was recalled.",
+          "It was sold cheaper.",
+          "It was exported."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Why can't the pieces have come from the cups?",
+        "opcoes": [
+          "The cups are white and soft.",
+          "The cups are made of glass.",
+          "The cups were from another supplier."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Where must the pieces have come from?",
+        "opcoes": [
+          "A blue scraper",
+          "A machine",
+          "A supplier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l5",
+        "tipo": "multipla",
+        "enunciado": "When was tank 3 cleaned?",
+        "opcoes": [
+          "On 16 August",
+          "On 18 August",
+          "On 22 July"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Why wasn't the plastic detected?",
+        "opcoes": [
+          "The metal detector can't detect plastic.",
+          "The detector was off.",
+          "Nobody was working."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Why can they rule out deliberate contamination?",
+        "opcoes": [
+          "The cameras show no unusual activity.",
+          "The police said so.",
+          "The plastic was white."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT a recommendation?",
+        "opcoes": [
+          "Buying a new tank",
+          "Replacing plastic tools with detectable ones",
+          "Training the cleaning team"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Mechanic",
+        "voz": "a",
+        "en": "So, what's wrong with your car?",
+        "pt": "Então, qual é o problema do seu carro?"
+      },
+      {
+        "personagem": "Driver",
+        "voz": "b",
+        "en": "It won't start. Yesterday it was fine. I drove home and parked it outside.",
+        "pt": "Não liga. Ontem estava tudo bem. Dirigi até em casa e estacionei lá fora."
+      },
+      {
+        "personagem": "Mechanic",
+        "voz": "a",
+        "en": "Hmm. Did you leave the lights on?",
+        "pt": "Hmm. Você deixou os faróis ligados?"
+      },
+      {
+        "personagem": "Driver",
+        "voz": "b",
+        "en": "I don't think so… but my son used the car last night. He might have left them on.",
+        "pt": "Acho que não… mas meu filho usou o carro ontem à noite. Ele pode ter deixado ligados."
+      },
+      {
+        "personagem": "Mechanic",
+        "voz": "a",
+        "en": "The battery is completely dead, so someone must have left something on. It can't be old — you changed it in March.",
+        "pt": "A bateria está totalmente descarregada, então alguém deve ter deixado algo ligado. Não pode ser velha — você trocou em março."
+      },
+      {
+        "personagem": "Driver",
+        "voz": "b",
+        "en": "Right. He should have checked before getting out!",
+        "pt": "Certo. Ele deveria ter verificado antes de sair!"
+      },
+      {
+        "personagem": "Mechanic",
+        "voz": "a",
+        "en": "Don't worry. We'll charge it. You needn't have called a tow truck, though — I could have come to your house.",
+        "pt": "Não se preocupe. Vamos carregar. Mas você não precisava ter chamado um guincho — eu poderia ter ido à sua casa."
+      },
+      {
+        "personagem": "Driver",
+        "voz": "b",
+        "en": "Oh! I wish I had known that.",
+        "pt": "Ah! Queria ter sabido disso."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u03pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the car?",
+        "opcoes": [
+          "It won't start.",
+          "It makes a noise.",
+          "It has a flat tire."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Who used the car last night?",
+        "opcoes": [
+          "The driver",
+          "His son",
+          "His wife"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u03pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What might the son have done?",
+        "opcoes": [
+          "Left the lights on",
+          "Crashed the car",
+          "Lost the keys"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Why can't the battery be old?",
+        "opcoes": [
+          "It was changed in March.",
+          "It is a special battery.",
+          "The car is new."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What needn't the driver have done?",
+        "opcoes": [
+          "Called a tow truck",
+          "Bought a new car",
+          "Driven home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What could the mechanic have done?",
+        "opcoes": [
+          "Gone to his house",
+          "Sold him a battery",
+          "Fixed it for free"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u03pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Someone must have left something on."
+      },
+      {
+        "id": "b2u03pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "He should have checked before getting out."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u03pv-w1",
+      "instrucao_pt": "Descreva um problema ou mistério (no trabalho ou em casa) e faça deduções sobre o que deve ter acontecido, o que pode ter acontecido e o que não pode ter acontecido.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u03pv-w2",
+      "instrucao_pt": "Escreva as conclusões de uma investigação: a causa provável, o que deveria ter sido feito e duas recomendações.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u03pv-s1",
+      "pergunta_en": "Your colleague didn't come to work today and isn't answering the phone. What might have happened?",
+      "instrucao_pt": "Faça deduções em voz alta com must, might, can't (presente e passado)."
+    },
+    {
+      "id": "b2u03pv-s2",
+      "pergunta_en": "Think about a mistake that happened at your work. What should have been done, and what would have happened then?",
+      "instrucao_pt": "Analise em voz alta com should have, could have e would have."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Dedução no presente (must/might/could/can't + verbo; can't × mustn't), dedução no passado (must/might/could/can't have + particípio, passiva must have been + pp), should/could/would/needn't have, análise de causa raiz (5 porquês, rule out, evidence), linguagem de conclusões (appear to have, it's likely/unlikely that, we recommend + -ing)."
+}

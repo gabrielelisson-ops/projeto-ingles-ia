@@ -1,0 +1,354 @@
+{
+  "id": "c1-u04-l4",
+  "nivel": "C1",
+  "unidade": 4,
+  "numero": 4,
+  "titulo": "Weighing up both sides",
+  "objetivo_pt": "Analisar prós e contras de forma equilibrada e chegar a uma conclusão fundamentada.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar um tema. Analise os dois lados de forma equilibrada antes de dar sua conclusão.",
+    "papel_professor": "Dê um tema (Should companies pay for employees' university degrees?). Ensine estrutura equilibrada (On the one hand… On the other hand… Weighing up both sides… On balance…). Corrija.",
+    "abertura": "Should companies pay for their employees' university degrees? Look at both sides first.",
+    "abertura_pt": "As empresas deveriam pagar a faculdade dos funcionários? Analise os dois lados primeiro."
+  },
+  "vocabulario": [
+    {
+      "id": "one-hand",
+      "en": "On the one hand, … On the other hand, …",
+      "pt": "Por um lado, … Por outro lado, …",
+      "emoji": "⚖️",
+      "exemplo_en": "On the one hand, it is expensive. On the other hand, it retains talent.",
+      "exemplo_pt": "Por um lado, é caro. Por outro, retém talentos."
+    },
+    {
+      "id": "pros-cons-l4",
+      "en": "the pros and cons",
+      "pt": "os prós e contras",
+      "emoji": "➕",
+      "exemplo_en": "Let's weigh up the pros and cons.",
+      "exemplo_pt": "Vamos pesar os prós e contras."
+    },
+    {
+      "id": "weigh-up",
+      "en": "weigh up",
+      "pt": "pesar / avaliar",
+      "emoji": "🏋️",
+      "exemplo_en": "Weighing up both sides, I think it's worth it.",
+      "exemplo_pt": "Pesando os dois lados, acho que vale a pena."
+    },
+    {
+      "id": "on-balance",
+      "en": "On balance, …",
+      "pt": "Pesando tudo, … / No geral, …",
+      "emoji": "🎚️",
+      "exemplo_en": "On balance, the advantages are greater.",
+      "exemplo_pt": "Pesando tudo, as vantagens são maiores."
+    },
+    {
+      "id": "trade-off",
+      "en": "trade-off",
+      "pt": "troca / compromisso (ganha-se algo, perde-se algo)",
+      "emoji": "🔄",
+      "exemplo_en": "There's a trade-off between cost and quality.",
+      "exemplo_pt": "Há uma troca entre custo e qualidade."
+    },
+    {
+      "id": "it-depends-on",
+      "en": "It largely depends on…",
+      "pt": "Depende em grande parte de…",
+      "emoji": "🔀",
+      "exemplo_en": "It largely depends on the company size.",
+      "exemplo_pt": "Depende em grande parte do tamanho da empresa."
+    },
+    {
+      "id": "retain",
+      "en": "retain (talent / staff)",
+      "pt": "reter (talentos)",
+      "emoji": "🧲",
+      "exemplo_en": "Training helps retain staff.",
+      "exemplo_pt": "Treinamento ajuda a reter funcionários."
+    },
+    {
+      "id": "risk-l4",
+      "en": "there is a risk that…",
+      "pt": "há o risco de que…",
+      "emoji": "⚠️",
+      "exemplo_en": "There is a risk that they will leave afterwards.",
+      "exemplo_pt": "Há o risco de que saiam depois."
+    },
+    {
+      "id": "safeguard",
+      "en": "safeguard",
+      "pt": "salvaguarda / proteção",
+      "emoji": "🛡️",
+      "exemplo_en": "A contract can act as a safeguard.",
+      "exemplo_pt": "Um contrato pode funcionar como salvaguarda."
+    },
+    {
+      "id": "conclusion-l4",
+      "en": "All things considered, …",
+      "pt": "Considerando tudo, …",
+      "emoji": "🏁",
+      "exemplo_en": "All things considered, I support the idea.",
+      "exemplo_pt": "Considerando tudo, apoio a ideia."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Análise equilibrada",
+    "explicacao_pt": "Estrutura: 1) Apresentar o tema: There are strong arguments on both sides. 2) Um lado: On the one hand, … / Supporters argue that… / One advantage is that… 3) Outro lado: On the other hand, … / Critics point out that… / A major drawback is that… 4) Avaliar: Weighing up both sides, … / It largely depends on… / There's a trade-off between… 5) Conclusão: On balance, … / All things considered, … / In my view, provided that…, … Use linguagem cautelosa: tend to, may, in some cases. Uma conclusão com CONDIÇÃO soa madura: On balance, I'm in favour, provided that there's a safeguard.",
+    "tabela": {
+      "colunas": [
+        "Etapa",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Lado A",
+          "Supporters argue that…",
+          "Supporters argue that it retains talent."
+        ],
+        [
+          "Lado B",
+          "Critics point out that…",
+          "Critics point out that it is costly."
+        ],
+        [
+          "Equilíbrio",
+          "There's a trade-off between…",
+          "There's a trade-off between cost and loyalty."
+        ],
+        [
+          "Avaliação",
+          "It largely depends on…",
+          "It largely depends on the contract."
+        ],
+        [
+          "Conclusão",
+          "On balance, … provided that…",
+          "On balance, I'm in favour, provided that there's a contract."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "On the one hand, paying for degrees is expensive. On the other hand, it helps retain the best people.",
+        "pt": "Por um lado, pagar faculdade é caro. Por outro, ajuda a reter as melhores pessoas."
+      },
+      {
+        "en": "Critics point out that there is a risk that employees will leave after graduating.",
+        "pt": "Os críticos apontam que há o risco de os funcionários saírem depois de formados."
+      },
+      {
+        "en": "However, a contract can act as a safeguard, requiring them to stay for two years.",
+        "pt": "No entanto, um contrato pode servir de salvaguarda, exigindo que fiquem por dois anos."
+      },
+      {
+        "en": "On balance, I'm in favour of the idea, provided that there are clear rules.",
+        "pt": "Pesando tudo, sou a favor da ideia, desde que haja regras claras."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A balanced analysis",
+    "falas": [
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Should we move production to a country with lower labour costs? There are strong arguments on both sides.",
+        "pt": "Deveríamos mudar a produção para um país com mão de obra mais barata? Há argumentos fortes dos dois lados."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "On the one hand, labour costs would fall by about 40%, which would make us more competitive.",
+        "pt": "Por um lado, os custos de mão de obra cairiam uns 40%, o que nos tornaria mais competitivos."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "On the other hand, transport costs and lead times would increase, and there's a risk that quality would suffer.",
+        "pt": "Por outro lado, custos de transporte e prazos aumentariam, e há o risco de a qualidade piorar."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "There's also a trade-off between short-term savings and our reputation as a local employer.",
+        "pt": "Há também uma troca entre a economia de curto prazo e nossa reputação como empregador local."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "Weighing up both sides, it largely depends on the product. For simple, high-volume parts, it makes sense.",
+        "pt": "Pesando os dois lados, depende muito do produto. Para peças simples, de alto volume, faz sentido."
+      },
+      {
+        "personagem": "Analyst",
+        "voz": "a",
+        "en": "On balance, I'd recommend moving only part of the production, provided that we keep strict quality control.",
+        "pt": "Pesando tudo, eu recomendaria mudar só parte da produção, desde que mantenhamos um controle de qualidade rigoroso."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04l4-e1",
+        "tipo": "multipla",
+        "enunciado": "By how much would labour costs fall?",
+        "opcoes": [
+          "About 14%",
+          "About 40%",
+          "About 60%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u04l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is one disadvantage?",
+        "opcoes": [
+          "Transport costs and lead times would increase.",
+          "Workers would earn more.",
+          "Taxes would fall."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What trade-off is mentioned?",
+        "opcoes": [
+          "Short-term savings vs. reputation as a local employer",
+          "Quality vs. speed",
+          "Price vs. color"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the analyst recommend?",
+        "opcoes": [
+          "Moving only part of the production",
+          "Moving everything",
+          "Doing nothing"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u04l4-p1",
+      "tipo": "completar",
+      "frase": "On the one ___, it is expensive.",
+      "respostas": [
+        "hand"
+      ]
+    },
+    {
+      "id": "c1u04l4-p2",
+      "tipo": "completar",
+      "frase": "There's a ___-off between cost and quality.",
+      "respostas": [
+        "trade"
+      ]
+    },
+    {
+      "id": "c1u04l4-p3",
+      "tipo": "completar",
+      "frase": "On ___, the advantages are greater. (pesando tudo)",
+      "respostas": [
+        "balance"
+      ]
+    },
+    {
+      "id": "c1u04l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Conclusão madura:",
+      "opcoes": [
+        "On balance, I'm in favour, provided that there are clear rules.",
+        "I'm in favour. Period.",
+        "Yes, totally, 100%."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Os críticos apontam que…\":",
+      "opcoes": [
+        "Critics point out that…",
+        "Critics point that…",
+        "Critics are pointing at that…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l4-p6",
+      "tipo": "ordenar",
+      "frase": "Let's weigh up the pros and cons",
+      "traducao_pt": "Vamos pesar os prós e contras"
+    },
+    {
+      "id": "c1u04l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It largely depends on the company size."
+    },
+    {
+      "id": "c1u04l4-p8",
+      "tipo": "traduzir",
+      "pt": "Considerando tudo, apoio a ideia.",
+      "respostas": [
+        "All things considered, I support the idea."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça uma análise equilibrada (2 minutos) de um tema do seu trabalho escolhido pelo professor: os dois lados, a troca envolvida e sua conclusão com condição.",
+    "papel_professor": "Dê um tema (Should your company replace a supplier with in-house production?). Ouça a análise. Pergunte What's the main trade-off? What would change your mind? Corrija.",
+    "abertura": "Here's your topic: 'Should your company produce a key component in-house instead of buying it?' Weigh up both sides.",
+    "abertura_pt": "Seu tema: \"Sua empresa deveria produzir um componente-chave internamente em vez de comprá-lo?\" Pese os dois lados."
+  },
+  "teste": [
+    {
+      "id": "c1u04l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Depende em grande parte de…\":",
+      "opcoes": [
+        "It largely depends on…",
+        "It depends largely of…",
+        "It is large depending in…"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l4-t2",
+      "tipo": "completar",
+      "frase": "A contract can act as a ___. (salvaguarda)",
+      "respostas": [
+        "safeguard"
+      ]
+    },
+    {
+      "id": "c1u04l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "There is a risk that they will leave afterwards."
+    },
+    {
+      "id": "c1u04l4-t4",
+      "tipo": "traduzir",
+      "pt": "Treinamento ajuda a reter funcionários.",
+      "respostas": [
+        "Training helps retain staff.",
+        "Training helps to retain staff.",
+        "Training helps retain employees."
+      ]
+    },
+    {
+      "id": "c1u04l4-t5",
+      "tipo": "ordenar",
+      "frase": "Weighing up both sides I think it's worth it",
+      "traducao_pt": "Pesando os dois lados, acho que vale a pena"
+    }
+  ]
+}

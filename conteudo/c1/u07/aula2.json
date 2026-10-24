@@ -1,0 +1,357 @@
+{
+  "id": "c1-u07-l2",
+  "nivel": "C1",
+  "unidade": 7,
+  "numero": 2,
+  "titulo": "Capacity planning",
+  "objetivo_pt": "Analisar capacidade, carga e utilização para decidir horas extras, turnos e terceirização.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar números de demanda e capacidade. Analise se a fábrica consegue atender e proponha ajustes.",
+    "papel_professor": "Dê números (Capacity: 40,000 units/month. Demand next month: 46,000.). O aluno analisa (We're 15% short of capacity) e propõe (overtime, extra shift, outsourcing, building stock). Ensine vocabulário de capacidade. Corrija.",
+    "abertura": "Our capacity is 40,000 units a month, but demand next month is 46,000. What do we do?",
+    "abertura_pt": "Nossa capacidade é de 40.000 unidades por mês, mas a demanda do próximo mês é de 46.000. O que fazemos?"
+  },
+  "vocabulario": [
+    {
+      "id": "capacity-l2",
+      "en": "capacity / available capacity",
+      "pt": "capacidade / capacidade disponível",
+      "emoji": "🏭",
+      "exemplo_en": "Our capacity is 40,000 units a month.",
+      "exemplo_pt": "Nossa capacidade é de 40.000 unidades por mês."
+    },
+    {
+      "id": "utilization",
+      "en": "capacity utilization",
+      "pt": "utilização da capacidade",
+      "emoji": "📈",
+      "exemplo_en": "Capacity utilization is at 95%.",
+      "exemplo_pt": "A utilização da capacidade está em 95%."
+    },
+    {
+      "id": "shortfall",
+      "en": "shortfall / gap",
+      "pt": "déficit / lacuna",
+      "emoji": "🕳️",
+      "exemplo_en": "There's a shortfall of 6,000 units.",
+      "exemplo_pt": "Há um déficit de 6.000 unidades."
+    },
+    {
+      "id": "overtime-l2",
+      "en": "overtime / extra shift",
+      "pt": "hora extra / turno extra",
+      "emoji": "🌙",
+      "exemplo_en": "We could add an extra shift on Saturdays.",
+      "exemplo_pt": "Poderíamos adicionar um turno extra aos sábados."
+    },
+    {
+      "id": "subcontract",
+      "en": "subcontract / outsource",
+      "pt": "subcontratar / terceirizar",
+      "emoji": "🤝",
+      "exemplo_en": "We could subcontract part of the volume.",
+      "exemplo_pt": "Poderíamos subcontratar parte do volume."
+    },
+    {
+      "id": "build-ahead",
+      "en": "build ahead / pre-build stock",
+      "pt": "produzir antecipado / formar estoque",
+      "emoji": "📦",
+      "exemplo_en": "We could build ahead in September.",
+      "exemplo_pt": "Poderíamos produzir antecipado em setembro."
+    },
+    {
+      "id": "constraint",
+      "en": "constraint",
+      "pt": "restrição",
+      "emoji": "⛓️",
+      "exemplo_en": "The paint shop is our main constraint.",
+      "exemplo_pt": "A pintura é nossa principal restrição."
+    },
+    {
+      "id": "load",
+      "en": "load / workload",
+      "pt": "carga / carga de trabalho",
+      "emoji": "⚖️",
+      "exemplo_en": "The load on line 2 is too high.",
+      "exemplo_pt": "A carga na linha 2 está alta demais."
+    },
+    {
+      "id": "idle",
+      "en": "idle (capacity / time)",
+      "pt": "ociosa / tempo ocioso",
+      "emoji": "💤",
+      "exemplo_en": "Line 4 is idle 30% of the time.",
+      "exemplo_pt": "A linha 4 fica ociosa 30% do tempo."
+    },
+    {
+      "id": "rough-cut",
+      "en": "rough-cut capacity plan",
+      "pt": "plano de capacidade aproximado",
+      "emoji": "✏️",
+      "exemplo_en": "Let's do a rough-cut capacity plan.",
+      "exemplo_pt": "Vamos fazer um plano de capacidade aproximado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Analisando capacidade",
+    "explicacao_pt": "Descrever a situação: We're running at X% capacity utilization. / Demand exceeds capacity by X%. / There's a shortfall of… / Line X is idle / overloaded. Opções (2ª condicional ou could): We could add an extra shift. / If we subcontracted 10%, we would… / Building ahead would mean… Comparar opções: Option A would be cheaper, whereas option B would be faster. / The most cost-effective solution would be to… Restrições: The bottleneck/constraint is… / We're constrained by… Conclusão com probabilidade: This is likely to cover most of the gap.",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Utilização",
+          "We're running at…%",
+          "We are running at 95% capacity."
+        ],
+        [
+          "Déficit",
+          "Demand exceeds capacity by…",
+          "Demand exceeds capacity by 15%."
+        ],
+        [
+          "Opção",
+          "We could…",
+          "We could add a Saturday shift."
+        ],
+        [
+          "Comparar",
+          "A would be…, whereas B would be…",
+          "Overtime would be faster, whereas subcontracting would be cheaper."
+        ],
+        [
+          "Restrição",
+          "We're constrained by…",
+          "We are constrained by the paint shop."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Demand next month exceeds our capacity by 15%, which means a shortfall of about 6,000 units.",
+        "pt": "A demanda do próximo mês excede nossa capacidade em 15%, o que significa um déficit de cerca de 6.000 unidades."
+      },
+      {
+        "en": "If we added a Saturday shift, we would cover around 4,000 units.",
+        "pt": "Se adicionássemos um turno aos sábados, cobriríamos umas 4.000 unidades."
+      },
+      {
+        "en": "Subcontracting would be cheaper, whereas overtime would give us more control over quality.",
+        "pt": "Subcontratar seria mais barato, enquanto horas extras nos dariam mais controle da qualidade."
+      },
+      {
+        "en": "We're constrained by the paint shop, so adding capacity elsewhere won't help.",
+        "pt": "Estamos limitados pela pintura, então adicionar capacidade em outro lugar não vai ajudar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Can we meet demand?",
+    "falas": [
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Sales has confirmed the forecast: 52,000 units in October. What's our capacity?",
+        "pt": "Vendas confirmou a previsão: 52.000 unidades em outubro. Qual nossa capacidade?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "With two shifts, 45,000. So there's a shortfall of 7,000 units, about 15%.",
+        "pt": "Com dois turnos, 45.000. Então há um déficit de 7.000 unidades, cerca de 15%."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Options?",
+        "pt": "Opções?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "We could add Saturday shifts, which would give us 4,000 more. For the rest, we could build ahead in September, when line 3 is partly idle.",
+        "pt": "Poderíamos adicionar turnos aos sábados, o que daria mais 4.000. Para o resto, poderíamos produzir antecipado em setembro, quando a linha 3 está parcialmente ociosa."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "What about subcontracting?",
+        "pt": "E subcontratar?"
+      },
+      {
+        "personagem": "Planner",
+        "voz": "b",
+        "en": "It would be cheaper, but quality is likely to suffer. Also, the paint shop is our real constraint, so we need to check if it can handle the extra volume.",
+        "pt": "Seria mais barato, mas é provável que a qualidade sofra. Além disso, a pintura é nossa restrição real, então precisamos ver se aguenta o volume extra."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the demand for October?",
+        "opcoes": [
+          "45,000 units",
+          "52,000 units",
+          "57,000 units"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l2-e2",
+        "tipo": "multipla",
+        "enunciado": "How big is the shortfall?",
+        "opcoes": [
+          "4,000 units",
+          "7,000 units",
+          "15,000 units"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How many extra units would Saturday shifts give?",
+        "opcoes": [
+          "2,000",
+          "4,000",
+          "7,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the real constraint?",
+        "opcoes": [
+          "The paint shop",
+          "Line 3",
+          "The warehouse"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u07l2-p1",
+      "tipo": "completar",
+      "frase": "Capacity ___ is at 95%. (utilização)",
+      "respostas": [
+        "utilization"
+      ]
+    },
+    {
+      "id": "c1u07l2-p2",
+      "tipo": "completar",
+      "frase": "There's a ___ of 6,000 units. (déficit)",
+      "respostas": [
+        "shortfall"
+      ]
+    },
+    {
+      "id": "c1u07l2-p3",
+      "tipo": "completar",
+      "frase": "Line 4 is ___ 30% of the time. (ociosa)",
+      "respostas": [
+        "idle"
+      ]
+    },
+    {
+      "id": "c1u07l2-p4",
+      "tipo": "multipla",
+      "enunciado": "\"A demanda excede a capacidade em 15%\":",
+      "opcoes": [
+        "Demand exceeds capacity by 15%.",
+        "Demand exceeds capacity in 15%.",
+        "Demand is exceed the capacity 15%."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l2-p5",
+      "tipo": "multipla",
+      "enunciado": "Comparar opções:",
+      "opcoes": [
+        "Overtime would be faster, whereas subcontracting would be cheaper.",
+        "Overtime faster, subcontracting cheaper, whereas.",
+        "Overtime is more fast than subcontract cheap."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l2-p6",
+      "tipo": "ordenar",
+      "frase": "The paint shop is our main constraint",
+      "traducao_pt": "A pintura é nossa principal restrição"
+    },
+    {
+      "id": "c1u07l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We could build ahead in September."
+    },
+    {
+      "id": "c1u07l2-p8",
+      "tipo": "traduzir",
+      "pt": "Poderíamos subcontratar parte do volume.",
+      "respostas": [
+        "We could subcontract part of the volume.",
+        "We could outsource part of the volume."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai dar um cenário de demanda maior que a capacidade. Analise o déficit, a restrição, compare pelo menos 3 opções (custo, prazo, qualidade, risco) e recomende uma combinação.",
+    "papel_professor": "Dê números concretos (capacity 30,000; demand 36,000; overtime cost +40%; subcontractor 10% cheaper but 2-week lead time). Peça análise e recomendação. Corrija linguagem de capacidade e comparação.",
+    "abertura": "Here's the situation: capacity is 30,000 units, demand for next month is 36,000, and overtime costs 40% more. What do you recommend?",
+    "abertura_pt": "A situação: capacidade de 30.000 unidades, demanda do próximo mês de 36.000, e hora extra custa 40% a mais. O que você recomenda?"
+  },
+  "teste": [
+    {
+      "id": "c1u07l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Estamos operando a 95% da capacidade\":",
+      "opcoes": [
+        "We're running at 95% capacity.",
+        "We're running in 95% of capacity.",
+        "We run 95% capacities."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l2-t2",
+      "tipo": "completar",
+      "frase": "The ___ on line 2 is too high. (carga)",
+      "respostas": [
+        "load"
+      ]
+    },
+    {
+      "id": "c1u07l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Let's do a rough-cut capacity plan.",
+      "aceitas": [
+        "Let us do a rough-cut capacity plan."
+      ]
+    },
+    {
+      "id": "c1u07l2-t4",
+      "tipo": "traduzir",
+      "pt": "Poderíamos adicionar um turno extra aos sábados.",
+      "respostas": [
+        "We could add an extra shift on Saturdays.",
+        "We could add an extra Saturday shift."
+      ]
+    },
+    {
+      "id": "c1u07l2-t5",
+      "tipo": "ordenar",
+      "frase": "We're constrained by the paint shop",
+      "traducao_pt": "Estamos limitados pela pintura"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "b2-u01-l5",
+  "nivel": "B2",
+  "unidade": 1,
+  "numero": 5,
+  "titulo": "No regrets",
+  "objetivo_pt": "Refletir sobre a própria trajetória com nuance, juntando todas as condicionais e wish.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga ao professor uma coisa que você faria diferente se pudesse voltar 5 anos no tempo, e uma coisa que você faria exatamente igual.",
+    "papel_professor": "Peça uma coisa diferente e uma igual. Corrija condicionais. Ensine expressões para relativizar (Everything happens for a reason, It was a blessing in disguise).",
+    "abertura": "If you could go back five years, what would you do differently? And what would you do exactly the same?",
+    "abertura_pt": "Se você pudesse voltar cinco anos, o que faria diferente? E o que faria exatamente igual?"
+  },
+  "vocabulario": [
+    {
+      "id": "blessing",
+      "en": "a blessing in disguise",
+      "pt": "há males que vêm para bem",
+      "emoji": "🎁",
+      "exemplo_en": "Losing that job was a blessing in disguise.",
+      "exemplo_pt": "Perder aquele emprego foi um mal que veio para bem."
+    },
+    {
+      "id": "for-reason",
+      "en": "everything happens for a reason",
+      "pt": "tudo acontece por um motivo",
+      "emoji": "🌀",
+      "exemplo_en": "I believe everything happens for a reason.",
+      "exemplo_pt": "Acredito que tudo acontece por um motivo."
+    },
+    {
+      "id": "no-regrets",
+      "en": "no regrets",
+      "pt": "sem arrependimentos",
+      "emoji": "🙌",
+      "exemplo_en": "I have no regrets.",
+      "exemplo_pt": "Não tenho arrependimentos."
+    },
+    {
+      "id": "second-chance",
+      "en": "second chance",
+      "pt": "segunda chance",
+      "emoji": "🔄",
+      "exemplo_en": "Everyone deserves a second chance.",
+      "exemplo_pt": "Todos merecem uma segunda chance."
+    },
+    {
+      "id": "mistake-l5",
+      "en": "make a mistake",
+      "pt": "cometer um erro",
+      "emoji": "❌",
+      "exemplo_en": "We all make mistakes.",
+      "exemplo_pt": "Todos cometemos erros."
+    },
+    {
+      "id": "learn-from",
+      "en": "learn from (mistakes)",
+      "pt": "aprender com (os erros)",
+      "emoji": "📖",
+      "exemplo_en": "The important thing is to learn from your mistakes.",
+      "exemplo_pt": "O importante é aprender com os erros."
+    },
+    {
+      "id": "move-forward",
+      "en": "move on / move forward",
+      "pt": "seguir em frente",
+      "emoji": "➡️",
+      "exemplo_en": "It's time to move on.",
+      "exemplo_pt": "É hora de seguir em frente."
+    },
+    {
+      "id": "shape",
+      "en": "shape (who you are)",
+      "pt": "moldar (quem você é)",
+      "emoji": "🗿",
+      "exemplo_en": "Our experiences shape who we are.",
+      "exemplo_pt": "Nossas experiências moldam quem somos."
+    },
+    {
+      "id": "grateful",
+      "en": "grateful (for)",
+      "pt": "grato (por)",
+      "emoji": "🙏",
+      "exemplo_en": "I'm grateful for every experience.",
+      "exemplo_pt": "Sou grato por cada experiência."
+    },
+    {
+      "id": "otherwise-l5",
+      "en": "otherwise",
+      "pt": "caso contrário / de outro modo",
+      "emoji": "↪️",
+      "exemplo_en": "I failed, otherwise I wouldn't have learned so much.",
+      "exemplo_pt": "Eu falhei; do contrário, não teria aprendido tanto."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: todas as condicionais",
+    "explicacao_pt": "ZERO (fatos): If you heat water, it boils. PRIMEIRA (futuro provável): If it rains, I'll stay home. SEGUNDA (imaginário presente/futuro): If I won the lottery, I'd travel. TERCEIRA (passado imaginário): If I had studied, I'd have passed. MISTA: If I had studied medicine, I'd be a doctor now. WISH: presente → wish + passado (I wish I were taller); passado → wish + past perfect (I wish I had listened). SHOULD HAVE: crítica ao passado.",
+    "tabela": {
+      "colunas": [
+        "Tipo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "0",
+          "If + presente, presente",
+          "If you don't sleep, you get tired."
+        ],
+        [
+          "1",
+          "If + presente, will",
+          "If I finish early, I'll call you."
+        ],
+        [
+          "2",
+          "If + passado, would",
+          "If I were you, I'd accept."
+        ],
+        [
+          "3",
+          "If + had pp, would have pp",
+          "If I'd known, I'd have come."
+        ],
+        [
+          "Mista",
+          "If + had pp, would + verbo",
+          "If I'd moved, I'd be happier now."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If I hadn't lost that job, I would never have started my own business.",
+        "pt": "Se eu não tivesse perdido aquele emprego, nunca teria aberto meu negócio."
+      },
+      {
+        "en": "Losing it was a blessing in disguise.",
+        "pt": "Perdê-lo foi um mal que veio para bem."
+      },
+      {
+        "en": "I wish I had been braver when I was younger, but I've learned from my mistakes.",
+        "pt": "Queria ter sido mais corajoso quando era jovem, mas aprendi com meus erros."
+      },
+      {
+        "en": "If I could give advice to my younger self, I'd say: don't be afraid to try.",
+        "pt": "Se eu pudesse dar um conselho a mim mesmo mais jovem, diria: não tenha medo de tentar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Advice to my younger self",
+    "falas": [
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Our guest today is Neusa Campos, who started as an operator and is now the CEO of a big logistics company.",
+        "pt": "Nossa convidada hoje é Neusa Campos, que começou como operadora e hoje é CEO de uma grande empresa de logística."
+      },
+      {
+        "personagem": "Neusa",
+        "voz": "b",
+        "en": "Thank you. You know, I was fired from my first job when I was twenty-two. I was devastated.",
+        "pt": "Obrigada. Sabe, fui demitida do meu primeiro emprego aos vinte e dois. Fiquei arrasada."
+      },
+      {
+        "personagem": "Neusa",
+        "voz": "b",
+        "en": "But it was a blessing in disguise. If I hadn't been fired, I wouldn't have gone back to school, and I wouldn't be here today.",
+        "pt": "Mas foi um mal que veio para bem. Se não tivesse sido demitida, não teria voltado a estudar e não estaria aqui hoje."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "Do you have any regrets?",
+        "pt": "Tem algum arrependimento?"
+      },
+      {
+        "personagem": "Neusa",
+        "voz": "b",
+        "en": "I wish I had trusted myself more. I said no to many opportunities because I was afraid.",
+        "pt": "Queria ter confiado mais em mim. Disse não a muitas oportunidades porque tinha medo."
+      },
+      {
+        "personagem": "Host",
+        "voz": "a",
+        "en": "What would you say to your younger self?",
+        "pt": "O que você diria a si mesma mais jovem?"
+      },
+      {
+        "personagem": "Neusa",
+        "voz": "b",
+        "en": "I'd say: you'll make mistakes, and that's fine. If you learn from them, they'll shape who you are.",
+        "pt": "Eu diria: você vai errar, e tudo bem. Se aprender com os erros, eles vão moldar quem você é."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How did Neusa start her career?",
+        "opcoes": [
+          "As an operator",
+          "As a manager",
+          "As a teacher"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What happened when she was twenty-two?",
+        "opcoes": [
+          "She was fired.",
+          "She was promoted.",
+          "She got married."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What did she do after that?",
+        "opcoes": [
+          "She went back to school.",
+          "She moved abroad.",
+          "She opened a shop."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What does she wish?",
+        "opcoes": [
+          "That she had trusted herself more",
+          "That she had never worked",
+          "That she had stayed in her first job"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u01l5-p1",
+      "tipo": "completar",
+      "frase": "Losing that job was a blessing in ___.",
+      "respostas": [
+        "disguise"
+      ]
+    },
+    {
+      "id": "b2u01l5-p2",
+      "tipo": "completar",
+      "frase": "The important thing is to learn ___ your mistakes.",
+      "respostas": [
+        "from"
+      ]
+    },
+    {
+      "id": "b2u01l5-p3",
+      "tipo": "completar",
+      "frase": "We all ___ mistakes. (cometemos)",
+      "respostas": [
+        "make"
+      ]
+    },
+    {
+      "id": "b2u01l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Condicional mista:",
+      "opcoes": [
+        "If I hadn't been fired, I wouldn't be here today.",
+        "If I wasn't fired, I won't be here today.",
+        "If I hadn't been fired, I won't be here."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Sou grato por cada experiência\":",
+      "opcoes": [
+        "I'm grateful for every experience.",
+        "I'm grateful of every experience.",
+        "I'm thankful to every experiences."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l5-p6",
+      "tipo": "ordenar",
+      "frase": "Our experiences shape who we are",
+      "traducao_pt": "Nossas experiências moldam quem somos"
+    },
+    {
+      "id": "b2u01l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's time to move on.",
+      "aceitas": [
+        "It is time to move on."
+      ]
+    },
+    {
+      "id": "b2u01l5-p8",
+      "tipo": "traduzir",
+      "pt": "Todos merecem uma segunda chance.",
+      "respostas": [
+        "Everyone deserves a second chance.",
+        "Everybody deserves a second chance."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: escreva oralmente uma \"carta para o seu eu mais jovem\". Conte ao professor um erro, um arrependimento, algo que foi um mal que veio para bem, e o conselho que você daria.",
+    "papel_professor": "Ouça com interesse e faça perguntas profundas (How did that change you? What would have happened if…? Would you do it again?). No final, corrija os 2–3 erros principais de condicionais.",
+    "abertura": "Imagine you could talk to yourself at eighteen. What would you tell that young person?",
+    "abertura_pt": "Imagine que você pudesse falar com você mesmo aos dezoito anos. O que diria a essa pessoa jovem?"
+  },
+  "teste": [
+    {
+      "id": "b2u01l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Segunda condicional:",
+      "opcoes": [
+        "If I could, I'd go back.",
+        "If I could, I'd have gone back yesterday.",
+        "If I can, I'd go back."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l5-t2",
+      "tipo": "completar",
+      "frase": "I have no ___. (arrependimentos)",
+      "respostas": [
+        "regrets"
+      ]
+    },
+    {
+      "id": "b2u01l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I believe everything happens for a reason."
+    },
+    {
+      "id": "b2u01l5-t4",
+      "tipo": "traduzir",
+      "pt": "Queria ter sido mais corajoso.",
+      "respostas": [
+        "I wish I had been braver.",
+        "I wish I'd been braver.",
+        "I wish I had been more courageous."
+      ]
+    },
+    {
+      "id": "b2u01l5-t5",
+      "tipo": "ordenar",
+      "frase": "Don't be afraid to try",
+      "traducao_pt": "Não tenha medo de tentar"
+    }
+  ]
+}

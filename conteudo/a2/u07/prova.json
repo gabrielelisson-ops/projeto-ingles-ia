@@ -1,0 +1,256 @@
+{
+  "id": "a2-u07-prova",
+  "nivel": "A2",
+  "unidade": 7,
+  "titulo": "Prova da Unidade 7 (A2) — Travel",
+  "leitura": {
+    "texto": "Welcome to Porto Alegre!\nInformation for visitors to Delta Components\nFrom the airport: take a taxi or an app car (about 25 minutes). Don't take the bus: there is no direct line to our plant. Keep your receipt for your expenses.\nBy car: from the BR-116, take exit 230. At the roundabout, take the third exit and drive along the river for two kilometers. Go across the green bridge and go past the shopping center. Our gate is on the left, opposite a gas station.\nHotel: our partner hotel is the Riverside Inn, ten minutes on foot from the plant. Breakfast is included and checkout is at 11 a.m. Please show your visitor badge at reception to get a 15% discount.",
+    "perguntas": [
+      {
+        "id": "a2u07pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How long is the taxi from the airport?",
+        "opcoes": [
+          "About 15 minutes",
+          "About 25 minutes",
+          "About one hour"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Why shouldn't visitors take the bus?",
+        "opcoes": [
+          "It's expensive.",
+          "There's no direct line to the plant.",
+          "It's slow."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Which exit from the BR-116?",
+        "opcoes": [
+          "Exit 116",
+          "Exit 230",
+          "Exit 3"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What do you do at the roundabout?",
+        "opcoes": [
+          "Take the first exit",
+          "Take the third exit",
+          "Turn back"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What do you go across?",
+        "opcoes": [
+          "The river",
+          "The green bridge",
+          "The shopping center"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Where is the gate?",
+        "opcoes": [
+          "On the right, next to the bridge",
+          "On the left, opposite a gas station",
+          "Behind the shopping center"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-l7",
+        "tipo": "multipla",
+        "enunciado": "How far is the hotel from the plant?",
+        "opcoes": [
+          "Ten minutes on foot",
+          "Ten minutes by car",
+          "Twenty-five minutes"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07pv-l8",
+        "tipo": "multipla",
+        "enunciado": "How can you get a discount at the hotel?",
+        "opcoes": [
+          "Pay in cash",
+          "Show your visitor badge",
+          "Book online"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "Good evening. I have a reservation under Moreira, for two nights.",
+        "pt": "Boa noite. Tenho uma reserva no nome de Moreira, para duas noites."
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Welcome, Mr. Moreira. Here's your key card. You're in room 308.",
+        "pt": "Bem-vindo, Sr. Moreira. Aqui está seu cartão-chave. Você está no quarto 308."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "Thank you. Is breakfast included?",
+        "pt": "Obrigado. O café está incluído?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Yes, from 6:30 to 10 on the ground floor. Take the elevator and turn right.",
+        "pt": "Sim, das 6h30 às 10h no térreo. Pegue o elevador e vire à direita."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "And what's the Wi-Fi password?",
+        "pt": "E qual é a senha do Wi-Fi?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "It's 'riverside2026', all in small letters.",
+        "pt": "É riverside2026, tudo minúsculo."
+      },
+      {
+        "personagem": "Guest",
+        "voz": "a",
+        "en": "Great. Could you call a taxi for me tomorrow at seven?",
+        "pt": "Ótimo. Poderia chamar um táxi para mim amanhã às sete?"
+      },
+      {
+        "personagem": "Receptionist",
+        "voz": "b",
+        "en": "Of course. Have a good night.",
+        "pt": "Claro. Tenha uma boa noite."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u07pv-e1",
+        "tipo": "multipla",
+        "enunciado": "How many nights is the guest staying?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the room number?",
+        "opcoes": [
+          "308",
+          "380",
+          "803"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When is breakfast?",
+        "opcoes": [
+          "From 6 to 9",
+          "From 6:30 to 10",
+          "From 7 to 10:30"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Where is breakfast?",
+        "opcoes": [
+          "On the ground floor",
+          "On the third floor",
+          "In the room"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does the guest ask for tomorrow?",
+        "opcoes": [
+          "A taxi at seven",
+          "A wake-up call",
+          "Breakfast in the room"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u07pv-e6",
+        "tipo": "multipla",
+        "enunciado": "How do you get to breakfast?",
+        "opcoes": [
+          "Take the stairs and turn left",
+          "Take the elevator and turn right",
+          "Go across the garden"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u07pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Is breakfast included?"
+      },
+      {
+        "id": "a2u07pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Could you call a taxi for me?"
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2u07pv-w1",
+      "instrucao_pt": "Explique a um visitante estrangeiro como chegar da rodoviária ou do aeroporto até a sua casa ou empresa (use o imperativo e preposições).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2u07pv-w2",
+      "instrucao_pt": "Escreva um e-mail curto para um hotel: faça uma reserva e faça duas perguntas (café, checkout, Wi-Fi, estacionamento).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2u07pv-s1",
+      "pergunta_en": "How do you get from your home to your workplace?",
+      "instrucao_pt": "Descreva em voz alta o trajeto com direções e preposições de movimento."
+    },
+    {
+      "id": "a2u07pv-s2",
+      "pergunta_en": "You are at a hotel and your room has a problem. Call the reception.",
+      "instrucao_pt": "Ligue em voz alta para a recepção, explique o problema com educação e peça uma solução."
+    }
+  ],
+  "foco_avaliacao": "Nível A2. Imperativo (afirmativo e negativo) para direções e instruções, preposições de movimento (up, down, across, through, past, along, into), meios de transporte (by plane, on foot), frases de aeroporto e hotel, pedidos educados (Could I…?), contar uma viagem no passado."
+}

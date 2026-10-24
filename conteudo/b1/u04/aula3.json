@@ -1,0 +1,352 @@
+{
+  "id": "b1-u04-l3",
+  "nivel": "B1",
+  "unidade": 4,
+  "numero": 3,
+  "titulo": "Unless you hurry…",
+  "objetivo_pt": "Usar unless, as long as e in case para condições.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai falar de regras e condições. Reescreva frases com \"unless\" (= a não ser que).",
+    "papel_professor": "Apresente frases com if not e peça para reformular com unless (If you don't hurry, you'll miss the bus → Unless you hurry…). Depois use as long as e in case.",
+    "abertura": "Complete my sentence: you'll miss the bus unless…",
+    "abertura_pt": "Complete minha frase: você vai perder o ônibus a não ser que…"
+  },
+  "vocabulario": [
+    {
+      "id": "unless",
+      "en": "unless",
+      "pt": "a não ser que / se não",
+      "emoji": "🚫",
+      "exemplo_en": "We'll miss the deadline unless we work overtime.",
+      "exemplo_pt": "Vamos perder o prazo a não ser que façamos hora extra."
+    },
+    {
+      "id": "as-long-as",
+      "en": "as long as",
+      "pt": "desde que",
+      "emoji": "🤝",
+      "exemplo_en": "You can leave early as long as you finish the report.",
+      "exemplo_pt": "Pode sair cedo desde que termine o relatório."
+    },
+    {
+      "id": "in-case-l3",
+      "en": "in case",
+      "pt": "caso / para o caso de",
+      "emoji": "☂️",
+      "exemplo_en": "Take an umbrella in case it rains.",
+      "exemplo_pt": "Leve um guarda-chuva caso chova."
+    },
+    {
+      "id": "otherwise",
+      "en": "otherwise",
+      "pt": "senão / caso contrário",
+      "emoji": "↪️",
+      "exemplo_en": "Wear gloves, otherwise you'll cut your hands.",
+      "exemplo_pt": "Use luvas, senão vai cortar as mãos."
+    },
+    {
+      "id": "approve",
+      "en": "approve / approval",
+      "pt": "aprovar / aprovação",
+      "emoji": "✅",
+      "exemplo_en": "We can't ship unless quality approves the batch.",
+      "exemplo_pt": "Não podemos enviar a não ser que a qualidade aprove o lote."
+    },
+    {
+      "id": "batch",
+      "en": "batch / lot",
+      "pt": "lote",
+      "emoji": "📦",
+      "exemplo_en": "This batch has a problem.",
+      "exemplo_pt": "Este lote tem um problema."
+    },
+    {
+      "id": "ship",
+      "en": "ship / shipment",
+      "pt": "enviar / remessa",
+      "emoji": "🚚",
+      "exemplo_en": "We ship every Friday.",
+      "exemplo_pt": "Enviamos toda sexta."
+    },
+    {
+      "id": "reject",
+      "en": "reject / rejected",
+      "pt": "rejeitar / rejeitado",
+      "emoji": "❌",
+      "exemplo_en": "The customer rejected the shipment.",
+      "exemplo_pt": "O cliente rejeitou a remessa."
+    },
+    {
+      "id": "urgent",
+      "en": "urgent",
+      "pt": "urgente",
+      "emoji": "🔥",
+      "exemplo_en": "It's urgent. Call me unless it's after 10 p.m.",
+      "exemplo_pt": "É urgente. Me ligue a não ser que seja depois das 22h."
+    },
+    {
+      "id": "backup",
+      "en": "backup / plan B",
+      "pt": "reserva / plano B",
+      "emoji": "🅱️",
+      "exemplo_en": "Let's have a plan B in case the supplier fails.",
+      "exemplo_pt": "Vamos ter um plano B caso o fornecedor falhe."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Unless, as long as, in case",
+    "explicacao_pt": "UNLESS = if … not (a não ser que): Unless we hurry, we'll be late = If we don't hurry, we'll be late. Atenção: depois de unless o verbo fica AFIRMATIVO. AS LONG AS = desde que (condição necessária): You can use my car as long as you're careful. IN CASE = para o caso de (prevenção, antes de saber se vai acontecer): Take a jacket in case it gets cold. OTHERWISE = senão: Hurry, otherwise we'll be late. Como no 'if', depois dessas palavras usamos o presente para falar do futuro.",
+    "tabela": {
+      "colunas": [
+        "Palavra",
+        "Sentido",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "unless",
+          "a não ser que",
+          "I won't go unless you come with me."
+        ],
+        [
+          "as long as",
+          "desde que",
+          "It's fine as long as it's safe."
+        ],
+        [
+          "in case",
+          "caso (prevenção)",
+          "Save a copy in case the computer crashes."
+        ],
+        [
+          "otherwise",
+          "senão",
+          "Call him now, otherwise he'll leave."
+        ],
+        [
+          "if … not",
+          "se não",
+          "If it doesn't rain, we'll play."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We can't ship the batch unless quality approves it.",
+        "pt": "Não podemos enviar o lote a não ser que a qualidade aprove."
+      },
+      {
+        "en": "You can change the schedule as long as the line leader agrees.",
+        "pt": "Você pode mudar a escala desde que o líder concorde."
+      },
+      {
+        "en": "Keep some spare parts in stock in case the machine breaks down.",
+        "pt": "Mantenha peças de reposição em estoque caso a máquina quebre."
+      },
+      {
+        "en": "Clean the filter every day, otherwise the motor will overheat.",
+        "pt": "Limpe o filtro todo dia, senão o motor vai superaquecer."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Can we ship today?",
+    "falas": [
+      {
+        "personagem": "Logistics",
+        "voz": "a",
+        "en": "The truck is here. Can we ship the Silva order today?",
+        "pt": "O caminhão chegou. Podemos enviar o pedido da Silva hoje?"
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "Not unless the lab approves the last batch. The results are coming at four.",
+        "pt": "Não, a não ser que o laboratório aprove o último lote. Os resultados saem às quatro."
+      },
+      {
+        "personagem": "Logistics",
+        "voz": "a",
+        "en": "The driver can wait as long as we pay for the extra time.",
+        "pt": "O motorista pode esperar desde que paguemos o tempo extra."
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "OK. And let's prepare the other pallets in case the results are good.",
+        "pt": "OK. E vamos preparar os outros paletes caso os resultados sejam bons."
+      },
+      {
+        "personagem": "Logistics",
+        "voz": "a",
+        "en": "And if they're bad?",
+        "pt": "E se forem ruins?"
+      },
+      {
+        "personagem": "Quality",
+        "voz": "b",
+        "en": "Then we'll send only the approved batches. Otherwise, the customer will reject everything.",
+        "pt": "Aí mandamos só os lotes aprovados. Senão, o cliente rejeita tudo."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What do they need before shipping?",
+        "opcoes": [
+          "Lab approval",
+          "More pallets",
+          "A new truck"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l3-e2",
+        "tipo": "multipla",
+        "enunciado": "When are the results coming?",
+        "opcoes": [
+          "At two",
+          "At four",
+          "Tomorrow"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l3-e3",
+        "tipo": "multipla",
+        "enunciado": "On what condition can the driver wait?",
+        "opcoes": [
+          "If they pay for the extra time",
+          "If they give him lunch",
+          "Never"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What will they do if the results are bad?",
+        "opcoes": [
+          "Send only approved batches",
+          "Send everything",
+          "Cancel the order"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u04l3-p1",
+      "tipo": "completar",
+      "frase": "We'll miss the deadline ___ we work overtime. (a não ser que)",
+      "respostas": [
+        "unless"
+      ]
+    },
+    {
+      "id": "b1u04l3-p2",
+      "tipo": "completar",
+      "frase": "You can leave early as ___ as you finish.",
+      "respostas": [
+        "long"
+      ]
+    },
+    {
+      "id": "b1u04l3-p3",
+      "tipo": "completar",
+      "frase": "Take an umbrella in ___ it rains.",
+      "respostas": [
+        "case"
+      ]
+    },
+    {
+      "id": "b1u04l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Unless you hurry\" significa:",
+      "opcoes": [
+        "If you hurry",
+        "If you don't hurry"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u04l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "Unless it doesn't rain, we'll go.",
+        "Unless it rains, we'll go."
+      ],
+      "correta": 1,
+      "explicacao_pt": "Depois de 'unless' o verbo fica afirmativo."
+    },
+    {
+      "id": "b1u04l3-p6",
+      "tipo": "ordenar",
+      "frase": "Wear gloves otherwise you'll cut your hands",
+      "traducao_pt": "Use luvas, senão vai cortar as mãos"
+    },
+    {
+      "id": "b1u04l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The customer rejected the shipment."
+    },
+    {
+      "id": "b1u04l3-p8",
+      "tipo": "traduzir",
+      "pt": "Enviamos toda sexta.",
+      "respostas": [
+        "We ship every Friday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Negocie com o professor (seu supervisor) uma folga ou mudança de horário. Ele vai impor condições com \"as long as\" e \"unless\".",
+    "papel_professor": "Faça o papel de supervisor. O aluno pede uma folga ou sair cedo. Responda com condições (as long as you…, unless…, in case…). Peça que ele também use unless/as long as/in case.",
+    "abertura": "Hi. You wanted to talk to me?",
+    "abertura_pt": "Oi. Você queria falar comigo?"
+  },
+  "teste": [
+    {
+      "id": "b1u04l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Salve uma cópia caso o computador trave\":",
+      "opcoes": [
+        "Save a copy in case the computer crashes.",
+        "Save a copy unless the computer crashes.",
+        "Save a copy as long as the computer crashes."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l3-t2",
+      "tipo": "completar",
+      "frase": "I won't go ___ you come with me. (a não ser que)",
+      "respostas": [
+        "unless"
+      ]
+    },
+    {
+      "id": "b1u04l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "This batch has a problem."
+    },
+    {
+      "id": "b1u04l3-t4",
+      "tipo": "traduzir",
+      "pt": "Vamos ter um plano B caso o fornecedor falhe.",
+      "respostas": [
+        "Let's have a plan B in case the supplier fails.",
+        "Let us have a plan B in case the supplier fails."
+      ]
+    },
+    {
+      "id": "b1u04l3-t5",
+      "tipo": "ordenar",
+      "frase": "It's fine as long as it's safe",
+      "traducao_pt": "Tudo bem, desde que seja seguro"
+    }
+  ]
+}

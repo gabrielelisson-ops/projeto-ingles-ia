@@ -1,0 +1,63 @@
+{
+  "niveis": [
+    {
+      "nivel": "A1",
+      "perguntas": [
+        { "id": "niv-a1-1", "tipo": "multipla", "enunciado": "My sister ___ a nurse.", "opcoes": ["are", "is", "am", "be"], "correta": 1 },
+        { "id": "niv-a1-2", "tipo": "multipla", "enunciado": "___ you have any children?", "opcoes": ["Are", "Does", "Do", "Is"], "correta": 2 },
+        { "id": "niv-a1-3", "tipo": "multipla", "enunciado": "He ___ to work by bus every day.", "opcoes": ["go", "goes", "going", "is go"], "correta": 1 },
+        { "id": "niv-a1-4", "tipo": "multipla", "enunciado": "There ___ two chairs in the kitchen.", "opcoes": ["is", "be", "are", "has"], "correta": 2 },
+        { "id": "niv-a1-5", "tipo": "multipla", "enunciado": "\"I'm Ana. This is ___ husband, Rui.\"", "opcoes": ["my", "me", "I", "mine"], "correta": 0 },
+        { "id": "niv-a1-6", "tipo": "multipla", "enunciado": "Ouça: que horas são?", "audio": "It's quarter past eight.", "opcoes": ["8:15", "8:45", "7:45", "8:50"], "correta": 0 }
+      ]
+    },
+    {
+      "nivel": "A2",
+      "perguntas": [
+        { "id": "niv-a2-1", "tipo": "multipla", "enunciado": "Last weekend we ___ my parents in Curitiba.", "opcoes": ["visit", "visiting", "visited", "have visit"], "correta": 2 },
+        { "id": "niv-a2-2", "tipo": "multipla", "enunciado": "I ___ watch the game tonight. I bought the tickets yesterday.", "opcoes": ["am going to", "go", "went", "goes to"], "correta": 0 },
+        { "id": "niv-a2-3", "tipo": "multipla", "enunciado": "This supplier is ___ than the other one.", "opcoes": ["more cheap", "cheaper", "cheapest", "the cheaper"], "correta": 1 },
+        { "id": "niv-a2-4", "tipo": "multipla", "enunciado": "You look sick. You ___ see a doctor.", "opcoes": ["should", "can't", "are", "did"], "correta": 0 },
+        { "id": "niv-a2-5", "tipo": "multipla", "enunciado": "Shh! The manager ___ on the phone right now.", "opcoes": ["talks", "is talking", "talked", "talk"], "correta": 1 },
+        { "id": "niv-a2-6", "tipo": "multipla", "enunciado": "Ouça: o que a pessoa fez ontem?", "audio": "Yesterday I didn't go to work. I stayed at home because I had a headache.", "opcoes": ["Foi trabalhar com dor de cabeça", "Ficou em casa por causa de dor de cabeça", "Foi ao médico", "Trabalhou de casa"], "correta": 1 }
+      ]
+    },
+    {
+      "nivel": "B1",
+      "perguntas": [
+        { "id": "niv-b1-1", "tipo": "multipla", "enunciado": "I ___ in this company since 2019.", "opcoes": ["work", "am working", "have worked", "worked"], "correta": 2 },
+        { "id": "niv-b1-2", "tipo": "multipla", "enunciado": "If the machine stops again, we ___ the technician.", "opcoes": ["call", "will call", "would call", "called"], "correta": 1 },
+        { "id": "niv-b1-3", "tipo": "multipla", "enunciado": "If I ___ more time, I would study every day.", "opcoes": ["have", "will have", "had", "would have"], "correta": 2 },
+        { "id": "niv-b1-4", "tipo": "multipla", "enunciado": "These parts ___ in Germany and shipped to Brazil.", "opcoes": ["make", "are made", "are making", "made"], "correta": 1 },
+        { "id": "niv-b1-5", "tipo": "multipla", "enunciado": "When I arrived at the station, the train ___.", "opcoes": ["already left", "has already left", "had already left", "leaves"], "correta": 2 },
+        { "id": "niv-b1-6", "tipo": "multipla", "enunciado": "Ouça: qual é o problema?", "audio": "We've had three delays this month because the supplier keeps sending the wrong parts.", "opcoes": ["O fornecedor manda peças erradas e houve atrasos", "A máquina quebrou três vezes", "O fornecedor mudou de endereço", "Faltaram funcionários"], "correta": 0 }
+      ]
+    },
+    {
+      "nivel": "B2",
+      "perguntas": [
+        { "id": "niv-b2-1", "tipo": "multipla", "enunciado": "If we had checked the order, we ___ the mistake.", "opcoes": ["would avoid", "would have avoided", "will avoid", "avoided"], "correta": 1 },
+        { "id": "niv-b2-2", "tipo": "multipla", "enunciado": "She told me that she ___ the report the day before.", "opcoes": ["finishes", "has finished", "had finished", "will finish"], "correta": 2 },
+        { "id": "niv-b2-3", "tipo": "multipla", "enunciado": "The lights are off. They ___ gone home already.", "opcoes": ["must have", "should", "can't have", "must"], "correta": 0 },
+        { "id": "niv-b2-4", "tipo": "multipla", "enunciado": "The engineer ___ designed this line now works in Mexico.", "opcoes": ["which", "whose", "who", "whom"], "correta": 2 },
+        { "id": "niv-b2-5", "tipo": "multipla", "enunciado": "I'm not ___ working night shifts, so it's hard for me.", "opcoes": ["used to", "use to", "used", "using to"], "correta": 0 },
+        { "id": "niv-b2-6", "tipo": "multipla", "enunciado": "Ouça: o que a pessoa propõe?", "audio": "Would you consider a longer contract if we lowered the price by five percent?", "opcoes": ["Um contrato mais longo em troca de 5% de desconto", "Aumentar o preço em 5%", "Cancelar o contrato", "Entregar em cinco dias"], "correta": 0 }
+      ]
+    },
+    {
+      "nivel": "C1",
+      "perguntas": [
+        { "id": "niv-c1-1", "tipo": "multipla", "enunciado": "Not only ___ the deadline, but they also cut costs.", "opcoes": ["they met", "did they meet", "they did meet", "met they"], "correta": 1 },
+        { "id": "niv-c1-2", "tipo": "multipla", "enunciado": "___ we need is a clear plan, not more meetings.", "opcoes": ["That", "Which", "What", "It"], "correta": 2 },
+        { "id": "niv-c1-3", "tipo": "multipla", "enunciado": "The new process is a game changer, but let's not ___ the gun.", "opcoes": ["jump", "shoot", "fire", "hold"], "correta": 0, "explicacao_pt": "\"Jump the gun\" = precipitar-se." },
+        { "id": "niv-c1-4", "tipo": "multipla", "enunciado": "Qual é a forma mais diplomática de criticar um relatório?", "opcoes": ["This report is wrong.", "You made a lot of mistakes.", "There might be a few points we could revisit.", "Fix this report."], "correta": 2 },
+        { "id": "niv-c1-5", "tipo": "multipla", "enunciado": "Given the current lead times, a stockout is ___ to happen if demand rises.", "opcoes": ["bound", "sure of", "likely of", "probable"], "correta": 0 },
+        { "id": "niv-c1-6", "tipo": "multipla", "enunciado": "Ouça: qual é a ideia principal?", "audio": "Admittedly, automation raises upfront costs; however, the reduction in scrap more than offsets that investment within two years.", "opcoes": ["A automação custa caro no início, mas a redução de refugo compensa em até dois anos", "A automação deve ser evitada", "O refugo aumentou em dois anos", "Os custos caíram imediatamente"], "correta": 0 }
+      ]
+    }
+  ],
+  "fala": {
+    "pergunta_en": "Tell me about yourself: your work, your daily routine, and something you did last weekend. Speak for about one minute.",
+    "instrucao_pt": "Fale em inglês por cerca de 1 minuto: seu trabalho, sua rotina e algo que você fez no último fim de semana. Fale o máximo que conseguir."
+  }
+}

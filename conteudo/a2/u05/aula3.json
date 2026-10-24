@@ -1,0 +1,347 @@
+{
+  "id": "a2-u05-l3",
+  "nivel": "A2",
+  "unidade": 5,
+  "numero": 3,
+  "titulo": "I'll help you!",
+  "objetivo_pt": "Usar will para decisões na hora, ofertas e promessas.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai contar alguns pequenos problemas. Ofereça ajuda com \"I'll…\".",
+    "papel_professor": "Conte problemas simples (I'm so thirsty. / This box is heavy. / I don't have a pen. / The phone is ringing!). O aluno deve oferecer ajuda com I'll… ou Shall I…?",
+    "abertura": "Oh no, this box is really heavy!",
+    "abertura_pt": "Ah não, esta caixa é muito pesada!"
+  },
+  "vocabulario": [
+    {
+      "id": "ill",
+      "en": "I'll",
+      "pt": "eu vou (decisão agora)",
+      "emoji": "⚡",
+      "exemplo_en": "I'll help you.",
+      "exemplo_pt": "Eu te ajudo."
+    },
+    {
+      "id": "shall-i",
+      "en": "Shall I…?",
+      "pt": "Quer que eu…?",
+      "emoji": "🙋",
+      "exemplo_en": "Shall I open the window?",
+      "exemplo_pt": "Quer que eu abra a janela?"
+    },
+    {
+      "id": "promise",
+      "en": "promise",
+      "pt": "prometer",
+      "emoji": "🤞",
+      "exemplo_en": "I promise I'll call you.",
+      "exemplo_pt": "Prometo que vou te ligar."
+    },
+    {
+      "id": "carry",
+      "en": "carry",
+      "pt": "carregar",
+      "emoji": "📦",
+      "exemplo_en": "I'll carry the box.",
+      "exemplo_pt": "Eu carrego a caixa."
+    },
+    {
+      "id": "lend",
+      "en": "lend",
+      "pt": "emprestar",
+      "emoji": "🤲",
+      "exemplo_en": "I'll lend you my pen.",
+      "exemplo_pt": "Te empresto minha caneta."
+    },
+    {
+      "id": "get-it",
+      "en": "I'll get it",
+      "pt": "eu atendo / eu pego",
+      "emoji": "📞",
+      "exemplo_en": "The phone is ringing. — I'll get it!",
+      "exemplo_pt": "O telefone está tocando. — Eu atendo!"
+    },
+    {
+      "id": "heavy",
+      "en": "heavy / light",
+      "pt": "pesado / leve",
+      "emoji": "🏋️",
+      "exemplo_en": "This box is very heavy.",
+      "exemplo_pt": "Esta caixa é muito pesada."
+    },
+    {
+      "id": "forget",
+      "en": "forget",
+      "pt": "esquecer",
+      "emoji": "🤦",
+      "exemplo_en": "I won't forget.",
+      "exemplo_pt": "Não vou esquecer."
+    },
+    {
+      "id": "send",
+      "en": "send",
+      "pt": "enviar",
+      "emoji": "📤",
+      "exemplo_en": "I'll send you the report today.",
+      "exemplo_pt": "Te envio o relatório hoje."
+    },
+    {
+      "id": "dont-worry",
+      "en": "Don't worry",
+      "pt": "não se preocupe",
+      "emoji": "😌",
+      "exemplo_en": "Don't worry, I'll do it.",
+      "exemplo_pt": "Não se preocupe, eu faço."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Will para decisões, ofertas e promessas",
+    "explicacao_pt": "Além de previsões, WILL serve para: 1) decisões tomadas NA HORA: 'The phone is ringing.' — 'I'll get it!'; 2) ofertas: I'll help you. / Shall I carry that? (Quer que eu…?); 3) promessas: I'll call you tonight. I won't forget. Compare: decisão já tomada antes = going to (I'm going to call him — já tinha decidido). Decisão agora = will (OK, I'll call him now).",
+    "tabela": {
+      "colunas": [
+        "Uso",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Decisão na hora",
+          "It's cold. I'll close the window.",
+          "Está frio. Vou fechar a janela."
+        ],
+        [
+          "Oferta",
+          "I'll carry your bag.",
+          "Eu carrego sua bolsa."
+        ],
+        [
+          "Oferta (pergunta)",
+          "Shall I call a taxi?",
+          "Quer que eu chame um táxi?"
+        ],
+        [
+          "Promessa",
+          "I'll send it today, I promise.",
+          "Mando hoje, prometo."
+        ],
+        [
+          "Plano antigo",
+          "I'm going to call him (decided yesterday).",
+          "Vou ligar para ele (já decidido)."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "You look tired. I'll make you a coffee.",
+        "pt": "Você parece cansado. Vou fazer um café para você."
+      },
+      {
+        "en": "Shall I send the report to the manager? — Yes, please.",
+        "pt": "Quer que eu mande o relatório para o gerente? — Sim, por favor."
+      },
+      {
+        "en": "I promise I won't be late again.",
+        "pt": "Prometo que não vou me atrasar de novo."
+      },
+      {
+        "en": "Don't worry, I'll fix the printer.",
+        "pt": "Não se preocupe, eu conserto a impressora."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Helping a colleague",
+    "falas": [
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Oh no, I forgot my laptop at home, and the presentation is at ten!",
+        "pt": "Ah não, esqueci meu notebook em casa e a apresentação é às dez!"
+      },
+      {
+        "personagem": "Gui",
+        "voz": "b",
+        "en": "Don't worry. I'll lend you mine.",
+        "pt": "Não se preocupe. Te empresto o meu."
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Really? Thank you! But my file is in my email.",
+        "pt": "Sério? Obrigada! Mas meu arquivo está no meu e-mail."
+      },
+      {
+        "personagem": "Gui",
+        "voz": "b",
+        "en": "No problem. Shall I connect it to the projector?",
+        "pt": "Sem problema. Quer que eu conecte no projetor?"
+      },
+      {
+        "personagem": "Ana",
+        "voz": "a",
+        "en": "Yes, please. I'll buy you lunch today!",
+        "pt": "Sim, por favor. Te pago o almoço hoje!"
+      },
+      {
+        "personagem": "Gui",
+        "voz": "b",
+        "en": "Deal! I won't say no to that.",
+        "pt": "Fechado! Não vou recusar isso."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u05l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What did Ana forget?",
+        "opcoes": [
+          "Her phone",
+          "Her laptop",
+          "Her file"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u05l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What does Gui offer?",
+        "opcoes": [
+          "To lend his laptop",
+          "To do the presentation",
+          "To drive her home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u05l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What will Ana do for Gui?",
+        "opcoes": [
+          "Buy him lunch",
+          "Send him a file",
+          "Give him money"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u05l3-p1",
+      "tipo": "completar",
+      "frase": "The phone is ringing. — I'___ get it!",
+      "respostas": [
+        "ll"
+      ]
+    },
+    {
+      "id": "a2u05l3-p2",
+      "tipo": "completar",
+      "frase": "___ I open the window? (quer que eu)",
+      "respostas": [
+        "Shall"
+      ]
+    },
+    {
+      "id": "a2u05l3-p3",
+      "tipo": "completar",
+      "frase": "I promise I ___ forget. (negativa)",
+      "respostas": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "a2u05l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Decisão na hora:",
+      "opcoes": [
+        "It's cold. I'm going to close the window.",
+        "It's cold. I'll close the window."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u05l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Te empresto minha caneta\":",
+      "opcoes": [
+        "I'll lend you my pen.",
+        "I'll borrow you my pen.",
+        "I lend you my pen tomorrow."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l3-p6",
+      "tipo": "ordenar",
+      "frase": "I'll send you the report today",
+      "traducao_pt": "Te envio o relatório hoje"
+    },
+    {
+      "id": "a2u05l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Don't worry, I'll do it.",
+      "aceitas": [
+        "Don't worry, I will do it.",
+        "Do not worry, I'll do it."
+      ]
+    },
+    {
+      "id": "a2u05l3-p8",
+      "tipo": "traduzir",
+      "pt": "Eu carrego a caixa.",
+      "respostas": [
+        "I'll carry the box.",
+        "I will carry the box."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Você é o anfitrião de um visitante estrangeiro na fábrica. Ele vai ter vários pequenos problemas; ofereça ajuda e faça promessas.",
+    "papel_professor": "Faça o papel de um visitante estrangeiro com pequenos problemas (I'm cold. I need a taxi at five. My phone battery is dead. Can you send me the photos?). O aluno oferece ajuda com I'll / Shall I…?",
+    "abertura": "Thank you for the tour! Oh… my phone battery is almost dead.",
+    "abertura_pt": "Obrigado pela visita! Ah… a bateria do meu celular está quase acabando."
+  },
+  "teste": [
+    {
+      "id": "a2u05l3-t1",
+      "tipo": "completar",
+      "frase": "Shall I ___ a taxi? (chamar)",
+      "respostas": [
+        "call"
+      ]
+    },
+    {
+      "id": "a2u05l3-t2",
+      "tipo": "multipla",
+      "enunciado": "Promessa:",
+      "opcoes": [
+        "I'll call you tonight.",
+        "I call you tonight maybe.",
+        "I'm calling you yesterday."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u05l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Shall I open the window?"
+    },
+    {
+      "id": "a2u05l3-t4",
+      "tipo": "traduzir",
+      "pt": "Não vou esquecer.",
+      "respostas": [
+        "I won't forget.",
+        "I will not forget."
+      ]
+    },
+    {
+      "id": "a2u05l3-t5",
+      "tipo": "ordenar",
+      "frase": "I'll make you a coffee",
+      "traducao_pt": "Vou fazer um café para você"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "id": "a2-final",
+  "nivel": "A2",
+  "unidade": 0,
+  "titulo": "Prova final do A2 — Básico 2",
+  "leitura": {
+    "texto": "From: Gustavo Lima\nTo: Training team\nSubject: My trip to the supplier in Monterrey\n\nHi team,\nI'm writing from the airport in Monterrey. My flight back to São Paulo is delayed by two hours, so I have time to tell you about the trip.\nI arrived on Monday night. The flight was long, but I slept a little. On Tuesday morning, I visited the supplier's plant. It is bigger and more modern than ours, and the workers are very well organized. Everybody has to wear a helmet, glasses and boots, and they mustn't use phones on the production floor — just like us!\nThe manager, Mrs. Ortega, showed me their new packing line. It is faster than our line and it uses less energy. However, it is also the most expensive line on the market. I think it will be too expensive for us this year, but we should consider it for next year.\nOn Wednesday, we had a long meeting about prices and delivery times. They can deliver in fifteen days, which is better than our current supplier (thirty days). Their prices aren't as low as the Chinese supplier's, but their quality is much better.\nI didn't have time to visit the city, but I tried some great food. Tomorrow I'm presenting my report to the director. I'm going to recommend a one-year contract.\nSee you on Friday,\nGustavo",
+    "perguntas": [
+      {
+        "id": "a2finpv-l1",
+        "tipo": "multipla",
+        "enunciado": "Where is Gustavo now?",
+        "opcoes": [
+          "At the supplier's plant",
+          "At the airport in Monterrey",
+          "In São Paulo"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l2",
+        "tipo": "multipla",
+        "enunciado": "Why does he have time to write?",
+        "opcoes": [
+          "His flight is delayed.",
+          "The meeting was canceled.",
+          "He is on vacation."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-l3",
+        "tipo": "multipla",
+        "enunciado": "When did he arrive?",
+        "opcoes": [
+          "On Monday night",
+          "On Tuesday morning",
+          "On Wednesday"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-l4",
+        "tipo": "multipla",
+        "enunciado": "How is the supplier's plant compared to theirs?",
+        "opcoes": [
+          "Smaller and older",
+          "Bigger and more modern",
+          "The same"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l5",
+        "tipo": "multipla",
+        "enunciado": "What is forbidden on the production floor?",
+        "opcoes": [
+          "Helmets",
+          "Phones",
+          "Boots"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l6",
+        "tipo": "multipla",
+        "enunciado": "What did Mrs. Ortega show him?",
+        "opcoes": [
+          "A new packing line",
+          "The offices",
+          "The warehouse"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-l7",
+        "tipo": "multipla",
+        "enunciado": "What is the problem with the new line?",
+        "opcoes": [
+          "It is slow.",
+          "It is the most expensive on the market.",
+          "It uses a lot of energy."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l8",
+        "tipo": "multipla",
+        "enunciado": "What does he think about buying the line?",
+        "opcoes": [
+          "They should buy it now.",
+          "It will be too expensive this year.",
+          "It is a bad line."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l9",
+        "tipo": "multipla",
+        "enunciado": "How fast can the supplier deliver?",
+        "opcoes": [
+          "In fifteen days",
+          "In thirty days",
+          "In five days"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-l10",
+        "tipo": "multipla",
+        "enunciado": "How long does their current supplier take?",
+        "opcoes": [
+          "Fifteen days",
+          "Thirty days",
+          "Two months"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l11",
+        "tipo": "multipla",
+        "enunciado": "How are the prices compared to the Chinese supplier's?",
+        "opcoes": [
+          "Lower",
+          "Not as low",
+          "The same"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l12",
+        "tipo": "multipla",
+        "enunciado": "How is the quality?",
+        "opcoes": [
+          "Much better",
+          "Worse",
+          "The same"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-l13",
+        "tipo": "multipla",
+        "enunciado": "Did he visit the city?",
+        "opcoes": [
+          "Yes, he did.",
+          "No, he didn't have time."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l14",
+        "tipo": "multipla",
+        "enunciado": "What is he doing tomorrow?",
+        "opcoes": [
+          "Visiting the plant again",
+          "Presenting his report to the director",
+          "Flying to China"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-l15",
+        "tipo": "multipla",
+        "enunciado": "What is he going to recommend?",
+        "opcoes": [
+          "A one-year contract",
+          "The Chinese supplier",
+          "Buying the packing line"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "Good morning, Mrs. Souza. How are you feeling today?",
+        "pt": "Bom dia, Sra. Souza. Como está se sentindo hoje?"
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Not very well. I have a sore throat and a headache.",
+        "pt": "Não muito bem. Estou com dor de garganta e dor de cabeça."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "When did it start?",
+        "pt": "Quando começou?"
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "On Saturday. I went to my nephew's party and it was very cold.",
+        "pt": "No sábado. Fui à festa do meu sobrinho e estava muito frio."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "Do you have a fever?",
+        "pt": "Está com febre?"
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Yes, a little. Thirty-eight degrees last night.",
+        "pt": "Sim, um pouco. Trinta e oito graus ontem à noite."
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "OK. It's probably the flu. You should rest and drink a lot of water. Take this medicine three times a day.",
+        "pt": "OK. Provavelmente é gripe. Você deve descansar e beber muita água. Tome este remédio três vezes ao dia."
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Do I have to stay at home?",
+        "pt": "Tenho que ficar em casa?"
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "Yes, for three days. You shouldn't go to work. I'll give you a medical note.",
+        "pt": "Sim, por três dias. Você não deve ir trabalhar. Vou te dar um atestado."
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "Thank you. Can I drive?",
+        "pt": "Obrigada. Posso dirigir?"
+      },
+      {
+        "personagem": "Doctor",
+        "voz": "a",
+        "en": "Better not. This medicine can make you sleepy.",
+        "pt": "Melhor não. Este remédio pode dar sono."
+      },
+      {
+        "personagem": "Patient",
+        "voz": "b",
+        "en": "OK. My husband is going to pick me up.",
+        "pt": "OK. Meu marido vai me buscar."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2finpv-e1",
+        "tipo": "multipla",
+        "enunciado": "What symptoms does Mrs. Souza have?",
+        "opcoes": [
+          "A sore throat and a headache",
+          "A backache",
+          "A stomachache"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-e2",
+        "tipo": "multipla",
+        "enunciado": "When did it start?",
+        "opcoes": [
+          "On Friday",
+          "On Saturday",
+          "On Sunday"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did she go on Saturday?",
+        "opcoes": [
+          "To her nephew's party",
+          "To work",
+          "To the beach"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-e4",
+        "tipo": "multipla",
+        "enunciado": "What was her temperature last night?",
+        "opcoes": [
+          "37 degrees",
+          "38 degrees",
+          "39 degrees"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does the doctor think it is?",
+        "opcoes": [
+          "A cold",
+          "The flu",
+          "An allergy"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-e6",
+        "tipo": "multipla",
+        "enunciado": "How many times a day should she take the medicine?",
+        "opcoes": [
+          "Once",
+          "Twice",
+          "Three times"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "a2finpv-e7",
+        "tipo": "multipla",
+        "enunciado": "How long does she have to stay at home?",
+        "opcoes": [
+          "One day",
+          "Three days",
+          "A week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-e8",
+        "tipo": "multipla",
+        "enunciado": "Why shouldn't she drive?",
+        "opcoes": [
+          "The medicine can make her sleepy.",
+          "Her car is broken.",
+          "It is raining."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-e9",
+        "tipo": "multipla",
+        "enunciado": "Who is going to pick her up?",
+        "opcoes": [
+          "Her nephew",
+          "Her husband",
+          "A taxi"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2finpv-e10",
+        "tipo": "multipla",
+        "enunciado": "What will the doctor give her?",
+        "opcoes": [
+          "A medical note",
+          "A new car",
+          "An injection"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2finpv-e11",
+        "tipo": "ouvir_escrever",
+        "audio": "How are you feeling today?"
+      },
+      {
+        "id": "a2finpv-e12",
+        "tipo": "ouvir_escrever",
+        "audio": "You should rest and drink a lot of water."
+      },
+      {
+        "id": "a2finpv-e13",
+        "tipo": "ouvir_escrever",
+        "audio": "Do I have to stay at home?"
+      },
+      {
+        "id": "a2finpv-e14",
+        "tipo": "ouvir_escrever",
+        "audio": "You shouldn't go to work.",
+        "aceitas": [
+          "You should not go to work."
+        ]
+      },
+      {
+        "id": "a2finpv-e15",
+        "tipo": "ouvir_escrever",
+        "audio": "My husband is going to pick me up."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "a2finpv-w1",
+      "instrucao_pt": "Conte o que você fez no seu último fim de semana ou nas últimas férias (passado simples).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2finpv-w2",
+      "instrucao_pt": "Escreva seus planos para o próximo mês e uma previsão para o próximo ano (going to e will).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2finpv-w3",
+      "instrucao_pt": "Compare dois produtos, cidades ou empregos e diga qual é o melhor e por quê (comparativos e superlativos).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2finpv-w4",
+      "instrucao_pt": "Explique a um visitante como chegar do aeroporto até a sua empresa (imperativo e preposições).",
+      "min_frases": 3,
+      "max_frases": 5
+    },
+    {
+      "id": "a2finpv-w5",
+      "instrucao_pt": "Escreva as regras de segurança do seu trabalho e um conselho de saúde (must, mustn't, should).",
+      "min_frases": 3,
+      "max_frases": 5
+    }
+  ],
+  "fala": [
+    {
+      "id": "a2finpv-s1",
+      "pergunta_en": "Tell me about your childhood and your first job.",
+      "instrucao_pt": "Fale em voz alta sobre sua infância e seu primeiro emprego (passado)."
+    },
+    {
+      "id": "a2finpv-s2",
+      "pergunta_en": "What are you doing these days, and what is different from your normal routine?",
+      "instrucao_pt": "Compare em voz alta presente simples e contínuo."
+    },
+    {
+      "id": "a2finpv-s3",
+      "pergunta_en": "What are your plans for next year?",
+      "instrucao_pt": "Fale em voz alta seus planos (going to, would like to, hope to)."
+    },
+    {
+      "id": "a2finpv-s4",
+      "pergunta_en": "Describe your last trip: transport, hotel and one problem.",
+      "instrucao_pt": "Conte em voz alta uma viagem com um imprevisto."
+    },
+    {
+      "id": "a2finpv-s5",
+      "pergunta_en": "Your colleague is always tired and has back pain. Give advice.",
+      "instrucao_pt": "Dê conselhos em voz alta (should, shouldn't, must)."
+    }
+  ],
+  "foco_avaliacao": "Prova final do nível A2. Avalie todo o A2: passado simples (regulares, irregulares, was/were, did/didn't), present continuous × presente simples, futuro (going to, present continuous para compromissos, will para previsões, decisões e ofertas), comparativos e superlativos (as…as), imperativo e preposições de movimento, viagens (aeroporto, hotel), saúde e segurança (should, must, have to, mustn't, can/could). Compare com o esperado para A2, não com um nativo.",
+  "entrevista": {
+    "minutos": 5,
+    "papel_professor": "Você é o examinador da entrevista oral final do nível A2. Faça uma conversa amigável de 5 minutos cobrindo: experiências passadas (fim de semana, viagens, história de vida), rotina e o que está fazendo nestes dias, planos e previsões, comparação de lugares ou produtos, e saúde e segurança no trabalho. Faça UMA pergunta por vez, no nível A2, com perguntas de continuação (Why? What happened next?). Não corrija durante a entrevista (correcoes sempre vazia).",
+    "abertura": "Hello, and welcome to your A2 final interview! Let's start with something easy: what did you do last weekend?",
+    "abertura_pt": "Olá e bem-vindo à entrevista final do A2! Vamos começar com algo fácil: o que você fez no último fim de semana?"
+  }
+}

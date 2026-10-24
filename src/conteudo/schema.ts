@@ -259,8 +259,27 @@ export const RoleplaySchema = ConversaSchema.extend({
 export type Roleplay = z.infer<typeof RoleplaySchema>;
 
 export const RoleplaysSchema = z
-  .object({ roleplays: z.array(RoleplaySchema).max(40) })
-  .refine((r) => new Set(r.roleplays.map((x) => x.id)).size === r.roleplays.length, { message: 'roleplays com id repetido' });
+  .object({
+    roleplays: z.array(RoleplaySchema).max(40),
+    /** Situações para "estudar juntos" (dois alunos no mesmo celular). */
+    juntos: z.array(RoleplaySchema).max(40).default([]),
+  })
+  .refine((r) => new Set([...r.roleplays, ...r.juntos].map((x) => x.id)).size === r.roleplays.length + r.juntos.length, {
+    message: 'roleplays com id repetido',
+  });
+
+// ---------- Teste de nivelamento ----------
+
+export const NivelamentoSchema = z
+  .object({
+    niveis: z.array(z.object({ nivel: z.enum(NIVEIS), perguntas: z.array(ExercicioSchema).min(3).max(10) })).length(5),
+    fala: TarefaFalaSchema.omit({ id: true }),
+  })
+  .superRefine((n, ctx) => {
+    idsUnicos(n, ctx);
+    if (n.niveis.some((x, i) => x.nivel !== NIVEIS[i])) ctx.addIssue({ code: 'custom', message: 'os níveis devem estar na ordem A1, A2, B1, B2, C1' });
+  });
+export type Nivelamento = z.infer<typeof NivelamentoSchema>;
 
 // ---------- Auxiliares ----------
 

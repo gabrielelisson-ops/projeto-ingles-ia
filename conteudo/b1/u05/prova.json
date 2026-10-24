@@ -1,0 +1,259 @@
+{
+  "id": "b1-u05-prova",
+  "nivel": "B1",
+  "unidade": 5,
+  "titulo": "Prova da Unidade 5 (B1) — What if",
+  "leitura": {
+    "texto": "THE FOUR-DAY WEEK: WOULD IT WORK HERE?\nLast month, our company asked 400 employees a simple question: 'What would happen if we worked four days a week?'\nMost people (72%) said they would be happier. 'If I had an extra day off, I would spend it with my kids,' said Joana, an operator on line 2. 'I wish I had more time for them now.'\nHowever, the managers are not so sure. 'In theory, it's a great idea,' says plant manager Rogério Faria. 'But in practice, our customers need us five days a week. If we closed on Fridays, we might lose some of them.'\nThe finance department calculated that the company would need to hire 35 new people to keep the same production. 'That would cost about four million reais a year,' says Lia Moraes, the finance director.\nSome employees suggested a different idea: what if each person worked four longer days, but the factory stayed open five days? 'That's more realistic,' says Faria. 'If the test is positive, we will try it on one line next year.'\nAnd what would Faria do with an extra day? 'I'd go fishing,' he laughs. 'If only I had the time!'",
+    "perguntas": [
+      {
+        "id": "b1u05pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many employees answered the question?",
+        "opcoes": [
+          "72",
+          "400",
+          "35"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What did most people say?",
+        "opcoes": [
+          "They would be happier.",
+          "They would earn less.",
+          "They would change jobs."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What would Joana do with an extra day?",
+        "opcoes": [
+          "Study",
+          "Spend it with her kids",
+          "Work in another job"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05pv-l4",
+        "tipo": "multipla",
+        "enunciado": "Why is the plant manager worried?",
+        "opcoes": [
+          "They might lose customers.",
+          "Workers would be tired.",
+          "The machines would break."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-l5",
+        "tipo": "multipla",
+        "enunciado": "How many new people would they need to hire?",
+        "opcoes": [
+          "4",
+          "35",
+          "72"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How much would it cost per year?",
+        "opcoes": [
+          "About four million reais",
+          "About 35 million reais",
+          "About 400,000 reais"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What is the more realistic idea?",
+        "opcoes": [
+          "Four longer days with the factory open five days",
+          "Closing on Fridays",
+          "Working six days"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What would Faria do with an extra day?",
+        "opcoes": [
+          "Go fishing",
+          "Sleep",
+          "Travel"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "You look worried. What's wrong?",
+        "pt": "Você parece preocupado. O que houve?"
+      },
+      {
+        "personagem": "Sérgio",
+        "voz": "b",
+        "en": "The company wants to send me to Mexico for two years. I don't know what to do.",
+        "pt": "A empresa quer me mandar para o México por dois anos. Não sei o que fazer."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "Wow! If I were you, I'd go. It's a great opportunity.",
+        "pt": "Nossa! Se eu fosse você, iria. É uma ótima oportunidade."
+      },
+      {
+        "personagem": "Sérgio",
+        "voz": "b",
+        "en": "Maybe. But my wife has a good job here. If we moved, she would have to leave it.",
+        "pt": "Talvez. Mas minha esposa tem um bom emprego aqui. Se nos mudássemos, ela teria que sair."
+      },
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "Could she work remotely?",
+        "pt": "Ela poderia trabalhar remotamente?"
+      },
+      {
+        "personagem": "Sérgio",
+        "voz": "b",
+        "en": "I wish she could, but she's a nurse. And I wish I spoke Spanish!",
+        "pt": "Queria que pudesse, mas ela é enfermeira. E queria falar espanhol!"
+      },
+      {
+        "personagem": "Bia",
+        "voz": "a",
+        "en": "You could learn. In your shoes, I'd talk to her and to HR before deciding.",
+        "pt": "Você poderia aprender. No seu lugar, eu conversaria com ela e com o RH antes de decidir."
+      },
+      {
+        "personagem": "Sérgio",
+        "voz": "b",
+        "en": "You're right. I hope we can find a solution together.",
+        "pt": "Você tem razão. Espero que a gente encontre uma solução juntos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u05pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where does the company want to send Sérgio?",
+        "opcoes": [
+          "Spain",
+          "Mexico",
+          "Chile"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05pv-e2",
+        "tipo": "multipla",
+        "enunciado": "For how long?",
+        "opcoes": [
+          "Two months",
+          "One year",
+          "Two years"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b1u05pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Bia's first advice?",
+        "opcoes": [
+          "To go",
+          "To stay",
+          "To quit"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What is his wife's job?",
+        "opcoes": [
+          "Teacher",
+          "Nurse",
+          "Engineer"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u05pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does Sérgio wish?",
+        "opcoes": [
+          "That he spoke Spanish",
+          "That he earned more",
+          "That he lived in Mexico"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Who would Bia talk to before deciding?",
+        "opcoes": [
+          "His wife and HR",
+          "His boss only",
+          "Nobody"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u05pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "If I were you, I'd go.",
+        "aceitas": [
+          "If I were you, I would go."
+        ]
+      },
+      {
+        "id": "b1u05pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "I hope we can find a solution together."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u05pv-w1",
+      "instrucao_pt": "Escreva o que você faria se ganhasse muito dinheiro ou se pudesse mudar algo na sua cidade (segunda condicional).",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u05pv-w2",
+      "instrucao_pt": "Escreva 3 desejos sobre sua vida atual (I wish…) e um plano real para melhorar uma delas (going to / hope).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u05pv-s1",
+      "pergunta_en": "What would you do if you could change one thing in your company?",
+      "instrucao_pt": "Responda em voz alta com would, might e could."
+    },
+    {
+      "id": "b1u05pv-s2",
+      "pergunta_en": "My friend wants to quit his job to open a restaurant. What would you tell him?",
+      "instrucao_pt": "Dê conselhos em voz alta com If I were you, I'd… e I wouldn't…"
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Segunda condicional (if + passado, would/could/might; If I were you), diferença entre primeira (provável) e segunda (imaginária) condicional, wish/if only + passado para o presente, wish × hope, falar de sonhos, conselhos e cenários."
+}

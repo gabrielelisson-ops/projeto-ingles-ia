@@ -1,0 +1,357 @@
+{
+  "id": "a2-u08-l4",
+  "nivel": "A2",
+  "unidade": 8,
+  "numero": 4,
+  "titulo": "Can you help me? Could you…?",
+  "objetivo_pt": "Pedir ajuda e falar de habilidades com can e could (presente e passado).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você sabe fazer e o que sabia fazer quando era criança. Use can e could.",
+    "papel_professor": "Pergunte habilidades (Can you drive a forklift? Can you speak Spanish? Could you swim when you were five?). Depois peça ajuda com Could you…? e ensine respostas.",
+    "abertura": "Can you drive a forklift?",
+    "abertura_pt": "Você sabe dirigir uma empilhadeira?"
+  },
+  "vocabulario": [
+    {
+      "id": "can-ability",
+      "en": "can / can't",
+      "pt": "sabe / consegue (não sabe)",
+      "emoji": "💪",
+      "exemplo_en": "I can drive a forklift.",
+      "exemplo_pt": "Sei dirigir empilhadeira."
+    },
+    {
+      "id": "could-past",
+      "en": "could / couldn't",
+      "pt": "sabia / conseguia (passado)",
+      "emoji": "⏪",
+      "exemplo_en": "I couldn't swim when I was a child.",
+      "exemplo_pt": "Eu não sabia nadar quando era criança."
+    },
+    {
+      "id": "could-you",
+      "en": "Could you…?",
+      "pt": "Você poderia…?",
+      "emoji": "🙏",
+      "exemplo_en": "Could you help me with this box?",
+      "exemplo_pt": "Você poderia me ajudar com esta caixa?"
+    },
+    {
+      "id": "can-i-c",
+      "en": "Can I…?",
+      "pt": "Posso…?",
+      "emoji": "🙋",
+      "exemplo_en": "Can I leave early today?",
+      "exemplo_pt": "Posso sair mais cedo hoje?"
+    },
+    {
+      "id": "forklift",
+      "en": "forklift",
+      "pt": "empilhadeira",
+      "emoji": "🚜",
+      "exemplo_en": "Only trained people can drive the forklift.",
+      "exemplo_pt": "Só pessoas treinadas podem dirigir a empilhadeira."
+    },
+    {
+      "id": "first-aid-c",
+      "en": "first aid",
+      "pt": "primeiros socorros",
+      "emoji": "⛑️",
+      "exemplo_en": "Can you give first aid?",
+      "exemplo_pt": "Você sabe dar primeiros socorros?"
+    },
+    {
+      "id": "emergency",
+      "en": "emergency",
+      "pt": "emergência",
+      "emoji": "🚨",
+      "exemplo_en": "In an emergency, call 192.",
+      "exemplo_pt": "Numa emergência, ligue 192."
+    },
+    {
+      "id": "fire-exit",
+      "en": "fire exit / extinguisher",
+      "pt": "saída de emergência / extintor",
+      "emoji": "🧯",
+      "exemplo_en": "The fire extinguisher is next to the door.",
+      "exemplo_pt": "O extintor fica ao lado da porta."
+    },
+    {
+      "id": "sure-c",
+      "en": "Sure / Of course",
+      "pt": "Claro",
+      "emoji": "👌",
+      "exemplo_en": "Could you help me? — Sure!",
+      "exemplo_pt": "Pode me ajudar? — Claro!"
+    },
+    {
+      "id": "sorry-busy",
+      "en": "Sorry, I'm busy right now",
+      "pt": "desculpe, estou ocupado agora",
+      "emoji": "⏳",
+      "exemplo_en": "Sorry, I'm busy right now. Maybe later.",
+      "exemplo_pt": "Desculpe, estou ocupado agora. Talvez mais tarde."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Can e could",
+    "explicacao_pt": "CAN + verbo = saber/conseguir (habilidade) ou poder (permissão): I can drive. Can I leave early? CAN'T = não sabe/não pode. COULD = passado de can: I could swim when I was six. COULDN'T = não conseguia/não conseguiu. COULD YOU…? = pedido educado (mais educado que Can you…?). Respostas: Sure. / Of course. / Sorry, I can't. I'm…",
+    "tabela": {
+      "colunas": [
+        "Uso",
+        "Exemplo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Habilidade agora",
+          "I can speak Spanish.",
+          "Sei falar espanhol."
+        ],
+        [
+          "Habilidade passada",
+          "I could read at five.",
+          "Eu sabia ler aos cinco."
+        ],
+        [
+          "Não conseguiu",
+          "I couldn't open the door.",
+          "Não consegui abrir a porta."
+        ],
+        [
+          "Permissão",
+          "Can I go home now?",
+          "Posso ir para casa agora?"
+        ],
+        [
+          "Pedido educado",
+          "Could you repeat that, please?",
+          "Poderia repetir, por favor?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Can you give first aid? — Yes, I took a course last year.",
+        "pt": "Você sabe dar primeiros socorros? — Sim, fiz um curso ano passado."
+      },
+      {
+        "en": "I couldn't come yesterday because I was sick.",
+        "pt": "Não pude vir ontem porque estava doente."
+      },
+      {
+        "en": "Could you show me the fire exit, please?",
+        "pt": "Poderia me mostrar a saída de emergência, por favor?"
+      },
+      {
+        "en": "Sorry, I can't help you now. I'm in a meeting.",
+        "pt": "Desculpe, não posso te ajudar agora. Estou em reunião."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An accident on the line",
+    "falas": [
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "Help! Leo hurt his hand!",
+        "pt": "Socorro! O Leo machucou a mão!"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "Stay calm. Can anybody give first aid?",
+        "pt": "Fiquem calmos. Alguém sabe dar primeiros socorros?"
+      },
+      {
+        "personagem": "Rui",
+        "voz": "a",
+        "en": "I can. I did the course last month.",
+        "pt": "Eu sei. Fiz o curso mês passado."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "Great. Joana, could you get the first aid kit? It's next to the fire extinguisher.",
+        "pt": "Ótimo. Joana, você poderia pegar o kit de primeiros socorros? Fica ao lado do extintor."
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "Sure!",
+        "pt": "Claro!"
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "b",
+        "en": "Leo, can you move your fingers?",
+        "pt": "Leo, você consegue mexer os dedos?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "a",
+        "en": "Yes, I can. It's just a cut. I wasn't wearing my gloves.",
+        "pt": "Sim, consigo. É só um corte. Eu não estava usando luvas."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u08l4-e1",
+        "tipo": "multipla",
+        "enunciado": "Who can give first aid?",
+        "opcoes": [
+          "Joana",
+          "Rui",
+          "The supervisor"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u08l4-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the first aid kit?",
+        "opcoes": [
+          "Next to the fire extinguisher",
+          "In the office",
+          "Next to the machine"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u08l4-e3",
+        "tipo": "multipla",
+        "enunciado": "Why did Leo hurt his hand?",
+        "opcoes": [
+          "He wasn't wearing gloves.",
+          "The machine broke.",
+          "He fell."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u08l4-p1",
+      "tipo": "completar",
+      "frase": "I ___ drive a forklift. (sei)",
+      "respostas": [
+        "can"
+      ]
+    },
+    {
+      "id": "a2u08l4-p2",
+      "tipo": "completar",
+      "frase": "I ___ swim when I was a child. (não sabia)",
+      "respostas": [
+        "couldn't",
+        "could not"
+      ]
+    },
+    {
+      "id": "a2u08l4-p3",
+      "tipo": "completar",
+      "frase": "___ you help me, please? (poderia)",
+      "respostas": [
+        "Could"
+      ]
+    },
+    {
+      "id": "a2u08l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Pedido mais educado:",
+      "opcoes": [
+        "Help me!",
+        "Could you help me, please?",
+        "You help me?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u08l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Extintor\":",
+      "opcoes": [
+        "fire extinguisher",
+        "fire exit",
+        "fire alarm"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l4-p6",
+      "tipo": "ordenar",
+      "frase": "Can I leave early today?",
+      "traducao_pt": "Posso sair mais cedo hoje?"
+    },
+    {
+      "id": "a2u08l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "In an emergency, call 192.",
+      "aceitas": [
+        "In an emergency call 192.",
+        "In an emergency, call one nine two."
+      ]
+    },
+    {
+      "id": "a2u08l4-p8",
+      "tipo": "traduzir",
+      "pt": "Você sabe dar primeiros socorros?",
+      "respostas": [
+        "Can you give first aid?",
+        "Do you know first aid?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor suas habilidades (o que você sabe fazer no trabalho e na vida) e o que você não sabia fazer antes. Depois, peça a ele 2 favores com Could you…?",
+    "papel_professor": "Pergunte habilidades atuais e passadas (Can you…? Could you… when you were younger?). Depois o aluno pede favores com Could you…?; aceite um e recuse outro com desculpa.",
+    "abertura": "Tell me about your skills. What can you do at work?",
+    "abertura_pt": "Me fale das suas habilidades. O que você sabe fazer no trabalho?"
+  },
+  "teste": [
+    {
+      "id": "a2u08l4-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Não consegui abrir a porta\":",
+      "opcoes": [
+        "I couldn't open the door.",
+        "I can't opened the door.",
+        "I didn't could open the door."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u08l4-t2",
+      "tipo": "completar",
+      "frase": "Could you help me? — ___! (claro)",
+      "respostas": [
+        "Sure",
+        "Of course"
+      ]
+    },
+    {
+      "id": "a2u08l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Could you repeat that, please?",
+      "aceitas": [
+        "Could you repeat that please?"
+      ]
+    },
+    {
+      "id": "a2u08l4-t4",
+      "tipo": "traduzir",
+      "pt": "Eu sei falar espanhol.",
+      "respostas": [
+        "I can speak Spanish."
+      ]
+    },
+    {
+      "id": "a2u08l4-t5",
+      "tipo": "ordenar",
+      "frase": "The fire extinguisher is next to the door",
+      "traducao_pt": "O extintor fica ao lado da porta"
+    }
+  ]
+}

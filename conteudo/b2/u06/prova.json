@@ -1,0 +1,259 @@
+{
+  "id": "b2-u06-prova",
+  "nivel": "B2",
+  "unidade": 6,
+  "titulo": "Prova da Unidade 6 (B2) — Supplier negotiation",
+  "leitura": {
+    "texto": "NEGOTIATION TIPS FOR BUYERS\nMany buyers make the same mistake: they only talk about price. 'Price is important, but it is rarely the only thing that matters,' says procurement consultant Diego Ramos. 'A supplier who is 3% cheaper but delivers late every month will cost you much more.'\nRamos recommends preparing three numbers before any negotiation: your target price, your walk-away point and your BATNA — the best alternative if there is no agreement. 'If you don't know your BATNA, you don't know when to say no.'\nDuring the meeting, he suggests using diplomatic language. 'Instead of saying \"Your price is too high\", try \"I'm afraid that's a bit higher than we expected\". It sends the same message, but the other side doesn't feel attacked.'\nRamos also advises buyers to never give something for nothing. 'If the supplier asks for a longer contract, ask for something in exchange: a better price, a longer warranty or shorter lead times. Use conditional sentences: \"If we signed for two years, would you consider…?\"'\nFinally, he says, always confirm the terms at the end and put everything in writing. 'Many problems happen because each side remembers a different agreement. A simple e-mail that starts with \"Just to confirm what we agreed…\" can avoid months of discussion.'",
+    "perguntas": [
+      {
+        "id": "b2u06pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What mistake do many buyers make?",
+        "opcoes": [
+          "They only talk about price.",
+          "They are too polite.",
+          "They never negotiate."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l2",
+        "tipo": "multipla",
+        "enunciado": "Why can a cheaper supplier cost more?",
+        "opcoes": [
+          "It may deliver late every month.",
+          "It has better quality.",
+          "It is far away."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Which is NOT one of the three numbers to prepare?",
+        "opcoes": [
+          "The supplier's profit",
+          "The target price",
+          "The walk-away point"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What is a BATNA?",
+        "opcoes": [
+          "The best alternative if there is no agreement",
+          "The lowest price",
+          "A type of contract"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why use diplomatic language?",
+        "opcoes": [
+          "The other side doesn't feel attacked.",
+          "It is shorter.",
+          "It is the law."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What should you do if the supplier asks for a longer contract?",
+        "opcoes": [
+          "Ask for something in exchange",
+          "Accept immediately",
+          "End the meeting"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What kind of sentences does he recommend for proposals?",
+        "opcoes": [
+          "Conditional sentences",
+          "Questions only",
+          "Very short sentences"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-l8",
+        "tipo": "multipla",
+        "enunciado": "How can you avoid months of discussion?",
+        "opcoes": [
+          "By confirming the agreement in writing",
+          "By recording the meeting",
+          "By having more meetings"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "So, we're proposing 32 reais per box, with delivery in five weeks.",
+        "pt": "Então, estamos propondo 32 reais por caixa, com entrega em cinco semanas."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Thank you. I'm afraid that's slightly higher than we were hoping for. Would you consider 29?",
+        "pt": "Obrigado. Receio que esteja um pouco acima do que esperávamos. Vocês considerariam 29?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "Twenty-nine is too low for us. But if you ordered 30,000 boxes a year, we could offer 30.50.",
+        "pt": "Vinte e nove é baixo demais para nós. Mas se vocês pedissem 30.000 caixas por ano, poderíamos oferecer 30,50."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "We could accept 30,000 boxes, provided that delivery is reduced to four weeks.",
+        "pt": "Poderíamos aceitar 30.000 caixas, desde que a entrega seja reduzida para quatro semanas."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "Four weeks is possible, on condition that you send us a forecast every month.",
+        "pt": "Quatro semanas é possível, com a condição de que nos mandem uma previsão todo mês."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "That's fine. So, just to confirm: 30.50 per box, 30,000 boxes a year, delivery in four weeks and a monthly forecast from us.",
+        "pt": "Tudo bem. Então, só para confirmar: 30,50 por caixa, 30.000 caixas por ano, entrega em quatro semanas e uma previsão mensal nossa."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "a",
+        "en": "Exactly. We'll send you the draft contract on Monday.",
+        "pt": "Exatamente. Mandamos a minuta do contrato na segunda."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "b",
+        "en": "Great. It's been a pleasure doing business with you.",
+        "pt": "Ótimo. Foi um prazer fazer negócio com vocês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What was the supplier's first price?",
+        "opcoes": [
+          "29 reais",
+          "30.50 reais",
+          "32 reais"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u06pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What price did the buyer suggest?",
+        "opcoes": [
+          "29 reais",
+          "30 reais",
+          "31 reais"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the supplier ask for in exchange for 30.50?",
+        "opcoes": [
+          "30,000 boxes a year",
+          "Payment in advance",
+          "A five-year contract"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What was the buyer's condition?",
+        "opcoes": [
+          "Delivery in four weeks",
+          "Free shipping",
+          "A longer warranty"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What was the supplier's condition for four weeks?",
+        "opcoes": [
+          "A monthly forecast",
+          "A bigger order",
+          "A higher price"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u06pv-e6",
+        "tipo": "multipla",
+        "enunciado": "When will they send the draft contract?",
+        "opcoes": [
+          "On Friday",
+          "On Monday",
+          "Next month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "I'm afraid that's slightly higher than we were hoping for.",
+        "aceitas": [
+          "I am afraid that is slightly higher than we were hoping for."
+        ]
+      },
+      {
+        "id": "b2u06pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "We could accept, provided that delivery is reduced to four weeks."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u06pv-w1",
+      "instrucao_pt": "Escreva um e-mail diplomático a um fornecedor recusando um aumento de preço de 10% e fazendo uma contraproposta condicional.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u06pv-w2",
+      "instrucao_pt": "Escreva um e-mail confirmando os termos de um acordo (preço, volume, prazo, pagamento, multa) e os próximos passos.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u06pv-s1",
+      "pergunta_en": "Your supplier wants to increase prices by 8%. Respond diplomatically and make a counter-offer.",
+      "instrucao_pt": "Negocie em voz alta com hedging e condicionais."
+    },
+    {
+      "id": "b2u06pv-s2",
+      "pergunta_en": "Explain how you would prepare for an important negotiation.",
+      "instrucao_pt": "Fale de target, walk-away point, BATNA e prioridades."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Hedging e linguagem diplomática (Would you consider + -ing, We were hoping, I'm afraid, a bit/slightly, not quite), propostas condicionais (1ª e 2ª condicional, provided that, on condition that, in exchange for), recusar e pressionar com educação, confirmar termos (passiva no futuro), fases da negociação (BATNA, target, walk-away point, package, win-win)."
+}

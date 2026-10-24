@@ -1,0 +1,351 @@
+{
+  "id": "c1-u07-l1",
+  "nivel": "C1",
+  "unidade": 7,
+  "numero": 1,
+  "titulo": "Demand forecasting",
+  "objetivo_pt": "Falar de previsão de demanda com linguagem de probabilidade (likely to, bound to, unlikely to).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre a demanda dos próximos meses. Faça previsões com graus de certeza: \"is bound to\", \"is likely to\", \"is unlikely to\".",
+    "papel_professor": "Pergunte (What will demand look like next quarter? Will sales go up at Christmas? Is the new product going to sell well?). Ensine a escala de probabilidade. Corrija.",
+    "abertura": "What do you think demand will look like in the next quarter?",
+    "abertura_pt": "Como você acha que vai ser a demanda no próximo trimestre?"
+  },
+  "vocabulario": [
+    {
+      "id": "forecast",
+      "en": "forecast / forecasting",
+      "pt": "previsão / previsão de demanda",
+      "emoji": "🔮",
+      "exemplo_en": "Our forecast for next month is 50,000 units.",
+      "exemplo_pt": "Nossa previsão para o próximo mês é de 50.000 unidades."
+    },
+    {
+      "id": "bound-to",
+      "en": "be bound to",
+      "pt": "com certeza vai / é certo que",
+      "emoji": "💯",
+      "exemplo_en": "Demand is bound to increase before Christmas.",
+      "exemplo_pt": "A demanda com certeza vai aumentar antes do Natal."
+    },
+    {
+      "id": "likely-to",
+      "en": "be likely to / unlikely to",
+      "pt": "é provável / improvável que",
+      "emoji": "📊",
+      "exemplo_en": "Sales are likely to grow by 5%.",
+      "exemplo_pt": "É provável que as vendas cresçam 5%."
+    },
+    {
+      "id": "chances-are",
+      "en": "The chances are (that)…",
+      "pt": "O mais provável é que…",
+      "emoji": "🎲",
+      "exemplo_en": "The chances are that prices will rise.",
+      "exemplo_pt": "O mais provável é que os preços subam."
+    },
+    {
+      "id": "there-is-chance",
+      "en": "There is a good / slim chance that…",
+      "pt": "Há boa / pouca chance de que…",
+      "emoji": "🤏",
+      "exemplo_en": "There's a slim chance of a strike.",
+      "exemplo_pt": "Há pouca chance de greve."
+    },
+    {
+      "id": "seasonality",
+      "en": "seasonality / seasonal peak",
+      "pt": "sazonalidade / pico sazonal",
+      "emoji": "🌦️",
+      "exemplo_en": "Our business has strong seasonality.",
+      "exemplo_pt": "Nosso negócio tem forte sazonalidade."
+    },
+    {
+      "id": "accuracy",
+      "en": "forecast accuracy",
+      "pt": "acurácia da previsão",
+      "emoji": "🎯",
+      "exemplo_en": "Forecast accuracy improved to 85%.",
+      "exemplo_pt": "A acurácia da previsão melhorou para 85%."
+    },
+    {
+      "id": "demand-planning",
+      "en": "demand planning",
+      "pt": "planejamento de demanda",
+      "emoji": "📋",
+      "exemplo_en": "Demand planning is done monthly.",
+      "exemplo_pt": "O planejamento de demanda é feito mensalmente."
+    },
+    {
+      "id": "volatile",
+      "en": "volatile / unpredictable",
+      "pt": "volátil / imprevisível",
+      "emoji": "〰️",
+      "exemplo_en": "Demand has been very volatile.",
+      "exemplo_pt": "A demanda tem estado muito volátil."
+    },
+    {
+      "id": "in-all-likelihood",
+      "en": "in all likelihood",
+      "pt": "com toda probabilidade",
+      "emoji": "🧭",
+      "exemplo_en": "In all likelihood, we will exceed the target.",
+      "exemplo_pt": "Com toda probabilidade, vamos superar a meta."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Linguagem de probabilidade",
+    "explicacao_pt": "Escala de certeza (do mais forte ao mais fraco): BE BOUND TO / BE CERTAIN TO (certeza) → BE LIKELY TO / IN ALL LIKELIHOOD / THE CHANCES ARE THAT (provável) → MAY / MIGHT / COULD / THERE'S A CHANCE THAT (possível) → BE UNLIKELY TO / THERE'S A SLIM CHANCE (improvável) → THERE'S NO WAY / BE CERTAIN NOT TO. Estruturas: sujeito + be + likely/bound/unlikely + TO + verbo (Sales are likely to rise). Ou IT IS LIKELY THAT + frase. Advérbios: definitely, probably, possibly. Posição: will probably / probably won't.",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Certeza",
+          "be bound to",
+          "Prices are bound to rise."
+        ],
+        [
+          "Provável",
+          "be likely to",
+          "Demand is likely to grow."
+        ],
+        [
+          "Provável",
+          "The chances are that…",
+          "The chances are that we will need overtime."
+        ],
+        [
+          "Possível",
+          "There's a chance that…",
+          "There's a chance that the order will be canceled."
+        ],
+        [
+          "Improvável",
+          "be unlikely to",
+          "The strike is unlikely to last long."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Demand is bound to peak in November, as it does every year.",
+        "pt": "A demanda com certeza vai atingir o pico em novembro, como todo ano."
+      },
+      {
+        "en": "The new product is likely to account for 15% of sales by the end of the year.",
+        "pt": "É provável que o novo produto represente 15% das vendas até o fim do ano."
+      },
+      {
+        "en": "The chances are that raw material prices will remain volatile.",
+        "pt": "O mais provável é que os preços de matéria-prima continuem voláteis."
+      },
+      {
+        "en": "Our biggest customer is unlikely to increase orders before March.",
+        "pt": "É improvável que nosso maior cliente aumente os pedidos antes de março."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The forecast meeting",
+    "falas": [
+      {
+        "personagem": "Demand planner",
+        "voz": "a",
+        "en": "Let's look at the forecast for the next quarter. Demand is bound to increase in November and December — it always does.",
+        "pt": "Vamos ver a previsão do próximo trimestre. A demanda com certeza vai aumentar em novembro e dezembro — sempre aumenta."
+      },
+      {
+        "personagem": "Sales director",
+        "voz": "b",
+        "en": "I agree. And with the new promotion, sales are likely to be about 12% higher than last year.",
+        "pt": "Concordo. E com a nova promoção, é provável que as vendas fiquem uns 12% acima do ano passado."
+      },
+      {
+        "personagem": "Demand planner",
+        "voz": "a",
+        "en": "That's optimistic. Last year our forecast accuracy was only 78%.",
+        "pt": "Isso é otimista. Ano passado nossa acurácia de previsão foi de só 78%."
+      },
+      {
+        "personagem": "Sales director",
+        "voz": "b",
+        "en": "True, but the chances are that our main competitor won't be able to supply. They're having production problems.",
+        "pt": "Verdade, mas o mais provável é que nosso principal concorrente não consiga abastecer. Estão com problemas de produção."
+      },
+      {
+        "personagem": "Demand planner",
+        "voz": "a",
+        "en": "OK. I'll plan for 8% growth, with a buffer. A 12% increase is possible, but a 20% increase is very unlikely.",
+        "pt": "OK. Vou planejar para 8% de crescimento, com uma margem. Um aumento de 12% é possível, mas de 20% é muito improvável."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u07l1-e1",
+        "tipo": "multipla",
+        "enunciado": "When is demand bound to increase?",
+        "opcoes": [
+          "In November and December",
+          "In January",
+          "In July"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u07l1-e2",
+        "tipo": "multipla",
+        "enunciado": "How much higher does the sales director expect sales to be?",
+        "opcoes": [
+          "8%",
+          "12%",
+          "20%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What was last year's forecast accuracy?",
+        "opcoes": [
+          "68%",
+          "78%",
+          "88%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u07l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What growth will the planner use?",
+        "opcoes": [
+          "8% with a buffer",
+          "12%",
+          "20%"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u07l1-p1",
+      "tipo": "completar",
+      "frase": "Demand is ___ to increase before Christmas. (com certeza)",
+      "respostas": [
+        "bound"
+      ]
+    },
+    {
+      "id": "c1u07l1-p2",
+      "tipo": "completar",
+      "frase": "Sales are ___ to grow by 5%. (provável)",
+      "respostas": [
+        "likely"
+      ]
+    },
+    {
+      "id": "c1u07l1-p3",
+      "tipo": "completar",
+      "frase": "There's a ___ chance of a strike. (pouca)",
+      "respostas": [
+        "slim"
+      ]
+    },
+    {
+      "id": "c1u07l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Mais certo:",
+      "opcoes": [
+        "Prices are bound to rise.",
+        "Prices might rise.",
+        "Prices are unlikely to rise."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O mais provável é que os preços subam\":",
+      "opcoes": [
+        "The chances are that prices will rise.",
+        "The chance is prices rising.",
+        "Chances are prices rise will."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l1-p6",
+      "tipo": "ordenar",
+      "frase": "Our business has strong seasonality",
+      "traducao_pt": "Nosso negócio tem forte sazonalidade"
+    },
+    {
+      "id": "c1u07l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Forecast accuracy improved to eighty-five percent.",
+      "aceitas": [
+        "Forecast accuracy improved to 85%."
+      ]
+    },
+    {
+      "id": "c1u07l1-p8",
+      "tipo": "traduzir",
+      "pt": "Com toda probabilidade, vamos superar a meta.",
+      "respostas": [
+        "In all likelihood, we will exceed the target.",
+        "In all likelihood, we'll exceed the target."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça com o professor a previsão de demanda da sua empresa (ou de um negócio que você conhece) para os próximos 6 meses, usando todos os graus de probabilidade e justificando cada previsão.",
+    "papel_professor": "Pergunte mês a mês ou por produto. Questione (How sure are you? What could change that? What's the worst case?). Corrija a escala de probabilidade.",
+    "abertura": "Let's build a six-month forecast together. What's certain, and what's uncertain?",
+    "abertura_pt": "Vamos montar juntos uma previsão de seis meses. O que é certo e o que é incerto?"
+  },
+  "teste": [
+    {
+      "id": "c1u07l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Improvável:",
+      "opcoes": [
+        "The strike is unlikely to last long.",
+        "The strike is likely to not last long.",
+        "The strike unlikely lasts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u07l1-t2",
+      "tipo": "completar",
+      "frase": "Demand has been very ___. (volátil)",
+      "respostas": [
+        "volatile"
+      ]
+    },
+    {
+      "id": "c1u07l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Demand planning is done monthly."
+    },
+    {
+      "id": "c1u07l1-t4",
+      "tipo": "traduzir",
+      "pt": "É provável que o novo produto represente 15% das vendas.",
+      "respostas": [
+        "The new product is likely to account for 15% of sales.",
+        "It is likely that the new product will account for 15% of sales."
+      ]
+    },
+    {
+      "id": "c1u07l1-t5",
+      "tipo": "ordenar",
+      "frase": "The chances are that we will need overtime",
+      "traducao_pt": "O mais provável é que precisemos de hora extra"
+    }
+  ]
+}

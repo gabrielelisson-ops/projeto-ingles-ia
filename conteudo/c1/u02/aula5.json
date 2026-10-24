@@ -1,0 +1,353 @@
+{
+  "id": "c1-u02-l5",
+  "nivel": "C1",
+  "unidade": 2,
+  "numero": 5,
+  "titulo": "Sounding natural",
+  "objetivo_pt": "Usar idioms e collocations com naturalidade e saber quando evitá-los (comunicação internacional).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: escolha 3 idioms que você aprendeu nesta unidade e use cada um numa frase sobre a sua vida real.",
+    "papel_professor": "Peça 3 idioms em frases reais. Discuta quando usar e quando evitar idioms com colegas não nativos (international English, plain English). Corrija.",
+    "abertura": "Choose three idioms from this unit and use them in sentences about your real life.",
+    "abertura_pt": "Escolha três expressões desta unidade e use cada uma numa frase sobre sua vida real."
+  },
+  "vocabulario": [
+    {
+      "id": "plain-english",
+      "en": "plain English",
+      "pt": "inglês simples e claro",
+      "emoji": "📢",
+      "exemplo_en": "Use plain English with international teams.",
+      "exemplo_pt": "Use inglês simples com equipes internacionais."
+    },
+    {
+      "id": "native-speaker",
+      "en": "native / non-native speaker",
+      "pt": "falante nativo / não nativo",
+      "emoji": "🌍",
+      "exemplo_en": "Most of our clients are non-native speakers.",
+      "exemplo_pt": "A maioria dos nossos clientes não é nativa."
+    },
+    {
+      "id": "rephrase",
+      "en": "rephrase",
+      "pt": "reformular",
+      "emoji": "🔄",
+      "exemplo_en": "Let me rephrase that.",
+      "exemplo_pt": "Deixe-me reformular."
+    },
+    {
+      "id": "in-other-words",
+      "en": "in other words",
+      "pt": "em outras palavras",
+      "emoji": "💬",
+      "exemplo_en": "In other words, we need more time.",
+      "exemplo_pt": "Em outras palavras, precisamos de mais tempo."
+    },
+    {
+      "id": "what-i-mean",
+      "en": "What I mean is…",
+      "pt": "O que quero dizer é…",
+      "emoji": "🗣️",
+      "exemplo_en": "What I mean is that the plan is too risky.",
+      "exemplo_pt": "O que quero dizer é que o plano é arriscado demais."
+    },
+    {
+      "id": "jargon",
+      "en": "jargon",
+      "pt": "jargão",
+      "emoji": "🧩",
+      "exemplo_en": "Avoid jargon in customer e-mails.",
+      "exemplo_pt": "Evite jargão em e-mails para clientes."
+    },
+    {
+      "id": "nuance",
+      "en": "nuance",
+      "pt": "nuance",
+      "emoji": "🎨",
+      "exemplo_en": "Idioms add nuance to your speech.",
+      "exemplo_pt": "Expressões dão nuance à sua fala."
+    },
+    {
+      "id": "come-across",
+      "en": "come across as",
+      "pt": "passar a impressão de",
+      "emoji": "🎭",
+      "exemplo_en": "Too many idioms can come across as unnatural.",
+      "exemplo_pt": "Expressões demais podem passar a impressão de artificialidade."
+    },
+    {
+      "id": "get-hang",
+      "en": "get the hang of",
+      "pt": "pegar o jeito de",
+      "emoji": "🤙",
+      "exemplo_en": "You'll get the hang of it.",
+      "exemplo_pt": "Você vai pegar o jeito."
+    },
+    {
+      "id": "learn-ropes",
+      "en": "learn the ropes",
+      "pt": "aprender o básico (o funcionamento)",
+      "emoji": "🪢",
+      "exemplo_en": "It takes a few weeks to learn the ropes.",
+      "exemplo_pt": "Leva algumas semanas para aprender como as coisas funcionam."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Naturalidade com bom senso",
+    "explicacao_pt": "Para soar natural: 1) prefira COLLOCATIONS corretas a idioms raros — elas aparecem em toda frase (make a decision, heavy traffic, highly likely). 2) Use 1–2 idioms por conversa, os mais comuns. 3) Com equipes INTERNACIONAIS, prefira plain English; se usar um idiom, explique: …we're back to square one — in other words, we have to start again. 4) Ferramentas de reformulação: In other words, … / What I mean is… / Let me rephrase that. / To put it simply, … 5) Evite misturar idioms ('the ball is on the fence').",
+    "tabela": {
+      "colunas": [
+        "Situação",
+        "Recomendação",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Equipe internacional",
+          "plain English + reformulação",
+          "We're back to square one — in other words, we need to start again."
+        ],
+        [
+          "Colega nativo",
+          "idioms comuns",
+          "The ball is in their court."
+        ],
+        [
+          "E-mail formal",
+          "sentido literal",
+          "The project has been postponed."
+        ],
+        [
+          "Não foi entendido",
+          "reformular",
+          "Let me rephrase that: the plan is too risky."
+        ],
+        [
+          "Aprendizado",
+          "learn the ropes / get the hang of",
+          "You'll soon get the hang of it."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We're back to square one — in other words, we'll have to redesign the whole part.",
+        "pt": "Voltamos à estaca zero — em outras palavras, teremos que redesenhar a peça inteira."
+      },
+      {
+        "en": "Let me rephrase that: what I mean is that we can't accept the current lead time.",
+        "pt": "Deixe-me reformular: o que quero dizer é que não podemos aceitar o prazo atual."
+      },
+      {
+        "en": "With our Chinese and German partners, plain English works much better than idioms.",
+        "pt": "Com nossos parceiros chineses e alemães, inglês simples funciona muito melhor que expressões idiomáticas."
+      },
+      {
+        "en": "It took me a few months to learn the ropes, but now I've got the hang of it.",
+        "pt": "Levei alguns meses para aprender como funciona, mas agora peguei o jeito."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An international call",
+    "falas": [
+      {
+        "personagem": "Brazilian manager",
+        "voz": "a",
+        "en": "So, in a nutshell, the ball is in your court now.",
+        "pt": "Então, em poucas palavras, a bola está com vocês agora."
+      },
+      {
+        "personagem": "Korean engineer",
+        "voz": "b",
+        "en": "Sorry, I'm not sure I understand. The ball?",
+        "pt": "Desculpe, não sei se entendi. A bola?"
+      },
+      {
+        "personagem": "Brazilian manager",
+        "voz": "a",
+        "en": "Sorry, let me rephrase that. What I mean is that we're waiting for your decision.",
+        "pt": "Desculpe, deixe-me reformular. O que quero dizer é que estamos esperando a decisão de vocês."
+      },
+      {
+        "personagem": "Korean engineer",
+        "voz": "b",
+        "en": "Ah, I see. We'll decide by Thursday.",
+        "pt": "Ah, entendi. Vamos decidir até quinta."
+      },
+      {
+        "personagem": "Brazilian manager",
+        "voz": "a",
+        "en": "Great. And just to be clear: if the tests fail, we'll have to start again from the beginning.",
+        "pt": "Ótimo. E só para ficar claro: se os testes falharem, teremos que começar de novo do início."
+      },
+      {
+        "personagem": "Korean engineer",
+        "voz": "b",
+        "en": "Understood. Thank you for explaining so clearly.",
+        "pt": "Entendido. Obrigado por explicar tão claramente."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u02l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Why did the Korean engineer not understand?",
+        "opcoes": [
+          "The manager used an idiom.",
+          "The connection was bad.",
+          "He doesn't speak English."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What did the manager do?",
+        "opcoes": [
+          "He rephrased it.",
+          "He repeated it louder.",
+          "He ended the call."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u02l5-e3",
+        "tipo": "multipla",
+        "enunciado": "When will they decide?",
+        "opcoes": [
+          "By Tuesday",
+          "By Thursday",
+          "Next week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u02l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What will happen if the tests fail?",
+        "opcoes": [
+          "They will start again from the beginning.",
+          "They will cancel.",
+          "Nothing."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u02l5-p1",
+      "tipo": "completar",
+      "frase": "Let me ___ that. (reformular)",
+      "respostas": [
+        "rephrase"
+      ]
+    },
+    {
+      "id": "c1u02l5-p2",
+      "tipo": "completar",
+      "frase": "In other ___, we need more time.",
+      "respostas": [
+        "words"
+      ]
+    },
+    {
+      "id": "c1u02l5-p3",
+      "tipo": "completar",
+      "frase": "You'll get the ___ of it. (pegar o jeito)",
+      "respostas": [
+        "hang"
+      ]
+    },
+    {
+      "id": "c1u02l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Com equipe internacional:",
+      "opcoes": [
+        "We're back to square one — in other words, we need to start again.",
+        "We're back to square one, period."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Passar a impressão de artificialidade\":",
+      "opcoes": [
+        "come across as unnatural",
+        "come over unnatural",
+        "cross as unnatural"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l5-p6",
+      "tipo": "ordenar",
+      "frase": "Use plain English with international teams",
+      "traducao_pt": "Use inglês simples com equipes internacionais"
+    },
+    {
+      "id": "c1u02l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It takes a few weeks to learn the ropes."
+    },
+    {
+      "id": "c1u02l5-p8",
+      "tipo": "traduzir",
+      "pt": "Evite jargão em e-mails para clientes.",
+      "respostas": [
+        "Avoid jargon in customer e-mails.",
+        "Avoid jargon in e-mails to customers.",
+        "Avoid jargon in emails to clients."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: o professor vai fazer o papel de um colega estrangeiro que não entende idioms. Explique um problema do trabalho usando idioms e collocations naturais, e reformule com clareza sempre que ele não entender.",
+    "papel_professor": "Faça o papel de colega não nativo. Diga 'Sorry, what do you mean?' quando o aluno usar idioms. O aluno deve reformular (In other words…, What I mean is…). No fim, comente o equilíbrio entre naturalidade e clareza.",
+    "abertura": "Hi! My English is OK, but sometimes I don't understand expressions. Can you tell me about the problem with the project?",
+    "abertura_pt": "Oi! Meu inglês é OK, mas às vezes não entendo expressões. Pode me falar do problema com o projeto?"
+  },
+  "teste": [
+    {
+      "id": "c1u02l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Reformular:",
+      "opcoes": [
+        "What I mean is that…",
+        "I said already.",
+        "You no understand."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u02l5-t2",
+      "tipo": "completar",
+      "frase": "Idioms add ___ to your speech. (nuance)",
+      "respostas": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "c1u02l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Most of our clients are non-native speakers."
+    },
+    {
+      "id": "c1u02l5-t4",
+      "tipo": "traduzir",
+      "pt": "Levei alguns meses para aprender como funciona.",
+      "respostas": [
+        "It took me a few months to learn the ropes."
+      ]
+    },
+    {
+      "id": "c1u02l5-t5",
+      "tipo": "ordenar",
+      "frase": "In other words we need more time",
+      "traducao_pt": "Em outras palavras, precisamos de mais tempo"
+    }
+  ]
+}

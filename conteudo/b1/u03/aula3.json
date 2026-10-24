@@ -1,0 +1,351 @@
+{
+  "id": "b1-u03-l3",
+  "nivel": "B1",
+  "unidade": 3,
+  "numero": 3,
+  "titulo": "Remember to check / stop smoking",
+  "objetivo_pt": "Entender verbos que mudam de sentido com -ing ou to: remember, forget, stop, try.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você sempre se lembra de fazer antes de sair de casa e o que você parou de fazer.",
+    "papel_professor": "Pergunte What do you always remember to do before leaving home? Have you stopped doing anything (smoking, eating sugar)? Ensine a mudança de sentido com remember/forget/stop/try.",
+    "abertura": "What do you always remember to do before you leave home?",
+    "abertura_pt": "O que você sempre se lembra de fazer antes de sair de casa?"
+  },
+  "vocabulario": [
+    {
+      "id": "remember-to",
+      "en": "remember to",
+      "pt": "lembrar de (fazer)",
+      "emoji": "📝",
+      "exemplo_en": "Remember to lock the door.",
+      "exemplo_pt": "Lembre de trancar a porta."
+    },
+    {
+      "id": "remember-ing",
+      "en": "remember + -ing",
+      "pt": "lembrar de (ter feito)",
+      "emoji": "💭",
+      "exemplo_en": "I remember meeting him in 2015.",
+      "exemplo_pt": "Lembro de tê-lo conhecido em 2015."
+    },
+    {
+      "id": "forget-to",
+      "en": "forget to",
+      "pt": "esquecer de (fazer)",
+      "emoji": "🤦",
+      "exemplo_en": "Don't forget to sign the form.",
+      "exemplo_pt": "Não esqueça de assinar o formulário."
+    },
+    {
+      "id": "stop-ing",
+      "en": "stop + -ing",
+      "pt": "parar de",
+      "emoji": "🛑",
+      "exemplo_en": "I stopped smoking two years ago.",
+      "exemplo_pt": "Parei de fumar há dois anos."
+    },
+    {
+      "id": "stop-to",
+      "en": "stop to",
+      "pt": "parar para",
+      "emoji": "☕",
+      "exemplo_en": "We stopped to have a coffee.",
+      "exemplo_pt": "Paramos para tomar um café."
+    },
+    {
+      "id": "try-to-l3",
+      "en": "try to",
+      "pt": "tentar (esforço)",
+      "emoji": "💪",
+      "exemplo_en": "I tried to open it, but I couldn't.",
+      "exemplo_pt": "Tentei abrir, mas não consegui."
+    },
+    {
+      "id": "try-ing",
+      "en": "try + -ing",
+      "pt": "experimentar (fazer algo)",
+      "emoji": "🧪",
+      "exemplo_en": "Try restarting the computer.",
+      "exemplo_pt": "Experimente reiniciar o computador."
+    },
+    {
+      "id": "lock",
+      "en": "lock / unlock",
+      "pt": "trancar / destrancar",
+      "emoji": "🔐",
+      "exemplo_en": "Lock the cabinet after use.",
+      "exemplo_pt": "Tranque o armário depois de usar."
+    },
+    {
+      "id": "switch-off",
+      "en": "switch off / switch on",
+      "pt": "desligar / ligar",
+      "emoji": "🔌",
+      "exemplo_en": "Did you remember to switch off the lights?",
+      "exemplo_pt": "Você lembrou de desligar as luzes?"
+    },
+    {
+      "id": "quit",
+      "en": "quit",
+      "pt": "largar / sair (de)",
+      "emoji": "🚪",
+      "exemplo_en": "He quit his job last month.",
+      "exemplo_pt": "Ele largou o emprego mês passado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Verbos que mudam de sentido",
+    "explicacao_pt": "REMEMBER/FORGET TO + verbo = lembrar/esquecer de fazer algo (ação ainda vai acontecer): Remember to lock the door. REMEMBER + -ING = lembrar de algo que já aconteceu: I remember locking the door (eu me lembro de ter trancado). STOP + -ING = parar de fazer: I stopped smoking. STOP TO + verbo = parar (uma atividade) PARA fazer outra: We stopped to eat. TRY TO = esforçar-se (difícil): I tried to lift it. TRY + -ING = testar uma solução: Try pressing the reset button.",
+    "tabela": {
+      "colunas": [
+        "Verbo",
+        "+ to",
+        "+ -ing"
+      ],
+      "linhas": [
+        [
+          "remember",
+          "Remember to call him. (não esqueça)",
+          "I remember calling him. (lembro que liguei)"
+        ],
+        [
+          "forget",
+          "Don't forget to sign.",
+          "I'll never forget seeing the sea."
+        ],
+        [
+          "stop",
+          "We stopped to rest. (parar para)",
+          "We stopped working. (parar de)"
+        ],
+        [
+          "try",
+          "Try to arrive early. (esforce-se)",
+          "Try turning it off and on. (teste)"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Did you remember to switch off the compressor?",
+        "pt": "Você lembrou de desligar o compressor?"
+      },
+      {
+        "en": "I don't remember signing this document.",
+        "pt": "Não me lembro de ter assinado este documento."
+      },
+      {
+        "en": "The machine stopped working at 3 p.m.",
+        "pt": "A máquina parou de funcionar às 15h."
+      },
+      {
+        "en": "If the printer doesn't work, try changing the cable.",
+        "pt": "Se a impressora não funcionar, experimente trocar o cabo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The IT helpdesk",
+    "falas": [
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Hi, the label printer on line 4 has stopped working.",
+        "pt": "Oi, a impressora de etiquetas da linha 4 parou de funcionar."
+      },
+      {
+        "personagem": "IT",
+        "voz": "b",
+        "en": "OK. Have you tried switching it off and on again?",
+        "pt": "OK. Você já tentou desligar e ligar de novo?"
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Yes, I tried that twice. I also tried changing the roll.",
+        "pt": "Sim, tentei duas vezes. Também tentei trocar o rolo."
+      },
+      {
+        "personagem": "IT",
+        "voz": "b",
+        "en": "Do you remember seeing any error message?",
+        "pt": "Você lembra de ter visto alguma mensagem de erro?"
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "Yes, it said 'network error'.",
+        "pt": "Sim, dizia \"erro de rede\"."
+      },
+      {
+        "personagem": "IT",
+        "voz": "b",
+        "en": "Ah, someone probably forgot to connect the network cable after cleaning. Try checking the blue cable behind it.",
+        "pt": "Ah, alguém provavelmente esqueceu de conectar o cabo de rede depois da limpeza. Experimente verificar o cabo azul atrás dela."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "a",
+        "en": "You're right! It was loose. It's working now. Thanks!",
+        "pt": "Você tem razão! Estava solto. Está funcionando agora. Obrigado!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u03l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What stopped working?",
+        "opcoes": [
+          "The label printer",
+          "The computer",
+          "The forklift"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What has the operator already tried?",
+        "opcoes": [
+          "Switching it off and on and changing the roll",
+          "Calling the supplier",
+          "Nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u03l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the error message say?",
+        "opcoes": [
+          "Paper jam",
+          "Network error",
+          "Low battery"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u03l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What was the problem?",
+        "opcoes": [
+          "A loose network cable",
+          "A broken printer",
+          "No paper"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u03l3-p1",
+      "tipo": "completar",
+      "frase": "Remember ___ lock the door.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l3-p2",
+      "tipo": "completar",
+      "frase": "I stopped ___ two years ago. (fumar)",
+      "respostas": [
+        "smoking"
+      ]
+    },
+    {
+      "id": "b1u03l3-p3",
+      "tipo": "completar",
+      "frase": "Try ___ the computer. (reiniciar)",
+      "respostas": [
+        "restarting"
+      ]
+    },
+    {
+      "id": "b1u03l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Paramos para tomar um café\":",
+      "opcoes": [
+        "We stopped having a coffee.",
+        "We stopped to have a coffee."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Não me lembro de ter assinado isto\":",
+      "opcoes": [
+        "I don't remember to sign this.",
+        "I don't remember signing this."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u03l3-p6",
+      "tipo": "ordenar",
+      "frase": "Don't forget to sign the form",
+      "traducao_pt": "Não esqueça de assinar o formulário"
+    },
+    {
+      "id": "b1u03l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Lock the cabinet after use."
+    },
+    {
+      "id": "b1u03l3-p8",
+      "tipo": "traduzir",
+      "pt": "Ele largou o emprego mês passado.",
+      "respostas": [
+        "He quit his job last month.",
+        "He left his job last month."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai ligar para você com um problema técnico (celular, computador, máquina). Dê sugestões com \"Have you tried…ing?\" e \"Try…ing\".",
+    "papel_professor": "Faça o papel de alguém com problemas técnicos (my phone keeps freezing, the coffee machine stopped working). O aluno sugere soluções com try + -ing e pergunta remember + -ing. Corrija.",
+    "abertura": "Hi, can you help me? My laptop keeps freezing and I have a presentation in an hour!",
+    "abertura_pt": "Oi, pode me ajudar? Meu notebook fica travando e tenho uma apresentação em uma hora!"
+  },
+  "teste": [
+    {
+      "id": "b1u03l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Parei de beber café\":",
+      "opcoes": [
+        "I stopped drinking coffee.",
+        "I stopped to drink coffee."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u03l3-t2",
+      "tipo": "completar",
+      "frase": "Don't forget ___ switch off the lights.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "b1u03l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Try pressing the reset button."
+    },
+    {
+      "id": "b1u03l3-t4",
+      "tipo": "traduzir",
+      "pt": "Lembre de trancar a porta.",
+      "respostas": [
+        "Remember to lock the door."
+      ]
+    },
+    {
+      "id": "b1u03l3-t5",
+      "tipo": "ordenar",
+      "frase": "I tried to open it but I couldn't",
+      "traducao_pt": "Tentei abrir mas não consegui"
+    }
+  ]
+}

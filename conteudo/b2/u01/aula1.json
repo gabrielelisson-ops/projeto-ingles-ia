@@ -1,0 +1,352 @@
+{
+  "id": "b2-u01-l1",
+  "nivel": "B2",
+  "unidade": 1,
+  "numero": 1,
+  "titulo": "If I had known…",
+  "objetivo_pt": "Falar de situações passadas que não aconteceram com a terceira condicional.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre decisões do passado. Imagine como teria sido diferente: \"If I had…, I would have…\".",
+    "papel_professor": "Pergunte sobre escolhas passadas (What would have happened if you hadn't taken this job? If you had studied something else?). Ensine third conditional. Corrija 'If I would have known' → 'If I had known'.",
+    "abertura": "What would you have done if you hadn't chosen your current profession?",
+    "abertura_pt": "O que você teria feito se não tivesse escolhido sua profissão atual?"
+  },
+  "vocabulario": [
+    {
+      "id": "had-known",
+      "en": "If I had known…",
+      "pt": "Se eu soubesse (tivesse sabido)…",
+      "emoji": "💡",
+      "exemplo_en": "If I had known, I would have helped.",
+      "exemplo_pt": "Se eu soubesse, teria ajudado."
+    },
+    {
+      "id": "would-have",
+      "en": "would have + particípio",
+      "pt": "teria (feito)",
+      "emoji": "⏪",
+      "exemplo_en": "I would have called you.",
+      "exemplo_pt": "Eu teria te ligado."
+    },
+    {
+      "id": "wouldnt-have",
+      "en": "wouldn't have",
+      "pt": "não teria",
+      "emoji": "🙅",
+      "exemplo_en": "We wouldn't have lost the order.",
+      "exemplo_pt": "Não teríamos perdido o pedido."
+    },
+    {
+      "id": "could-have",
+      "en": "could have",
+      "pt": "poderia ter",
+      "emoji": "🚪",
+      "exemplo_en": "We could have finished earlier.",
+      "exemplo_pt": "Poderíamos ter terminado antes."
+    },
+    {
+      "id": "might-have",
+      "en": "might have",
+      "pt": "talvez tivesse",
+      "emoji": "🎲",
+      "exemplo_en": "It might have worked.",
+      "exemplo_pt": "Talvez tivesse funcionado."
+    },
+    {
+      "id": "turn-down",
+      "en": "turn down (an offer)",
+      "pt": "recusar (uma proposta)",
+      "emoji": "👎",
+      "exemplo_en": "I turned down a job in Canada.",
+      "exemplo_pt": "Recusei um emprego no Canadá."
+    },
+    {
+      "id": "opportunity",
+      "en": "opportunity",
+      "pt": "oportunidade",
+      "emoji": "🚀",
+      "exemplo_en": "I missed a great opportunity.",
+      "exemplo_pt": "Perdi uma ótima oportunidade."
+    },
+    {
+      "id": "consequence",
+      "en": "consequence",
+      "pt": "consequência",
+      "emoji": "🔗",
+      "exemplo_en": "We had to face the consequences.",
+      "exemplo_pt": "Tivemos que enfrentar as consequências."
+    },
+    {
+      "id": "in-time",
+      "en": "in time / on time",
+      "pt": "a tempo / no horário",
+      "emoji": "⏰",
+      "exemplo_en": "If we had left earlier, we would have arrived in time.",
+      "exemplo_pt": "Se tivéssemos saído antes, teríamos chegado a tempo."
+    },
+    {
+      "id": "hindsight",
+      "en": "with hindsight",
+      "pt": "olhando para trás / em retrospecto",
+      "emoji": "🔭",
+      "exemplo_en": "With hindsight, it was the wrong decision.",
+      "exemplo_pt": "Olhando para trás, foi a decisão errada."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Terceira condicional",
+    "explicacao_pt": "Estrutura: IF + PAST PERFECT (had + particípio), WOULD HAVE + PARTICÍPIO. Fala de um passado IMAGINÁRIO — algo que NÃO aconteceu e sua consequência imaginada: If I had known about the meeting, I would have come. (Eu não sabia, não fui.) Contrações na fala: I'd have = I would have; If I'd known = If I had known. Use could have (possibilidade) e might have (talvez). Nunca 'would have' depois de 'if': If I would have known ✗.",
+    "tabela": {
+      "colunas": [
+        "If + past perfect",
+        "would have + particípio",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "If I had known,",
+          "I would have helped.",
+          "Se eu soubesse, teria ajudado."
+        ],
+        [
+          "If we hadn't stopped the line,",
+          "the accident would have been worse.",
+          "Se não tivéssemos parado a linha, o acidente teria sido pior."
+        ],
+        [
+          "If she had studied more,",
+          "she could have passed.",
+          "Se ela tivesse estudado mais, poderia ter passado."
+        ],
+        [
+          "If they had called earlier,",
+          "we might have found a solution.",
+          "Se tivessem ligado antes, talvez tivéssemos achado uma solução."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "If we had checked the parts, we wouldn't have lost the customer.",
+        "pt": "Se tivéssemos verificado as peças, não teríamos perdido o cliente."
+      },
+      {
+        "en": "I'd have accepted the job if they had offered a better salary.",
+        "pt": "Eu teria aceitado o emprego se tivessem oferecido um salário melhor."
+      },
+      {
+        "en": "If the operator hadn't pressed the emergency button, someone could have been hurt.",
+        "pt": "Se o operador não tivesse apertado o botão de emergência, alguém poderia ter se machucado."
+      },
+      {
+        "en": "With hindsight, if we had invested earlier, we might have saved a lot of money.",
+        "pt": "Olhando para trás, se tivéssemos investido antes, talvez tivéssemos economizado muito."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A missed opportunity",
+    "falas": [
+      {
+        "personagem": "Carla",
+        "voz": "a",
+        "en": "Did you know that Rafael turned down a job in Canada in 2018?",
+        "pt": "Você sabia que o Rafael recusou um emprego no Canadá em 2018?"
+      },
+      {
+        "personagem": "Tomás",
+        "voz": "b",
+        "en": "Really? Why did he do that?",
+        "pt": "Sério? Por que ele fez isso?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "a",
+        "en": "His English wasn't very good at the time. He told me that if he had spoken English better, he would have accepted.",
+        "pt": "O inglês dele não era muito bom na época. Ele me disse que se falasse inglês melhor, teria aceitado."
+      },
+      {
+        "personagem": "Tomás",
+        "voz": "b",
+        "en": "What a pity. Where would he be now?",
+        "pt": "Que pena. Onde ele estaria agora?"
+      },
+      {
+        "personagem": "Carla",
+        "voz": "a",
+        "en": "Who knows? If he had gone, he might have become a manager there. But he wouldn't have met his wife!",
+        "pt": "Quem sabe? Se tivesse ido, talvez tivesse virado gerente lá. Mas não teria conhecido a esposa!"
+      },
+      {
+        "personagem": "Tomás",
+        "voz": "b",
+        "en": "True. So maybe it wasn't such a bad decision after all.",
+        "pt": "Verdade. Então talvez não tenha sido uma decisão tão ruim afinal."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What did Rafael turn down?",
+        "opcoes": [
+          "A job in Canada",
+          "A promotion",
+          "A course"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l1-e2",
+        "tipo": "multipla",
+        "enunciado": "When did it happen?",
+        "opcoes": [
+          "In 2008",
+          "In 2018",
+          "Last year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Why did he turn it down?",
+        "opcoes": [
+          "His English wasn't very good.",
+          "The salary was low.",
+          "His wife didn't want to go."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What wouldn't have happened if he had gone?",
+        "opcoes": [
+          "He wouldn't have met his wife.",
+          "He wouldn't have learned English.",
+          "He wouldn't have become a manager."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u01l1-p1",
+      "tipo": "completar",
+      "frase": "If I had known, I would ___ helped.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u01l1-p2",
+      "tipo": "completar",
+      "frase": "If we ___ checked the parts, we wouldn't have lost the customer.",
+      "respostas": [
+        "had"
+      ]
+    },
+    {
+      "id": "b2u01l1-p3",
+      "tipo": "completar",
+      "frase": "I ___ down a job in Canada. (recusei)",
+      "respostas": [
+        "turned"
+      ]
+    },
+    {
+      "id": "b2u01l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "If I would have known, I would have come.",
+        "If I had known, I would have come.",
+        "If I knew, I would have came."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u01l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Poderíamos ter terminado antes\":",
+      "opcoes": [
+        "We could have finished earlier.",
+        "We could finished earlier.",
+        "We could have finish earlier."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l1-p6",
+      "tipo": "ordenar",
+      "frase": "It might have worked",
+      "traducao_pt": "Talvez tivesse funcionado"
+    },
+    {
+      "id": "b2u01l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I missed a great opportunity."
+    },
+    {
+      "id": "b2u01l1-p8",
+      "tipo": "traduzir",
+      "pt": "Olhando para trás, foi a decisão errada.",
+      "respostas": [
+        "With hindsight, it was the wrong decision.",
+        "In hindsight, it was the wrong decision.",
+        "Looking back, it was the wrong decision."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Pense em 3 momentos importantes da sua vida. Diga ao professor o que teria acontecido se você tivesse escolhido diferente.",
+    "papel_professor": "Peça 3 momentos decisivos e explore alternativas (What would have happened if…? Would you have been happier?). Corrija had + particípio / would have + particípio.",
+    "abertura": "Let's think about turning points in your life. What's one important decision you made?",
+    "abertura_pt": "Vamos pensar nos momentos decisivos da sua vida. Qual foi uma decisão importante que você tomou?"
+  },
+  "teste": [
+    {
+      "id": "b2u01l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"If she ___ more, she could have passed.\"",
+      "opcoes": [
+        "studied",
+        "had studied",
+        "would study"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u01l1-t2",
+      "tipo": "completar",
+      "frase": "We ___ have lost the order. (não teríamos)",
+      "respostas": [
+        "wouldn't",
+        "would not"
+      ]
+    },
+    {
+      "id": "b2u01l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We had to face the consequences."
+    },
+    {
+      "id": "b2u01l1-t4",
+      "tipo": "traduzir",
+      "pt": "Se tivéssemos saído antes, teríamos chegado a tempo.",
+      "respostas": [
+        "If we had left earlier, we would have arrived in time.",
+        "If we'd left earlier, we'd have arrived in time.",
+        "If we had left earlier, we would have arrived on time."
+      ]
+    },
+    {
+      "id": "b2u01l1-t5",
+      "tipo": "ordenar",
+      "frase": "I would have called you",
+      "traducao_pt": "Eu teria te ligado"
+    }
+  ]
+}

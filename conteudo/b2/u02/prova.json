@@ -1,0 +1,256 @@
+{
+  "id": "b2-u02-prova",
+  "nivel": "B2",
+  "unidade": 2,
+  "titulo": "Prova da Unidade 2 (B2) — Reporting",
+  "leitura": {
+    "texto": "SUMMARY OF CUSTOMER VISIT — Grupo Alvorada\nOn Tuesday, three representatives from Grupo Alvorada visited our plant. Here is a summary of the main points.\nThe purchasing director, Mr. Viana, said that they were generally satisfied with our products, but he complained that two deliveries had arrived late in the last quarter. Our logistics manager apologized for the delays and explained that a supplier had had problems at the port.\nMr. Viana asked whether we could reduce our lead time from 20 to 15 days. Our production director replied that it would be possible if they sent their forecasts at least one month in advance. Mr. Viana agreed to share their forecasts every month.\nTheir quality engineer, Ms. Prates, wanted to know how we tested the products before shipping. After the plant tour, she said she was impressed with our lab and recommended that we add one more test for humidity.\nAt the end of the meeting, Mr. Viana told us that they were planning to increase their orders by 15% next year. However, he warned us not to raise our prices, as they had received cheaper offers from competitors.\nWe promised to send a new proposal by the end of the month.",
+    "perguntas": [
+      {
+        "id": "b2u02pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How many representatives visited?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What did Mr. Viana complain about?",
+        "opcoes": [
+          "Two late deliveries",
+          "Poor quality",
+          "High prices"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Why were the deliveries late?",
+        "opcoes": [
+          "A supplier had had problems at the port.",
+          "There was a strike.",
+          "A machine broke."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What did Mr. Viana ask?",
+        "opcoes": [
+          "Whether we could reduce our lead time",
+          "If we could lower prices",
+          "When we would visit them"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What did Alvorada agree to do?",
+        "opcoes": [
+          "Share their forecasts every month",
+          "Pay in advance",
+          "Visit every month"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What did Ms. Prates recommend?",
+        "opcoes": [
+          "Adding a test for humidity",
+          "Buying new machines",
+          "Hiring more inspectors"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-l7",
+        "tipo": "multipla",
+        "enunciado": "By how much will they increase their orders?",
+        "opcoes": [
+          "5%",
+          "15%",
+          "20%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02pv-l8",
+        "tipo": "multipla",
+        "enunciado": "What did Mr. Viana warn them not to do?",
+        "opcoes": [
+          "Raise their prices",
+          "Change suppliers",
+          "Deliver late"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "Hi, Marcos. How was your talk with the director?",
+        "pt": "Oi, Marcos. Como foi sua conversa com a diretora?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "Good, actually. She told me that she was happy with my work this year.",
+        "pt": "Boa, na verdade. Ela me disse que estava satisfeita com meu trabalho este ano."
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "Great! Did you ask about the promotion?",
+        "pt": "Ótimo! Você perguntou da promoção?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "Yes. I asked her if there was a chance to become a supervisor. She said there would be an opening in March.",
+        "pt": "Sim. Perguntei se havia chance de virar supervisor. Ela disse que haveria uma vaga em março."
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "That's fantastic!",
+        "pt": "Que fantástico!"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "She advised me to take a leadership course first, and she offered to pay for half of it.",
+        "pt": "Ela me aconselhou a fazer um curso de liderança antes, e se ofereceu para pagar metade."
+      },
+      {
+        "personagem": "Paula",
+        "voz": "a",
+        "en": "Anything else?",
+        "pt": "Mais alguma coisa?"
+      },
+      {
+        "personagem": "Marcos",
+        "voz": "b",
+        "en": "She asked me not to tell anyone yet. So… please keep it a secret!",
+        "pt": "Ela me pediu para não contar para ninguém ainda. Então… guarde segredo, por favor!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u02pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What did the director tell Marcos?",
+        "opcoes": [
+          "She was happy with his work.",
+          "He needed to improve.",
+          "He was fired."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What did Marcos ask her?",
+        "opcoes": [
+          "If there was a chance to become a supervisor",
+          "If he could have a raise",
+          "If he could work from home"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When will there be an opening?",
+        "opcoes": [
+          "In January",
+          "In March",
+          "In May"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u02pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What did she advise him to do?",
+        "opcoes": [
+          "Take a leadership course",
+          "Learn Spanish",
+          "Change departments"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What did she offer?",
+        "opcoes": [
+          "To pay for half of the course",
+          "A new car",
+          "Extra vacation"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What did she ask him not to do?",
+        "opcoes": [
+          "Tell anyone yet",
+          "Take the course",
+          "Work overtime"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u02pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "She told me that she was happy with my work."
+      },
+      {
+        "id": "b2u02pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "She advised me to take a leadership course first."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u02pv-w1",
+      "instrucao_pt": "Escreva o resumo de uma conversa ou reunião (real ou inventada) usando reported speech para afirmações, perguntas e pedidos.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u02pv-w2",
+      "instrucao_pt": "Escreva 3 recados para um colega que estava fora, usando verbos de relato variados (asked, promised, suggested, warned…).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u02pv-s1",
+      "pergunta_en": "Tell me about an important conversation you had recently. What did the other person say and ask?",
+      "instrucao_pt": "Relate em voz alta usando reported speech."
+    },
+    {
+      "id": "b2u02pv-s2",
+      "pergunta_en": "Your manager was away. Report three messages from customers and colleagues.",
+      "instrucao_pt": "Use said, asked if, wants you to, apparently."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Reported speech: afirmações com backshift (say × tell), perguntas relatadas (if/whether, ordem afirmativa), pedidos e ordens (tell/ask + objeto + to / not to), verbos de relato com suas estruturas (promise to, refuse to, suggest + -ing, deny + -ing, apologize for, insist on, advise someone to), passar recados e resumir."
+}

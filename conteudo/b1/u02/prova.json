@@ -1,0 +1,259 @@
+{
+  "id": "b1-u02-prova",
+  "nivel": "B1",
+  "unidade": 2,
+  "titulo": "Prova da Unidade 2 (B1) — So far",
+  "leitura": {
+    "texto": "From: Ricardo Alves\nTo: Plant management\nSubject: Update — New warehouse system\n\nHello everyone,\nHere is a quick update on the new warehouse management system.\nWe've been working on this project since February, so for almost four months. So far, we've completed the first two phases: we've installed the software and we've labeled all 12,000 shelf positions.\nWe've also trained 45 of the 60 warehouse employees. The night shift hasn't had the training yet, but it's planned for next week.\nThe results of the tests have been very positive. Picking errors have fallen by 60%, and the time to prepare an order has decreased from 25 to 14 minutes.\nUnfortunately, there has been a delay with the handheld scanners. The supplier still hasn't delivered 20 of the 50 scanners, so we've been using the old ones in some areas.\nWe're about two weeks behind schedule, but we expect to go live by the end of July. I'll let you know if anything changes.\nBest regards,\nRicardo",
+    "perguntas": [
+      {
+        "id": "b1u02pv-l1",
+        "tipo": "multipla",
+        "enunciado": "Since when have they been working on the project?",
+        "opcoes": [
+          "Since February",
+          "Since April",
+          "Since July"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How many phases have they completed?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-l3",
+        "tipo": "multipla",
+        "enunciado": "How many shelf positions have they labeled?",
+        "opcoes": [
+          "1,200",
+          "12,000",
+          "45"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-l4",
+        "tipo": "multipla",
+        "enunciado": "How many employees still need training?",
+        "opcoes": [
+          "15",
+          "45",
+          "60"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02pv-l5",
+        "tipo": "multipla",
+        "enunciado": "By how much have picking errors fallen?",
+        "opcoes": [
+          "14%",
+          "25%",
+          "60%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b1u02pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How long does it take to prepare an order now?",
+        "opcoes": [
+          "25 minutes",
+          "14 minutes",
+          "60 minutes"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-l7",
+        "tipo": "multipla",
+        "enunciado": "How many scanners haven't arrived yet?",
+        "opcoes": [
+          "20",
+          "30",
+          "50"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02pv-l8",
+        "tipo": "multipla",
+        "enunciado": "When do they expect to go live?",
+        "opcoes": [
+          "Next week",
+          "By the end of July",
+          "In February"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Paulo",
+        "voz": "a",
+        "en": "Hi, Vera. Have you been waiting long?",
+        "pt": "Oi, Vera. Está esperando há muito tempo?"
+      },
+      {
+        "personagem": "Vera",
+        "voz": "b",
+        "en": "About twenty minutes. Don't worry. How's the new job?",
+        "pt": "Uns vinte minutos. Não se preocupe. Como está o emprego novo?"
+      },
+      {
+        "personagem": "Paulo",
+        "voz": "a",
+        "en": "Great, but busy. I've been working there for three months and I've already changed departments!",
+        "pt": "Ótimo, mas corrido. Estou lá há três meses e já mudei de departamento!"
+      },
+      {
+        "personagem": "Vera",
+        "voz": "b",
+        "en": "Really? Why?",
+        "pt": "Sério? Por quê?"
+      },
+      {
+        "personagem": "Paulo",
+        "voz": "a",
+        "en": "They needed someone in planning. I've just finished a course on production planning.",
+        "pt": "Precisavam de alguém no planejamento. Acabei de terminar um curso de planejamento de produção."
+      },
+      {
+        "personagem": "Vera",
+        "voz": "b",
+        "en": "Congratulations! Have you met the new director yet?",
+        "pt": "Parabéns! Já conheceu o novo diretor?"
+      },
+      {
+        "personagem": "Paulo",
+        "voz": "a",
+        "en": "Not yet. She's been traveling since Monday. And you? Are you still at the hospital?",
+        "pt": "Ainda não. Ela está viajando desde segunda. E você? Ainda está no hospital?"
+      },
+      {
+        "personagem": "Vera",
+        "voz": "b",
+        "en": "Yes, I've worked there since 2016. Ten years in December!",
+        "pt": "Sim, trabalho lá desde 2016. Dez anos em dezembro!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u02pv-e1",
+        "tipo": "multipla",
+        "enunciado": "How long has Vera been waiting?",
+        "opcoes": [
+          "Two minutes",
+          "About twenty minutes",
+          "An hour"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How long has Paulo been working at the new job?",
+        "opcoes": [
+          "Three weeks",
+          "Three months",
+          "Three years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Which department does he work in now?",
+        "opcoes": [
+          "Planning",
+          "Sales",
+          "Quality"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What has he just finished?",
+        "opcoes": [
+          "A course",
+          "A project",
+          "A report"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u02pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Has he met the new director?",
+        "opcoes": [
+          "Yes, he has.",
+          "Not yet."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Since when has Vera worked at the hospital?",
+        "opcoes": [
+          "2006",
+          "2016",
+          "December"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u02pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Have you been waiting long?"
+      },
+      {
+        "id": "b1u02pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "She's been traveling since Monday.",
+        "aceitas": [
+          "She has been traveling since Monday.",
+          "She's been travelling since Monday."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u02pv-w1",
+      "instrucao_pt": "Escreva sobre você usando for e since: há quanto tempo mora, trabalha, estuda inglês, conhece alguém importante.",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u02pv-w2",
+      "instrucao_pt": "Escreva um e-mail curto de atualização de um projeto: o que já foi feito, o que falta (yet), um problema e o prazo.",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u02pv-s1",
+      "pergunta_en": "How long have you been studying English, and what have you learned so far?",
+      "instrucao_pt": "Responda em voz alta com for/since e present perfect."
+    },
+    {
+      "id": "b1u02pv-s2",
+      "pergunta_en": "Give me an update on your work this month: targets, results and problems.",
+      "instrucao_pt": "Fale em voz alta de metas e resultados até agora."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Present perfect com for/since e How long…?, just/already/yet/still, present perfect continuous (atividade até agora) × simples (resultado), falar de metas e resultados (so far, on track, behind schedule, by/to), atualização de projeto."
+}

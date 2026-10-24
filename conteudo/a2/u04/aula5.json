@@ -1,0 +1,342 @@
+{
+  "id": "a2-u04-l5",
+  "nivel": "A2",
+  "unidade": 4,
+  "numero": 5,
+  "titulo": "My plans for the future",
+  "objetivo_pt": "Falar dos seus planos e sonhos para o futuro (próximo ano, próximos 5 anos).",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga um plano para este ano e um sonho para daqui a cinco anos.",
+    "papel_professor": "Pergunte um plano para este ano e um para daqui a 5 anos. Ensine 'I hope to' e 'I'd like to' para sonhos, e going to para planos decididos.",
+    "abertura": "What's one plan you have for this year?",
+    "abertura_pt": "Qual é um plano que você tem para este ano?"
+  },
+  "vocabulario": [
+    {
+      "id": "hope",
+      "en": "hope to",
+      "pt": "esperar / ter esperança de",
+      "emoji": "🤞",
+      "exemplo_en": "I hope to travel abroad.",
+      "exemplo_pt": "Espero viajar para o exterior."
+    },
+    {
+      "id": "would-like-to",
+      "en": "I'd like to",
+      "pt": "eu gostaria de",
+      "emoji": "💭",
+      "exemplo_en": "I'd like to learn Spanish too.",
+      "exemplo_pt": "Eu gostaria de aprender espanhol também."
+    },
+    {
+      "id": "in-five-years",
+      "en": "in five years",
+      "pt": "daqui a cinco anos",
+      "emoji": "5️⃣",
+      "exemplo_en": "In five years, I want to have my own business.",
+      "exemplo_pt": "Daqui a cinco anos, quero ter meu próprio negócio."
+    },
+    {
+      "id": "own-business",
+      "en": "my own business",
+      "pt": "meu próprio negócio",
+      "emoji": "🏪",
+      "exemplo_en": "My dream is to open my own business.",
+      "exemplo_pt": "Meu sonho é abrir meu próprio negócio."
+    },
+    {
+      "id": "get-certificate",
+      "en": "get a certificate",
+      "pt": "tirar um certificado",
+      "emoji": "📜",
+      "exemplo_en": "I'm going to get an English certificate.",
+      "exemplo_pt": "Vou tirar um certificado de inglês."
+    },
+    {
+      "id": "abroad",
+      "en": "abroad",
+      "pt": "no exterior",
+      "emoji": "🌍",
+      "exemplo_en": "We want to live abroad for a year.",
+      "exemplo_pt": "Queremos morar no exterior por um ano."
+    },
+    {
+      "id": "maybe",
+      "en": "maybe / probably",
+      "pt": "talvez / provavelmente",
+      "emoji": "🤷",
+      "exemplo_en": "Maybe we're going to move.",
+      "exemplo_pt": "Talvez a gente se mude."
+    },
+    {
+      "id": "decide-f",
+      "en": "decide",
+      "pt": "decidir",
+      "emoji": "✅",
+      "exemplo_en": "We decided. We're going to buy a house.",
+      "exemplo_pt": "Decidimos. Vamos comprar uma casa."
+    },
+    {
+      "id": "career",
+      "en": "career",
+      "pt": "carreira",
+      "emoji": "📈",
+      "exemplo_en": "I want to grow in my career.",
+      "exemplo_pt": "Quero crescer na minha carreira."
+    },
+    {
+      "id": "retirement",
+      "en": "retirement",
+      "pt": "aposentadoria",
+      "emoji": "🏖️",
+      "exemplo_en": "We're saving for our retirement.",
+      "exemplo_pt": "Estamos economizando para a aposentadoria."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Planos, desejos e sonhos",
+    "explicacao_pt": "Para falar do futuro com graus de certeza: GOING TO = decidido (We're going to buy a house). I'D LIKE TO / I WANT TO = desejo (I'd like to live abroad). I HOPE TO = esperança (I hope to get promoted). MAYBE / PROBABLY = incerteza (Maybe I'm going to change jobs). Expressões de tempo: next year, in five years, one day (um dia), in the future.",
+    "tabela": {
+      "colunas": [
+        "Certeza",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Decidido",
+          "going to",
+          "I'm going to take an English test."
+        ],
+        [
+          "Desejo",
+          "I'd like to / I want to",
+          "I'd like to travel to Canada."
+        ],
+        [
+          "Esperança",
+          "I hope to",
+          "I hope to get promoted."
+        ],
+        [
+          "Incerto",
+          "maybe / probably",
+          "Maybe we will move."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Next year I'm going to get my English certificate.",
+        "pt": "Ano que vem vou tirar meu certificado de inglês."
+      },
+      {
+        "en": "In five years, I'd like to be a production manager.",
+        "pt": "Daqui a cinco anos, gostaria de ser gerente de produção."
+      },
+      {
+        "en": "We hope to visit Europe one day.",
+        "pt": "Esperamos visitar a Europa um dia."
+      },
+      {
+        "en": "Maybe we're going to have another baby.",
+        "pt": "Talvez a gente tenha outro bebê."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Dreams and plans",
+    "falas": [
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "What are your plans for the future, Hugo?",
+        "pt": "Quais são seus planos para o futuro, Hugo?"
+      },
+      {
+        "personagem": "Hugo",
+        "voz": "b",
+        "en": "Well, next year I'm going to finish my engineering course.",
+        "pt": "Bem, ano que vem vou terminar meu curso de engenharia."
+      },
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "Congratulations! And after that?",
+        "pt": "Parabéns! E depois?"
+      },
+      {
+        "personagem": "Hugo",
+        "voz": "b",
+        "en": "I'd like to work abroad for a few years. Maybe in Germany.",
+        "pt": "Gostaria de trabalhar no exterior por alguns anos. Talvez na Alemanha."
+      },
+      {
+        "personagem": "Tina",
+        "voz": "a",
+        "en": "Is your wife going to go with you?",
+        "pt": "Sua esposa vai com você?"
+      },
+      {
+        "personagem": "Hugo",
+        "voz": "b",
+        "en": "Of course! She hopes to study there too. One day, we want to open our own business in Brazil.",
+        "pt": "Claro! Ela espera estudar lá também. Um dia, queremos abrir nosso próprio negócio no Brasil."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u04l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Hugo going to do next year?",
+        "opcoes": [
+          "Finish his engineering course",
+          "Move to Germany",
+          "Open a business"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u04l5-e2",
+        "tipo": "multipla",
+        "enunciado": "Where would he like to work?",
+        "opcoes": [
+          "In Brazil",
+          "Maybe in Germany",
+          "In Canada"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u04l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What do they want to do one day?",
+        "opcoes": [
+          "Live in Germany forever",
+          "Open their own business in Brazil",
+          "Retire"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u04l5-p1",
+      "tipo": "completar",
+      "frase": "I hope ___ travel abroad.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "a2u04l5-p2",
+      "tipo": "completar",
+      "frase": "I'd ___ to learn Spanish. (gostaria)",
+      "respostas": [
+        "like"
+      ]
+    },
+    {
+      "id": "a2u04l5-p3",
+      "tipo": "multipla",
+      "enunciado": "\"Daqui a cinco anos\":",
+      "opcoes": [
+        "in five years",
+        "after five years ago",
+        "for five years"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Plano decidido:",
+      "opcoes": [
+        "I'd like to buy a car.",
+        "I'm going to buy a car. We decided.",
+        "Maybe I buy a car."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u04l5-p5",
+      "tipo": "completar",
+      "frase": "My dream is to open my ___ business.",
+      "respostas": [
+        "own"
+      ]
+    },
+    {
+      "id": "a2u04l5-p6",
+      "tipo": "ordenar",
+      "frase": "We want to live abroad for a year",
+      "traducao_pt": "Queremos morar no exterior por um ano"
+    },
+    {
+      "id": "a2u04l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "I want to grow in my career."
+    },
+    {
+      "id": "a2u04l5-p8",
+      "tipo": "traduzir",
+      "pt": "Vou tirar um certificado de inglês.",
+      "respostas": [
+        "I'm going to get an English certificate.",
+        "I am going to get an English certificate."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final da unidade: fale ao professor dos seus planos e sonhos: algo decidido para este ano, um desejo para daqui a 5 anos e um sonho para um dia.",
+    "papel_professor": "Faça perguntas sobre planos e sonhos do aluno (this year, in five years, one day). Ajude a escolher going to, would like to ou hope to conforme a certeza. Corrija até 2 erros.",
+    "abertura": "Let's talk about the future! What's your big plan for this year?",
+    "abertura_pt": "Vamos falar do futuro! Qual é o seu grande plano para este ano?"
+  },
+  "teste": [
+    {
+      "id": "a2u04l5-t1",
+      "tipo": "completar",
+      "frase": "We're saving for our ___. (aposentadoria)",
+      "respostas": [
+        "retirement"
+      ]
+    },
+    {
+      "id": "a2u04l5-t2",
+      "tipo": "multipla",
+      "enunciado": "Esperança: \"Espero ser promovido\":",
+      "opcoes": [
+        "I hope to get promoted.",
+        "I hope get promoted.",
+        "I am hoping promoted."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u04l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I'd like to learn Spanish too.",
+      "aceitas": [
+        "I would like to learn Spanish too."
+      ]
+    },
+    {
+      "id": "a2u04l5-t4",
+      "tipo": "traduzir",
+      "pt": "Talvez a gente se mude.",
+      "respostas": [
+        "Maybe we're going to move.",
+        "Maybe we are going to move.",
+        "Maybe we will move."
+      ]
+    },
+    {
+      "id": "a2u04l5-t5",
+      "tipo": "ordenar",
+      "frase": "In five years I want to have my own business",
+      "traducao_pt": "Daqui a cinco anos quero ter meu próprio negócio"
+    }
+  ]
+}

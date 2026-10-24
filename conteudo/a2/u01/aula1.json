@@ -1,0 +1,343 @@
+{
+  "id": "a2-u01-l1",
+  "nivel": "A2",
+  "unidade": 1,
+  "numero": 1,
+  "titulo": "Where were you?",
+  "objetivo_pt": "Usar was e were para falar de onde você estava e como as coisas estavam no passado.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar onde você estava ontem e no fim de semana. Use \"I was…\".",
+    "papel_professor": "Pergunte onde o aluno estava ontem à noite, no sábado e no domingo, e como estava (tired, happy, busy). Use was/were. Corrija \"I were\" → \"I was\".",
+    "abertura": "Hi! Where were you last night?",
+    "abertura_pt": "Oi! Onde você estava ontem à noite?"
+  },
+  "vocabulario": [
+    {
+      "id": "was",
+      "en": "was",
+      "pt": "era / estava (I, he, she, it)",
+      "emoji": "⏪",
+      "exemplo_en": "I was at home yesterday.",
+      "exemplo_pt": "Eu estava em casa ontem."
+    },
+    {
+      "id": "were",
+      "en": "were",
+      "pt": "eram / estavam (you, we, they)",
+      "emoji": "⏮️",
+      "exemplo_en": "We were very tired.",
+      "exemplo_pt": "Nós estávamos muito cansados."
+    },
+    {
+      "id": "wasnt",
+      "en": "wasn't",
+      "pt": "não era / não estava",
+      "emoji": "🚫",
+      "exemplo_en": "The meeting wasn't long.",
+      "exemplo_pt": "A reunião não foi longa."
+    },
+    {
+      "id": "werent",
+      "en": "weren't",
+      "pt": "não eram / não estavam",
+      "emoji": "⛔",
+      "exemplo_en": "They weren't at work.",
+      "exemplo_pt": "Eles não estavam no trabalho."
+    },
+    {
+      "id": "yesterday",
+      "en": "yesterday",
+      "pt": "ontem",
+      "emoji": "📅",
+      "exemplo_en": "Where were you yesterday?",
+      "exemplo_pt": "Onde você estava ontem?"
+    },
+    {
+      "id": "last-night",
+      "en": "last night",
+      "pt": "ontem à noite",
+      "emoji": "🌙",
+      "exemplo_en": "I was tired last night.",
+      "exemplo_pt": "Eu estava cansado ontem à noite."
+    },
+    {
+      "id": "last-week",
+      "en": "last week / last month",
+      "pt": "semana passada / mês passado",
+      "emoji": "🗓️",
+      "exemplo_en": "We were in Gramado last month.",
+      "exemplo_pt": "Estivemos em Gramado no mês passado."
+    },
+    {
+      "id": "ago",
+      "en": "ago",
+      "pt": "atrás (tempo)",
+      "emoji": "⏳",
+      "exemplo_en": "I was in Chile two years ago.",
+      "exemplo_pt": "Estive no Chile dois anos atrás."
+    },
+    {
+      "id": "busy",
+      "en": "busy",
+      "pt": "ocupado",
+      "emoji": "📋",
+      "exemplo_en": "We were very busy last week.",
+      "exemplo_pt": "Estávamos muito ocupados semana passada."
+    },
+    {
+      "id": "weather-q",
+      "en": "sunny / rainy / cold",
+      "pt": "ensolarado / chuvoso / frio",
+      "emoji": "🌦️",
+      "exemplo_en": "It was rainy on Sunday.",
+      "exemplo_pt": "Estava chuvoso no domingo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Was e were (passado do to be)",
+    "explicacao_pt": "O passado de am/is é WAS, e o de are é WERE: I was, he/she/it was; you/we/they were. Negativa: wasn't / weren't. Pergunta: Was he…? Were you…? Respostas curtas: Yes, I was. / No, they weren't. Marcadores de tempo comuns: yesterday, last night, last week, two days ago, in 2020.",
+    "tabela": {
+      "colunas": [
+        "Pessoa",
+        "Afirmativa",
+        "Negativa"
+      ],
+      "linhas": [
+        [
+          "I",
+          "I was",
+          "I wasn't"
+        ],
+        [
+          "you / we / they",
+          "we were",
+          "we weren't"
+        ],
+        [
+          "he / she / it",
+          "she was",
+          "she wasn't"
+        ],
+        [
+          "Pergunta",
+          "Were you…? / Was it…?",
+          "Yes, I was. / No, it wasn't."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Where were you on Saturday? — I was at my sister's house.",
+        "pt": "Onde você estava no sábado? — Estava na casa da minha irmã."
+      },
+      {
+        "en": "The weather was great, but the beach was very crowded.",
+        "pt": "O tempo estava ótimo, mas a praia estava muito cheia."
+      },
+      {
+        "en": "We weren't at the meeting. We were in the factory.",
+        "pt": "Não estávamos na reunião. Estávamos na fábrica."
+      },
+      {
+        "en": "Was the food good? — Yes, it was delicious!",
+        "pt": "A comida estava boa? — Sim, estava deliciosa!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Monday morning",
+    "falas": [
+      {
+        "personagem": "Iris",
+        "voz": "a",
+        "en": "Good morning! How was your weekend?",
+        "pt": "Bom dia! Como foi seu fim de semana?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "It was great, thanks. I was at the beach with my family.",
+        "pt": "Foi ótimo, obrigado. Eu estava na praia com minha família."
+      },
+      {
+        "personagem": "Iris",
+        "voz": "a",
+        "en": "Lucky you! Was the weather good?",
+        "pt": "Que sorte! O tempo estava bom?"
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Yes, it was sunny on Saturday. But Sunday was rainy. And you?",
+        "pt": "Sim, estava ensolarado no sábado. Mas o domingo foi chuvoso. E você?"
+      },
+      {
+        "personagem": "Iris",
+        "voz": "a",
+        "en": "I was at home. My kids were sick.",
+        "pt": "Eu estava em casa. Meus filhos estavam doentes."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Oh no! Are they OK now?",
+        "pt": "Ah não! Eles estão bem agora?"
+      },
+      {
+        "personagem": "Iris",
+        "voz": "a",
+        "en": "Yes, they're fine. They were at school today.",
+        "pt": "Sim, estão bem. Eles foram para a escola hoje."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u01l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Where was Leo?",
+        "opcoes": [
+          "At home",
+          "At the beach",
+          "At work"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l1-e2",
+        "tipo": "multipla",
+        "enunciado": "How was the weather on Sunday?",
+        "opcoes": [
+          "Sunny",
+          "Rainy",
+          "Cold"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u01l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Why was Iris at home?",
+        "opcoes": [
+          "Her kids were sick.",
+          "It was rainy.",
+          "She was tired."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u01l1-p1",
+      "tipo": "completar",
+      "frase": "I ___ at home yesterday.",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "a2u01l1-p2",
+      "tipo": "completar",
+      "frase": "They ___ in the meeting. (negativa)",
+      "respostas": [
+        "weren't",
+        "were not"
+      ]
+    },
+    {
+      "id": "a2u01l1-p3",
+      "tipo": "completar",
+      "frase": "___ you at work on Saturday?",
+      "respostas": [
+        "Were"
+      ]
+    },
+    {
+      "id": "a2u01l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "I were tired.",
+        "I was tired.",
+        "I am was tired."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l1-p5",
+      "tipo": "completar",
+      "frase": "I was in Chile two years ___.",
+      "respostas": [
+        "ago"
+      ]
+    },
+    {
+      "id": "a2u01l1-p6",
+      "tipo": "ordenar",
+      "frase": "The weather was great",
+      "traducao_pt": "O tempo estava ótimo"
+    },
+    {
+      "id": "a2u01l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We were very busy last week."
+    },
+    {
+      "id": "a2u01l1-p8",
+      "tipo": "traduzir",
+      "pt": "Onde você estava ontem à noite?",
+      "respostas": [
+        "Where were you last night?"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Segunda-feira de manhã no trabalho. Um colega pergunta como foi o seu fim de semana. Conte onde você estava, com quem e como estava o tempo.",
+    "papel_professor": "Faça o papel de colega na segunda de manhã. Pergunte onde o aluno estava no fim de semana, com quem, como estava o tempo e como foi. Use was/were e conte o seu também.",
+    "abertura": "Morning! You look relaxed. How was your weekend?",
+    "abertura_pt": "Bom dia! Você parece relaxado. Como foi seu fim de semana?"
+  },
+  "teste": [
+    {
+      "id": "a2u01l1-t1",
+      "tipo": "completar",
+      "frase": "She ___ sick last week.",
+      "respostas": [
+        "was"
+      ]
+    },
+    {
+      "id": "a2u01l1-t2",
+      "tipo": "multipla",
+      "enunciado": "Pergunta correta:",
+      "opcoes": [
+        "Was they at home?",
+        "Were they at home?",
+        "Did they were at home?"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u01l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "It wasn't cold.",
+      "aceitas": [
+        "It was not cold."
+      ]
+    },
+    {
+      "id": "a2u01l1-t4",
+      "tipo": "traduzir",
+      "pt": "Nós estávamos cansados.",
+      "respostas": [
+        "We were tired."
+      ]
+    },
+    {
+      "id": "a2u01l1-t5",
+      "tipo": "ordenar",
+      "frase": "Where were you on Sunday?",
+      "traducao_pt": "Onde você estava no domingo?"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "id": "c1-u08-l1",
+  "nivel": "C1",
+  "unidade": 8,
+  "numero": 1,
+  "titulo": "Formal, neutral, informal",
+  "objetivo_pt": "Escolher o registro adequado para cada situação (colega, chefe, cliente, documento).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar uma mensagem e várias pessoas a quem enviá-la. Adapte o registro para cada uma: um amigo do trabalho, seu chefe e um cliente.",
+    "papel_professor": "Dê uma mensagem (The meeting is moved to Thursday.) e peça versões para colega, chefe, cliente e comunicado formal. Ensine marcadores de registro. Corrija.",
+    "abertura": "Tell three different people that the meeting has been moved to Thursday: a close colleague, your director and a client.",
+    "abertura_pt": "Avise três pessoas diferentes que a reunião foi para quinta: um colega próximo, seu diretor e um cliente."
+  },
+  "vocabulario": [
+    {
+      "id": "register",
+      "en": "register",
+      "pt": "registro (nível de formalidade)",
+      "emoji": "🎚️",
+      "exemplo_en": "Choose the right register for your audience.",
+      "exemplo_pt": "Escolha o registro certo para seu público."
+    },
+    {
+      "id": "heads-up",
+      "en": "a heads-up (informal)",
+      "pt": "um aviso prévio",
+      "emoji": "📣",
+      "exemplo_en": "Just a heads-up: the meeting is on Thursday.",
+      "exemplo_pt": "Só um aviso: a reunião é na quinta."
+    },
+    {
+      "id": "wanted-let",
+      "en": "I wanted to let you know…",
+      "pt": "Queria te avisar que…",
+      "emoji": "💬",
+      "exemplo_en": "I wanted to let you know that the meeting has moved.",
+      "exemplo_pt": "Queria avisar que a reunião mudou."
+    },
+    {
+      "id": "please-note",
+      "en": "Please note that…",
+      "pt": "Observe que… / Informamos que…",
+      "emoji": "📝",
+      "exemplo_en": "Please note that the meeting has been rescheduled.",
+      "exemplo_pt": "Informamos que a reunião foi remarcada."
+    },
+    {
+      "id": "rescheduled",
+      "en": "rescheduled / postponed",
+      "pt": "remarcado / adiado",
+      "emoji": "📅",
+      "exemplo_en": "The meeting has been rescheduled to Thursday.",
+      "exemplo_pt": "A reunião foi remarcada para quinta."
+    },
+    {
+      "id": "apologies-l1",
+      "en": "Apologies for… / Sorry about…",
+      "pt": "Desculpas por… / Foi mal pelo…",
+      "emoji": "🙇",
+      "exemplo_en": "Apologies for any inconvenience.",
+      "exemplo_pt": "Desculpas por qualquer inconveniente."
+    },
+    {
+      "id": "get-in-touch",
+      "en": "get in touch / contact",
+      "pt": "entrar em contato",
+      "emoji": "📞",
+      "exemplo_en": "Feel free to get in touch.",
+      "exemplo_pt": "Fique à vontade para entrar em contato."
+    },
+    {
+      "id": "cheers",
+      "en": "Cheers / Thanks / Kind regards",
+      "pt": "Valeu / Obrigado / Atenciosamente",
+      "emoji": "👋",
+      "exemplo_en": "Thanks, Ana / Kind regards, Ana Lima",
+      "exemplo_pt": "Obrigada, Ana / Atenciosamente, Ana Lima"
+    },
+    {
+      "id": "contractions",
+      "en": "contractions",
+      "pt": "contrações",
+      "emoji": "✂️",
+      "exemplo_en": "Avoid contractions in formal documents.",
+      "exemplo_pt": "Evite contrações em documentos formais."
+    },
+    {
+      "id": "tone",
+      "en": "tone",
+      "pt": "tom",
+      "emoji": "🎵",
+      "exemplo_en": "The tone of your e-mail is too direct.",
+      "exemplo_pt": "O tom do seu e-mail está direto demais."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Marcadores de registro",
+    "explicacao_pt": "INFORMAL: contrações (I'm, we'll), phrasal verbs (put off, sort out), palavras curtas (get, need, help), gírias leves (a heads-up, no worries), frases curtas, 'Hi', 'Cheers'. NEUTRO (o mais usado no trabalho): algumas contrações, vocabulário comum, 'Hi Paulo' / 'Thanks'. FORMAL: sem contrações, verbos latinos (postpone, require, assist), passiva, frases completas, 'Dear Mr. Lima', 'Please note that…', 'Kind regards'. Regra: espelhe o registro de quem escreve para você e, na dúvida, prefira o NEUTRO. O registro errado pode soar frio (formal demais com colega) ou desrespeitoso (informal demais com cliente).",
+    "tabela": {
+      "colunas": [
+        "Informal",
+        "Neutro",
+        "Formal"
+      ],
+      "linhas": [
+        [
+          "Just a heads-up — Thursday now!",
+          "I wanted to let you know the meeting's moved to Thursday.",
+          "Please note that the meeting has been rescheduled to Thursday."
+        ],
+        [
+          "Sorry about that!",
+          "Sorry for the change.",
+          "We apologise for any inconvenience."
+        ],
+        [
+          "Can you sort it out?",
+          "Could you take care of it?",
+          "Would you be able to resolve this matter?"
+        ],
+        [
+          "Give me a shout.",
+          "Let me know if you have questions.",
+          "Please do not hesitate to contact me."
+        ],
+        [
+          "Cheers, Ana",
+          "Thanks, Ana",
+          "Kind regards, Ana Lima"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Hi Rui, just a heads-up: the meeting's moved to Thursday. Cheers!",
+        "pt": "Oi Rui, só um aviso: a reunião foi para quinta. Valeu!"
+      },
+      {
+        "en": "Hi Paulo, I wanted to let you know that the meeting has moved to Thursday at 10. Thanks.",
+        "pt": "Oi Paulo, queria avisar que a reunião foi para quinta às 10. Obrigado."
+      },
+      {
+        "en": "Dear Ms. Tanaka, please note that our meeting has been rescheduled to Thursday, 14 March, at 10 a.m. We apologise for any inconvenience.",
+        "pt": "Prezada Sra. Tanaka, informamos que nossa reunião foi remarcada para quinta, 14 de março, às 10h. Pedimos desculpas por qualquer inconveniente."
+      },
+      {
+        "en": "Avoid contractions and phrasal verbs in formal documents.",
+        "pt": "Evite contrações e phrasal verbs em documentos formais."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Three versions",
+    "falas": [
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Version one, to a close colleague: 'Hey Bia, bad news — the supplier's let us down again. Can you sort it out with them? Cheers!'",
+        "pt": "Versão um, para uma colega próxima: \"Ei Bia, má notícia — o fornecedor deu bola fora de novo. Pode resolver com eles? Valeu!\""
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Version two, to the manager: 'Hi Carlos, I wanted to let you know that the supplier has missed another delivery. Bia will contact them today.'",
+        "pt": "Versão dois, para o gerente: \"Oi Carlos, queria avisar que o fornecedor perdeu outra entrega. A Bia vai contatá-los hoje.\""
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Version three, to the supplier: 'Dear Mr. Viana, I am writing to inform you that order 2231 has not been delivered as agreed.'",
+        "pt": "Versão três, para o fornecedor: \"Prezado Sr. Viana, escrevo para informar que o pedido 2231 não foi entregue conforme combinado.\""
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "'We would be grateful if you could confirm a new delivery date by the end of the day. Kind regards, Gabriel Lopes.'",
+        "pt": "\"Ficaríamos gratos se pudesse confirmar uma nova data de entrega até o fim do dia. Atenciosamente, Gabriel Lopes.\""
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Same message, three registers. Notice the contractions, the vocabulary and the greetings.",
+        "pt": "Mesma mensagem, três registros. Observe as contrações, o vocabulário e as saudações."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u08l1-e1",
+        "tipo": "multipla",
+        "enunciado": "Which version uses \"Cheers\"?",
+        "opcoes": [
+          "The one to a close colleague",
+          "The one to the manager",
+          "The one to the supplier"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l1-e2",
+        "tipo": "multipla",
+        "enunciado": "What does 'let us down' mean in version one?",
+        "opcoes": [
+          "Disappointed us / failed us",
+          "Helped us",
+          "Called us"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l1-e3",
+        "tipo": "multipla",
+        "enunciado": "Which version is the most formal?",
+        "opcoes": [
+          "The one to the supplier",
+          "The one to the manager",
+          "The one to the colleague"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u08l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the supplier need to confirm?",
+        "opcoes": [
+          "A new delivery date",
+          "The price",
+          "The quantity"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u08l1-p1",
+      "tipo": "completar",
+      "frase": "Just a ___-up: the meeting is on Thursday. (aviso)",
+      "respostas": [
+        "heads"
+      ]
+    },
+    {
+      "id": "c1u08l1-p2",
+      "tipo": "completar",
+      "frase": "Please ___ that the meeting has been rescheduled. (observe)",
+      "respostas": [
+        "note"
+      ]
+    },
+    {
+      "id": "c1u08l1-p3",
+      "tipo": "completar",
+      "frase": "Choose the right ___ for your audience. (registro)",
+      "respostas": [
+        "register"
+      ]
+    },
+    {
+      "id": "c1u08l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Mais formal:",
+      "opcoes": [
+        "We apologise for any inconvenience.",
+        "Sorry about that!",
+        "My bad."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l1-p5",
+      "tipo": "multipla",
+      "enunciado": "Neutro (o mais seguro no trabalho):",
+      "opcoes": [
+        "I wanted to let you know the meeting's moved to Thursday.",
+        "Yo, Thursday now!",
+        "It is hereby communicated that the meeting is relocated."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l1-p6",
+      "tipo": "ordenar",
+      "frase": "Feel free to get in touch",
+      "traducao_pt": "Fique à vontade para entrar em contato"
+    },
+    {
+      "id": "c1u08l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The tone of your e-mail is too direct."
+    },
+    {
+      "id": "c1u08l1-p8",
+      "tipo": "traduzir",
+      "pt": "A reunião foi remarcada para quinta.",
+      "respostas": [
+        "The meeting has been rescheduled to Thursday.",
+        "The meeting has been rescheduled for Thursday.",
+        "The meeting was rescheduled to Thursday."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai dar 3 mensagens (um atraso, um pedido de ajuda, uma reclamação). Diga cada uma em três registros: para um colega próximo, para seu chefe e para um cliente ou fornecedor.",
+    "papel_professor": "Dê as mensagens uma a uma. Avalie se o registro está adequado. Aponte marcadores (contrações, vocabulário, saudação). Corrija.",
+    "abertura": "First message: you need more time to finish a report. Say it to a colleague, to your boss and to a client.",
+    "abertura_pt": "Primeira mensagem: você precisa de mais tempo para terminar um relatório. Diga a um colega, ao seu chefe e a um cliente."
+  },
+  "teste": [
+    {
+      "id": "c1u08l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Informal demais para um cliente:",
+      "opcoes": [
+        "Hey, no worries, I'll sort it out!",
+        "Thank you, I will resolve this today.",
+        "I will take care of this today."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u08l1-t2",
+      "tipo": "completar",
+      "frase": "Avoid ___ in formal documents. (contrações)",
+      "respostas": [
+        "contractions"
+      ]
+    },
+    {
+      "id": "c1u08l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Please note that the meeting has been rescheduled."
+    },
+    {
+      "id": "c1u08l1-t4",
+      "tipo": "traduzir",
+      "pt": "Desculpas por qualquer inconveniente.",
+      "respostas": [
+        "Apologies for any inconvenience.",
+        "We apologise for any inconvenience.",
+        "We apologize for any inconvenience."
+      ]
+    },
+    {
+      "id": "c1u08l1-t5",
+      "tipo": "ordenar",
+      "frase": "I wanted to let you know that the meeting has moved",
+      "traducao_pt": "Queria avisar que a reunião mudou"
+    }
+  ]
+}

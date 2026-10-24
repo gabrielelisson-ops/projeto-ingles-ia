@@ -1,0 +1,348 @@
+{
+  "id": "a2-u06-l3",
+  "nivel": "A2",
+  "unidade": 6,
+  "numero": 3,
+  "titulo": "The best and the worst",
+  "objetivo_pt": "Usar superlativos para dizer o melhor, o maior, o mais caro de um grupo.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o melhor e o pior de várias coisas. Use \"the best\", \"the biggest\", \"the most…\".",
+    "papel_professor": "Pergunte superlativos (What's the best restaurant in your city? The worst job you had? The most beautiful place in Brazil?). Corrija 'the most big' → 'the biggest'.",
+    "abertura": "What's the best restaurant in your city?",
+    "abertura_pt": "Qual é o melhor restaurante da sua cidade?"
+  },
+  "vocabulario": [
+    {
+      "id": "the-biggest",
+      "en": "the biggest",
+      "pt": "o maior",
+      "emoji": "🏔️",
+      "exemplo_en": "It is the biggest factory in the region.",
+      "exemplo_pt": "É a maior fábrica da região."
+    },
+    {
+      "id": "the-cheapest",
+      "en": "the cheapest",
+      "pt": "o mais barato",
+      "emoji": "🏷️",
+      "exemplo_en": "This is the cheapest option.",
+      "exemplo_pt": "Esta é a opção mais barata."
+    },
+    {
+      "id": "the-best",
+      "en": "the best",
+      "pt": "o melhor",
+      "emoji": "🥇",
+      "exemplo_en": "She is the best operator on the team.",
+      "exemplo_pt": "Ela é a melhor operadora da equipe."
+    },
+    {
+      "id": "the-worst",
+      "en": "the worst",
+      "pt": "o pior",
+      "emoji": "💩",
+      "exemplo_en": "That was the worst day of my life.",
+      "exemplo_pt": "Aquele foi o pior dia da minha vida."
+    },
+    {
+      "id": "the-most",
+      "en": "the most + adj",
+      "pt": "o mais …",
+      "emoji": "⭐",
+      "exemplo_en": "It is the most modern machine.",
+      "exemplo_pt": "É a máquina mais moderna."
+    },
+    {
+      "id": "the-least",
+      "en": "the least + adj",
+      "pt": "o menos …",
+      "emoji": "🔻",
+      "exemplo_en": "This is the least expensive model.",
+      "exemplo_pt": "Este é o modelo menos caro."
+    },
+    {
+      "id": "in-the-world",
+      "en": "in the world",
+      "pt": "do mundo",
+      "emoji": "🌍",
+      "exemplo_en": "It is the longest river in the world.",
+      "exemplo_pt": "É o rio mais longo do mundo."
+    },
+    {
+      "id": "ever",
+      "en": "ever",
+      "pt": "já (na vida)",
+      "emoji": "🕰️",
+      "exemplo_en": "It's the best pizza I've ever eaten.",
+      "exemplo_pt": "É a melhor pizza que já comi."
+    },
+    {
+      "id": "popular",
+      "en": "popular",
+      "pt": "popular / procurado",
+      "emoji": "🔥",
+      "exemplo_en": "This is our most popular product.",
+      "exemplo_pt": "Este é nosso produto mais procurado."
+    },
+    {
+      "id": "famous",
+      "en": "famous",
+      "pt": "famoso",
+      "emoji": "🌟",
+      "exemplo_en": "It is the most famous beach in Rio.",
+      "exemplo_pt": "É a praia mais famosa do Rio."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Superlativos",
+    "explicacao_pt": "Para dizer 'o mais' de um grupo: adjetivos curtos → THE + adjetivo + -EST (the cheapest, the biggest, the easiest). Adjetivos longos → THE MOST + adjetivo (the most expensive). O contrário → THE LEAST (the least expensive). Irregulares: good → the best, bad → the worst. Depois do superlativo, use IN para lugares e grupos (the best in the team, the biggest in Brazil) e OF para períodos (the best day of my life).",
+    "tabela": {
+      "colunas": [
+        "Adjetivo",
+        "Comparativo",
+        "Superlativo"
+      ],
+      "linhas": [
+        [
+          "cheap",
+          "cheaper",
+          "the cheapest"
+        ],
+        [
+          "big",
+          "bigger",
+          "the biggest"
+        ],
+        [
+          "easy",
+          "easier",
+          "the easiest"
+        ],
+        [
+          "expensive",
+          "more expensive",
+          "the most expensive"
+        ],
+        [
+          "good",
+          "better",
+          "the best"
+        ],
+        [
+          "bad",
+          "worse",
+          "the worst"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "This is the biggest order of the year.",
+        "pt": "Este é o maior pedido do ano."
+      },
+      {
+        "en": "Marcos is the most experienced technician in the plant.",
+        "pt": "Marcos é o técnico mais experiente da fábrica."
+      },
+      {
+        "en": "Which is the cheapest option?",
+        "pt": "Qual é a opção mais barata?"
+      },
+      {
+        "en": "That was the worst traffic I've ever seen!",
+        "pt": "Aquele foi o pior trânsito que já vi!"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Employee of the month",
+    "falas": [
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "This month, the employee of the month is Joana!",
+        "pt": "Este mês, a funcionária do mês é a Joana!"
+      },
+      {
+        "personagem": "HR",
+        "voz": "a",
+        "en": "She is the fastest operator on line two and she made the fewest mistakes.",
+        "pt": "Ela é a operadora mais rápida da linha dois e cometeu menos erros."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Congratulations, Joana! You're the best!",
+        "pt": "Parabéns, Joana! Você é a melhor!"
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "Thank you! But this was the most difficult month of the year.",
+        "pt": "Obrigada! Mas este foi o mês mais difícil do ano."
+      },
+      {
+        "personagem": "Leo",
+        "voz": "b",
+        "en": "Why?",
+        "pt": "Por quê?"
+      },
+      {
+        "personagem": "Joana",
+        "voz": "a",
+        "en": "We had the biggest order in the company's history!",
+        "pt": "Tivemos o maior pedido da história da empresa!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "a2u06l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Who is the employee of the month?",
+        "opcoes": [
+          "Leo",
+          "Joana",
+          "The HR manager"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "a2u06l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Why did she win?",
+        "opcoes": [
+          "She is the fastest operator and made the fewest mistakes.",
+          "She worked the most hours.",
+          "She is the oldest employee."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "a2u06l3-e3",
+        "tipo": "multipla",
+        "enunciado": "Why was it a difficult month?",
+        "opcoes": [
+          "They had the biggest order in history.",
+          "A machine broke.",
+          "Many people were sick."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "a2u06l3-p1",
+      "tipo": "completar",
+      "frase": "This is the ___ option. (cheap)",
+      "respostas": [
+        "cheapest"
+      ]
+    },
+    {
+      "id": "a2u06l3-p2",
+      "tipo": "completar",
+      "frase": "It is the ___ modern machine.",
+      "respostas": [
+        "most"
+      ]
+    },
+    {
+      "id": "a2u06l3-p3",
+      "tipo": "completar",
+      "frase": "She is the ___ operator on the team. (good)",
+      "respostas": [
+        "best"
+      ]
+    },
+    {
+      "id": "a2u06l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "the most big",
+        "the biggest",
+        "the bigest"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"O pior dia da minha vida\":",
+      "opcoes": [
+        "the worse day of my life",
+        "the worst day of my life",
+        "the baddest day in my life"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "a2u06l3-p6",
+      "tipo": "ordenar",
+      "frase": "This is our most popular product",
+      "traducao_pt": "Este é nosso produto mais procurado"
+    },
+    {
+      "id": "a2u06l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It is the biggest factory in the region."
+    },
+    {
+      "id": "a2u06l3-p8",
+      "tipo": "traduzir",
+      "pt": "Este é o modelo menos caro.",
+      "respostas": [
+        "This is the least expensive model."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Fale do \"melhor\" e do \"pior\" da sua cidade, do seu trabalho e da sua vida (o melhor restaurante, o pior trânsito, o dia mais feliz…).",
+    "papel_professor": "Faça perguntas de superlativo sobre a cidade, o trabalho e a vida do aluno. Peça para ele justificar (Why?). Corrija superlativos.",
+    "abertura": "Tell me about your city. What's the most beautiful place there?",
+    "abertura_pt": "Me fale da sua cidade. Qual é o lugar mais bonito de lá?"
+  },
+  "teste": [
+    {
+      "id": "a2u06l3-t1",
+      "tipo": "completar",
+      "frase": "That was the ___ day of my life. (bad)",
+      "respostas": [
+        "worst"
+      ]
+    },
+    {
+      "id": "a2u06l3-t2",
+      "tipo": "multipla",
+      "enunciado": "\"A praia mais famosa\":",
+      "opcoes": [
+        "the most famous beach",
+        "the famousest beach",
+        "the more famous beach"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "a2u06l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "This is the cheapest option."
+    },
+    {
+      "id": "a2u06l3-t4",
+      "tipo": "traduzir",
+      "pt": "Ela é a melhor operadora da equipe.",
+      "respostas": [
+        "She is the best operator on the team.",
+        "She's the best operator on the team.",
+        "She is the best operator in the team."
+      ]
+    },
+    {
+      "id": "a2u06l3-t5",
+      "tipo": "ordenar",
+      "frase": "It is the most modern machine",
+      "traducao_pt": "É a máquina mais moderna"
+    }
+  ]
+}

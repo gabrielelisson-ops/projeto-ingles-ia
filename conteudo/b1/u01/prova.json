@@ -1,0 +1,257 @@
+{
+  "id": "b1-u01-prova",
+  "nivel": "B1",
+  "unidade": 1,
+  "titulo": "Prova da Unidade 1 (B1) — Experiences",
+  "leitura": {
+    "texto": "MEET OUR NEW PLANT MANAGER\nThis month we welcome Helena Prado as our new plant manager. Helena has worked in manufacturing for nineteen years. She started her career as a lab technician at a chemical company in Campinas, and in 2012 she moved to the automotive industry.\nShe has worked in three countries: Brazil, Mexico and Germany. 'Living in Germany was the most difficult experience I've ever had, because of the language and the cold,' she says, 'but it was also the best. I learned how to plan production in a very organized way.'\nIn her last job, Helena was in charge of a plant with 900 employees. During her four years there, the team reduced energy costs by 18% and improved delivery times.\nHelena has never worked in the food industry before, so this is a new challenge for her. 'It's the first time I've managed a food plant, and I'm very excited,' she says. 'I've already met many of you, and I've been impressed by your energy.'\nIn her free time, Helena runs. She has run four marathons. The first one was in Berlin in 2016.",
+    "perguntas": [
+      {
+        "id": "b1u01pv-l1",
+        "tipo": "multipla",
+        "enunciado": "How long has Helena worked in manufacturing?",
+        "opcoes": [
+          "Twelve years",
+          "Nineteen years",
+          "Four years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What was her first job?",
+        "opcoes": [
+          "Plant manager",
+          "Lab technician",
+          "Engineer"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-l3",
+        "tipo": "multipla",
+        "enunciado": "When did she move to the automotive industry?",
+        "opcoes": [
+          "In 2012",
+          "In 2016",
+          "Four years ago"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01pv-l4",
+        "tipo": "multipla",
+        "enunciado": "How many countries has she worked in?",
+        "opcoes": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why was Germany difficult?",
+        "opcoes": [
+          "The language and the cold",
+          "The food",
+          "The salary"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01pv-l6",
+        "tipo": "multipla",
+        "enunciado": "By how much did her last team reduce energy costs?",
+        "opcoes": [
+          "8%",
+          "18%",
+          "80%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-l7",
+        "tipo": "multipla",
+        "enunciado": "Has she worked in the food industry before?",
+        "opcoes": [
+          "Yes, many times.",
+          "No, it's the first time."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Where was her first marathon?",
+        "opcoes": [
+          "In São Paulo",
+          "In Berlin",
+          "In Mexico City"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Rafael",
+        "voz": "a",
+        "en": "Hi, Juliana! I haven't seen you for ages. Where have you been?",
+        "pt": "Oi, Juliana! Faz tempo que não te vejo. Por onde você andou?"
+      },
+      {
+        "personagem": "Juliana",
+        "voz": "b",
+        "en": "I've been in Chile! The company sent me there for three months.",
+        "pt": "Estive no Chile! A empresa me mandou para lá por três meses."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "a",
+        "en": "Wow! Was it the first time you've worked abroad?",
+        "pt": "Nossa! Foi a primeira vez que você trabalhou no exterior?"
+      },
+      {
+        "personagem": "Juliana",
+        "voz": "b",
+        "en": "Yes, it was. I helped to start a new production line in Santiago.",
+        "pt": "Sim. Ajudei a iniciar uma nova linha de produção em Santiago."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "a",
+        "en": "Have you ever been to the Andes?",
+        "pt": "Você já foi aos Andes?"
+      },
+      {
+        "personagem": "Juliana",
+        "voz": "b",
+        "en": "Yes! I went skiing twice. It was the most beautiful place I've ever seen.",
+        "pt": "Sim! Fui esquiar duas vezes. Foi o lugar mais bonito que já vi."
+      },
+      {
+        "personagem": "Rafael",
+        "voz": "a",
+        "en": "I've never seen snow. And where's Marcelo? Is he back too?",
+        "pt": "Nunca vi neve. E o Marcelo? Ele também voltou?"
+      },
+      {
+        "personagem": "Juliana",
+        "voz": "b",
+        "en": "No, he's gone to Peru now. He'll stay there until December.",
+        "pt": "Não, ele foi para o Peru agora. Vai ficar lá até dezembro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u01pv-e1",
+        "tipo": "multipla",
+        "enunciado": "Where has Juliana been?",
+        "opcoes": [
+          "In Peru",
+          "In Chile",
+          "In Argentina"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-e2",
+        "tipo": "multipla",
+        "enunciado": "How long was she there?",
+        "opcoes": [
+          "Three weeks",
+          "Three months",
+          "One year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What did she help to do?",
+        "opcoes": [
+          "Start a new production line",
+          "Open an office",
+          "Sell machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u01pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How many times did she go skiing?",
+        "opcoes": [
+          "Once",
+          "Twice",
+          "Never"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-e5",
+        "tipo": "multipla",
+        "enunciado": "Has Rafael ever seen snow?",
+        "opcoes": [
+          "Yes, he has.",
+          "No, he hasn't."
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u01pv-e6",
+        "tipo": "multipla",
+        "enunciado": "Where is Marcelo now?",
+        "opcoes": [
+          "In Chile",
+          "In Brazil",
+          "In Peru"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b1u01pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "Where have you been?"
+      },
+      {
+        "id": "b1u01pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "It was the most beautiful place I've ever seen.",
+        "aceitas": [
+          "It was the most beautiful place I have ever seen."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b1u01pv-w1",
+      "instrucao_pt": "Escreva sobre 3 experiências marcantes da sua vida: use o present perfect para cada experiência e o passado simples para os detalhes.",
+      "min_frases": 4,
+      "max_frases": 6
+    },
+    {
+      "id": "b1u01pv-w2",
+      "instrucao_pt": "Escreva um pequeno resumo da sua carreira (empregos, responsabilidades e uma conquista).",
+      "min_frases": 4,
+      "max_frases": 6
+    }
+  ],
+  "fala": [
+    {
+      "id": "b1u01pv-s1",
+      "pergunta_en": "What's the most interesting thing you've ever done?",
+      "instrucao_pt": "Fale em voz alta: a experiência (present perfect) e os detalhes (passado)."
+    },
+    {
+      "id": "b1u01pv-s2",
+      "pergunta_en": "Tell me about your career so far.",
+      "instrucao_pt": "Fale em voz alta da sua trajetória e de uma conquista."
+    }
+  ],
+  "foco_avaliacao": "Nível B1. Present perfect para experiências (ever/never, been/gone, how many times, the first time), contraste com passado simples (quando aconteceu), falar de carreira e conquistas (responsible for, improve by), superlativo + I've ever."
+}

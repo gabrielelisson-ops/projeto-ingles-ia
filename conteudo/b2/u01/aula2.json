@@ -1,0 +1,355 @@
+{
+  "id": "b2-u01-l2",
+  "nivel": "B2",
+  "unidade": 1,
+  "numero": 2,
+  "titulo": "I wish I had…",
+  "objetivo_pt": "Expressar arrependimentos com wish / if only + past perfect e should have.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar se você se arrepende de algo. Use \"I wish I had…\" e \"I should have…\".",
+    "papel_professor": "Pergunte sobre arrependimentos leves (Is there anything you wish you had done differently? Something you should have said?). Ensine wish + past perfect, should have, shouldn't have.",
+    "abertura": "Is there anything you wish you had done differently in your life?",
+    "abertura_pt": "Há algo que você gostaria de ter feito diferente na vida?"
+  },
+  "vocabulario": [
+    {
+      "id": "wish-had",
+      "en": "I wish I had + particípio",
+      "pt": "Queria ter (feito)",
+      "emoji": "😔",
+      "exemplo_en": "I wish I had studied English earlier.",
+      "exemplo_pt": "Queria ter estudado inglês antes."
+    },
+    {
+      "id": "if-only-had",
+      "en": "If only I had…",
+      "pt": "Se ao menos eu tivesse…",
+      "emoji": "🙏",
+      "exemplo_en": "If only I had listened to you!",
+      "exemplo_pt": "Se ao menos eu tivesse te ouvido!"
+    },
+    {
+      "id": "should-have",
+      "en": "should have",
+      "pt": "deveria ter",
+      "emoji": "👉",
+      "exemplo_en": "I should have asked for help.",
+      "exemplo_pt": "Eu deveria ter pedido ajuda."
+    },
+    {
+      "id": "shouldnt-have",
+      "en": "shouldn't have",
+      "pt": "não deveria ter",
+      "emoji": "🚫",
+      "exemplo_en": "You shouldn't have signed it.",
+      "exemplo_pt": "Você não deveria ter assinado."
+    },
+    {
+      "id": "regret-ing",
+      "en": "regret + -ing",
+      "pt": "arrepender-se de",
+      "emoji": "😞",
+      "exemplo_en": "I regret not finishing my degree.",
+      "exemplo_pt": "Me arrependo de não ter terminado a faculdade."
+    },
+    {
+      "id": "take-advantage",
+      "en": "take advantage of",
+      "pt": "aproveitar",
+      "emoji": "🎯",
+      "exemplo_en": "I should have taken advantage of the course.",
+      "exemplo_pt": "Eu deveria ter aproveitado o curso."
+    },
+    {
+      "id": "waste-time",
+      "en": "waste (time / money)",
+      "pt": "desperdiçar",
+      "emoji": "🕳️",
+      "exemplo_en": "I wasted a lot of time.",
+      "exemplo_pt": "Desperdicei muito tempo."
+    },
+    {
+      "id": "lesson",
+      "en": "learn a lesson",
+      "pt": "aprender uma lição",
+      "emoji": "📘",
+      "exemplo_en": "I learned my lesson.",
+      "exemplo_pt": "Aprendi a lição."
+    },
+    {
+      "id": "too-late",
+      "en": "it's too late",
+      "pt": "é tarde demais",
+      "emoji": "⌛",
+      "exemplo_en": "It's never too late to learn.",
+      "exemplo_pt": "Nunca é tarde para aprender."
+    },
+    {
+      "id": "look-back",
+      "en": "look back on",
+      "pt": "relembrar / olhar para trás",
+      "emoji": "🔙",
+      "exemplo_en": "When I look back on it, I laugh.",
+      "exemplo_pt": "Quando relembro, dou risada."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Arrependimentos",
+    "explicacao_pt": "WISH / IF ONLY + PAST PERFECT = arrependimento sobre o passado: I wish I had studied more (não estudei). If only I hadn't said that! SHOULD HAVE + particípio = crítica/arrependimento (deveria ter): I should have checked. You shouldn't have shouted. REGRET + -ING: I regret not learning English. Compare com o presente: I wish I spoke English (agora) × I wish I had learned English as a child (no passado).",
+    "tabela": {
+      "colunas": [
+        "Tempo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Presente (desejo)",
+          "wish + passado",
+          "I wish I had more time."
+        ],
+        [
+          "Passado (arrependimento)",
+          "wish + past perfect",
+          "I wish I had taken that job."
+        ],
+        [
+          "Passado (crítica)",
+          "should have + particípio",
+          "I should have saved money."
+        ],
+        [
+          "Passado (negativo)",
+          "shouldn't have + particípio",
+          "I shouldn't have eaten so much."
+        ],
+        [
+          "Arrependimento",
+          "regret + -ing",
+          "I regret selling my car."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I wish I had started learning English when I was younger.",
+        "pt": "Queria ter começado a aprender inglês quando era mais jovem."
+      },
+      {
+        "en": "If only we had checked the contract before signing it!",
+        "pt": "Se ao menos tivéssemos conferido o contrato antes de assinar!"
+      },
+      {
+        "en": "You should have told me about the problem earlier.",
+        "pt": "Você deveria ter me falado do problema antes."
+      },
+      {
+        "en": "I don't regret leaving that company. It was the right decision.",
+        "pt": "Não me arrependo de ter saído daquela empresa. Foi a decisão certa."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Looking back",
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "You've been in the industry for thirty years. Do you have any regrets?",
+        "pt": "Você está na indústria há trinta anos. Tem algum arrependimento?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "A few. I wish I had learned English earlier. I missed some international projects because of that.",
+        "pt": "Alguns. Queria ter aprendido inglês antes. Perdi alguns projetos internacionais por causa disso."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Anything else?",
+        "pt": "Mais alguma coisa?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "I should have spent more time with my kids when they were small. I worked too many weekends.",
+        "pt": "Eu deveria ter passado mais tempo com meus filhos quando eram pequenos. Trabalhei fins de semana demais."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "And what don't you regret?",
+        "pt": "E do que você não se arrepende?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "I don't regret changing to the safety area. If only I had done it ten years earlier!",
+        "pt": "Não me arrependo de mudar para a área de segurança. Se ao menos tivesse feito isso dez anos antes!"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u01l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How long has the engineer been in the industry?",
+        "opcoes": [
+          "Twenty years",
+          "Thirty years",
+          "Forty years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u01l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Why did he miss international projects?",
+        "opcoes": [
+          "His English",
+          "His health",
+          "His family"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What should he have done?",
+        "opcoes": [
+          "Spent more time with his kids",
+          "Worked more",
+          "Changed companies"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u01l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What doesn't he regret?",
+        "opcoes": [
+          "Changing to the safety area",
+          "Learning English",
+          "Working weekends"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u01l2-p1",
+      "tipo": "completar",
+      "frase": "I wish I ___ studied English earlier.",
+      "respostas": [
+        "had"
+      ]
+    },
+    {
+      "id": "b2u01l2-p2",
+      "tipo": "completar",
+      "frase": "I should ___ asked for help.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u01l2-p3",
+      "tipo": "completar",
+      "frase": "I regret not ___ my degree. (terminar)",
+      "respostas": [
+        "finishing"
+      ]
+    },
+    {
+      "id": "b2u01l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Arrependimento no passado:",
+      "opcoes": [
+        "I wish I took that job.",
+        "I wish I had taken that job.",
+        "I wish I would take that job."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u01l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Você não deveria ter assinado\":",
+      "opcoes": [
+        "You shouldn't have signed it.",
+        "You shouldn't signed it.",
+        "You don't should have sign it."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l2-p6",
+      "tipo": "ordenar",
+      "frase": "It's never too late to learn",
+      "traducao_pt": "Nunca é tarde para aprender"
+    },
+    {
+      "id": "b2u01l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "If only I had listened to you!"
+    },
+    {
+      "id": "b2u01l2-p8",
+      "tipo": "traduzir",
+      "pt": "Aprendi a lição.",
+      "respostas": [
+        "I learned my lesson.",
+        "I learnt my lesson.",
+        "I've learned my lesson."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Converse com o professor sobre 2 arrependimentos (pequenos ou grandes) e 1 decisão de que você NÃO se arrepende. Explique as lições aprendidas.",
+    "papel_professor": "Ouça com empatia. Peça detalhes e lições (What did you learn? What would you do differently?). Corrija wish + past perfect, should have, regret + -ing.",
+    "abertura": "Everyone has some regrets. Would you like to share one with me?",
+    "abertura_pt": "Todo mundo tem alguns arrependimentos. Gostaria de compartilhar um comigo?"
+  },
+  "teste": [
+    {
+      "id": "b2u01l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Eu deveria ter economizado\":",
+      "opcoes": [
+        "I should have saved money.",
+        "I should save money yesterday.",
+        "I should had saved money."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u01l2-t2",
+      "tipo": "completar",
+      "frase": "If ___ we had checked the contract! (ao menos)",
+      "respostas": [
+        "only"
+      ]
+    },
+    {
+      "id": "b2u01l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I wasted a lot of time."
+    },
+    {
+      "id": "b2u01l2-t4",
+      "tipo": "traduzir",
+      "pt": "Eu deveria ter aproveitado o curso.",
+      "respostas": [
+        "I should have taken advantage of the course.",
+        "I should've taken advantage of the course."
+      ]
+    },
+    {
+      "id": "b2u01l2-t5",
+      "tipo": "ordenar",
+      "frase": "When I look back on it I laugh",
+      "traducao_pt": "Quando relembro, dou risada"
+    }
+  ]
+}

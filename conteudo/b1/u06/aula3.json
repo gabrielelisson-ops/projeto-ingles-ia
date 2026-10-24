@@ -1,0 +1,351 @@
+{
+  "id": "b1-u06-l3",
+  "nivel": "B1",
+  "unidade": 6,
+  "numero": 3,
+  "titulo": "It was founded in 1950",
+  "objetivo_pt": "Usar a passiva no passado (was/were + particípio) para contar a história de empresas e produtos.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre a história da sua empresa ou da sua cidade: quando foi fundada, construída, comprada.",
+    "papel_professor": "Pergunte a história da empresa/cidade (When was it founded? Who was it founded by? When was the plant built?). Ensine was/were + particípio. Corrija 'was found' × 'was founded'.",
+    "abertura": "When was your company founded?",
+    "abertura_pt": "Quando sua empresa foi fundada?"
+  },
+  "vocabulario": [
+    {
+      "id": "founded",
+      "en": "be founded",
+      "pt": "ser fundado",
+      "emoji": "🏛️",
+      "exemplo_en": "The company was founded in 1950.",
+      "exemplo_pt": "A empresa foi fundada em 1950."
+    },
+    {
+      "id": "built",
+      "en": "be built",
+      "pt": "ser construído",
+      "emoji": "🏗️",
+      "exemplo_en": "The plant was built in the 1980s.",
+      "exemplo_pt": "A fábrica foi construída nos anos 80."
+    },
+    {
+      "id": "bought",
+      "en": "be bought / acquired",
+      "pt": "ser comprado / adquirido",
+      "emoji": "🤝",
+      "exemplo_en": "The company was bought by a German group.",
+      "exemplo_pt": "A empresa foi comprada por um grupo alemão."
+    },
+    {
+      "id": "invented",
+      "en": "be invented",
+      "pt": "ser inventado",
+      "emoji": "💡",
+      "exemplo_en": "The telephone was invented in 1876.",
+      "exemplo_pt": "O telefone foi inventado em 1876."
+    },
+    {
+      "id": "launched",
+      "en": "be launched",
+      "pt": "ser lançado",
+      "emoji": "🚀",
+      "exemplo_en": "The new model was launched last year.",
+      "exemplo_pt": "O novo modelo foi lançado ano passado."
+    },
+    {
+      "id": "closed",
+      "en": "be closed / opened",
+      "pt": "ser fechado / inaugurado",
+      "emoji": "🚪",
+      "exemplo_en": "The old factory was closed in 2010.",
+      "exemplo_pt": "A fábrica antiga foi fechada em 2010."
+    },
+    {
+      "id": "renamed",
+      "en": "be renamed",
+      "pt": "ser rebatizado",
+      "emoji": "🏷️",
+      "exemplo_en": "The company was renamed in 2001.",
+      "exemplo_pt": "A empresa foi rebatizada em 2001."
+    },
+    {
+      "id": "destroyed",
+      "en": "be destroyed / damaged",
+      "pt": "ser destruído / danificado",
+      "emoji": "🔥",
+      "exemplo_en": "Part of the warehouse was damaged by a fire.",
+      "exemplo_pt": "Parte do armazém foi danificada por um incêndio."
+    },
+    {
+      "id": "decade",
+      "en": "decade / century",
+      "pt": "década / século",
+      "emoji": "📆",
+      "exemplo_en": "In the last decade, we have grown a lot.",
+      "exemplo_pt": "Na última década, crescemos muito."
+    },
+    {
+      "id": "headquarters",
+      "en": "headquarters",
+      "pt": "sede",
+      "emoji": "🏢",
+      "exemplo_en": "Our headquarters is in Porto Alegre.",
+      "exemplo_pt": "Nossa sede fica em Porto Alegre."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Voz passiva no passado",
+    "explicacao_pt": "Formação: WAS/WERE + PARTICÍPIO. The company was founded in 1950. The machines were bought in Italy. Use para história e fatos passados quando o foco é o objeto/evento: The plant was built in 1985. Com BY para quem fez: It was founded by two brothers. Negativa: wasn't/weren't + particípio. Pergunta: When was it built? Where were they made? Atenção: found (fundar) é regular → founded; find (achar) → found.",
+    "tabela": {
+      "colunas": [
+        "Ativa (passado)",
+        "Passiva (passado)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Two brothers founded the company.",
+          "The company was founded by two brothers.",
+          "A empresa foi fundada por dois irmãos."
+        ],
+        [
+          "They built the plant in 1985.",
+          "The plant was built in 1985.",
+          "A fábrica foi construída em 1985."
+        ],
+        [
+          "A group bought it.",
+          "It was bought by a group.",
+          "Foi comprada por um grupo."
+        ],
+        [
+          "They didn't close it.",
+          "It wasn't closed.",
+          "Não foi fechada."
+        ],
+        [
+          "When did they launch it?",
+          "When was it launched?",
+          "Quando foi lançado?"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Our company was founded in 1962 by an Italian immigrant.",
+        "pt": "Nossa empresa foi fundada em 1962 por um imigrante italiano."
+      },
+      {
+        "en": "The first factory was built in Caxias do Sul.",
+        "pt": "A primeira fábrica foi construída em Caxias do Sul."
+      },
+      {
+        "en": "In 2005, the company was bought by an American group.",
+        "pt": "Em 2005, a empresa foi comprada por um grupo americano."
+      },
+      {
+        "en": "Fifty new machines were installed last year.",
+        "pt": "Cinquenta máquinas novas foram instaladas ano passado."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Our history",
+    "falas": [
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "Ferraz Tools was founded in 1958 by Antônio Ferraz, in a small garage in Joinville.",
+        "pt": "A Ferraz Ferramentas foi fundada em 1958 por Antônio Ferraz, numa pequena garagem em Joinville."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "The first products were made by hand: hammers and screwdrivers.",
+        "pt": "Os primeiros produtos eram feitos à mão: martelos e chaves de fenda."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "In 1975, a modern factory was built, and the first machines were imported from Germany.",
+        "pt": "Em 1975, uma fábrica moderna foi construída, e as primeiras máquinas foram importadas da Alemanha."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "In 1998, part of the factory was destroyed by a fire, but it was rebuilt in only eight months.",
+        "pt": "Em 1998, parte da fábrica foi destruída por um incêndio, mas foi reconstruída em só oito meses."
+      },
+      {
+        "personagem": "Narrator",
+        "voz": "a",
+        "en": "In 2012, the company was bought by a Swedish group, and today its tools are sold in 40 countries.",
+        "pt": "Em 2012, a empresa foi comprada por um grupo sueco, e hoje suas ferramentas são vendidas em 40 países."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u06l3-e1",
+        "tipo": "multipla",
+        "enunciado": "When was the company founded?",
+        "opcoes": [
+          "1958",
+          "1975",
+          "1998"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Where were the first machines imported from?",
+        "opcoes": [
+          "Italy",
+          "Germany",
+          "Sweden"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u06l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What happened in 1998?",
+        "opcoes": [
+          "A fire destroyed part of the factory.",
+          "The company was sold.",
+          "A new factory was built."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u06l3-e4",
+        "tipo": "multipla",
+        "enunciado": "Who bought the company in 2012?",
+        "opcoes": [
+          "A German group",
+          "A Swedish group",
+          "An American group"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u06l3-p1",
+      "tipo": "completar",
+      "frase": "The company was ___ in 1950. (fundada)",
+      "respostas": [
+        "founded"
+      ]
+    },
+    {
+      "id": "b1u06l3-p2",
+      "tipo": "completar",
+      "frase": "The machines ___ bought in Italy.",
+      "respostas": [
+        "were"
+      ]
+    },
+    {
+      "id": "b1u06l3-p3",
+      "tipo": "completar",
+      "frase": "It was founded ___ two brothers.",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b1u06l3-p4",
+      "tipo": "multipla",
+      "enunciado": "\"Quando foi construída?\":",
+      "opcoes": [
+        "When was it built?",
+        "When it was built?",
+        "When did it built?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u06l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Fundar\" no passado:",
+      "opcoes": [
+        "found",
+        "founded",
+        "funded"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u06l3-p6",
+      "tipo": "ordenar",
+      "frase": "The new model was launched last year",
+      "traducao_pt": "O novo modelo foi lançado ano passado"
+    },
+    {
+      "id": "b1u06l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The old factory was closed in 2010."
+    },
+    {
+      "id": "b1u06l3-p8",
+      "tipo": "traduzir",
+      "pt": "A empresa foi comprada por um grupo alemão.",
+      "respostas": [
+        "The company was bought by a German group.",
+        "The company was acquired by a German group."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Conte ao professor a história da sua empresa, da sua cidade ou de um produto famoso, usando a passiva no passado (was founded, was built, was bought…).",
+    "papel_professor": "Peça a história e faça perguntas (When was it founded? Who by? When was … built? Was it ever sold?). Corrija was/were e particípios.",
+    "abertura": "Every company has a story. What's the story of your company or your city?",
+    "abertura_pt": "Toda empresa tem uma história. Qual é a história da sua empresa ou da sua cidade?"
+  },
+  "teste": [
+    {
+      "id": "b1u06l3-t1",
+      "tipo": "multipla",
+      "enunciado": "Complete: \"Fifty machines ___ installed last year.\"",
+      "opcoes": [
+        "was",
+        "were",
+        "are"
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b1u06l3-t2",
+      "tipo": "completar",
+      "frase": "The telephone was ___ in 1876. (inventado)",
+      "respostas": [
+        "invented"
+      ]
+    },
+    {
+      "id": "b1u06l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The plant was built in the 1980s.",
+      "aceitas": [
+        "The plant was built in the eighties."
+      ]
+    },
+    {
+      "id": "b1u06l3-t4",
+      "tipo": "traduzir",
+      "pt": "Nossa sede fica em Porto Alegre.",
+      "respostas": [
+        "Our headquarters is in Porto Alegre.",
+        "Our headquarters are in Porto Alegre."
+      ]
+    },
+    {
+      "id": "b1u06l3-t5",
+      "tipo": "ordenar",
+      "frase": "Part of the warehouse was damaged by a fire",
+      "traducao_pt": "Parte do armazém foi danificada por um incêndio"
+    }
+  ]
+}

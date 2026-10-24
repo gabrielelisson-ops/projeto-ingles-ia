@@ -1,0 +1,363 @@
+{
+  "id": "b2-u06-l4",
+  "nivel": "B2",
+  "unidade": 6,
+  "numero": 4,
+  "titulo": "Closing the deal",
+  "objetivo_pt": "Resumir e confirmar os termos de um acordo e combinar os próximos passos.",
+  "aquecimento": {
+    "situacao_pt": "Vocês chegaram a um acordo. Resuma com o professor todos os termos (preço, volume, prazo, pagamento) e confirme os próximos passos.",
+    "papel_professor": "Liste termos acordados de forma solta. O aluno resume e confirma (So, just to confirm… / Let me make sure I've got this right…). Ensine linguagem de fechamento e follow-up por e-mail.",
+    "abertura": "Great, I think we've agreed on everything. Could you go over the main points?",
+    "abertura_pt": "Ótimo, acho que concordamos em tudo. Poderia repassar os pontos principais?"
+  },
+  "vocabulario": [
+    {
+      "id": "just-confirm",
+      "en": "Just to confirm…",
+      "pt": "Só para confirmar…",
+      "emoji": "✅",
+      "exemplo_en": "Just to confirm, the price is 19 dollars.",
+      "exemplo_pt": "Só para confirmar, o preço é 19 dólares."
+    },
+    {
+      "id": "got-right",
+      "en": "Let me make sure I've got this right",
+      "pt": "Deixe-me ver se entendi bem",
+      "emoji": "🧐",
+      "exemplo_en": "Let me make sure I've got this right.",
+      "exemplo_pt": "Deixe-me ver se entendi bem."
+    },
+    {
+      "id": "agreed-l4b",
+      "en": "So, we've agreed on…",
+      "pt": "Então, concordamos em…",
+      "emoji": "🤝",
+      "exemplo_en": "So, we've agreed on a two-year contract.",
+      "exemplo_pt": "Então, concordamos num contrato de dois anos."
+    },
+    {
+      "id": "in-writing",
+      "en": "put it in writing",
+      "pt": "colocar por escrito",
+      "emoji": "✍️",
+      "exemplo_en": "Could you put that in writing?",
+      "exemplo_pt": "Poderia colocar isso por escrito?"
+    },
+    {
+      "id": "draft",
+      "en": "draft (a contract)",
+      "pt": "minuta / redigir (contrato)",
+      "emoji": "📝",
+      "exemplo_en": "We'll send you a draft contract.",
+      "exemplo_pt": "Vamos mandar uma minuta do contrato."
+    },
+    {
+      "id": "sign-l4",
+      "en": "sign / signature",
+      "pt": "assinar / assinatura",
+      "emoji": "🖊️",
+      "exemplo_en": "Once both sides sign, the contract starts.",
+      "exemplo_pt": "Assim que os dois lados assinarem, o contrato começa."
+    },
+    {
+      "id": "valid",
+      "en": "valid until",
+      "pt": "válido até",
+      "emoji": "📅",
+      "exemplo_en": "This offer is valid until 30 June.",
+      "exemplo_pt": "Esta oferta é válida até 30 de junho."
+    },
+    {
+      "id": "penalty-l4",
+      "en": "penalty clause",
+      "pt": "cláusula de multa",
+      "emoji": "⚠️",
+      "exemplo_en": "There's a penalty clause for late delivery.",
+      "exemplo_pt": "Há uma cláusula de multa por atraso."
+    },
+    {
+      "id": "pleasure",
+      "en": "It's been a pleasure doing business",
+      "pt": "Foi um prazer fazer negócio",
+      "emoji": "🙌",
+      "exemplo_en": "It's been a pleasure doing business with you.",
+      "exemplo_pt": "Foi um prazer fazer negócio com vocês."
+    },
+    {
+      "id": "look-forward-l4",
+      "en": "We look forward to working with you",
+      "pt": "Esperamos trabalhar com vocês",
+      "emoji": "🤝",
+      "exemplo_en": "We look forward to working with you.",
+      "exemplo_pt": "Esperamos trabalhar com vocês."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Fechando o acordo",
+    "explicacao_pt": "RESUMIR: So, just to confirm… / Let me make sure I've got this right. / So, we've agreed on/to… CONFIRMAR CADA TERMO: The price will be… / Delivery will be… / Payment will be made… (passiva no futuro). CONDIÇÕES: provided that / as long as / There's a penalty if… PRÓXIMOS PASSOS: We'll send you a draft contract by… / Could you put that in writing? / Once both sides have signed, … ENCERRAR: It's been a pleasure doing business with you. / We look forward to working with you.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Resumir",
+          "So, just to confirm, …",
+          "Então, só para confirmar, …"
+        ],
+        [
+          "Termo (passiva)",
+          "Payment will be made in 45 days.",
+          "O pagamento será feito em 45 dias."
+        ],
+        [
+          "Condição",
+          "There's a 2% penalty for each week of delay.",
+          "Há multa de 2% por semana de atraso."
+        ],
+        [
+          "Próximo passo",
+          "We'll send you a draft contract by Friday.",
+          "Mandamos uma minuta até sexta."
+        ],
+        [
+          "Encerrar",
+          "It's been a pleasure doing business.",
+          "Foi um prazer fazer negócio."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "So, just to confirm: 19 dollars per unit, 20,000 units a year, for two years.",
+        "pt": "Então, só para confirmar: 19 dólares por unidade, 20.000 unidades por ano, por dois anos."
+      },
+      {
+        "en": "Delivery will be made within six weeks of each order.",
+        "pt": "A entrega será feita em até seis semanas após cada pedido."
+      },
+      {
+        "en": "We'll send you a draft contract by Friday. Once both sides have signed, the new price will apply.",
+        "pt": "Mandamos uma minuta até sexta. Assim que os dois lados assinarem, o novo preço passa a valer."
+      },
+      {
+        "en": "It's been a pleasure doing business with you. We look forward to working together.",
+        "pt": "Foi um prazer fazer negócio com vocês. Esperamos trabalhar juntos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Confirming the terms",
+    "falas": [
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "So, just to confirm. The price will be 19 dollars per unit, fixed for two years.",
+        "pt": "Então, só para confirmar. O preço será 19 dólares por unidade, fixo por dois anos."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "That's right.",
+        "pt": "Isso mesmo."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "We'll order a minimum of 20,000 units a year, and delivery will be made within six weeks of each order.",
+        "pt": "Vamos pedir um mínimo de 20.000 unidades por ano, e a entrega será feita em até seis semanas após cada pedido."
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Correct. And you'll pay 20% in advance and the rest in 45 days.",
+        "pt": "Correto. E vocês pagam 20% adiantado e o resto em 45 dias."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Yes. And just to make sure: there's a penalty of 2% for each week of delay, right?",
+        "pt": "Sim. E só para garantir: há multa de 2% por semana de atraso, certo?"
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "Yes, that's in the agreement. We'll send you a draft contract by Friday.",
+        "pt": "Sim, está no acordo. Mandamos a minuta do contrato até sexta."
+      },
+      {
+        "personagem": "Buyer",
+        "voz": "a",
+        "en": "Perfect. It's been a pleasure doing business with you.",
+        "pt": "Perfeito. Foi um prazer fazer negócio com vocês."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u06l4-e1",
+        "tipo": "multipla",
+        "enunciado": "For how long is the price fixed?",
+        "opcoes": [
+          "One year",
+          "Two years",
+          "Three years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l4-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the minimum order per year?",
+        "opcoes": [
+          "10,000 units",
+          "20,000 units",
+          "50,000 units"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l4-e3",
+        "tipo": "multipla",
+        "enunciado": "When will they pay the rest?",
+        "opcoes": [
+          "In 30 days",
+          "In 45 days",
+          "In 60 days"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u06l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the penalty for delay?",
+        "opcoes": [
+          "1% per week",
+          "2% per week",
+          "5% per month"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u06l4-p1",
+      "tipo": "completar",
+      "frase": "Just to ___, the price is 19 dollars.",
+      "respostas": [
+        "confirm"
+      ]
+    },
+    {
+      "id": "b2u06l4-p2",
+      "tipo": "completar",
+      "frase": "Could you put that in ___? (por escrito)",
+      "respostas": [
+        "writing"
+      ]
+    },
+    {
+      "id": "b2u06l4-p3",
+      "tipo": "completar",
+      "frase": "This offer is ___ until 30 June. (válida)",
+      "respostas": [
+        "valid"
+      ]
+    },
+    {
+      "id": "b2u06l4-p4",
+      "tipo": "multipla",
+      "enunciado": "Termo na passiva:",
+      "opcoes": [
+        "Payment will be made in 45 days.",
+        "Payment will make in 45 days.",
+        "Payment is make in 45 days."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l4-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Deixe-me ver se entendi bem\":",
+      "opcoes": [
+        "Let me make sure I've got this right.",
+        "Let me make sure I have this correct right.",
+        "Let me see if I understood good."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l4-p6",
+      "tipo": "ordenar",
+      "frase": "We'll send you a draft contract",
+      "traducao_pt": "Vamos mandar uma minuta do contrato"
+    },
+    {
+      "id": "b2u06l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "There's a penalty clause for late delivery.",
+      "aceitas": [
+        "There is a penalty clause for late delivery."
+      ]
+    },
+    {
+      "id": "b2u06l4-p8",
+      "tipo": "traduzir",
+      "pt": "Foi um prazer fazer negócio com vocês.",
+      "respostas": [
+        "It's been a pleasure doing business with you.",
+        "It has been a pleasure doing business with you."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Feche um acordo com o professor: ele vai dizer os termos de forma um pouco confusa (com um erro de propósito). Resuma, confirme cada ponto, corrija o erro com educação e combine os próximos passos.",
+    "papel_professor": "Repasse termos com um erro intencional (wrong price or date). O aluno deve perceber e corrigir com diplomacia (Sorry, I think we agreed on…). Peça os próximos passos. Corrija.",
+    "abertura": "Excellent. So we've agreed on 21 reais per unit, payment in 30 days, delivery in eight weeks. Right?",
+    "abertura_pt": "Excelente. Então concordamos em 21 reais por unidade, pagamento em 30 dias, entrega em oito semanas. Certo?"
+  },
+  "teste": [
+    {
+      "id": "b2u06l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Corrigir com educação:",
+      "opcoes": [
+        "Sorry, I think we agreed on 19, not 21.",
+        "No! You're lying, it was 19."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u06l4-t2",
+      "tipo": "completar",
+      "frase": "Once both sides ___, the contract starts. (assinarem)",
+      "respostas": [
+        "sign"
+      ]
+    },
+    {
+      "id": "b2u06l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We look forward to working with you."
+    },
+    {
+      "id": "b2u06l4-t4",
+      "tipo": "traduzir",
+      "pt": "Então, concordamos num contrato de dois anos.",
+      "respostas": [
+        "So, we've agreed on a two-year contract.",
+        "So, we have agreed on a two-year contract.",
+        "So we agreed on a two-year contract."
+      ]
+    },
+    {
+      "id": "b2u06l4-t5",
+      "tipo": "ordenar",
+      "frase": "Delivery will be made within six weeks",
+      "traducao_pt": "A entrega será feita em até seis semanas"
+    }
+  ]
+}

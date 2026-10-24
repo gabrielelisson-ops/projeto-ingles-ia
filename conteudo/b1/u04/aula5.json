@@ -1,0 +1,355 @@
+{
+  "id": "b1-u04-l5",
+  "nivel": "B1",
+  "unidade": 4,
+  "numero": 5,
+  "titulo": "What should we do?",
+  "objetivo_pt": "Propor soluções e avaliar consequências numa reunião rápida de problema.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: diga ao professor um problema que você teve recentemente e o que vai acontecer se não resolver.",
+    "papel_professor": "Peça um problema recente e as consequências se não for resolvido. Ensine a propor soluções (Why don't we…? How about…ing? I suggest…ing).",
+    "abertura": "Tell me about a problem you need to solve. What will happen if you don't solve it?",
+    "abertura_pt": "Me fale de um problema que você precisa resolver. O que vai acontecer se não resolver?"
+  },
+  "vocabulario": [
+    {
+      "id": "why-dont-we",
+      "en": "Why don't we…?",
+      "pt": "Por que não…?",
+      "emoji": "💡",
+      "exemplo_en": "Why don't we call another supplier?",
+      "exemplo_pt": "Por que não ligamos para outro fornecedor?"
+    },
+    {
+      "id": "how-about",
+      "en": "How about + -ing?",
+      "pt": "Que tal…?",
+      "emoji": "🤔",
+      "exemplo_en": "How about working on Saturday?",
+      "exemplo_pt": "Que tal trabalhar no sábado?"
+    },
+    {
+      "id": "option",
+      "en": "option",
+      "pt": "opção",
+      "emoji": "🔀",
+      "exemplo_en": "We have two options.",
+      "exemplo_pt": "Temos duas opções."
+    },
+    {
+      "id": "advantage",
+      "en": "advantage / disadvantage",
+      "pt": "vantagem / desvantagem",
+      "emoji": "⚖️",
+      "exemplo_en": "The advantage is the price.",
+      "exemplo_pt": "A vantagem é o preço."
+    },
+    {
+      "id": "risk",
+      "en": "risk",
+      "pt": "risco",
+      "emoji": "🎲",
+      "exemplo_en": "The risk is too high.",
+      "exemplo_pt": "O risco é alto demais."
+    },
+    {
+      "id": "cost",
+      "en": "cost (cost, cost)",
+      "pt": "custar / custo",
+      "emoji": "💲",
+      "exemplo_en": "It'll cost about 5,000 reais.",
+      "exemplo_pt": "Vai custar uns 5.000 reais."
+    },
+    {
+      "id": "solution",
+      "en": "solution / temporary solution",
+      "pt": "solução / solução temporária",
+      "emoji": "🩹",
+      "exemplo_en": "It's only a temporary solution.",
+      "exemplo_pt": "É só uma solução temporária."
+    },
+    {
+      "id": "agree-l5",
+      "en": "I agree / I disagree",
+      "pt": "concordo / discordo",
+      "emoji": "👍",
+      "exemplo_en": "I agree with you.",
+      "exemplo_pt": "Concordo com você."
+    },
+    {
+      "id": "worth",
+      "en": "worth it",
+      "pt": "vale a pena",
+      "emoji": "💎",
+      "exemplo_en": "It's expensive, but it's worth it.",
+      "exemplo_pt": "É caro, mas vale a pena."
+    },
+    {
+      "id": "action-plan",
+      "en": "action plan",
+      "pt": "plano de ação",
+      "emoji": "📋",
+      "exemplo_en": "Let's write an action plan.",
+      "exemplo_pt": "Vamos escrever um plano de ação."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Propondo e avaliando soluções",
+    "explicacao_pt": "Propor: Why don't we + verbo? / How about + -ing? / I suggest + -ing / We could + verbo. Avaliar com first conditional: If we buy a new pump, it'll cost 20,000 but we won't have more stops. Condições: unless, as long as. Vantagens e riscos: The advantage is that… / The risk is that… Concluir: So, let's + verbo. / OK, we'll + verbo.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Propor",
+          "Why don't we …?",
+          "Why don't we rent a machine?"
+        ],
+        [
+          "Propor",
+          "How about …ing?",
+          "How about working an extra shift?"
+        ],
+        [
+          "Avaliar",
+          "If we …, we'll …",
+          "If we rent it, we'll lose less."
+        ],
+        [
+          "Risco",
+          "The risk is that …",
+          "The risk is that it won't arrive in time."
+        ],
+        [
+          "Decidir",
+          "OK, let's …",
+          "OK, let's call the supplier."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Why don't we move the job to line 2 until the press is fixed?",
+        "pt": "Por que não passamos o trabalho para a linha 2 até consertarem a prensa?"
+      },
+      {
+        "en": "If we work on Saturday, we'll finish the order on time, but it'll cost more.",
+        "pt": "Se trabalharmos no sábado, terminamos o pedido a tempo, mas vai custar mais."
+      },
+      {
+        "en": "The risk is that the new supplier won't deliver the right quality.",
+        "pt": "O risco é que o novo fornecedor não entregue a qualidade certa."
+      },
+      {
+        "en": "OK, let's do it, as long as the customer agrees.",
+        "pt": "OK, vamos fazer, desde que o cliente concorde."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A quick problem-solving meeting",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "OK, the situation: the paint line has had five stops this week. What should we do?",
+        "pt": "OK, a situação: a linha de pintura teve cinco paradas esta semana. O que devemos fazer?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "The problem is the old compressor. Why don't we buy a new one?",
+        "pt": "O problema é o compressor velho. Por que não compramos um novo?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "How much will it cost?",
+        "pt": "Quanto vai custar?"
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "About 80,000. But if we don't replace it, we'll keep losing production.",
+        "pt": "Uns 80.000. Mas se não trocarmos, vamos continuar perdendo produção."
+      },
+      {
+        "personagem": "Supervisor",
+        "voz": "a",
+        "en": "How about renting a compressor for now? It's cheaper and it'll arrive tomorrow.",
+        "pt": "Que tal alugar um compressor por enquanto? É mais barato e chega amanhã."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Good idea. We'll rent one now, and we'll buy a new one next month, as long as the budget is approved.",
+        "pt": "Boa ideia. Alugamos um agora e compramos um novo mês que vem, desde que o orçamento seja aprovado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b1u04l5-e1",
+        "tipo": "multipla",
+        "enunciado": "How many stops has the paint line had this week?",
+        "opcoes": [
+          "Three",
+          "Five",
+          "Ten"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the problem?",
+        "opcoes": [
+          "The old compressor",
+          "The paint",
+          "The operators"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b1u04l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How much does a new compressor cost?",
+        "opcoes": [
+          "About 8,000",
+          "About 80,000",
+          "About 800,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b1u04l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the final decision?",
+        "opcoes": [
+          "Rent one now and buy one next month",
+          "Buy one now",
+          "Do nothing"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b1u04l5-p1",
+      "tipo": "completar",
+      "frase": "Why ___ we call another supplier?",
+      "respostas": [
+        "don't"
+      ]
+    },
+    {
+      "id": "b1u04l5-p2",
+      "tipo": "completar",
+      "frase": "How about ___ on Saturday? (trabalhar)",
+      "respostas": [
+        "working"
+      ]
+    },
+    {
+      "id": "b1u04l5-p3",
+      "tipo": "completar",
+      "frase": "It's expensive, but it's ___ it. (vale a pena)",
+      "respostas": [
+        "worth"
+      ]
+    },
+    {
+      "id": "b1u04l5-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O risco é que não chegue a tempo\":",
+      "opcoes": [
+        "The risk is that it won't arrive in time.",
+        "The risk is it no arrive in time.",
+        "The risk is what it won't arrive."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Temos duas opções\":",
+      "opcoes": [
+        "We have two options.",
+        "We have two choose.",
+        "There is two options."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l5-p6",
+      "tipo": "ordenar",
+      "frase": "Let's write an action plan",
+      "traducao_pt": "Vamos escrever um plano de ação"
+    },
+    {
+      "id": "b1u04l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "It's only a temporary solution.",
+      "aceitas": [
+        "It is only a temporary solution."
+      ]
+    },
+    {
+      "id": "b1u04l5-p8",
+      "tipo": "traduzir",
+      "pt": "A vantagem é o preço.",
+      "respostas": [
+        "The advantage is the price."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: reunião de problema com o professor (gerente). Apresente um problema de produção, proponha 2 soluções, compare vantagens e riscos com \"If we…, we'll…\" e cheguem a uma decisão.",
+    "papel_professor": "Faça o papel de gerente. O aluno apresenta o problema. Questione custos e riscos (What will happen if…? How much will it cost?), proponha uma alternativa e decidam juntos. Corrija condicionais e propostas.",
+    "abertura": "OK, I've got ten minutes. What's the problem, and what do you suggest?",
+    "abertura_pt": "OK, tenho dez minutos. Qual é o problema e o que você sugere?"
+  },
+  "teste": [
+    {
+      "id": "b1u04l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Proposta correta:",
+      "opcoes": [
+        "How about renting a machine?",
+        "How about rent a machine?",
+        "How about to rent a machine?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b1u04l5-t2",
+      "tipo": "completar",
+      "frase": "If we don't replace it, we'll ___ losing production. (continuar)",
+      "respostas": [
+        "keep"
+      ]
+    },
+    {
+      "id": "b1u04l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The risk is too high."
+    },
+    {
+      "id": "b1u04l5-t4",
+      "tipo": "traduzir",
+      "pt": "Concordo com você.",
+      "respostas": [
+        "I agree with you."
+      ]
+    },
+    {
+      "id": "b1u04l5-t5",
+      "tipo": "ordenar",
+      "frase": "We'll buy a new one next month",
+      "traducao_pt": "Vamos comprar um novo mês que vem"
+    }
+  ]
+}

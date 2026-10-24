@@ -1,0 +1,259 @@
+{
+  "id": "c1-u01-prova",
+  "nivel": "C1",
+  "unidade": 1,
+  "titulo": "Prova da Unidade 1 (C1) — Emphasis",
+  "leitura": {
+    "texto": "THE TURNAROUND\nWhen Carla Menezes took over as CEO of Metalúrgica Andrade in 2020, the company was losing money for the fifth year in a row. 'Never had I seen a company with so much talent and so little direction,' she remembers.\nWhat surprised her most was not the old machinery, but the silence. 'Rarely did anyone on the shop floor speak in meetings. People had stopped believing their ideas mattered.'\nIt wasn't until she started spending her mornings on the shop floor that she understood the real problem. 'What the company needed wasn't a new strategy from consultants. It was a culture where people felt listened to.'\nShe made three decisions. First, every manager would spend one hour a day on the shop floor. Second, every idea from an operator would receive an answer within a week. Third, under no circumstances would anyone be punished for reporting a problem.\nThe results were remarkable. Not only did the company return to profit in 2022, but it also reduced accidents by 70%. 'It was the operators who found most of the solutions,' Menezes insists. 'I simply created the space.'\nLittle did she know that her approach would become a case study at business schools. 'The bottom line is simple,' she says. 'If you do listen to your people, they will surprise you.'",
+    "perguntas": [
+      {
+        "id": "c1u01pv-l1",
+        "tipo": "multipla",
+        "enunciado": "When did Carla Menezes become CEO?",
+        "opcoes": [
+          "2018",
+          "2020",
+          "2022"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01pv-l2",
+        "tipo": "multipla",
+        "enunciado": "How long had the company been losing money?",
+        "opcoes": [
+          "Two years",
+          "Five years",
+          "Ten years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01pv-l3",
+        "tipo": "multipla",
+        "enunciado": "What surprised her most?",
+        "opcoes": [
+          "The silence",
+          "The old machinery",
+          "The high salaries"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-l4",
+        "tipo": "multipla",
+        "enunciado": "When did she understand the real problem?",
+        "opcoes": [
+          "When she started spending mornings on the shop floor",
+          "When she read the consultants' report",
+          "On her first day"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What did the company need, according to her?",
+        "opcoes": [
+          "A culture where people felt listened to",
+          "A new strategy from consultants",
+          "New machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How quickly would operators' ideas receive an answer?",
+        "opcoes": [
+          "Within a day",
+          "Within a week",
+          "Within a month"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01pv-l7",
+        "tipo": "multipla",
+        "enunciado": "By how much were accidents reduced?",
+        "opcoes": [
+          "17%",
+          "50%",
+          "70%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u01pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Who found most of the solutions?",
+        "opcoes": [
+          "The operators",
+          "The consultants",
+          "The CEO"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Many people say the merger was the reason for your success. Would you agree?",
+        "pt": "Muitos dizem que a fusão foi o motivo do seu sucesso. Você concorda?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Not really. It wasn't the merger that made the difference; it was the new training program.",
+        "pt": "Não muito. Não foi a fusão que fez a diferença; foi o novo programa de treinamento."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Interesting. When did you see the first results?",
+        "pt": "Interessante. Quando vocês viram os primeiros resultados?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "It wasn't until the second year that the numbers started to improve. What we learned is that change takes time.",
+        "pt": "Só no segundo ano é que os números começaram a melhorar. O que aprendemos é que a mudança leva tempo."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "Were there any difficult moments?",
+        "pt": "Houve momentos difíceis?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Many. Never have I worked so hard in my life. But we did believe in the plan.",
+        "pt": "Muitos. Nunca trabalhei tanto na vida. Mas nós acreditávamos de verdade no plano."
+      },
+      {
+        "personagem": "Interviewer",
+        "voz": "a",
+        "en": "What's your advice for other managers?",
+        "pt": "Qual é seu conselho para outros gestores?"
+      },
+      {
+        "personagem": "Director",
+        "voz": "b",
+        "en": "Not only should you invest in technology, but you should also invest in people. That's by far the best investment.",
+        "pt": "Vocês não só devem investir em tecnologia, como também devem investir em pessoas. Esse é de longe o melhor investimento."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u01pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What do many people say caused their success?",
+        "opcoes": [
+          "The merger",
+          "The training program",
+          "A new CEO"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What does the director say made the difference?",
+        "opcoes": [
+          "The new training program",
+          "The merger",
+          "New machines"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When did the numbers start to improve?",
+        "opcoes": [
+          "In the first year",
+          "In the second year",
+          "In the fifth year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u01pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What did they learn?",
+        "opcoes": [
+          "Change takes time.",
+          "Training is expensive.",
+          "Mergers are easy."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-e5",
+        "tipo": "multipla",
+        "enunciado": "What does the director say about working hard?",
+        "opcoes": [
+          "He has never worked so hard in his life.",
+          "He didn't work much.",
+          "He worked less than before."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is by far the best investment?",
+        "opcoes": [
+          "Investing in people",
+          "Investing in technology",
+          "Buying companies"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u01pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "It wasn't the merger that made the difference.",
+        "aceitas": [
+          "It was not the merger that made the difference."
+        ]
+      },
+      {
+        "id": "c1u01pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "Never have I worked so hard in my life."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u01pv-w1",
+      "instrucao_pt": "Escreva um parágrafo para um relatório anual destacando uma conquista da sua equipe, usando pelo menos 2 cleft sentences e 1 inversão.",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "c1u01pv-w2",
+      "instrucao_pt": "Escreva um e-mail firme e educado respondendo a uma acusação injusta de um cliente, usando do/did enfático e intensificadores.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u01pv-s1",
+      "pergunta_en": "Tell me about the most important change you've seen in your career. What made it happen?",
+      "instrucao_pt": "Responda em voz alta usando cleft sentences (What made the difference was…, It was… that…)."
+    },
+    {
+      "id": "c1u01pv-s2",
+      "pergunta_en": "Give a short motivational speech to your team about a challenge ahead.",
+      "instrucao_pt": "Use inversão, contraste, regra de três e uma chamada para ação."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Cleft sentences com what (What we need is…, What happened was…, All I want is…) e com it (It was… that/who…, It wasn't until… that…), inversão negativa (Never have I…, Not only did…, Rarely do…, Under no circumstances…, Only when… did…, Little did we know), do/did enfático, intensificadores (by far, whatsoever, indeed), recursos retóricos."
+}
