@@ -1,14 +1,11 @@
 {
   "expo": {
-    "name": "base",
-    "slug": "base",
-    "version": "1.0.0",
+    "name": "Inglês com IA",
+    "slug": "projeto-ingles-ia",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -16,7 +13,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gabrielelisson.inglesia",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -25,7 +32,17 @@
       "expo-router",
       "expo-sqlite",
       "expo-secure-store",
-      "expo-speech-recognition"
-    ]
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "O app usa o microfone para você conversar com o professor de inglês.",
+          "speechRecognitionPermission": "O app transforma sua fala em texto para corrigir seu inglês.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox"
+          ]
+        }
+      ]
+    ],
+    "scheme": "inglesia"
   }
 }

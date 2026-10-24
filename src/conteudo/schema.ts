@@ -102,6 +102,8 @@ export const ConversaSchema = z.object({
   papel_professor: texto(400),
   /** Primeira frase do professor (falada sem chamar a IA). */
   abertura: texto(300),
+  /** Tradução da abertura (botão "Não entendi"). */
+  abertura_pt: texto(300),
 });
 export type Conversa = z.infer<typeof ConversaSchema>;
 

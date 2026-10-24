@@ -8,7 +8,8 @@
   "aquecimento": {
     "situacao_pt": "O professor vai perguntar de onde você é. Responda com 'I'm from…' e o nome da sua cidade ou país.",
     "papel_professor": "Pergunte de onde o aluno é e de qual cidade. Comente algo simples e positivo sobre o lugar. Use I'm from, you're from, it is. Frases muito curtas.",
-    "abertura": "Hi again! I'm from Canada. Where are you from?"
+    "abertura": "Hi again! I'm from Canada. Where are you from?",
+    "abertura_pt": "Oi de novo! Eu sou do Canadá. De onde você é?"
   },
   "vocabulario": [
     { "id": "brazil", "en": "Brazil / Brazilian", "pt": "Brasil / brasileiro(a)", "emoji": "🇧🇷", "exemplo_en": "I'm Brazilian. I'm from Brazil.", "exemplo_pt": "Sou brasileiro. Sou do Brasil." },
@@ -73,7 +74,8 @@
   "conversa": {
     "situacao_pt": "Um visitante estrangeiro chegou à sua empresa. Pergunte de onde ele é e conte de onde você é.",
     "papel_professor": "Faça o papel de Mia, uma visitante dos Estados Unidos numa empresa brasileira. Responda de onde você é, pergunte de onde o aluno é e de qual cidade. Use he/she/it is e perguntas com to be.",
-    "abertura": "Hello! I'm Mia. I'm here for the meeting. Are you from this city?"
+    "abertura": "Hello! I'm Mia. I'm here for the meeting. Are you from this city?",
+    "abertura_pt": "Olá! Eu sou a Mia. Estou aqui para a reunião. Você é desta cidade?"
   },
   "teste": [
     { "id": "a1u01l2-t1", "tipo": "completar", "frase": "He ___ Japanese.", "respostas": ["is", "'s"] },

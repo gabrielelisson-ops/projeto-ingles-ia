@@ -8,7 +8,8 @@
   "aquecimento": {
     "situacao_pt": "O professor vai perguntar o que você faz. Responda com 'I'm a…' ou 'I'm an…' e a sua profissão.",
     "papel_professor": "Pergunte a profissão do aluno ('What do you do?'). Se ele não souber a palavra em inglês, ensine. Pergunte onde ele trabalha de forma simples. Corrija a/an se necessário.",
-    "abertura": "Hello! I'm a teacher. What do you do?"
+    "abertura": "Hello! I'm a teacher. What do you do?",
+    "abertura_pt": "Olá! Eu sou professor. O que você faz?"
   },
   "vocabulario": [
     { "id": "engineer", "en": "engineer", "pt": "engenheiro(a)", "emoji": "👷", "exemplo_en": "She's an engineer.", "exemplo_pt": "Ela é engenheira." },
@@ -71,7 +72,8 @@
   "conversa": {
     "situacao_pt": "Você está num evento da empresa e conhece uma pessoa nova. Pergunte a profissão dela e conte a sua.",
     "papel_professor": "Faça o papel de Chris, um técnico de qualidade (quality technician) num evento da empresa. Pergunte o nome e a profissão do aluno, conte a sua e pergunte se ele trabalha numa fábrica ou num escritório.",
-    "abertura": "Hi there! I'm Chris. I'm a quality technician. And you? What do you do?"
+    "abertura": "Hi there! I'm Chris. I'm a quality technician. And you? What do you do?",
+    "abertura_pt": "Oi! Eu sou o Chris. Sou técnico de qualidade. E você? O que você faz?"
   },
   "teste": [
     { "id": "a1u01l4-t1", "tipo": "completar", "frase": "I'm ___ accountant.", "respostas": ["an"] },

@@ -110,3 +110,21 @@ export async function avaliarResposta(
   );
   return { ...av, nota: Math.round(n * 10) / 10 };
 }
+
+/** Teste rápido da chave: faz um pedido mínimo e diz qual modelo respondeu. */
+export async function testarChave(chave: string, modelos: ModelosIA, fetchFn?: typeof fetch): Promise<string> {
+  const resultado: string[] = [];
+  for (const m of [modelos.conversa, modelos.avaliacao]) {
+    await pedirJSON({
+      chave,
+      modelos: [m],
+      sistema: 'Responda apenas {"ok": true}.',
+      mensagens: [{ papel: 'aluno', texto: 'teste' }],
+      schema: z.object({ ok: z.literal(true) }),
+      temperatura: 0,
+      fetchFn,
+    });
+    resultado.push(m);
+  }
+  return resultado.join(' e ');
+}

@@ -8,7 +8,7 @@ import {
   type EstruturaNivel,
   type Progresso,
 } from '../src/logica/desbloqueio';
-import { calcularProva, notaDaTarefa, testeRapidoAprovado } from '../src/logica/notas';
+import { calcularProva, contarFrases, notaDaTarefa, testeRapidoAprovado } from '../src/logica/notas';
 import { corrigir, normalizar, respostaCerta, respostaIgual } from '../src/logica/respostas';
 import { DIA_MS, novoCartao, revisar } from '../src/logica/sm2';
 import { diaLocal, embaralhar, sequenciaDeDias } from '../src/logica/estatisticas';
@@ -190,6 +190,12 @@ describe('notas', () => {
     expect(r.nota).toBe(73);
     expect(r.aprovado).toBe(true);
     expect(r.pontosFracos).toEqual(['escuta']);
+  });
+
+  test('conta frases da escrita', () => {
+    expect(contarFrases('My name is Ana. I am from Brazil! Are you a nurse?')).toBe(3);
+    expect(contarFrases('Hi. Ok. I am an engineer')).toBe(1); // "Hi" e "Ok" sozinhos não contam
+    expect(contarFrases('')).toBe(0);
   });
 
   test('prova: abaixo de 70 reprova', () => {

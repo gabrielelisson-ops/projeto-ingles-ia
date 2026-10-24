@@ -206,3 +206,8 @@ export async function gravarConfig(db: Banco, chave: string, valor: string) {
     [chave, valor],
   );
 }
+
+export async function contarPalavras(db: Banco, perfilId: number): Promise<number> {
+  const r = await db.getFirstAsync<{ n: number }>("SELECT COUNT(*) AS n FROM revisao WHERE perfil_id = ? AND tipo = 'palavra'", [perfilId]);
+  return r?.n ?? 0;
+}

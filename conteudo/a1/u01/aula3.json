@@ -8,7 +8,8 @@
   "aquecimento": {
     "situacao_pt": "O professor vai pedir para você soletrar seu nome. Fale as letras uma por uma, em inglês.",
     "papel_professor": "Pergunte o nome do aluno e peça para ele soletrar ('How do you spell it?'). Confirme as letras. Se ele errar letras difíceis (E/I, G/J, H, R, W, Y), corrija com gentileza.",
-    "abertura": "Hello! What's your first name? How do you spell it?"
+    "abertura": "Hello! What's your first name? How do you spell it?",
+    "abertura_pt": "Olá! Qual é o seu primeiro nome? Como se soletra?"
   },
   "vocabulario": [
     { "id": "letter", "en": "letter", "pt": "letra", "emoji": "🔤", "exemplo_en": "A is the first letter.", "exemplo_pt": "A é a primeira letra." },
@@ -78,7 +79,8 @@
   "conversa": {
     "situacao_pt": "Você está fazendo check-in num hotel nos Estados Unidos. O recepcionista vai pedir seu nome, sobrenome e e-mail. Soletre e peça para repetir se não entender.",
     "papel_professor": "Faça o papel de um recepcionista de hotel. Peça o primeiro nome, o sobrenome (pedindo para soletrar) e o e-mail. Repita as letras para confirmar. Se o aluno pedir, fale mais devagar.",
-    "abertura": "Good evening! Welcome to the hotel. What's your last name, please?"
+    "abertura": "Good evening! Welcome to the hotel. What's your last name, please?",
+    "abertura_pt": "Boa noite! Bem-vindo ao hotel. Qual é o seu sobrenome, por favor?"
   },
   "teste": [
     { "id": "a1u01l3-t1", "tipo": "multipla", "enunciado": "Qual letra soa como 'ai'?", "opcoes": ["A", "E", "I"], "correta": 2 },

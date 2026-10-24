@@ -8,7 +8,8 @@
   "aquecimento": {
     "situacao_pt": "O professor vai perguntar como você está. Responda com 'I'm fine', 'I'm great' ou 'I'm tired' e pergunte de volta: 'And you?'",
     "papel_professor": "Pergunte como o aluno está ('How are you?') e responda quando ele perguntar. Depois pergunte o nome de alguém da família ou do trabalho dele. Use I'm fine, great, tired, so-so, this is.",
-    "abertura": "Good morning! How are you today?"
+    "abertura": "Good morning! How are you today?",
+    "abertura_pt": "Bom dia! Como você está hoje?"
   },
   "vocabulario": [
     { "id": "how-are-you", "en": "How are you?", "pt": "Como você está?", "emoji": "💬", "exemplo_en": "Hi, Paulo! How are you?", "exemplo_pt": "Oi, Paulo! Como você está?" },
@@ -72,7 +73,8 @@
   "conversa": {
     "situacao_pt": "Missão final da unidade: você encontra um conhecido na rua. Cumprimente, pergunte como ele está e apresente sua esposa ou marido (ou um colega). Diga a profissão dela/dele e de onde é.",
     "papel_professor": "Faça o papel de Alex, um conhecido do aluno que o encontra na rua. Pergunte como ele está, e quando ele apresentar alguém, pergunte a profissão e de onde a pessoa é. Use tudo da unidade: to be, a/an, This is, How are you, respostas curtas.",
-    "abertura": "Hey! Good to see you! How are you?"
+    "abertura": "Hey! Good to see you! How are you?",
+    "abertura_pt": "Ei! Que bom te ver! Como você está?"
   },
   "teste": [
     { "id": "a1u01l5-t1", "tipo": "completar", "frase": "Is he an engineer? — Yes, he ___.", "respostas": ["is"] },

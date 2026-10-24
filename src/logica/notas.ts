@@ -74,3 +74,11 @@ export function calcularProva(e: EntradaProva): ResultadoProva {
   const pontosFracos = (Object.keys(partes) as Parte[]).filter((p) => partes[p] < NOTA_APROVACAO);
   return { partes, nota, aprovado: nota >= NOTA_APROVACAO, pontosFracos };
 }
+
+/** Conta frases da escrita: pedaços separados por . ! ? com pelo menos 2 palavras. */
+export function contarFrases(t: string): number {
+  return t
+    .split(/[.!?]+/)
+    .map((s) => s.trim())
+    .filter((s) => s.split(/\s+/).length >= 2).length;
+}

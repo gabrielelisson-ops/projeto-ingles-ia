@@ -8,7 +8,8 @@
   "aquecimento": {
     "situacao_pt": "O professor vai te cumprimentar. Responda com 'Hello' ou 'Hi' e diga seu nome. Pode falar devagar!",
     "papel_professor": "Cumprimente o aluno de forma simpática e pergunte o nome dele. Use só hello, hi, good morning, I am, you are, my name is. No máximo 2 frases curtas por resposta.",
-    "abertura": "Hello! I'm your English teacher. What's your name?"
+    "abertura": "Hello! I'm your English teacher. What's your name?",
+    "abertura_pt": "Olá! Eu sou seu professor de inglês. Qual é o seu nome?"
   },
   "vocabulario": [
     { "id": "hello", "en": "hello", "pt": "olá", "emoji": "👋", "exemplo_en": "Hello! I'm Paula.", "exemplo_pt": "Olá! Eu sou a Paula." },
@@ -71,7 +72,8 @@
   "conversa": {
     "situacao_pt": "Você está no primeiro dia de um curso. O professor faz o papel de um colega novo. Cumprimente, diga seu nome e pergunte o nome dele.",
     "papel_professor": "Faça o papel de um colega novo chamado Sam, no primeiro dia de um curso. Cumprimente, diga seu nome, pergunte o nome do aluno e diga 'Nice to meet you'. Use só I am, you are, my name is e cumprimentos.",
-    "abertura": "Hi! I'm Sam. I'm new here. What's your name?"
+    "abertura": "Hi! I'm Sam. I'm new here. What's your name?",
+    "abertura_pt": "Oi! Eu sou o Sam. Sou novo aqui. Qual é o seu nome?"
   },
   "teste": [
     { "id": "a1u01l1-t1", "tipo": "completar", "frase": "I ___ from Brazil.", "respostas": ["am", "'m"] },
