@@ -1,0 +1,346 @@
+{
+  "id": "c1-u03-l2",
+  "nivel": "C1",
+  "unidade": 3,
+  "numero": 2,
+  "titulo": "Moving on to…",
+  "objetivo_pt": "Usar linguagem de sinalização (signposting) para guiar o público pela apresentação.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai mostrar os \"slides\" de uma apresentação. Passe de um slide para outro usando frases de transição.",
+    "papel_professor": "Descreva slides imaginários (1: problem, 2: causes, 3: solution, 4: costs). O aluno faz as transições (Moving on to…, This brings me to…, Let's now turn to…). Ensine também digressões e retornos.",
+    "abertura": "Your first slide showed the problem. Now you want to go to the causes. What do you say?",
+    "abertura_pt": "Seu primeiro slide mostrou o problema. Agora você quer ir para as causas. O que diz?"
+  },
+  "vocabulario": [
+    {
+      "id": "moving-on",
+      "en": "Moving on to…",
+      "pt": "Passando para…",
+      "emoji": "➡️",
+      "exemplo_en": "Moving on to the causes…",
+      "exemplo_pt": "Passando para as causas…"
+    },
+    {
+      "id": "brings-me",
+      "en": "This brings me to…",
+      "pt": "Isso me leva a…",
+      "emoji": "🔗",
+      "exemplo_en": "This brings me to my next point.",
+      "exemplo_pt": "Isso me leva ao meu próximo ponto."
+    },
+    {
+      "id": "turn-to",
+      "en": "Let's now turn to…",
+      "pt": "Vamos agora para…",
+      "emoji": "↪️",
+      "exemplo_en": "Let's now turn to the costs.",
+      "exemplo_pt": "Vamos agora para os custos."
+    },
+    {
+      "id": "as-you-can-see",
+      "en": "As you can see…",
+      "pt": "Como vocês podem ver…",
+      "emoji": "👀",
+      "exemplo_en": "As you can see, sales doubled.",
+      "exemplo_pt": "Como vocês podem ver, as vendas dobraram."
+    },
+    {
+      "id": "take-a-look",
+      "en": "Let's take a look at…",
+      "pt": "Vamos dar uma olhada em…",
+      "emoji": "🔍",
+      "exemplo_en": "Let's take a look at the figures.",
+      "exemplo_pt": "Vamos dar uma olhada nos números."
+    },
+    {
+      "id": "digress",
+      "en": "If I could digress for a moment…",
+      "pt": "Se me permitem uma digressão…",
+      "emoji": "🌀",
+      "exemplo_en": "If I could digress for a moment, …",
+      "exemplo_pt": "Se me permitem uma digressão, …"
+    },
+    {
+      "id": "back-to-l2",
+      "en": "Going back to…",
+      "pt": "Voltando a…",
+      "emoji": "↩️",
+      "exemplo_en": "Going back to what I said earlier…",
+      "exemplo_pt": "Voltando ao que eu disse antes…"
+    },
+    {
+      "id": "elaborate",
+      "en": "elaborate on",
+      "pt": "detalhar / aprofundar",
+      "emoji": "🔬",
+      "exemplo_en": "Let me elaborate on that.",
+      "exemplo_pt": "Deixem-me detalhar isso."
+    },
+    {
+      "id": "in-summary",
+      "en": "To sum up / In summary",
+      "pt": "Resumindo",
+      "emoji": "📝",
+      "exemplo_en": "To sum up, we have three options.",
+      "exemplo_pt": "Resumindo, temos três opções."
+    },
+    {
+      "id": "highlight",
+      "en": "highlight",
+      "pt": "destacar",
+      "emoji": "🖍️",
+      "exemplo_en": "I'd like to highlight two points.",
+      "exemplo_pt": "Gostaria de destacar dois pontos."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Signposting: guiando o público",
+    "explicacao_pt": "Frases de sinalização mostram ONDE você está na apresentação. MUDAR DE PARTE: Moving on to… / Let's now turn to… / This brings me to… / Next, I'd like to… APONTAR PARA VISUAIS: As you can see on this slide… / Let's take a look at… / This graph shows… DETALHAR: Let me elaborate on that. / To give you an example, … DESTACAR: I'd like to highlight… / What's important here is… DIGRESSÃO E RETORNO: If I could digress for a moment… / Going back to… RESUMIR UMA PARTE: So, to sum up this section, … Use-as para que o público nunca se perca.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Próxima parte",
+          "Moving on to…",
+          "Moving on to our proposal…"
+        ],
+        [
+          "Ligação",
+          "This brings me to…",
+          "This brings me to the question of cost."
+        ],
+        [
+          "Visual",
+          "Let's take a look at…",
+          "Let's take a look at this graph."
+        ],
+        [
+          "Destaque",
+          "I'd like to highlight…",
+          "I'd like to highlight one figure."
+        ],
+        [
+          "Resumo parcial",
+          "So, to sum up this section, …",
+          "So, to sum up this section, the problem is clear."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "So that's the current situation. Moving on to the causes…",
+        "pt": "Então essa é a situação atual. Passando para as causas…"
+      },
+      {
+        "en": "As you can see on this graph, downtime peaks on Mondays.",
+        "pt": "Como vocês podem ver neste gráfico, o tempo de parada atinge o pico às segundas."
+      },
+      {
+        "en": "This brings me to the most important part of my talk: the solution.",
+        "pt": "Isso me leva à parte mais importante da minha apresentação: a solução."
+      },
+      {
+        "en": "I'd like to highlight one figure in particular: a 35% reduction in scrap.",
+        "pt": "Gostaria de destacar um número em especial: uma redução de 35% no refugo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The middle of a presentation",
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "So, that's the current situation. Moving on to the causes.",
+        "pt": "Então essa é a situação atual. Passando para as causas."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Let's take a look at this chart. As you can see, 70% of the waiting time happens between 6 and 8 a.m.",
+        "pt": "Vamos dar uma olhada neste gráfico. Como vocês podem ver, 70% do tempo de espera acontece entre 6 e 8 da manhã."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Why? Because all the trucks arrive at the same time. I'd like to highlight this point, because it's the key to our solution.",
+        "pt": "Por quê? Porque todos os caminhões chegam ao mesmo tempo. Gostaria de destacar este ponto, porque é a chave da nossa solução."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "If I could digress for a moment — this is exactly what happened at our plant in Bahia two years ago.",
+        "pt": "Se me permitem uma digressão — isso é exatamente o que aconteceu na nossa fábrica da Bahia há dois anos."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "But going back to our warehouse… This brings me to our proposal: scheduled delivery slots.",
+        "pt": "Mas voltando ao nosso armazém… Isso me leva à nossa proposta: janelas de entrega agendadas."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03l2-e1",
+        "tipo": "multipla",
+        "enunciado": "When does 70% of the waiting time happen?",
+        "opcoes": [
+          "Between 6 and 8 a.m.",
+          "At lunchtime",
+          "At night"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l2-e2",
+        "tipo": "multipla",
+        "enunciado": "Why does it happen?",
+        "opcoes": [
+          "All the trucks arrive at the same time.",
+          "The forklifts are old.",
+          "There are too few workers."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l2-e3",
+        "tipo": "multipla",
+        "enunciado": "Where did the same thing happen before?",
+        "opcoes": [
+          "At their plant in Bahia",
+          "In Germany",
+          "At a competitor"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the proposal?",
+        "opcoes": [
+          "Scheduled delivery slots",
+          "More forklifts",
+          "A bigger warehouse"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u03l2-p1",
+      "tipo": "completar",
+      "frase": "Moving ___ to the causes…",
+      "respostas": [
+        "on"
+      ]
+    },
+    {
+      "id": "c1u03l2-p2",
+      "tipo": "completar",
+      "frase": "This brings me ___ my next point.",
+      "respostas": [
+        "to"
+      ]
+    },
+    {
+      "id": "c1u03l2-p3",
+      "tipo": "completar",
+      "frase": "Let's take a ___ at the figures.",
+      "respostas": [
+        "look"
+      ]
+    },
+    {
+      "id": "c1u03l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Voltar após digressão:",
+      "opcoes": [
+        "Going back to what I said earlier…",
+        "Return what I said before…",
+        "Go back I said."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Gostaria de destacar dois pontos\":",
+      "opcoes": [
+        "I'd like to highlight two points.",
+        "I like to highlight two point.",
+        "I'd like to light high two points."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l2-p6",
+      "tipo": "ordenar",
+      "frase": "Let's now turn to the costs",
+      "traducao_pt": "Vamos agora para os custos"
+    },
+    {
+      "id": "c1u03l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "As you can see, sales doubled."
+    },
+    {
+      "id": "c1u03l2-p8",
+      "tipo": "traduzir",
+      "pt": "Deixem-me detalhar isso.",
+      "respostas": [
+        "Let me elaborate on that."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor o \"meio\" de uma apresentação com 4 slides imaginários (situação, causas, solução, custos). Use uma frase de sinalização diferente em cada transição e aponte para os gráficos.",
+    "papel_professor": "Ouça e confira se cada transição tem signposting. Interrompa uma vez com pergunta para o aluno praticar 'Going back to…'. Corrija e sugira variações.",
+    "abertura": "Imagine you have four slides: situation, causes, solution and costs. Take me through them.",
+    "abertura_pt": "Imagine que você tem quatro slides: situação, causas, solução e custos. Me guie por eles."
+  },
+  "teste": [
+    {
+      "id": "c1u03l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Apontar para um gráfico:",
+      "opcoes": [
+        "As you can see on this graph, …",
+        "You see graph, …",
+        "Look, graph."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l2-t2",
+      "tipo": "completar",
+      "frase": "To sum ___, we have three options.",
+      "respostas": [
+        "up"
+      ]
+    },
+    {
+      "id": "c1u03l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "If I could digress for a moment…"
+    },
+    {
+      "id": "c1u03l2-t4",
+      "tipo": "traduzir",
+      "pt": "Isso me leva ao meu próximo ponto.",
+      "respostas": [
+        "This brings me to my next point."
+      ]
+    },
+    {
+      "id": "c1u03l2-t5",
+      "tipo": "ordenar",
+      "frase": "Moving on to our proposal",
+      "traducao_pt": "Passando para nossa proposta"
+    }
+  ]
+}

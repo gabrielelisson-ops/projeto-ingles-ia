@@ -1,0 +1,347 @@
+{
+  "id": "c1-u03-l3",
+  "nivel": "C1",
+  "unidade": 3,
+  "numero": 3,
+  "titulo": "The implementation of…",
+  "objetivo_pt": "Usar nominalização para soar mais formal e conciso (implement → the implementation of).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer frases com verbos. Transforme-as em frases com substantivos (nominalização), como em relatórios e apresentações formais.",
+    "papel_professor": "Dê frases verbais (We implemented the system and costs fell. The team analyzed the data.) e peça versões nominalizadas (The implementation of the system led to a fall in costs. An analysis of the data…). Corrija.",
+    "abertura": "Make this more formal: 'We implemented the new system, and costs fell.'",
+    "abertura_pt": "Deixe mais formal: \"Implementamos o novo sistema e os custos caíram.\""
+  },
+  "vocabulario": [
+    {
+      "id": "implementation",
+      "en": "implement → implementation",
+      "pt": "implementar → implementação",
+      "emoji": "⚙️",
+      "exemplo_en": "The implementation of the system took six months.",
+      "exemplo_pt": "A implementação do sistema levou seis meses."
+    },
+    {
+      "id": "reduction",
+      "en": "reduce → reduction",
+      "pt": "reduzir → redução",
+      "emoji": "📉",
+      "exemplo_en": "There was a significant reduction in costs.",
+      "exemplo_pt": "Houve uma redução significativa nos custos."
+    },
+    {
+      "id": "increase-n",
+      "en": "increase → an increase in",
+      "pt": "aumentar → um aumento de",
+      "emoji": "📈",
+      "exemplo_en": "We saw an increase in demand.",
+      "exemplo_pt": "Vimos um aumento na demanda."
+    },
+    {
+      "id": "analysis",
+      "en": "analyze → analysis",
+      "pt": "analisar → análise",
+      "emoji": "🔍",
+      "exemplo_en": "An analysis of the data shows…",
+      "exemplo_pt": "Uma análise dos dados mostra…"
+    },
+    {
+      "id": "introduction",
+      "en": "introduce → introduction",
+      "pt": "introduzir → introdução",
+      "emoji": "🆕",
+      "exemplo_en": "The introduction of shift work…",
+      "exemplo_pt": "A introdução do trabalho em turnos…"
+    },
+    {
+      "id": "failure",
+      "en": "fail → failure",
+      "pt": "falhar → falha",
+      "emoji": "💥",
+      "exemplo_en": "The failure of the pump caused the stop.",
+      "exemplo_pt": "A falha da bomba causou a parada."
+    },
+    {
+      "id": "improvement",
+      "en": "improve → improvement",
+      "pt": "melhorar → melhoria",
+      "emoji": "✨",
+      "exemplo_en": "We expect an improvement in quality.",
+      "exemplo_pt": "Esperamos uma melhoria na qualidade."
+    },
+    {
+      "id": "led-to",
+      "en": "lead to / result in",
+      "pt": "levar a / resultar em",
+      "emoji": "➡️",
+      "exemplo_en": "The changes led to a 20% increase in output.",
+      "exemplo_pt": "As mudanças levaram a um aumento de 20% na produção."
+    },
+    {
+      "id": "decision-n",
+      "en": "decide → decision",
+      "pt": "decidir → decisão",
+      "emoji": "⚖️",
+      "exemplo_en": "The decision to close the plant…",
+      "exemplo_pt": "A decisão de fechar a fábrica…"
+    },
+    {
+      "id": "growth",
+      "en": "grow → growth",
+      "pt": "crescer → crescimento",
+      "emoji": "🌱",
+      "exemplo_en": "Growth was slower than expected.",
+      "exemplo_pt": "O crescimento foi mais lento que o esperado."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Nominalização",
+    "explicacao_pt": "Nominalizar = transformar verbos (e adjetivos) em substantivos. Isso deixa o texto mais FORMAL, CONCISO e OBJETIVO — típico de relatórios, apresentações executivas e artigos. Verbal: We implemented the system and so costs fell by 10%. Nominal: The implementation of the system led to a 10% reduction in costs. Sufixos comuns: -tion/-sion (implementation, decision), -ment (improvement), -ance/-ence (performance), -ure (failure), -th (growth). Ligações típicas: lead to, result in, cause, contribute to, be due to. Preposições: an increase IN, a reduction IN/OF, the analysis OF.",
+    "tabela": {
+      "colunas": [
+        "Verbal (informal)",
+        "Nominal (formal)",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "We implemented the system.",
+          "The implementation of the system…",
+          "A implementação do sistema…"
+        ],
+        [
+          "Costs fell by 10%.",
+          "a 10% reduction in costs",
+          "uma redução de 10% nos custos"
+        ],
+        [
+          "Demand grew quickly.",
+          "the rapid growth in demand",
+          "o rápido crescimento da demanda"
+        ],
+        [
+          "The pump failed.",
+          "the failure of the pump",
+          "a falha da bomba"
+        ],
+        [
+          "We decided to close it.",
+          "the decision to close it",
+          "a decisão de fechá-la"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "The introduction of a second shift resulted in a 30% increase in output.",
+        "pt": "A introdução de um segundo turno resultou num aumento de 30% na produção."
+      },
+      {
+        "en": "An analysis of the data shows a clear link between temperature and defects.",
+        "pt": "Uma análise dos dados mostra uma ligação clara entre temperatura e defeitos."
+      },
+      {
+        "en": "The failure of the main pump led to a six-hour stoppage.",
+        "pt": "A falha da bomba principal levou a uma parada de seis horas."
+      },
+      {
+        "en": "We expect a significant improvement in delivery performance.",
+        "pt": "Esperamos uma melhoria significativa no desempenho de entrega."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "An executive summary",
+    "falas": [
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "Here is the executive summary of our study.",
+        "pt": "Aqui está o resumo executivo do nosso estudo."
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "An analysis of production data from the last two years shows a steady decline in efficiency.",
+        "pt": "Uma análise dos dados de produção dos últimos dois anos mostra um declínio constante da eficiência."
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "The main causes are the frequent failure of old equipment and a lack of standardization.",
+        "pt": "As principais causas são a falha frequente de equipamentos antigos e a falta de padronização."
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "We recommend the replacement of three presses and the introduction of standard work on all lines.",
+        "pt": "Recomendamos a substituição de três prensas e a introdução de trabalho padronizado em todas as linhas."
+      },
+      {
+        "personagem": "Consultant",
+        "voz": "a",
+        "en": "The implementation of these measures should lead to a 25% improvement in efficiency within eighteen months.",
+        "pt": "A implementação dessas medidas deve levar a uma melhoria de 25% na eficiência em dezoito meses."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What does the analysis show?",
+        "opcoes": [
+          "A steady decline in efficiency",
+          "An increase in sales",
+          "No change"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What period was analyzed?",
+        "opcoes": [
+          "The last year",
+          "The last two years",
+          "The last five years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What do they recommend?",
+        "opcoes": [
+          "Replacing three presses and introducing standard work",
+          "Closing the plant",
+          "Hiring consultants"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What improvement do they expect?",
+        "opcoes": [
+          "10%",
+          "25%",
+          "50%"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u03l3-p1",
+      "tipo": "completar",
+      "frase": "The ___ of the system took six months. (implementação)",
+      "respostas": [
+        "implementation"
+      ]
+    },
+    {
+      "id": "c1u03l3-p2",
+      "tipo": "completar",
+      "frase": "There was a significant ___ in costs. (redução)",
+      "respostas": [
+        "reduction"
+      ]
+    },
+    {
+      "id": "c1u03l3-p3",
+      "tipo": "completar",
+      "frase": "We saw an increase ___ demand.",
+      "respostas": [
+        "in"
+      ]
+    },
+    {
+      "id": "c1u03l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Versão nominalizada:",
+      "opcoes": [
+        "The failure of the pump caused the stop.",
+        "The pump failed and so it stopped.",
+        "Pump fail, stop."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"As mudanças levaram a um aumento de 20%\":",
+      "opcoes": [
+        "The changes led to a 20% increase.",
+        "The changes leaded a 20% increase.",
+        "The changes lead in 20% increase."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l3-p6",
+      "tipo": "ordenar",
+      "frase": "An analysis of the data shows a clear link",
+      "traducao_pt": "Uma análise dos dados mostra uma ligação clara"
+    },
+    {
+      "id": "c1u03l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Growth was slower than expected."
+    },
+    {
+      "id": "c1u03l3-p8",
+      "tipo": "traduzir",
+      "pt": "Esperamos uma melhoria na qualidade.",
+      "respostas": [
+        "We expect an improvement in quality."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Reescreva oralmente, em estilo nominal e formal, um resumo de um projeto do seu trabalho que o professor vai contar de forma simples e verbal.",
+    "papel_professor": "Conte um projeto de forma verbal e simples (We changed the layout, so people walked less, and productivity went up 15%). O aluno reescreve nominalizando. Corrija sufixos e preposições.",
+    "abertura": "Here's what happened: we changed the layout, people walked less, and productivity went up by 15%. Now say it like an executive summary.",
+    "abertura_pt": "O que aconteceu: mudamos o layout, as pessoas andaram menos e a produtividade subiu 15%. Agora diga como num resumo executivo."
+  },
+  "teste": [
+    {
+      "id": "c1u03l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"grow\" → substantivo:",
+      "opcoes": [
+        "growth",
+        "growing",
+        "grown"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l3-t2",
+      "tipo": "completar",
+      "frase": "The changes ___ in a 30% increase. (resultaram)",
+      "respostas": [
+        "resulted"
+      ]
+    },
+    {
+      "id": "c1u03l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The failure of the main pump led to a six-hour stoppage."
+    },
+    {
+      "id": "c1u03l3-t4",
+      "tipo": "traduzir",
+      "pt": "A decisão de fechar a fábrica foi difícil.",
+      "respostas": [
+        "The decision to close the plant was difficult.",
+        "The decision to close the factory was difficult."
+      ]
+    },
+    {
+      "id": "c1u03l3-t5",
+      "tipo": "ordenar",
+      "frase": "We recommend the replacement of three presses",
+      "traducao_pt": "Recomendamos a substituição de três prensas"
+    }
+  ]
+}

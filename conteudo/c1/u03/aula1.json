@@ -1,0 +1,355 @@
+{
+  "id": "c1-u03-l1",
+  "nivel": "C1",
+  "unidade": 3,
+  "numero": 1,
+  "titulo": "Opening with impact",
+  "objetivo_pt": "Abrir uma apresentação de forma profissional e envolvente.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você abra uma apresentação sobre um tema do seu trabalho. Cumprimente, apresente o objetivo e a estrutura.",
+    "papel_professor": "Peça a abertura de uma apresentação. Ensine as partes (greeting, hook, purpose, outline, questions policy). Mostre ganchos (a striking figure, a question, a short story). Corrija.",
+    "abertura": "Imagine you're presenting your team's results to the board. How would you open?",
+    "abertura_pt": "Imagine que você vai apresentar os resultados da sua equipe à diretoria. Como abriria?"
+  },
+  "vocabulario": [
+    {
+      "id": "hook",
+      "en": "hook / grab attention",
+      "pt": "gancho / prender a atenção",
+      "emoji": "🪝",
+      "exemplo_en": "Start with a hook to grab attention.",
+      "exemplo_pt": "Comece com um gancho para prender a atenção."
+    },
+    {
+      "id": "striking",
+      "en": "a striking figure",
+      "pt": "um número impressionante",
+      "emoji": "📊",
+      "exemplo_en": "Here is a striking figure: 40% of our energy is wasted.",
+      "exemplo_pt": "Eis um número impressionante: 40% da nossa energia é desperdiçada."
+    },
+    {
+      "id": "purpose-l1",
+      "en": "The purpose of today's talk is to…",
+      "pt": "O objetivo da apresentação de hoje é…",
+      "emoji": "🎯",
+      "exemplo_en": "The purpose of today's talk is to propose a new layout.",
+      "exemplo_pt": "O objetivo da apresentação de hoje é propor um novo layout."
+    },
+    {
+      "id": "outline",
+      "en": "I've divided my talk into three parts",
+      "pt": "Dividi minha apresentação em três partes",
+      "emoji": "🗂️",
+      "exemplo_en": "I've divided my talk into three parts.",
+      "exemplo_pt": "Dividi minha apresentação em três partes."
+    },
+    {
+      "id": "first-of-all",
+      "en": "First of all, … / Then, … / Finally, …",
+      "pt": "Primeiro, … / Depois, … / Por fim, …",
+      "emoji": "🔢",
+      "exemplo_en": "First of all, I'll look at the current situation.",
+      "exemplo_pt": "Primeiro, vou analisar a situação atual."
+    },
+    {
+      "id": "questions-end",
+      "en": "I'll be happy to take questions at the end",
+      "pt": "Responderei perguntas no final",
+      "emoji": "🙋",
+      "exemplo_en": "I'll be happy to take questions at the end.",
+      "exemplo_pt": "Ficarei feliz em responder perguntas no final."
+    },
+    {
+      "id": "feel-free",
+      "en": "Feel free to interrupt",
+      "pt": "Fiquem à vontade para interromper",
+      "emoji": "✋",
+      "exemplo_en": "Please feel free to interrupt if anything is unclear.",
+      "exemplo_pt": "Fiquem à vontade para interromper se algo não estiver claro."
+    },
+    {
+      "id": "take-minutes",
+      "en": "It'll take about 15 minutes",
+      "pt": "Vai levar uns 15 minutos",
+      "emoji": "⏱️",
+      "exemplo_en": "My talk will take about fifteen minutes.",
+      "exemplo_pt": "Minha apresentação vai levar uns quinze minutos."
+    },
+    {
+      "id": "imagine",
+      "en": "Imagine…",
+      "pt": "Imaginem…",
+      "emoji": "💭",
+      "exemplo_en": "Imagine a plant with zero waste.",
+      "exemplo_pt": "Imaginem uma fábrica com desperdício zero."
+    },
+    {
+      "id": "audience",
+      "en": "audience",
+      "pt": "público / plateia",
+      "emoji": "👥",
+      "exemplo_en": "Know your audience.",
+      "exemplo_pt": "Conheça seu público."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura da abertura",
+    "explicacao_pt": "1) CUMPRIMENTO e apresentação: Good morning, everyone. For those who don't know me, I'm… 2) GANCHO (escolha um): um número (Here's a striking figure…), uma pergunta (What would you do with an extra hour a day?), uma pequena história, um cenário (Imagine…). 3) OBJETIVO: The purpose of today's talk is to… / I'm here today to… 4) ROTEIRO: I've divided my talk into three parts. First, I'll… Then, I'll… Finally, … 5) DURAÇÃO e PERGUNTAS: It'll take about 15 minutes. I'll be happy to take questions at the end. / Feel free to interrupt. Use 'will' para anunciar o que vai fazer.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Frase modelo",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "Cumprimento",
+          "For those who don't know me, I'm…",
+          "Para quem não me conhece, sou…"
+        ],
+        [
+          "Gancho",
+          "Here's a striking figure: …",
+          "Eis um número impressionante: …"
+        ],
+        [
+          "Objetivo",
+          "The purpose of today's talk is to…",
+          "O objetivo de hoje é…"
+        ],
+        [
+          "Roteiro",
+          "First, I'll… Then, I'll… Finally, I'll…",
+          "Primeiro… Depois… Por fim…"
+        ],
+        [
+          "Perguntas",
+          "I'll be happy to take questions at the end.",
+          "Respondo perguntas no final."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Good morning, everyone. For those who don't know me, I'm Ana Lima, from the quality department.",
+        "pt": "Bom dia a todos. Para quem não me conhece, sou Ana Lima, do departamento de qualidade."
+      },
+      {
+        "en": "Here's a striking figure: every day, we throw away 400 kilos of perfectly good material.",
+        "pt": "Eis um número impressionante: todo dia, jogamos fora 400 quilos de material perfeitamente bom."
+      },
+      {
+        "en": "The purpose of today's talk is to show how we can cut that by half.",
+        "pt": "O objetivo da apresentação de hoje é mostrar como podemos reduzir isso pela metade."
+      },
+      {
+        "en": "I've divided my talk into three parts. First, I'll look at the causes. Then, I'll present our proposal. Finally, I'll talk about costs.",
+        "pt": "Dividi minha apresentação em três partes. Primeiro, vou ver as causas. Depois, apresento nossa proposta. Por fim, falo dos custos."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A strong opening",
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Good afternoon, everyone, and thank you for coming.",
+        "pt": "Boa tarde a todos e obrigado por virem."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Let me start with a question. How many hours do you think our forklifts spend waiting every month?",
+        "pt": "Deixem-me começar com uma pergunta. Quantas horas vocês acham que nossas empilhadeiras passam esperando todo mês?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "The answer is 620 hours. That's almost a full-time job for four people.",
+        "pt": "A resposta é 620 horas. Isso é quase o trabalho em tempo integral de quatro pessoas."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "The purpose of today's talk is to propose a new warehouse layout that will cut that waiting time by half.",
+        "pt": "O objetivo da apresentação de hoje é propor um novo layout de armazém que vai reduzir esse tempo de espera pela metade."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "I've divided my talk into three parts: the current situation, our proposal, and the investment needed.",
+        "pt": "Dividi minha apresentação em três partes: a situação atual, nossa proposta e o investimento necessário."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "It'll take about twenty minutes, and I'll be happy to take questions at the end.",
+        "pt": "Vai levar uns vinte minutos, e ficarei feliz em responder perguntas no final."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03l1-e1",
+        "tipo": "multipla",
+        "enunciado": "How does the presenter start?",
+        "opcoes": [
+          "With a question",
+          "With a joke",
+          "With a video"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l1-e2",
+        "tipo": "multipla",
+        "enunciado": "How many hours do the forklifts spend waiting every month?",
+        "opcoes": [
+          "62",
+          "260",
+          "620"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "c1u03l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the purpose of the talk?",
+        "opcoes": [
+          "To propose a new warehouse layout",
+          "To buy new forklifts",
+          "To hire drivers"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03l1-e4",
+        "tipo": "multipla",
+        "enunciado": "How long will the talk take?",
+        "opcoes": [
+          "About ten minutes",
+          "About twenty minutes",
+          "About an hour"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u03l1-p1",
+      "tipo": "completar",
+      "frase": "The ___ of today's talk is to propose a new layout.",
+      "respostas": [
+        "purpose"
+      ]
+    },
+    {
+      "id": "c1u03l1-p2",
+      "tipo": "completar",
+      "frase": "I've divided my talk ___ three parts.",
+      "respostas": [
+        "into"
+      ]
+    },
+    {
+      "id": "c1u03l1-p3",
+      "tipo": "completar",
+      "frase": "I'll be happy to ___ questions at the end.",
+      "respostas": [
+        "take"
+      ]
+    },
+    {
+      "id": "c1u03l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Gancho com número:",
+      "opcoes": [
+        "Here's a striking figure: 40% of our energy is wasted.",
+        "Hello, I am going to talk now.",
+        "Numbers are next slide."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Para quem não me conhece\":",
+      "opcoes": [
+        "For those who don't know me",
+        "For who don't know me",
+        "To people not knowing me"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l1-p6",
+      "tipo": "ordenar",
+      "frase": "Please feel free to interrupt",
+      "traducao_pt": "Fiquem à vontade para interromper"
+    },
+    {
+      "id": "c1u03l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Imagine a plant with zero waste."
+    },
+    {
+      "id": "c1u03l1-p8",
+      "tipo": "traduzir",
+      "pt": "Minha apresentação vai levar uns quinze minutos.",
+      "respostas": [
+        "My talk will take about fifteen minutes.",
+        "My presentation will take about fifteen minutes.",
+        "My talk will take about 15 minutes."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Faça a abertura completa (1 minuto) de uma apresentação sobre um tema do seu trabalho: cumprimento, gancho, objetivo, roteiro e política de perguntas. Depois o professor dá retorno e você faz de novo, melhorando.",
+    "papel_professor": "Ouça a abertura, dê retorno específico (hook, clarity, structure) e peça uma segunda versão melhorada. Corrija frases-modelo.",
+    "abertura": "Welcome to the stage! Your audience is the management team. Please begin.",
+    "abertura_pt": "Bem-vindo ao palco! Seu público é a equipe de gestão. Pode começar."
+  },
+  "teste": [
+    {
+      "id": "c1u03l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Anunciar o roteiro:",
+      "opcoes": [
+        "First, I'll look at the causes. Then, I'll present the proposal.",
+        "Causes and proposal and the rest.",
+        "I look causes after proposal maybe."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u03l1-t2",
+      "tipo": "completar",
+      "frase": "Start with a hook to ___ attention. (prender)",
+      "respostas": [
+        "grab"
+      ]
+    },
+    {
+      "id": "c1u03l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Know your audience."
+    },
+    {
+      "id": "c1u03l1-t4",
+      "tipo": "traduzir",
+      "pt": "Imaginem uma fábrica com desperdício zero.",
+      "respostas": [
+        "Imagine a plant with zero waste.",
+        "Imagine a factory with zero waste."
+      ]
+    },
+    {
+      "id": "c1u03l1-t5",
+      "tipo": "ordenar",
+      "frase": "For those who don't know me I'm Ana",
+      "traducao_pt": "Para quem não me conhece, sou a Ana"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "c1-u04-l5",
+  "nivel": "C1",
+  "unidade": 4,
+  "numero": 5,
+  "titulo": "The debate",
+  "objetivo_pt": "Participar de um debate completo: abertura, refutação, concessão e fechamento.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: qual é um tema sobre o qual você mudou de opinião ao longo da vida? O que te fez mudar?",
+    "papel_professor": "Peça um tema em que o aluno mudou de opinião. Ensine linguagem de fechamento de debate (To conclude, … / The question we must ask is… / I urge you to…). Corrija.",
+    "abertura": "Is there an issue you've changed your mind about over the years? What changed your mind?",
+    "abertura_pt": "Há algum tema sobre o qual você mudou de opinião ao longo dos anos? O que te fez mudar?"
+  },
+  "vocabulario": [
+    {
+      "id": "motion",
+      "en": "motion (in a debate)",
+      "pt": "moção / proposição (do debate)",
+      "emoji": "📜",
+      "exemplo_en": "The motion is: automation is good for workers.",
+      "exemplo_pt": "A moção é: a automação é boa para os trabalhadores."
+    },
+    {
+      "id": "for-against",
+      "en": "for / against the motion",
+      "pt": "a favor / contra a moção",
+      "emoji": "👍",
+      "exemplo_en": "I am speaking against the motion.",
+      "exemplo_pt": "Falo contra a moção."
+    },
+    {
+      "id": "rebuttal",
+      "en": "rebuttal",
+      "pt": "réplica / refutação",
+      "emoji": "↩️",
+      "exemplo_en": "In my rebuttal, I'll answer three points.",
+      "exemplo_pt": "Na minha réplica, vou responder a três pontos."
+    },
+    {
+      "id": "opponent",
+      "en": "my opponent",
+      "pt": "meu oponente",
+      "emoji": "🧑‍⚖️",
+      "exemplo_en": "My opponent claimed that costs would rise.",
+      "exemplo_pt": "Meu oponente afirmou que os custos subiriam."
+    },
+    {
+      "id": "claimed",
+      "en": "claimed / argued",
+      "pt": "afirmou / argumentou",
+      "emoji": "🗣️",
+      "exemplo_en": "My opponent argued that it was too risky.",
+      "exemplo_pt": "Meu oponente argumentou que era arriscado demais."
+    },
+    {
+      "id": "fails-to",
+      "en": "fails to (consider)",
+      "pt": "deixa de (considerar)",
+      "emoji": "🙈",
+      "exemplo_en": "This argument fails to consider the human cost.",
+      "exemplo_pt": "Este argumento deixa de considerar o custo humano."
+    },
+    {
+      "id": "urge",
+      "en": "I urge you to…",
+      "pt": "Peço encarecidamente que…",
+      "emoji": "📣",
+      "exemplo_en": "I urge you to vote for the motion.",
+      "exemplo_pt": "Peço encarecidamente que votem a favor da moção."
+    },
+    {
+      "id": "question-ask",
+      "en": "The question we must ask is…",
+      "pt": "A pergunta que devemos fazer é…",
+      "emoji": "❓",
+      "exemplo_en": "The question we must ask is: who benefits?",
+      "exemplo_pt": "A pergunta que devemos fazer é: quem se beneficia?"
+    },
+    {
+      "id": "ultimately",
+      "en": "ultimately",
+      "pt": "em última análise",
+      "emoji": "🔚",
+      "exemplo_en": "Ultimately, it is about people.",
+      "exemplo_pt": "Em última análise, trata-se de pessoas."
+    },
+    {
+      "id": "persuade",
+      "en": "persuade / convince",
+      "pt": "persuadir / convencer",
+      "emoji": "🧲",
+      "exemplo_en": "I hope I have convinced you.",
+      "exemplo_pt": "Espero ter convencido vocês."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Debate formal",
+    "explicacao_pt": "1) ABERTURA: I'm speaking for/against the motion that… I will make three points. 2) ARGUMENTOS: Firstly, … What's more, … For instance, … 3) RÉPLICA (rebuttal) — relatar e refutar: My opponent claimed/argued that… However, this fails to consider… / Admittedly, …, but… / Where's the evidence…? 4) FECHAMENTO: To conclude, … / The question we must ask is… / Ultimately, … / I urge you to vote for/against the motion. Use reported speech para citar o oponente com precisão e concessões para parecer equilibrado.",
+    "tabela": {
+      "colunas": [
+        "Momento",
+        "Frase",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Abertura",
+          "I am speaking against the motion that…",
+          "I am speaking against the motion that robots should replace operators."
+        ],
+        [
+          "Citar oponente",
+          "My opponent claimed that…",
+          "My opponent claimed that costs would fall."
+        ],
+        [
+          "Refutar",
+          "However, this fails to consider…",
+          "However, this fails to consider training costs."
+        ],
+        [
+          "Pergunta-chave",
+          "The question we must ask is…",
+          "The question we must ask is: who benefits?"
+        ],
+        [
+          "Fechamento",
+          "I urge you to vote…",
+          "I urge you to vote against the motion."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I am speaking for the motion that every company should offer a four-day week.",
+        "pt": "Falo a favor da moção de que toda empresa deveria oferecer semana de quatro dias."
+      },
+      {
+        "en": "My opponent claimed that productivity would fall. However, this fails to consider the evidence from trials in several countries.",
+        "pt": "Meu oponente afirmou que a produtividade cairia. Porém, isso deixa de considerar as evidências de testes em vários países."
+      },
+      {
+        "en": "Admittedly, it would not work in every sector, but that is not what the motion says.",
+        "pt": "É verdade que não funcionaria em todos os setores, mas não é isso que a moção diz."
+      },
+      {
+        "en": "Ultimately, the question we must ask is: what kind of workplace do we want? I urge you to vote for the motion.",
+        "pt": "Em última análise, a pergunta que devemos fazer é: que tipo de ambiente de trabalho queremos? Peço que votem a favor da moção."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "The closing speech",
+    "falas": [
+      {
+        "personagem": "Moderator",
+        "voz": "a",
+        "en": "We now come to the closing speeches. Speaking against the motion, Ms. Rocha.",
+        "pt": "Chegamos aos discursos de encerramento. Falando contra a moção, a Sra. Rocha."
+      },
+      {
+        "personagem": "Rocha",
+        "voz": "b",
+        "en": "Thank you. My opponent claimed that robots will free workers from boring tasks.",
+        "pt": "Obrigada. Meu oponente afirmou que robôs vão libertar os trabalhadores de tarefas chatas."
+      },
+      {
+        "personagem": "Rocha",
+        "voz": "b",
+        "en": "Admittedly, some tasks will disappear, and nobody will miss them. However, this argument fails to consider the people who will lose their only source of income.",
+        "pt": "É verdade que algumas tarefas vão desaparecer, e ninguém vai sentir falta delas. Porém, esse argumento deixa de considerar as pessoas que vão perder sua única fonte de renda."
+      },
+      {
+        "personagem": "Rocha",
+        "voz": "b",
+        "en": "He also said that new jobs will be created. Where is the evidence that these jobs will go to the same people?",
+        "pt": "Ele também disse que novos empregos serão criados. Onde está a evidência de que esses empregos irão para as mesmas pessoas?"
+      },
+      {
+        "personagem": "Rocha",
+        "voz": "b",
+        "en": "Ultimately, the question we must ask is not whether we automate, but how we protect people while we do it.",
+        "pt": "Em última análise, a pergunta que devemos fazer não é se automatizamos, mas como protegemos as pessoas enquanto fazemos isso."
+      },
+      {
+        "personagem": "Rocha",
+        "voz": "b",
+        "en": "Without retraining and support, automation is not good for workers. I urge you to vote against the motion.",
+        "pt": "Sem requalificação e apoio, a automação não é boa para os trabalhadores. Peço que votem contra a moção."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04l5-e1",
+        "tipo": "multipla",
+        "enunciado": "Which side is Ms. Rocha on?",
+        "opcoes": [
+          "For the motion",
+          "Against the motion"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u04l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What did her opponent claim?",
+        "opcoes": [
+          "Robots will free workers from boring tasks.",
+          "Robots are too expensive.",
+          "Workers like routine."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What does she say the opponent's argument fails to consider?",
+        "opcoes": [
+          "People who will lose their only source of income",
+          "The price of robots",
+          "Customer opinion"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l5-e4",
+        "tipo": "multipla",
+        "enunciado": "According to her, what is the real question?",
+        "opcoes": [
+          "How we protect people while we automate",
+          "Whether robots are fast",
+          "How much robots cost"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u04l5-p1",
+      "tipo": "completar",
+      "frase": "I am speaking ___ the motion. (contra)",
+      "respostas": [
+        "against"
+      ]
+    },
+    {
+      "id": "c1u04l5-p2",
+      "tipo": "completar",
+      "frase": "This argument ___ to consider the human cost. (deixa de)",
+      "respostas": [
+        "fails"
+      ]
+    },
+    {
+      "id": "c1u04l5-p3",
+      "tipo": "completar",
+      "frase": "I ___ you to vote for the motion. (peço encarecidamente)",
+      "respostas": [
+        "urge"
+      ]
+    },
+    {
+      "id": "c1u04l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Citar o oponente:",
+      "opcoes": [
+        "My opponent claimed that costs would rise.",
+        "My opponent claim costs rise.",
+        "The opponent he said costs is rising."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Em última análise, trata-se de pessoas\":",
+      "opcoes": [
+        "Ultimately, it's about people.",
+        "Lastly, it's people.",
+        "At last analysis, is people."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l5-p6",
+      "tipo": "ordenar",
+      "frase": "The question we must ask is who benefits",
+      "traducao_pt": "A pergunta que devemos fazer é: quem se beneficia"
+    },
+    {
+      "id": "c1u04l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "In my rebuttal, I'll answer three points.",
+      "aceitas": [
+        "In my rebuttal, I will answer three points."
+      ]
+    },
+    {
+      "id": "c1u04l5-p8",
+      "tipo": "traduzir",
+      "pt": "Espero ter convencido vocês.",
+      "respostas": [
+        "I hope I have convinced you.",
+        "I hope I've convinced you.",
+        "I hope I have persuaded you."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: debate com o professor. Ele defende uma moção e você a ataca (ou vice-versa). Faça uma declaração de abertura, ouça o argumento dele, faça uma réplica com concessão e refutação, e termine com um discurso de fechamento.",
+    "papel_professor": "Escolha uma moção (This house believes that English should be the official language of all multinational companies). Defenda o lado oposto ao aluno com argumentos razoáveis. Siga as fases do debate. No fim, dê retorno sobre estrutura, concessões, refutações e linguagem.",
+    "abertura": "Welcome to the debate. The motion is: 'All meetings in multinational companies should be held in English.' I'll speak for the motion. Would you like to open, or shall I?",
+    "abertura_pt": "Bem-vindo ao debate. A moção é: \"Todas as reuniões em multinacionais deveriam ser em inglês.\" Vou falar a favor. Quer abrir, ou eu abro?"
+  },
+  "teste": [
+    {
+      "id": "c1u04l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Réplica com concessão:",
+      "opcoes": [
+        "Admittedly, it is cheaper, but it fails to consider quality.",
+        "It is cheaper and that's all.",
+        "No, it is not."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l5-t2",
+      "tipo": "completar",
+      "frase": "The ___ is: automation is good for workers. (moção)",
+      "respostas": [
+        "motion"
+      ]
+    },
+    {
+      "id": "c1u04l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "My opponent argued that it was too risky."
+    },
+    {
+      "id": "c1u04l5-t4",
+      "tipo": "traduzir",
+      "pt": "Falo contra a moção.",
+      "respostas": [
+        "I am speaking against the motion.",
+        "I'm speaking against the motion."
+      ]
+    },
+    {
+      "id": "c1u04l5-t5",
+      "tipo": "ordenar",
+      "frase": "I urge you to vote against the motion",
+      "traducao_pt": "Peço que votem contra a moção"
+    }
+  ]
+}

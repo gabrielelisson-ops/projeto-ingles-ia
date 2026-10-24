@@ -1,0 +1,261 @@
+{
+  "id": "c1-u04-prova",
+  "nivel": "C1",
+  "unidade": 4,
+  "titulo": "Prova da Unidade 4 (C1) — Debates",
+  "leitura": {
+    "texto": "SHOULD COMPANIES MONITOR THEIR EMPLOYEES?\nWith the growth of digital tools, more and more companies are monitoring what their employees do: the websites they visit, how fast they type, even where they are during the working day. Supporters argue that monitoring improves productivity and security. Critics point out that it damages trust and invades privacy.\nOn the one hand, there are legitimate reasons for some monitoring. In industries like aviation or chemicals, recording what operators do can prevent disasters and help investigations after an accident. Companies also have a duty to protect sensitive data from leaks.\nOn the other hand, research suggests that intensive monitoring often has the opposite effect to the one intended. A study of 2,000 office workers found that those who felt constantly watched were more stressed and less creative, and were twice as likely to look for another job.\nAdmittedly, some employees do abuse their freedom. However, punishing everyone for the behaviour of a few is hardly a sound policy. What's more, the argument that 'if you have nothing to hide, you have nothing to fear' fails to consider that privacy is a right, not a privilege.\nWeighing up both sides, the answer seems to depend largely on the type of monitoring. On balance, most experts agree that monitoring is acceptable provided that it is transparent, proportionate and limited to safety and security.",
+    "perguntas": [
+      {
+        "id": "c1u04pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What do supporters say monitoring improves?",
+        "opcoes": [
+          "Productivity and security",
+          "Salaries",
+          "Creativity"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What do critics say it damages?",
+        "opcoes": [
+          "Trust and privacy",
+          "Machines",
+          "Profits"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l3",
+        "tipo": "multipla",
+        "enunciado": "In which industries can recording operators prevent disasters?",
+        "opcoes": [
+          "Aviation and chemicals",
+          "Fashion and food",
+          "Retail and tourism"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l4",
+        "tipo": "multipla",
+        "enunciado": "How many office workers were studied?",
+        "opcoes": [
+          "200",
+          "2,000",
+          "20,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u04pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What happened to workers who felt constantly watched?",
+        "opcoes": [
+          "They were more stressed and less creative.",
+          "They were more productive.",
+          "They earned more."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l6",
+        "tipo": "multipla",
+        "enunciado": "How much more likely were they to look for another job?",
+        "opcoes": [
+          "Twice as likely",
+          "Three times as likely",
+          "Not more likely"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What does the 'nothing to hide' argument fail to consider?",
+        "opcoes": [
+          "That privacy is a right",
+          "The cost of cameras",
+          "Productivity"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-l8",
+        "tipo": "multipla",
+        "enunciado": "When is monitoring acceptable, according to most experts?",
+        "opcoes": [
+          "When it is transparent, proportionate and limited to safety and security",
+          "Always",
+          "Never"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Moderator",
+        "voz": "a",
+        "en": "The motion tonight is: 'Companies should not hire people without a university degree for management positions.' Mr. Lima, against the motion.",
+        "pt": "A moção desta noite é: \"Empresas não deveriam contratar pessoas sem diploma universitário para cargos de gestão.\" Sr. Lima, contra a moção."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "Thank you. My opponent argued that a degree guarantees the knowledge a manager needs.",
+        "pt": "Obrigado. Meu oponente argumentou que um diploma garante o conhecimento de que um gestor precisa."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "Granted, a degree provides important theoretical knowledge. I won't deny that.",
+        "pt": "Certo, um diploma fornece conhecimento teórico importante. Não vou negar."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "However, that doesn't necessarily mean that people without one can't lead. Many excellent supervisors learned on the shop floor.",
+        "pt": "No entanto, isso não significa necessariamente que pessoas sem diploma não possam liderar. Muitos supervisores excelentes aprenderam no chão de fábrica."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "He also mentioned one bad experience with a manager without a degree. With all due respect, that's anecdotal evidence.",
+        "pt": "Ele também mencionou uma experiência ruim com um gestor sem diploma. Com todo o respeito, isso é evidência anedótica."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "On balance, a degree is an advantage, but it shouldn't be a requirement, provided that candidates can demonstrate their skills.",
+        "pt": "Pesando tudo, o diploma é uma vantagem, mas não deveria ser requisito, desde que os candidatos possam demonstrar suas habilidades."
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "Ultimately, the question we must ask is: do we want the best leaders, or just the best-qualified on paper?",
+        "pt": "Em última análise, a pergunta que devemos fazer é: queremos os melhores líderes, ou só os mais qualificados no papel?"
+      },
+      {
+        "personagem": "Lima",
+        "voz": "b",
+        "en": "I urge you to vote against the motion. Thank you.",
+        "pt": "Peço que votem contra a moção. Obrigado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the motion about?",
+        "opcoes": [
+          "Hiring managers without a degree",
+          "Paying for degrees",
+          "Promoting operators"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-e2",
+        "tipo": "multipla",
+        "enunciado": "Which side is Mr. Lima on?",
+        "opcoes": [
+          "For the motion",
+          "Against the motion"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u04pv-e3",
+        "tipo": "multipla",
+        "enunciado": "What does Mr. Lima concede?",
+        "opcoes": [
+          "A degree provides important theoretical knowledge.",
+          "Degrees are useless.",
+          "His opponent is always right."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-e4",
+        "tipo": "multipla",
+        "enunciado": "Where did many excellent supervisors learn?",
+        "opcoes": [
+          "On the shop floor",
+          "At university",
+          "Abroad"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How does he describe his opponent's example?",
+        "opcoes": [
+          "Anecdotal evidence",
+          "Strong evidence",
+          "A slippery slope"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is his conclusion?",
+        "opcoes": [
+          "A degree is an advantage but shouldn't be a requirement.",
+          "Degrees should be banned.",
+          "Only degrees matter."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "That doesn't necessarily mean that people without one can't lead.",
+        "aceitas": [
+          "That does not necessarily mean that people without one cannot lead."
+        ]
+      },
+      {
+        "id": "c1u04pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "With all due respect, that's anecdotal evidence.",
+        "aceitas": [
+          "With all due respect, that is anecdotal evidence."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u04pv-w1",
+      "instrucao_pt": "Escreva um texto argumentativo sobre um tema polêmico do mundo do trabalho, com tese, duas razões com evidência, uma concessão e uma conclusão.",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u04pv-w2",
+      "instrucao_pt": "Escreva uma réplica curta a um argumento fraco (tradição, caso isolado ou exagero), contestando com respeito e oferecendo um contra-argumento.",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u04pv-s1",
+      "pergunta_en": "Give a balanced analysis: should companies allow employees to work from home two days a week?",
+      "instrucao_pt": "Analise os dois lados em voz alta e conclua com uma condição."
+    },
+    {
+      "id": "c1u04pv-s2",
+      "pergunta_en": "Your opponent says: 'Training is a waste of money because people leave anyway.' Respond.",
+      "instrucao_pt": "Conceda o que for justo e refute com evidência e exemplo."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Estrutura de argumento (tese, razões, evidência, exemplo, ligação), concessão e refutação (Admittedly, Granted, While it's true that, That said, outweigh), contestação respeitosa (With all due respect, That doesn't necessarily follow, anecdotal evidence, slippery slope), análise equilibrada (On the one hand, trade-off, On balance, provided that), linguagem de debate formal (motion, rebuttal, my opponent claimed, fails to consider, I urge you)."
+}

@@ -1,0 +1,360 @@
+{
+  "id": "c1-u04-l2",
+  "nivel": "C1",
+  "unidade": 4,
+  "numero": 2,
+  "titulo": "Admittedly, … but…",
+  "objetivo_pt": "Fazer concessões (reconhecer o outro lado) para fortalecer o seu argumento.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar argumentos contrários à sua posição. Reconheça o ponto dele e depois rebata: \"Admittedly…, but…\", \"Granted…, however…\".",
+    "papel_professor": "Dê contra-argumentos. Ensine concessão + refutação (Admittedly…, but… / Granted, … However, … / While it's true that…, … / Even though…). Mostre que conceder aumenta a credibilidade.",
+    "abertura": "Robots are very expensive, so small companies can't afford them. What do you say?",
+    "abertura_pt": "Robôs são muito caros, então pequenas empresas não podem comprá-los. O que você diz?"
+  },
+  "vocabulario": [
+    {
+      "id": "admittedly",
+      "en": "Admittedly, …",
+      "pt": "É verdade que… / Reconheço que…",
+      "emoji": "🤝",
+      "exemplo_en": "Admittedly, the initial cost is high.",
+      "exemplo_pt": "É verdade que o custo inicial é alto."
+    },
+    {
+      "id": "granted",
+      "en": "Granted, …",
+      "pt": "Concedo que… / Certo, …",
+      "emoji": "✔️",
+      "exemplo_en": "Granted, it won't work for everyone.",
+      "exemplo_pt": "Certo, não vai funcionar para todos."
+    },
+    {
+      "id": "while-true",
+      "en": "While it's true that…",
+      "pt": "Embora seja verdade que…",
+      "emoji": "⚖️",
+      "exemplo_en": "While it's true that it's risky, the rewards are huge.",
+      "exemplo_pt": "Embora seja verdade que é arriscado, as recompensas são enormes."
+    },
+    {
+      "id": "even-though-l2",
+      "en": "even though / although",
+      "pt": "mesmo que / embora",
+      "emoji": "🔀",
+      "exemplo_en": "Even though it costs more, it lasts longer.",
+      "exemplo_pt": "Mesmo custando mais, dura mais."
+    },
+    {
+      "id": "nonetheless",
+      "en": "nonetheless / even so",
+      "pt": "mesmo assim / ainda assim",
+      "emoji": "💪",
+      "exemplo_en": "It is expensive. Nonetheless, it pays off.",
+      "exemplo_pt": "É caro. Ainda assim, compensa."
+    },
+    {
+      "id": "that-said",
+      "en": "That said, … / Having said that, …",
+      "pt": "Dito isso, …",
+      "emoji": "🗣️",
+      "exemplo_en": "That said, we need to be careful.",
+      "exemplo_pt": "Dito isso, precisamos ter cuidado."
+    },
+    {
+      "id": "to-some-extent",
+      "en": "to some extent / up to a point",
+      "pt": "até certo ponto",
+      "emoji": "📏",
+      "exemplo_en": "I agree to some extent.",
+      "exemplo_pt": "Concordo até certo ponto."
+    },
+    {
+      "id": "outweigh",
+      "en": "outweigh",
+      "pt": "superar (em peso/importância)",
+      "emoji": "⚖️",
+      "exemplo_en": "The benefits outweigh the costs.",
+      "exemplo_pt": "Os benefícios superam os custos."
+    },
+    {
+      "id": "in-the-long-term",
+      "en": "in the long term",
+      "pt": "a longo prazo",
+      "emoji": "🔭",
+      "exemplo_en": "In the long term, it saves money.",
+      "exemplo_pt": "A longo prazo, economiza dinheiro."
+    },
+    {
+      "id": "downside",
+      "en": "downside / drawback",
+      "pt": "desvantagem",
+      "emoji": "👎",
+      "exemplo_en": "The main drawback is the cost.",
+      "exemplo_pt": "A principal desvantagem é o custo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Concessão e refutação",
+    "explicacao_pt": "Conceder = reconhecer que o outro lado tem um ponto. Isso mostra equilíbrio e torna sua refutação mais forte. Estrutura: CONCESSÃO + CONTRASTE + SEU ARGUMENTO. Admittedly / Granted / Of course / It's true that + concessão, BUT / HOWEVER / NONETHELESS + refutação. Com conjunção na mesma frase: While it's true that…, … / Although…, … / Even though…, … Para encerrar: That said, … / Having said that, … Para pesar: The benefits outweigh the drawbacks. To some extent = até certo ponto.",
+    "tabela": {
+      "colunas": [
+        "Concessão",
+        "Refutação",
+        "Exemplo completo"
+      ],
+      "linhas": [
+        [
+          "Admittedly, it is expensive,",
+          "but it pays off in two years.",
+          "Admittedly, it is expensive, but it pays off."
+        ],
+        [
+          "Granted, some jobs will disappear.",
+          "However, new ones will be created.",
+          "Granted, some jobs will go. However, others will appear."
+        ],
+        [
+          "While it's true that it's risky,",
+          "the potential gains are huge.",
+          "While it's true that it's risky, the gains are huge."
+        ],
+        [
+          "Although training takes time,",
+          "it improves quality.",
+          "Although training takes time, it improves quality."
+        ],
+        [
+          "It has drawbacks.",
+          "Nonetheless, the benefits outweigh them.",
+          "It has drawbacks. Nonetheless, the benefits outweigh them."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Admittedly, the initial investment is high, but the payback period is under two years.",
+        "pt": "É verdade que o investimento inicial é alto, mas o retorno é em menos de dois anos."
+      },
+      {
+        "en": "Granted, not every task can be automated. However, the most dangerous ones can.",
+        "pt": "Certo, nem toda tarefa pode ser automatizada. Porém, as mais perigosas podem."
+      },
+      {
+        "en": "While it's true that some workers resist change, most of them adapt within a few months.",
+        "pt": "Embora seja verdade que alguns trabalhadores resistem à mudança, a maioria se adapta em poucos meses."
+      },
+      {
+        "en": "The new system has some drawbacks. That said, the benefits clearly outweigh them.",
+        "pt": "O novo sistema tem algumas desvantagens. Dito isso, os benefícios claramente as superam."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A balanced reply",
+    "falas": [
+      {
+        "personagem": "Opponent",
+        "voz": "a",
+        "en": "A four-day week is a beautiful idea, but factories need to run continuously. It simply wouldn't work.",
+        "pt": "A semana de quatro dias é uma ideia bonita, mas fábricas precisam rodar continuamente. Simplesmente não funcionaria."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "Admittedly, continuous production makes it more complicated. I won't deny that.",
+        "pt": "É verdade que a produção contínua complica mais. Não vou negar."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "However, nobody is suggesting that the factory should close one day a week. What we're suggesting is that each worker works four days.",
+        "pt": "No entanto, ninguém está sugerindo que a fábrica feche um dia por semana. O que sugerimos é que cada trabalhador trabalhe quatro dias."
+      },
+      {
+        "personagem": "Opponent",
+        "voz": "a",
+        "en": "But that means hiring more people.",
+        "pt": "Mas isso significa contratar mais gente."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "Granted, we would need about 15% more staff. While it's true that this costs money, lower absenteeism and turnover would compensate for most of it.",
+        "pt": "Certo, precisaríamos de uns 15% a mais de pessoal. Embora seja verdade que isso custa dinheiro, menos absenteísmo e rotatividade compensariam a maior parte."
+      },
+      {
+        "personagem": "Speaker",
+        "voz": "b",
+        "en": "So, in the long term, the benefits outweigh the costs.",
+        "pt": "Então, a longo prazo, os benefícios superam os custos."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the opponent's main argument?",
+        "opcoes": [
+          "Factories need to run continuously.",
+          "Workers don't want it.",
+          "It is illegal."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the speaker actually suggesting?",
+        "opcoes": [
+          "Each worker works four days.",
+          "The factory closes one day a week.",
+          "Everyone works less hours per day."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l2-e3",
+        "tipo": "multipla",
+        "enunciado": "How much more staff would they need?",
+        "opcoes": [
+          "5%",
+          "15%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u04l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What would compensate for most of the cost?",
+        "opcoes": [
+          "Lower absenteeism and turnover",
+          "Higher prices",
+          "Government help"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u04l2-p1",
+      "tipo": "completar",
+      "frase": "___, the initial cost is high. (é verdade que)",
+      "respostas": [
+        "Admittedly",
+        "Granted"
+      ]
+    },
+    {
+      "id": "c1u04l2-p2",
+      "tipo": "completar",
+      "frase": "While it's ___ that it's risky, the rewards are huge.",
+      "respostas": [
+        "true"
+      ]
+    },
+    {
+      "id": "c1u04l2-p3",
+      "tipo": "completar",
+      "frase": "The benefits ___ the costs. (superam)",
+      "respostas": [
+        "outweigh"
+      ]
+    },
+    {
+      "id": "c1u04l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Concessão + refutação:",
+      "opcoes": [
+        "Granted, it is expensive. However, it lasts longer.",
+        "It is expensive. And it is expensive.",
+        "Expensive, so no."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Concordo até certo ponto\":",
+      "opcoes": [
+        "I agree to some extent.",
+        "I agree in some extend.",
+        "I agree until a point some."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l2-p6",
+      "tipo": "ordenar",
+      "frase": "That said we need to be careful",
+      "traducao_pt": "Dito isso, precisamos ter cuidado"
+    },
+    {
+      "id": "c1u04l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "The main drawback is the cost."
+    },
+    {
+      "id": "c1u04l2-p8",
+      "tipo": "traduzir",
+      "pt": "A longo prazo, economiza dinheiro.",
+      "respostas": [
+        "In the long term, it saves money.",
+        "In the long run, it saves money."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai atacar a posição que você defendeu na última aula com 4 contra-argumentos fortes. Para cada um, conceda o que for justo e refute com um argumento melhor.",
+    "papel_professor": "Apresente 4 contra-argumentos fortes, um de cada vez. Exija concessão + refutação. Varie: Admittedly, Granted, While it's true, That said. Corrija e comente o equilíbrio.",
+    "abertura": "I disagree with your position. Let me give you my first objection.",
+    "abertura_pt": "Discordo da sua posição. Deixe-me dar minha primeira objeção."
+  },
+  "teste": [
+    {
+      "id": "c1u04l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Mesmo custando mais, dura mais\":",
+      "opcoes": [
+        "Even though it costs more, it lasts longer.",
+        "Even it costs more, lasts longer.",
+        "Despite it costs more, it lasts longer."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l2-t2",
+      "tipo": "completar",
+      "frase": "It is expensive. ___, it pays off. (ainda assim)",
+      "respostas": [
+        "Nonetheless",
+        "Nevertheless",
+        "Even so"
+      ]
+    },
+    {
+      "id": "c1u04l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Granted, it won't work for everyone.",
+      "aceitas": [
+        "Granted, it will not work for everyone."
+      ]
+    },
+    {
+      "id": "c1u04l2-t4",
+      "tipo": "traduzir",
+      "pt": "Os benefícios superam claramente as desvantagens.",
+      "respostas": [
+        "The benefits clearly outweigh the drawbacks.",
+        "The benefits clearly outweigh the disadvantages."
+      ]
+    },
+    {
+      "id": "c1u04l2-t5",
+      "tipo": "ordenar",
+      "frase": "Admittedly it is expensive but it pays off",
+      "traducao_pt": "É verdade que é caro, mas compensa"
+    }
+  ]
+}

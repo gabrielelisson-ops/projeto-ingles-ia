@@ -1,0 +1,360 @@
+{
+  "id": "c1-u04-l3",
+  "nivel": "C1",
+  "unidade": 4,
+  "numero": 3,
+  "titulo": "With all due respect…",
+  "objetivo_pt": "Discordar e contestar argumentos com firmeza e respeito (refutação, evidência fraca, falácias).",
+  "aquecimento": {
+    "situacao_pt": "O professor vai apresentar argumentos fracos ou falaciosos. Conteste-os com educação, apontando o problema.",
+    "papel_professor": "Apresente argumentos fracos (Everyone I know hates the new system, so it's bad. We've always done it this way. If we allow home office, nobody will work.). Ensine a contestar (With all due respect…, That doesn't necessarily follow…, Where's the evidence for that?). Corrija.",
+    "abertura": "We've always done it this way, and it has always worked. Why change?",
+    "abertura_pt": "Sempre fizemos assim, e sempre funcionou. Por que mudar?"
+  },
+  "vocabulario": [
+    {
+      "id": "due-respect",
+      "en": "With all due respect, …",
+      "pt": "Com todo o respeito, …",
+      "emoji": "🙇",
+      "exemplo_en": "With all due respect, I see it differently.",
+      "exemplo_pt": "Com todo o respeito, vejo diferente."
+    },
+    {
+      "id": "not-follow",
+      "en": "That doesn't necessarily follow",
+      "pt": "Uma coisa não leva necessariamente à outra",
+      "emoji": "🔗",
+      "exemplo_en": "That doesn't necessarily follow.",
+      "exemplo_pt": "Isso não decorre necessariamente."
+    },
+    {
+      "id": "where-evidence",
+      "en": "Where's the evidence for that?",
+      "pt": "Onde está a evidência disso?",
+      "emoji": "🔍",
+      "exemplo_en": "Where's the evidence for that claim?",
+      "exemplo_pt": "Onde está a evidência dessa afirmação?"
+    },
+    {
+      "id": "oversimplify",
+      "en": "I think you're oversimplifying",
+      "pt": "Acho que você está simplificando demais",
+      "emoji": "✂️",
+      "exemplo_en": "I think you're oversimplifying the issue.",
+      "exemplo_pt": "Acho que você está simplificando demais a questão."
+    },
+    {
+      "id": "miss-point",
+      "en": "That misses the point",
+      "pt": "Isso foge do ponto principal",
+      "emoji": "🎯",
+      "exemplo_en": "With respect, that misses the point.",
+      "exemplo_pt": "Com respeito, isso foge do ponto principal."
+    },
+    {
+      "id": "slippery",
+      "en": "slippery slope",
+      "pt": "argumento de ladeira escorregadia",
+      "emoji": "⛷️",
+      "exemplo_en": "That's a slippery slope argument.",
+      "exemplo_pt": "É um argumento de ladeira escorregadia."
+    },
+    {
+      "id": "anecdotal",
+      "en": "anecdotal evidence",
+      "pt": "evidência anedótica (casos isolados)",
+      "emoji": "🗨️",
+      "exemplo_en": "That's anecdotal evidence.",
+      "exemplo_pt": "Isso é evidência anedótica."
+    },
+    {
+      "id": "always-done",
+      "en": "We've always done it this way",
+      "pt": "Sempre fizemos assim",
+      "emoji": "🦕",
+      "exemplo_en": "'We've always done it this way' is not an argument.",
+      "exemplo_pt": "\"Sempre fizemos assim\" não é argumento."
+    },
+    {
+      "id": "take-point",
+      "en": "I take your point, but…",
+      "pt": "Entendo seu ponto, mas…",
+      "emoji": "👌",
+      "exemplo_en": "I take your point, but the data says otherwise.",
+      "exemplo_pt": "Entendo seu ponto, mas os dados dizem outra coisa."
+    },
+    {
+      "id": "counter-arg",
+      "en": "counter-argument",
+      "pt": "contra-argumento",
+      "emoji": "↩️",
+      "exemplo_en": "Let me offer a counter-argument.",
+      "exemplo_pt": "Deixe-me oferecer um contra-argumento."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Contestando argumentos",
+    "explicacao_pt": "Discordar com respeito no C1: suavize a forma, seja firme no conteúdo. INÍCIOS: With all due respect, … / I take your point, but… / I see it differently. APONTAR PROBLEMAS: That doesn't necessarily follow (falta lógica). / Where's the evidence for that? (falta prova) / I think you're oversimplifying (simplificação). / That's anecdotal evidence (caso isolado). / That's a slippery slope argument (exagero de consequência). / That misses the point (fuga do tema). OFERECER ALTERNATIVA: Let me offer a counter-argument. / Look at it another way: … Evite ataques pessoais (You don't know what you're talking about).",
+    "tabela": {
+      "colunas": [
+        "Problema",
+        "Como apontar",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Lógica fraca",
+          "That doesn't necessarily follow.",
+          "Costs rose, but that doesn't necessarily mean the project failed."
+        ],
+        [
+          "Sem prova",
+          "Where's the evidence for that?",
+          "Where's the evidence that robots cut jobs here?"
+        ],
+        [
+          "Caso isolado",
+          "That's anecdotal evidence.",
+          "One bad experience is anecdotal evidence."
+        ],
+        [
+          "Exagero",
+          "slippery slope",
+          "Allowing one day of home office won't lead to nobody working."
+        ],
+        [
+          "Tradição",
+          "'We've always done it' is not an argument.",
+          "Tradition alone is not an argument."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "With all due respect, 'we've always done it this way' is not a reason to keep doing it.",
+        "pt": "Com todo o respeito, \"sempre fizemos assim\" não é motivo para continuar fazendo."
+      },
+      {
+        "en": "I take your point, but two complaints are anecdotal evidence. Let's look at the full data.",
+        "pt": "Entendo seu ponto, mas duas reclamações são evidência anedótica. Vamos ver os dados completos."
+      },
+      {
+        "en": "Sales fell after the price increase, but that doesn't necessarily mean the increase caused it.",
+        "pt": "As vendas caíram depois do aumento de preço, mas isso não significa necessariamente que o aumento foi a causa."
+      },
+      {
+        "en": "I think you're oversimplifying. The problem has at least three causes.",
+        "pt": "Acho que você está simplificando demais. O problema tem pelo menos três causas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A heated discussion",
+    "falas": [
+      {
+        "personagem": "Manager A",
+        "voz": "a",
+        "en": "If we allow operators to stop the line whenever they see a problem, they'll stop it all the time and we'll never produce anything.",
+        "pt": "Se permitirmos que operadores parem a linha sempre que virem um problema, vão parar o tempo todo e nunca vamos produzir nada."
+      },
+      {
+        "personagem": "Manager B",
+        "voz": "b",
+        "en": "With all due respect, that's a slippery slope argument. Where's the evidence that they would abuse it?",
+        "pt": "Com todo o respeito, é um argumento de ladeira escorregadia. Onde está a evidência de que abusariam?"
+      },
+      {
+        "personagem": "Manager A",
+        "voz": "a",
+        "en": "Well, my brother-in-law's company tried it and it was a disaster.",
+        "pt": "Bom, a empresa do meu cunhado tentou e foi um desastre."
+      },
+      {
+        "personagem": "Manager B",
+        "voz": "b",
+        "en": "I take your point, but that's anecdotal evidence. Toyota has done it for decades, and studies show that stops actually decrease over time.",
+        "pt": "Entendo seu ponto, mas isso é evidência anedótica. A Toyota faz isso há décadas, e estudos mostram que as paradas na verdade diminuem com o tempo."
+      },
+      {
+        "personagem": "Manager A",
+        "voz": "a",
+        "en": "Toyota is different. We've always done it our way.",
+        "pt": "A Toyota é diferente. Sempre fizemos do nosso jeito."
+      },
+      {
+        "personagem": "Manager B",
+        "voz": "b",
+        "en": "I understand, but 'we've always done it this way' isn't an argument. Why don't we test it on one line for three months and look at the data?",
+        "pt": "Entendo, mas \"sempre fizemos assim\" não é argumento. Por que não testamos numa linha por três meses e olhamos os dados?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u04l3-e1",
+        "tipo": "multipla",
+        "enunciado": "What is Manager A afraid of?",
+        "opcoes": [
+          "Operators will stop the line all the time.",
+          "Operators will quit.",
+          "Quality will improve."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l3-e2",
+        "tipo": "multipla",
+        "enunciado": "What kind of argument is it, according to Manager B?",
+        "opcoes": [
+          "A slippery slope argument",
+          "A sound argument",
+          "A financial argument"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What is Manager A's evidence?",
+        "opcoes": [
+          "His brother-in-law's company",
+          "A study",
+          "Toyota's data"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u04l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What does Manager B propose?",
+        "opcoes": [
+          "A three-month test on one line",
+          "Doing nothing",
+          "Copying Toyota completely"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "c1u04l3-p1",
+      "tipo": "completar",
+      "frase": "With all due ___, I see it differently.",
+      "respostas": [
+        "respect"
+      ]
+    },
+    {
+      "id": "c1u04l3-p2",
+      "tipo": "completar",
+      "frase": "Where's the ___ for that? (evidência)",
+      "respostas": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "c1u04l3-p3",
+      "tipo": "completar",
+      "frase": "I take your ___, but the data says otherwise.",
+      "respostas": [
+        "point"
+      ]
+    },
+    {
+      "id": "c1u04l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Discordar com respeito:",
+      "opcoes": [
+        "With all due respect, I see it differently.",
+        "You don't know what you're talking about.",
+        "That's stupid."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l3-p5",
+      "tipo": "multipla",
+      "enunciado": "Um caso isolado como prova é…",
+      "opcoes": [
+        "anecdotal evidence",
+        "sound evidence",
+        "statistical evidence"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l3-p6",
+      "tipo": "ordenar",
+      "frase": "I think you're oversimplifying the issue",
+      "traducao_pt": "Acho que você está simplificando demais a questão"
+    },
+    {
+      "id": "c1u04l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "That doesn't necessarily follow.",
+      "aceitas": [
+        "That does not necessarily follow."
+      ]
+    },
+    {
+      "id": "c1u04l3-p8",
+      "tipo": "traduzir",
+      "pt": "Deixe-me oferecer um contra-argumento.",
+      "respostas": [
+        "Let me offer a counter-argument.",
+        "Let me offer a counterargument."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai defender uma posição com 4 argumentos fracos (tradição, caso isolado, exagero, simplificação). Identifique o problema de cada um e conteste com respeito e firmeza.",
+    "papel_professor": "Use argumentos falaciosos de propósito, um de cada vez. O aluno identifica e contesta. Fique um pouco defensivo para o aluno manter o respeito. Corrija e elogie a precisão.",
+    "abertura": "In my opinion, we shouldn't hire young people for leadership positions. They're all lazy — I had a young assistant once and it was terrible.",
+    "abertura_pt": "Na minha opinião, não deveríamos contratar jovens para cargos de liderança. São todos preguiçosos — tive um assistente jovem uma vez e foi péssimo."
+  },
+  "teste": [
+    {
+      "id": "c1u04l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Sempre fizemos assim\" é…",
+      "opcoes": [
+        "um apelo à tradição, não um argumento",
+        "uma evidência estatística",
+        "um argumento sólido"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "c1u04l3-t2",
+      "tipo": "completar",
+      "frase": "With respect, that ___ the point. (foge)",
+      "respostas": [
+        "misses"
+      ]
+    },
+    {
+      "id": "c1u04l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "That's anecdotal evidence.",
+      "aceitas": [
+        "That is anecdotal evidence."
+      ]
+    },
+    {
+      "id": "c1u04l3-t4",
+      "tipo": "traduzir",
+      "pt": "Onde está a evidência dessa afirmação?",
+      "respostas": [
+        "Where's the evidence for that claim?",
+        "Where is the evidence for that claim?"
+      ]
+    },
+    {
+      "id": "c1u04l3-t5",
+      "tipo": "ordenar",
+      "frase": "That's a slippery slope argument",
+      "traducao_pt": "É um argumento de ladeira escorregadia"
+    }
+  ]
+}

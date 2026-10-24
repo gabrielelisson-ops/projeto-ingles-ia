@@ -1,0 +1,259 @@
+{
+  "id": "c1-u03-prova",
+  "nivel": "C1",
+  "unidade": 3,
+  "titulo": "Prova da Unidade 3 (C1) — Presentations",
+  "leitura": {
+    "texto": "THE TEN-MINUTE RULE\nAccording to research on attention, most audiences start to lose focus after about ten minutes. 'This doesn't mean your presentation has to be ten minutes long,' explains presentation coach Renata Vieira. 'It means that every ten minutes you need to re-engage your audience — with a question, a story, a striking figure or a change of activity.'\nVieira, who trains managers at several multinationals in Brazil, believes that most technical presentations fail for the same reason: too much data and too little structure. 'Engineers love numbers. But the audience doesn't remember numbers; it remembers messages. Before you prepare a single slide, you should be able to say your key message in one sentence.'\nShe also stresses the importance of signposting. 'In a written report, readers can go back. In a presentation, they can't. Phrases like \"This brings me to…\" or \"So, to sum up this section…\" are not decoration. They're the map that stops people getting lost.'\nWhen it comes to questions, her advice is simple: never invent an answer. 'Saying \"I don't have that figure with me, but I'll get back to you by Friday\" builds trust. Inventing a number destroys it.'\nFinally, she warns against weak endings. 'The last thing many presenters say is \"That's all\". What a waste! The end is when your audience is most attentive. Use it for your key message and a clear call to action.'",
+    "perguntas": [
+      {
+        "id": "c1u03pv-l1",
+        "tipo": "multipla",
+        "enunciado": "When do audiences start to lose focus?",
+        "opcoes": [
+          "After about five minutes",
+          "After about ten minutes",
+          "After about thirty minutes"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What does the ten-minute rule mean?",
+        "opcoes": [
+          "You need to re-engage the audience every ten minutes.",
+          "Presentations must be ten minutes long.",
+          "You should stop every ten minutes."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l3",
+        "tipo": "multipla",
+        "enunciado": "Why do most technical presentations fail?",
+        "opcoes": [
+          "Too much data and too little structure",
+          "Too many stories",
+          "Bad slides"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l4",
+        "tipo": "multipla",
+        "enunciado": "What should you do before preparing slides?",
+        "opcoes": [
+          "Say your key message in one sentence",
+          "Collect more data",
+          "Choose the colors"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l5",
+        "tipo": "multipla",
+        "enunciado": "Why is signposting important in presentations?",
+        "opcoes": [
+          "Listeners can't go back like readers can.",
+          "It makes the talk longer.",
+          "It is decoration."
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l6",
+        "tipo": "multipla",
+        "enunciado": "What should you do if you don't know an answer?",
+        "opcoes": [
+          "Say you will get back to them",
+          "Invent a number",
+          "Change the subject"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What do many presenters say at the end?",
+        "opcoes": [
+          "That's all.",
+          "Thank you for your attention.",
+          "Any questions?"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-l8",
+        "tipo": "multipla",
+        "enunciado": "Why is the end important?",
+        "opcoes": [
+          "The audience is most attentive.",
+          "People are tired.",
+          "It is the shortest part."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "Good morning, everyone. Let me start with a striking figure: last year, we spent 1.2 million reais on overtime.",
+        "pt": "Bom dia a todos. Deixem-me começar com um número impressionante: ano passado, gastamos 1,2 milhão de reais em horas extras."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "The purpose of today's talk is to show how a new shift system could reduce that by 40%.",
+        "pt": "O objetivo da apresentação de hoje é mostrar como um novo sistema de turnos poderia reduzir isso em 40%."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "I've divided my talk into three parts: the current situation, the proposal and the risks.",
+        "pt": "Dividi minha apresentação em três partes: a situação atual, a proposta e os riscos."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "…As you can see on this graph, most overtime happens at the end of each month. This brings me to our proposal.",
+        "pt": "…Como vocês podem ver neste gráfico, a maior parte das horas extras acontece no fim de cada mês. Isso me leva à nossa proposta."
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "…The introduction of a flexible fourth shift would lead to a significant reduction in overtime costs.",
+        "pt": "…A introdução de um quarto turno flexível levaria a uma redução significativa dos custos de horas extras."
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Sorry, if I understand correctly, you're saying we would hire more people?",
+        "pt": "Desculpe, se entendi bem, você está dizendo que contrataríamos mais pessoas?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "That's a good question. Yes, twelve people, but the total cost would still be lower. Does that answer your question?",
+        "pt": "Ótima pergunta. Sim, doze pessoas, mas o custo total ainda seria menor. Isso responde sua pergunta?"
+      },
+      {
+        "personagem": "Presenter",
+        "voz": "a",
+        "en": "…So, what I'm asking you today is to approve a six-month trial. Thank you for your attention.",
+        "pt": "…Então, o que estou pedindo hoje é que aprovem um teste de seis meses. Obrigado pela atenção."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "c1u03pv-e1",
+        "tipo": "multipla",
+        "enunciado": "How much did they spend on overtime last year?",
+        "opcoes": [
+          "120,000 reais",
+          "1.2 million reais",
+          "12 million reais"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03pv-e2",
+        "tipo": "multipla",
+        "enunciado": "By how much could the new system reduce overtime?",
+        "opcoes": [
+          "14%",
+          "40%",
+          "60%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03pv-e3",
+        "tipo": "multipla",
+        "enunciado": "When does most overtime happen?",
+        "opcoes": [
+          "At the end of each month",
+          "On weekends",
+          "At night"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the proposal?",
+        "opcoes": [
+          "A flexible fourth shift",
+          "Banning overtime",
+          "Closing on Sundays"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-e5",
+        "tipo": "multipla",
+        "enunciado": "How many people would they hire?",
+        "opcoes": [
+          "Two",
+          "Twelve",
+          "Twenty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "c1u03pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is the presenter asking for?",
+        "opcoes": [
+          "Approval for a six-month trial",
+          "More budget",
+          "A new graph"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "c1u03pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "As you can see on this graph, most overtime happens at the end of each month."
+      },
+      {
+        "id": "c1u03pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "What I'm asking you today is to approve a six-month trial.",
+        "aceitas": [
+          "What I am asking you today is to approve a six-month trial."
+        ]
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "c1u03pv-w1",
+      "instrucao_pt": "Escreva a abertura e o encerramento de uma apresentação sobre uma proposta do seu trabalho (gancho, objetivo, roteiro, recapitulação, mensagem e chamada para ação).",
+      "min_frases": 6,
+      "max_frases": 8
+    },
+    {
+      "id": "c1u03pv-w2",
+      "instrucao_pt": "Escreva um resumo executivo de um projeto em estilo nominal (implementation, reduction, an increase in, led to).",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "c1u03pv-s1",
+      "pergunta_en": "Give the opening of a presentation about an improvement in your company.",
+      "instrucao_pt": "Abra em voz alta com gancho, objetivo e roteiro."
+    },
+    {
+      "id": "c1u03pv-s2",
+      "pergunta_en": "A director asks: 'How can you be sure these savings are real?' Answer, and then close your presentation.",
+      "instrucao_pt": "Responda com as técnicas de Q&A e encerre com força."
+    }
+  ],
+  "foco_avaliacao": "Nível C1. Estrutura de apresentação (abertura com gancho, objetivo, roteiro), signposting (Moving on to…, This brings me to…, As you can see…, I'd like to highlight…), nominalização (implementation, reduction, an increase in, lead to/result in), lidar com perguntas (If I understand correctly…, I'll get back to you, outside the scope), encerramento (recap, key message, call to action, open the floor)."
+}
