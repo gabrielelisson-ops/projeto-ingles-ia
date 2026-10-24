@@ -1,0 +1,361 @@
+{
+  "id": "b2-u07-l3",
+  "nivel": "B2",
+  "unidade": 7,
+  "numero": 3,
+  "titulo": "Formal or informal?",
+  "objetivo_pt": "Adaptar o registro: trocar palavras e estruturas informais por formais.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dizer frases informais. Reescreva-as de forma formal, como num e-mail para um diretor ou cliente.",
+    "papel_professor": "Dê frases informais (We need to fix this ASAP. Can you get back to me? Sorry about the mess.) e peça versões formais. Ensine os pares verbais (get → receive, need → require, help → assist). Corrija.",
+    "abertura": "Make this formal: 'Hi, just checking if you got my e-mail. Can you get back to me soon?'",
+    "abertura_pt": "Deixe formal: \"Oi, só conferindo se você recebeu meu e-mail. Pode me responder logo?\""
+  },
+  "vocabulario": [
+    {
+      "id": "receive",
+      "en": "get → receive",
+      "pt": "receber",
+      "emoji": "📥",
+      "exemplo_en": "We have received your order.",
+      "exemplo_pt": "Recebemos seu pedido."
+    },
+    {
+      "id": "require",
+      "en": "need → require",
+      "pt": "necessitar / exigir",
+      "emoji": "📋",
+      "exemplo_en": "This position requires experience.",
+      "exemplo_pt": "Este cargo exige experiência."
+    },
+    {
+      "id": "assist",
+      "en": "help → assist",
+      "pt": "auxiliar / ajudar",
+      "emoji": "🤝",
+      "exemplo_en": "Could you assist us with this matter?",
+      "exemplo_pt": "Poderia nos auxiliar com este assunto?"
+    },
+    {
+      "id": "inform",
+      "en": "tell → inform",
+      "pt": "informar",
+      "emoji": "📢",
+      "exemplo_en": "We would like to inform you that…",
+      "exemplo_pt": "Gostaríamos de informá-lo que…"
+    },
+    {
+      "id": "request",
+      "en": "ask for → request",
+      "pt": "solicitar",
+      "emoji": "🙋",
+      "exemplo_en": "We request a meeting next week.",
+      "exemplo_pt": "Solicitamos uma reunião semana que vem."
+    },
+    {
+      "id": "purchase",
+      "en": "buy → purchase",
+      "pt": "adquirir / comprar",
+      "emoji": "🛒",
+      "exemplo_en": "We purchased three new machines.",
+      "exemplo_pt": "Adquirimos três máquinas novas."
+    },
+    {
+      "id": "obtain",
+      "en": "get → obtain",
+      "pt": "obter",
+      "emoji": "🎯",
+      "exemplo_en": "We obtained the certification in May.",
+      "exemplo_pt": "Obtivemos a certificação em maio."
+    },
+    {
+      "id": "apologise",
+      "en": "say sorry → apologise for",
+      "pt": "pedir desculpas por",
+      "emoji": "🙇",
+      "exemplo_en": "We apologise for any inconvenience.",
+      "exemplo_pt": "Pedimos desculpas por qualquer inconveniente."
+    },
+    {
+      "id": "approximately-l3",
+      "en": "about → approximately",
+      "pt": "aproximadamente",
+      "emoji": "≈",
+      "exemplo_en": "Approximately 200 units were affected.",
+      "exemplo_pt": "Aproximadamente 200 unidades foram afetadas."
+    },
+    {
+      "id": "commence",
+      "en": "start → commence / begin",
+      "pt": "iniciar",
+      "emoji": "▶️",
+      "exemplo_en": "Production will commence in March.",
+      "exemplo_pt": "A produção será iniciada em março."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Registro formal",
+    "explicacao_pt": "Para escrever de forma formal: 1) VERBOS MAIS FORMAIS (muitas vezes de origem latina, parecidos com o português!): get → receive/obtain, need → require, help → assist, tell → inform, ask for → request, buy → purchase, start → commence, end → conclude. 2) SEM CONTRAÇÕES: do not, we are, it is. 3) SEM PHRASAL VERBS informais: find out → discover, look into → investigate, put off → postpone. 4) PASSIVA e frases impessoais: It was decided that… / Mistakes were found. 5) Sem gírias, abreviações (ASAP → as soon as possible) e exclamações.",
+    "tabela": {
+      "colunas": [
+        "Informal",
+        "Formal",
+        "Português"
+      ],
+      "linhas": [
+        [
+          "We got your e-mail.",
+          "We have received your e-mail.",
+          "Recebemos seu e-mail."
+        ],
+        [
+          "We need more info.",
+          "We require further information.",
+          "Necessitamos de mais informações."
+        ],
+        [
+          "We'll look into it.",
+          "We will investigate the matter.",
+          "Vamos investigar o assunto."
+        ],
+        [
+          "We've put off the meeting.",
+          "The meeting has been postponed.",
+          "A reunião foi adiada."
+        ],
+        [
+          "Sorry about the delay.",
+          "We apologise for the delay.",
+          "Pedimos desculpas pelo atraso."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "We would like to inform you that the meeting has been postponed until 15 March.",
+        "pt": "Gostaríamos de informá-lo que a reunião foi adiada para 15 de março."
+      },
+      {
+        "en": "We are currently investigating the cause of the problem.",
+        "pt": "Estamos investigando a causa do problema."
+      },
+      {
+        "en": "Approximately 300 units were affected. We apologise for any inconvenience caused.",
+        "pt": "Aproximadamente 300 unidades foram afetadas. Pedimos desculpas por qualquer inconveniente causado."
+      },
+      {
+        "en": "Should you require any further information, please do not hesitate to contact us.",
+        "pt": "Caso necessite de mais informações, fique à vontade para nos contatar."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Rewriting an e-mail",
+    "falas": [
+      {
+        "personagem": "Trainee",
+        "voz": "a",
+        "en": "Can you check my e-mail to the director before I send it?",
+        "pt": "Pode conferir meu e-mail para a diretora antes de eu mandar?"
+      },
+      {
+        "personagem": "Mentor",
+        "voz": "b",
+        "en": "Sure. 'Hi Sandra, we got a big problem with line 2.' Hmm, that's a bit informal.",
+        "pt": "Claro. \"Oi Sandra, a gente tem um baita problema na linha 2.\" Hmm, está um pouco informal."
+      },
+      {
+        "personagem": "Mentor",
+        "voz": "b",
+        "en": "Try: 'Dear Sandra, I am writing to inform you of a serious problem on line 2.'",
+        "pt": "Tente: \"Prezada Sandra, escrevo para informá-la de um problema sério na linha 2.\""
+      },
+      {
+        "personagem": "Trainee",
+        "voz": "a",
+        "en": "OK. And here: 'We're looking into it and we'll fix it ASAP.'",
+        "pt": "OK. E aqui: \"A gente está vendo isso e vai resolver o quanto antes.\""
+      },
+      {
+        "personagem": "Mentor",
+        "voz": "b",
+        "en": "Better: 'We are currently investigating the cause and will solve it as soon as possible.'",
+        "pt": "Melhor: \"Estamos investigando a causa e vamos resolvê-la o mais rápido possível.\""
+      },
+      {
+        "personagem": "Trainee",
+        "voz": "a",
+        "en": "And the end? I wrote 'Thanks a lot! Talk soon!'",
+        "pt": "E o final? Escrevi \"Valeu! Até logo!\""
+      },
+      {
+        "personagem": "Mentor",
+        "voz": "b",
+        "en": "For the director, 'I will keep you informed. Kind regards' is more appropriate.",
+        "pt": "Para a diretora, \"Vou mantê-la informada. Atenciosamente\" é mais adequado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07l3-e1",
+        "tipo": "multipla",
+        "enunciado": "Who is the e-mail for?",
+        "opcoes": [
+          "The director",
+          "A client",
+          "A friend"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l3-e2",
+        "tipo": "multipla",
+        "enunciado": "Where is the problem?",
+        "opcoes": [
+          "On line 2",
+          "In the warehouse",
+          "In the office"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l3-e3",
+        "tipo": "multipla",
+        "enunciado": "What is a more formal way to say 'looking into it'?",
+        "opcoes": [
+          "Investigating",
+          "Watching",
+          "Seeing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l3-e4",
+        "tipo": "multipla",
+        "enunciado": "What closing does the mentor suggest?",
+        "opcoes": [
+          "I will keep you informed. Kind regards",
+          "Thanks a lot! Talk soon!",
+          "Bye!"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u07l3-p1",
+      "tipo": "completar",
+      "frase": "We have ___ your order. (recebemos)",
+      "respostas": [
+        "received"
+      ]
+    },
+    {
+      "id": "b2u07l3-p2",
+      "tipo": "completar",
+      "frase": "Could you ___ us with this matter? (auxiliar)",
+      "respostas": [
+        "assist"
+      ]
+    },
+    {
+      "id": "b2u07l3-p3",
+      "tipo": "completar",
+      "frase": "We ___ for any inconvenience. (pedimos desculpas)",
+      "respostas": [
+        "apologise",
+        "apologize"
+      ]
+    },
+    {
+      "id": "b2u07l3-p4",
+      "tipo": "multipla",
+      "enunciado": "Mais formal:",
+      "opcoes": [
+        "We'll look into it.",
+        "We will investigate the matter."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u07l3-p5",
+      "tipo": "multipla",
+      "enunciado": "\"A reunião foi adiada\":",
+      "opcoes": [
+        "The meeting has been postponed.",
+        "We've put off the meeting.",
+        "The meeting got moved later."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l3-p6",
+      "tipo": "ordenar",
+      "frase": "This position requires experience",
+      "traducao_pt": "Este cargo exige experiência"
+    },
+    {
+      "id": "b2u07l3-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Approximately 200 units were affected."
+    },
+    {
+      "id": "b2u07l3-p8",
+      "tipo": "traduzir",
+      "pt": "A produção será iniciada em março.",
+      "respostas": [
+        "Production will commence in March.",
+        "Production will begin in March.",
+        "Production will start in March."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "O professor vai ditar um e-mail muito informal (com gírias, contrações e phrasal verbs). Reescreva-o oralmente em registro formal, frase por frase.",
+    "papel_professor": "Dite um e-mail informal (Hey guys, we got the parts but loads are broken. Gonna need new ones ASAP. Can you sort it out? Cheers!). O aluno reescreve formalmente. Corrija e sugira alternativas.",
+    "abertura": "Here's the e-mail: 'Hey guys! We got the parts yesterday but loads of them are broken.' How would you write that formally?",
+    "abertura_pt": "Aqui está o e-mail: \"E aí, pessoal! Recebemos as peças ontem mas um monte está quebrado.\" Como você escreveria isso formalmente?"
+  },
+  "teste": [
+    {
+      "id": "b2u07l3-t1",
+      "tipo": "multipla",
+      "enunciado": "\"buy\" formal:",
+      "opcoes": [
+        "purchase",
+        "shop",
+        "take"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l3-t2",
+      "tipo": "completar",
+      "frase": "We would like to ___ you that the price has changed. (informar)",
+      "respostas": [
+        "inform"
+      ]
+    },
+    {
+      "id": "b2u07l3-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "We request a meeting next week."
+    },
+    {
+      "id": "b2u07l3-t4",
+      "tipo": "traduzir",
+      "pt": "Obtivemos a certificação em maio.",
+      "respostas": [
+        "We obtained the certification in May.",
+        "We obtained the certificate in May."
+      ]
+    },
+    {
+      "id": "b2u07l3-t5",
+      "tipo": "ordenar",
+      "frase": "We are currently investigating the cause",
+      "traducao_pt": "Estamos investigando a causa no momento"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "b2-u08-prova",
+  "nivel": "B2",
+  "unidade": 8,
+  "titulo": "Prova da Unidade 8 (B2) — Continuous improvement",
+  "leitura": {
+    "texto": "FROM CHAOS TO KAIZEN: ONE PLANT'S JOURNEY\nThree years ago, the Vale Azul paint factory had an OEE of only 58%. Machines broke down every week, the warehouse was a mess and nobody knew where the tools were.\nThe new plant manager, Rafael Okada, decided to start small. 'In the first six months, we didn't buy a single machine. We focused on 5S. We had every area cleaned and organized, and we created standard work for every station.' The results were immediate: the time operators spent looking for tools fell by 75%.\nIn the second year, the plant ran a kaizen event every month. Operators suggested more than 400 ideas, and 60% of them were implemented. 'People started to believe that their ideas mattered,' says Okada.\nThe plant also changed its maintenance strategy. Instead of repairing machines after they failed, the team started preventive maintenance. Some specialized work, like servicing the mixers, is now outsourced. 'We have the mixers serviced by the manufacturer every six months. It's more cost-effective.'\nToday, OEE is 79%. By the end of next year, Okada expects that the plant will have reached 85%, and the team will be testing a new automated filling line. 'The hardest part is not improving. It's sustaining the results. That's why we review our KPIs every week.'",
+    "perguntas": [
+      {
+        "id": "b2u08pv-l1",
+        "tipo": "multipla",
+        "enunciado": "What was the OEE three years ago?",
+        "opcoes": [
+          "58%",
+          "68%",
+          "79%"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-l2",
+        "tipo": "multipla",
+        "enunciado": "What did they focus on in the first six months?",
+        "opcoes": [
+          "5S",
+          "Buying machines",
+          "Hiring people"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-l3",
+        "tipo": "multipla",
+        "enunciado": "By how much did the time looking for tools fall?",
+        "opcoes": [
+          "25%",
+          "60%",
+          "75%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u08pv-l4",
+        "tipo": "multipla",
+        "enunciado": "How often did they run kaizen events in the second year?",
+        "opcoes": [
+          "Every week",
+          "Every month",
+          "Every year"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08pv-l5",
+        "tipo": "multipla",
+        "enunciado": "What percentage of the ideas were implemented?",
+        "opcoes": [
+          "40%",
+          "60%",
+          "75%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08pv-l6",
+        "tipo": "multipla",
+        "enunciado": "Who services the mixers?",
+        "opcoes": [
+          "The manufacturer",
+          "The operators",
+          "Rafael"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-l7",
+        "tipo": "multipla",
+        "enunciado": "What OEE does Okada expect by the end of next year?",
+        "opcoes": [
+          "79%",
+          "80%",
+          "85%"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u08pv-l8",
+        "tipo": "multipla",
+        "enunciado": "According to Okada, what is the hardest part?",
+        "opcoes": [
+          "Sustaining the results",
+          "Improving",
+          "Buying machines"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "escuta": {
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "So, where will we be with the warehouse project by the end of March?",
+        "pt": "Então, onde estaremos com o projeto do armazém até o fim de março?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "By March, we'll have finished the 5S in all areas and we'll have labeled every shelf.",
+        "pt": "Até março, teremos terminado o 5S em todas as áreas e etiquetado todas as prateleiras."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And in April?",
+        "pt": "E em abril?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "In April, we'll be testing the new scanners. We're having them installed by the supplier next week.",
+        "pt": "Em abril, estaremos testando os novos leitores. O fornecedor vai instalá-los semana que vem."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Will you be needing any extra people?",
+        "pt": "Vocês vão precisar de pessoal extra?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "Two temporary workers for the inventory count. By the time the auditors arrive in May, the whole stock will have been counted.",
+        "pt": "Dois temporários para a contagem de inventário. Quando os auditores chegarem em maio, todo o estoque terá sido contado."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Any risks?",
+        "pt": "Algum risco?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "If the scanners arrive late, we won't have finished the tests by the end of April.",
+        "pt": "Se os leitores atrasarem, não teremos terminado os testes até o fim de abril."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08pv-e1",
+        "tipo": "multipla",
+        "enunciado": "What will they have finished by March?",
+        "opcoes": [
+          "The 5S in all areas",
+          "The scanner tests",
+          "The inventory count"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-e2",
+        "tipo": "multipla",
+        "enunciado": "What will they be doing in April?",
+        "opcoes": [
+          "Testing the new scanners",
+          "Painting the warehouse",
+          "Hiring people"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-e3",
+        "tipo": "multipla",
+        "enunciado": "Who will install the scanners?",
+        "opcoes": [
+          "The supplier",
+          "The project team",
+          "The auditors"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-e4",
+        "tipo": "multipla",
+        "enunciado": "How many temporary workers will they need?",
+        "opcoes": [
+          "One",
+          "Two",
+          "Five"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08pv-e5",
+        "tipo": "multipla",
+        "enunciado": "When will the auditors arrive?",
+        "opcoes": [
+          "In March",
+          "In April",
+          "In May"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u08pv-e6",
+        "tipo": "multipla",
+        "enunciado": "What is the risk?",
+        "opcoes": [
+          "The scanners arriving late",
+          "The auditors coming early",
+          "Lack of money"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08pv-e7",
+        "tipo": "ouvir_escrever",
+        "audio": "In April, we'll be testing the new scanners.",
+        "aceitas": [
+          "In April, we will be testing the new scanners."
+        ]
+      },
+      {
+        "id": "b2u08pv-e8",
+        "tipo": "ouvir_escrever",
+        "audio": "By the time the auditors arrive, the whole stock will have been counted."
+      }
+    ]
+  },
+  "escrita": [
+    {
+      "id": "b2u08pv-w1",
+      "instrucao_pt": "Escreva o plano de um projeto de melhoria: o que estará sendo feito e o que já terá sido feito em cada etapa (future continuous e future perfect).",
+      "min_frases": 5,
+      "max_frases": 7
+    },
+    {
+      "id": "b2u08pv-w2",
+      "instrucao_pt": "Explique uma ferramenta de melhoria (5S, kaizen, PDCA ou FMEA) e quais serviços da sua empresa são feitos internamente e quais são terceirizados (causativo).",
+      "min_frases": 5,
+      "max_frases": 7
+    }
+  ],
+  "fala": [
+    {
+      "id": "b2u08pv-s1",
+      "pergunta_en": "Present a short improvement roadmap for your area for the next two years.",
+      "instrucao_pt": "Apresente em voz alta usando os tempos do futuro."
+    },
+    {
+      "id": "b2u08pv-s2",
+      "pergunta_en": "Describe an improvement project you know (or imagine one). What was done, and what were the results?",
+      "instrucao_pt": "Use a passiva, o causativo e vocabulário de melhoria contínua."
+    }
+  ],
+  "foco_avaliacao": "Nível B2. Future continuous (will be + -ing; perguntas educadas), future perfect (will have + pp, by, passiva will have been + pp), contraste entre os futuros, causativo (have/get something done em vários tempos; outsource, in-house), vocabulário de melhoria contínua (PDCA, kaizen, 5S, FMEA, standard work, quick win, sustain, baseline, roadmap)."
+}

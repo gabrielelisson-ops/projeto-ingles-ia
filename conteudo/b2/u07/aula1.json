@@ -1,0 +1,354 @@
+{
+  "id": "b2-u07-l1",
+  "nivel": "B2",
+  "unidade": 7,
+  "numero": 1,
+  "titulo": "Dear Mr. Silva",
+  "objetivo_pt": "Escrever e-mails formais: abertura, motivo, pedido e fechamento.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai pedir que você \"dite\" um e-mail formal para um cliente. Comece pela saudação e diga o motivo do e-mail.",
+    "papel_professor": "Peça a estrutura de um e-mail formal (Dear…, I am writing to…, I would be grateful if…, Kind regards). Contraste com informal (Hi…, Just wanted to…, Cheers). Corrija registro.",
+    "abertura": "You need to write to a client you've never met to introduce yourself. How would you start the e-mail?",
+    "abertura_pt": "Você precisa escrever para um cliente que nunca encontrou para se apresentar. Como começaria o e-mail?"
+  },
+  "vocabulario": [
+    {
+      "id": "dear",
+      "en": "Dear Mr./Ms. …",
+      "pt": "Prezado(a) Sr./Sra. …",
+      "emoji": "✉️",
+      "exemplo_en": "Dear Ms. Costa,",
+      "exemplo_pt": "Prezada Sra. Costa,"
+    },
+    {
+      "id": "writing-to",
+      "en": "I am writing to…",
+      "pt": "Escrevo para…",
+      "emoji": "📝",
+      "exemplo_en": "I am writing to confirm our meeting.",
+      "exemplo_pt": "Escrevo para confirmar nossa reunião."
+    },
+    {
+      "id": "regarding",
+      "en": "regarding / with regard to",
+      "pt": "referente a / com relação a",
+      "emoji": "📌",
+      "exemplo_en": "I am writing with regard to your order.",
+      "exemplo_pt": "Escrevo com relação ao seu pedido."
+    },
+    {
+      "id": "grateful",
+      "en": "I would be grateful if…",
+      "pt": "Ficaria grato se…",
+      "emoji": "🙏",
+      "exemplo_en": "I would be grateful if you could reply by Friday.",
+      "exemplo_pt": "Ficaria grato se pudesse responder até sexta."
+    },
+    {
+      "id": "please-find",
+      "en": "Please find attached…",
+      "pt": "Segue em anexo…",
+      "emoji": "📎",
+      "exemplo_en": "Please find attached the invoice.",
+      "exemplo_pt": "Segue em anexo a nota fiscal."
+    },
+    {
+      "id": "hesitate",
+      "en": "Please do not hesitate to contact me",
+      "pt": "Fico à disposição",
+      "emoji": "📞",
+      "exemplo_en": "Please do not hesitate to contact me if you have any questions.",
+      "exemplo_pt": "Fico à disposição para quaisquer dúvidas."
+    },
+    {
+      "id": "kind-regards",
+      "en": "Kind regards / Best regards",
+      "pt": "Atenciosamente",
+      "emoji": "🖊️",
+      "exemplo_en": "Kind regards, Gabriel",
+      "exemplo_pt": "Atenciosamente, Gabriel"
+    },
+    {
+      "id": "yours-sincerely",
+      "en": "Yours sincerely / Yours faithfully",
+      "pt": "Atenciosamente (muito formal)",
+      "emoji": "📜",
+      "exemplo_en": "Yours sincerely, Ana Lopes",
+      "exemplo_pt": "Atenciosamente, Ana Lopes"
+    },
+    {
+      "id": "to-whom",
+      "en": "To whom it may concern",
+      "pt": "A quem possa interessar",
+      "emoji": "🗂️",
+      "exemplo_en": "To whom it may concern,",
+      "exemplo_pt": "A quem possa interessar,"
+    },
+    {
+      "id": "further",
+      "en": "further information",
+      "pt": "mais informações",
+      "emoji": "ℹ️",
+      "exemplo_en": "For further information, please visit our website.",
+      "exemplo_pt": "Para mais informações, visite nosso site."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Estrutura do e-mail formal",
+    "explicacao_pt": "1) SAUDAÇÃO: Dear Mr./Ms. + sobrenome, (ou Dear Sir or Madam, / To whom it may concern, se não souber o nome). 2) MOTIVO: I am writing to + verbo / with regard to + subst. 3) CORPO: frases completas, sem contrações (I am, not I'm), vocabulário formal. 4) PEDIDO: I would be grateful if you could… / Could you please…? 5) FECHAMENTO: Please do not hesitate to contact me… / I look forward to hearing from you. 6) DESPEDIDA: Kind regards, / Best regards, (padrão); Yours sincerely (sabe o nome) / Yours faithfully (não sabe o nome) — muito formal.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Informal",
+        "Formal"
+      ],
+      "linhas": [
+        [
+          "Saudação",
+          "Hi Paulo,",
+          "Dear Mr. Lima,"
+        ],
+        [
+          "Motivo",
+          "Just wanted to ask…",
+          "I am writing to enquire about…"
+        ],
+        [
+          "Pedido",
+          "Can you send me…?",
+          "I would be grateful if you could send me…"
+        ],
+        [
+          "Anexo",
+          "Here's the file.",
+          "Please find attached the file."
+        ],
+        [
+          "Fim",
+          "Cheers, / Talk soon,",
+          "I look forward to hearing from you. Kind regards,"
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Dear Mr. Tanaka, I am writing with regard to the samples we sent last week.",
+        "pt": "Prezado Sr. Tanaka, escrevo com relação às amostras que enviamos semana passada."
+      },
+      {
+        "en": "I would be grateful if you could confirm the delivery date.",
+        "pt": "Ficaria grato se pudesse confirmar a data de entrega."
+      },
+      {
+        "en": "Please find attached our updated price list.",
+        "pt": "Segue em anexo nossa lista de preços atualizada."
+      },
+      {
+        "en": "Please do not hesitate to contact me if you require further information. Kind regards,",
+        "pt": "Fico à disposição caso precise de mais informações. Atenciosamente,"
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Reading an e-mail aloud",
+    "falas": [
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "Here's the e-mail from the German client. Shall I read it?",
+        "pt": "Aqui está o e-mail do cliente alemão. Leio para você?"
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "Yes, please.",
+        "pt": "Sim, por favor."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "'Dear Mr. Pereira, I am writing with regard to order 5521, which we received on 3 May.'",
+        "pt": "\"Prezado Sr. Pereira, escrevo com relação ao pedido 5521, que recebemos em 3 de maio.\""
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "'Unfortunately, twelve boxes were damaged during transport. Please find attached some photos.'",
+        "pt": "\"Infelizmente, doze caixas foram danificadas no transporte. Seguem em anexo algumas fotos.\""
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "a",
+        "en": "'I would be grateful if you could send replacements as soon as possible. I look forward to hearing from you. Kind regards, Klaus Weber.'",
+        "pt": "\"Ficaria grato se pudessem enviar reposições o mais rápido possível. Aguardo seu retorno. Atenciosamente, Klaus Weber.\""
+      },
+      {
+        "personagem": "Manager",
+        "voz": "b",
+        "en": "OK. Let's reply today and send the new boxes on Monday.",
+        "pt": "OK. Vamos responder hoje e mandar as caixas novas na segunda."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07l1-e1",
+        "tipo": "multipla",
+        "enunciado": "What order is the e-mail about?",
+        "opcoes": [
+          "5521",
+          "5512",
+          "2155"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l1-e2",
+        "tipo": "multipla",
+        "enunciado": "How many boxes were damaged?",
+        "opcoes": [
+          "Two",
+          "Twelve",
+          "Twenty"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07l1-e3",
+        "tipo": "multipla",
+        "enunciado": "What did the client attach?",
+        "opcoes": [
+          "Photos",
+          "An invoice",
+          "A contract"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l1-e4",
+        "tipo": "multipla",
+        "enunciado": "What does the client want?",
+        "opcoes": [
+          "Replacements as soon as possible",
+          "A refund",
+          "A discount"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u07l1-p1",
+      "tipo": "completar",
+      "frase": "I am ___ to confirm our meeting.",
+      "respostas": [
+        "writing"
+      ]
+    },
+    {
+      "id": "b2u07l1-p2",
+      "tipo": "completar",
+      "frase": "I would be ___ if you could reply by Friday.",
+      "respostas": [
+        "grateful"
+      ]
+    },
+    {
+      "id": "b2u07l1-p3",
+      "tipo": "completar",
+      "frase": "Please find ___ the invoice.",
+      "respostas": [
+        "attached"
+      ]
+    },
+    {
+      "id": "b2u07l1-p4",
+      "tipo": "multipla",
+      "enunciado": "Mais formal:",
+      "opcoes": [
+        "Hi! Just wanted to ask about the order.",
+        "I am writing to enquire about the order."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u07l1-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Fico à disposição para dúvidas\":",
+      "opcoes": [
+        "Please do not hesitate to contact me if you have any questions.",
+        "Please hesitate to contact me with questions.",
+        "Contact me without doubts."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l1-p6",
+      "tipo": "ordenar",
+      "frase": "I am writing with regard to your order",
+      "traducao_pt": "Escrevo com relação ao seu pedido"
+    },
+    {
+      "id": "b2u07l1-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "For further information, please visit our website."
+    },
+    {
+      "id": "b2u07l1-p8",
+      "tipo": "traduzir",
+      "pt": "Prezada Sra. Costa,",
+      "respostas": [
+        "Dear Ms. Costa,",
+        "Dear Ms Costa,",
+        "Dear Mrs. Costa,"
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Dite ao professor um e-mail formal de resposta ao cliente alemão: peça desculpas pelas caixas danificadas, diga o que vai fazer e quando, e feche corretamente.",
+    "papel_professor": "Peça que o aluno dite a resposta parte por parte (saudação, motivo, desculpas, solução, fechamento). Sugira versões mais formais quando necessário. Corrija registro e contrações.",
+    "abertura": "Let's write the reply to Mr. Weber together. How would you start?",
+    "abertura_pt": "Vamos escrever juntos a resposta ao Sr. Weber. Como você começaria?"
+  },
+  "teste": [
+    {
+      "id": "b2u07l1-t1",
+      "tipo": "multipla",
+      "enunciado": "Não sabe o nome do destinatário:",
+      "opcoes": [
+        "Dear Sir or Madam,",
+        "Hi you,",
+        "Dear Friend,"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l1-t2",
+      "tipo": "completar",
+      "frase": "Kind ___, Gabriel",
+      "respostas": [
+        "regards"
+      ]
+    },
+    {
+      "id": "b2u07l1-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "I would be grateful if you could confirm the delivery date."
+    },
+    {
+      "id": "b2u07l1-t4",
+      "tipo": "traduzir",
+      "pt": "Segue em anexo nossa lista de preços atualizada.",
+      "respostas": [
+        "Please find attached our updated price list.",
+        "Please find our updated price list attached."
+      ]
+    },
+    {
+      "id": "b2u07l1-t5",
+      "tipo": "ordenar",
+      "frase": "I look forward to hearing from you",
+      "traducao_pt": "Aguardo seu retorno"
+    }
+  ]
+}

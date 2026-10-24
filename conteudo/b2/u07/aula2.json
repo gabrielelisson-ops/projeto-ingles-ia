@@ -1,0 +1,359 @@
+{
+  "id": "b2-u07-l2",
+  "nivel": "B2",
+  "unidade": 7,
+  "numero": 2,
+  "titulo": "However, therefore, despite",
+  "objetivo_pt": "Ligar ideias com conectores formais de contraste, causa, consequência e adição.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai dar pares de frases. Ligue-as com um conector: however, therefore, despite, although, moreover…",
+    "papel_professor": "Dê pares de frases (Sales increased. Profit fell.). O aluno junta com o conector certo. Ensine pontuação (However, … / Despite + -ing/subst). Corrija 'despite of'.",
+    "abertura": "Join these ideas: 'The machine is new. It breaks down a lot.'",
+    "abertura_pt": "Junte estas ideias: \"A máquina é nova. Ela quebra muito.\""
+  },
+  "vocabulario": [
+    {
+      "id": "however",
+      "en": "however",
+      "pt": "no entanto",
+      "emoji": "↔️",
+      "exemplo_en": "Sales increased. However, profit fell.",
+      "exemplo_pt": "As vendas aumentaram. No entanto, o lucro caiu."
+    },
+    {
+      "id": "although",
+      "en": "although / even though",
+      "pt": "embora",
+      "emoji": "🔀",
+      "exemplo_en": "Although the machine is new, it breaks down a lot.",
+      "exemplo_pt": "Embora a máquina seja nova, quebra muito."
+    },
+    {
+      "id": "despite",
+      "en": "despite / in spite of",
+      "pt": "apesar de",
+      "emoji": "🌧️",
+      "exemplo_en": "Despite the rain, the delivery arrived on time.",
+      "exemplo_pt": "Apesar da chuva, a entrega chegou no horário."
+    },
+    {
+      "id": "therefore",
+      "en": "therefore / as a result",
+      "pt": "portanto / como resultado",
+      "emoji": "➡️",
+      "exemplo_en": "Costs increased. Therefore, we raised prices.",
+      "exemplo_pt": "Os custos aumentaram. Portanto, subimos os preços."
+    },
+    {
+      "id": "due-to",
+      "en": "due to / owing to",
+      "pt": "devido a",
+      "emoji": "🔗",
+      "exemplo_en": "The delay was due to a strike.",
+      "exemplo_pt": "O atraso foi devido a uma greve."
+    },
+    {
+      "id": "moreover",
+      "en": "moreover / furthermore / in addition",
+      "pt": "além disso",
+      "emoji": "➕",
+      "exemplo_en": "The supplier is cheaper. Moreover, they deliver faster.",
+      "exemplo_pt": "O fornecedor é mais barato. Além disso, entrega mais rápido."
+    },
+    {
+      "id": "whereas",
+      "en": "whereas / while",
+      "pt": "enquanto (contraste)",
+      "emoji": "⚖️",
+      "exemplo_en": "Line 1 improved, whereas line 2 got worse.",
+      "exemplo_pt": "A linha 1 melhorou, enquanto a linha 2 piorou."
+    },
+    {
+      "id": "consequently",
+      "en": "consequently",
+      "pt": "consequentemente",
+      "emoji": "📉",
+      "exemplo_en": "The truck broke down; consequently, the order was late.",
+      "exemplo_pt": "O caminhão quebrou; consequentemente, o pedido atrasou."
+    },
+    {
+      "id": "nevertheless",
+      "en": "nevertheless",
+      "pt": "mesmo assim / ainda assim",
+      "emoji": "💪",
+      "exemplo_en": "It was expensive. Nevertheless, it was worth it.",
+      "exemplo_pt": "Foi caro. Ainda assim, valeu a pena."
+    },
+    {
+      "id": "in-order-to",
+      "en": "in order to / so as to",
+      "pt": "a fim de / para",
+      "emoji": "🎯",
+      "exemplo_en": "We stopped the line in order to inspect it.",
+      "exemplo_pt": "Paramos a linha a fim de inspecioná-la."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Conectores formais",
+    "explicacao_pt": "CONTRASTE: However, / Nevertheless, (início de frase + vírgula); although / even though + FRASE (Although it rained, …); despite / in spite of + SUBSTANTIVO ou -ING (Despite the rain / Despite being new) — nunca 'despite of'; whereas (comparar duas coisas). CAUSA: because + frase; due to / owing to / because of + substantivo. CONSEQUÊNCIA: Therefore, / As a result, / Consequently, ADIÇÃO: Moreover, / Furthermore, / In addition, FINALIDADE: in order to / so as to + verbo. Em e-mails formais, prefira estes a 'but', 'so' e 'also' no início de frase.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Conector",
+        "Estrutura"
+      ],
+      "linhas": [
+        [
+          "Contraste",
+          "However,",
+          "Frase. However, frase."
+        ],
+        [
+          "Contraste",
+          "Although",
+          "Although + frase, frase."
+        ],
+        [
+          "Contraste",
+          "Despite",
+          "Despite + subst/-ing, frase."
+        ],
+        [
+          "Causa",
+          "due to",
+          "… due to + subst."
+        ],
+        [
+          "Consequência",
+          "Therefore,",
+          "Frase. Therefore, frase."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "Although the new supplier is more expensive, their quality is much better.",
+        "pt": "Embora o novo fornecedor seja mais caro, a qualidade deles é muito melhor."
+      },
+      {
+        "en": "Despite working overtime, we did not meet the deadline.",
+        "pt": "Apesar de fazer hora extra, não cumprimos o prazo."
+      },
+      {
+        "en": "The shipment was delayed due to heavy rain at the port.",
+        "pt": "A remessa atrasou devido a chuvas fortes no porto."
+      },
+      {
+        "en": "Raw material costs have risen by 15%. Therefore, we will have to review our prices.",
+        "pt": "Os custos de matéria-prima subiram 15%. Portanto, teremos que rever nossos preços."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Explaining a delay",
+    "falas": [
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Can you help me write the explanation for the client? The order is late.",
+        "pt": "Pode me ajudar a escrever a explicação para o cliente? O pedido está atrasado."
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "b",
+        "en": "Sure. We could say: 'The delay was due to a breakdown on our main line.'",
+        "pt": "Claro. Poderíamos dizer: \"O atraso foi devido a uma quebra na nossa linha principal.\""
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "Good. And then: 'Despite working extra shifts, we were not able to recover the time.'",
+        "pt": "Bom. E depois: \"Apesar de trabalharmos turnos extras, não conseguimos recuperar o tempo.\""
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "b",
+        "en": "'Therefore, the order will be shipped on 12 June instead of 5 June.'",
+        "pt": "\"Portanto, o pedido será enviado em 12 de junho em vez de 5 de junho.\""
+      },
+      {
+        "personagem": "Manager",
+        "voz": "a",
+        "en": "And something positive: 'However, the line is now fully repaired. Moreover, we will cover the express shipping costs.'",
+        "pt": "E algo positivo: \"No entanto, a linha está totalmente consertada. Além disso, cobriremos os custos de frete expresso.\""
+      },
+      {
+        "personagem": "Assistant",
+        "voz": "b",
+        "en": "Perfect. That sounds professional and honest.",
+        "pt": "Perfeito. Soa profissional e honesto."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07l2-e1",
+        "tipo": "multipla",
+        "enunciado": "What caused the delay?",
+        "opcoes": [
+          "A breakdown on the main line",
+          "A strike",
+          "Bad weather"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What did they do to try to recover the time?",
+        "opcoes": [
+          "Worked extra shifts",
+          "Bought a new line",
+          "Nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u07l2-e3",
+        "tipo": "multipla",
+        "enunciado": "When will the order be shipped?",
+        "opcoes": [
+          "5 June",
+          "12 June",
+          "20 June"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What will they cover?",
+        "opcoes": [
+          "Express shipping costs",
+          "The full order",
+          "A 10% discount"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u07l2-p1",
+      "tipo": "completar",
+      "frase": "Sales increased. ___, profit fell. (no entanto)",
+      "respostas": [
+        "However"
+      ]
+    },
+    {
+      "id": "b2u07l2-p2",
+      "tipo": "completar",
+      "frase": "The delay was ___ to a strike. (devido)",
+      "respostas": [
+        "due"
+      ]
+    },
+    {
+      "id": "b2u07l2-p3",
+      "tipo": "completar",
+      "frase": "___ the rain, the delivery arrived on time. (apesar de)",
+      "respostas": [
+        "Despite",
+        "In spite of"
+      ]
+    },
+    {
+      "id": "b2u07l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Qual está correto?",
+      "opcoes": [
+        "Despite of the rain, we worked.",
+        "Despite the rain, we worked.",
+        "Despite it rained, we worked."
+      ],
+      "correta": 1
+    },
+    {
+      "id": "b2u07l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Embora seja caro, vale a pena\":",
+      "opcoes": [
+        "Although it's expensive, it's worth it.",
+        "Despite it's expensive, it's worth it.",
+        "However it's expensive, it's worth it."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l2-p6",
+      "tipo": "ordenar",
+      "frase": "We stopped the line in order to inspect it",
+      "traducao_pt": "Paramos a linha a fim de inspecioná-la"
+    },
+    {
+      "id": "b2u07l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Line 1 improved, whereas line 2 got worse."
+    },
+    {
+      "id": "b2u07l2-p8",
+      "tipo": "traduzir",
+      "pt": "Foi caro. Ainda assim, valeu a pena.",
+      "respostas": [
+        "It was expensive. Nevertheless, it was worth it.",
+        "It was expensive. However, it was worth it.",
+        "It was expensive. Even so, it was worth it."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Explique ao professor (de forma formal, como num e-mail ou relatório) um problema que aconteceu no seu trabalho: a causa, o que vocês fizeram e o resultado, usando pelo menos 5 conectores formais.",
+    "papel_professor": "Peça a explicação formal de um problema. Exija conectores (due to, despite, however, therefore, moreover). Sugira versões mais formais. Corrija pontuação e estrutura.",
+    "abertura": "Imagine you are writing to your director. Explain a problem that happened recently, formally.",
+    "abertura_pt": "Imagine que você está escrevendo para o seu diretor. Explique formalmente um problema que aconteceu recentemente."
+  },
+  "teste": [
+    {
+      "id": "b2u07l2-t1",
+      "tipo": "multipla",
+      "enunciado": "Consequência:",
+      "opcoes": [
+        "Therefore,",
+        "Although",
+        "Despite"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l2-t2",
+      "tipo": "completar",
+      "frase": "The supplier is cheaper. ___, they deliver faster. (além disso)",
+      "respostas": [
+        "Moreover",
+        "Furthermore",
+        "In addition"
+      ]
+    },
+    {
+      "id": "b2u07l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "The truck broke down; consequently, the order was late."
+    },
+    {
+      "id": "b2u07l2-t4",
+      "tipo": "traduzir",
+      "pt": "Apesar de fazer hora extra, não cumprimos o prazo.",
+      "respostas": [
+        "Despite working overtime, we did not meet the deadline.",
+        "Despite working overtime, we didn't meet the deadline.",
+        "In spite of working overtime, we did not meet the deadline."
+      ]
+    },
+    {
+      "id": "b2u07l2-t5",
+      "tipo": "ordenar",
+      "frase": "Although the machine is new it breaks down a lot",
+      "traducao_pt": "Embora a máquina seja nova, quebra muito"
+    }
+  ]
+}

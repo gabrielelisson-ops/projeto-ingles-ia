@@ -1,0 +1,357 @@
+{
+  "id": "b2-u08-l4",
+  "nivel": "B2",
+  "unidade": 8,
+  "numero": 4,
+  "titulo": "PDCA and kaizen",
+  "objetivo_pt": "Falar de ferramentas de melhoria contínua (PDCA, kaizen, 5S, FMEA) e propor melhorias.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar sobre as ferramentas de melhoria que você conhece ou usa. Explique como funcionam.",
+    "papel_professor": "Pergunte sobre PDCA, kaizen, 5S, FMEA, OEE. Peça que o aluno explique uma delas e dê um exemplo. Ensine vocabulário de melhoria. Corrija.",
+    "abertura": "Have you ever taken part in a kaizen or a 5S project? How did it work?",
+    "abertura_pt": "Você já participou de um kaizen ou de um projeto 5S? Como funcionou?"
+  },
+  "vocabulario": [
+    {
+      "id": "pdca",
+      "en": "PDCA (plan, do, check, act)",
+      "pt": "PDCA (planejar, fazer, verificar, agir)",
+      "emoji": "🔄",
+      "exemplo_en": "We use the PDCA cycle for every project.",
+      "exemplo_pt": "Usamos o ciclo PDCA em todo projeto."
+    },
+    {
+      "id": "kaizen",
+      "en": "kaizen",
+      "pt": "kaizen (melhoria contínua)",
+      "emoji": "📈",
+      "exemplo_en": "We ran a kaizen event in the warehouse.",
+      "exemplo_pt": "Fizemos um evento kaizen no armazém."
+    },
+    {
+      "id": "5s",
+      "en": "5S (sort, set in order, shine, standardize, sustain)",
+      "pt": "5S",
+      "emoji": "🧹",
+      "exemplo_en": "After the 5S, the area was much more organized.",
+      "exemplo_pt": "Depois do 5S, a área ficou muito mais organizada."
+    },
+    {
+      "id": "fmea",
+      "en": "FMEA (failure mode and effects analysis)",
+      "pt": "FMEA (análise de modos de falha e efeitos)",
+      "emoji": "🧮",
+      "exemplo_en": "The FMEA identified twelve risks.",
+      "exemplo_pt": "A FMEA identificou doze riscos."
+    },
+    {
+      "id": "waste-l4",
+      "en": "waste (muda)",
+      "pt": "desperdício",
+      "emoji": "🗑️",
+      "exemplo_en": "Waiting time is a type of waste.",
+      "exemplo_pt": "Tempo de espera é um tipo de desperdício."
+    },
+    {
+      "id": "standard-work",
+      "en": "standard work",
+      "pt": "trabalho padronizado",
+      "emoji": "📘",
+      "exemplo_en": "We created standard work for each station.",
+      "exemplo_pt": "Criamos trabalho padronizado para cada posto."
+    },
+    {
+      "id": "quick-win",
+      "en": "quick win",
+      "pt": "ganho rápido",
+      "emoji": "⚡",
+      "exemplo_en": "Labeling the shelves was a quick win.",
+      "exemplo_pt": "Etiquetar as prateleiras foi um ganho rápido."
+    },
+    {
+      "id": "sustain",
+      "en": "sustain the results",
+      "pt": "manter os resultados",
+      "emoji": "🏋️",
+      "exemplo_en": "The hardest part is sustaining the results.",
+      "exemplo_pt": "A parte mais difícil é manter os resultados."
+    },
+    {
+      "id": "suggestion-scheme",
+      "en": "suggestion scheme",
+      "pt": "programa de sugestões",
+      "emoji": "💡",
+      "exemplo_en": "Our suggestion scheme received 300 ideas.",
+      "exemplo_pt": "Nosso programa de sugestões recebeu 300 ideias."
+    },
+    {
+      "id": "gemba",
+      "en": "gemba (go and see)",
+      "pt": "gemba (ir ver no local)",
+      "emoji": "👣",
+      "exemplo_en": "Let's go to the gemba and see the problem.",
+      "exemplo_pt": "Vamos ao gemba ver o problema."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Descrevendo ferramentas e propondo melhorias",
+    "explicacao_pt": "Para explicar uma ferramenta: It's a method/tool that… / It consists of + -ing / It's used to + verbo / The idea is to… Para descrever um projeto passado: We ran a kaizen… / We had the area reorganized… / As a result, … Para propor: I propose + -ing / What if we…? / We could… Para o futuro: By the end of the project, we'll have… / We'll be monitoring… Use a passiva para resultados: Waiting time was reduced by 40%.",
+    "tabela": {
+      "colunas": [
+        "Função",
+        "Frase modelo",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Explicar",
+          "It's a tool that…",
+          "FMEA is a tool that identifies possible failures."
+        ],
+        [
+          "Composição",
+          "It consists of + -ing",
+          "5S consists of sorting, organizing and cleaning…"
+        ],
+        [
+          "Objetivo",
+          "The idea is to…",
+          "The idea is to eliminate waste."
+        ],
+        [
+          "Resultado (passiva)",
+          "… was reduced by…",
+          "Searching time was reduced by 60%."
+        ],
+        [
+          "Proposta",
+          "I propose + -ing",
+          "I propose running a kaizen on line 3."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "PDCA is a cycle that consists of planning, doing, checking and acting.",
+        "pt": "O PDCA é um ciclo que consiste em planejar, fazer, verificar e agir."
+      },
+      {
+        "en": "The idea of kaizen is to make small improvements every day, with everyone involved.",
+        "pt": "A ideia do kaizen é fazer pequenas melhorias todo dia, com todos envolvidos."
+      },
+      {
+        "en": "After the 5S project, the time spent looking for tools was reduced by 70%.",
+        "pt": "Depois do projeto 5S, o tempo gasto procurando ferramentas foi reduzido em 70%."
+      },
+      {
+        "en": "I propose running an FMEA before we start the new line.",
+        "pt": "Proponho fazer uma FMEA antes de iniciarmos a nova linha."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A kaizen event",
+    "falas": [
+      {
+        "personagem": "Facilitator",
+        "voz": "a",
+        "en": "Welcome to our kaizen week. The goal is to reduce changeover time on line 2.",
+        "pt": "Bem-vindos à nossa semana kaizen. O objetivo é reduzir o tempo de troca de produto na linha 2."
+      },
+      {
+        "personagem": "Facilitator",
+        "voz": "a",
+        "en": "Today, a changeover takes 90 minutes. By Friday, we'll have reduced it to under 45.",
+        "pt": "Hoje, uma troca leva 90 minutos. Até sexta, teremos reduzido para menos de 45."
+      },
+      {
+        "personagem": "Operator",
+        "voz": "b",
+        "en": "A lot of time is wasted looking for tools. They're never in the same place.",
+        "pt": "Muito tempo é desperdiçado procurando ferramentas. Nunca estão no mesmo lugar."
+      },
+      {
+        "personagem": "Facilitator",
+        "voz": "a",
+        "en": "Great observation. That's a quick win: we can create a shadow board for the tools.",
+        "pt": "Ótima observação. Isso é um ganho rápido: podemos criar um painel de ferramentas."
+      },
+      {
+        "personagem": "Engineer",
+        "voz": "b",
+        "en": "Also, some adjustments could be done while the machine is still running.",
+        "pt": "Além disso, alguns ajustes poderiam ser feitos com a máquina ainda funcionando."
+      },
+      {
+        "personagem": "Facilitator",
+        "voz": "a",
+        "en": "Exactly. Let's go to the gemba, film a changeover and analyze every step. Then we'll create standard work.",
+        "pt": "Exatamente. Vamos ao gemba, filmar uma troca e analisar cada passo. Depois criaremos o trabalho padronizado."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08l4-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the goal of the kaizen?",
+        "opcoes": [
+          "Reduce changeover time",
+          "Reduce scrap",
+          "Hire people"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l4-e2",
+        "tipo": "multipla",
+        "enunciado": "How long does a changeover take today?",
+        "opcoes": [
+          "45 minutes",
+          "60 minutes",
+          "90 minutes"
+        ],
+        "correta": 2
+      },
+      {
+        "id": "b2u08l4-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the quick win?",
+        "opcoes": [
+          "A shadow board for the tools",
+          "A new machine",
+          "More operators"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l4-e4",
+        "tipo": "multipla",
+        "enunciado": "What will they film?",
+        "opcoes": [
+          "A changeover",
+          "The warehouse",
+          "A meeting"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u08l4-p1",
+      "tipo": "completar",
+      "frase": "We ran a ___ event in the warehouse.",
+      "respostas": [
+        "kaizen"
+      ]
+    },
+    {
+      "id": "b2u08l4-p2",
+      "tipo": "completar",
+      "frase": "Waiting time is a type of ___. (desperdício)",
+      "respostas": [
+        "waste"
+      ]
+    },
+    {
+      "id": "b2u08l4-p3",
+      "tipo": "completar",
+      "frase": "The hardest part is ___ the results. (manter)",
+      "respostas": [
+        "sustaining"
+      ]
+    },
+    {
+      "id": "b2u08l4-p4",
+      "tipo": "multipla",
+      "enunciado": "\"O 5S consiste em separar, organizar e limpar\":",
+      "opcoes": [
+        "5S consists of sorting, organizing and cleaning.",
+        "5S consists in sort, organize and clean.",
+        "5S is consist of sorting."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l4-p5",
+      "tipo": "multipla",
+      "enunciado": "Resultado na passiva:",
+      "opcoes": [
+        "Searching time was reduced by 60%.",
+        "Searching time reduced by us 60%.",
+        "We were reduced searching time."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l4-p6",
+      "tipo": "ordenar",
+      "frase": "Let's go to the gemba and see the problem",
+      "traducao_pt": "Vamos ao gemba ver o problema"
+    },
+    {
+      "id": "b2u08l4-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "Labeling the shelves was a quick win."
+    },
+    {
+      "id": "b2u08l4-p8",
+      "tipo": "traduzir",
+      "pt": "Proponho fazer uma FMEA antes de iniciarmos a nova linha.",
+      "respostas": [
+        "I propose running an FMEA before we start the new line.",
+        "I propose doing an FMEA before we start the new line.",
+        "I suggest running an FMEA before we start the new line."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Proponha ao professor (gerente da fábrica) um projeto de melhoria contínua para um problema real: explique a ferramenta que vai usar, o plano (PDCA), os resultados esperados até uma data e como vão manter os resultados.",
+    "papel_professor": "Faça o papel de gerente cético. Pergunte Why this tool? What will you have achieved by…? How will you sustain it? What will it cost? Corrija futuros, causativo e linguagem de proposta.",
+    "abertura": "I've heard you have an improvement idea. I've got ten minutes — convince me.",
+    "abertura_pt": "Soube que você tem uma ideia de melhoria. Tenho dez minutos — me convença."
+  },
+  "teste": [
+    {
+      "id": "b2u08l4-t1",
+      "tipo": "multipla",
+      "enunciado": "Ordem do PDCA:",
+      "opcoes": [
+        "Plan, Do, Check, Act",
+        "Do, Plan, Act, Check",
+        "Check, Act, Plan, Do"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l4-t2",
+      "tipo": "completar",
+      "frase": "We created standard ___ for each station.",
+      "respostas": [
+        "work"
+      ]
+    },
+    {
+      "id": "b2u08l4-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our suggestion scheme received 300 ideas.",
+      "aceitas": [
+        "Our suggestion scheme received three hundred ideas."
+      ]
+    },
+    {
+      "id": "b2u08l4-t4",
+      "tipo": "traduzir",
+      "pt": "A ideia é eliminar o desperdício.",
+      "respostas": [
+        "The idea is to eliminate waste."
+      ]
+    },
+    {
+      "id": "b2u08l4-t5",
+      "tipo": "ordenar",
+      "frase": "We use the PDCA cycle for every project",
+      "traducao_pt": "Usamos o ciclo PDCA em todo projeto"
+    }
+  ]
+}

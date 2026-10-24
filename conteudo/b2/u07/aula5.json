@@ -1,0 +1,354 @@
+{
+  "id": "b2-u07-l5",
+  "nivel": "B2",
+  "unidade": 7,
+  "numero": 5,
+  "titulo": "Complaints and replies",
+  "objetivo_pt": "Escrever reclamações formais e respostas profissionais, juntando registro, conectores e estrutura.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: você já escreveu ou recebeu uma reclamação formal? Conte ao professor como foi e como ela foi resolvida.",
+    "papel_professor": "Peça uma experiência com reclamação. Ensine a estrutura de uma reclamação (fato, impacto, pedido) e de uma resposta (agradecer, desculpar, explicar, solucionar, prevenir).",
+    "abertura": "Have you ever had to complain formally to a company? What happened?",
+    "abertura_pt": "Você já precisou reclamar formalmente com uma empresa? O que aconteceu?"
+  },
+  "vocabulario": [
+    {
+      "id": "complain-formal",
+      "en": "I wish to complain about…",
+      "pt": "Gostaria de reclamar de…",
+      "emoji": "📢",
+      "exemplo_en": "I wish to complain about the quality of the last delivery.",
+      "exemplo_pt": "Gostaria de reclamar da qualidade da última entrega."
+    },
+    {
+      "id": "unacceptable",
+      "en": "unacceptable",
+      "pt": "inaceitável",
+      "emoji": "🚫",
+      "exemplo_en": "This situation is unacceptable.",
+      "exemplo_pt": "Esta situação é inaceitável."
+    },
+    {
+      "id": "impact",
+      "en": "have an impact on",
+      "pt": "causar impacto em",
+      "emoji": "💥",
+      "exemplo_en": "The delay had a serious impact on our production.",
+      "exemplo_pt": "O atraso causou um impacto sério na nossa produção."
+    },
+    {
+      "id": "compensation",
+      "en": "compensation / refund",
+      "pt": "compensação / reembolso",
+      "emoji": "💵",
+      "exemplo_en": "We expect compensation for the losses.",
+      "exemplo_pt": "Esperamos compensação pelas perdas."
+    },
+    {
+      "id": "thank-bringing",
+      "en": "Thank you for bringing this to our attention",
+      "pt": "Obrigado por nos informar",
+      "emoji": "🙏",
+      "exemplo_en": "Thank you for bringing this matter to our attention.",
+      "exemplo_pt": "Obrigado por nos informar deste assunto."
+    },
+    {
+      "id": "sincere",
+      "en": "sincere apologies",
+      "pt": "sinceras desculpas",
+      "emoji": "🙇",
+      "exemplo_en": "Please accept our sincere apologies.",
+      "exemplo_pt": "Por favor, aceite nossas sinceras desculpas."
+    },
+    {
+      "id": "investigated",
+      "en": "we have investigated",
+      "pt": "investigamos",
+      "emoji": "🔍",
+      "exemplo_en": "We have investigated the matter thoroughly.",
+      "exemplo_pt": "Investigamos o assunto a fundo."
+    },
+    {
+      "id": "measures",
+      "en": "measures / steps",
+      "pt": "medidas",
+      "emoji": "🛡️",
+      "exemplo_en": "We have taken measures to prevent this.",
+      "exemplo_pt": "Tomamos medidas para evitar isso."
+    },
+    {
+      "id": "goodwill",
+      "en": "as a gesture of goodwill",
+      "pt": "como gesto de boa vontade",
+      "emoji": "🤝",
+      "exemplo_en": "As a gesture of goodwill, we will offer a 10% discount.",
+      "exemplo_pt": "Como gesto de boa vontade, ofereceremos 10% de desconto."
+    },
+    {
+      "id": "ensure",
+      "en": "ensure",
+      "pt": "garantir",
+      "emoji": "✅",
+      "exemplo_en": "We will ensure that this does not happen again.",
+      "exemplo_pt": "Garantiremos que isso não aconteça de novo."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Reclamações e respostas",
+    "explicacao_pt": "RECLAMAÇÃO: 1) motivo: I am writing to complain about… / I wish to express my dissatisfaction with… 2) fatos (datas, números): On 5 May, we received… of which 40 were damaged. 3) impacto: As a result, … / This had a serious impact on… 4) pedido: I would therefore ask you to… / We expect… RESPOSTA: 1) agradecer: Thank you for bringing this to our attention. 2) desculpas: Please accept our sincere apologies for… 3) explicação: We have investigated… It appears that… 4) solução: We will… / As a gesture of goodwill, … 5) prevenção: We have taken measures to ensure that… Tom: firme mas educado; nunca agressivo.",
+    "tabela": {
+      "colunas": [
+        "Parte",
+        "Reclamação",
+        "Resposta"
+      ],
+      "linhas": [
+        [
+          "Abertura",
+          "I am writing to complain about…",
+          "Thank you for bringing this to our attention."
+        ],
+        [
+          "Fatos",
+          "On 5 May, 40 of the 200 boxes were damaged.",
+          "We have investigated the matter."
+        ],
+        [
+          "Impacto/Causa",
+          "As a result, our line stopped for 6 hours.",
+          "It appears that the boxes were damaged in transit."
+        ],
+        [
+          "Pedido/Solução",
+          "I would ask you to replace them immediately.",
+          "We will send replacements by Friday."
+        ],
+        [
+          "Fim",
+          "I look forward to your prompt reply.",
+          "We will ensure that this does not happen again."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "I am writing to complain about the late delivery of order 7731.",
+        "pt": "Escrevo para reclamar da entrega atrasada do pedido 7731."
+      },
+      {
+        "en": "As a result, our production line was stopped for six hours, which is unacceptable.",
+        "pt": "Como resultado, nossa linha de produção ficou parada seis horas, o que é inaceitável."
+      },
+      {
+        "en": "Please accept our sincere apologies. We have investigated the matter and found that the order was sent to the wrong address.",
+        "pt": "Por favor, aceite nossas sinceras desculpas. Investigamos o assunto e constatamos que o pedido foi enviado ao endereço errado."
+      },
+      {
+        "en": "As a gesture of goodwill, we will offer a 10% discount on your next order.",
+        "pt": "Como gesto de boa vontade, ofereceremos 10% de desconto no seu próximo pedido."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A complaint and a reply",
+    "falas": [
+      {
+        "personagem": "Customer",
+        "voz": "a",
+        "en": "'Dear Sir or Madam, I am writing to complain about order 4410, which arrived on 2 April.'",
+        "pt": "\"Prezados senhores, escrevo para reclamar do pedido 4410, que chegou em 2 de abril.\""
+      },
+      {
+        "personagem": "Customer",
+        "voz": "a",
+        "en": "'Despite your promise of delivery by 25 March, the order arrived a week late. Moreover, 15% of the parts were out of specification.'",
+        "pt": "\"Apesar da promessa de entrega até 25 de março, o pedido chegou com uma semana de atraso. Além disso, 15% das peças estavam fora de especificação.\""
+      },
+      {
+        "personagem": "Customer",
+        "voz": "a",
+        "en": "'As a result, we had to stop our assembly line for two days. I would ask you to explain what happened and to replace the defective parts immediately.'",
+        "pt": "\"Como resultado, tivemos que parar nossa linha de montagem por dois dias. Peço que expliquem o que aconteceu e substituam as peças com defeito imediatamente.\""
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "'Dear Mr. Duarte, thank you for bringing this matter to our attention, and please accept our sincere apologies.'",
+        "pt": "\"Prezado Sr. Duarte, obrigado por nos informar deste assunto, e por favor aceite nossas sinceras desculpas.\""
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "'We have investigated the matter. It appears that a measuring instrument had not been calibrated. Replacement parts will be delivered by Friday.'",
+        "pt": "\"Investigamos o assunto. Parece que um instrumento de medição não tinha sido calibrado. As peças de reposição serão entregues até sexta.\""
+      },
+      {
+        "personagem": "Supplier",
+        "voz": "b",
+        "en": "'As a gesture of goodwill, we will cover the transport costs. We have taken measures to ensure that this does not happen again.'",
+        "pt": "\"Como gesto de boa vontade, cobriremos os custos de transporte. Tomamos medidas para garantir que isso não aconteça de novo.\""
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u07l5-e1",
+        "tipo": "multipla",
+        "enunciado": "When did the order arrive?",
+        "opcoes": [
+          "25 March",
+          "2 April",
+          "4 April"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What percentage of parts were out of spec?",
+        "opcoes": [
+          "5%",
+          "15%",
+          "50%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07l5-e3",
+        "tipo": "multipla",
+        "enunciado": "How long did the customer stop the line?",
+        "opcoes": [
+          "Two hours",
+          "Two days",
+          "A week"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u07l5-e4",
+        "tipo": "multipla",
+        "enunciado": "What was the cause?",
+        "opcoes": [
+          "A measuring instrument had not been calibrated.",
+          "The truck broke down.",
+          "The wrong material was used."
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u07l5-p1",
+      "tipo": "completar",
+      "frase": "I ___ to complain about the quality of the last delivery. (gostaria)",
+      "respostas": [
+        "wish"
+      ]
+    },
+    {
+      "id": "b2u07l5-p2",
+      "tipo": "completar",
+      "frase": "This situation is ___. (inaceitável)",
+      "respostas": [
+        "unacceptable"
+      ]
+    },
+    {
+      "id": "b2u07l5-p3",
+      "tipo": "completar",
+      "frase": "Please accept our ___ apologies. (sinceras)",
+      "respostas": [
+        "sincere"
+      ]
+    },
+    {
+      "id": "b2u07l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Abertura da resposta:",
+      "opcoes": [
+        "Thank you for bringing this to our attention.",
+        "OK, we got your complaint.",
+        "Why are you complaining?"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Como gesto de boa vontade\":",
+      "opcoes": [
+        "As a gesture of goodwill",
+        "Like a good will gesture",
+        "As a good gesture of will"
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l5-p6",
+      "tipo": "ordenar",
+      "frase": "We have taken measures to prevent this",
+      "traducao_pt": "Tomamos medidas para evitar isso"
+    },
+    {
+      "id": "b2u07l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We expect compensation for the losses."
+    },
+    {
+      "id": "b2u07l5-p8",
+      "tipo": "traduzir",
+      "pt": "Garantiremos que isso não aconteça de novo.",
+      "respostas": [
+        "We will ensure that this does not happen again.",
+        "We will ensure that this doesn't happen again.",
+        "We will make sure that this does not happen again."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão da unidade: o professor é um cliente furioso que liga para reclamar de um pedido (atraso e defeito). Responda formalmente como faria por escrito: agradeça, peça desculpas, explique a causa, ofereça uma solução e uma medida preventiva.",
+    "papel_professor": "Seja um cliente irritado mas educado. Pressione por compensação. O aluno deve responder com a estrutura formal da resposta (thank, apologise, explain, solve, prevent), conectores e registro adequado. No fim, dê retorno.",
+    "abertura": "Good morning. I'm calling about order 8823. It arrived five days late and half of the labels were wrong. This is the second time this year!",
+    "abertura_pt": "Bom dia. Estou ligando sobre o pedido 8823. Chegou com cinco dias de atraso e metade dos rótulos estava errada. É a segunda vez este ano!"
+  },
+  "teste": [
+    {
+      "id": "b2u07l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Impacto na reclamação:",
+      "opcoes": [
+        "As a result, our line stopped for six hours.",
+        "So our line stop six hour.",
+        "Therefore our line stopping."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u07l5-t2",
+      "tipo": "completar",
+      "frase": "We have ___ the matter thoroughly. (investigamos)",
+      "respostas": [
+        "investigated"
+      ]
+    },
+    {
+      "id": "b2u07l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "This situation is unacceptable."
+    },
+    {
+      "id": "b2u07l5-t4",
+      "tipo": "traduzir",
+      "pt": "O atraso causou um impacto sério na nossa produção.",
+      "respostas": [
+        "The delay had a serious impact on our production."
+      ]
+    },
+    {
+      "id": "b2u07l5-t5",
+      "tipo": "ordenar",
+      "frase": "I look forward to your prompt reply",
+      "traducao_pt": "Aguardo sua pronta resposta"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": "b2-u08-l5",
+  "nivel": "B2",
+  "unidade": 8,
+  "numero": 5,
+  "titulo": "The improvement roadmap",
+  "objetivo_pt": "Apresentar um plano de melhoria de médio prazo, juntando todos os tempos do futuro e a revisão do B2.",
+  "aquecimento": {
+    "situacao_pt": "Aquecimento: onde você se vê daqui a 3 anos? O que já terá feito e o que estará fazendo?",
+    "papel_professor": "Peça a visão de 3 anos com future perfect e continuous. Ensine linguagem de roadmap (In the short term… In the medium term… In the long run…).",
+    "abertura": "Where do you see yourself in three years? What will you have done by then?",
+    "abertura_pt": "Onde você se vê daqui a três anos? O que terá feito até lá?"
+  },
+  "vocabulario": [
+    {
+      "id": "roadmap",
+      "en": "roadmap",
+      "pt": "plano / roteiro estratégico",
+      "emoji": "🗺️",
+      "exemplo_en": "Here's our improvement roadmap.",
+      "exemplo_pt": "Aqui está nosso roteiro de melhoria."
+    },
+    {
+      "id": "short-term",
+      "en": "in the short / medium / long term",
+      "pt": "a curto / médio / longo prazo",
+      "emoji": "📆",
+      "exemplo_en": "In the short term, we'll focus on safety.",
+      "exemplo_pt": "A curto prazo, vamos focar em segurança."
+    },
+    {
+      "id": "in-the-long-run",
+      "en": "in the long run",
+      "pt": "no longo prazo",
+      "emoji": "🏃",
+      "exemplo_en": "In the long run, automation will pay off.",
+      "exemplo_pt": "No longo prazo, a automação vai compensar."
+    },
+    {
+      "id": "pay-off",
+      "en": "pay off",
+      "pt": "compensar / valer a pena",
+      "emoji": "💰",
+      "exemplo_en": "The investment paid off.",
+      "exemplo_pt": "O investimento compensou."
+    },
+    {
+      "id": "kpi-l5",
+      "en": "KPI (key performance indicator)",
+      "pt": "indicador-chave de desempenho",
+      "emoji": "📊",
+      "exemplo_en": "Our main KPI is OEE.",
+      "exemplo_pt": "Nosso principal indicador é o OEE."
+    },
+    {
+      "id": "baseline",
+      "en": "baseline",
+      "pt": "linha de base / ponto de partida",
+      "emoji": "📏",
+      "exemplo_en": "The baseline OEE is 68%.",
+      "exemplo_pt": "O OEE de partida é 68%."
+    },
+    {
+      "id": "ambitious",
+      "en": "ambitious / realistic",
+      "pt": "ambicioso / realista",
+      "emoji": "🧗",
+      "exemplo_en": "The target is ambitious but realistic.",
+      "exemplo_pt": "A meta é ambiciosa mas realista."
+    },
+    {
+      "id": "buy-in",
+      "en": "buy-in",
+      "pt": "adesão / engajamento",
+      "emoji": "🤝",
+      "exemplo_en": "We need buy-in from the operators.",
+      "exemplo_pt": "Precisamos da adesão dos operadores."
+    },
+    {
+      "id": "review-l5",
+      "en": "review (progress)",
+      "pt": "revisar (o progresso)",
+      "emoji": "🔁",
+      "exemplo_en": "We'll review progress every quarter.",
+      "exemplo_pt": "Vamos revisar o progresso a cada trimestre."
+    },
+    {
+      "id": "on-track-l5",
+      "en": "on track / behind / ahead",
+      "pt": "no prazo / atrasado / adiantado",
+      "emoji": "🛤️",
+      "exemplo_en": "We are on track to reach the target.",
+      "exemplo_pt": "Estamos no caminho para atingir a meta."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Revisão: falando do futuro",
+    "explicacao_pt": "PLANOS: going to / present continuous (We're going to launch… / We're meeting the board on Monday). PREVISÕES: will / likely to (Costs will probably fall). EM ANDAMENTO NO FUTURO: will be + -ing (In 2027, we'll be running three shifts). CONCLUÍDO ATÉ: will have + pp (By 2028, we'll have automated the warehouse). CONDIÇÕES: if + presente, will (If we get buy-in, we'll succeed). CAUSATIVO: We'll have the system installed by a contractor. Prazos: in the short/medium/long term, by + data, over the next three years.",
+    "tabela": {
+      "colunas": [
+        "Tempo",
+        "Uso",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "going to",
+          "plano",
+          "We're going to start with 5S."
+        ],
+        [
+          "will be + -ing",
+          "em andamento",
+          "Next year, we'll be training all leaders."
+        ],
+        [
+          "will have + pp",
+          "concluído até",
+          "By 2027, we'll have reduced scrap by half."
+        ],
+        [
+          "if…will",
+          "condição",
+          "If the pilot works, we'll roll it out."
+        ],
+        [
+          "have sth done",
+          "causativo",
+          "We'll have the robots installed by a contractor."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "In the short term, we're going to focus on safety and 5S.",
+        "pt": "A curto prazo, vamos focar em segurança e 5S."
+      },
+      {
+        "en": "By the end of next year, we'll have trained all our team leaders in problem-solving.",
+        "pt": "Até o fim do ano que vem, teremos treinado todos os nossos líderes em resolução de problemas."
+      },
+      {
+        "en": "In 2028, we'll be running the plant with 30% less energy.",
+        "pt": "Em 2028, estaremos operando a fábrica com 30% menos energia."
+      },
+      {
+        "en": "If we get the operators' buy-in, the improvements will be sustained in the long run.",
+        "pt": "Se tivermos a adesão dos operadores, as melhorias serão mantidas no longo prazo."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "A three-year roadmap",
+    "falas": [
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Good morning. I'd like to present our continuous improvement roadmap for the next three years.",
+        "pt": "Bom dia. Gostaria de apresentar nosso roteiro de melhoria contínua para os próximos três anos."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "Our baseline OEE is 68%. Our target is 80% by the end of year three.",
+        "pt": "Nosso OEE de partida é 68%. Nossa meta é 80% até o fim do terceiro ano."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "In the short term, we're going to focus on 5S and standard work. By December, every area will have been audited.",
+        "pt": "A curto prazo, vamos focar em 5S e trabalho padronizado. Até dezembro, todas as áreas terão sido auditadas."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "In year two, we'll be running kaizen events every month, and we'll have the old presses replaced.",
+        "pt": "No segundo ano, estaremos fazendo eventos kaizen todo mês, e mandaremos substituir as prensas antigas."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "By year three, we'll have automated the warehouse. If we get the team's buy-in, I'm confident we'll reach 80%.",
+        "pt": "Até o terceiro ano, teremos automatizado o armazém. Se tivermos a adesão da equipe, tenho confiança de que chegaremos a 80%."
+      },
+      {
+        "personagem": "Plant manager",
+        "voz": "a",
+        "en": "We'll review progress every quarter. Any questions?",
+        "pt": "Vamos revisar o progresso a cada trimestre. Alguma pergunta?"
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08l5-e1",
+        "tipo": "multipla",
+        "enunciado": "What is the baseline OEE?",
+        "opcoes": [
+          "60%",
+          "68%",
+          "80%"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08l5-e2",
+        "tipo": "multipla",
+        "enunciado": "What is the short-term focus?",
+        "opcoes": [
+          "5S and standard work",
+          "Automation",
+          "New presses"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l5-e3",
+        "tipo": "multipla",
+        "enunciado": "What will happen in year two?",
+        "opcoes": [
+          "Monthly kaizen events and replacing old presses",
+          "Automating the warehouse",
+          "Nothing"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l5-e4",
+        "tipo": "multipla",
+        "enunciado": "How often will they review progress?",
+        "opcoes": [
+          "Every month",
+          "Every quarter",
+          "Every year"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u08l5-p1",
+      "tipo": "completar",
+      "frase": "In the long ___, automation will pay off.",
+      "respostas": [
+        "run"
+      ]
+    },
+    {
+      "id": "b2u08l5-p2",
+      "tipo": "completar",
+      "frase": "The investment paid ___. (compensou)",
+      "respostas": [
+        "off"
+      ]
+    },
+    {
+      "id": "b2u08l5-p3",
+      "tipo": "completar",
+      "frase": "The ___ OEE is 68%. (de partida)",
+      "respostas": [
+        "baseline"
+      ]
+    },
+    {
+      "id": "b2u08l5-p4",
+      "tipo": "multipla",
+      "enunciado": "Concluído até uma data:",
+      "opcoes": [
+        "By 2027, we'll have reduced scrap by half.",
+        "By 2027, we reduce scrap half.",
+        "In 2027, we have reduced scrap."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l5-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Precisamos da adesão dos operadores\":",
+      "opcoes": [
+        "We need buy-in from the operators.",
+        "We need the operators buying.",
+        "We need operators to buy in us."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l5-p6",
+      "tipo": "ordenar",
+      "frase": "Here's our improvement roadmap",
+      "traducao_pt": "Aqui está nosso roteiro de melhoria"
+    },
+    {
+      "id": "b2u08l5-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "We are on track to reach the target."
+    },
+    {
+      "id": "b2u08l5-p8",
+      "tipo": "traduzir",
+      "pt": "A meta é ambiciosa mas realista.",
+      "respostas": [
+        "The target is ambitious but realistic.",
+        "The goal is ambitious but realistic."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Missão final do B2: apresente ao professor (a diretoria) um roteiro de melhoria de 3 anos para sua área: ponto de partida, metas, o que estará sendo feito e o que já terá sido feito em cada ano, serviços que serão terceirizados, riscos e como vão medir. Responda às perguntas da diretoria.",
+    "papel_professor": "Faça o papel da diretoria. Ouça a apresentação e faça perguntas desafiadoras (What will you have achieved by year one? What if the budget is cut? How will you sustain the results?). No fim, corrija os 2–3 erros principais e elogie os pontos fortes.",
+    "abertura": "Thank you for coming. The board is ready to hear your three-year plan. Please go ahead.",
+    "abertura_pt": "Obrigado por vir. A diretoria está pronta para ouvir seu plano de três anos. Pode começar."
+  },
+  "teste": [
+    {
+      "id": "b2u08l5-t1",
+      "tipo": "multipla",
+      "enunciado": "Em andamento no futuro:",
+      "opcoes": [
+        "In 2028, we'll be running three shifts.",
+        "In 2028, we'll have run three shifts yesterday.",
+        "In 2028, we run three shifts were."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l5-t2",
+      "tipo": "completar",
+      "frase": "We'll review progress every ___. (trimestre)",
+      "respostas": [
+        "quarter"
+      ]
+    },
+    {
+      "id": "b2u08l5-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "Our main KPI is OEE."
+    },
+    {
+      "id": "b2u08l5-t4",
+      "tipo": "traduzir",
+      "pt": "A curto prazo, vamos focar em segurança.",
+      "respostas": [
+        "In the short term, we'll focus on safety.",
+        "In the short term, we're going to focus on safety.",
+        "In the short term, we will focus on safety."
+      ]
+    },
+    {
+      "id": "b2u08l5-t5",
+      "tipo": "ordenar",
+      "frase": "If the pilot works we'll roll it out",
+      "traducao_pt": "Se o piloto funcionar, vamos implantar"
+    }
+  ]
+}

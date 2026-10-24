@@ -1,0 +1,365 @@
+{
+  "id": "b2-u08-l2",
+  "nivel": "B2",
+  "unidade": 8,
+  "numero": 2,
+  "titulo": "By December, we will have finished",
+  "objetivo_pt": "Usar o future perfect para o que estará concluído até um momento do futuro.",
+  "aquecimento": {
+    "situacao_pt": "O professor vai perguntar o que você terá conquistado até certos momentos (fim do ano, daqui a 5 anos). Use \"I'll have…\".",
+    "papel_professor": "Pergunte (By the end of this year, what will you have done? By 2030? By the time you retire?). Ensine will have + particípio e 'by'. Corrija.",
+    "abertura": "By the end of this year, what will you have achieved?",
+    "abertura_pt": "Até o fim deste ano, o que você terá conquistado?"
+  },
+  "vocabulario": [
+    {
+      "id": "will-have-pp",
+      "en": "will have + particípio",
+      "pt": "terá (feito)",
+      "emoji": "✅",
+      "exemplo_en": "By December, we'll have finished the project.",
+      "exemplo_pt": "Até dezembro, teremos terminado o projeto."
+    },
+    {
+      "id": "by-time",
+      "en": "by + tempo / by the time",
+      "pt": "até / quando (no máximo)",
+      "emoji": "⏰",
+      "exemplo_en": "By Friday, I'll have sent the report.",
+      "exemplo_pt": "Até sexta, terei enviado o relatório."
+    },
+    {
+      "id": "wont-have",
+      "en": "won't have + particípio",
+      "pt": "não terá (feito)",
+      "emoji": "🚫",
+      "exemplo_en": "We won't have finished by Monday.",
+      "exemplo_pt": "Não teremos terminado até segunda."
+    },
+    {
+      "id": "complete-l2",
+      "en": "complete / completed",
+      "pt": "concluir / concluído",
+      "emoji": "🏁",
+      "exemplo_en": "By May, all phases will have been completed.",
+      "exemplo_pt": "Até maio, todas as fases terão sido concluídas."
+    },
+    {
+      "id": "save-l2",
+      "en": "save (money)",
+      "pt": "economizar",
+      "emoji": "🐷",
+      "exemplo_en": "By 2030, we'll have saved 2 million.",
+      "exemplo_pt": "Até 2030, teremos economizado 2 milhões."
+    },
+    {
+      "id": "payback",
+      "en": "payback (period)",
+      "pt": "retorno do investimento (prazo)",
+      "emoji": "💹",
+      "exemplo_en": "The payback period is two years.",
+      "exemplo_pt": "O prazo de retorno é de dois anos."
+    },
+    {
+      "id": "milestone",
+      "en": "milestone",
+      "pt": "marco (do projeto)",
+      "emoji": "🚩",
+      "exemplo_en": "The first milestone is the installation.",
+      "exemplo_pt": "O primeiro marco é a instalação."
+    },
+    {
+      "id": "target-l2",
+      "en": "reach a target",
+      "pt": "atingir uma meta",
+      "emoji": "🎯",
+      "exemplo_en": "By the end of the year, we'll have reached our target.",
+      "exemplo_pt": "Até o fim do ano, teremos atingido nossa meta."
+    },
+    {
+      "id": "cumulative",
+      "en": "in total / cumulative",
+      "pt": "no total / acumulado",
+      "emoji": "➕",
+      "exemplo_en": "In total, we will have trained 300 people.",
+      "exemplo_pt": "No total, teremos treinado 300 pessoas."
+    },
+    {
+      "id": "by-then",
+      "en": "by then",
+      "pt": "até lá",
+      "emoji": "🔜",
+      "exemplo_en": "By then, the new line will be running.",
+      "exemplo_pt": "Até lá, a linha nova estará rodando."
+    }
+  ],
+  "gramatica": {
+    "titulo": "Future perfect",
+    "explicacao_pt": "Formação: WILL HAVE + PARTICÍPIO. Usamos para algo que estará CONCLUÍDO ANTES de um momento do futuro (quase sempre com BY): By December, we'll have finished the project. By the time you arrive, I'll have left. Negativa: won't have + particípio. Passiva: will have been + particípio (By May, all operators will have been trained). Muito útil para metas e cronogramas. Compare: By 2027, we'll have built the plant (concluído) × In 2027, we'll be building the plant (em andamento).",
+    "tabela": {
+      "colunas": [
+        "Tempo",
+        "Estrutura",
+        "Exemplo"
+      ],
+      "linhas": [
+        [
+          "Futuro simples",
+          "will + verbo",
+          "We'll finish in December."
+        ],
+        [
+          "Future continuous",
+          "will be + -ing",
+          "In November, we'll be finishing."
+        ],
+        [
+          "Future perfect",
+          "will have + pp",
+          "By December, we'll have finished."
+        ],
+        [
+          "FP negativo",
+          "won't have + pp",
+          "We won't have finished by Monday."
+        ],
+        [
+          "FP passivo",
+          "will have been + pp",
+          "By May, everyone will have been trained."
+        ]
+      ]
+    },
+    "exemplos": [
+      {
+        "en": "By the end of the year, we'll have reduced energy consumption by 15%.",
+        "pt": "Até o fim do ano, teremos reduzido o consumo de energia em 15%."
+      },
+      {
+        "en": "By the time the auditors arrive, we'll have updated all the procedures.",
+        "pt": "Quando os auditores chegarem, teremos atualizado todos os procedimentos."
+      },
+      {
+        "en": "I'm afraid we won't have received the parts by Monday.",
+        "pt": "Receio que não teremos recebido as peças até segunda."
+      },
+      {
+        "en": "By 2028, all our plants will have been certified.",
+        "pt": "Até 2028, todas as nossas fábricas terão sido certificadas."
+      }
+    ]
+  },
+  "escuta": {
+    "titulo": "Project milestones",
+    "falas": [
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Where will we be with the solar project by the end of the year?",
+        "pt": "Onde estaremos com o projeto solar até o fim do ano?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "By October, we'll have installed all 2,000 panels.",
+        "pt": "Até outubro, teremos instalado todos os 2.000 painéis."
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "By November, the inverters will have been connected, and we'll be testing the system.",
+        "pt": "Até novembro, os inversores terão sido conectados, e estaremos testando o sistema."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "And when will it pay for itself?",
+        "pt": "E quando ele vai se pagar?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "The payback period is about four years. By 2030, we'll have saved around 3 million reais.",
+        "pt": "O prazo de retorno é de uns quatro anos. Até 2030, teremos economizado cerca de 3 milhões de reais."
+      },
+      {
+        "personagem": "Director",
+        "voz": "a",
+        "en": "Are there any risks?",
+        "pt": "Há algum risco?"
+      },
+      {
+        "personagem": "Project leader",
+        "voz": "b",
+        "en": "If the steel structure arrives late, we won't have finished the installation by October.",
+        "pt": "Se a estrutura de aço atrasar, não teremos terminado a instalação até outubro."
+      }
+    ],
+    "perguntas": [
+      {
+        "id": "b2u08l2-e1",
+        "tipo": "multipla",
+        "enunciado": "How many panels will they have installed by October?",
+        "opcoes": [
+          "200",
+          "2,000",
+          "20,000"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08l2-e2",
+        "tipo": "multipla",
+        "enunciado": "What will they be doing in November?",
+        "opcoes": [
+          "Testing the system",
+          "Installing panels",
+          "Buying steel"
+        ],
+        "correta": 0
+      },
+      {
+        "id": "b2u08l2-e3",
+        "tipo": "multipla",
+        "enunciado": "What is the payback period?",
+        "opcoes": [
+          "Two years",
+          "Four years",
+          "Ten years"
+        ],
+        "correta": 1
+      },
+      {
+        "id": "b2u08l2-e4",
+        "tipo": "multipla",
+        "enunciado": "What is the main risk?",
+        "opcoes": [
+          "The steel structure arriving late",
+          "Bad weather",
+          "Lack of money"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  "pratica": [
+    {
+      "id": "b2u08l2-p1",
+      "tipo": "completar",
+      "frase": "By December, we'll ___ finished the project.",
+      "respostas": [
+        "have"
+      ]
+    },
+    {
+      "id": "b2u08l2-p2",
+      "tipo": "completar",
+      "frase": "By Friday, I'll have ___ the report. (enviado)",
+      "respostas": [
+        "sent"
+      ]
+    },
+    {
+      "id": "b2u08l2-p3",
+      "tipo": "completar",
+      "frase": "We won't have finished ___ Monday. (até)",
+      "respostas": [
+        "by"
+      ]
+    },
+    {
+      "id": "b2u08l2-p4",
+      "tipo": "multipla",
+      "enunciado": "Concluído antes de um momento futuro:",
+      "opcoes": [
+        "By 2027, we'll have built the plant.",
+        "By 2027, we'll be build the plant.",
+        "In 2027, we built the plant."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l2-p5",
+      "tipo": "multipla",
+      "enunciado": "\"Até maio, todos terão sido treinados\":",
+      "opcoes": [
+        "By May, everyone will have been trained.",
+        "By May, everyone will be train.",
+        "Until May, everyone will have trained been."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l2-p6",
+      "tipo": "ordenar",
+      "frase": "The first milestone is the installation",
+      "traducao_pt": "O primeiro marco é a instalação"
+    },
+    {
+      "id": "b2u08l2-p7",
+      "tipo": "ouvir_escrever",
+      "audio": "By then, the new line will be running."
+    },
+    {
+      "id": "b2u08l2-p8",
+      "tipo": "traduzir",
+      "pt": "Até o fim do ano, teremos atingido nossa meta.",
+      "respostas": [
+        "By the end of the year, we'll have reached our target.",
+        "By the end of the year, we will have reached our target."
+      ]
+    }
+  ],
+  "conversa": {
+    "situacao_pt": "Apresente ao professor (diretor) os marcos de um projeto: o que já terá sido feito em cada data, o que estará em andamento e os riscos. Use future perfect, future continuous e condicionais.",
+    "papel_professor": "Peça marcos com datas. Pergunte What will have been done by…? What will you be doing in…? What if…? Corrija a escolha entre os futuros.",
+    "abertura": "I need to present our project to the board. Tell me the main milestones and dates.",
+    "abertura_pt": "Preciso apresentar nosso projeto à diretoria. Me diga os principais marcos e datas."
+  },
+  "teste": [
+    {
+      "id": "b2u08l2-t1",
+      "tipo": "multipla",
+      "enunciado": "\"Quando você chegar, eu já terei saído\":",
+      "opcoes": [
+        "By the time you arrive, I'll have left.",
+        "When you will arrive, I'll leave.",
+        "By the time you arrive, I left."
+      ],
+      "correta": 0
+    },
+    {
+      "id": "b2u08l2-t2",
+      "tipo": "completar",
+      "frase": "The ___ period is two years. (retorno)",
+      "respostas": [
+        "payback"
+      ]
+    },
+    {
+      "id": "b2u08l2-t3",
+      "tipo": "ouvir_escrever",
+      "audio": "In total, we will have trained three hundred people.",
+      "aceitas": [
+        "In total, we will have trained 300 people.",
+        "In total, we'll have trained 300 people."
+      ]
+    },
+    {
+      "id": "b2u08l2-t4",
+      "tipo": "traduzir",
+      "pt": "Até 2030, teremos economizado 2 milhões.",
+      "respostas": [
+        "By 2030, we'll have saved 2 million.",
+        "By 2030, we will have saved 2 million.",
+        "By 2030, we'll have saved two million."
+      ]
+    },
+    {
+      "id": "b2u08l2-t5",
+      "tipo": "ordenar",
+      "frase": "We won't have finished by Monday",
+      "traducao_pt": "Não teremos terminado até segunda"
+    }
+  ]
+}
