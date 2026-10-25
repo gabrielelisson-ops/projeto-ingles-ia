@@ -10,7 +10,8 @@ import { MODELO_VALIDO, useApp } from '../estado/AppContext';
 import { apagarChave, mascararChave, salvarChave } from '../ia/chave';
 import { ErroIA } from '../ia/gemini';
 import { MODELOS_PADRAO, testarChave } from '../ia/professor';
-import { falar } from '../voz/falar';
+import { falar, listarVozes } from '../voz/falar';
+import { nomeDaVoz, type VozDisponivel } from '../voz/vozes';
 import { compartilharBackup, escolherBackup } from '../ui/arquivoBackup';
 import { confirmar } from '../ui/confirmar';
 import { aplicarLembrete, LEMBRETE_DISPONIVEL } from '../ui/lembrete';
@@ -32,6 +33,17 @@ export default function Configuracoes() {
   const [msgLembrete, setMsgLembrete] = useState<{ tipo: 'sucesso' | 'erro'; texto: string } | null>(null);
   const [msgBackup, setMsgBackup] = useState<{ tipo: 'sucesso' | 'erro' | 'info'; texto: string } | null>(null);
   const [ocupado, setOcupado] = useState(false);
+  const [vozes, setVozes] = useState<VozDisponivel[] | null>(null);
+
+  useEffect(() => {
+    let cancelado = false;
+    listarVozes(prefs.sotaque).then((l) => {
+      if (!cancelado) setVozes(l.slice(0, 12));
+    });
+    return () => {
+      cancelado = true;
+    };
+  }, [prefs.sotaque]);
 
   useEffect(() => {
     (async () => {
@@ -114,6 +126,12 @@ export default function Configuracoes() {
   }
 
   const ouvirExemplo = () => falar('Hello! Nice to meet you. How are you today?', { nivel: 'B1', sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade });
+  const vozAtual = prefs.vozes[prefs.sotaque] ?? '';
+  const escolherVoz = (id: string) => {
+    // salvarPrefs já troca a voz antes de gravar no banco, então o exemplo sai na voz nova.
+    void salvarPrefs({ vozes: { [prefs.sotaque]: id } });
+    void ouvirExemplo();
+  };
 
   return (
     <Tela>
@@ -165,6 +183,17 @@ export default function Configuracoes() {
           <Botao tipo="secundario" titulo="+ Mais rápido" desativado={prefs.ajusteVelocidade >= 1.4} onPress={() => salvarPrefs({ ajusteVelocidade: Math.round((prefs.ajusteVelocidade + 0.1) * 10) / 10 })} />
         </Linha>
         <Botao tipo="texto" titulo="▶️ Ouvir exemplo" onPress={ouvirExemplo} />
+        <Paragrafo>Voz (toque para ouvir e escolher):</Paragrafo>
+        <Botao tipo={vozAtual === '' ? 'primario' : 'secundario'} titulo="✨ Automática (recomendada)" onPress={() => escolherVoz('')} />
+        {vozes?.map((v, i) => (
+          <Botao
+            key={v.identifier}
+            tipo={vozAtual === v.identifier ? 'primario' : 'secundario'}
+            titulo={nomeDaVoz(v, i)}
+            onPress={() => escolherVoz(v.identifier)}
+          />
+        ))}
+        {vozes?.length === 0 && <Paragrafo suave>Não encontrei vozes em inglês neste aparelho.</Paragrafo>}
         <Paragrafo suave>
           {Platform.OS === 'web'
             ? 'No computador, a voz vem do navegador. O Microsoft Edge e o Google Chrome têm as vozes em inglês mais naturais.'

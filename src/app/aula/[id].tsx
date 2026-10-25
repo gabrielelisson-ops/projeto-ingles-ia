@@ -7,13 +7,14 @@ import { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { acharAula } from '../../conteudo/curso';
 import * as repo from '../../dados/repositorio';
+import { chaveAndamento, gravarAndamento, lerAndamento, retomarSequencia, type AndamentoConversa, type AndamentoSequencia } from '../../logica/andamento';
 import { useApp } from '../../estado/AppContext';
 import { estadoDe } from '../../logica/desbloqueio';
 import { testeRapidoAprovado } from '../../logica/notas';
 import { respostaCerta } from '../../logica/respostas';
 import { falar, pararFala } from '../../voz/falar';
 import { Aviso, BarraProgresso, Botao, Cartao, Linha, Paragrafo, Subtitulo, Tela, Titulo } from '../../ui/base';
-import { ConversaProfessor } from '../../ui/ConversaProfessor';
+import { ConversaProfessor, type EstadoConversa } from '../../ui/ConversaProfessor';
 import { Dialogo } from '../../ui/Dialogo';
 import { SequenciaExercicios, type ResultadoExercicio } from '../../ui/Exercicio';
 import { cores, espaco } from '../../ui/tema';
@@ -32,10 +33,63 @@ export default function TelaAula() {
   const [teste, setTeste] = useState<{ acertos: number; tentativa: number } | null>(null);
   const [tentativa, setTentativa] = useState(0);
   const [escutaFeita, setEscutaFeita] = useState(false);
+  // Questões já respondidas na sequência em andamento e conversa em andamento.
+  const [seq, setSeq] = useState<AndamentoSequencia | undefined>(undefined);
+  const [conv, setConv] = useState<AndamentoConversa | undefined>(undefined);
+  // Chave do andamento já lido do banco (enquanto não lê, a aula não aparece, para não "pular" de etapa).
+  const [lidoDe, setLidoDe] = useState<string | null>(null);
+  const [retomado, setRetomado] = useState(false);
   const inicio = useInicio();
+  const perfilId = perfil?.id;
+  const chave = perfilId != null && achado ? chaveAndamento(perfilId, achado.aula.id) : null;
+  const carregado = !chave || lidoDe === chave;
 
   useEffect(() => () => pararFala(), []);
 
+  // Ao abrir: continua de onde o aluno parou nesta aula.
+  useEffect(() => {
+    if (!chave) return;
+    let cancelado = false;
+    repo
+      .lerConfig(db, chave)
+      .then((t) => {
+        const a = lerAndamento(t);
+        if (cancelado || !a || a.etapa >= 7) return;
+        setEtapa(a.etapa);
+        setErros(a.erros);
+        setEscutaFeita(a.escutaFeita);
+        setTentativa(a.tentativa);
+        setSeq(a.sequencia);
+        setConv(a.conversa);
+        setRetomado(a.etapa > 0 || !!a.sequencia?.respostas.length || !!a.conversa);
+      })
+      .catch(() => undefined)
+      .finally(() => {
+        if (!cancelado) setLidoDe(chave);
+      });
+    return () => {
+      cancelado = true;
+    };
+  }, [db, chave]);
+
+  // A cada passo: grava o andamento. No resumo (aula concluída), apaga.
+  useEffect(() => {
+    if (!carregado || !chave) return;
+    if (etapa >= 7) {
+      void repo.apagarConfig(db, chave);
+      return;
+    }
+    const texto = gravarAndamento({ v: 1, etapa, erros, escutaFeita, tentativa, sequencia: seq, conversa: conv });
+    if (texto) void repo.gravarConfig(db, chave, texto);
+  }, [db, chave, carregado, etapa, erros, escutaFeita, tentativa, seq, conv]);
+
+  if (!carregado) {
+    return (
+      <Tela>
+        <Paragrafo suave>Abrindo a aula…</Paragrafo>
+      </Tela>
+    );
+  }
   if (!achado || !perfil) {
     return (
       <Tela>
@@ -62,6 +116,22 @@ export default function TelaAula() {
     gramatica: aula.gramatica.titulo,
   };
   const opcoesFala = { nivel, sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade };
+  // Grava cada resposta da sequência (escuta, prática ou teste rápido) para continuar depois.
+  const progressoSequencia = (rs: ResultadoExercicio[]) =>
+    setSeq({ etapa, tentativa, respostas: rs.map((r) => ({ id: r.exercicio.id, resposta: r.resposta, acertou: r.acertou })) });
+  const fimSequencia = () => setSeq(undefined);
+  const retomar = (lista: Parameters<typeof retomarSequencia>[0]) => retomarSequencia(lista, seq, etapa, tentativa) as ResultadoExercicio[];
+  const recomecar = () => {
+    pararFala();
+    setEtapa(0);
+    setErros([]);
+    setEscutaFeita(false);
+    setTeste(null);
+    setTentativa(0);
+    setSeq(undefined);
+    setConv(undefined);
+    setRetomado(false);
+  };
   const avancar = () => {
     pararFala();
     setEtapa((e) => Math.min(ETAPAS.length - 1, e + 1));
@@ -99,6 +169,12 @@ export default function TelaAula() {
     <Tela>
       <Stack.Screen options={{ title: `Aula ${aula.numero}: ${aula.titulo}` }} />
       <BarraProgresso valor={(etapa / (ETAPAS.length - 1)) * 100} />
+      {retomado && etapa < 7 && (
+        <>
+          <Aviso tipo="info" texto="Continuando de onde você parou." />
+          <Botao tipo="texto" titulo="↺ Recomeçar a aula do início" onPress={recomecar} />
+        </>
+      )}
       <Paragrafo suave>
         Etapa {etapa + 1} de {ETAPAS.length}: {ETAPAS[etapa]}
       </Paragrafo>
@@ -111,7 +187,12 @@ export default function TelaAula() {
             conversa={aula.aquecimento}
             atividade="aquecimento (conversa curta para começar a aula)"
             minTurnos={1}
-            onConcluir={avancar}
+            inicial={conv as EstadoConversa | undefined}
+            onMudanca={setConv}
+            onConcluir={() => {
+              setConv(undefined);
+              avancar();
+            }}
             {...ctx}
           />
         </>
@@ -188,8 +269,11 @@ export default function TelaAula() {
             <SequenciaExercicios
               lista={aula.escuta.perguntas}
               nivel={nivel}
+              inicio={retomar(aula.escuta.perguntas)}
+              onProgresso={progressoSequencia}
               onFim={(rs) => {
                 guardarErros(rs);
+                fimSequencia();
                 setEscutaFeita(true);
               }}
             />
@@ -205,8 +289,11 @@ export default function TelaAula() {
           <SequenciaExercicios
             lista={aula.pratica}
             nivel={nivel}
+            inicio={retomar(aula.pratica)}
+            onProgresso={progressoSequencia}
             onFim={(rs) => {
               guardarErros(rs);
+              fimSequencia();
               avancar();
             }}
           />
@@ -220,8 +307,11 @@ export default function TelaAula() {
             conversa={aula.conversa}
             atividade="conversa da aula (situação real usando o vocabulário e a gramática)"
             minTurnos={3}
+            inicial={conv as EstadoConversa | undefined}
+            onMudanca={setConv}
             onConcluir={(r) => {
               setErros((a) => [...a, ...r.correcoes.map((c) => ({ pergunta: c.errado, certo: c.certo }))]);
+              setConv(undefined);
               avancar();
             }}
             {...ctx}
@@ -234,7 +324,17 @@ export default function TelaAula() {
           <Subtitulo>✏️ Teste rápido</Subtitulo>
           <Paragrafo suave>5 perguntas. Acerte pelo menos 4 para concluir a aula.</Paragrafo>
           {teste?.tentativa !== tentativa ? (
-            <SequenciaExercicios key={tentativa} lista={aula.teste} nivel={nivel} onFim={terminarTeste} />
+            <SequenciaExercicios
+              key={tentativa}
+              lista={aula.teste}
+              nivel={nivel}
+              inicio={retomar(aula.teste)}
+              onProgresso={progressoSequencia}
+              onFim={(rs) => {
+                fimSequencia();
+                void terminarTeste(rs);
+              }}
+            />
           ) : testeRapidoAprovado(teste.acertos) ? (
             <>
               <Aviso tipo="sucesso" texto={`🎉 Você acertou ${teste.acertos} de 5. Aula concluída!`} />

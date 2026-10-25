@@ -15,8 +15,8 @@ const ERROS: Record<string, string> = {
   'not-allowed': WEB
     ? 'O navegador bloqueou o microfone. Clique no cadeado ao lado do endereço do site e permita o microfone.'
     : 'O app precisa de permissão para usar o microfone. Libere em Configurações do Android › Apps › Inglês IA › Permissões.',
-  'no-speech': 'Não ouvi nada. Segure o botão enquanto fala.',
-  'speech-timeout': 'Não ouvi nada. Segure o botão enquanto fala.',
+  'no-speech': WEB ? 'Não ouvi nada. Toque no botão e fale logo em seguida.' : 'Não ouvi nada. Segure o botão enquanto fala.',
+  'speech-timeout': WEB ? 'Não ouvi nada. Toque no botão e fale logo em seguida.' : 'Não ouvi nada. Segure o botão enquanto fala.',
   network: 'O reconhecimento de voz precisa de internet.',
   'language-not-supported': WEB
     ? 'Este navegador não reconhece inglês. Use o Google Chrome ou o Microsoft Edge.'
