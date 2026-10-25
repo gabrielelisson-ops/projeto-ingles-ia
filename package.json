@@ -51,7 +51,9 @@
     "conteudo:indice": "node scripts/gerar-indice.js",
     "verificar": "node scripts/gerar-indice.js && tsc --noEmit && eslint src testes scripts && jest",
     "gerar": "tsx scripts/gerar-conteudo.ts",
-    "lint": "eslint src testes scripts"
+    "lint": "eslint src testes scripts",
+    "web": "expo start --web",
+    "web:exportar": "expo export --platform web"
   },
   "private": true,
   "jest": {

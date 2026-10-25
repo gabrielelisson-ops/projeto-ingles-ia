@@ -1,8 +1,11 @@
 # Guia de instalação — Inglês com IA
 
-Passo a passo para colocar o app num celular **Android**.
+Passo a passo para usar o curso:
+- **no celular Android** (app instalado, com o arquivo APK);
+- **no computador** (versão web, no navegador Chrome ou Edge) — veja a **Parte W**;
+- **no iPhone** dá para abrir a versão web pelo Safari, com uma limitação na voz (Parte W4).
 
-> **iPhone:** o arquivo APK só funciona no Android. Para iPhone há um caminho diferente, que está em definição (ver o fim da conversa da Fase 5). Não precisa saber programar. Tudo é **gratuito**: nenhum passo pede cartão de crédito.
+Não precisa saber programar. Tudo é **gratuito**: nenhum passo pede cartão de crédito.
 
 Resumo do caminho:
 
@@ -10,6 +13,8 @@ Resumo do caminho:
 2. **Parte B** — Cada um, no seu celular: instala o APK.
 3. **Parte C** — Cada um: cria a sua chave grátis da IA e cola no app.
 4. **Parte D** — Primeiro uso: perfil, nivelamento, voz e lembrete.
+
+Para o computador, siga a **Parte W** (depois da Parte A, porque usa a mesma conta da Expo).
 
 Se algo der errado, veja a **Parte F (problemas comuns)**.
 
@@ -131,6 +136,51 @@ Cuidados:
 
 ---
 
+## Parte W — Versão web (computador e, se quiser, iPhone)
+
+A versão web é o mesmo curso, aberto pelo navegador. Ela fica num endereço da internet como `https://ingles-ia-gabriel.expo.app`, hospedado de graça na mesma conta da Expo da Parte A.
+
+**Importante:** cada navegador guarda o seu próprio progresso. O que você faz no computador não aparece no celular, e vice-versa. Para levar o progresso de um para o outro, use o **backup** (Parte E).
+
+### W1. Publicar o site (Gabriel, no computador, depois da Parte A)
+Na mesma janela do PowerShell, dentro da pasta do projeto:
+
+```
+npm run web:exportar
+npx eas-cli@latest deploy --prod
+```
+
+- O primeiro comando monta o site na pasta `dist` (leva 1–2 minutos).
+- O segundo envia para a Expo. Na primeira vez, ele pede um nome para o endereço. Escolha algo como `ingles-ia-gabriel`.
+- No final aparece o **endereço do site**. Guarde nos favoritos do navegador.
+- **Não** cadastre cartão de crédito se a Expo pedir. A hospedagem desse tamanho cabe no plano grátis.
+
+Para atualizar o site depois de uma versão nova do curso, rode os dois comandos de novo. O progresso continua, porque fica no navegador e não no site.
+
+### W2. Usar no computador
+1. Abra o endereço no **Google Chrome** ou no **Microsoft Edge**. Eles reconhecem a fala; o Firefox não.
+2. Escolha o perfil e vá em **⚙️ Configurações › Chave da IA**: cole a sua chave (Parte C) › **Salvar** › **Testar**.
+3. Na primeira vez que segurar **🎤 Segure para falar**, o navegador pergunta sobre o microfone: clique em **Permitir**.
+   - Dá para segurar o botão com o mouse enquanto fala e soltar no fim.
+   - Use um fone com microfone, se tiver: o reconhecimento melhora muito.
+4. **Voz do professor:** o Edge tem as vozes em inglês mais naturais. Escolha o sotaque e a velocidade em Configurações.
+
+### W3. Diferenças em relação ao app do celular
+- **Lembrete diário:** não existe no navegador. Use um alarme ou a agenda.
+- **Certificado:** abre a janela de impressão. Escolha **Salvar como PDF** como impressora.
+- **Backup:** "Exportar backup" baixa um arquivo `.json`; "Importar backup" pede para escolher o arquivo.
+- **A chave da IA** fica guardada só neste navegador. Não use num computador compartilhado com outras pessoas.
+- **Janela anônima** não guarda nada: use sempre uma janela normal.
+
+### W4. iPhone (opcional)
+No iPhone, o Safari em geral **não reconhece a fala dentro de sites**. Por isso, o app mostra um campo de texto: toque no **🎤 do teclado** (ditado do iPhone), fale em inglês e envie. O professor continua falando com você normalmente.
+1. Abra o endereço do site no **Safari**.
+2. Toque em **Compartilhar** (quadrado com seta) › **Adicionar à Tela de Início**. Vira um ícone como de app.
+3. Se o ditado não aparecer no teclado, ative em Ajustes › Geral › Teclado › **Ativar Ditado**.
+4. Faça backup com frequência (Parte E). O iPhone pode apagar dados de sites que ficam muitas semanas sem uso.
+
+---
+
 ## Parte F — Problemas comuns
 
 | Problema | O que fazer |
@@ -143,6 +193,8 @@ Cuidados:
 | "O limite grátis de hoje da IA acabou" | O limite grátis do dia acabou. As aulas, a revisão e os exercícios continuam funcionando; só a conversa com o professor e a correção de redações ficam para o dia seguinte. |
 | "A chave da IA não foi aceita" | Confira se colou a chave inteira (começa com `AIza`). Se não resolver, crie uma chave nova no AI Studio. |
 | "Sem conexão com a IA" | A conversa com o professor precisa de internet. O resto do app funciona offline. |
+| (web) "Não consegui abrir os dados do curso neste navegador" | Saia da janela anônima. Se continuar, atualize o navegador ou use o Chrome/Edge. |
+| (web) O microfone não funciona no computador | Clique no cadeado ao lado do endereço do site › Microfone › **Permitir**, e recarregue a página. Confira se está no Chrome ou no Edge. |
 | "A IA do Google está sobrecarregada" / "O modelo da IA não foi encontrado" | Espere um minuto e tente de novo. Se a mensagem de modelo continuar, vá em **Configurações › Modelos › Restaurar padrão**. |
 | O lembrete não aparece | Permita notificações para o app e tire o app da "otimização de bateria" (Configurações do Android › Bateria). |
 
@@ -150,6 +202,6 @@ Cuidados:
 
 ## Quanto custa
 
-- **Expo (montar o APK):** plano Free, sem cartão. O plano grátis tem um número limitado de builds por mês, bem mais do que precisamos, e a fila pode demorar um pouco mais.
+- **Expo (montar o APK e hospedar o site):** plano Free, sem cartão. O plano grátis tem um número limitado de builds por mês, bem mais do que precisamos, e a fila pode demorar um pouco mais.
 - **Gemini (professor de IA):** plano grátis do Google AI Studio, sem cartão, com limite diário de uso.
 - **App:** sem anúncios, sem assinatura e sem coleta de dados por nós. O progresso fica no celular. Veja a seção **Privacidade** no `README.md`.
