@@ -2,6 +2,7 @@
   "expo": {
     "name": "Inglês com IA",
     "slug": "projeto-ingles-ia",
+    "owner": "gabrielelisson",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -65,6 +66,11 @@
         }
       ]
     ],
-    "scheme": "inglesia"
+    "scheme": "inglesia",
+    "extra": {
+      "eas": {
+        "projectId": "3ee320b3-efbe-44ef-8697-1f55180b2728"
+      }
+    }
   }
 }

@@ -55,17 +55,30 @@ npx eas-cli@latest login
 ```
 Digite o usuário e a senha da Expo.
 
+A Expo só aceita montar o app a partir de uma pasta controlada pelo **Git** (o programa que guarda versões de código). A pasta do ZIP não vem com isso. Rode estes três comandos, um de cada vez:
+
+```
+git init
+git add -A
+git commit -m "versao para montar o app"
+```
+
+- Se aparecer "git não é reconhecido como comando", instale o Git em https://git-scm.com (botão **Download for Windows**, aceite tudo como vem). Depois feche e abra o PowerShell de novo.
+- Se o Git pedir seu nome e e-mail ("Please tell me who you are"), rode `git config --global user.name "Gabriel"` e `git config --global user.email "seu-email"`. Depois repita o `git commit`.
+
+Agora monte o APK:
+
 ```
 npx eas-cli@latest build -p android --profile preview
 ```
 
-O programa faz algumas perguntas na primeira vez:
+O projeto na Expo já existe e está gravado no `app.json` (conta `gabrielelisson`, projeto `projeto-ingles-ia`). A assinatura digital também já existe. Por isso o programa normalmente não pergunta nada. Se perguntar:
 
-| Pergunta (em inglês) | Responda |
-|---|---|
-| *Would you like to automatically create an EAS project for @seu-usuario/projeto-ingles-ia?* | **Y** e Enter |
-| *Generate a new Android Keystore?* | **Y** e Enter |
-| Qualquer pergunta sobre **iOS** ou **Apple** | Não deve aparecer. Se aparecer, aperte **Ctrl+C** e confira se digitou `-p android`. |
+| Pergunta (em inglês) | O que quer dizer | Responda |
+|---|---|---|
+| *Generate a new Android Keystore?* | "Criar uma nova assinatura do Android?" | **Y** e Enter (só aparece se a assinatura ainda não existir) |
+| Qualquer pergunta sobre **iOS** ou **Apple** | — | Não deve aparecer. Se aparecer, aperte **Ctrl+C** e confira se digitou `-p android`. |
+| Erro *EAS requires you to use a git repository* | "A Expo exige uma pasta com Git" | Faltou o passo do `git init` acima. |
 
 > **O que é a Keystore?** É a "assinatura digital" do app. A Expo guarda essa assinatura na sua conta. Ela garante que as próximas versões possam ser instaladas **por cima**, sem perder o progresso. Não apague o projeto na Expo.
 
@@ -126,7 +139,7 @@ Cuidados:
 ## Parte E — Atualizar o app e guardar o progresso
 
 ### Atualizar para uma versão nova
-1. Baixe o código novo (Parte A3) e repita a **Parte A5**. O `login` não precisa repetir, e a Keystore já existe.
+1. Baixe o código novo (Parte A3) e repita a **Parte A5**, inclusive os três comandos do Git (a pasta nova também precisa deles). O `login` não precisa repetir, e a Keystore já existe.
 2. Instale o APK novo **por cima** do antigo (Parte B). **Não desinstale antes**: desinstalar apaga o progresso.
 
 ### Backup (recomendado uma vez por semana)
@@ -138,7 +151,7 @@ Cuidados:
 
 ## Parte W — Versão web (computador e, se quiser, iPhone)
 
-A versão web é o mesmo curso, aberto pelo navegador. Ela fica num endereço da internet como `https://ingles-ia-gabriel.expo.app`, hospedado de graça na mesma conta da Expo da Parte A.
+A versão web é o mesmo curso, aberto pelo navegador. Ela fica no endereço **https://projeto-ingles-ia.expo.app**, hospedado de graça na mesma conta da Expo da Parte A.
 
 **Importante:** cada navegador guarda o seu próprio progresso. O que você faz no computador não aparece no celular, e vice-versa. Para levar o progresso de um para o outro, use o **backup** (Parte E).
 
@@ -151,8 +164,7 @@ npx eas-cli@latest deploy --prod
 ```
 
 - O primeiro comando monta o site na pasta `dist` (leva 1–2 minutos).
-- O segundo envia para a Expo. Na primeira vez, ele pede um nome para o endereço. Escolha algo como `ingles-ia-gabriel`.
-- No final aparece o **endereço do site**. Guarde nos favoritos do navegador.
+- O segundo envia para a Expo. O endereço é sempre **https://projeto-ingles-ia.expo.app**. Guarde nos favoritos do navegador.
 - **Não** cadastre cartão de crédito se a Expo pedir. A hospedagem desse tamanho cabe no plano grátis.
 
 Para atualizar o site depois de uma versão nova do curso, rode os dois comandos de novo. O progresso continua, porque fica no navegador e não no site.
