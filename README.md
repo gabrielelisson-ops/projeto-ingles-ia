@@ -4,6 +4,10 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 
 ## O que já funciona
 
+### Fase 5
+- **Versão 1.0.0** pronta para instalar: ícone próprio (balão azul "EN"), tela de abertura, permissões mínimas (internet, microfone e notificações).
+- **Guia de instalação** passo a passo para os dois celulares: [GUIA-INSTALACAO.md](GUIA-INSTALACAO.md).
+
 ### Fase 4
 - **Curso completo do A1 ao C1**: 5 níveis × 8 unidades = 200 aulas + 40 provas de unidade + 5 provas finais com entrevista oral. Todo o conteúdo é original e foi escrito e revisado à mão (sem custo de IA), validado pelos testes automáticos.
 - **Inglês de indústria em todos os níveis**: turnos, segurança e EPI (A2), processos e voz passiva, problemas de produção (B1), reuniões de produção, negociação com fornecedores, relatórios e melhoria contínua — PDCA, kaizen, 5S (B2), inglês corporativo, KPIs, supply chain, planejamento de produção, S&OP e MRP (C1).
@@ -79,42 +83,19 @@ npm install
 npm run verificar      # gera o índice do conteúdo, confere os tipos e roda todos os testes
 ```
 
-## Gerar o APK e instalar no celular
+## Instalar nos celulares
 
-O app usa reconhecimento de voz, que **não funciona no app "Expo Go"**: é preciso gerar o APK. O APK é montado gratuitamente nos servidores da Expo (EAS Build, plano grátis).
+Siga o **[GUIA-INSTALACAO.md](GUIA-INSTALACAO.md)**: gerar o APK (grátis, nos servidores da Expo), instalar nos dois celulares, criar a chave da IA, primeiro uso, atualizações, backup e problemas comuns.
 
-**Uma vez só, no computador (Windows):**
+Resumo para quem já tem tudo instalado no computador:
 
-1. Instale o **Node.js LTS**: https://nodejs.org (botão "LTS", avançar até o fim).
-2. Crie uma conta grátis na Expo: https://expo.dev/signup
-3. Baixe o código: na página do repositório no GitHub, botão verde **Code › Download ZIP**, e extraia a pasta. Se você usa Git, pode clonar.
-4. Abra o PowerShell **dentro da pasta extraída** e rode, um de cada vez:
-   ```
-   npm install
-   npx eas-cli@latest login
-   npx eas-cli@latest build -p android --profile preview
-   ```
-   - Se perguntar *"Would you like to automatically create an EAS project?"* → **Y**.
-   - Se perguntar *"Generate a new Android Keystore?"* → **Y**. A Expo guarda essa "assinatura" do app. É ela que permite instalar atualizações sem perder o progresso.
-5. Espere de 10 a 20 minutos. No fim aparece um **link** e um **QR code**.
+```
+npm install
+npx eas-cli@latest login
+npx eas-cli@latest build -p android --profile preview
+```
 
-**No celular (cada um no seu):**
-
-1. Abra o link (ou leia o QR code com a câmera) e baixe o APK. Dá para mandar o link por WhatsApp.
-2. Ao abrir o arquivo, o Android pede para permitir "instalar apps desta fonte": permita para o navegador ou o WhatsApp.
-3. Instale e abra o **Inglês com IA**. Na primeira vez que segurar o botão de falar, permita o microfone.
-
-**Atualizações:** gere o APK de novo (passo 4) e instale por cima. O progresso continua, porque a assinatura é a mesma.
-
-## Chave da IA (Google AI Studio)
-
-1. Entre em https://aistudio.google.com/apikey com sua conta Google.
-2. Clique em **Create API key** e copie a chave.
-3. No app: **Configurações › Chave da IA** › cole › **Salvar chave** › **Testar chave**.
-
-Recomendação: **cada um cria a própria chave** com a própria conta Google. O limite grátis é por projeto do Google, então duas chaves dão o dobro de uso. Nunca coloque a chave no código, em prints ou em mensagens.
-
-Custo: o app usa o plano grátis do Gemini. Se o limite do dia acabar, o app avisa e tenta o outro modelo. O limite volta no dia seguinte, por volta das 4h–5h da manhã no horário de Brasília.
+O app usa reconhecimento de voz, que **não funciona no "Expo Go"**: é preciso instalar o APK.
 
 ## Privacidade
 
