@@ -1,6 +1,8 @@
 # Guia de instalação — Inglês com IA
 
-Passo a passo para colocar o app nos dois celulares (Android). Não precisa saber programar. Tudo é **gratuito**: nenhum passo pede cartão de crédito.
+Passo a passo para colocar o app num celular **Android**.
+
+> **iPhone:** o arquivo APK só funciona no Android. Para iPhone há um caminho diferente, que está em definição (ver o fim da conversa da Fase 5). Não precisa saber programar. Tudo é **gratuito**: nenhum passo pede cartão de crédito.
 
 Resumo do caminho:
 
