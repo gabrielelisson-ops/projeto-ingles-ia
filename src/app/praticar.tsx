@@ -14,7 +14,7 @@ export default function Praticar() {
       <Titulo>🗣️ Praticar</Titulo>
       <Paragrafo suave>O professor ajusta a conversa ao seu nível atual ({nivel}).</Paragrafo>
       <Botao titulo="💬 Conversa livre" onPress={() => router.push('/conversa/livre')} />
-      <Botao tipo="secundario" titulo="👫 Estudar juntos (dois no mesmo celular)" onPress={() => router.push('/juntos')} />
+      <Botao tipo="secundario" titulo="👫 Estudar juntos (dois no mesmo aparelho)" onPress={() => router.push('/juntos')} />
       <Linha2>
         <Botao tipo="secundario" titulo="🎙️ Pronúncia" onPress={() => router.push('/pronuncia')} style={{ flex: 1 }} />
         <Botao tipo="secundario" titulo="🔁 Revisão" onPress={() => router.push('/revisao')} style={{ flex: 1 }} />

@@ -3,7 +3,7 @@
  * nomes dos perfis e erros nos arquivos de conteúdo.
  */
 import { useEffect, useState } from 'react';
-import { Alert, Linking, StyleSheet, TextInput } from 'react-native';
+import { Linking, Platform, StyleSheet, TextInput } from 'react-native';
 import { importarBackup } from '../dados/backup';
 import * as repo from '../dados/repositorio';
 import { MODELO_VALIDO, useApp } from '../estado/AppContext';
@@ -12,7 +12,8 @@ import { ErroIA } from '../ia/gemini';
 import { MODELOS_PADRAO, testarChave } from '../ia/professor';
 import { falar } from '../voz/falar';
 import { compartilharBackup, escolherBackup } from '../ui/arquivoBackup';
-import { aplicarLembrete } from '../ui/lembrete';
+import { confirmar } from '../ui/confirmar';
+import { aplicarLembrete, LEMBRETE_DISPONIVEL } from '../ui/lembrete';
 import { Aviso, Botao, Cartao, Linha, Paragrafo, Subtitulo, Tela } from '../ui/base';
 import { cores, espaco, raio } from '../ui/tema';
 
@@ -72,26 +73,19 @@ export default function Configuracoes() {
     const r = await escolherBackup().catch(() => ({ ok: false as const, erro: 'Não foi possível ler o arquivo.' }));
     if (!r) return;
     if (!r.ok) return setMsgBackup({ tipo: 'erro', texto: r.erro });
-    Alert.alert(
-      'Substituir o progresso deste celular?',
-      `O backup contém: ${r.resumo}.\n\nTodo o progresso atual deste celular será trocado pelo do arquivo. A chave da IA não muda.`,
-      [
-        { text: 'Cancelar', style: 'cancel' },
-        {
-          text: 'Substituir',
-          style: 'destructive',
-          onPress: async () => {
-            try {
-              await importarBackup(db, r.backup);
-              await recarregarTudo();
-              setMsgBackup({ tipo: 'sucesso', texto: 'Backup restaurado! Escolha o perfil na tela inicial.' });
-            } catch {
-              setMsgBackup({ tipo: 'erro', texto: 'A restauração falhou e nada foi alterado.' });
-            }
-          },
-        },
-      ],
+    const ok = await confirmar(
+      'Substituir o progresso deste aparelho?',
+      `O backup contém: ${r.resumo}.\n\nTodo o progresso atual deste aparelho será trocado pelo do arquivo. A chave da IA não muda.`,
+      'Substituir',
     );
+    if (!ok) return;
+    try {
+      await importarBackup(db, r.backup);
+      await recarregarTudo();
+      setMsgBackup({ tipo: 'sucesso', texto: 'Backup restaurado! Escolha o perfil na tela inicial.' });
+    } catch {
+      setMsgBackup({ tipo: 'erro', texto: 'A restauração falhou e nada foi alterado.' });
+    }
   }
 
 
@@ -100,7 +94,7 @@ export default function Configuracoes() {
       await salvarChave(novaChave);
       setNovaChave('');
       await recarregarChave();
-      setMsgChave({ tipo: 'sucesso', texto: 'Chave salva com segurança neste celular. Toque em "Testar chave".' });
+      setMsgChave({ tipo: 'sucesso', texto: Platform.OS === 'web' ? 'Chave salva neste navegador. Toque em "Testar chave".' : 'Chave salva com segurança neste celular. Toque em "Testar chave".' });
     } catch (e) {
       setMsgChave({ tipo: 'erro', texto: (e as Error).message });
     }
@@ -127,7 +121,9 @@ export default function Configuracoes() {
         <Subtitulo>🔑 Chave da IA (Google AI Studio)</Subtitulo>
         <Paragrafo>{chave ? `Chave cadastrada: ${mascararChave(chave)}` : 'Nenhuma chave cadastrada.'}</Paragrafo>
         <Paragrafo suave>
-          A chave fica guardada no cofre criptografado do celular. Ela não vai para o backup e não aparece em nenhum outro lugar.
+          {Platform.OS === 'web'
+            ? 'No computador, a chave fica guardada só neste navegador (fora do backup). Não use em computador compartilhado com outras pessoas.'
+            : 'A chave fica guardada no cofre criptografado do celular. Ela não vai para o backup e não aparece em nenhum outro lugar.'}
         </Paragrafo>
         <TextInput
           style={st.entrada}
@@ -147,7 +143,7 @@ export default function Configuracoes() {
         {!!chave && (
           <Botao
             tipo="texto"
-            titulo="Apagar a chave deste celular"
+            titulo="Apagar a chave deste aparelho"
             onPress={async () => {
               await apagarChave();
               await recarregarChave();
@@ -170,7 +166,9 @@ export default function Configuracoes() {
         </Linha>
         <Botao tipo="texto" titulo="▶️ Ouvir exemplo" onPress={ouvirExemplo} />
         <Paragrafo suave>
-          Se o sotaque britânico soar americano, instale a voz em: Configurações do Android › Sistema › Idiomas › Saída de texto para fala › Google › Instalar dados de voz › English (United Kingdom).
+          {Platform.OS === 'web'
+            ? 'No computador, a voz vem do navegador. O Microsoft Edge e o Google Chrome têm as vozes em inglês mais naturais.'
+            : 'Se o sotaque britânico soar americano, instale a voz em: Configurações do Android › Sistema › Idiomas › Saída de texto para fala › Google › Instalar dados de voz › English (United Kingdom).'}
         </Paragrafo>
       </Cartao>
 
@@ -236,6 +234,7 @@ export default function Configuracoes() {
         {msgModelo && <Paragrafo suave>{msgModelo}</Paragrafo>}
       </Cartao>
 
+      {LEMBRETE_DISPONIVEL && (
       <Cartao>
         <Subtitulo>⏰ Lembrete diário</Subtitulo>
         <Paragrafo suave>Uma notificação por dia, no horário escolhido, para não perder a sequência. Funciona sem internet.</Paragrafo>
@@ -247,11 +246,12 @@ export default function Configuracoes() {
         </Linha>
         {msgLembrete && <Aviso tipo={msgLembrete.tipo} texto={msgLembrete.texto} />}
       </Cartao>
+      )}
 
       <Cartao>
         <Subtitulo>💾 Backup do progresso</Subtitulo>
         <Paragrafo suave>
-          Salve um arquivo com o progresso, as notas e as revisões de todos os perfis deste celular. Use para trocar de celular ou se precisar
+          Salve um arquivo com o progresso, as notas e as revisões de todos os perfis deste aparelho. Use para trocar de aparelho ou se precisar
           reinstalar o app. A chave da IA não vai no arquivo.
         </Paragrafo>
         <Linha>
@@ -276,7 +276,7 @@ export default function Configuracoes() {
       <Cartao>
         <Subtitulo>🔒 Privacidade</Subtitulo>
         <Paragrafo suave>
-          Seu progresso fica só neste celular. Para a IA vão apenas: o nome do perfil, o nível, o tema da aula, o que você fala nas conversas e
+          Seu progresso fica só neste aparelho. Para a IA vão apenas: o nome do perfil, o nível, o tema da aula, o que você fala nas conversas e
           provas, e seus erros frequentes. No plano grátis, o Google pode usar essas conversas para melhorar os produtos dele: evite falar de
           assuntos pessoais sensíveis.
         </Paragrafo>

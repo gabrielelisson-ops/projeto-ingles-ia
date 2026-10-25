@@ -3,10 +3,10 @@
  * As telas leem daqui com useApp().
  */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { useSQLiteContext } from 'expo-sqlite';
 import { curso, estruturaDoCurso, type Curso } from '../conteudo/curso';
 import { NIVEIS, type Nivel } from '../conteudo/schema';
 import type { Banco } from '../dados/banco';
+import { useBanco } from '../dados/ProvedorBanco';
 import * as repo from '../dados/repositorio';
 import { lerChave } from '../ia/chave';
 import { MODELOS_PADRAO, type ModelosIA } from '../ia/professor';
@@ -49,7 +49,7 @@ export function useApp(): Valor {
 const vazio: Progresso = { aulasConcluidas: new Set(), provas: {} };
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const db = useSQLiteContext() as unknown as Banco;
+  const db = useBanco();
   const c = useMemo(() => curso(), []);
   const estrutura = useMemo(() => estruturaDoCurso(c), [c]);
   const [perfis, setPerfis] = useState<repo.Perfil[]>([]);

@@ -111,7 +111,7 @@ export default function Nivelamento() {
             <Paragrafo>{teste.fala.pergunta_en}</Paragrafo>
             <Botao tipo="secundario" titulo="🔊 Ouvir a pergunta" onPress={() => falar(teste.fala.pergunta_en, { nivel: 'B1', sotaque: prefs.sotaque, ajuste: prefs.ajusteVelocidade })} />
             <Paragrafo suave>{teste.fala.instrucao_pt}</Paragrafo>
-            {!!fala && <Aviso tipo="info" texto={`O que o celular entendeu: “${fala}”`} />}
+            {!!fala && <Aviso tipo="info" texto={`O que o app entendeu: “${fala}”`} />}
             {chave ? (
               <>
                 <BotaoFalar permitirDigitar={false} desativado={carregando} onTexto={(t) => setFala(t)} />

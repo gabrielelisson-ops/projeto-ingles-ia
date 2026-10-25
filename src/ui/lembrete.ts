@@ -6,6 +6,9 @@ import { interpretarHora } from '../logica/hora';
 
 const CANAL = 'lembrete-diario';
 
+/** No celular o lembrete existe; na web (lembrete.web.ts) não. */
+export const LEMBRETE_DISPONIVEL = true;
+
 /** Mostra a notificação mesmo com o app aberto. */
 export function configurarExibicaoDeNotificacoes() {
   Notifications.setNotificationHandler({

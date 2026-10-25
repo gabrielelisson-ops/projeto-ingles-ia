@@ -1,21 +1,41 @@
 /**
- * O celular ouvindo (voz → texto) com o reconhecimento de voz do Android, em inglês.
+ * O app ouvindo (voz → texto), em inglês: reconhecimento de voz do celular
+ * (Android/iOS) ou do navegador (Chrome/Edge no computador).
  * Uso: segurar o botão chama iniciar(); soltar chama parar(). O texto final
  * chega em onFinal, junto com quantos segundos o aluno falou.
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { Platform } from 'react-native';
 import { ExpoSpeechRecognitionModule, useSpeechRecognitionEvent } from 'expo-speech-recognition';
 import { pararFala } from './falar';
 
+const WEB = Platform.OS === 'web';
+
 const ERROS: Record<string, string> = {
-  'not-allowed': 'O app precisa de permissão para usar o microfone. Libere em Configurações do Android › Apps › Inglês IA › Permissões.',
+  'not-allowed': WEB
+    ? 'O navegador bloqueou o microfone. Clique no cadeado ao lado do endereço do site e permita o microfone.'
+    : 'O app precisa de permissão para usar o microfone. Libere em Configurações do Android › Apps › Inglês IA › Permissões.',
   'no-speech': 'Não ouvi nada. Segure o botão enquanto fala.',
   'speech-timeout': 'Não ouvi nada. Segure o botão enquanto fala.',
-  network: 'O reconhecimento de voz precisa de internet neste celular.',
-  'language-not-supported': 'Este celular não reconhece inglês. Instale o "Google" e o pacote de idioma inglês.',
-  'service-not-allowed': 'O reconhecimento de voz está desligado. Instale ou ative o app "Google".',
+  network: 'O reconhecimento de voz precisa de internet.',
+  'language-not-supported': WEB
+    ? 'Este navegador não reconhece inglês. Use o Google Chrome ou o Microsoft Edge.'
+    : 'Este celular não reconhece inglês. Instale o "Google" e o pacote de idioma inglês.',
+  'service-not-allowed': WEB
+    ? 'Este navegador não liberou o reconhecimento de voz. Use o Google Chrome ou o Microsoft Edge, ou digite a resposta.'
+    : 'O reconhecimento de voz está desligado. Instale ou ative o app "Google".',
   busy: 'O microfone está ocupado. Tente de novo.',
 };
+
+/** O aparelho/navegador tem reconhecimento de voz? (No Safari do iPhone, em geral, não.) */
+export function reconhecimentoDisponivel(): boolean {
+  if (!WEB) return true;
+  try {
+    return ExpoSpeechRecognitionModule.isRecognitionAvailable();
+  } catch {
+    return false;
+  }
+}
 
 export function useReconhecimento(onFinal: (texto: string, segundos: number) => void) {
   const [ouvindo, setOuvindo] = useState(false);

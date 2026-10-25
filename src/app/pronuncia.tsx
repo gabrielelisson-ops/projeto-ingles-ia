@@ -87,7 +87,7 @@ export default function Pronuncia() {
               ? 'Perfeito! Todas as palavras foram reconhecidas. 🌟'
               : `${resultado.acertos} de ${resultado.total} palavras reconhecidas. As sublinhadas em vermelho não foram entendidas: ouça o modelo e tente de novo.`}
           </Paragrafo>
-          <Paragrafo suave>O celular entendeu: “{ouvido}”</Paragrafo>
+          <Paragrafo suave>O app entendeu: “{ouvido}”</Paragrafo>
           <Paragrafo suave>
             Lembrete: o reconhecimento de voz às vezes acerta mesmo com pronúncia imperfeita (ou erra por barulho). Use como um guia.
           </Paragrafo>
