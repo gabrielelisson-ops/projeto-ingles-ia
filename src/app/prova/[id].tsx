@@ -465,7 +465,7 @@ function ParteFala({
         <Botao tipo="secundario" titulo="🔊 Ouvir a pergunta" onPress={() => ouvir(pergunta)} />
         <Paragrafo suave>{instrucao}</Paragrafo>
         {!!resposta && (
-          <Aviso tipo="info" texto={`O que o celular entendeu: “${resposta}”`} />
+          <Aviso tipo="info" texto={`O que o app entendeu: “${resposta}”`} />
         )}
         {gravacoes < 3 && (
           <BotaoFalar

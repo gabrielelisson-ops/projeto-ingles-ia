@@ -4,7 +4,7 @@
  */
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import { useReconhecimento } from '../voz/ouvir';
+import { reconhecimentoDisponivel, useReconhecimento } from '../voz/ouvir';
 import { Aviso, Botao, Linha } from './base';
 import { cores, espaco, raio } from './tema';
 
@@ -18,12 +18,19 @@ export function BotaoFalar({
   permitirDigitar?: boolean;
 }) {
   const { ouvindo, parcial, erro, iniciar, parar } = useReconhecimento(onTexto);
-  const [digitando, setDigitando] = useState(false);
+  const [temVoz] = useState(reconhecimentoDisponivel);
+  const [digitando, setDigitando] = useState(!temVoz);
   const [texto, setTexto] = useState('');
 
   if (digitando) {
     return (
       <View style={{ gap: espaco.m }}>
+        {!temVoz && (
+          <Aviso
+            tipo="info"
+            texto="Este navegador não reconhece a fala. Toque no 🎤 do teclado (ditado) e fale em inglês, ou digite. No computador, use o Chrome ou o Edge."
+          />
+        )}
         <TextInput
           style={st.entrada}
           value={texto}
@@ -42,7 +49,7 @@ export function BotaoFalar({
               setTexto('');
             }}
           />
-          <Botao tipo="texto" titulo="🎤 Voltar a falar" onPress={() => setDigitando(false)} />
+          {temVoz && <Botao tipo="texto" titulo="🎤 Voltar a falar" onPress={() => setDigitando(false)} />}
         </Linha>
       </View>
     );

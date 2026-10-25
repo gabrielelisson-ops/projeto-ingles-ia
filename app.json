@@ -26,7 +26,13 @@
       ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "name": "Inglês com IA",
+      "shortName": "Inglês IA",
+      "themeColor": "#2F6BFF",
+      "backgroundColor": "#FFFFFF",
+      "lang": "pt-BR"
     },
     "plugins": [
       "expo-router",

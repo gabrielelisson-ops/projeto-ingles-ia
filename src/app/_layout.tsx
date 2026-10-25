@@ -1,8 +1,8 @@
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { SQLiteProvider } from 'expo-sqlite';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { migrar, type Banco } from '../dados/banco';
+import { ProvedorBanco } from '../dados/ProvedorBanco';
 import { garantirPerfisIniciais } from '../dados/repositorio';
 import { AppProvider } from '../estado/AppContext';
 import { configurarExibicaoDeNotificacoes } from '../ui/lembrete';
@@ -10,16 +10,15 @@ import { cores } from '../ui/tema';
 
 configurarExibicaoDeNotificacoes();
 
-async function iniciarBanco(db: unknown) {
-  const b = db as Banco;
-  await migrar(b);
-  await garantirPerfisIniciais(b);
+async function iniciarBanco(db: Banco) {
+  await migrar(db);
+  await garantirPerfisIniciais(db);
 }
 
 export default function Layout() {
   return (
     <SafeAreaProvider>
-      <SQLiteProvider databaseName="ingles-ia.db" onInit={iniciarBanco}>
+      <ProvedorBanco aoIniciar={iniciarBanco}>
         <AppProvider>
           <StatusBar style="dark" />
           <Stack
@@ -44,7 +43,7 @@ export default function Layout() {
             <Stack.Screen name="configuracoes" options={{ title: 'Configurações' }} />
           </Stack>
         </AppProvider>
-      </SQLiteProvider>
+      </ProvedorBanco>
     </SafeAreaProvider>
   );
 }

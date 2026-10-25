@@ -4,7 +4,7 @@
  * ou da IA é sempre mostrado como texto puro.
  */
 import type { ReactNode } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
+import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { cores, espaco, raio } from './tema';
 
@@ -93,7 +93,13 @@ export function BarraProgresso({ valor }: { valor: number }) {
 
 const s = StyleSheet.create({
   tela: { flex: 1, backgroundColor: cores.fundo },
-  conteudo: { padding: espaco.g, gap: espaco.m, paddingBottom: espaco.gg * 2 },
+  conteudo: {
+    padding: espaco.g,
+    gap: espaco.m,
+    paddingBottom: espaco.gg * 2,
+    // No computador, uma coluna central confortável de ler (no celular, a tela toda).
+    ...(Platform.OS === 'web' ? { width: '100%', maxWidth: 760, alignSelf: 'center' as const } : null),
+  },
   cartao: {
     backgroundColor: cores.cartao,
     borderRadius: raio,

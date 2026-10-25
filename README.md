@@ -4,6 +4,12 @@ Curso pessoal de inglês, do A1 ao C1, com **professor de IA por voz**. É um ap
 
 ## O que já funciona
 
+### Versão web (computador)
+- **O mesmo curso no navegador** (Chrome ou Edge), com professor de voz: a fala é reconhecida pelo próprio navegador.
+- **Dados guardados no navegador** (SQLite no navegador, com sql.js e IndexedDB). O backup é o mesmo arquivo do celular, então dá para levar o progresso de um para o outro.
+- **Publicação grátis** na hospedagem da Expo: veja a Parte W do [GUIA-INSTALACAO.md](GUIA-INSTALACAO.md).
+- **No iPhone**, abre pelo Safari. Como o Safari não reconhece fala em sites, você responde pelo ditado do teclado.
+
 ### Fase 5
 - **Versão 1.0.0** pronta para instalar: ícone próprio (balão azul "EN"), tela de abertura, permissões mínimas (internet, microfone e notificações).
 - **Guia de instalação** passo a passo para os dois celulares: [GUIA-INSTALACAO.md](GUIA-INSTALACAO.md).
@@ -96,6 +102,15 @@ npx eas-cli@latest build -p android --profile preview
 ```
 
 O app usa reconhecimento de voz, que **não funciona no "Expo Go"**: é preciso instalar o APK.
+
+Versão web (computador):
+
+```
+npm run web:exportar
+npx eas-cli@latest deploy --prod
+```
+
+Para testar no próprio computador, sem publicar: `npm run web`.
 
 ## Privacidade
 

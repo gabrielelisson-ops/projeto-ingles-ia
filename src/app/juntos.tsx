@@ -101,7 +101,7 @@ export default function Juntos() {
       <Tela>
         <Titulo>👫 Estudar juntos</Titulo>
         <Paragrafo>
-          Vocês dois conversam com o professor no mesmo celular, um de cada vez. O professor corrige cada um pelo nome, e os erros vão para o
+          Vocês dois conversam com o professor no mesmo aparelho, um de cada vez. O professor corrige cada um pelo nome, e os erros vão para o
           perfil de quem errou.
         </Paragrafo>
         <Subtitulo>Quem vai participar?</Subtitulo>
