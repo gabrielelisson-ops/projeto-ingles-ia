@@ -114,7 +114,7 @@ A chave é o que permite ao app conversar com o professor (Google Gemini, plano 
 1. No celular ou no computador, abra https://aistudio.google.com/apikey e entre com **sua** conta Google.
 2. Se pedir, aceite os termos.
 3. Toque em **Create API key** (Criar chave). Se perguntar o projeto, escolha o que aparecer ou deixe criar um novo.
-4. Copie a chave. É um texto longo que começa com `AIza…`.
+4. Copie a chave. É um texto longo que começa com `AQ.` (chaves novas) ou `AIza` (chaves antigas).
 5. No app: **⚙️ Configurações › Chave da IA** › cole › **Salvar chave** › **Testar chave**. Deve aparecer uma mensagem de que a chave funciona.
 
 Cuidados:
@@ -203,7 +203,7 @@ No iPhone, o Safari em geral **não reconhece a fala dentro de sites**. Por isso
 | O botão de falar não funciona | Confira a permissão de microfone (Configurações do Android › Apps › Inglês com IA › Permissões). Confira também se o app **Google** está instalado e atualizado: ele faz o reconhecimento de voz. |
 | Reconhece a fala em português | Fale perto do celular e em inglês desde a primeira palavra. Nas configurações do app Google, adicione **English** em "Idiomas da voz". |
 | "O limite grátis de hoje da IA acabou" | O limite grátis do dia acabou. As aulas, a revisão e os exercícios continuam funcionando; só a conversa com o professor e a correção de redações ficam para o dia seguinte. |
-| "A chave da IA não foi aceita" | Confira se colou a chave inteira (começa com `AIza`). Se não resolver, crie uma chave nova no AI Studio. |
+| "A chave da IA não foi aceita" | Confira se colou a chave inteira (começa com `AQ.` ou `AIza`). Se não resolver, crie uma chave nova no AI Studio. |
 | "Sem conexão com a IA" | A conversa com o professor precisa de internet. O resto do app funciona offline. |
 | (web) "Não consegui abrir os dados do curso neste navegador" | Saia da janela anônima. Se continuar, atualize o navegador ou use o Chrome/Edge. |
 | (web) O microfone não funciona no computador | Clique no cadeado ao lado do endereço do site › Microfone › **Permitir**, e recarregue a página. Confira se está no Chrome ou no Edge. |
