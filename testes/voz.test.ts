@@ -26,7 +26,9 @@ test('escolhe vozes do sotaque, preferindo as offline e de melhor qualidade', ()
 
 test('chave da API: valida o formato e nunca mostra inteira', () => {
   expect(chaveComFormatoValido('AIzaSyA1234567890abcdefghijklmnopqrstu')).toBe(true);
+  expect(chaveComFormatoValido('AQ.Ab12TESTEchaveFalsa_novoFormato-1234567890xyz')).toBe(true);
   expect(chaveComFormatoValido('minha chave')).toBe(false);
+  expect(chaveComFormatoValido('AQ.chave:falsa/1234567890abcdefghijklmnop')).toBe(false);
   expect(chaveComFormatoValido('<script>')).toBe(false);
   expect(mascararChave('AIzaSyA1234567890abcdefghijklmnopqrstu')).toBe('AIza…rstu');
 });
