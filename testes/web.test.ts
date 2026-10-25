@@ -2,7 +2,10 @@
  * Partes exclusivas da versão web que dá para testar sem navegador.
  */
 import { apagarChave, lerChave, mascararChave, salvarChave } from '../src/ia/chave.web';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import { aplicarLembrete, LEMBRETE_DISPONIVEL } from '../src/ui/lembrete.web';
+import { abertoDentroDeOutroSite } from '../src/ui/protecaoWeb';
 
 const CHAVE = 'AIzaSyA1234567890abcdefghijklmnopqrstu';
 
@@ -51,4 +54,50 @@ describe('chave da IA no navegador', () => {
 test('lembrete diário não existe na web e explica o motivo', async () => {
   expect(LEMBRETE_DISPONIVEL).toBe(false);
   await expect(aplicarLembrete(true, '07:30')).rejects.toThrow(/só existe no app do celular/);
+});
+
+describe('proteção contra o site aberto dentro de outro site', () => {
+  test('janela normal abre', () => {
+    const w: { top: unknown; self: unknown } = { top: null, self: null };
+    w.top = w;
+    w.self = w;
+    expect(abertoDentroDeOutroSite(w)).toBe(false);
+  });
+
+  test('dentro de um quadro de outro site, bloqueia', () => {
+    expect(abertoDentroDeOutroSite({ top: {}, self: {} })).toBe(true);
+  });
+
+  test('se o navegador negar acesso à janela de cima, bloqueia', () => {
+    const w = {
+      get top(): unknown {
+        throw new Error('acesso negado');
+      },
+      self: {},
+    };
+    expect(abertoDentroDeOutroSite(w)).toBe(true);
+  });
+});
+
+describe('index.html do site', () => {
+  const html = readFileSync(join(__dirname, '../public/index.html'), 'utf8');
+  const csp = /http-equiv="Content-Security-Policy"\s+content="([^"]+)"/.exec(html)?.[1] ?? '';
+
+  test('tem política de segurança (CSP) restrita', () => {
+    expect(csp).toContain("default-src 'self'");
+    expect(csp).toContain("script-src 'self' 'wasm-unsafe-eval'");
+    expect(csp).toContain("object-src 'none'");
+    expect(csp).toContain("base-uri 'none'");
+    expect(csp).not.toContain("'unsafe-eval'");
+    expect(csp).not.toMatch(/script-src[^;]*'unsafe-inline'/);
+  });
+
+  test('só conversa com o próprio site e com a IA do Google', () => {
+    const connect = /connect-src ([^;]+)/.exec(csp)?.[1]?.trim();
+    expect(connect).toBe("'self' https://generativelanguage.googleapis.com");
+  });
+
+  test('não manda o endereço do site para outros sites', () => {
+    expect(html).toContain('<meta name="referrer" content="no-referrer" />');
+  });
 });
