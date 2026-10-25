@@ -196,7 +196,7 @@ export default function Configuracoes() {
         {vozes?.length === 0 && <Paragrafo suave>Não encontrei vozes em inglês neste aparelho.</Paragrafo>}
         <Paragrafo suave>
           {Platform.OS === 'web'
-            ? 'No computador, a voz vem do navegador. O Microsoft Edge e o Google Chrome têm as vozes em inglês mais naturais.'
+            ? 'No computador, a voz vem do navegador: o Microsoft Edge e o Google Chrome têm as vozes em inglês mais naturais. No iPhone, se não ouvir nada, desligue o modo silencioso (chave na lateral do celular) e aumente o volume.'
             : 'Se o sotaque britânico soar americano, instale a voz em: Configurações do Android › Sistema › Idiomas › Saída de texto para fala › Google › Instalar dados de voz › English (United Kingdom).'}
         </Paragrafo>
       </Cartao>
