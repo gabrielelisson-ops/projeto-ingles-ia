@@ -22,6 +22,9 @@ type Fala = Mensagem & {
   correcoes?: repo.Correcao[];
 };
 
+/** Estado da conversa, para continuar de onde parou se o aluno sair da aula. */
+export type EstadoConversa = { falas: Fala[]; correcoes: repo.Correcao[]; segundos: number };
+
 export type FimConversa = { segundosFala: number; correcoes: repo.Correcao[]; turnos: number; falas: Mensagem[] };
 
 export function ConversaProfessor({
@@ -33,6 +36,8 @@ export function ConversaProfessor({
   gramatica,
   minTurnos,
   entrevistaMin,
+  inicial,
+  onMudanca,
   onConcluir,
 }: {
   conversa: Conversa;
@@ -44,15 +49,31 @@ export function ConversaProfessor({
   minTurnos: number;
   /** Entrevista da prova final: mostra o cronômetro e não deixa pular. */
   entrevistaMin?: number;
+  /** Conversa já começada (para continuar de onde parou). */
+  inicial?: EstadoConversa;
+  /** Chamado a cada fala nova, para gravar o andamento. */
+  onMudanca?: (e: EstadoConversa) => void;
   onConcluir: (r: FimConversa) => void;
 }) {
   const { db, perfil, chave, prefs } = useApp();
-  const [falas, setFalas] = useState<Fala[]>([{ papel: 'professor', texto: conversa.abertura, traducao: conversa.abertura_pt }]);
+  const [falas, setFalas] = useState<Fala[]>(() =>
+    inicial?.falas.length ? inicial.falas : [{ papel: 'professor', texto: conversa.abertura, traducao: conversa.abertura_pt }],
+  );
   const [carregando, setCarregando] = useState(false);
   const [erro, setErro] = useState<string | null>(null);
   const [mostrar, setMostrar] = useState<'traducao' | 'dica' | null>(null);
-  const segundos = useRef(0);
-  const correcoes = useRef<repo.Correcao[]>([]);
+  const segundos = useRef(inicial?.segundos ?? 0);
+  const correcoes = useRef<repo.Correcao[]>(inicial?.correcoes ?? []);
+  const aoMudar = useRef(onMudanca);
+  useEffect(() => {
+    aoMudar.current = onMudanca;
+  });
+  // Grava o andamento quando o professor responde. Uma fala do aluno que ficou sem resposta não é gravada:
+  // ao voltar, é só falar de novo.
+  useEffect(() => {
+    if (falas[falas.length - 1]?.papel !== 'professor' || !falas.some((f) => f.papel === 'aluno')) return;
+    aoMudar.current?.({ falas, correcoes: correcoes.current, segundos: segundos.current });
+  }, [falas]);
   // Última fala do aluno que ficou sem resposta (para o botão "Tentar de novo").
   const [pendente, setPendente] = useState<string | null>(null);
   const [inicio] = useState(() => Date.now());
@@ -79,7 +100,8 @@ export function ConversaProfessor({
   const mmss = (t: number) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
 
   useEffect(() => {
-    void falar(conversa.abertura, opcoes);
+    // Ao continuar uma conversa, repete a última fala do professor.
+    void falar(ultimaDoProfessor?.texto ?? conversa.abertura, opcoes);
     return () => pararFala();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

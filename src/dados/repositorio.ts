@@ -200,6 +200,10 @@ export async function lerConfig(db: Banco, chave: string): Promise<string | null
   return r?.valor ?? null;
 }
 
+export async function apagarConfig(db: Banco, chave: string) {
+  await db.runAsync('DELETE FROM config WHERE chave = ?', [chave]);
+}
+
 export async function gravarConfig(db: Banco, chave: string, valor: string) {
   await db.runAsync(
     'INSERT INTO config (chave, valor) VALUES (?, ?) ON CONFLICT (chave) DO UPDATE SET valor = excluded.valor',

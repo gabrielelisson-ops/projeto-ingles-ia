@@ -3,19 +3,35 @@
  */
 import * as Speech from 'expo-speech';
 import type { Nivel } from '../conteudo/schema';
-import { escolherVozes, velocidade, type Sotaque } from './vozes';
+import { escolherVozes, velocidade, vozesAdultas, type Sotaque, type VozDisponivel } from './vozes';
 
-let vozes: { sotaque: Sotaque; a?: string; b?: string } | null = null;
+let vozes: { sotaque: Sotaque; preferida?: string; a?: string; b?: string } | null = null;
 
-async function vozesPara(sotaque: Sotaque) {
-  if (vozes?.sotaque === sotaque) return vozes;
+async function vozesPara(sotaque: Sotaque, preferida?: string) {
+  if (vozes?.sotaque === sotaque && vozes.preferida === preferida && vozes.a) return vozes;
   try {
     const lista = await Speech.getAvailableVoicesAsync();
-    vozes = { sotaque, ...escolherVozes(lista, sotaque) };
+    vozes = { sotaque, preferida, ...escolherVozes(lista, sotaque, preferida) };
   } catch {
-    vozes = { sotaque };
+    vozes = { sotaque, preferida };
   }
   return vozes;
+}
+
+let preferidas: Partial<Record<Sotaque, string>> = {};
+
+/** Voz escolhida em Configurações para cada sotaque (o app chama ao carregar as preferências). */
+export function definirVozesPreferidas(v: Partial<Record<Sotaque, string>>) {
+  preferidas = { ...v };
+}
+
+/** Vozes adultas deste aparelho no sotaque pedido, para escolher em Configurações. */
+export async function listarVozes(sotaque: Sotaque): Promise<VozDisponivel[]> {
+  try {
+    return vozesAdultas(await Speech.getAvailableVoicesAsync(), sotaque);
+  } catch {
+    return [];
+  }
 }
 
 export type OpcoesFala = {
@@ -29,7 +45,7 @@ export type OpcoesFala = {
 /** Fala o texto e resolve a promessa quando termina (ou é interrompido). */
 export async function falar(texto: string, o: OpcoesFala): Promise<void> {
   await Speech.stop();
-  const v = await vozesPara(o.sotaque);
+  const v = await vozesPara(o.sotaque, preferidas[o.sotaque]);
   const voz = o.voz === 'b' ? v.b : v.a;
   return new Promise((resolve) => {
     Speech.speak(texto.slice(0, 3000), {

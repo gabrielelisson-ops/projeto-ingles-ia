@@ -169,15 +169,21 @@ export function SequenciaExercicios({
   lista,
   nivel,
   semFeedback,
+  inicio,
+  onProgresso,
   onFim,
 }: {
   lista: Ex[];
   nivel: Nivel;
   semFeedback?: boolean;
+  /** Questões já respondidas antes (para continuar de onde parou). */
+  inicio?: ResultadoExercicio[];
+  /** Chamado a cada resposta, para gravar o andamento. */
+  onProgresso?: (r: ResultadoExercicio[]) => void;
   onFim: (r: ResultadoExercicio[]) => void;
 }) {
-  const [i, setI] = useState(0);
-  const [resultados, setResultados] = useState<ResultadoExercicio[]>([]);
+  const [i, setI] = useState(() => inicio?.length ?? 0);
+  const [resultados, setResultados] = useState<ResultadoExercicio[]>(() => inicio ?? []);
   const ex = lista[i];
   if (!ex) return null;
   return (
@@ -193,7 +199,10 @@ export function SequenciaExercicios({
         onResponder={(r) => {
           const todos = [...resultados, r];
           setResultados(todos);
-          if (i + 1 < lista.length) setI(i + 1);
+          if (i + 1 < lista.length) {
+            setI(i + 1);
+            onProgresso?.(todos);
+          }
           else onFim(todos);
         }}
       />

@@ -47,7 +47,7 @@ export default function Pronuncia() {
     <Tela>
       <Titulo>🎙️ Pronúncia</Titulo>
       <Paragrafo suave>
-        Frase {i + 1} de {frases.length}. Ouça o modelo, depois segure o botão e leia em voz alta.
+        Frase {i + 1} de {frases.length}. Ouça o modelo, depois use o botão de falar e leia em voz alta.
       </Paragrafo>
       <Cartao>
         {resultado ? (

@@ -11,11 +11,19 @@ import * as repo from '../dados/repositorio';
 import { lerChave } from '../ia/chave';
 import { MODELOS_PADRAO, type ModelosIA } from '../ia/professor';
 import { nivelAtual, statusCurso, type EstruturaNivel, type Progresso, type Status } from '../logica/desbloqueio';
-import type { Sotaque } from '../voz/vozes';
+import { definirVozesPreferidas } from '../voz/falar';
+import { VOZ_VALIDA, type Sotaque } from '../voz/vozes';
 
-export type Preferencias = { sotaque: Sotaque; ajusteVelocidade: number; modelos: ModelosIA };
+export type Preferencias = {
+  sotaque: Sotaque;
+  ajusteVelocidade: number;
+  modelos: ModelosIA;
+  /** Voz escolhida para cada sotaque; vazio = escolha automática. Vale só para este aparelho. */
+  vozes: Partial<Record<Sotaque, string>>;
+};
 
-const PREFS_PADRAO: Preferencias = { sotaque: 'en-US', ajusteVelocidade: 1, modelos: MODELOS_PADRAO };
+const PREFS_PADRAO: Preferencias = { sotaque: 'en-US', ajusteVelocidade: 1, modelos: MODELOS_PADRAO, vozes: {} };
+const SOTAQUES: Sotaque[] = ['en-US', 'en-GB'];
 export const MODELO_VALIDO = /^[a-z0-9][a-z0-9.-]{2,60}$/;
 
 type Valor = {
@@ -79,6 +87,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
     const vel = Number(await repo.lerConfig(db, 'ajuste_velocidade'));
     const mc = await repo.lerConfig(db, 'modelo_conversa');
     const ma = await repo.lerConfig(db, 'modelo_avaliacao');
+    const vozes: Partial<Record<Sotaque, string>> = {};
+    for (const s of SOTAQUES) {
+      const v = await repo.lerConfig(db, `voz_${s}`);
+      if (v && VOZ_VALIDA.test(v)) vozes[s] = v;
+    }
+    definirVozesPreferidas(vozes);
     setPrefs({
       sotaque: sot === 'en-GB' ? 'en-GB' : 'en-US',
       ajusteVelocidade: vel >= 0.6 && vel <= 1.4 ? vel : 1,
@@ -86,6 +100,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         conversa: mc && MODELO_VALIDO.test(mc) ? mc : MODELOS_PADRAO.conversa,
         avaliacao: ma && MODELO_VALIDO.test(ma) ? ma : MODELOS_PADRAO.avaliacao,
       },
+      vozes,
     });
     setChave(await lerChave().catch(() => ''));
     if (lista.some((p) => p.id === ativo)) setProgresso(await repo.carregarProgresso(db, ativo));
@@ -120,11 +135,18 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const salvarPrefs = useCallback(
     async (p: Partial<Preferencias>) => {
-      const novo = { ...prefs, ...p, modelos: { ...prefs.modelos, ...p.modelos } };
+      const novo = { ...prefs, ...p, modelos: { ...prefs.modelos, ...p.modelos }, vozes: { ...prefs.vozes, ...p.vozes } };
       if (!MODELO_VALIDO.test(novo.modelos.conversa) || !MODELO_VALIDO.test(novo.modelos.avaliacao)) {
         throw new Error('Nome de modelo inválido.');
       }
+      for (const s of SOTAQUES) {
+        const v = novo.vozes[s];
+        if (v !== undefined && v !== '' && !VOZ_VALIDA.test(v)) throw new Error('Voz inválida.');
+        if (!v) delete novo.vozes[s];
+      }
       setPrefs(novo);
+      definirVozesPreferidas(novo.vozes);
+      for (const s of SOTAQUES) await repo.gravarConfig(db, `voz_${s}`, novo.vozes[s] ?? '');
       await repo.gravarConfig(db, 'sotaque', novo.sotaque);
       await repo.gravarConfig(db, 'ajuste_velocidade', String(novo.ajusteVelocidade));
       await repo.gravarConfig(db, 'modelo_conversa', novo.modelos.conversa);
